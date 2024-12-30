@@ -28,6 +28,7 @@ export class GameCtrl implements BoardCtrl {
   constructor(game: Game, readonly stream: Stream, private root: Ctrl) {
     this.game = game;
     this.pov = this.game.black.id == this.root.auth.me?.id ? 'black' : 'white';
+    new Audio('audioFiles/notify.mp3').play();
     this.onUpdate();
     this.redrawInterval = setInterval(root.redraw, 100);
   }
@@ -105,6 +106,7 @@ export class GameCtrl implements BoardCtrl {
         break;
       case 'gameState':
         this.game.state = msg;
+        new Audio('audioFiles/move-self.mp3').play();
         this.onUpdate();
         this.root.redraw();
         break;
