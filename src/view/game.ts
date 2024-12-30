@@ -41,13 +41,58 @@ const renderButtons = (ctrl: GameCtrl) =>
     ),
   ]);
 
-const renderState = (ctrl: GameCtrl) => h('div.game-page__state', [
-    h('span', 'Game ended by '),
-    ctrl.game.state.status,
-    h('br'),
-    h('a', { attrs: { href: 'https://lichess.org/' +ctrl.game.id, target: '_blank' } }, 'Analyse game on Lichess')
+const renderState = (ctrl: GameCtrl) => {
+    console.log('Rendering game state:', ctrl.game);
 
-]);
+    const game = ctrl.game;
+    const initialFen = game.initialFen;
+    const colorCode = initialFen.split(" ")[1];
+    const color = colorCode === "w" ? "white" : "black";
+
+    const pgnHeaders = [
+        `[Event "Casual Game"]`,
+        `[Site "https://lichess.org/${game.id}"]`,
+        `[Date "${new Date(game.createdAt).toISOString().slice(0, 10)}"]`,
+        `[Round "-"]`,
+        `[White "${game.white.aiLevel ? "Stockfish Level " + game.white.aiLevel : game.white.name}"]`,
+        `[Black "${game.black.aiLevel ? "Stockfish Level " + game.black.aiLevel : game.black.name}"]`,
+        `[Result "${game.state.winner === "white" ? "1-0" : game.state.winner === "black" ? "0-1" : "1/2-1/2"}"]`,
+        `[FEN "${initialFen}"]`
+    ];
+
+    const moves = game.state.moves.split(" ");
+    let formattedMoves = "";
+    for (let i = 0; i < moves.length; i++) {
+        if (i % 2 === 0) formattedMoves += `${Math.floor(i / 2) + 1}. `;
+        formattedMoves += moves[i] + " ";
+    }
+
+    formattedMoves += game.state.winner === "white" ? "1-0" : game.state.winner === "black" ? "0-1" : "1/2-1/2";
+
+    const pgn = `${pgnHeaders.join("\n")}\n\n${formattedMoves.trim()}`;
+
+    return h('div.game-page__state', [
+        h('span', 'Game ended by '),
+        ctrl.game.state.status,
+        h('br'),
+        h('span', 'Analyse game on '),
+        h('br'),
+        h('a', {
+            attrs: {
+                href: 'https://lichess.org/' + game.id + "/" + color,
+                target: '_blank'
+            }
+        }, 'Lichess'),
+        h('span', '  |  '),
+        h('a', {
+            attrs: {
+                href: 'https://www.chess.com/analysis?tab=analysis&pgn=' + encodeURIComponent(pgn),
+                target: '_blank'
+            }
+        }, 'Chess.com'),
+    ]);
+};
+
 
 const renderGamePlayer = (ctrl: GameCtrl, color: Color) => {
   const p = ctrl.game[color];
