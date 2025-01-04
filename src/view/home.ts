@@ -61,7 +61,7 @@ const userHome = (ctrl: Ctrl) => [
                     }
                 })
             ]),
-            h('h2.mt-5', 'Play Against Computer'),
+            h('h2.mt-5', 'Play Middle Game'),
             h('div.mt-5', [
                 h(
                     'button.btn.btn-outline-primary.btn-lg',
@@ -76,6 +76,25 @@ const userHome = (ctrl: Ctrl) => [
                     {
                         attrs: { type: 'button' },
                         on: { click: ctrl.playAiFromEqualPos },
+                    },
+                    `From Equal Position`
+                )
+            ]),
+            h('h2.mt-5', 'Play End Game'),
+            h('div.mt-5', [
+                h(
+                    'button.btn.btn-outline-primary.btn-lg',
+                    {
+                        attrs: { type: 'button' },
+                        on: { click: ctrl.playAiFromWinningPosEndGame },
+                    },
+                    `From Winning Position`
+                ),
+                h(
+                    'button.btn.btn-outline-primary.btn-lg',
+                    {
+                        attrs: { type: 'button' },
+                        on: { click: ctrl.playAiFromEqualPosEndGame },
                     },
                     `From Equal Position`
                 )

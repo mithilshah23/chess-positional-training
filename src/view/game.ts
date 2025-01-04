@@ -42,8 +42,6 @@ const renderButtons = (ctrl: GameCtrl) =>
   ]);
 
 const renderState = (ctrl: GameCtrl) => {
-    console.log('Rendering game state:', ctrl.game);
-
     const game = ctrl.game;
     const initialFen = game.initialFen;
     const colorCode = initialFen.split(" ")[1];
@@ -57,6 +55,7 @@ const renderState = (ctrl: GameCtrl) => {
         `[White "${game.white.aiLevel ? "Stockfish Level " + game.white.aiLevel : game.white.name}"]`,
         `[Black "${game.black.aiLevel ? "Stockfish Level " + game.black.aiLevel : game.black.name}"]`,
         `[Result "${game.state.winner === "white" ? "1-0" : game.state.winner === "black" ? "0-1" : "1/2-1/2"}"]`,
+        '[SetUp "1"]',
         `[FEN "${initialFen}"]`
     ];
 
