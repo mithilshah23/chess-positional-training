@@ -1,6 +1,6 @@
 import { Chessground } from 'chessground';
 import { h } from 'snabbdom';
-import { Ctrl } from '../ctrl';
+import {Ctrl, FenArrayType} from '../ctrl';
 import { Game, Renderer } from '../interfaces';
 import OngoingGames from '../ongoingGames';
 import { href } from '../routing';
@@ -61,42 +61,58 @@ const userHome = (ctrl: Ctrl) => [
                     }
                 })
             ]),
-            h('h2.mt-5', 'Play Middle Game'),
+            h('h2.mt-5', 'Play From Winning Position'),
             h('div.mt-5', [
                 h(
                     'button.btn.btn-outline-primary.btn-lg',
                     {
                         attrs: { type: 'button' },
-                        on: { click: ctrl.playAiFromWinningPos },
+                        on: {click: () => ctrl.playAiFromPosition(FenArrayType.WinningArray)}
                     },
-                    `From Winning Position`
+                    `MidGame`
                 ),
                 h(
                     'button.btn.btn-outline-primary.btn-lg',
                     {
                         attrs: { type: 'button' },
-                        on: { click: ctrl.playAiFromEqualPos },
+                        on: {click: () => ctrl.playAiFromPosition(FenArrayType.WinningArrayEndGame)}
                     },
-                    `From Equal Position`
-                )
+                    `EndGame`
+                ),
+                h(
+                    'button.btn.btn-outline-primary.btn-lg',
+                    {
+                        attrs: { type: 'button' },
+                        on: {click: () => ctrl.playAiFromPosition(FenArrayType.WinningArrayRookEndGame)},
+                    },
+                    `Rook EndGame`
+                ),
             ]),
-            h('h2.mt-5', 'Play End Game'),
+            h('h2.mt-5', 'Play from Equal Position'),
             h('div.mt-5', [
                 h(
                     'button.btn.btn-outline-primary.btn-lg',
                     {
                         attrs: { type: 'button' },
-                        on: { click: ctrl.playAiFromWinningPosEndGame },
+                        on: {click: () => ctrl.playAiFromPosition(FenArrayType.EqualArray)}
                     },
-                    `From Winning Position`
+                    `MidGame`
                 ),
                 h(
                     'button.btn.btn-outline-primary.btn-lg',
                     {
                         attrs: { type: 'button' },
-                        on: { click: ctrl.playAiFromEqualPosEndGame },
+                        on: {click: () => ctrl.playAiFromPosition(FenArrayType.EqualArrayEndGame)},
                     },
-                    `From Equal Position`
+                    `EndGame`
+                ),
+                h(
+                    'button.btn.btn-outline-primary.btn-lg',
+                    {
+                        attrs: { type: 'button' },
+                        on: {click: () => ctrl.playAiFromPosition(FenArrayType.EqualArrayRookEndGame)},
+                    },
+                    `Rook EndGame`
                 )
             ]),
         ]),
