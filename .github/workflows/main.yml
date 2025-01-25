@@ -1,4 +1,4 @@
-name: Publish the Chess Middle Game Trainer app
+name: Publish the Chess Positional Training app
 on:
   push:
     branches:

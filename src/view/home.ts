@@ -29,7 +29,7 @@ const userHome = (ctrl: Ctrl) => [
             ]),
 
             h('div.mb-3', [
-                h('label.form-label', { attrs: { for: 'clockLimit' } }, 'Clock Limit (minutes):  '),
+                h('label.form-label', { attrs: { for: 'clockLimit' } }, 'Clock Limit in Minutes (3 - 180):  '),
                 h('input', {
                     attrs: {
                         type: 'number',
@@ -46,7 +46,7 @@ const userHome = (ctrl: Ctrl) => [
             ]),
 
             h('div.mb-3', [
-                h('label.form-label', { attrs: { for: 'clockIncrement' } }, 'Clock Increment (seconds):  '),
+                h('label.form-label', { attrs: { for: 'clockIncrement' } }, 'Clock Increment in Seconds (0 - 60):  '),
                 h('input', {
                     attrs: {
                         type: 'number',
@@ -67,9 +67,17 @@ const userHome = (ctrl: Ctrl) => [
                     'button.btn.btn-outline-primary.btn-lg',
                     {
                         attrs: { type: 'button' },
+                        on: {click: () => ctrl.playAiFromPosition(FenArrayType.WinningArrayOpening)},
+                    },
+                    `Opening`
+                ),
+                h(
+                    'button.btn.btn-outline-primary.btn-lg',
+                    {
+                        attrs: { type: 'button' },
                         on: {click: () => ctrl.playAiFromPosition(FenArrayType.WinningArray)}
                     },
-                    `MidGame`
+                    `Middle Game`
                 ),
                 h(
                     'button.btn.btn-outline-primary.btn-lg',
@@ -77,15 +85,7 @@ const userHome = (ctrl: Ctrl) => [
                         attrs: { type: 'button' },
                         on: {click: () => ctrl.playAiFromPosition(FenArrayType.WinningArrayEndGame)}
                     },
-                    `EndGame`
-                ),
-                h(
-                    'button.btn.btn-outline-primary.btn-lg',
-                    {
-                        attrs: { type: 'button' },
-                        on: {click: () => ctrl.playAiFromPosition(FenArrayType.WinningArrayRookEndGame)},
-                    },
-                    `Rook EndGame`
+                    `End Game`
                 ),
             ]),
             h('h2.mt-5', 'Play from Equal Position'),
@@ -94,9 +94,17 @@ const userHome = (ctrl: Ctrl) => [
                     'button.btn.btn-outline-primary.btn-lg',
                     {
                         attrs: { type: 'button' },
+                        on: {click: () => ctrl.playAiFromPosition(FenArrayType.EqualArrayOpening)},
+                    },
+                    `Opening`
+                ),
+                h(
+                    'button.btn.btn-outline-primary.btn-lg',
+                    {
+                        attrs: { type: 'button' },
                         on: {click: () => ctrl.playAiFromPosition(FenArrayType.EqualArray)}
                     },
-                    `MidGame`
+                    `Middle Game`
                 ),
                 h(
                     'button.btn.btn-outline-primary.btn-lg',
@@ -104,15 +112,7 @@ const userHome = (ctrl: Ctrl) => [
                         attrs: { type: 'button' },
                         on: {click: () => ctrl.playAiFromPosition(FenArrayType.EqualArrayEndGame)},
                     },
-                    `EndGame`
-                ),
-                h(
-                    'button.btn.btn-outline-primary.btn-lg',
-                    {
-                        attrs: { type: 'button' },
-                        on: {click: () => ctrl.playAiFromPosition(FenArrayType.EqualArrayRookEndGame)},
-                    },
-                    `Rook EndGame`
+                    `End Game`
                 )
             ]),
         ]),
@@ -180,25 +180,25 @@ const anonHome = () => [
   ]),
 ];
 
-const renderAbout = () =>
-    h('div.about', [
-        h('p', [
-            'You’re ahead. Victory is within reach. But then, it slips away. Sound familiar? ',
-            h('br'),
-            'Chess Middle Game Trainer is your secret weapon for mastering the middle game. It’s designed for those critical moments when you’ve worked hard to gain the upper hand, yet closing the deal feels elusive. ',
-            'Sharpen your skills. Convert those winning positions into wins.',
-            h('br'),
-            'Train smarter, finish stronger.',
-        ])
-    ]);
+const renderAbout = () => h('div.about', [
+    h('p', [
+        'You’re ahead. Victory is within reach. But then, it slips away. Sound familiar? ',
+        h('br'),
+        'Chess Positional Training is your secret weapon for mastering the game — whether it’s the opening, the middle game, or the endgame. It’s designed for those critical moments when you’ve worked hard to gain the upper hand, yet closing the deal feels elusive. ',
+        'Sharpen your skills. Convert the winning positions into wins.',
+        h('br'),
+        'Train smarter, finish stronger.',
+    ])
+]);
+
 
 const renderSuggestions = () =>
     h('div.about', [
         h('p', [
             h('small', [
-                'Created by ',
-                h('a', { attrs: { href: 'https://www.linkedin.com/in/mithilshah23/', target: '_blank' } }, 'Mithil'),
-                ', drop your thoughts ',
+                // 'Created by ',
+                // h('a', { attrs: { href: 'https://www.linkedin.com/in/mithilshah23/', target: '_blank' } }, 'Mithil'),
+                'Drop your thoughts ',
                 h('a', { attrs: { href: 'https://forms.gle/1m1c4mcXea8NqXsU8', target: '_blank' } }, 'here!')
             ])
         ])

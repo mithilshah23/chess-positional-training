@@ -18,7 +18,7 @@ const renderNavBar = (ctrl: Ctrl) =>
         {
           attrs: href('/'),
         },
-        'Chess Middle Game Trainer'
+        'Chess Positional Training'
       ),
       h(
         'button.navbar-toggler',

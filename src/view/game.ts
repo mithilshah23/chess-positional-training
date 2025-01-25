@@ -97,7 +97,7 @@ const renderGamePlayer = (ctrl: GameCtrl, color: Color) => {
   const p = ctrl.game[color];
   const clock = clockContent(
     ctrl.timeOf(color),
-    color == ctrl.chess.turn && ctrl.chess.fullmoves > 1 && ctrl.playing() ? ctrl.lastUpdateAt - Date.now() : 0
+    color == ctrl.chess.turn && ctrl.lastMove && ctrl.playing() ? ctrl.lastUpdateAt - Date.now() : 0
   );
   return renderPlayer(ctrl, color, clock, p.name, p.title, p.rating, p.aiLevel);
 };

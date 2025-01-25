@@ -5,7 +5,7 @@ import { Config as CgConfig } from 'chessground/config';
 import { Stream } from './ndJsonStream';
 import { Color, Key } from 'chessground/types';
 import { opposite, parseUci } from 'chessops/util';
-import { Chess, defaultSetup } from 'chessops';
+import {Chess, defaultSetup, fen} from 'chessops';
 import { makeFen, parseFen } from 'chessops/fen';
 import { chessgroundDests } from 'chessops/compat';
 
@@ -31,6 +31,7 @@ export class GameCtrl implements BoardCtrl {
     new Audio('audioFiles/notify.mp3').play();
     this.onUpdate();
     this.redrawInterval = setInterval(root.redraw, 100);
+    this.createPromotionModal();
   }
 
   onUnmount = () => {
@@ -53,9 +54,137 @@ export class GameCtrl implements BoardCtrl {
   timeOf = (color: Color) => this.game.state[`${color[0]}time`];
 
   userMove = async (orig: Key, dest: Key) => {
-    this.ground?.set({ turnColor: opposite(this.pov) });
-    await this.root.auth.fetchBody(`/api/board/game/${this.game.id}/move/${orig}${dest}`, { method: 'post' });
+    const getPieceAt = (fen: string, position: Key): string | null => {
+      const rows = fen.split(" ")[0].split("/");
+      const file = position.charCodeAt(0) - 97;
+      const rank = 8 - parseInt(position[1]);
+      const row = rows[rank];
+      let fileIndex = 0;
+
+      for (const char of row) {
+        if (parseInt(char)) {
+          fileIndex += parseInt(char);
+        } else {
+          if (fileIndex === file) return char;
+          fileIndex++;
+        }
+      }
+      return null;
+    };
+
+    const isPromotion = (orig: Key, dest: Key): boolean => {
+      const pawnStartRow = this.pov === 'white' ? '7' : '2'; // Second-to-last rank
+      const promotionRow = this.pov === 'white' ? '8' : '1'; // Last rank for promotion
+      const fen = (this.ground?.state as unknown as { fen: string })?.fen; // Current FEN
+      const piece = getPieceAt(fen, orig); // Get piece at orig
+
+      return <boolean>(
+          piece &&
+          piece.toLowerCase() === 'p' && // Check if it's a pawn
+          orig[1] === pawnStartRow &&
+          dest[1] === promotionRow // Check row conditions
+      );
+    };
+
+    if (isPromotion(orig, dest)) {
+      // Show the promotion modal when a pawn is promoted
+      this.showPromotionModal(orig, dest);
+    } else {
+      // Handle normal move if not a promotion
+      const move = `${orig}${dest}`;
+      this.ground?.set({ turnColor: opposite(this.pov) });
+      await this.root.auth.fetchBody(`/api/board/game/${this.game.id}/move/${move}`, { method: 'post' });
+    }
   };
+
+  private createPromotionModal() {
+    const modal = document.createElement('div');
+    modal.id = 'promotionModal';
+    modal.style.display = 'none';
+    modal.style.position = 'fixed';
+    modal.style.top = '50%';
+    modal.style.left = '50%';
+    modal.style.transform = 'translate(-50%, -50%)';
+    modal.style.background = 'white';
+    modal.style.border = '1px solid #ccc';
+    modal.style.borderRadius = '8px';
+    modal.style.padding = '16px';
+    modal.style.zIndex = '1000';
+    modal.style.textAlign = 'center';
+    modal.innerHTML = `
+  <h3>Pawn Promotion</h3>
+  <p>Choose a piece to promote your pawn:</p>
+  <div style="display: flex; justify-content: center; gap: 10px;">
+    <button id="promoteQueen" style="font-size: 24px; padding: 10px;"> 
+      <i class="fas fa-chess-queen"></i> Queen
+    </button>
+    <button id="promoteRook" style="font-size: 24px; padding: 10px;">
+      <i class="fas fa-chess-rook"></i> Rook
+    </button>
+    <button id="promoteBishop" style="font-size: 24px; padding: 10px;">
+      <i class="fas fa-chess-bishop"></i> Bishop
+    </button>
+    <button id="promoteKnight" style="font-size: 24px; padding: 10px;">
+      <i class="fas fa-chess-knight"></i> Knight
+    </button>
+  </div>
+`;
+
+    const overlay = document.createElement('div');
+    overlay.id = 'overlay';
+    overlay.style.display = 'none';
+    overlay.style.position = 'fixed';
+    overlay.style.top = '0';
+    overlay.style.left = '0';
+    overlay.style.width = '100%';
+    overlay.style.height = '100%';
+    overlay.style.background = 'rgba(0, 0, 0, 0.5)';
+    overlay.style.zIndex = '999';
+
+    document.body.appendChild(modal);
+    document.body.appendChild(overlay);
+  }
+
+  private showPromotionModal(orig: Key, dest: Key) {
+    const modal = document.getElementById('promotionModal') as HTMLElement;
+    const overlay = document.getElementById('overlay') as HTMLElement;
+
+    if (modal && overlay) {
+      modal.style.display = 'block';
+      overlay.style.display = 'block';
+
+      const addPromotionListener = (buttonId: string, piece: string) => {
+        const button = document.getElementById(buttonId);
+        if (button) {
+          button.replaceWith(button.cloneNode(true));
+          const newButton = document.getElementById(buttonId);
+          newButton?.addEventListener('click', () => this.handlePromotion(orig, dest, piece));
+        }
+      };
+
+      addPromotionListener('promoteQueen', 'q');
+      addPromotionListener('promoteRook', 'r');
+      addPromotionListener('promoteBishop', 'b');
+      addPromotionListener('promoteKnight', 'n');
+    }
+  }
+
+  private handlePromotion(orig: Key, dest: Key, piece: string) {
+    const modal = document.getElementById('promotionModal');
+    const overlay = document.getElementById('overlay');
+
+    if (modal && overlay) {
+      modal.style.display = 'none';
+      overlay.style.display = 'none';
+    }
+
+    const move = `${orig}${dest}${piece}`;
+    this.ground?.set({ turnColor: opposite(this.pov) });
+    this.root.auth.fetchBody(`/api/board/game/${this.game.id}/move/${move}`, { method: 'post' });
+  }
+
+
+
 
   resign = async () => {
     await this.root.auth.fetchBody(`/api/board/game/${this.game.id}/resign`, { method: 'post' });
@@ -106,7 +235,6 @@ export class GameCtrl implements BoardCtrl {
         break;
       case 'gameState':
         this.game.state = msg;
-        new Audio('audioFiles/move-self.mp3').play();
         this.onUpdate();
         this.root.redraw();
         break;
