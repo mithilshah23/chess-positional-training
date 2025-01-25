@@ -13,13 +13,24 @@ export default function (ctrl: Ctrl, body: MaybeVNodes): VNode {
 const renderNavBar = (ctrl: Ctrl) =>
   h('header.navbar.navbar-expand-md.navbar-dark.bg-dark', [
     h('div.container', [
-      h(
-        'a.navbar-brand',
-        {
-          attrs: href('/'),
-        },
-        'Chess Positional Training'
-      ),
+        h(
+            'a.navbar-brand',
+            {
+                attrs: href('/'),
+            },
+            [
+                h('img', {
+                    attrs: {
+                        src: './favicon.ico',
+                        alt: 'Logo',
+                        width: '30',
+                        height: '30',
+                        class: 'd-inline-block align-top me-2',
+                    },
+                }),
+                'Chess Positional Training',
+            ]
+        ),
       h(
         'button.navbar-toggler',
         {
