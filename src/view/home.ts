@@ -29,7 +29,7 @@ const userHome = (ctrl: Ctrl) => [
             ]),
 
             h('div.mb-3', [
-                h('label.form-label', { attrs: { for: 'clockLimit' } }, 'Clock Limit in Minutes (3 - 180):  '),
+                h('label.form-label', { attrs: { for: 'clockLimit' } }, 'Clock Limit (3-180 mins): '),
                 h('input', {
                     attrs: {
                         type: 'number',
@@ -46,7 +46,7 @@ const userHome = (ctrl: Ctrl) => [
             ]),
 
             h('div.mb-3', [
-                h('label.form-label', { attrs: { for: 'clockIncrement' } }, 'Clock Increment in Seconds (0 - 60):  '),
+                h('label.form-label', { attrs: { for: 'clockIncrement' } }, 'Clock Increment (0-60 secs):  '),
                 h('input', {
                     attrs: {
                         type: 'number',
