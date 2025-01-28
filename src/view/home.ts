@@ -182,6 +182,7 @@ function showPlayerSelectionDialog(ctrl: Ctrl, fenArrayType: FenArrayType) {
 
     optionsDiv.innerHTML = `
         <p style="margin-bottom: 20px; font-weight: bold; font-size: 20px;">Select your opponent:</p>
+        <button id="cancel-option" class="btn btn-outline-secondary">Cancel</button>
         <button id="play-computer" class="btn btn-outline-primary">Play Against Computer</button>
         <button id="play-human" class="btn btn-outline-primary">Play Against Human</button>
     `;
@@ -190,6 +191,10 @@ function showPlayerSelectionDialog(ctrl: Ctrl, fenArrayType: FenArrayType) {
 
     document.getElementById('play-computer')?.addEventListener('click', () => {
         ctrl.playAiFromPosition(fenArrayType);
+        closeOption();
+    });
+
+    document.getElementById('cancel-option')?.addEventListener('click', () => {
         closeOption();
     });
 
@@ -217,7 +222,7 @@ function showPlayerSelectionDialog(ctrl: Ctrl, fenArrayType: FenArrayType) {
 
             <input id="opponent-username" type="text" class="form-control" style="margin-bottom: 15px; width: 100%;" />
             <div style="text-align: center;">
-                <button id="cancel-dialog-2" class="btn btn-outline-secondary">Cancel</button>
+                <button id="cancel-dialog" class="btn btn-outline-secondary">Cancel</button>
                 <button id="confirm-dialog" class="btn btn-outline-primary">Confirm</button>
             </div>
         `;
@@ -232,25 +237,10 @@ function showPlayerSelectionDialog(ctrl: Ctrl, fenArrayType: FenArrayType) {
             document.body.removeChild(dialogDiv);
         });
 
-        document.getElementById('cancel-dialog-2')?.addEventListener('click', () => {
+        document.getElementById('cancel-dialog')?.addEventListener('click', () => {
             document.body.removeChild(dialogDiv);
         });
     });
-
-    document.addEventListener('click', (event) => {
-        const target = event.target as Element;
-
-        if (!dialogDiv.contains(target)) {
-            closeDialog();
-        }
-    });
-
-    function closeDialog() {
-        if (dialogDiv.parentNode) {
-            console.log("outside dialog");
-            document.body.removeChild(dialogDiv);
-        }
-    }
 
     function closeOption() {
         if (optionsDiv.parentNode) {
