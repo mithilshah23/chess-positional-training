@@ -10074,29 +10074,44 @@ export class Ctrl {
     this.level = clamp(this.level, 1, 8);
     this.clockLimit = clamp(this.clockLimit, 3, 180);
     this.clockIncrement = clamp(this.clockIncrement, 0, 60);
-
-    this.game = undefined;
-    this.page = 'game';
-    this.redraw();
-
-    try {
-      const fen = getRandomFenFromArray(fenArrayType);
-      const turn = getTurnFromFEN(fen);
-      const response = await this.auth.fetchBody('/api/challenge/ai', {
-        method: 'post',
-        body: formData({
-          level: this.level,
+    const fen = getRandomFenFromArray(fenArrayType);
+    const turn = getTurnFromFEN(fen);
+    this.challenge = await ChallengeCtrl.make(
+        {
+          username: "ai",
+          rated: false,
+          'level': this.level,
           'clock.limit': this.clockLimit * 60,
           'clock.increment': this.clockIncrement,
-          fen: fen,
-          color: turn,
-        }),
-      });
-
-    } catch (error) {
-      console.error('Error occurred during API call:', error);
-    }
+          'fen': fen,
+          'color': turn,
+        },
+        this
+    );
+    this.page = 'challenge';
+    this.redraw();
   };
+
+  playHumanFromPosition = async (fenArrayType: FenArrayType, username: string) => {
+    this.clockLimit = clamp(this.clockLimit, 1, 180);
+    this.clockIncrement = clamp(this.clockIncrement, 0, 60);
+    const fen = getRandomFenFromArray(fenArrayType);
+    const turn = getTurnFromFEN(fen);
+    this.challenge = await ChallengeCtrl.make(
+        {
+          username: username,
+          rated: false,
+          'clock.limit': this.clockLimit * 60,
+          'clock.increment': this.clockIncrement,
+          'fen': fen,
+          'color': turn,
+        },
+        this
+    );
+    this.page = 'challenge';
+    this.redraw();
+  };
+
 
 
   playPool = async (minutes: number, increment: number) => {

@@ -8,7 +8,7 @@ import { href } from '../routing';
 export const renderHome: Renderer = ctrl => (ctrl.auth.me ? userHome(ctrl) : anonHome());
 
 const userHome = (ctrl: Ctrl) => [
-    h('div', [
+    h('div', { attrs: { align: 'center' } },[
         h('div', [
             h('h2.mt-5', 'Game Settings'),
             h('div.mb-3', [
@@ -67,7 +67,7 @@ const userHome = (ctrl: Ctrl) => [
                     'button.btn.btn-outline-primary.btn-lg',
                     {
                         attrs: { type: 'button' },
-                        on: {click: () => ctrl.playAiFromPosition(FenArrayType.WinningArrayOpening)},
+                        on: {click: () => showPlayerSelectionDialog(ctrl, FenArrayType.WinningArrayOpening)},
                     },
                     `Opening`
                 ),
@@ -75,7 +75,7 @@ const userHome = (ctrl: Ctrl) => [
                     'button.btn.btn-outline-primary.btn-lg',
                     {
                         attrs: { type: 'button' },
-                        on: {click: () => ctrl.playAiFromPosition(FenArrayType.WinningArray)}
+                        on: {click: () => showPlayerSelectionDialog(ctrl, FenArrayType.WinningArray)}
                     },
                     `Middle Game`
                 ),
@@ -83,7 +83,7 @@ const userHome = (ctrl: Ctrl) => [
                     'button.btn.btn-outline-primary.btn-lg',
                     {
                         attrs: { type: 'button' },
-                        on: {click: () => ctrl.playAiFromPosition(FenArrayType.WinningArrayEndGame)}
+                        on: {click: () => showPlayerSelectionDialog(ctrl, FenArrayType.WinningArrayEndGame)}
                     },
                     `End Game`
                 ),
@@ -94,7 +94,7 @@ const userHome = (ctrl: Ctrl) => [
                     'button.btn.btn-outline-primary.btn-lg',
                     {
                         attrs: { type: 'button' },
-                        on: {click: () => ctrl.playAiFromPosition(FenArrayType.EqualArrayOpening)},
+                        on: {click: () => showPlayerSelectionDialog(ctrl, FenArrayType.EqualArrayOpening)},
                     },
                     `Opening`
                 ),
@@ -102,7 +102,7 @@ const userHome = (ctrl: Ctrl) => [
                     'button.btn.btn-outline-primary.btn-lg',
                     {
                         attrs: { type: 'button' },
-                        on: {click: () => ctrl.playAiFromPosition(FenArrayType.EqualArray)}
+                        on: {click: () => showPlayerSelectionDialog(ctrl, FenArrayType.EqualArray)}
                     },
                     `Middle Game`
                 ),
@@ -110,7 +110,7 @@ const userHome = (ctrl: Ctrl) => [
                     'button.btn.btn-outline-primary.btn-lg',
                     {
                         attrs: { type: 'button' },
-                        on: {click: () => ctrl.playAiFromPosition(FenArrayType.EqualArrayEndGame)},
+                        on: {click: () => showPlayerSelectionDialog(ctrl, FenArrayType.EqualArrayEndGame)},
                     },
                     `End Game`
                 )
@@ -165,6 +165,105 @@ const renderGameWidget = (game: Game) =>
       ),
     ]
   );
+
+function showPlayerSelectionDialog(ctrl: Ctrl, fenArrayType: FenArrayType) {
+    const optionsDiv = document.createElement('div');
+    optionsDiv.className = 'popup-dialog';
+    optionsDiv.style.position = 'fixed';
+    optionsDiv.style.top = '50%';
+    optionsDiv.style.left = '50%';
+    optionsDiv.style.transform = 'translate(-50%, -50%)';
+    optionsDiv.style.padding = '20px';
+    optionsDiv.style.backgroundColor = 'white';
+    optionsDiv.style.boxShadow = '0 4px 6px rgba(0,0,0,0.1)';
+    optionsDiv.style.borderRadius = '8px';
+    optionsDiv.style.zIndex = '1000';
+    optionsDiv.style.border = '2px solid #ccc';
+
+    optionsDiv.innerHTML = `
+        <p style="margin-bottom: 20px; font-weight: bold; font-size: 20px;">Select your opponent:</p>
+        <button id="play-computer" class="btn btn-outline-primary">Play Against Computer</button>
+        <button id="play-human" class="btn btn-outline-primary">Play Against Human</button>
+    `;
+
+    document.body.appendChild(optionsDiv);
+
+    document.getElementById('play-computer')?.addEventListener('click', () => {
+        ctrl.playAiFromPosition(fenArrayType);
+        closeOption();
+    });
+
+    const dialogDiv = document.createElement('div');
+
+    document.getElementById('play-human')?.addEventListener('click', () => {
+        closeOption();
+
+        // Create custom input dialog
+        dialogDiv.className = 'custom-dialog';
+        dialogDiv.style.position = 'fixed';
+        dialogDiv.style.top = '50%';
+        dialogDiv.style.left = '50%';
+        dialogDiv.style.transform = 'translate(-50%, -50%)';
+        dialogDiv.style.padding = '20px';
+        dialogDiv.style.backgroundColor = 'white';
+        dialogDiv.style.boxShadow = '0 4px 6px rgba(0,0,0,0.1)';
+        dialogDiv.style.borderRadius = '8px';
+        dialogDiv.style.zIndex = '1001';
+        dialogDiv.style.border = '2px solid #ccc';
+
+        dialogDiv.innerHTML = `
+            <label for="opponent-username" style="display: block; margin-bottom: 10px; font-weight: bold; font-size: 18px;">
+                Enter the Lichess username of your opponent:</label>
+
+            <input id="opponent-username" type="text" class="form-control" style="margin-bottom: 15px; width: 100%;" />
+            <div style="text-align: center;">
+                <button id="cancel-dialog-2" class="btn btn-outline-secondary">Cancel</button>
+                <button id="confirm-dialog" class="btn btn-outline-primary">Confirm</button>
+            </div>
+        `;
+
+        document.body.appendChild(dialogDiv);
+
+        document.getElementById('confirm-dialog')?.addEventListener('click', () => {
+            const usernameInput = (document.getElementById('opponent-username') as HTMLInputElement).value;
+            if (usernameInput) {
+                ctrl.playHumanFromPosition(FenArrayType.WinningArrayOpening, usernameInput);
+            }
+            document.body.removeChild(dialogDiv);
+        });
+
+        document.getElementById('cancel-dialog-2')?.addEventListener('click', () => {
+            document.body.removeChild(dialogDiv);
+        });
+    });
+
+    document.addEventListener('click', (event) => {
+        const target = event.target as Element;
+
+        if (!dialogDiv.contains(target)) {
+            closeDialog();
+        }
+    });
+
+    function closeDialog() {
+        if (dialogDiv.parentNode) {
+            console.log("outside dialog");
+            document.body.removeChild(dialogDiv);
+        }
+    }
+
+    function closeOption() {
+        if (optionsDiv.parentNode) {
+            document.body.removeChild(optionsDiv);
+        }
+    }
+}
+
+
+
+
+
+
 
 const anonHome = () => [
   h('div.login.text-center', [
