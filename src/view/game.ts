@@ -94,10 +94,14 @@ const renderState = (ctrl: GameCtrl) => {
 
 
 const renderGamePlayer = (ctrl: GameCtrl, color: Color) => {
-  const p = ctrl.game[color];
-  const clock = clockContent(
-    ctrl.timeOf(color),
-    color == ctrl.chess.turn && ctrl.lastMove && ctrl.playing() ? ctrl.lastUpdateAt - Date.now() : 0
-  );
-  return renderPlayer(ctrl, color, clock, p.name, p.title, p.rating, p.aiLevel);
+    const p = ctrl.game[color];
+
+    const hasMoreThanOneMove = ctrl.game.state.moves.split(' ').length > 1;
+
+    const clock = clockContent(
+        ctrl.timeOf(color),
+        color == ctrl.chess.turn && hasMoreThanOneMove && ctrl.playing() ? ctrl.lastUpdateAt - Date.now() : 0
+    );
+
+    return renderPlayer(ctrl, color, clock, p.name, p.title, p.rating, p.aiLevel);
 };

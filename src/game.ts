@@ -28,7 +28,6 @@ export class GameCtrl implements BoardCtrl {
   constructor(game: Game, readonly stream: Stream, private root: Ctrl) {
     this.game = game;
     this.pov = this.game.black.id == this.root.auth.me?.id ? 'black' : 'white';
-    new Audio('audioFiles/notify.mp3').play();
     this.onUpdate();
     this.redrawInterval = setInterval(root.redraw, 100);
     this.createPromotionModal();
@@ -115,17 +114,17 @@ export class GameCtrl implements BoardCtrl {
   <h3>Pawn Promotion</h3>
   <p>Choose a piece to promote your pawn:</p>
   <div style="display: flex; justify-content: center; gap: 10px;">
-    <button id="promoteQueen" style="font-size: 24px; padding: 10px;"> 
-      <i class="fas fa-chess-queen"></i> Queen
-    </button>
-    <button id="promoteRook" style="font-size: 24px; padding: 10px;">
-      <i class="fas fa-chess-rook"></i> Rook
+    <button id="promoteKnight" style="font-size: 24px; padding: 10px;">
+      <i class="fas fa-chess-knight"></i> Knight
     </button>
     <button id="promoteBishop" style="font-size: 24px; padding: 10px;">
       <i class="fas fa-chess-bishop"></i> Bishop
     </button>
-    <button id="promoteKnight" style="font-size: 24px; padding: 10px;">
-      <i class="fas fa-chess-knight"></i> Knight
+    <button id="promoteRook" style="font-size: 24px; padding: 10px;">
+      <i class="fas fa-chess-rook"></i> Rook
+    </button>
+    <button id="promoteQueen" style="font-size: 24px; padding: 10px;"> 
+      <i class="fas fa-chess-queen"></i> Queen
     </button>
   </div>
 `;
