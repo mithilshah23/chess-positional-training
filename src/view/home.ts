@@ -61,8 +61,8 @@ const userHome = (ctrl: Ctrl) => [
                     }
                 })
             ]),
-            h('h2.mt-5', 'Play From Winning Position'),
-            h('div.mt-5', [
+            h('h2.mt-4', 'Play From Winning Position'),
+            h('div.mt-2', [
                 h(
                     'button.btn.btn-outline-primary.btn-lg',
                     {
@@ -88,8 +88,8 @@ const userHome = (ctrl: Ctrl) => [
                     `End Game`
                 ),
             ]),
-            h('h2.mt-5', 'Play from Equal Position'),
-            h('div.mt-5', [
+            h('h2.mt-4', 'Play from Equal Position'),
+            h('div.mt-2', [
                 h(
                     'button.btn.btn-outline-primary.btn-lg',
                     {
@@ -111,6 +111,33 @@ const userHome = (ctrl: Ctrl) => [
                     {
                         attrs: { type: 'button' },
                         on: {click: () => showPlayerSelectionDialog(ctrl, FenArrayType.EqualArrayEndGame)},
+                    },
+                    `End Game`
+                )
+            ]),
+            h('h2.mt-4', 'Play from Losing Position'),
+            h('div.mt-2', [
+                h(
+                    'button.btn.btn-outline-primary.btn-lg',
+                    {
+                        attrs: { type: 'button' },
+                        on: {click: () => showPlayerSelectionDialog(ctrl, FenArrayType.LosingArrayOpening)},
+                    },
+                    `Opening`
+                ),
+                h(
+                    'button.btn.btn-outline-primary.btn-lg',
+                    {
+                        attrs: { type: 'button' },
+                        on: {click: () => showPlayerSelectionDialog(ctrl, FenArrayType.LosingArray)}
+                    },
+                    `Middle Game`
+                ),
+                h(
+                    'button.btn.btn-outline-primary.btn-lg',
+                    {
+                        attrs: { type: 'button' },
+                        on: {click: () => showPlayerSelectionDialog(ctrl, FenArrayType.LosingArrayEndGame)},
                     },
                     `End Game`
                 )
@@ -167,6 +194,10 @@ const renderGameWidget = (game: Game) =>
   );
 
 function showPlayerSelectionDialog(ctrl: Ctrl, fenArrayType: FenArrayType) {
+    const existingDialog = document.querySelector('.popup-dialog');
+    if (existingDialog) {
+        document.body.removeChild(existingDialog);
+    }
     const optionsDiv = document.createElement('div');
     optionsDiv.className = 'popup-dialog';
     optionsDiv.style.position = 'fixed';
@@ -180,12 +211,20 @@ function showPlayerSelectionDialog(ctrl: Ctrl, fenArrayType: FenArrayType) {
     optionsDiv.style.zIndex = '1000';
     optionsDiv.style.border = '2px solid #ccc';
 
-    optionsDiv.innerHTML = `
+    if (window.innerWidth < 550) {
+        optionsDiv.innerHTML = `
         <p style="margin-bottom: 20px; font-weight: bold; font-size: 20px;">Select your opponent:</p>
-        <button id="cancel-option" class="btn btn-outline-secondary">Cancel</button>
+        <button id="play-computer" class="btn btn-outline-primary" style="width: 100%;">Play Against Computer</button>
+        <button id="play-human" class="btn btn-outline-primary" style="width: 100%;">Play Against Human</button>
+    `;
+    }
+    else {
+        optionsDiv.innerHTML = `
+        <p style="margin-bottom: 20px; font-weight: bold; font-size: 20px;">Select your opponent:</p>
         <button id="play-computer" class="btn btn-outline-primary">Play Against Computer</button>
         <button id="play-human" class="btn btn-outline-primary">Play Against Human</button>
     `;
+    }
 
     document.body.appendChild(optionsDiv);
 
@@ -198,25 +237,29 @@ function showPlayerSelectionDialog(ctrl: Ctrl, fenArrayType: FenArrayType) {
         closeOption();
     });
 
-    const dialogDiv = document.createElement('div');
+    document.addEventListener('click', (event) => {
+        const target = event.target as Element;
+        const existingDialog = document.querySelector('.popup-dialog');
+        if (existingDialog && optionsDiv && !optionsDiv.contains(target) && !target.closest('button')) {
+            closeOption();
+        }
+    });
+
 
     document.getElementById('play-human')?.addEventListener('click', () => {
         closeOption();
+        optionsDiv.className = 'popup-dialog';
+        optionsDiv.style.top = '50%';
+        optionsDiv.style.left = '50%';
+        optionsDiv.style.transform = 'translate(-50%, -50%)';
+        optionsDiv.style.padding = '20px';
+        optionsDiv.style.backgroundColor = 'white';
+        optionsDiv.style.boxShadow = '0 4px 6px rgba(0,0,0,0.1)';
+        optionsDiv.style.borderRadius = '8px';
+        optionsDiv.style.zIndex = '1001';
+        optionsDiv.style.border = '2px solid #ccc';
 
-        // Create custom input dialog
-        dialogDiv.className = 'custom-dialog';
-        dialogDiv.style.position = 'fixed';
-        dialogDiv.style.top = '50%';
-        dialogDiv.style.left = '50%';
-        dialogDiv.style.transform = 'translate(-50%, -50%)';
-        dialogDiv.style.padding = '20px';
-        dialogDiv.style.backgroundColor = 'white';
-        dialogDiv.style.boxShadow = '0 4px 6px rgba(0,0,0,0.1)';
-        dialogDiv.style.borderRadius = '8px';
-        dialogDiv.style.zIndex = '1001';
-        dialogDiv.style.border = '2px solid #ccc';
-
-        dialogDiv.innerHTML = `
+        optionsDiv.innerHTML = `
             <label for="opponent-username" style="display: block; margin-bottom: 10px; font-weight: bold; font-size: 18px;">
                 Enter the Lichess username of your opponent:</label>
 
@@ -227,23 +270,23 @@ function showPlayerSelectionDialog(ctrl: Ctrl, fenArrayType: FenArrayType) {
             </div>
         `;
 
-        document.body.appendChild(dialogDiv);
+        document.body.appendChild(optionsDiv);
 
         document.getElementById('confirm-dialog')?.addEventListener('click', () => {
             const usernameInput = (document.getElementById('opponent-username') as HTMLInputElement).value;
             if (usernameInput) {
                 ctrl.playHumanFromPosition(FenArrayType.WinningArrayOpening, usernameInput);
             }
-            document.body.removeChild(dialogDiv);
+            closeOption();
         });
 
         document.getElementById('cancel-dialog')?.addEventListener('click', () => {
-            document.body.removeChild(dialogDiv);
+            closeOption();
         });
     });
 
     function closeOption() {
-        if (optionsDiv.parentNode) {
+        if (optionsDiv && optionsDiv.parentNode) {
             document.body.removeChild(optionsDiv);
         }
     }
@@ -271,15 +314,26 @@ const anonHome = () => [
 
 const renderAbout = () => h('div.about', [
     h('p', [
-        'You’re ahead. Victory is within reach. But then, it slips away. Sound familiar? ',
+        'Chess Positional Training is your secret weapon for mastering the game—whether it’s the opening, the middle game, or the endgame. It’s about converting winning positions into victories, escaping losing endgames, and finding clarity in complex middlegames. Ready to elevate your chess?',
+        h('br'), h('br'),
+        h('strong', 'How it Works:'),
         h('br'),
-        'Chess Positional Training is your secret weapon for mastering the game — whether it’s the opening, the middle game, or the endgame. It’s designed for those critical moments when you’ve worked hard to gain the upper hand, yet closing the deal feels elusive. ',
-        'Sharpen your skills. Convert the winning positions into wins.',
-        h('br'),
-        'Train smarter, finish stronger.',
+        h('ul', [
+            h('li', [
+                h('strong', 'Start Where You Want: '),
+                'Choose to practice openings, midgame, or endgame positions based on your needs.'
+            ]),
+            h('li', [
+                h('strong', 'Play Anyone, Anywhere: '),
+                'Challenge friends or play against an AI. Every game begins from a random position, eliminating the need for memorized openings.'
+            ]),
+            h('li', [
+                h('strong', 'Choose Your Challenge: '),
+                'Play from an advantage, equal, or losing position to practice specific scenarios and improve your decision-making.'
+            ]),
+        ]),
     ])
 ]);
-
 
 const renderSuggestions = () =>
     h('div.about', [
