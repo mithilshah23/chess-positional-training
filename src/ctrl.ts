@@ -1,6 +1,6 @@
 import { Auth } from './auth';
 import { GameCtrl } from './game';
-import { Page } from './interfaces';
+import {Challenge, Page} from './interfaces';
 import { Stream } from './ndJsonStream';
 import { formData } from './util';
 import OngoingGames from './ongoingGames';
@@ -13532,15 +13532,33 @@ export class Ctrl {
   challenge?: ChallengeCtrl;
   tv?: TvCtrl;
 
+  challenges: { in: Challenge[]; out: Challenge[] } = { in: [], out: [] };
+  pollChallenges: () => Promise<void>;
 
   level: number = 3;
   clockLimit: number = 10;
   clockIncrement: number = 0;
 
-  constructor(readonly redraw: () => void) {}
+  constructor(readonly redraw: () => void) {
+    this.challenges = { in: [], out: [] };
+    this.pollChallenges = async () => {
+      if (this.auth.me) {
+        try {
+          const data = await this.auth.fetchChallenges();
+          this.challenges = data;
+          this.redraw();
+        } catch (e) {
+          console.error('Failed to poll challenges', e);
+        }
+      }
+    };
+  }
+
 
   openHome = async () => {
     this.page = 'home';
+    setInterval(this.pollChallenges, 5000);
+    await this.pollChallenges();
     if (this.auth.me) {
       await this.stream?.close();
       this.games.empty();
@@ -13553,7 +13571,7 @@ export class Ctrl {
             this.games.onFinish(msg.game);
             break;
           default:
-            console.warn(`Unprocessed message of type ${msg.type}`, msg);
+            // console.warn(`Unprocessed message of type ${msg.type}`, msg);
         }
         this.redraw();
       });
@@ -13605,6 +13623,20 @@ export class Ctrl {
     this.page = 'challenge';
     this.redraw();
   };
+
+  async acceptChallenge(challengeId: string) {
+    await this.auth.acceptChallenge(challengeId);
+    this.challenges.in = this.challenges.in.filter(c => c.id !== challengeId);
+    this.challenges.out = this.challenges.out.filter(c => c.id !== challengeId);
+    this.redraw();
+  }
+
+  async declineChallenge(challengeId: string) {
+    await this.auth.declineChallenge(challengeId);
+    this.challenges.in = this.challenges.in.filter(c => c.id !== challengeId);
+    this.challenges.out = this.challenges.out.filter(c => c.id !== challengeId);
+    this.redraw();
+  }
 
   playHumanFromPosition = async (fenArrayType: FenArrayType, username: string) => {
     this.clockLimit = clamp(this.clockLimit, 1, 180);

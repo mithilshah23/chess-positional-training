@@ -1,14 +1,14 @@
 import { Chessground } from 'chessground';
 import { h } from 'snabbdom';
 import {Ctrl, FenArrayType} from '../ctrl';
-import { Game, Renderer } from '../interfaces';
+import {Challenge, Game, Renderer} from '../interfaces';
 import OngoingGames from '../ongoingGames';
 import { href } from '../routing';
 
 export const renderHome: Renderer = ctrl => (ctrl.auth.me ? userHome(ctrl) : anonHome());
 
 const userHome = (ctrl: Ctrl) => [
-    h('div', { attrs: { align: 'center' } },[
+    h('div', { attrs: { align: 'left' } },[
         h('div', [
             h('h2.mt-5', 'Game Settings'),
             h('div.mb-3', [
@@ -144,9 +144,10 @@ const userHome = (ctrl: Ctrl) => [
             ]),
         ]),
 
+        h('h2.mt-5', 'Challenges'),
+        h('div.challenges', renderChallenges(ctrl)),
         h('h2.mt-5', 'Games in progress'),
         h('div.games', renderGames(ctrl.games)),
-
         h('h2.mt-5.mb-3', 'About'),
         renderAbout(),
         renderSuggestions()
@@ -158,6 +159,46 @@ const userHome = (ctrl: Ctrl) => [
 
 const renderGames = (ongoing: OngoingGames) =>
   ongoing.games.length ? ongoing.games.map(renderGameWidget) : [h('p', 'No ongoing games at the moment')];
+
+
+const renderChallenges = (ctrl: Ctrl) => {
+    if (!ctrl.challenges?.in?.length) return h('p', 'No incoming challenges at the moment');
+    return ctrl.challenges.in.map(challenge =>
+        h('div.challenge', [
+            h('div.challenge-header', [
+                h('div.challenge-info', [
+                    h('strong', `${challenge.challenger?.name || 'Anonymous'}`),
+                    h('div', [
+                        h('span', `${challenge.variant.name} • `),
+                        h('span', `${challenge.speed} • `),
+                        h('span', `${formatTimeControl(challenge.timeControl)}`)
+                    ])
+                ])
+            ]),
+            h('div.challenge-actions', [
+                h('button.btn.btn-sm.btn-success', {
+                    on: { click: () => ctrl.acceptChallenge(challenge.id) }
+                }, 'Accept'),
+                h('button.btn.btn-sm.btn-danger', {
+                    on: { click: () => ctrl.declineChallenge(challenge.id) }
+                }, 'Decline')
+            ])
+        ])
+    );
+};
+
+const formatTimeControl = (tc: Challenge['timeControl']) => {
+    if (tc.type === 'clock') {
+        const minutes = Math.floor((tc.limit || 0) / 60);
+        return `${minutes}+${tc.increment}`;
+    }
+    if (tc.type === 'correspondence') {
+        return `${tc.daysPerTurn} days/move`;
+    }
+    return 'Unlimited';
+};
+
+
 
 const renderGameWidget = (game: Game) =>
   h(
@@ -325,7 +366,7 @@ const renderAbout = () => h('div.about', [
             ]),
             h('li', [
                 h('strong', 'Play Anyone, Anywhere: '),
-                'Challenge friends or play against an AI. Every game begins from a random position, eliminating the need for memorized openings.'
+                'Challenge friend or play against an AI. Every game begins from a random position, eliminating the need for memorized openings.'
             ]),
             h('li', [
                 h('strong', 'Choose Your Challenge: '),
@@ -339,8 +380,6 @@ const renderSuggestions = () =>
     h('div.about', [
         h('p', [
             h('small', [
-                // 'Created by ',
-                // h('a', { attrs: { href: 'https://www.linkedin.com/in/mithilshah23/', target: '_blank' } }, 'Mithil'),
                 'Drop your thoughts ',
                 h('a', { attrs: { href: 'https://forms.gle/1m1c4mcXea8NqXsU8', target: '_blank' } }, 'here!')
             ])

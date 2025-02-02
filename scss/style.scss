@@ -60,4 +60,35 @@ body {
   font-size: 16px;
 }
 
+.challenge {
+  padding: 1rem;
+  margin: 0.5rem 0;
+  background: #f8f9fa;
+  border-radius: 4px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.challenge-header {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.perf-icon {
+  width: 24px;
+  height: 24px;
+  opacity: 0.8;
+}
+
+.challenge-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.challenge-actions {
+  display: flex;
+  gap: 0.5rem;
+}
 

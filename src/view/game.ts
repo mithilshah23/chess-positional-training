@@ -25,21 +25,23 @@ export const renderGame: (ctrl: GameCtrl) => Renderer = ctrl => _ =>
     ),
   ];
 
-const renderButtons = (ctrl: GameCtrl) =>
-  h('div.btn-group.mt-4', [
-    h(
-      'button.btn.btn-secondary',
-      {
-        attrs: { type: 'button', disabled: !ctrl.playing() },
-        on: {
-          click() {
-            if (confirm('Confirm?')) ctrl.resign();
-          },
-        },
-      },
-      ctrl.chess.fullmoves > 1 ? 'Resign' : 'Abort'
-    ),
-  ]);
+const renderButtons = (ctrl: GameCtrl) => {
+    const hasMoreThanOneMove = ctrl.game.state.moves.split(' ').length > 1;
+    return h('div.btn-group.mt-4', [
+        h(
+            'button.btn.btn-secondary',
+            {
+                attrs: {type: 'button', disabled: !ctrl.playing()},
+                on: {
+                    click() {
+                        if (confirm('Confirm?')) ctrl.resign();
+                    },
+                },
+            },
+            hasMoreThanOneMove ? 'Resign' : 'Abort'
+        )
+    ]);
+}
 
 const renderState = (ctrl: GameCtrl) => {
     const game = ctrl.game;
@@ -55,9 +57,12 @@ const renderState = (ctrl: GameCtrl) => {
         `[White "${game.white.aiLevel ? "Stockfish Level " + game.white.aiLevel : game.white.name}"]`,
         `[Black "${game.black.aiLevel ? "Stockfish Level " + game.black.aiLevel : game.black.name}"]`,
         `[Result "${game.state.winner === "white" ? "1-0" : game.state.winner === "black" ? "0-1" : "1/2-1/2"}"]`,
-        '[SetUp "1"]',
-        `[FEN "${initialFen}"]`
+        initialFen === "startpos" ? '[SetUp "0"]' : '[SetUp "1"]'
     ];
+
+    if (initialFen !== "startpos") {
+        pgnHeaders.push(`[FEN "${initialFen}"]`);
+    }
 
     const moves = game.state.moves.split(" ");
     let formattedMoves = "";

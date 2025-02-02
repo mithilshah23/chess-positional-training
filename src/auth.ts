@@ -1,10 +1,11 @@
 import { HttpClient, OAuth2AuthCodePKCE } from '@bity/oauth2-auth-code-pkce';
 import { readStream } from './ndJsonStream';
 import { BASE_PATH } from './routing';
+import {Challenge} from "./interfaces";
 
 export const lichessHost = 'https://lichess.org';
 // export const lichessHost = 'http://l.org';
-export const scopes = ['board:play'];
+export const scopes = ['board:play', 'challenge:read', 'challenge:write'];
 export const clientId = 'lichess-api-demo';
 export const clientUrl = `${location.protocol}//${location.host}${BASE_PATH || '/'}`;
 
@@ -42,6 +43,22 @@ export class Auth {
         console.error(err);
       }
     }
+  }
+
+  async fetchChallenges(): Promise<{ in: Challenge[]; out: Challenge[] }> {
+    return this.fetchBody('/api/challenge');
+  }
+
+  async acceptChallenge(challengeId: string) {
+    await this.fetchResponse(`/api/challenge/${challengeId}/accept`, {
+      method: 'POST'
+    });
+  }
+
+  async declineChallenge(challengeId: string) {
+    await this.fetchResponse(`/api/challenge/${challengeId}/decline`, {
+      method: 'POST'
+    });
   }
 
   async login() {
