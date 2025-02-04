@@ -34,7 +34,9 @@ export class GameCtrl implements BoardCtrl {
   }
 
   onUnmount = () => {
-    this.stream.close();
+    if(this.stream) {
+      this.stream.close();
+    }
     clearInterval(this.redrawInterval);
   };
 

@@ -85,6 +85,11 @@ const renderState = (ctrl: GameCtrl) => {
             attrs: {
                 href: 'https://lichess.org/' + game.id + "/" + color,
                 target: '_blank'
+            },
+            onclick: () => {
+                window.gtag("event", "click", {
+                    analysis_on: "lichess.org"
+                });
             }
         }, 'Lichess'),
         h('span', '  |  '),
@@ -92,6 +97,11 @@ const renderState = (ctrl: GameCtrl) => {
             attrs: {
                 href: 'https://www.chess.com/analysis?tab=analysis&pgn=' + encodeURIComponent(pgn),
                 target: '_blank'
+            },
+            onclick: () => {
+                window.gtag("event", "click", {
+                    analysis_on: "chess.com"
+                });
             }
         }, 'Chess.com'),
     ]);

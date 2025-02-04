@@ -33,16 +33,22 @@ export class Auth {
       const accessContext = await this.oauth.getAccessToken();
       if (accessContext) await this.authenticate();
     } catch (err) {
-      console.error(err);
+      console.log(err);
     }
     if (!this.me) {
       try {
         const hasAuthCode = await this.oauth.isReturningFromAuthServer();
         if (hasAuthCode) await this.authenticate();
       } catch (err) {
-        console.error(err);
+        console.log(err);
       }
     }
+    window.gtag("event", "auth_init", {
+      username: this.me?.username,
+      device_type: /iPhone|iPad|iPod|Android|Mobi/i.test(navigator.userAgent) ? 'mobile' : 'desktop',
+      browser: navigator.userAgent.match(/(Safari|Chrome|Firefox)\//)?.[1] || 'unknown',
+      screen_res: `${screen.width}x${screen.height}`,
+    });
   }
 
   async fetchChallenges(): Promise<{ in: Challenge[]; out: Challenge[] }> {
@@ -50,22 +56,26 @@ export class Auth {
   }
 
   async acceptChallenge(challengeId: string) {
+    window.gtag("event", "accept_challenge");
     await this.fetchResponse(`/api/challenge/${challengeId}/accept`, {
       method: 'POST'
     });
   }
 
   async declineChallenge(challengeId: string) {
+    window.gtag("event", "decline_challenge");
     await this.fetchResponse(`/api/challenge/${challengeId}/decline`, {
       method: 'POST'
     });
   }
 
   async login() {
+    window.gtag("event", "login");
     await this.oauth.fetchAuthorizationCode();
   }
 
   async logout() {
+    window.gtag("event", "logout");
     if (this.me) await this.me.httpClient(`${lichessHost}/api/token`, { method: 'DELETE' });
     localStorage.clear();
     this.me = undefined;

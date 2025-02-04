@@ -13468,30 +13468,66 @@ const getRandomFenFromArray = (fenArrayType: FenArrayType): string => {
 
   switch (fenArrayType) {
     case FenArrayType.WinningArray:
+      window.gtag("event", "difficulty_selected", {
+        position_type: "winning",
+        game_phase: "midgame"
+      });
       fenArray = fenWinningArray;
       break;
     case FenArrayType.WinningArrayEndGame:
+      window.gtag("event", "difficulty_selected", {
+        position_type: "winning",
+        game_phase: "endgame"
+      });
       fenArray = fenWinningArrayEndGame;
       break;
     case FenArrayType.EqualArray:
+      window.gtag("event", "difficulty_selected", {
+        position_type: "equal",
+        game_phase: "midgame"
+      });
       fenArray = fenEqualArray;
       break;
     case FenArrayType.EqualArrayEndGame:
+      window.gtag("event", "difficulty_selected", {
+        position_type: "equal",
+        game_phase: "endgame"
+      });
       fenArray = fenEqualArrayEndGame;
       break;
     case FenArrayType.WinningArrayOpening:
+      window.gtag("event", "difficulty_selected", {
+        position_type: "winning",
+        game_phase: "opening"
+      });
       fenArray = fenWinningArrayOpening;
       break;
     case FenArrayType.EqualArrayOpening:
+      window.gtag("event", "difficulty_selected", {
+        position_type: "equal",
+        game_phase: "opening"
+      });
       fenArray = fenEqualArrayOpening;
       break;
     case FenArrayType.LosingArray:
+      window.gtag("event", "difficulty_selected", {
+        position_type: "losing",
+        game_phase: "midgame"
+      });
       fenArray = fenLosingArray;
       break;
     case FenArrayType.LosingArrayEndGame:
+      window.gtag("event", "difficulty_selected", {
+        position_type: "losing",
+        game_phase: "endgame"
+      });
       fenArray = fenLosingArrayEndGame;
       break;
     case FenArrayType.LosingArrayOpening:
+      window.gtag("event", "difficulty_selected", {
+        position_type: "losing",
+        game_phase: "opening"
+      });
       fenArray = fenLosingArrayOpening;
       break;
   }
@@ -13548,7 +13584,7 @@ export class Ctrl {
           this.challenges = data;
           this.redraw();
         } catch (e) {
-          console.error('Failed to poll challenges', e);
+          console.log('Failed to poll challenges', e);
         }
       }
     };
@@ -13608,6 +13644,14 @@ export class Ctrl {
     this.clockIncrement = clamp(this.clockIncrement, 0, 60);
     const fen = getRandomFenFromArray(fenArrayType);
     const turn = getTurnFromFEN(fen);
+    window.gtag("event", "game_start", {
+      position_type: this.getPositionType(fenArrayType),
+      game_phase: this.getGamePhase(fenArrayType),
+      opponent: "computer",
+      difficulty_level: this.level,
+      clock_limit: this.clockLimit,
+      clock_increment: this.clockIncrement
+    });
     this.challenge = await ChallengeCtrl.make(
         {
           username: "ai",
@@ -13623,6 +13667,31 @@ export class Ctrl {
     this.page = 'challenge';
     this.redraw();
   };
+
+  private getPositionType(fenType: FenArrayType): string {
+    switch(fenType) {
+      case FenArrayType.WinningArray:
+      case FenArrayType.WinningArrayEndGame:
+      case FenArrayType.WinningArrayOpening:
+        return "winning";
+      case FenArrayType.EqualArray:
+      case FenArrayType.EqualArrayEndGame:
+      case FenArrayType.EqualArrayOpening:
+        return "equal";
+      case FenArrayType.LosingArray:
+      case FenArrayType.LosingArrayEndGame:
+      case FenArrayType.LosingArrayOpening:
+        return "losing";
+      default:
+        return "unknown";
+    }
+  }
+
+  private getGamePhase(fenType: FenArrayType): string {
+    if(fenType.toString().includes("EndGame")) return "endgame";
+    if(fenType.toString().includes("Opening")) return "opening";
+    return "midgame";
+  }
 
   async acceptChallenge(challengeId: string) {
     await this.auth.acceptChallenge(challengeId);
@@ -13643,6 +13712,14 @@ export class Ctrl {
     this.clockIncrement = clamp(this.clockIncrement, 0, 60);
     const fen = getRandomFenFromArray(fenArrayType);
     const turn = getTurnFromFEN(fen);
+    window.gtag("event", "game_start", {
+      position_type: this.getPositionType(fenArrayType),
+      game_phase: this.getGamePhase(fenArrayType),
+      opponent: "human",
+      clock_limit: this.clockLimit,
+      clock_increment: this.clockIncrement,
+      username: username
+    });
     this.challenge = await ChallengeCtrl.make(
         {
           username: username,
