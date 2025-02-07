@@ -8,152 +8,77 @@ import { href } from '../routing';
 export const renderHome: Renderer = ctrl => (ctrl.auth.me ? userHome(ctrl) : anonHome());
 
 const userHome = (ctrl: Ctrl) => [
-    h('div', { attrs: { align: 'left' } },[
-        h('div', [
-            h('h2.mt-5', 'Game Settings'),
-            h('div.mb-3', [
-                h('label.form-label', { attrs: { for: 'level' } }, 'Computer Level (1-8):  '),
-                h('input', {
-                    attrs: {
-                        type: 'number',
-                        id: 'level',
-                        value: ctrl.level,
-                        min: 1,
-                        max: 8,
-                        class: 'form-control'
-                    },
-                    on: {
-                        input: (e: Event) => ctrl.level = Number((e.target as HTMLInputElement).value)
-                    }
-                })
-            ]),
-
-            h('div.mb-3', [
-                h('label.form-label', { attrs: { for: 'clockLimit' } }, 'Clock Limit (3-180 mins): '),
-                h('input', {
-                    attrs: {
-                        type: 'number',
-                        id: 'clockLimit',
-                        value: ctrl.clockLimit,
-                        min: 1,
-                        max: 180,
-                        class: 'form-control'
-                    },
-                    on: {
-                        input: (e: Event) => ctrl.clockLimit = Number((e.target as HTMLInputElement).value)
-                    }
-                })
-            ]),
-
-            h('div.mb-3', [
-                h('label.form-label', { attrs: { for: 'clockIncrement' } }, 'Clock Increment (0-60 secs):  '),
-                h('input', {
-                    attrs: {
-                        type: 'number',
-                        id: 'clockIncrement',
-                        value: ctrl.clockIncrement,
-                        min: 0,
-                        max: 60,
-                        class: 'form-control'
-                    },
-                    on: {
-                        input: (e: Event) => ctrl.clockIncrement = Number((e.target as HTMLInputElement).value)
-                    }
-                })
-            ]),
-            h('h2.mt-4', 'Play From Winning Position'),
-            h('div.mt-2', [
-                h(
-                    'button.btn.btn-outline-primary.btn-lg',
-                    {
-                        attrs: { type: 'button' },
-                        on: {click: () => showPlayerSelectionDialog(ctrl, FenArrayType.WinningArrayOpening)},
-                    },
-                    `Opening`
-                ),
-                h(
-                    'button.btn.btn-outline-primary.btn-lg',
-                    {
-                        attrs: { type: 'button' },
-                        on: {click: () => showPlayerSelectionDialog(ctrl, FenArrayType.WinningArray)}
-                    },
-                    `Middle Game`
-                ),
-                h(
-                    'button.btn.btn-outline-primary.btn-lg',
-                    {
-                        attrs: { type: 'button' },
-                        on: {click: () => showPlayerSelectionDialog(ctrl, FenArrayType.WinningArrayEndGame)}
-                    },
-                    `End Game`
-                ),
-            ]),
-            h('h2.mt-4', 'Play from Equal Position'),
-            h('div.mt-2', [
-                h(
-                    'button.btn.btn-outline-primary.btn-lg',
-                    {
-                        attrs: { type: 'button' },
-                        on: {click: () => showPlayerSelectionDialog(ctrl, FenArrayType.EqualArrayOpening)},
-                    },
-                    `Opening`
-                ),
-                h(
-                    'button.btn.btn-outline-primary.btn-lg',
-                    {
-                        attrs: { type: 'button' },
-                        on: {click: () => showPlayerSelectionDialog(ctrl, FenArrayType.EqualArray)}
-                    },
-                    `Middle Game`
-                ),
-                h(
-                    'button.btn.btn-outline-primary.btn-lg',
-                    {
-                        attrs: { type: 'button' },
-                        on: {click: () => showPlayerSelectionDialog(ctrl, FenArrayType.EqualArrayEndGame)},
-                    },
-                    `End Game`
-                )
-            ]),
-            h('h2.mt-4', 'Play from Losing Position'),
-            h('div.mt-2', [
-                h(
-                    'button.btn.btn-outline-primary.btn-lg',
-                    {
-                        attrs: { type: 'button' },
-                        on: {click: () => showPlayerSelectionDialog(ctrl, FenArrayType.LosingArrayOpening)},
-                    },
-                    `Opening`
-                ),
-                h(
-                    'button.btn.btn-outline-primary.btn-lg',
-                    {
-                        attrs: { type: 'button' },
-                        on: {click: () => showPlayerSelectionDialog(ctrl, FenArrayType.LosingArray)}
-                    },
-                    `Middle Game`
-                ),
-                h(
-                    'button.btn.btn-outline-primary.btn-lg',
-                    {
-                        attrs: { type: 'button' },
-                        on: {click: () => showPlayerSelectionDialog(ctrl, FenArrayType.LosingArrayEndGame)},
-                    },
-                    `End Game`
-                )
-            ]),
+    h('div.container', { attrs: { align: 'left' } }, [
+        h('div.row.g-4', [
+            h('div.col-12', [
+                h('div.card.p-3.mb-4', [
+                    h('h2.mb-3', 'Game Positions'),
+                    h('div.mb-4', [
+                        h('h3.text-muted.mb-2', 'Play From Winning Position'),
+                        h('div.d-grid.gap-2', [
+                            positionButton(ctrl, 'Opening', FenArrayType.WinningArrayOpening),
+                            positionButton(ctrl, 'Middle Game', FenArrayType.WinningArray),
+                            positionButton(ctrl, 'End Game', FenArrayType.WinningArrayEndGame)
+                        ])
+                    ]),
+                    h('div.mb-4', [
+                        h('h3.text-muted.mb-2', 'Play From Equal Position'),
+                        h('div.d-grid.gap-2', [
+                            positionButton(ctrl, 'Opening', FenArrayType.EqualArrayOpening),
+                            positionButton(ctrl, 'Middle Game', FenArrayType.EqualArray),
+                            positionButton(ctrl, 'End Game', FenArrayType.EqualArrayEndGame)
+                        ])
+                    ]),
+                    h('div.mb-4', [
+                        h('h3.text-muted.mb-2', 'Play From Losing Position'),
+                        h('div.d-grid.gap-2', [
+                            positionButton(ctrl, 'Opening', FenArrayType.LosingArrayOpening),
+                            positionButton(ctrl, 'Middle Game', FenArrayType.LosingArray),
+                            positionButton(ctrl, 'End Game', FenArrayType.LosingArrayEndGame)
+                        ])
+                    ])
+                ])
+            ])
         ]),
 
-        h('h2.mt-5', 'Challenges'),
-        h('div.challenges', renderChallenges(ctrl)),
-        h('h2.mt-5', 'Games in progress'),
-        h('div.games', renderGames(ctrl.games)),
-        h('h2.mt-5.mb-3', 'About'),
-        renderAbout(),
-        renderSuggestions()
-    ]),
+        h('div.row.g-4', [
+            h('div.col-12', [
+                h('div.card.p-3', [
+                    h('h2.mb-3', 'Challenges'),
+                    h('div.challenges', renderChallenges(ctrl))
+                ])
+            ]),
+            h('div.col-12', [
+                h('div.card.p-3', [
+                    h('h2.mb-3', 'Games in Progress'),
+                    h('div.games', renderGames(ctrl.games))
+                ])
+            ])
+        ]),
+
+        h('div.card.p-3.mt-4', [
+            h('h2.mb-3', 'About'),
+            renderAbout()
+        ]),
+
+        h('div.card.p-3.mt-4', [
+            renderSuggestions()
+        ])
+    ])
 ];
 
+function positionButton(ctrl: Ctrl, text: string, fenType: FenArrayType) {
+    return h(
+        'button.btn.btn-outline-primary.btn-lg',
+        {
+            attrs: { type: 'button' },
+            on: {
+                click: () => showPlayerSelectionDialog(ctrl, fenType)
+            }
+        },
+        text
+    );
+}
 
 
 
@@ -235,88 +160,201 @@ const renderGameWidget = (game: Game) =>
   );
 
 function showPlayerSelectionDialog(ctrl: Ctrl, fenArrayType: FenArrayType) {
-    const existingDialog = document.querySelector('.popup-dialog');
+    const existingDialog = document.querySelector('.popup-overlay');
     if (existingDialog) {
         document.body.removeChild(existingDialog);
     }
+
+    const overlay = document.createElement('div');
+    overlay.className = 'popup-overlay';
+    overlay.style.position = 'fixed';
+    overlay.style.top = '0';
+    overlay.style.left = '0';
+    overlay.style.width = '100vw';
+    overlay.style.height = '100vh';
+    overlay.style.backgroundColor = 'rgba(0, 0, 0, 0.5)';
+    overlay.style.display = 'flex';
+    overlay.style.justifyContent = 'center';
+    overlay.style.alignItems = 'center';
+    overlay.style.zIndex = '1000';
+
+    // Create dialog container
     const optionsDiv = document.createElement('div');
     optionsDiv.className = 'popup-dialog';
-    optionsDiv.style.position = 'fixed';
-    optionsDiv.style.top = '50%';
-    optionsDiv.style.left = '50%';
-    optionsDiv.style.transform = 'translate(-50%, -50%)';
-    optionsDiv.style.padding = '20px';
     optionsDiv.style.backgroundColor = 'white';
-    optionsDiv.style.boxShadow = '0 4px 6px rgba(0,0,0,0.1)';
-    optionsDiv.style.borderRadius = '8px';
-    optionsDiv.style.zIndex = '1000';
-    optionsDiv.style.border = '2px solid #ccc';
+    optionsDiv.style.borderRadius = '12px';
+    optionsDiv.style.padding = '30px';
+    optionsDiv.style.width = '90%';
+    optionsDiv.style.maxWidth = '600px';
+    optionsDiv.style.boxShadow = '0 8px 30px rgba(0,0,0,0.2)';
+    optionsDiv.style.border = '1px solid #e0e0e0';
 
     if (window.innerWidth < 550) {
         optionsDiv.innerHTML = `
-        <p style="margin-bottom: 20px; font-weight: bold; font-size: 20px;">Select your opponent:</p>
-        <button id="play-computer" class="btn btn-outline-primary" style="width: 100%;">Play Against Computer</button>
-        <button id="play-human" class="btn btn-outline-primary" style="width: 100%;">Play Against Human</button>
-    `;
-    }
-    else {
+            <h2 style="margin: 0 0 25px 0; color: #333; font-size: 24px; text-align: center;">Select Opponent</h2>
+            <div style="display: flex; flex-direction: column; gap: 15px;">
+                <button id="play-computer" class="btn btn-primary" 
+                    style="padding: 15px; font-size: 18px; border-radius: 8px;">
+                    🖥️ Play vs Computer
+                </button>
+                <button id="play-human" class="btn btn-primary" 
+                    style="padding: 15px; font-size: 18px; border-radius: 8px;">
+                    👤 Play vs Human
+                </button>
+            </div>
+        `;
+    } else {
         optionsDiv.innerHTML = `
-        <p style="margin-bottom: 20px; font-weight: bold; font-size: 20px;">Select your opponent:</p>
-        <button id="play-computer" class="btn btn-outline-primary">Play Against Computer</button>
-        <button id="play-human" class="btn btn-outline-primary">Play Against Human</button>
-    `;
+            <h2 style="margin: 0 0 30px 0; color: #333; font-size: 28px; text-align: center;">Select Your Opponent</h2>
+            <div style="display: flex; flex-direction: column; gap: 20px;">
+                <button id="play-computer" class="btn btn-primary" 
+                    style="padding: 18px; font-size: 20px; border-radius: 10px;">
+                    🖥️ Play Against Computer
+                </button>
+                <button id="play-human" class="btn btn-primary" 
+                    style="padding: 18px; font-size: 20px; border-radius: 10px;">
+                    👤 Play Against Human
+                </button>
+            </div>
+        `;
     }
 
-    document.body.appendChild(optionsDiv);
+    overlay.appendChild(optionsDiv);
+    document.body.appendChild(overlay);
 
+    // Event listeners
     document.getElementById('play-computer')?.addEventListener('click', () => {
-        ctrl.playAiFromPosition(fenArrayType);
-        closeOption();
-    });
+        const newContent = `
+    <div style="display: flex; flex-direction: column; gap: 25px;">
+        <h3 style="margin: 0; color: #333; font-size: 18px; text-align: center;">
+            Computer Level (1- 8)
+        </h3>
+        <input id="opponent-level" type="number"
+            placeholder="Computer Level (1- 8)"
+            value="${ctrl.level}"
+            style="padding: 12px; font-size: 16px; border: 2px solid #ddd; border-radius: 6px;">
+        
+        <h3 style="margin: 0; color: #333; font-size: 18px; text-align: center;">
+            Clock limit (3 - 180 minutes)
+        </h3>
+        <input id="clock-limit" type="number"
+            placeholder="Clock limit (3 - 180 minutes)"
+            value="${ctrl.clockLimit}"
+            style="padding: 12px; font-size: 16px; border: 2px solid #ddd; border-radius: 6px;">
+        
+        <h3 style="margin: 0; color: #333; font-size: 18px; text-align: center;">
+            Clock Increment (0 - 60 seconds)
+        </h3>
+        <input id="clock-increment" type="number"
+            placeholder="Clock Increment (0 - 60 seconds)"
+            value="${ctrl.clockIncrement}"
+            style="padding: 12px; font-size: 16px; border: 2px solid #ddd; border-radius: 6px;">
+        
+        <div style="display: flex; gap: 15px; justify-content: center;">
+            <button id="cancel-dialog" class="btn btn-secondary" 
+                style="padding: 12px 25px; font-size: 16px;">
+                Cancel
+            </button>
+            <button id="confirm-play" class="btn btn-primary" 
+                style="padding: 12px 25px; font-size: 16px;">
+                Play
+            </button>
+        </div>
+    </div>
+`;
+        optionsDiv.innerHTML = newContent;
+        optionsDiv.style.padding = '40px 30px';
+        optionsDiv.style.maxWidth = '500px';
 
-    document.getElementById('cancel-option')?.addEventListener('click', () => {
-        closeOption();
-    });
+        document.getElementById('confirm-play')?.addEventListener('click', () => {
+            const opponentLevelInput = (document.getElementById('opponent-level') as HTMLInputElement).value;
+            const clockLimitInput = (document.getElementById('clock-limit') as HTMLInputElement).value;
+            const clockIncrementInput = (document.getElementById('clock-increment') as HTMLInputElement).value;
 
-    document.addEventListener('click', (event) => {
-        const target = event.target as Element;
-        const existingDialog = document.querySelector('.popup-dialog');
-        if (existingDialog && optionsDiv && !optionsDiv.contains(target) && !target.closest('button')) {
+            const opponentLevel = parseInt(opponentLevelInput, 10);
+            if (!isNaN(opponentLevel)) {
+                ctrl.level = opponentLevel;
+            }
+
+            const clockLimit = parseInt(clockLimitInput, 10);
+            if (!isNaN(clockLimit)) {
+                ctrl.clockLimit = clockLimit;
+            }
+
+            const clockIncrement = parseInt(clockIncrementInput, 10);
+            if (!isNaN(clockIncrement)) {
+                ctrl.clockIncrement = clockIncrement;
+            }
+            ctrl.playAiFromPosition(fenArrayType);
             closeOption();
-        }
+        });
+
+        document.getElementById('cancel-dialog')?.addEventListener('click', () => {
+            closeOption();
+        });
     });
 
 
     document.getElementById('play-human')?.addEventListener('click', () => {
-        closeOption();
-        optionsDiv.className = 'popup-dialog';
-        optionsDiv.style.top = '50%';
-        optionsDiv.style.left = '50%';
-        optionsDiv.style.transform = 'translate(-50%, -50%)';
-        optionsDiv.style.padding = '20px';
-        optionsDiv.style.backgroundColor = 'white';
-        optionsDiv.style.boxShadow = '0 4px 6px rgba(0,0,0,0.1)';
-        optionsDiv.style.borderRadius = '8px';
-        optionsDiv.style.zIndex = '1001';
-        optionsDiv.style.border = '2px solid #ccc';
+        const newContent = `
+    <div style="display: flex; flex-direction: column; gap: 25px;">
+        <h2 style="margin: 0; color: #333; font-size: 22px; text-align: center;">
+            Enter Lichess Username
+        </h2>
+        <input id="opponent-username" type="text" 
+            placeholder="Username..."
+            style="padding: 12px; font-size: 16px; border: 2px solid #ddd; border-radius: 6px;">
+        
+        <h3 style="margin: 0; color: #333; font-size: 18px; text-align: center;">
+            Clock limit (1 - 180 minutes)
+        </h3>
+        <input id="clock-limit" type="number"
+            placeholder="Clock limit (1 - 180 minutes)"
+            value="${ctrl.clockLimit}"
+            style="padding: 12px; font-size: 16px; border: 2px solid #ddd; border-radius: 6px;">
+        
+        <h3 style="margin: 0; color: #333; font-size: 18px; text-align: center;">
+            Clock Increment (0 - 60 seconds)
+        </h3>
+        <input id="clock-increment" type="number"
+            placeholder="Clock Increment (0 - 60 seconds)"
+            value="${ctrl.clockIncrement}"
+            style="padding: 12px; font-size: 16px; border: 2px solid #ddd; border-radius: 6px;">
+        
+        <div style="display: flex; gap: 15px; justify-content: center;">
+            <button id="cancel-dialog" class="btn btn-secondary" 
+                style="padding: 12px 25px; font-size: 16px;">
+                Cancel
+            </button>
+            <button id="confirm-dialog" class="btn btn-primary" 
+                style="padding: 12px 25px; font-size: 16px;">
+                Challenge
+            </button>
+        </div>
+    </div>
+`;
 
-        optionsDiv.innerHTML = `
-            <label for="opponent-username" style="display: block; margin-bottom: 10px; font-weight: bold; font-size: 18px;">
-                Enter the Lichess username of your opponent:</label>
-
-            <input id="opponent-username" type="text" class="form-control" style="margin-bottom: 15px; width: 100%;" />
-            <div style="text-align: center;">
-                <button id="cancel-dialog" class="btn btn-outline-secondary">Cancel</button>
-                <button id="confirm-dialog" class="btn btn-outline-primary">Confirm</button>
-            </div>
-        `;
-
-        document.body.appendChild(optionsDiv);
+        optionsDiv.innerHTML = newContent;
+        optionsDiv.style.padding = '40px 30px';
+        optionsDiv.style.maxWidth = '500px';
 
         document.getElementById('confirm-dialog')?.addEventListener('click', () => {
             const usernameInput = (document.getElementById('opponent-username') as HTMLInputElement).value;
+            const clockLimitInput = (document.getElementById('clock-limit') as HTMLInputElement).value;
+            const clockIncrementInput = (document.getElementById('clock-increment') as HTMLInputElement).value;
+
+            const clockLimit = parseInt(clockLimitInput, 10);
+            if (!isNaN(clockLimit)) {
+                ctrl.clockLimit = clockLimit;
+            }
+
+            const clockIncrement = parseInt(clockIncrementInput, 10);
+            if (!isNaN(clockIncrement)) {
+                ctrl.clockIncrement = clockIncrement;
+            }
+
             if (usernameInput) {
-                ctrl.playHumanFromPosition(FenArrayType.WinningArrayOpening, usernameInput);
+                ctrl.playHumanFromPosition(fenArrayType, usernameInput);
             }
             closeOption();
         });
@@ -326,16 +364,18 @@ function showPlayerSelectionDialog(ctrl: Ctrl, fenArrayType: FenArrayType) {
         });
     });
 
+    overlay.addEventListener('click', (event) => {
+        if (event.target === overlay) {
+            closeOption();
+        }
+    });
+
     function closeOption() {
-        if (optionsDiv && optionsDiv.parentNode) {
-            document.body.removeChild(optionsDiv);
+        if (overlay && overlay.parentNode) {
+            document.body.removeChild(overlay);
         }
     }
 }
-
-
-
-
 
 
 

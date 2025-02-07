@@ -13570,7 +13570,7 @@ export class Ctrl {
 
   challenges: { in: Challenge[]; out: Challenge[] } = { in: [], out: [] };
   pollChallenges: () => Promise<void>;
-
+  private challengeInterval?: number;
   level: number = 3;
   clockLimit: number = 10;
   clockIncrement: number = 0;
@@ -13593,7 +13593,10 @@ export class Ctrl {
 
   openHome = async () => {
     this.page = 'home';
-    setInterval(this.pollChallenges, 5000);
+    if (this.challengeInterval) {
+      clearInterval(this.challengeInterval);
+    }
+    this.challengeInterval = window.setInterval(this.pollChallenges, 5000);
     await this.pollChallenges();
     if (this.auth.me) {
       await this.stream?.close();
@@ -13609,7 +13612,6 @@ export class Ctrl {
           default:
             // console.warn(`Unprocessed message of type ${msg.type}`, msg);
         }
-        this.redraw();
       });
     }
     this.redraw();
@@ -13664,7 +13666,7 @@ export class Ctrl {
         },
         this
     );
-    this.page = 'challenge';
+    this.page = 'game';
     this.redraw();
   };
 
