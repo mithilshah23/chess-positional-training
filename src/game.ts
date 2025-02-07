@@ -74,24 +74,22 @@ export class GameCtrl implements BoardCtrl {
     };
 
     const isPromotion = (orig: Key, dest: Key): boolean => {
-      const pawnStartRow = this.pov === 'white' ? '7' : '2'; // Second-to-last rank
-      const promotionRow = this.pov === 'white' ? '8' : '1'; // Last rank for promotion
-      const fen = (this.ground?.state as unknown as { fen: string })?.fen; // Current FEN
-      const piece = getPieceAt(fen, orig); // Get piece at orig
+      const pawnStartRow = this.pov === 'white' ? '7' : '2';
+      const promotionRow = this.pov === 'white' ? '8' : '1';
+      const fen = (this.ground?.state as unknown as { fen: string })?.fen;
+      const piece = getPieceAt(fen, orig);
 
       return <boolean>(
           piece &&
-          piece.toLowerCase() === 'p' && // Check if it's a pawn
+          piece.toLowerCase() === 'p' &&
           orig[1] === pawnStartRow &&
-          dest[1] === promotionRow // Check row conditions
+          dest[1] === promotionRow
       );
     };
 
     if (isPromotion(orig, dest)) {
-      // Show the promotion modal when a pawn is promoted
       this.showPromotionModal(orig, dest);
     } else {
-      // Handle normal move if not a promotion
       const move = `${orig}${dest}`;
       this.ground?.set({ turnColor: opposite(this.pov) });
       await this.root.auth.fetchBody(`/api/board/game/${this.game.id}/move/${move}`, { method: 'post' });
@@ -113,23 +111,22 @@ export class GameCtrl implements BoardCtrl {
     modal.style.zIndex = '1000';
     modal.style.textAlign = 'center';
     modal.innerHTML = `
-  <h3>Pawn Promotion</h3>
-  <p>Choose a piece to promote your pawn:</p>
-  <div style="display: flex; justify-content: center; gap: 10px;">
-    <button id="promoteKnight" style="font-size: 24px; padding: 10px;">
-      <i class="fas fa-chess-knight"></i> Knight
-    </button>
-    <button id="promoteBishop" style="font-size: 24px; padding: 10px;">
-      <i class="fas fa-chess-bishop"></i> Bishop
-    </button>
-    <button id="promoteRook" style="font-size: 24px; padding: 10px;">
-      <i class="fas fa-chess-rook"></i> Rook
-    </button>
-    <button id="promoteQueen" style="font-size: 24px; padding: 10px;"> 
-      <i class="fas fa-chess-queen"></i> Queen
-    </button>
-  </div>
-`;
+        <h4>Choose a piece to promote:</h4>
+        <div class="promotion-buttons">
+            <button id="promoteKnight" class="btn btn-secondary">
+                <i class="fas fa-chess-knight"></i> Knight
+            </button>
+            <button id="promoteBishop" class="btn btn-secondary">
+                <i class="fas fa-chess-bishop"></i> Bishop
+            </button>
+            <button id="promoteRook" class="btn btn-secondary">
+                <i class="fas fa-chess-rook"></i> Rook
+            </button>
+            <button id="promoteQueen" class="btn btn-secondary">
+                <i class="fas fa-chess-queen"></i> Queen
+            </button>
+        </div>
+    `;
 
     const overlay = document.createElement('div');
     overlay.id = 'overlay';
@@ -144,6 +141,44 @@ export class GameCtrl implements BoardCtrl {
 
     document.body.appendChild(modal);
     document.body.appendChild(overlay);
+
+    const style = document.createElement('style');
+    style.textContent = `
+        .promotion-buttons {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            flex-wrap: wrap;
+        }
+        
+        .promotion-buttons button {
+            font-size: 24px;
+            padding: 10px;
+            min-width: 100px;
+        }
+
+        @media (max-width: 600px) {
+            #promotionModal {
+                border: 3px solid #666 !important;
+                width: 90%;
+                max-width: 300px;
+                padding: 10px;
+            }
+
+            .promotion-buttons {
+                gap: 8px;
+                flex-direction: column;
+            }
+
+            .promotion-buttons button {
+                width: 100%;
+                font-size: 20px;
+                padding: 8px;
+                min-width: unset;
+            }
+        }
+    `;
+    document.head.appendChild(style);
   }
 
   private showPromotionModal(orig: Key, dest: Key) {
