@@ -41,15 +41,33 @@ export class GameCtrl implements BoardCtrl {
   };
 
   private onUpdate = () => {
-    const setup = this.game.initialFen == 'startpos' ? defaultSetup() : parseFen(this.game.initialFen).unwrap();
-    this.chess = Chess.fromSetup(setup).unwrap();
-    const moves = this.game.state.moves.split(' ').filter((m: string) => m);
-    moves.forEach((uci: string) => this.chess.play(parseUci(uci)!));
-    const lastMove = moves[moves.length - 1];
-    this.lastMove = lastMove && [lastMove.substr(0, 2) as Key, lastMove.substr(2, 2) as Key];
-    this.lastUpdateAt = Date.now();
-    this.ground?.set(this.chessgroundConfig());
-    if (this.chess.turn == this.pov) this.ground?.playPremove();
+    if(this.game.chatLine){
+        const opponentColor = this.pov === "white" ? "Black" : "White";
+        if (this.game.chatLine.text == opponentColor+" offers draw"){
+          const acceptDraw = confirm(`${opponentColor} offers a draw. Accept?`);
+          if (acceptDraw) {
+            this.draw();
+          } else {
+            this.game.drawRejected = true;
+            this.rejectDraw();
+          }
+        }
+        if (this.game.chatLine.text == opponentColor+" declines draw"){
+          this.game.drawRejected = true;
+          alert(`${opponentColor} has declined the draw.`);
+        }
+        this.game.chatLine = null;
+    } else {
+      const setup = this.game.initialFen == 'startpos' ? defaultSetup() : parseFen(this.game.initialFen).unwrap();
+      this.chess = Chess.fromSetup(setup).unwrap();
+      const moves = this.game.state.moves.split(' ').filter((m: string) => m);
+      moves.forEach((uci: string) => this.chess.play(parseUci(uci)!));
+      const lastMove = moves[moves.length - 1];
+      this.lastMove = lastMove && [lastMove.substr(0, 2) as Key, lastMove.substr(2, 2) as Key];
+      this.lastUpdateAt = Date.now();
+      this.ground?.set(this.chessgroundConfig());
+      if (this.chess.turn == this.pov) this.ground?.playPremove();
+    }
   };
 
   timeOf = (color: Color) => this.game.state[`${color[0]}time`];
@@ -226,6 +244,14 @@ export class GameCtrl implements BoardCtrl {
     await this.root.auth.fetchBody(`/api/board/game/${this.game.id}/resign`, { method: 'post' });
   };
 
+  draw = async () => {
+    await this.root.auth.fetchBody(`/api/board/game/${this.game.id}/draw/true`, { method: 'post' });
+  };
+
+  rejectDraw = async () => {
+    await this.root.auth.fetchBody(`/api/board/game/${this.game.id}/draw/false`, { method: 'post' });
+  };
+
   playing = () => this.game.state.status == 'started';
 
   chessgroundConfig = () => ({
@@ -274,6 +300,12 @@ export class GameCtrl implements BoardCtrl {
         this.onUpdate();
         this.root.redraw();
         break;
+      case 'chatLine':
+        this.game.chatLine = msg;
+        this.onUpdate();
+        this.root.redraw();
+        break;
+
       default:
         console.error(`Unknown message type: ${msg.type}`, msg);
     }

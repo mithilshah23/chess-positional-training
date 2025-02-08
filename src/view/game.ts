@@ -27,6 +27,49 @@ export const renderGame: (ctrl: GameCtrl) => Renderer = ctrl => _ =>
 
 const renderButtons = (ctrl: GameCtrl) => {
     const hasMoreThanOneMove = ctrl.game.state.moves.split(' ').length > 1;
+    const hasRejectedDraw = ctrl.game.drawRejected;
+    const isOpponentAi = (ctrl.pov === "white" && ctrl.game.black.aiLevel) || (ctrl.pov === "black" && ctrl.game.white.aiLevel)
+    if(!isOpponentAi && !hasRejectedDraw) {
+        return h('div.btn-group.mt-4', hasMoreThanOneMove ? [
+            h(
+                'button.btn.btn-secondary.me-2',
+                {
+                    attrs: {type: 'button', disabled: !ctrl.playing()},
+                    on: {
+                        click() {
+                            if (confirm('Offer a draw?')) ctrl.draw();
+                        },
+                    },
+                },
+                'Draw'
+            ),
+            h(
+                'button.btn.btn-secondary',
+                {
+                    attrs: {type: 'button', disabled: !ctrl.playing()},
+                    on: {
+                        click() {
+                            if (confirm('Confirm resign?')) ctrl.resign();
+                        },
+                    },
+                },
+                'Resign'
+            )
+        ] : [
+            h(
+                'button.btn.btn-secondary',
+                {
+                    attrs: {type: 'button', disabled: !ctrl.playing()},
+                    on: {
+                        click() {
+                            if (confirm('Abort game?')) ctrl.resign();
+                        },
+                    },
+                },
+                'Abort'
+            )
+        ]);
+    }
     return h('div.btn-group.mt-4', [
         h(
             'button.btn.btn-secondary',
@@ -41,7 +84,7 @@ const renderButtons = (ctrl: GameCtrl) => {
             hasMoreThanOneMove ? 'Resign' : 'Abort'
         )
     ]);
-}
+};
 
 const renderState = (ctrl: GameCtrl) => {
     const game = ctrl.game;
