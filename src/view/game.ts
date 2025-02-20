@@ -122,6 +122,11 @@ const renderState = (ctrl: GameCtrl) => {
         h('span', 'Game ended by '),
         ctrl.game.state.status,
         h('br'),
+        ...(ctrl.game.state.winner ? [
+            ctrl.game.state.winner,
+            h('span', ' won'),
+            h('br')
+        ] : []),
         h('span', 'Analyse game on '),
         h('br'),
         h('a', {
