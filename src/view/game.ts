@@ -31,20 +31,48 @@ const renderButtons = (ctrl: GameCtrl) => {
     const hasRejectedTakeback = ctrl.game.offerTakeback;
     const isOpponentAi = (ctrl.pov === "white" && ctrl.game.black.aiLevel) || (ctrl.pov === "black" && ctrl.game.white.aiLevel)
     if(isOpponentAi) {
-        return h('div.btn-group.mt-4', [
-            h(
-                'button.btn.btn-secondary',
-                {
-                    attrs: {type: 'button', disabled: !ctrl.playing()},
-                    on: {
-                        click() {
-                            if (confirm('Confirm?')) ctrl.resign();
+        if(!hasMoreThanOneMove){
+            return h('div.btn-group.mt-4', [
+                h(
+                    'button.btn.btn-secondary',
+                    {
+                        attrs: {type: 'button', disabled: !ctrl.playing()},
+                        on: {
+                            click() {
+                                if (confirm('Abort game?')) ctrl.resign();
+                            },
                         },
                     },
-                },
-                hasMoreThanOneMove ? 'Resign' : 'Abort'
-            )
-        ]);
+                    'Abort'
+                )]);
+        }
+        else {
+            return h('div.btn-group.mt-4', [
+                h(
+                    'button.btn.btn-secondary.me-2',
+                    {
+                        attrs: {type: 'button', disabled: !ctrl.playing()},
+                        on: {
+                            click() {
+                                ctrl.acceptTakeback();
+                            },
+                        },
+                    },
+                    'Undo'
+                ),
+                h(
+                    'button.btn.btn-secondary',
+                    {
+                        attrs: {type: 'button', disabled: !ctrl.playing()},
+                        on: {
+                            click() {
+                                if (confirm('Confirm resign?')) ctrl.resign();
+                            },
+                        },
+                    },
+                    'Resign'
+                )])
+        }
     }
     if(!hasMoreThanOneMove) {
         return h('div.btn-group.mt-4', [
