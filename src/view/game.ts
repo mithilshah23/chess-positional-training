@@ -27,17 +27,49 @@ export const renderGame: (ctrl: GameCtrl) => Renderer = ctrl => _ =>
 
 const renderButtons = (ctrl: GameCtrl) => {
     const hasMoreThanOneMove = ctrl.game.state.moves.split(' ').length > 1;
-    const hasRejectedDraw = ctrl.game.drawRejected;
+    const hasRejectedDraw = ctrl.game.offerDraw;
+    const hasRejectedTakeback = ctrl.game.offerTakeback;
     const isOpponentAi = (ctrl.pov === "white" && ctrl.game.black.aiLevel) || (ctrl.pov === "black" && ctrl.game.white.aiLevel)
-    if(!isOpponentAi && !hasRejectedDraw) {
-        return h('div.btn-group.mt-4', hasMoreThanOneMove ? [
+    if(isOpponentAi) {
+        return h('div.btn-group.mt-4', [
+            h(
+                'button.btn.btn-secondary',
+                {
+                    attrs: {type: 'button', disabled: !ctrl.playing()},
+                    on: {
+                        click() {
+                            if (confirm('Confirm?')) ctrl.resign();
+                        },
+                    },
+                },
+                hasMoreThanOneMove ? 'Resign' : 'Abort'
+            )
+        ]);
+    }
+    if(!hasMoreThanOneMove) {
+        return h('div.btn-group.mt-4', [
+            h(
+            'button.btn.btn-secondary',
+            {
+                attrs: {type: 'button', disabled: !ctrl.playing()},
+                on: {
+                    click() {
+                        if (confirm('Abort game?')) ctrl.resign();
+                    },
+                },
+            },
+            'Abort'
+        )]);
+    }
+    if(!hasRejectedDraw && hasRejectedTakeback) {
+        return h('div.btn-group.mt-4', [
             h(
                 'button.btn.btn-secondary.me-2',
                 {
                     attrs: {type: 'button', disabled: !ctrl.playing()},
                     on: {
                         click() {
-                            if (confirm('Offer a draw?')) ctrl.draw();
+                            if (confirm('Offer a draw?')) ctrl.offerDraw();
                         },
                     },
                 },
@@ -55,35 +87,91 @@ const renderButtons = (ctrl: GameCtrl) => {
                 },
                 'Resign'
             )
-        ] : [
+        ]);
+    }
+    else if(hasRejectedDraw && !hasRejectedTakeback){
+        return h('div.btn-group.mt-4', [
+            h(
+                'button.btn.btn-secondary.me-2',
+                {
+                    attrs: {type: 'button', disabled: !ctrl.playing()},
+                    on: {
+                        click() {
+                            if (confirm('Offer a takeback?')) ctrl.offerTakeback();
+                        },
+                    },
+                },
+                'Takeback'
+            ),
             h(
                 'button.btn.btn-secondary',
                 {
                     attrs: {type: 'button', disabled: !ctrl.playing()},
                     on: {
                         click() {
-                            if (confirm('Abort game?')) ctrl.resign();
+                            if (confirm('Confirm resign?')) ctrl.resign();
                         },
                     },
                 },
-                'Abort'
+                'Resign'
             )
         ]);
     }
-    return h('div.btn-group.mt-4', [
+    else if(hasRejectedDraw && hasRejectedTakeback){
+        return h('div.btn-group.mt-4', [
+            h(
+                'button.btn.btn-secondary',
+                {
+                    attrs: {type: 'button', disabled: !ctrl.playing()},
+                    on: {
+                        click() {
+                            if (confirm('Confirm resign?')) ctrl.resign();
+                        },
+                    },
+                },
+                'Resign'
+            )
+        ]);
+    }
+    return  h('div.btn-group.mt-4', [
+        h(
+            'button.btn.btn-secondary.me-2',
+            {
+                attrs: {type: 'button', disabled: !ctrl.playing()},
+                on: {
+                    click() {
+                        if (confirm('Offer a takeback?')) ctrl.offerTakeback();
+                    },
+                },
+            },
+            'Takeback'
+        ),
+        h(
+            'button.btn.btn-secondary.me-2',
+            {
+                attrs: {type: 'button', disabled: !ctrl.playing()},
+                on: {
+                    click() {
+                        if (confirm('Offer a draw?')) ctrl.offerDraw();
+                    },
+                },
+            },
+            'Draw'
+        ),
         h(
             'button.btn.btn-secondary',
             {
                 attrs: {type: 'button', disabled: !ctrl.playing()},
                 on: {
                     click() {
-                        if (confirm('Confirm?')) ctrl.resign();
+                        if (confirm('Confirm resign?')) ctrl.resign();
                     },
                 },
             },
-            hasMoreThanOneMove ? 'Resign' : 'Abort'
+            'Resign'
         )
     ]);
+
 };
 
 const renderState = (ctrl: GameCtrl) => {

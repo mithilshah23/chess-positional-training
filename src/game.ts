@@ -41,23 +41,44 @@ export class GameCtrl implements BoardCtrl {
   };
 
   private onUpdate = () => {
-    if(this.game.chatLine){
-        const opponentColor = this.pov === "white" ? "Black" : "White";
-        if (this.game.chatLine.text == opponentColor+" offers draw"){
-          const acceptDraw = confirm(`${opponentColor} offers a draw. Accept?`);
-          if (acceptDraw) {
-            this.draw();
-          } else {
-            this.game.drawRejected = true;
-            this.rejectDraw();
-          }
-        }
-        if (this.game.chatLine.text == opponentColor+" declines draw"){
+    const opponentColor = this.pov === "white" ? "Black" : "White";
+    if(this.game.chatLine) {
+        if (this.game.chatLine.text == opponentColor+" declines draw") {
           this.game.drawRejected = true;
           alert(`${opponentColor} has declined the draw.`);
         }
+        else if(this.game.chatLine.text == "Takeback declined" && this.game.offerTakeback) {
+          alert(`${opponentColor} has declined the takeback.`);
+        }
         this.game.chatLine = null;
     } else {
+      const opponentLetter = (this.pov == 'white') ? 'b':'w';
+      const opponentDraw =  this.game.state[opponentLetter + "draw"]
+      const opponentTakeback = this.game.state[opponentLetter + "takeback"]
+      const playerDraw = this.game.state[this.pov[0] + "draw"]
+      const playerTakeback = this.game.state[this.pov[0] + "takeback"]
+      if(opponentDraw){
+        const acceptDraw = confirm(`${opponentColor} offers a draw. Accept?`);
+        if (acceptDraw) {
+          this.acceptDraw();
+        } else {
+          this.rejectDraw();
+        }
+      }
+      else if(opponentTakeback){
+        const acceptTakeback = confirm(`${opponentColor} offers a takeback. Accept?`);
+        if (acceptTakeback) {
+          this.acceptTakeback();
+        } else {
+          this.rejectTakeback();
+        }
+      }
+      else if(!(playerTakeback || playerDraw)) {
+        if(this.game.moveCnt != this.game.state.moves.length) {
+          this.game.offerTakeback = false;
+        }
+      }
+      this.game.moveCnt = this.game.state.moves.length
       const setup = this.game.initialFen == 'startpos' ? defaultSetup() : parseFen(this.game.initialFen).unwrap();
       this.chess = Chess.fromSetup(setup).unwrap();
       const moves = this.game.state.moves.split(' ').filter((m: string) => m);
@@ -237,19 +258,34 @@ export class GameCtrl implements BoardCtrl {
     this.root.auth.fetchBody(`/api/board/game/${this.game.id}/move/${move}`, { method: 'post' });
   }
 
-
-
-
   resign = async () => {
     await this.root.auth.fetchBody(`/api/board/game/${this.game.id}/resign`, { method: 'post' });
   };
 
-  draw = async () => {
+  offerDraw = async () => {
+    this.game.offerDraw = true
+    await this.root.auth.fetchBody(`/api/board/game/${this.game.id}/draw/true`, { method: 'post' });
+  };
+
+  acceptDraw = async () => {
     await this.root.auth.fetchBody(`/api/board/game/${this.game.id}/draw/true`, { method: 'post' });
   };
 
   rejectDraw = async () => {
     await this.root.auth.fetchBody(`/api/board/game/${this.game.id}/draw/false`, { method: 'post' });
+  };
+
+  offerTakeback = async () => {
+    this.game.offerTakeback = true
+    await this.root.auth.fetchBody(`/api/board/game/${this.game.id}/takeback/true`, { method: 'post' });
+  };
+
+  acceptTakeback = async () => {
+    await this.root.auth.fetchBody(`/api/board/game/${this.game.id}/takeback/true`, { method: 'post' });
+  };
+
+  rejectTakeback = async () => {
+    await this.root.auth.fetchBody(`/api/board/game/${this.game.id}/takeback/false`, { method: 'post' });
   };
 
   playing = () => this.game.state.status == 'started';
