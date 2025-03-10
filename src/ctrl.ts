@@ -13500,7 +13500,7 @@ const fenEnglishOpeningAngloIndianDefenseKingsIndianFormation_A15 = ["rnbqkb1r/p
 const fenQueensGambitDeclinedGeneral_D30 = ["rnbqkbnr/ppp2ppp/4p3/3p4/2PP4/8/PP2PPPP/RNBQKBNR w KQkq - 0 3"];
 const fenQueenPawnGameSarrattAttack_D00 = ["rnbqkbnr/ppp1pppp/8/3p4/3P1B2/8/PPP1PPPP/RN1QKBNR b KQkq - 1 2"];
 const fenSicilianDefenseKanVariationKnightVariation_B43 = ["rnbqkbnr/1p1p1ppp/p3p3/8/3NP3/2N5/PPP2PPP/R1BQKB1R b KQkq - 1 5"];
-const fenQueensGambitDeclinedExchangeVariationPositionalVariation_D35 = ["rnbqkb1r/ppp2ppp/5n2/3p2B1/3P4/2N5/PP2PPPP/R2QKBNR b KQkq - 1 5"];
+const fenQueensGambitDeclinedExchangeVariationPositionalVariation_1_D35 = ["rnbqkb1r/ppp2ppp/5n2/3p2B1/3P4/2N5/PP2PPPP/R2QKBNR b KQkq - 1 5"];
 const fenQueenPawnGameZukertortVariation_D02 = ["rnbqkbnr/ppp1pppp/8/3p4/3P4/5N2/PPP1PPPP/RNBQKB1R b KQkq - 1 2"];
 const fenSicilianDefensePaulsenVariationBastrikovVariation_B47 = ["r1b1kbnr/ppqp1ppp/2n1p3/8/3NP3/2N5/PPP2PPP/R1BQKB1R w KQkq - 3 6"];
 const fenItalianGameTwoKnightsDefenseModernBishopsOpening_C55 = ["r1bqkb1r/pppp1ppp/2n2n2/4p3/2B1P3/3P1N2/PPP2PPP/RNBQK2R b KQkq - 0 4"];
@@ -13587,7 +13587,7 @@ const fenCaroKannDefenseAdvanceVariationTalVariation_B12 = ["rn1qkbnr/pp2pppp/2p
 const fenScandinavianDefenseGubinskyMeltsDefense_B01 = ["rnb1kbnr/ppp1pppp/3q4/8/8/2N5/PPPP1PPP/R1BQKBNR w KQkq - 2 4"];
 const fenIndianGameSpielmannIndian_A46 = ["rnbqkb1r/pp1ppppp/5n2/2p5/3P4/5N2/PPP1PPPP/RNBQKB1R w KQkq - 0 3"];
 const fenIndianGameWadeTarkatowerDefense_A46 = ["rnbqkb1r/ppp1pppp/3p1n2/8/3P4/5N2/PPP1PPPP/RNBQKB1R w KQkq - 0 3"];
-const fenSpanishGameMorphyDefense_C78 = ["r1bqkb1r/1ppp1ppp/p1n2n2/4p3/B3P3/5N2/PPPP1PPP/RNBQ1RK1 b kq - 3 5"];
+const fenSpanishGameMorphyDefense_1_C78 = ["r1bqkb1r/1ppp1ppp/p1n2n2/4p3/B3P3/5N2/PPPP1PPP/RNBQ1RK1 b kq - 3 5"];
 const fenFrenchDefenseAdvanceVariationEuweVariation_C02 = ["r2qkbnr/pp1b1ppp/2n1p3/2ppP3/3P4/2P2N2/PP3PPP/RNBQKB1R w KQkq - 3 6"];
 const fenTorreAttackClassicalDefense_A46 = ["rnbqkb1r/pppp1ppp/4pn2/6B1/3P4/5N2/PPP1PPPP/RN1QKB1R b KQkq - 1 3"];
 const fenCaroKannDefenseClassicalVariation_B18 = ["rn1qkbnr/pp2pppp/2p5/5b2/3PN3/8/PPP2PPP/R1BQKBNR w KQkq - 1 5"];
@@ -13606,7 +13606,8 @@ const fenDutchDefenseGeneral_A80 = ["rnbqkbnr/ppppp1pp/8/5p2/3P4/8/PPP1PPPP/RNBQ
 const fenSicilianDefensePaulsenVariationBastrikovVariation_B48 = ["r1b1kbnr/ppqp1ppp/2n1p3/8/3NP3/2N1B3/PPP2PPP/R2QKB1R b KQkq - 4 6"];
 const fenQueensGambitDeclinedRagozinDefense_D38 = ["rnbqk2r/ppp2ppp/4pn2/3p4/1bPP4/2N2N2/PP2PPPP/R1BQKB1R w KQkq - 4 5"];
 const fenKingsIndianDefenseOrthodoxVariationPositionalDefense_E94 = ["r1bq1rk1/pppn1pbp/3p1np1/4p3/2PPP3/2N2N2/PP2BPPP/R1BQ1RK1 w - - 2 8"];
-const fenSicilianDefenseScheveningenVariationClassicalVariation_B84 = ["rnbqkb1r/1p3ppp/p2ppn2/8/3NP3/2N5/PPP1BPPP/R1BQK2R w KQkq - 0 7"];
+const fenQueensGambitDeclinedExchangeVariationPositionalVariation_2_D35 = ["rnbqkb1r/pp3ppp/2p2n2/3p2B1/3P4/2N5/PP2PPPP/R2QKBNR w KQkq - 0 6"];
+const fenSicilianDefenseScheveningenVariationClassicalVariation_1_B84 = ["rnbqkb1r/1p3ppp/p2ppn2/8/3NP3/2N5/PPP1BPPP/R1BQK2R w KQkq - 0 7"];
 const fenItalianGameItalianVariation_C50 = ["r1bqk1nr/pppp1ppp/2n5/2b1p3/2B1P3/5N2/PPPP1PPP/RNBQK2R w KQkq - 4 4"];
 const fenSlavDefenseChameleonVariation_D15 = ["rnbqkb1r/1p2pppp/p1p2n2/3p4/2PP4/2N2N2/PP2PPPP/R1BQKB1R w KQkq - 0 5"];
 const fenKingsIndianDefenseSaemischVariationNormalDefense_E81 = ["rnbq1rk1/ppp1ppbp/3p1np1/8/2PPP3/2N2P2/PP4PP/R1BQKBNR w KQ - 1 6"];
@@ -13622,7 +13623,7 @@ const fenEnglishOpeningSymmetricalVariationTwoKnightsLine_A37 = ["r1bqk1nr/pp1pp
 const fenKingsIndianDefenseOrthodoxVariationGligoricTaimanovSystem_E92 = ["rnbq1rk1/ppp2pbp/3p1np1/4p3/2PPP3/2N1BN2/PP2BPPP/R2QK2R b KQ - 1 7"];
 const fenScandinavianDefenseMainLinesMiesesVariation_B01 = ["rnb1kb1r/ppp1pppp/5n2/q7/3P4/2N5/PPP2PPP/R1BQKBNR w KQkq - 1 5"];
 const fenEnglishOpeningSymmetricalVariationSymmetricalVariation_A36 = ["r1bqk1nr/pp1pppbp/2n3p1/2p5/2P5/2N3P1/PP1PPPBP/R1BQK1NR w KQkq - 2 5"];
-const fenScandinavianDefenseModernVariation_B01 = ["rnbqkb1r/ppp1pppp/5n2/3P4/8/8/PPPP1PPP/RNBQKBNR w KQkq - 1 3"];
+const fenScandinavianDefenseModernVariation_1_B01 = ["rnbqkb1r/ppp1pppp/5n2/3P4/8/8/PPPP1PPP/RNBQKBNR w KQkq - 1 3"];
 const fenCaroKannDefenseTwoKnightsAttackMindenoVariationExchangeLine_B11 = ["rn1qkbnr/pp2pppp/2p5/3p4/4P3/2N2b1P/PPPP1PP1/R1BQKB1R w KQkq - 0 5"];
 const fenOwenDefenseGeneral_B00 = ["rnbqkbnr/p1pppppp/1p6/8/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2"];
 const fenEnglishOpeningSymmetricalVariationHedgehogDefense_A30 = ["rn1qk2r/pb1pbppp/1p2pn2/2p5/2P5/2N2NP1/PP1PPPBP/R1BQ1RK1 w kq - 2 7"];
@@ -13649,7 +13650,7 @@ const fenQueenPawnGameColleSystem_D04 = ["rnbqkb1r/ppp1pppp/5n2/3p4/3P4/4PN2/PPP
 const fenFrenchDefenseAdvanceVariationMainLine_C02 = ["r1b1kbnr/pp3ppp/1qn1p3/2ppP3/3P4/P1P2N2/1P3PPP/RNBQKB1R b KQkq - 0 6"];
 const fenBenkoGambitAcceptedFullyAcceptedVariation_A58 = ["rnbqkb1r/3ppppp/P4n2/2pP4/8/8/PP2PPPP/RNBQKBNR b KQkq - 0 5"];
 const fenBenoniDefenseModernVariation_A56 = ["rnbqkb1r/pp1ppppp/5n2/2p5/2PP4/8/PP2PPPP/RNBQKBNR w KQkq - 0 3"];
-const fenFrenchDefenseTarraschVariationClosedVariation_C05 = ["r1bqkb1r/pp1n1ppp/2n1p3/2ppP3/3P4/2PB4/PP1N1PPP/R1BQK1NR w KQkq - 1 7"];
+const fenFrenchDefenseTarraschVariationClosedVariation_1_C05 = ["r1bqkb1r/pp1n1ppp/2n1p3/2ppP3/3P4/2PB4/PP1N1PPP/R1BQK1NR w KQkq - 1 7"];
 const fenSicilianDefenseNajdorfVariationAmsterdamVariation_B93 = ["rnbqkb1r/1p2pppp/p2p1n2/8/3NPP2/2N5/PPP3PP/R1BQKB1R b KQkq - 0 6"];
 const fenCaroKannDefenseAcceleratedPanovAttackModernVariation_B10 = ["rnbqkb1r/pp2pppp/5n2/3P4/8/8/PP1P1PPP/RNBQKBNR w KQkq - 1 5"];
 const fenQueenPawnGameChigorinVariation_D02 = ["r1bqkbnr/ppp1pppp/2n5/3p4/3P4/5N2/PPP1PPPP/RNBQKB1R w KQkq - 2 3"];
@@ -13670,7 +13671,7 @@ const fenKingsIndianDefenseOrthodoxVariationGlekDefense_E94 = ["r1bq1rk1/ppp2pbp
 const fenEnglishOpeningAgincourtDefenseCatalanDefenseAccepted_A13 = ["rnbqkb1r/ppp2ppp/4pn2/8/2p5/5NP1/PP1PPPBP/RNBQK2R w KQkq - 0 5"];
 const fenSicilianDefenseNajdorfVariationOpocenskyVariationTraditionalLine_B92 = ["rnbq1rk1/1p2bppp/p2p1n2/4p3/4P3/1NN5/PPP1BPPP/R1BQ1RK1 w - - 4 9"];
 const fenKingsIndianAttackYugoslavVariation_A07 = ["rn1qkb1r/pp2pppp/2p2n2/3p4/6b1/5NP1/PPPPPPBP/RNBQ1RK1 w kq - 2 5"];
-const fenSicilianDefenseScheveningenVariationEnglishAttack_B80 = ["rnbqkb1r/1p3ppp/p2ppn2/8/3NP3/2N1BP2/PPP3PP/R2QKB1R b KQkq - 0 7"];
+const fenSicilianDefenseScheveningenVariationEnglishAttack_1_B80 = ["rnbqkb1r/1p3ppp/p2ppn2/8/3NP3/2N1BP2/PPP3PP/R2QKB1R b KQkq - 0 7"];
 const fenModernDefensePseudoAustrianAttack_B06 = ["rnbqk1nr/ppp1ppbp/3p2p1/8/3PPP2/2N5/PPP3PP/R1BQKBNR b KQkq - 0 4"];
 const fenAlekhineDefenseScandinavianVariation_B02 = ["rnbqkb1r/ppp1pppp/5n2/3p4/4P3/2N5/PPPP1PPP/R1BQKBNR w KQkq - 0 3"];
 const fenQueensGambitDeclinedBarmenVariation_D37 = ["r1bqkb1r/pppn1ppp/4pn2/3p4/2PP4/2N2N2/PP2PPPP/R1BQKB1R w KQkq - 4 5"];
@@ -13694,7 +13695,7 @@ const fenSpanishGameClosedVariationsMartinezVariation_C78 = ["r1bqk2r/1pppbppp/p
 const fenSemiSlavDefenseAcceleratedMoveOrder_D31 = ["rnbqkbnr/pp3ppp/2p1p3/3p4/2PP4/2N5/PP2PPPP/R1BQKBNR w KQkq - 0 4"];
 const fenCaroKannDefenseExchangeVariationRubinsteinVariation_B13 = ["r1bqkb1r/pp2pppp/2n2n2/3p4/3P1B2/2PB4/PP3PPP/RN1QK1NR b KQkq - 2 6"];
 const fenBishopsOpeningBerlinDefense_C24 = ["rnbqkb1r/pppp1ppp/5n2/4p3/2B1P3/8/PPPP1PPP/RNBQK1NR w KQkq - 2 3"];
-const fenSicilianDefenseLaskerPelikanVariationSveshnikovVariation_B33 = ["r1bqkb1r/5p1p/p1np4/1p1Npp2/4P3/N7/PPP2PPP/R2QKB1R w KQkq - 0 11"];
+const fenSicilianDefenseLaskerPelikanVariationSveshnikovVariation_1_B33 = ["r1bqkb1r/5p1p/p1np4/1p1Npp2/4P3/N7/PPP2PPP/R2QKB1R w KQkq - 0 11"];
 const fenSicilianDefenseNajdorfVariationZagrebFianchettoVariation_B91 = ["rnbqkb1r/1p2pppp/p2p1n2/8/3NP3/2N3P1/PPP2P1P/R1BQKB1R b KQkq - 0 6"];
 const fenSicilianDefensePaulsenVariationGeneral_B44 = ["r1bqkbnr/pp1p1ppp/2n1p3/8/3NP3/8/PPP2PPP/RNBQKB1R w KQkq - 1 5"];
 const fenTrompowskyAttackClassicalDefenseBigCenterVariation_A45 = ["rnbqkb1r/pppp1ppp/4pn2/6B1/3PP3/8/PPP2PPP/RN1QKBNR b KQkq - 0 3"];
@@ -13708,7 +13709,7 @@ const fenFrenchDefenseWinawerVariationAdvanceVariationGeneral_C16 = ["rnbqk1nr/p
 const fenKingsIndianDefenseFianchettoVariationClassicalMainLine_E69 = ["r1bq1rk1/pp1n1pbp/2pp1np1/4p3/2PPP3/2N2NPP/PP3PB1/R1BQ1RK1 b - - 0 9"];
 const fenQueensGambitDeclinedCambridgeSpringsVariation_D52 = ["r1b1kb1r/pp1n1ppp/2p1pn2/q2p2B1/2PP4/2N1PN2/PP3PPP/R2QKB1R w KQkq - 1 7"];
 const fenQueensGambitDeclinedTartakowerDefenseGeneral_D58 = ["rnbq1rk1/p1p1bpp1/1p2pn1p/3p4/2PP3B/2N1PN2/PP3PPP/R2QKB1R w KQ - 0 8"];
-const fenPhilidorDefenseExchangeVariation_C41 = ["rnbqkb1r/ppp2ppp/3p1n2/8/3NP3/8/PPP2PPP/RNBQKB1R w KQkq - 1 5"];
+const fenPhilidorDefenseExchangeVariation_1_C41 = ["rnbqkb1r/ppp2ppp/3p1n2/8/3NP3/8/PPP2PPP/RNBQKB1R w KQkq - 1 5"];
 const fenQueensIndianDefenseFianchettoVariationNimzowitschVariation_E15 = ["rn1qkb1r/p1pp1ppp/bp2pn2/8/2PP4/5NP1/PP2PP1P/RNBQKB1R w KQkq - 1 5"];
 const fenCaroKannDefenseMaroczyVariation_B12 = ["rnbqkbnr/pp2pppp/2p5/3p4/3PP3/5P2/PPP3PP/RNBQKBNR b KQkq - 0 3"];
 const fenGruenfeldDefenseGeneral_D80 = ["rnbqkb1r/ppp1pp1p/5np1/3p4/2PP4/2N5/PP2PPPP/R1BQKBNR w KQkq - 0 4"];
@@ -13735,6 +13736,7 @@ const fenNimzoIndianDefenseClassicalVariationKeresDefense_E32 = ["rnbq1rk1/p1pp1
 const fenSpanishGameBerlinDefenseRioGambitAccepted_C67 = ["r1bqkb1r/pppp1ppp/2n5/1B2p3/4n3/5N2/PPPP1PPP/RNBQ1RK1 w kq - 0 5"];
 const fenIndianGameTartakowerAttack_A45 = ["rnbqkb1r/pppppppp/5n2/8/3P4/6P1/PPP1PP1P/RNBQKBNR b KQkq - 0 2"];
 const fenBenoniDefenseBenoniIndianDefenseKingsidemoveorder_A43 = ["rnbqkb1r/pp1ppppp/5n2/2pP4/8/5N2/PPP1PPPP/RNBQKB1R b KQkq - 2 3"];
+const fenFrenchDefenseTarraschVariationClosedVariation_2_C05 = ["rnbqkb1r/ppp2ppp/4pn2/3p4/3PP3/8/PPPN1PPP/R1BQKBNR w KQkq - 2 4"];
 const fenFrenchDefenseClassicalVariationBurnVariation_C11 = ["rnbqkb1r/ppp2ppp/4pn2/6B1/3Pp3/2N5/PPP2PPP/R2QKBNR w KQkq - 0 5"];
 const fenEnglishOpeningKingsEnglishVariationReversedClosedSicilian_A25 = ["r1bqkbnr/pppp1ppp/2n5/4p3/2P5/2N5/PP1PPPPP/R1BQKBNR w KQkq - 2 3"];
 const fenIndianGameQueensPawnOpening_E00 = ["rnbqkb1r/pppp1ppp/4pn2/8/2PP4/8/PP2PPPP/RNBQKBNR w KQkq - 0 3"];
@@ -13766,7 +13768,7 @@ const fenPolishOpeningGeneral_A00 = ["rnbqkbnr/pppppppp/8/8/1P6/8/P1PPPPPP/RNBQK
 const fenCatalanOpeningClosedVariation_E01 = ["rnbqkb1r/ppp2ppp/4pn2/3p4/2PP4/6P1/PP2PPBP/RNBQK1NR b KQkq - 1 4"];
 const fenIndianGamePseudoQueensIndian_A47 = ["rnbqkb1r/p1pppppp/1p3n2/8/3P4/5N2/PPP1PPPP/RNBQKB1R w KQkq - 0 3"];
 const fenKingsIndianDefenseOrthodoxVariationClassicalSystemMiscLines_E98 = ["r1bq1rk1/ppp1npbp/3p1np1/3Pp3/2P1P3/2N5/PP2BPPP/R1BQNRK1 b - - 2 9"];
-const fenKingsIndianAttackSicilianVariation_A08 = ["rnbqkbnr/pp2pppp/8/2pp4/8/5NP1/PPPPPPBP/RNBQK2R b KQkq - 1 3"];
+const fenKingsIndianAttackSicilianVariation_1_A08 = ["rnbqkbnr/pp2pppp/8/2pp4/8/5NP1/PPPPPPBP/RNBQK2R b KQkq - 1 3"];
 const fenKingsIndianDefenseNormalVariation_E70 = ["rnbqk2r/ppppppbp/5np1/8/2PPP3/2N5/PP3PPP/R1BQKBNR b KQkq - 0 4"];
 const fenBenkoGambitAcceptedPawnReturnVariation_A57 = ["rnbqkb1r/3ppppp/pP3n2/2pP4/8/8/PP2PPPP/RNBQKBNR b KQkq - 0 5"];
 const fenEnglishOpeningKingsEnglishVariationTwoKnightsVariationReversedDragon_A22 = ["rnbqkb1r/ppp2ppp/5n2/3pp3/2P5/2N3P1/PP1PPP1P/R1BQKBNR w KQkq - 0 4"];
@@ -13788,6 +13790,7 @@ const fenRussianGameModernAttackCenterVariation_C43 = ["rnbqkb1r/pppp1ppp/8/4p3/
 const fenSpanishGameClosedVariationsFlohrSystem_C92 = ["r2q1rk1/1bp1bppp/p1np1n2/1p2p3/4P3/1BP2N1P/PP1P1PP1/RNBQR1K1 w - - 1 10"];
 const fenOldIndianDefenseNormalVariation_A55 = ["r1bqkb1r/pppn1ppp/3p1n2/4p3/2PPP3/2N2N2/PP3PPP/R1BQKB1R b KQkq - 0 5"];
 const fenQueensIndianDefenseSpasskySystem_E14 = ["rnbqkb1r/p1pp1ppp/1p2pn2/8/2PP4/4PN2/PP3PPP/RNBQKB1R b KQkq - 0 4"];
+const fenKingsIndianAttackSicilianVariation_2_A08 = ["r1bq1rk1/pp2bppp/2n1pn2/2pp4/4P3/3P1NP1/PPPN1PBP/R1BQR1K1 b - - 2 8"];
 const fenSicilianDefenseFrenchVariationNormal_B40 = ["rnbqkb1r/pp1p1ppp/4pn2/8/3NP3/8/PPP2PPP/RNBQKB1R w KQkq - 1 5"];
 const fenBenoniDefenseKingPawnlines_A65 = ["rnbqkb1r/pp3ppp/3p1n2/2pP4/4P3/2N5/PP3PPP/R1BQKBNR b KQkq - 0 6"];
 const fenSemiSlavDefenseMainLines_D45 = ["rnbqkb1r/pp3ppp/2p1pn2/3p4/2PP4/2N1PN2/PP3PPP/R1BQKB1R b KQkq - 0 5"];
@@ -13799,7 +13802,7 @@ const fenSicilianDefenseSozinAttackFlankVariation_B87 = ["rnbqkb1r/5ppp/p2ppn2/1
 const fenScandinavianDefenseMarshallVariation_B01 = ["rnbqkb1r/ppp1pppp/8/3n4/3P4/8/PPP2PPP/RNBQKBNR w KQkq - 0 4"];
 const fenVanGeetOpeningGeneral_A00 = ["rnbqkbnr/pppppppp/8/8/8/2N5/PPPPPPPP/R1BQKBNR b KQkq - 1 1"];
 const fenEnglishOpeningEnglishDefenseGeneral_A10 = ["rnbqkbnr/p1pp1ppp/1p2p3/8/2PP4/8/PP2PPPP/RNBQKBNR w KQkq - 0 3"];
-const fenPhilidorDefenseGeneral_C41 = ["rnbqkbnr/ppp2ppp/3p4/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq - 0 3"];
+const fenPhilidorDefenseGeneral_1_C41 = ["rnbqkbnr/ppp2ppp/3p4/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq - 0 3"];
 const fenKingsIndianDefenseOrthodoxVariation_E94 = ["rnbq1rk1/ppp2pbp/3p1np1/4p3/2PPP3/2N2N2/PP2BPPP/R1BQ1RK1 b - - 1 7"];
 const fenQueensGambitDeclinedViennaVariation_D44 = ["rnbqkb1r/ppp2ppp/4pn2/8/2pP4/2N2N2/PP2PPPP/R1BQKB1R w KQkq - 0 5"];
 const fenNimzowitschDefenseWilliamsVariation_B00 = ["r1bqkbnr/ppp1pppp/2np4/8/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq - 0 3"];
@@ -13808,7 +13811,7 @@ const fenFrenchDefenseExchangeVariationMonteCarloVariation_C01 = ["rnbqkbnr/ppp2
 const fenKingsIndianDefenseSixPawnsAttack_E77 = ["rnbqk2r/ppp1ppbp/3p1np1/8/2PPP3/2N5/PP3PPP/R1BQKBNR w KQkq - 0 5"];
 const fenSpanishGameMorphyDefenseArchangelskVariation_C78 = ["r2qkb1r/1bpp1ppp/p1n2n2/1p2p3/4P3/1B3N2/PPPP1PPP/RNBQ1RK1 w kq - 2 7"];
 const fenCaroKannDefenseBronsteinLarsenVariation_B16 = ["rnbqkb1r/pp2pp1p/2p2p2/8/3P4/8/PPP2PPP/R1BQKBNR w KQkq - 0 6"];
-const fenFrenchDefenseWinawerVariationAdvanceVariation_C18 = ["rnbqk1nr/pp3ppp/4p3/2ppP3/3P4/P1P5/2P2PPP/R1BQKBNR b KQkq - 0 6"];
+const fenFrenchDefenseWinawerVariationAdvanceVariation_1_C18 = ["rnbqk1nr/pp3ppp/4p3/2ppP3/3P4/P1P5/2P2PPP/R1BQKBNR b KQkq - 0 6"];
 const fenFrenchDefenseTarraschVariationOpenSystem_C07 = ["rnbqkbnr/pp3ppp/4p3/2pp4/3PP3/8/PPPN1PPP/R1BQKBNR w KQkq - 0 4"];
 const fenSicilianDefenseLaskerPelikanVariationSveshnikovVariationNovosibirskVariation_B33 = ["r1bqk2r/5pbp/p1np1p2/1p1Np3/4P3/N7/PPP2PPP/R2QKB1R w KQkq - 2 11"];
 const fenFrenchDefenseTarraschVariationPawnCenterVariation_C05 = ["rnbqkb1r/pppn1ppp/4p3/3pP3/3P1P2/8/PPPN2PP/R1BQKBNR b KQkq - 0 5"];
@@ -13848,7 +13851,7 @@ const fenKingsIndianAttackSpasskyVariation_A05 = ["rnbqkb1r/p1pppppp/5n2/1p6/8/5
 const fenFrenchDefenseAdvanceVariationMilnerBarryGambit_C02 = ["r1b1kbnr/pp3ppp/1qn1p3/2ppP3/3P4/2PB1N2/PP3PPP/RNBQK2R b KQkq - 4 6"];
 const fenBudapestDefenseAdlerVariation_A52 = ["rnbqkb1r/pppp1ppp/8/4P3/2P3n1/5N2/PP2PPPP/RNBQKB1R b KQkq - 2 4"];
 const fenKingsIndianDefenseOrthodoxVariationAroninTaimanovDefense_E97 = ["r1bq1rk1/ppp2pbp/2np1np1/4p3/2PPP3/2N2N2/PP2BPPP/R1BQ1RK1 w - - 2 8"];
-const fenColleSystem_D05 = ["rnbqkb1r/ppp2ppp/4pn2/3p4/3P4/3BPN2/PPP2PPP/RNBQK2R b KQkq - 1 4"];
+const fenColleSystem_1_D05 = ["rnbqkb1r/ppp2ppp/4pn2/3p4/3P4/3BPN2/PPP2PPP/RNBQK2R b KQkq - 1 4"];
 const fenMexicanDefenseGeneral_A50 = ["r1bqkb1r/pppppppp/2n2n2/8/2PP4/8/PP2PPPP/RNBQKBNR w KQkq - 1 3"];
 const fenEnglishOpeningKingsEnglishVariationThreeKnightsSystemGeneral_A27 = ["r1bqkbnr/pppp1ppp/2n5/4p3/2P5/2N2N2/PP1PPPPP/R1BQKB1R b KQkq - 3 3"];
 const fenFrenchDefenseTarraschVariation_C03 = ["rnbqkbnr/ppp2ppp/4p3/3p4/3PP3/8/PPPN1PPP/R1BQKBNR b KQkq - 1 3"];
@@ -13873,7 +13876,7 @@ const fenModernDefenseGellersSystem_B06 = ["rnbqk1nr/ppp1ppbp/3p2p1/8/3PP3/2P2N2
 const fenQueensGambitDeclinedTraditionalVariation_D30 = ["rnbqkb1r/ppp2ppp/4pn2/3p2B1/2PP4/5N2/PP2PPPP/RN1QKB1R b KQkq - 3 4"];
 const fenQueenPawnOpeningGeneral_A40 = ["rnbqkbnr/pppppppp/8/8/3P4/8/PPP1PPPP/RNBQKBNR b KQkq - 0 1"];
 const fenSicilianDefenseChameleon_B20 = ["rnbqkbnr/pp1ppppp/8/2p5/4P3/8/PPPPNPPP/RNBQKB1R b KQkq - 1 2"];
-const fenSicilianDefenseDragonVariationYugoslavAttack_B77 = ["r2q1rk1/pp1bppbp/2np1np1/8/2BNP3/2N1BP2/PPPQ2PP/R3K2R w KQ - 5 10"];
+const fenSicilianDefenseDragonVariationYugoslavAttack_1_B77 = ["r2q1rk1/pp1bppbp/2np1np1/8/2BNP3/2N1BP2/PPPQ2PP/R3K2R w KQ - 5 10"];
 const fenSicilianDefenseAcceleratedDragonMaroczyBindBreyerVariation_B39 = ["r1bqk2r/pp1pppbp/2n3p1/8/2PNP1n1/2N1B3/PP3PPP/R2QKB1R w KQkq - 5 8"];
 const fenSicilianDefenseSmithMorraGambit_B21 = ["rnbqkbnr/pp1ppppp/8/8/3pP3/2P5/PP3PPP/RNBQKBNR b KQkq - 0 3"];
 const fenEnglishOpeningKingsEnglishVariationTwoKnightsVariationSmyslovSystem_A22 = ["rnbqk2r/pppp1ppp/5n2/4p3/1bP5/2N3P1/PP1PPP1P/R1BQKBNR w KQkq - 1 4"];
@@ -13901,7 +13904,7 @@ const fenFrenchDefenseWinawerVariationPositionalVariation_C19 = ["rnbqk2r/pp2npp
 const fenNimzoIndianDefenseNormalVariationBishopAttack_E47 = ["rnbq1rk1/pppp1ppp/4pn2/8/1bPP4/2NBP3/PP3PPP/R1BQK1NR b KQ - 2 5"];
 const fenDutchDefenseLeningradVariationMatulovicVariation_A89 = ["r1bq1rk1/ppp1p1bp/2np1np1/5p2/2PP4/2N2NP1/PP2PPBP/R1BQ1RK1 w - - 2 8"];
 const fenFrenchDefenseWinawerVariationClassicalVariation_C18 = ["rnb1k1nr/ppq2ppp/4p3/2ppP3/3P4/P1P5/2P2PPP/R1BQKBNR w KQkq - 1 7"];
-const fenEnglishOpeningKingsEnglishVariationFourKnightsVariationQuietLine_A28 = ["r1bqkb1r/pppp1ppp/2n2n2/4p3/2P5/2N1PN2/PP1P1PPP/R1BQKB1R b KQkq - 0 4"];
+const fenEnglishOpeningKingsEnglishVariationFourKnightsVariationQuietLine_1_A28 = ["r1bqkb1r/pppp1ppp/2n2n2/4p3/2P5/2N1PN2/PP1P1PPP/R1BQKB1R b KQkq - 0 4"];
 const fenScotchGameClassicalVariationIntermezzoVariation_C45 = ["r1b1k1nr/pppp1ppp/2N2q2/2b5/4P3/8/PPP2PPP/RNBQKB1R w KQkq - 1 6"];
 const fenSlavDefenseCzechVariationKrauseAttack_D17 = ["rn1qkb1r/pp2pppp/2p2n2/4Nb2/P1pP4/2N5/1P2PPPP/R1BQKB1R b KQkq - 2 6"];
 const fenQueensGambitRefusedChigorinDefenseMainLine_D07 = ["r2qkbnr/ppp1pppp/2n5/3p4/2PP2b1/5N2/PP2PPPP/RNBQKB1R w KQkq - 3 4"];
@@ -13962,7 +13965,1548 @@ const fenDutchDefenseStonewallVariationModernVariation_A90 = ["rnbqk2r/pp4pp/2pb
 const fenEnglishOpeningAngloIndianDefenseHedgehogSystem_A17 = ["rnbqkb1r/pppp1ppp/4pn2/8/2P5/2N5/PP1PPPPP/R1BQKBNR w KQkq - 0 3"];
 const fenQueensIndianDefenseKasparovVariation_E12 = ["rnbqkb1r/p1pp1ppp/1p2pn2/8/2PP4/2N2N2/PP2PPPP/R1BQKB1R b KQkq - 1 4"];
 const fenSicilianDefenseSozinAttackMainLine_B89 = ["r1bqkb1r/pp3ppp/2nppn2/8/2BNP3/2N1B3/PPP2PPP/R2QK2R b KQkq - 3 7"];
-
+const fenSpanishGameClassicalVariation_C64 = ["r1bqk1nr/pppp1ppp/2n5/1Bb1p3/4P3/5N2/PPPP1PPP/RNBQK2R w KQkq - 4 4"];
+const fenLionDefenseLionsJaw_B07 = ["rnbqkb1r/ppp1pppp/3p1n2/8/3PP3/5P2/PPP3PP/RNBQKBNR b KQkq - 0 3"];
+const fenScandinavianDefensePortugueseVariation_B01 = ["rn1qkb1r/ppp1pppp/5n2/3P4/3P2b1/8/PPP2PPP/RNBQKBNR w KQkq - 1 4"];
+const fenEnglishOpeningAngloIndianDefenseFlohrMikenasCarlsVariation_1_A18 = ["rnbqkb1r/ppp2ppp/4pn2/3pP3/2P5/2N5/PP1P1PPP/R1BQKBNR b KQkq - 0 4"];
+const fenBenkoGambitGeneral_A57 = ["rnbqkb1r/p2ppppp/5n2/1ppP4/2P5/8/PP2PPPP/RNBQKBNR w KQkq - 0 4"];
+const fenBenoniDefenseHromodkaSystem_A57 = ["rnbqkb1r/pp2pppp/3p1n2/2pP4/2P5/8/PP2PPPP/RNBQKBNR w KQkq - 0 4"];
+const fenNimzoIndianDefenseFischerVariation_E44 = ["rnbqk2r/p1pp1ppp/1p2pn2/8/1bPP4/2N1P3/PP2NPPP/R1BQKB1R b KQkq - 1 5"];
+const fenKingsIndianDefenseOrthodoxVariationModernSystem_E97 = ["r1bq1rk1/ppp1npbp/3p1np1/3Pp3/2P1P3/2N5/PP1NBPPP/R1BQ1RK1 b - - 2 9"];
+const fenQueensGambitAcceptedJanowskiLarsenVariation_D25 = ["rn1qkb1r/ppp1pppp/5n2/8/2pP2b1/4PN2/PP3PPP/RNBQKB1R w KQkq - 1 5"];
+const fenSlavDefenseSchlechterVariation_D15 = ["rnbqkb1r/pp2pp1p/2p2np1/3p4/2PP4/2N2N2/PP2PPPP/R1BQKB1R w KQkq - 0 5"];
+const fenQueensGambitDeclinedSemiTarraschDefense_D40 = ["rnbqkb1r/pp3ppp/4pn2/2pp4/2PP4/2N2N2/PP2PPPP/R1BQKB1R w KQkq - 0 5"];
+const fenSemiSlavDefenseAcceleratedMeranVariation_D45 = ["rnbqkb1r/1p3ppp/p1p1pn2/3p4/2PP4/2N1PN2/PP3PPP/R1BQKB1R w KQkq - 0 6"];
+const fenSicilianDefenseBoleslavskyVariation_B59 = ["r1bqkb1r/pp3ppp/2np1n2/4p3/4P3/1NN5/PPP1BPPP/R1BQK2R b KQkq - 1 7"];
+const fenNimzoIndianDefenseHuebnerVariation_E41 = ["rnbqk2r/pp1p1ppp/4pn2/2p5/1bPP4/2N1P3/PP3PPP/R1BQKBNR w KQkq - 0 5"];
+const fenFrenchDefenseWinawerVariationPoisonedPawnVariationMainLine_C18 = ["rnb1k1r1/ppq1np1Q/4p3/3pP3/3p4/P1P5/2P1NPPP/R1B1KB1R b KQq - 1 10"];
+const fenSicilianDefenseScheveningenVariationModernVariation_1_B83 = ["r1bq1rk1/pp2bppp/2nppn2/8/3NPP2/2N1B3/PPP1B1PP/R2Q1RK1 b - - 0 9"];
+const fenSicilianDefenseNajdorfVariationEnglishAttackAntiEnglish_B90 = ["rnbqkb1r/1p2pppp/p2p4/8/3NP1n1/2N1B3/PPP2PPP/R2QKB1R w KQkq - 2 7"];
+const fenNimzoIndianDefenseRagozinVariation_E20 = ["rnbqk2r/ppp2ppp/4pn2/3p4/1bPP4/2N2N2/PP2PPPP/R1BQKB1R w KQkq - 0 5"];
+const fenSicilianDefenseNimzowitschVariationClosedVariation_B29 = ["rnbqkb1r/pp1ppppp/5n2/2p5/4P3/2N2N2/PPPP1PPP/R1BQKB1R b KQkq - 3 3"];
+const fenQueensGambitAcceptedCentralVariationMcDonnellDefense_D20 = ["rnbqkbnr/ppp2ppp/8/4p3/2pPP3/8/PP3PPP/RNBQKBNR w KQkq - 0 4"];
+const fenSicilianDefenseHyperacceleratedPterodactyl_B27 = ["rnbqk1nr/pp1pppbp/6p1/2p5/3PP3/5N2/PPP2PPP/RNBQKB1R w KQkq - 1 4"];
+const fenGruenfeldDefenseThreeKnightsVariationBurilleVariation_D94 = ["rnbqk2r/ppp1ppbp/5np1/3p4/2PP4/2N1PN2/PP3PPP/R1BQKB1R b KQkq - 0 5"];
+const fenQueensGambitDeclinedSemiTarraschDefenseExchangeVariation_D41 = ["rnbqkb1r/pp3ppp/4p3/2pn4/3PP3/2N2N2/PP3PPP/R1BQKB1R b KQkq - 0 6"];
+const fenItalianGameTwoKnightsDefensePolerioDefenseBishopCheckline_C58 = ["r1bqkb1r/ppp2ppp/5n2/nB1Pp1N1/8/8/PPPP1PPP/RNBQK2R b KQkq - 2 6"];
+const fenSicilianDefenseAcceleratedDragonGeneral_B36 = ["r1bqkbnr/pp1ppp1p/2n3p1/8/3NP3/8/PPP2PPP/RNBQKB1R w KQkq - 0 5"];
+const fenSicilianDefenseRichterRauzerVariationClassicalVariation_B63 = ["r1bqk2r/pp2bppp/2nppn2/6B1/3NP3/2N5/PPPQ1PPP/R3KB1R w KQkq - 2 8"];
+const fenNimzoLarsenAttackGeneral_A01 = ["rnbqkbnr/pppppppp/8/8/8/1P6/P1PPPPPP/RNBQKBNR b KQkq - 0 1"];
+const fenFrenchDefenseAdvanceVariation_1_C02 = ["rnbqkbnr/pp3ppp/4p3/2ppP3/3P4/2P5/PP3PPP/RNBQKBNR b KQkq - 0 4"];
+const fenCaroKannDefensePanovAttackModernDefenseMiesesLine_B13 = ["r2qkb1r/pp2pppp/2n2n2/3p4/2PP2b1/2N2N2/PP3PPP/R1BQKB1R w KQkq - 5 7"];
+const fenQueensIndianDefenseCapablancaVariation_E16 = ["rn1qk2r/pbpp1ppp/1p2pn2/8/1bPP4/5NP1/PP2PPBP/RNBQK2R w KQkq - 3 6"];
+const fenSicilianDefenseRichterRauzerVariationGeneral_B60 = ["r1bqkb1r/pp2pppp/2np1n2/6B1/3NP3/2N5/PPP2PPP/R2QKB1R b KQkq - 4 6"];
+const fenRussianGameCozioLaskerAttack_C42 = ["rnbqkb1r/ppp2ppp/3p4/8/4n3/5N2/PPPPQPPP/RNB1KB1R b KQkq - 1 5"];
+const fenSicilianDefenseOKellyVariationNormalSystem_B28 = ["rnbqkbnr/1p1ppppp/p7/2p5/3PP3/5N2/PPP2PPP/RNBQKB1R b KQkq - 0 3"];
+const fenQueensIndianDefenseKasparovPetrosianVariationMainLine_E12 = ["rn1qkb1r/pbp2ppp/1p2pn2/3p4/2PP4/P1N2N2/1P2PPPP/R1BQKB1R w KQkq - 0 6"];
+const fenZukertortOpeningQueensideFianchettoVariation_A04 = ["rnbqkbnr/p1pppppp/1p6/8/8/5N2/PPPPPPPP/RNBQKB1R w KQkq - 0 2"];
+const fenQueensIndianDefenseClassicalVariationTraditionalVariationMainLine_E19 = ["rn1q1rk1/pbppbppp/1p2p3/8/2PP4/2Q2NP1/PP2PPBP/R1B2RK1 b - - 0 9"];
+const fenEnglishOpeningKingsEnglishVariationFourKnightsVariationBotvinnikLine_A28 = ["r1bqkb1r/pppp1ppp/2n2n2/4p3/2P1P3/2N2N2/PP1P1PPP/R1BQKB1R b KQkq - 0 4"];
+const fenSemiSlavDefenseMeranVariationWadeVariation_D47 = ["r2qkb1r/pb1n1ppp/2p1pn2/1p6/3P4/2NBPN2/PP3PPP/R1BQK2R w KQkq - 2 9"];
+const fenCatalanOpeningClosedVariationTraditionalVariation_E09 = ["r1bq1rk1/p2nbppp/1pp1pn2/3p4/2PP4/5NP1/PPQNPPBP/R1B2RK1 w - - 0 9"];
+const fenQueenPawnGameTorreAttackGruenfeldVariationMainLine_D03 = ["rnbq1rk1/ppp1ppbp/5np1/3p2B1/3P4/4PN2/PPPN1PPP/R2QKB1R w KQ - 3 6"];
+const fenSpanishGameMorphyDefenseNeoArchangelskVariation_C78 = ["r1bqk2r/1ppp1ppp/p1n2n2/2b1p3/B3P3/5N2/PPPP1PPP/RNBQ1RK1 w kq - 4 6"];
+const fenSicilianDefenseBowdlerAttack_B20 = ["rnbqkbnr/pp1ppppp/8/2p5/2B1P3/8/PPPP1PPP/RNBQK1NR b KQkq - 1 2"];
+const fenQueensIndianDefenseFianchettoVariationNimzowitschVariationNimzowitschAttack_E15 = ["rn1qkb1r/p1pp1ppp/bp2pn2/8/Q1PP4/5NP1/PP2PP1P/RNB1KB1R b KQkq - 2 5"];
+const fenNimzoIndianDefenseHuebnerVariationRubinsteinVariation_E42 = ["rnbqk2r/pp1p1ppp/4pn2/2p5/1bPP4/2N1P3/PP2NPPP/R1BQKB1R b KQkq - 1 5"];
+const fenIndianGamePseudoBenko_A46 = ["rnbqkb1r/p2ppppp/5n2/1ppP4/8/5N2/PPP1PPPP/RNBQKB1R w KQkq - 0 4"];
+const fenSpanishGameExchangeVariationGeneral_C68 = ["r1bqkbnr/1ppp1ppp/p1B5/4p3/4P3/5N2/PPPP1PPP/RNBQK2R b KQkq - 0 4"];
+const fenQueensGambitDeclinedHarrwitzAttackFianchettoDefense_D37 = ["rnbq1rk1/p1p1bppp/1p2pn2/3p4/2PP1B2/2N1PN2/PP3PPP/R2QKB1R w KQ - 0 7"];
+const fenNimzoIndianDefenseNormalVariation_E46 = ["rnbq1rk1/pppp1ppp/4pn2/8/1bPP4/2N1P3/PP3PPP/R1BQKBNR w KQ - 1 5"];
+const fenKingsIndianDefenseSaemischVariationBobotsovKorchnoiPetrosianVariation_E81 = ["rnbq1rk1/ppp1ppbp/3p1np1/8/2PPP3/2N2P2/PP2N1PP/R1BQKB1R b KQ - 2 6"];
+const fenDutchDefenseClassicalVariation_A90 = ["rnbqkb1r/pppp2pp/4pn2/5p2/2PP4/6P1/PP2PPBP/RNBQK1NR b KQkq - 1 4"];
+const fenEnglishOpeningAngloIndianDefenseQueensIndianFormation_A15 = ["rnbqkb1r/p1pppppp/1p3n2/8/2P5/5N2/PP1PPPPP/RNBQKB1R w KQkq - 0 3"];
+const fenThreeKnightsOpeningGeneral_C46 = ["r1bqkbnr/pppp1ppp/2n5/4p3/4P3/2N2N2/PPPP1PPP/R1BQKB1R b KQkq - 3 3"];
+const fenFourKnightsGameItalianVariation_C46 = ["r1bqkb1r/pppp1ppp/2n2n2/4p3/2B1P3/2N2N2/PPPP1PPP/R1BQK2R b KQkq - 5 4"];
+const fenSicilianDefenseNajdorfVariationPoisonedPawnVariation_B97 = ["rnb1kb1r/1p3ppp/pq1ppn2/6B1/3NPP2/2N5/PPP3PP/R2QKB1R w KQkq - 1 8"];
+const fenFourKnightsGameSpanishVariationRubinsteinVariation_C48 = ["r1bqkb1r/pppp1ppp/5n2/1B2p3/3nP3/2N2N2/PPPP1PPP/R1BQK2R w KQkq - 6 5"];
+const fenKingsIndianDefenseFianchettoVariationLesserSimaginSpassky_E62 = ["r2q1rk1/ppp1ppbp/2np1np1/5b2/2PP4/2N2NP1/PP2PPBP/R1BQ1RK1 w - - 5 8"];
+const fenBenkoGambitAcceptedKingWalkVariation_A59 = ["rn1q1rk1/4ppbp/3p1np1/2pP4/4P3/2N2NP1/PP3PKP/R1BQ3R b - - 4 11"];
+const fenSpanishGameMorphyDefenseCozioDefense_C70 = ["r1bqkb1r/1pppnppp/p1n5/4p3/B3P3/5N2/PPPP1PPP/RNBQK2R w KQkq - 2 5"];
+const fenQueensIndianDefenseClassicalVariationTraditionalVariationNimowitschLine_E18 = ["rn1q1rk1/pbp1bppp/1p2pn2/3p4/2PP4/2N2NP1/PP2PPBP/R1BQ1RK1 w - - 0 8"];
+const fenEnglishOpeningSymmetricalVariationRubinsteinVariation_A34 = ["rnbqkb1r/ppn1pppp/8/2p5/8/2N3P1/PP1PPPBP/R1BQK1NR w KQkq - 2 6"];
+const fenSicilianDefenseRichterRauzerVariationModernVariation_B61 = ["r2qkb1r/pp1bpppp/2np1n2/6B1/3NP3/2N5/PPPQ1PPP/R3KB1R b KQkq - 6 7"];
+const fenSicilianDefenseModernVariations_B54 = ["rnbqkbnr/pp2pppp/3p4/8/3NP3/8/PPP2PPP/RNBQKB1R b KQkq - 0 4"];
+const fenItalianGameClassicalVariationGrecoGambit_C53 = ["r1bqk2r/ppp2ppp/2n2n2/2bpP3/2Bp4/2P2N2/PP3PPP/RNBQK2R w KQkq d6 0 7"];
+const fenQueenPawnGameTorreAttackGossipVariation_D03 = ["rnbqkb1r/ppp1pppp/8/3p2B1/3Pn3/5N2/PPP1PPPP/RN1QKB1R w KQkq - 4 4"];
+const fenFrenchDefenseAdvanceVariationLputianVariation_C02 = ["r1b1kb1r/pp3ppp/1qn1p2n/2ppP3/3P4/P1P2N2/1P3PPP/RNBQKB1R w KQkq - 1 7"];
+const fenFrenchDefenseTarraschVariationChistyakovDefenseModernLine_C07 = ["r1b1kb1r/1p3ppp/p2qpn2/8/2BN4/8/PPP2PPP/R1BQ1RK1 w kq - 0 11"];
+const fenSpanishGameOpenVariationsBernsteinVariation_C80 = ["r2qkb1r/2p2ppp/p1n1b3/1p1pP3/4n3/1B3N2/PPPN1PPP/R1BQ1RK1 b kq - 2 9"];
+const fenSicilianDefenseDragonVariationYugoslavAttackPanovVariation_B76 = ["r1bq1rk1/pp2ppbp/2np1np1/8/3NP1P1/2N1BP2/PPPQ3P/R3KB1R b KQ - 0 9"];
+const fenSemiSlavDefenseNoteboomVariation_D31 = ["rnbqkbnr/pp3ppp/2p1p3/8/2pP4/2N2N2/PP2PPPP/R1BQKB1R w KQkq - 0 5"];
+const fenBenoniDefenseKnightsTourVariation_A61 = ["rnbqkb1r/pp3p1p/3p1np1/2pP4/8/2N5/PP1NPPPP/R1BQKB1R b KQkq - 1 7"];
+const fenNimzoIndianDefenseSaemischVariationAccelerated_E24 = ["rnbqk2r/pppp1ppp/4pn2/8/2PP4/P1P5/4PPPP/R1BQKBNR b KQkq - 0 5"];
+const fenBogoIndianDefenseExchangeVariation_E11 = ["rnbqk2r/pppp1ppp/4pn2/8/2PP4/5N2/PP1bPPPP/RN1QKB1R w KQkq - 0 5"];
+const fenZukertortOpeningQuietsystem_A04 = ["rnbqkb1r/pppppppp/5n2/8/8/4PN2/PPPP1PPP/RNBQKB1R b KQkq - 0 2"];
+const fenEnglishOpeningSymmetricalVariationFullSymmetryLine_A38 = ["r1bqk2r/pp1pppbp/2n2np1/2p5/2P5/2N2NP1/PP1PPPBP/R1BQK2R w KQkq - 4 6"];
+const fenSicilianDefenseSozinAttackLeonhardtVariation_B88 = ["r1bqkb1r/pp3ppp/2nppn2/8/2BNP3/2N5/PPP2PPP/R1BQK2R w KQkq - 2 7"];
+const fenBenoniDefenseClassicalVariationGeneral_A70 = ["rnbqkb1r/pp3p1p/3p1np1/2pP4/4P3/2N2N2/PP3PPP/R1BQKB1R b KQkq - 1 7"];
+const fenItalianGameScotchGambitAnderssenAttack_C56 = ["r1b1kb1r/ppp2ppp/2n5/3q4/3pn3/2N2N2/PPP2PPP/R1BQR1K1 b kq - 1 8"];
+const fenKingsIndianDefenseFianchettoVariationLarsenDefense_E62 = ["rn1q1rk1/pp2ppbp/2pp1np1/5b2/2PP4/2N2NP1/PP2PPBP/R1BQ1RK1 w - - 2 8"];
+const fenKingsIndianDefenseFourPawnsAttackDynamicAttack_E76 = ["rnbq1rk1/pp2ppbp/3p1np1/2pP4/2P1PP2/2N2N2/PP4PP/R1BQKB1R b KQ - 0 7"];
+const fenSicilianDefenseScheveningenVariationClassicalVariationGeneral_B83 = ["rnbqkb1r/pp3ppp/3ppn2/8/3NP3/2N5/PPP1BPPP/R1BQK2R b KQkq - 1 6"];
+const fenRussianGameClassicalAttackStauntonVariation_C42 = ["rnbq1rk1/pp3ppp/2pb4/3p4/2PPn3/3B1N2/PP3PPP/RNBQ1RK1 w - - 0 9"];
+const fenKingsIndianDefenseOrthodoxVariationClassicalSystemNeoClasssicalLine_E99 = ["r1bq1rk1/pppnnpbp/3p2p1/3Pp3/2P1P3/2N1B3/PP2BPPP/R2QNRK1 b - - 4 10"];
+const fenSicilianDefenseOldSicilianOpen_B32 = ["r1bqkbnr/pp1ppppp/2n5/2p5/3PP3/5N2/PPP2PPP/RNBQKB1R b KQkq - 0 3"];
+const fenRussianGameClassicalAttack_C42 = ["rnbqkb1r/ppp2ppp/3p4/8/3Pn3/5N2/PPP2PPP/RNBQKB1R b KQkq - 0 5"];
+const fenScandinavianDefenseClassicalVariation_B01 = ["rn2kb1r/ppp1pppp/5n2/q4b2/3P4/2N2N2/PPP2PPP/R1BQKB1R w KQkq - 3 6"];
+const fenSlavDefenseCzechVariationClassicalSystemMainLine_D19 = ["rn1q1rk1/pp3ppp/2p1pn2/5b2/PbBP4/2N1PN2/1P2QPPP/R1B2RK1 b - - 4 9"];
+const fenTarraschDefenseTwoKnightsVariation_D32 = ["rnbqkbnr/pp3ppp/8/2pp4/3P4/2N2N2/PP2PPPP/R1BQKB1R b KQkq - 1 5"];
+const fenEnglishOpeningAgincourtDefenseCatalanDefenseSemiSlavDefense_A13 = ["rnbqkb1r/pp3ppp/2p1pn2/3p4/2P5/5NP1/PP1PPPBP/RNBQK2R w KQkq - 0 5"];
+const fenKingsIndianDefenseSmyslovVariation_E61 = ["rnbqk2r/ppp1ppbp/3p1np1/6B1/2PP4/2N2N2/PP2PPPP/R2QKB1R b KQkq - 1 5"];
+const fenSicilianDefenseClosedVariationChameleonVariation_B23 = ["r1bqkbnr/pp1ppppp/2n5/2p5/4P3/2N5/PPPPNPPP/R1BQKB1R b KQkq - 3 3"];
+const fenQueenPawnGameStonewallAttack_D00 = ["rnbqkb1r/ppp1pppp/5n2/3p4/3P4/3BP3/PPP2PPP/RNBQK1NR b KQkq - 2 3"];
+const fenGruenfeldDefenseThreeKnightsVariationHungarianVariation_D93 = ["rnbq1rk1/ppp1ppbp/5np1/3p4/2PP1B2/2N1PN2/PP3PPP/R2QKB1R b KQ - 0 6"];
+const fenSicilianDefenseMengariniVariation_B20 = ["rnbqkbnr/pp1ppppp/8/2p5/4P3/P7/1PPP1PPP/RNBQKBNR b KQkq - 0 2"];
+const fenNimzoIndianDefenseClassicalVariationLisitsynBondarevskyGambit_E39 = ["rnbq1rk1/pp1p1ppp/4pn2/2P5/1bP5/2N5/PPQ1PPPP/R1B1KBNR w KQ - 1 6"];
+const fenItalianGameGeneral_C50 = ["r1bqkbnr/pppp1ppp/2n5/4p3/2B1P3/5N2/PPPP1PPP/RNBQK2R b KQkq - 3 3"];
+const fenDutchDefenseFianchettoAttack_A81 = ["rnbqkbnr/ppppp1pp/8/5p2/3P4/6P1/PPP1PP1P/RNBQKBNR b KQkq - 0 2"];
+const fenEnglishOpeningSymmetricalVariationNormalVariation_A34 = ["rnbqkbnr/pp1ppppp/8/2p5/2P5/2N5/PP1PPPPP/R1BQKBNR b KQkq - 1 2"];
+const fenSlavIndian_A50 = ["rnbqkb1r/pp1ppppp/2p2n2/8/2PP4/8/PP2PPPP/RNBQKBNR w KQkq - 0 3"];
+const fenCaroKannDefenseMainLine_B15 = ["rnbqkbnr/pp2pppp/2p5/8/3PN3/8/PPP2PPP/R1BQKBNR b KQkq - 0 4"];
+const fenAlekhineDefenseModernVariationLarsenVariationMilesLine_B04 = ["rnbqkb1r/pp2pppp/2p5/3nN3/3P4/8/PPP2PPP/RNBQKB1R w KQkq - 0 6"];
+const fenSpanishGameBirdVariation_C61 = ["r1bqkbnr/pppp1ppp/8/1B2p3/3nP3/5N2/PPPP1PPP/RNBQK2R w KQkq - 4 4"];
+const fenKingsIndianDefenseOrthodoxVariationBayonetAttackSokolovsLine_E97 = ["r1bq1rk1/ppp1npbp/3p2p1/3Pp2n/1PP1P3/2N2N2/P3BPPP/R1BQR1K1 b - - 2 10"];
+const fenFrenchDefenseAdvanceVariation_2_C02 = ["rnbqkbnr/ppp2ppp/4p3/3pP3/3P4/8/PPP2PPP/RNBQKBNR b KQkq - 0 3"];
+const fenPonzianiOpeningJaenischCounterattack_C44 = ["r1bqkb1r/pppp1ppp/2n2n2/4p3/4P3/2P2N2/PP1P1PPP/RNBQKB1R w KQkq - 1 4"];
+const fenScandinavianDefenseRichterVariation_B01 = ["rnbqkb1r/ppp1pp1p/6p1/3n4/3P4/5N2/PPP2PPP/RNBQKB1R w KQkq - 0 5"];
+const fenColleSystemTraditionalColle_D05 = ["rnbqkb1r/pp3ppp/4pn2/2pp4/3P4/2PBPN2/PP3PPP/RNBQK2R b KQkq - 0 5"];
+const fenQueensGambitDeclinedTarraschDefensePseudoTarrasch_D30 = ["rnbqkbnr/pp3ppp/4p3/2pp4/2PP4/5N2/PP2PPPP/RNBQKB1R w KQkq - 0 4"];
+const fenDutchDefenseClassicalVariation_A84 = ["rnbqkbnr/pppp2pp/4p3/5p2/2PP4/8/PP2PPPP/RNBQKBNR w KQkq - 0 3"];
+const fenSicilianDefenseClosedVariationKorchnoiDefense_B23 = ["rnbqkbnr/pp3ppp/4p3/2pp4/4P3/2N3P1/PPPP1P1P/R1BQKBNR w KQkq - 0 4"];
+const fenMikenasDefense_A40 = ["r1bqkbnr/pppppppp/2n5/8/3P4/8/PPP1PPPP/RNBQKBNR w KQkq - 1 2"];
+const fenRubinsteinOpening_D05 = ["rnbqkb1r/pp3ppp/4pn2/2pp4/3P4/1P1BPN2/P1P2PPP/RNBQK2R b KQkq - 0 5"];
+const fenQueensGambitDeclinedHarrwitzAttackMainLine_D37 = ["rnbq1rk1/pp3ppp/4pn2/2bp4/2P2B2/2N1PN2/PP3PPP/R2QKB1R w KQ - 0 8"];
+const fenBenoniDefenseOldBenoniPawnThrust_A44 = ["rnbqkbnr/pp1p1ppp/8/2pPp3/8/8/PPP1PPPP/RNBQKBNR w KQkq e6 0 3"];
+const fenKingsIndianDefenseSaemischVariationYatesDefense_E83 = ["r1bq1rk1/ppp1ppbp/2np1np1/8/2PPP3/2N1BP2/PP4PP/R2QKBNR w KQ - 3 7"];
+const fenEnglishOpeningAngloIndianDefenseFlohrMikenasCarlsVariation_2_A18 = ["rnbqkb1r/pppp1ppp/4pn2/8/2P1P3/2N5/PP1P1PPP/R1BQKBNR b KQkq - 0 3"];
+const fenRussianGameGeneral_C42 = ["rnbqkb1r/pppp1ppp/5n2/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq - 2 3"];
+const fenDutchDefenseLeningradVariation_A87 = ["rnbqk2r/ppppp1bp/5np1/5p2/2PP4/5NP1/PP2PPBP/RNBQK2R b KQkq - 3 5"];
+const fenNimzoIndianDefenseNormalLine_E40 = ["rnbqk2r/pppp1ppp/4pn2/8/1bPP4/2N1P3/PP3PPP/R1BQKBNR b KQkq - 0 4"];
+const fenSpanishGameClosedVariationsKeresDefense_C96 = ["r1bq1rk1/3nbppp/p2p4/npp1p3/3PP3/2P2N1P/PPB2PP1/RNBQR1K1 w - - 1 12"];
+const fenSicilianDefenseAlapinVariationStoltzAttack_B22 = ["r1bqkb1r/pp1ppppp/1nn5/2p1P3/8/1BP2N2/PP1P1PPP/RNBQK2R b KQkq - 6 6"];
+const fenNeoGruenfeldDefenseDelayedExchangeVariation_D76 = ["rnbq1rk1/ppp1ppbp/1n4p1/8/3P4/5NP1/PP2PPBP/RNBQ1RK1 w - - 2 8"];
+const fenKingsIndianDefenseFourPawnsAttackNormalAttack_E77 = ["rnbq1rk1/pp3pbp/3ppnp1/2pP4/2P1PP2/2N2N2/PP2B1PP/R1BQK2R b KQ - 1 8"];
+const fenNimzoIndianDefenseRomanishinVariation_1_E20 = ["rnbqk2r/pppp1ppp/4pn2/8/1bPP4/2N3P1/PP2PP1P/R1BQKBNR b KQkq - 0 4"];
+const fenKingsIndianDefenseOrthodoxVariationPositionalDefenseClosedLine_E94 = ["r1bq1rk1/pppn1pbp/3p1np1/3Pp3/2P1P3/2N2N2/PP2BPPP/R1BQ1RK1 b - - 0 8"];
+const fenSicilianDefenseNimzowitschVariationAdvanceVariation_B29 = ["rnbqkb1r/pp1ppppp/5n2/2p1P3/8/5N2/PPPP1PPP/RNBQKB1R b KQkq - 0 3"];
+const fenStGeorgeDefenseGeneral_B00 = ["rnbqkbnr/1ppppppp/p7/8/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2"];
+const fenGruenfeldDefenseThreeKnightsVariationHungarianAttack_D92 = ["rnbqk2r/ppp1ppbp/5np1/3p4/2PP1B2/2N2N2/PP2PPPP/R2QKB1R b KQkq - 3 5"];
+const fenSpanishGameMorphyDefenseSteinitzDeferred_C79 = ["r1bqkb1r/1pp2ppp/p1np1n2/4p3/B3P3/5N2/PPPP1PPP/RNBQ1RK1 w kq - 0 6"];
+const fenQueensGambitAcceptedCentralVariationAlekhineSystem_D20 = ["rnbqkb1r/ppp1pppp/5n2/8/2pPP3/8/PP3PPP/RNBQKBNR w KQkq - 1 4"];
+const fenScotchGameScotchGambit_C44 = ["r1bqkbnr/pppp1ppp/2n5/8/2BpP3/5N2/PPP2PPP/RNBQK2R b KQkq - 1 4"];
+const fenSicilianDefenseBoleslavskyVariationGeneralVariation_B58 = ["r1bqkb1r/pp3ppp/2np1n2/4p3/3NP3/2N5/PPP1BPPP/R1BQK2R w KQkq - 0 7"];
+const fenPircDefenseClassicalVariationQuietSystemParmaDefense_B08 = ["rn1q1rk1/ppp1ppbp/3p1np1/8/3PP1b1/2N2N2/PPP1BPPP/R1BQ1RK1 w - - 6 7"];
+const fenNimzoIndianDefenseNormalVariationBernsteinDefenseExceptGligoricSystem_E53 = ["rnbq1rk1/pp3ppp/4pn2/2pp4/1bPP4/2NBPN2/PP3PPP/R1BQK2R w KQ - 0 7"];
+const fenQueensIndianDefenseFianchettoVariationGeneral_E15 = ["rnbqkb1r/p1pp1ppp/1p2pn2/8/2PP4/5NP1/PP2PP1P/RNBQKB1R b KQkq - 0 4"];
+const fenFrenchDefenseRubinsteinVariation_C10 = ["rnbqkbnr/ppp2ppp/4p3/8/3Pp3/2N5/PPP2PPP/R1BQKBNR w KQkq - 0 4"];
+const fenGruenfeldDefenseBrinckmannAttack_D82 = ["rnbqkb1r/ppp1pp1p/5np1/3p4/2PP1B2/2N5/PP2PPPP/R2QKBNR b KQkq - 1 4"];
+const fenSemiSlavDefenseStoltzVariationShabalovAttack_D45 = ["r1bqk2r/pp1n1ppp/2pbpn2/3p4/2PP2P1/2N1PN2/PPQ2P1P/R1B1KB1R b KQkq - 0 7"];
+const fenBenoniDefenseFianchettoVariationHastingsDefenseMainLine_A64 = ["r1bqr1k1/1p1n1pbp/p2p1np1/2pP4/P7/2N3P1/1P1NPPBP/R1BQ1RK1 w - - 1 12"];
+const fenHungarianOpeningSlavFormation_A00 = ["rnbqkbnr/pp2pppp/2p5/3p4/8/6P1/PPPPPPBP/RNBQK1NR w KQkq - 0 3"];
+const fenBishopsOpeningViennaHybridSpielmannAttack_C26 = ["rnbqk2r/pppp1ppp/5n2/2b1p3/2B1P3/2NP4/PPP2PPP/R1BQK1NR b KQkq - 2 4"];
+const fenFrenchDefenseWingGambit_C00 = ["rnbqkbnr/pp3ppp/4p3/2ppP3/1P6/5N2/P1PP1PPP/RNBQKB1R b KQkq - 0 4"];
+const fenSemiSlavDefenseQuietVariation_1_D30 = ["r1bqkb1r/pp1n1ppp/2p1pn2/3p4/2PP4/4PN2/PP1N1PPP/R1BQKB1R w KQkq - 2 6"];
+const fenFrenchDefenseWinawerVariationAdvanceVariation_2_C18 = ["rnbqk2r/pp2nppp/4p3/2ppP3/3P4/P1P5/2P2PPP/R1BQKBNR w KQkq - 1 7"];
+const fenFrenchDefenseWinawerVariationPetrosianVariation_C16 = ["rnb1k1nr/pppq1ppp/4p3/3pP3/1b1P4/2N5/PPP2PPP/R1BQKBNR w KQkq - 1 5"];
+const fenScotchGameMalaniukVariation_C45 = ["r1bqk1nr/pppp1ppp/2n5/8/1b1NP3/8/PPP2PPP/RNBQKB1R w KQkq - 1 5"];
+const fenDutchDefenseModernStonewallVariation_A97 = ["rnbqk2r/pp4pp/2pbpn2/3p1p2/2PP4/5NP1/PP2PPBP/RNBQ1RK1 w kq - 2 7"];
+const fenEnglishOpeningKingsEnglishVariationTwoKnightsVariationKeresVariation_A23 = ["rnbqkb1r/pp1p1ppp/2p2n2/4p3/2P5/2N3P1/PP1PPP1P/R1BQKBNR w KQkq - 0 4"];
+const fenNimzowitschDefenseDeclinedVariation_B00 = ["r1bqkbnr/pppppppp/2n5/8/4P3/5N2/PPPP1PPP/RNBQKB1R b KQkq - 2 2"];
+const fenQueenPawnGameColleSystemAntiColle_D04 = ["rn1qkb1r/ppp1pppp/5n2/3p1b2/3P4/4PN2/PPP2PPP/RNBQKB1R w KQkq - 1 4"];
+const fenKingsIndianDefenseAverbakhVariationModernDefense_E73 = ["r1bq1rk1/ppp1ppbp/n2p1np1/6B1/2PPP3/2N5/PP2BPPP/R2QK1NR w KQ - 4 7"];
+const fenHungarianOpeningSicilianInvitation_A00 = ["rnbqkbnr/pp1ppppp/8/2p5/8/6P1/PPPPPP1P/RNBQKBNR w KQkq - 0 2"];
+const fenSlavDefenseBreyerVariation_D11 = ["rnbqkb1r/pp2pppp/2p2n2/3p4/2PP4/5N2/PP1NPPPP/R1BQKB1R b KQkq - 3 4"];
+const fenFrenchDefenseSteinitzVariation_C11 = ["rnbqkb1r/pp1n1ppp/4p3/2ppP3/3P1P2/2N2N2/PPP3PP/R1BQKB1R b KQkq - 1 6"];
+const fenQueensIndianDefenseFianchettoVariationKramnikVariation_E17 = ["rn1q1rk1/pbppbppp/1p2pn2/8/2PP4/5NP1/PP2PPBP/RNBQR1K1 b - - 6 7"];
+const fenQueensGambitDeclinedOrthodoxDefenseRubinsteinVariation_D61 = ["r1bq1rk1/pppnbppp/4pn2/3p2B1/2PP4/2N1PN2/PPQ2PPP/R3KB1R b KQ - 4 7"];
+const fenAlekhineDefenseSaemischAttack_B02 = ["rnbqkb1r/pppppppp/8/3nP3/8/2N5/PPPP1PPP/R1BQKBNR b KQkq - 2 3"];
+const fenFrenchDefenseWinawerVariation_C15 = ["rnbqk1nr/ppp2ppp/4p3/3p4/1b1PP3/2N5/PPP2PPP/R1BQKBNR w KQkq - 2 4"];
+const fenSpanishGameExchangeVariationAlapinGambit_C69 = ["r2qkbnr/1pp2pp1/p1p5/4p2p/4P1b1/5N1P/PPPP1PP1/RNBQ1RK1 w kq - 0 7"];
+const fenColleSystem_2_D05 = ["rnbqkb1r/ppp2ppp/4pn2/3p4/3P4/4PN2/PPP2PPP/RNBQKB1R w KQkq - 0 4"];
+const fenNimzowitschDefenseScandinavianVariationAdvanceVariation_B00 = ["r1bqkbnr/ppp1pppp/2n5/3pP3/3P4/8/PPP2PPP/RNBQKBNR b KQkq - 0 3"];
+const fenFourKnightsGameGunsbergVariation_C46 = ["r1bqkb1r/pppp1ppp/2n2n2/4p3/4P3/P1N2N2/1PPP1PPP/R1BQKB1R b KQkq - 0 4"];
+const fenSicilianDefenseScheveningenVariationModernVariationGeneral_B83 = ["r1bqkb1r/pp3ppp/2nppn2/8/3NP3/2N5/PPP1BPPP/R1BQK2R w KQkq - 2 7"];
+const fenFrenchDefenseMacCutcheonVariationLaskerVariation_1_C12 = ["rnbqk2r/ppp2pp1/4pn1p/3pP3/3P4/2b5/PPPB1PPP/R2QKBNR w KQkq - 0 7"];
+const fenKingsIndianDefenseAverbakhVariationFlexibleDefense_E73 = ["rnbq1rk1/ppp1ppb1/3p1npp/6B1/2PPP3/2N5/PP2BPPP/R2QK1NR w KQ - 0 7"];
+const fenSicilianDefenseFourKnightsVariationCobraVariation_B45 = ["r1bqk2r/pp1p1ppp/2n1pn2/1Nb5/4P3/2N5/PPP2PPP/R1BQKB1R w KQkq - 5 7"];
+const fenMiesesOpeningGeneral_A00 = ["rnbqkbnr/pppppppp/8/8/8/3P4/PPP1PPPP/RNBQKBNR b KQkq - 0 1"];
+const fenQueensIndianDefenseKasparovPetrosianVariationKasparovAttack_E12 = ["rn1qkb1r/pbp2ppp/1p2p3/3n4/3P4/P1N2N2/1PQ1PPPP/R1B1KB1R b KQkq - 1 7"];
+const fenEnglishDefenseGeneral_A40 = ["rnbqkbnr/p1pp1ppp/1p2p3/8/2PP4/8/PP2PPPP/RNBQKBNR w KQkq - 0 3"];
+const fenQueensGambitRefusedChigorinDefense_D07 = ["r1bqkbnr/ppp1pppp/2n5/3p4/2PP4/8/PP2PPPP/RNBQKBNR w KQkq - 1 3"];
+const fenFrenchDefenseHorwitzAttackPapaTiculatGambit_C00 = ["rnbqkbnr/ppp2ppp/4p3/3p4/4P3/1P6/PBPP1PPP/RN1QKBNR b KQkq - 1 3"];
+const fenSicilianDefenseSmithMorraGambitDeclinedPushVariation_B21 = ["rnbqkbnr/pp1ppppp/8/8/4P3/2Pp4/PP3PPP/RNBQKBNR w KQkq - 0 4"];
+const fenEnglishOpeningSymmetricalVariationDuchampVariation_A38 = ["r1bq1rk1/pp1pppbp/2n2np1/2p5/2P5/2NP1NP1/PP2PPBP/R1BQ1RK1 b - - 0 7"];
+const fenSicilianDefenseClassicalVariationFianchettoVariation_B58 = ["r1bqkb1r/pp2pppp/2np1n2/8/3NP3/2N3P1/PPP2P1P/R1BQKB1R b KQkq - 0 6"];
+const fenCaroKannDefenseKarpovVariationModernVariationKasparovAttack_B17 = ["r1bqkb1r/pp1npppp/2p2n2/8/3P4/5NN1/PPP2PPP/R1BQKB1R b KQkq - 4 6"];
+const fenSicilianDefenseVelimirovicAttack_B89 = ["r1bqk2r/pp2bppp/2nppn2/8/2BNP3/2N1B3/PPP1QPPP/R3K2R b KQkq - 5 8"];
+const fenQueensGambitDeclinedHarrwitzAttackTwoKnightsDefense_D37 = ["r1bq1rk1/pppnbppp/4pn2/3p4/2PP1B2/2N1PN2/PP3PPP/R2QKB1R w KQ - 1 7"];
+const fenSpanishGameMorphyDefenseClassicalDefenseDeferred_C70 = ["r1bqk1nr/1ppp1ppp/p1n5/2b1p3/B3P3/5N2/PPPP1PPP/RNBQK2R w KQkq - 2 5"];
+const fenKingsIndianDefenseSaemischVariationClosedVariation_E87 = ["rnbq1rk1/ppp2pbp/3p1np1/3Pp3/2P1P3/2N1BP2/PP4PP/R2QKBNR b KQ - 0 7"];
+const fenQueensGambitAcceptedGeneral_D20 = ["rnbqkbnr/ppp1pppp/8/8/2pP4/8/PP2PPPP/RNBQKBNR w KQkq - 0 3"];
+const fenItalianGameGiuocoPianissimo_C50 = ["r1bqk1nr/pppp1ppp/2n5/2b1p3/2B1P3/3P1N2/PPP2PPP/RNBQK2R b KQkq - 0 4"];
+const fenCenterGameBergerVariation_C22 = ["r1bqkb1r/pppp1ppp/2n2n2/8/4P3/4Q3/PPP2PPP/RNB1KBNR w KQkq - 3 5"];
+const fenNimzoIndianDefenseClassicalVariationMilnerBarryVariation_E33 = ["r1bqk2r/ppp2ppp/2nppn2/8/1bPP4/2N2N2/PPQ1PPPP/R1B1KB1R w KQkq - 0 6"];
+const fenSicilianDefenseDragonVariationFianchettoVariation_B70 = ["rnbqkb1r/pp2pp1p/3p1np1/8/3NP3/2N3P1/PPP2P1P/R1BQKB1R b KQkq - 0 6"];
+const fenKingsIndianDefenseNormalVariationStandardDevelopment_E73 = ["rnbqk2r/ppp1ppbp/3p1np1/8/2PPP3/2N5/PP2BPPP/R1BQK1NR b KQkq - 1 5"];
+const fenSpanishGameExchangeVariationKeresVariation_C68 = ["r1bqkbnr/1pp2ppp/p1p5/4p3/4P3/2N2N2/PPPP1PPP/R1BQK2R b KQkq - 1 5"];
+const fenKingsIndianDefenseFianchettoVariationKarlsbadVariation_E62 = ["r1bq1rk1/ppp1ppbp/2np1np1/8/2PP4/2N2NP1/PP2PPBP/R1BQK2R w KQ - 3 7"];
+const fenQueenPawnGameVeresovAtackDutchSystem_A80 = ["rnbqkbnr/ppp1p1pp/8/3p1p2/3P4/2N5/PPP1PPPP/R1BQKBNR w KQkq - 0 3"];
+const fenQueensGambitDeclinedModernKnightDefense_1_D51 = ["r1bqkb1r/pp1n1ppp/2p1pn2/3p2B1/2PP4/2N1P3/PP3PPP/R2QKBNR w KQkq - 0 6"];
+const fenCatalanOpeningClosedVariation_E08 = ["r1bq1rk1/pppnbppp/4pn2/3p4/2PP4/5NP1/PPQ1PPBP/RNB2RK1 b - - 7 7"];
+const fenTarraschDefenseScharaGambit_D32 = ["rnbqkbnr/pp3ppp/4p3/3P4/3p4/2N5/PP2PPPP/R1BQKBNR w KQkq - 0 5"];
+const fenEnglishOpeningAgincourtDefenseWimpySystem_A13 = ["rnbqkb1r/pp3ppp/4pn2/2pp4/2P5/1P2PN2/PB1P1PPP/RN1QKB1R b KQkq - 0 5"];
+const fenKingsIndianDefenseFianchettoVariationYugoslavVariationExchangeLine_E66 = ["r1bq1rk1/pp2ppbp/2n2np1/2p5/2P5/2N2NP1/PP2PPBP/R1BQ1RK1 w - - 0 9"];
+const fenBenoniDefenseOldBenoni_A43 = ["rnbqkbnr/pp2pppp/3p4/2pP4/8/8/PPP1PPPP/RNBQKBNR w KQkq - 0 3"];
+const fenCaroKannDefenseKarpovVariationModernMainLine_B17 = ["r1bqk2r/pp1n1pp1/2pbp2p/8/3PQ3/3B1N2/PPP2PPP/R1B1K2R b KQkq - 0 10"];
+const fenScandinavianDefenseModernVariationGipslisVariation_B01 = ["rn1qkb1r/ppp1pppp/8/3n4/3P2b1/5N2/PPP2PPP/RNBQKB1R w KQkq - 2 5"];
+const fenFrenchDefenseWinawerVariationRetreatVariationArmenianLine_C18 = ["rnbqk1nr/pp3ppp/4p3/b2pP3/1P1p4/P1N5/2P2PPP/R1BQKBNR w KQkq - 0 7"];
+const fenQueensGambitDeclinedOrthodoxDefenseMainLine_1_D63 = ["r1bq1rk1/pp1nbppp/2p1pn2/3p2B1/2PP4/2N1PN2/PP3PPP/2RQKB1R w K - 0 8"];
+const fenPircDefense150Attack_B07 = ["rnbqkb1r/pp2pp1p/2pp1np1/8/3PP3/2N1B3/PPPQ1PPP/R3KBNR b KQkq - 1 5"];
+const fenEnglishOpeningAngloIndianDefenseOldIndianFormation_A15 = ["rnbqkb1r/ppp1pppp/3p1n2/8/2P5/5N2/PP1PPPPP/RNBQKB1R w KQkq - 0 3"];
+const fenNimzoLarsenAttackEnglishVariation_A01 = ["rnbqkbnr/pp1ppppp/8/2p5/8/1P6/P1PPPPPP/RNBQKBNR w KQkq - 0 2"];
+const fenDutchDefenseStauntonGambitGeneralVariation_A83 = ["rnbqkb1r/ppppp1pp/5n2/6B1/3Pp3/2N5/PPP2PPP/R2QKBNR b KQkq - 3 4"];
+const fenCaroKannDefenseClassicalVariationFlohrVariation_B18 = ["rn1qkbnr/pp2pppp/2p3b1/8/3P4/6NN/PPP2PPP/R1BQKB1R b KQkq - 4 6"];
+const fenKingsGambitAcceptedAbbaziaDefense_C36 = ["rnbqkb1r/ppp2ppp/5n2/3P4/5p2/5N2/PPPP2PP/RNBQKB1R w KQkq - 1 5"];
+const fenNimzoIndianDefenseNormalVariationGligoricSystemExchangeatc4_E54 = ["rnbq1rk1/pp3ppp/4pn2/2p5/1bBP4/2N1PN2/PP3PPP/R1BQ1RK1 b - - 0 8"];
+const fenNimzoIndianDefenseNormalVariationBotvinnikSystem_E49 = ["rnbq1rk1/ppp2ppp/4pn2/3p4/2PP4/P1PBP3/5PPP/R1BQK1NR b KQ - 0 7"];
+const fenQueensIndianDefensePetrosianVariationFaragoDefense_E11 = ["rn1qkb1r/pbpp1ppp/1p2pn2/8/2PP4/P4N2/1PQ1PPPP/RNB1KB1R w KQkq - 3 6"];
+const fenSicilianDefenseRichterRauzerVariationClassicalVariation_B65 = ["r1bq1rk1/pp2bppp/3ppn2/6B1/3QPP2/2N5/PPP3PP/2KR1B1R b - - 0 10"];
+const fenSpanishGameMorphyDefenseTarraschVariation_C77 = ["r1bqkb1r/1ppp1ppp/p1n2n2/4p3/B3P3/2N2N2/PPPP1PPP/R1BQK2R b KQkq - 3 5"];
+const fenBenkoGambitAcceptedDlugyVariation_A57 = ["rnbqkb1r/3ppppp/p4n2/1PpP4/8/5P2/PP2P1PP/RNBQKBNR b KQkq - 0 5"];
+const fenOldIndianDefenseTwoKnightsVariation_A54 = ["rnbqkb1r/ppp2ppp/3p1n2/4p3/2PP4/2N2N2/PP2PPPP/R1BQKB1R b KQkq - 1 4"];
+const fenNeoGrunfeldDefenseGoglidzeAttack_D70 = ["rnbqkb1r/ppp1pp1p/5np1/3p4/2PP4/5P2/PP2P1PP/RNBQKBNR w KQkq - 0 4"];
+const fenZukertortOpeningBlackMustangDefense_A04 = ["r1bqkbnr/pppppppp/2n5/8/8/5N2/PPPPPPPP/RNBQKB1R w KQkq - 2 2"];
+const fenTrompowskyAttackRaptorVariation_A45 = ["rnbqkb1r/pppppppp/8/6B1/3Pn2P/8/PPP1PPP1/RN1QKBNR b KQkq - 0 3"];
+const fenQueenPawnGameBarryAttackGruenfeldVariation_D02 = ["rnbq1rk1/ppp1ppbp/5np1/3p4/3P1B2/2N1PN2/PPP1BPPP/R2QK2R b KQ - 2 6"];
+const fenEnglishOpeningKingsEnglishVariationClosedSystemFullSymmetry_A26 = ["r1bqk1nr/ppp2pbp/2np2p1/4p3/2P5/2NP2P1/PP2PPBP/R1BQK1NR w KQkq - 0 6"];
+const fenVanGeetOpeningCaroKannVariation_A00 = ["rnbqkbnr/pp2pppp/2p5/3p4/4P3/2N5/PPPP1PPP/R1BQKBNR w KQkq - 0 3"];
+const fenModernDefenseGeneral_A41 = ["rnbqk1nr/ppp1ppbp/3p2p1/8/2PP4/2N5/PP2PPPP/R1BQKBNR w KQkq - 0 4"];
+const fenQueensGambitAcceptedNormalVariationTraditionalSystem_D26 = ["rnbqkb1r/ppp2ppp/4pn2/8/2pP4/4PN2/PP3PPP/RNBQKB1R w KQkq - 0 5"];
+const fenNeoGruenfeldDefenseDelayedExchangeVariation_D74 = ["rnbq1rk1/ppp1ppbp/6p1/3n4/3P4/5NP1/PP2PPBP/RNBQ1RK1 b - - 1 7"];
+const fenAlekhineDefenseNormalVariation_B03 = ["rnbqkb1r/ppp1pppp/3p4/3nP3/3P4/8/PPP2PPP/RNBQKBNR w KQkq - 0 4"];
+const fenIndianGameAntiGrunfeldAlekhineVariation_D70 = ["rnbqkb1r/pppppp1p/5np1/8/2PP4/5P2/PP2P1PP/RNBQKBNR b KQkq - 0 3"];
+const fenSemiSlavDefenseBotvinnikSystem_D44 = ["rnbqkb1r/p4p2/2p1pn1p/1p2P1N1/2pP3B/2N5/PP3PPP/R2QKB1R b KQkq - 0 9"];
+const fenSpanishGameExchangeVariationBronsteinVariation_C69 = ["r1b1kbnr/1pp2ppp/p1pq4/4p3/4P3/5N2/PPPP1PPP/RNBQ1RK1 w kq - 2 6"];
+const fenKingsIndianDefenseFianchettoVariationYugoslavVariationAdvanceLine_E66 = ["r1bq1rk1/pp2ppbp/2np1np1/2pP4/2P5/2N2NP1/PP2PPBP/R1BQ1RK1 b - - 0 8"];
+const fenEnglishOpeningAngloIndianDefenseAngloGrunfeldVariation_1_A16 = ["rnbqkb1r/ppp1pp1p/1n4p1/8/8/2N3P1/PP1PPPBP/R1BQK1NR w KQkq - 2 6"];
+const fenQueensGambitDeclinedLaskerDefense_D56 = ["rnbq1rk1/ppp1bpp1/4p2p/3p4/2PPn2B/2N1PN2/PP3PPP/R2QKB1R w KQ - 2 8"];
+const fenCaroKannDefenseAcceleratedPanovAttackOpenVariation_B10 = ["rnbqkbnr/pp1p1ppp/2p5/4p3/2P1P3/8/PP1P1PPP/RNBQKBNR w KQkq - 0 3"];
+const fenKingsIndianDefenseFianchettoVariationSimaginVariation_E62 = ["r2q1rk1/ppp1ppbp/2np1np1/8/2PP2b1/2N2NP1/PP2PPBP/R1BQ1RK1 w - - 5 8"];
+const fenQueensGambitRefusedAlbinCountergambitNormalLine_D08 = ["rnbqkbnr/ppp2ppp/8/4P3/2Pp4/5N2/PP2PPPP/RNBQKB1R b KQkq - 1 4"];
+const fenModernDefenseThreePawnsAttack_B06 = ["rnbqk1nr/ppppppbp/6p1/8/3PPP2/8/PPP3PP/RNBQKBNR b KQkq - 0 3"];
+const fenFourKnightsGameSpanishVariationSymmetricalVariation_1_C49 = ["r1bq1rk1/ppp2ppp/2np1n2/1B2p3/1b2P3/2NP1N2/PPP2PPP/R1BQ1RK1 w - - 0 7"];
+const fenFourKnightsGameSpanishVariationClassicalVariation_C48 = ["r1bqk2r/pppp1ppp/2n2n2/1Bb1p3/4P3/2N2N2/PPPP1PPP/R1BQK2R w KQkq - 6 5"];
+const fenSicilianDefenseSmithMorraGambitAcceptedScheveningenFormation_B21 = ["r1bqkbnr/pp3ppp/2npp3/8/2B1P3/2N2N2/PP3PPP/R1BQK2R w KQkq - 0 7"];
+const fenSpanishGameBerlinDefenselHermetVariation_C67 = ["r1bqkb1r/pppp1ppp/2nn4/1B2p3/3P4/5N2/PPP2PPP/RNBQ1RK1 w kq - 1 6"];
+const fenQueensGambitDeclinedTartakowerDefenseMakogonovExchangeVariation_D59 = ["rnbq1rk1/p1p1bpp1/1p2p2p/3n4/3P3B/2N1PN2/PP3PPP/R2QKB1R w KQ - 0 9"];
+const fenSicilianDefenseLaskerPelikanVariationBirdVariation_B33 = ["r2qkb1r/1p3ppp/p1npbn2/4p1B1/4P3/N1N5/PPP2PPP/R2QKB1R w KQkq - 2 9"];
+const fenEnglishOpeningKingsEnglishVariationFourKnightsVariationFlexibleLine_A28 = ["r1bqkb1r/pppp1ppp/2n2n2/4p3/2P5/2NP1N2/PP2PPPP/R1BQKB1R b KQkq - 0 4"];
+const fenSicilianDefenseDragonVariationYugoslavAttackBelezkyLine_B76 = ["r1bqk2r/pp2ppbp/2np1np1/8/3NP3/2N1BP2/PPP3PP/R2QKB1R w KQkq - 1 8"];
+const fenBenoniDefenseBenoniIndianDefense_A43 = ["rnbqkb1r/pp1ppppp/5n2/2pP4/8/8/PPP1PPPP/RNBQKBNR w KQkq - 1 3"];
+const fenEnglishOpeningGolombekDefense_A16 = ["rnbqkb1r/ppp1pppp/5n2/3p4/2P5/2N5/PP1PPPPP/R1BQKBNR w KQkq - 0 3"];
+const fenSicilianDefenseDragonVariationClassicalVariation_1_B72 = ["rnbqk2r/pp2ppbp/3p1np1/8/3NP3/2N1B3/PPP1BPPP/R2QK2R b KQkq - 3 7"];
+const fenSicilianDefenseSozinAttackGeneralVariation_B86 = ["rnbqkb1r/pp3ppp/3ppn2/8/2BNP3/2N5/PPP2PPP/R1BQK2R b KQkq - 1 6"];
+const fenCenterGamePaulsenAttackVariation_C22 = ["r1bqkbnr/pppp1ppp/2n5/8/4P3/4Q3/PPP2PPP/RNB1KBNR b KQkq - 2 4"];
+const fenSicilianDefenseNajdorfVariationOpocenskyVariationModernLine_B92 = ["rn1qk2r/1p2bppp/p2pbn2/4p3/4P3/1NN5/PPP1BPPP/R1BQ1RK1 w kq - 4 9"];
+const fenFrenchDefenseWinawerVariationWinckelmannRiemerGambit_C15 = ["rnbqk1nr/ppp2ppp/4p3/3p4/1b1PP3/P1N5/1PP2PPP/R1BQKBNR b KQkq - 0 4"];
+const fenQueensGambitAcceptedClassicalDefenseSteinitzVariationDevelopmentVariation_D26 = ["r1bqkb1r/pp3ppp/2n1pn2/2p5/2BP4/4PN2/PP3PPP/RNBQ1RK1 w kq - 2 7"];
+const fenAlekhineDefenseFourPawnsAttackMainLine_B03 = ["r1bqkb1r/ppp1pppp/1nn5/4P3/2PP4/4B3/PP4PP/RN1QKBNR b KQkq - 2 7"];
+const fenViennaGamePaulsenVariation_C25 = ["r1bqkbnr/pppp1ppp/2n5/4p3/4P3/2N3P1/PPPP1P1P/R1BQKBNR b KQkq - 0 3"];
+const fenRussianGameFrenchAttack_C42 = ["rnbqkb1r/ppp2ppp/3p4/8/4n3/3P1N2/PPP2PPP/RNBQKB1R b KQkq - 0 5"];
+const fenQueensIndianDefenseKasparovPetrosianVariationMarcoDefense_E12 = ["rn1qk2r/pbppbppp/1p2pn2/8/2PP4/P1N2N2/1P2PPPP/R1BQKB1R w KQkq - 1 6"];
+const fenNeoGruenfeldDefenseMiscwith5Nf3_D73 = ["rnbqk2r/ppp1ppbp/5np1/3p4/2PP4/5NP1/PP2PPBP/RNBQK2R b KQkq - 3 5"];
+const fenSlavDefenseCzechVariationBledAttack_D17 = ["rn1qkb1r/pp2pppp/2p2n2/5b2/P1pP3N/2N5/1P2PPPP/R1BQKB1R b KQkq - 2 6"];
+const fenSpanishGameExchangeVariationKingsBishopVariation_C68 = ["r1bqk1nr/1pp2ppp/p1pb4/4p3/4P3/5N2/PPPP1PPP/RNBQ1RK1 w kq - 2 6"];
+const fenSicilianDefenseKupreichikVariation_B56 = ["rn1qkb1r/pp1bpppp/3p1n2/8/3NP3/2N5/PPP2PPP/R1BQKB1R w KQkq - 3 6"];
+const fenNimzoIndianDefenseNormalVariationBernsteinDefense_E59 = ["r1bq1rk1/pp3ppp/2n1pn2/2p5/2BP4/P1P1PN2/5PPP/R1BQ1RK1 b - - 0 10"];
+const fenOldIndianDefenseUkrainianVariation_A54 = ["rnbqkb1r/ppp2ppp/3p1n2/4p3/2PP4/2N5/PP2PPPP/R1BQKBNR w KQkq - 0 4"];
+const fenFrenchDefenseGeneral_C00 = ["rnbqkbnr/pppp1ppp/4p3/8/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2"];
+const fenSicilianDefenseNajdorfVariationFreakAttack_B90 = ["rnbqkb1r/1p2pppp/p2p1n2/8/3NP3/2N5/PPP2PPP/R1BQKBR1 b Qkq - 1 6"];
+const fenSemiSlavDefenseNoteboomVariationAbrahamsVariation_D31 = ["rn1qk1nr/1b3ppp/4p3/pp6/2pP4/1PB1PN2/5PPP/R2QKB1R w KQkq - 1 11"];
+const fenPircDefenseAustrianAttack_1_B09 = ["rnbqkb1r/ppp1pp1p/3p1np1/8/3PPP2/2N5/PPP3PP/R1BQKBNR b KQkq - 0 4"];
+const fenQueensGambitDeclinedOrthodoxDefenseBotvinnikVariation_D60 = ["r1bq1rk1/pppnbppp/4pn2/3p2B1/2PP4/2NBPN2/PP3PPP/R2QK2R b KQ - 4 7"];
+const fenQueensIndianDefenseKasparovPetrosianVariationClassicalVariation_E12 = ["rn1qkb1r/pbp2ppp/1p3n2/3p4/3P4/P1N2N2/1P2PPPP/R1BQKB1R w KQkq - 0 7"];
+const fenSlavDefenseSoultanbeieffVariation_D16 = ["rnbqkb1r/pp3ppp/2p1pn2/8/P1pP4/2N2N2/1P2PPPP/R1BQKB1R w KQkq - 0 6"];
+const fenQueensIndianDefenseYatesVariation_E16 = ["rn1qk2r/1bpp1ppp/1p2pn2/p7/1bPP4/5NP1/PP1BPPBP/RN1QK2R w KQkq - 0 7"];
+const fenRetiOpeningRetiGambit_A09 = ["rnbqkbnr/ppp1pppp/8/8/2p5/5N2/PP1PPPPP/RNBQKB1R w KQkq - 0 3"];
+const fenSicilianDefenseNajdorfVariationPoisonedPawnAccepted_B97 = ["rnb1kb1r/1p3ppp/p2ppn2/6B1/3NPP2/q1N5/P1PQ2PP/1R2KB1R w Kkq - 2 10"];
+const fenSicilianDefenseScheveningenVariationFianchettoVariation_B80 = ["rnbqkb1r/pp3ppp/3ppn2/8/3NP3/2N3P1/PPP2P1P/R1BQKB1R b KQkq - 0 6"];
+const fenSemiSlavDefenseMarshallGambitMainLine_D31 = ["rnbqk1nr/pp3ppp/2p1p3/8/1bPPN3/8/PP1B1PPP/R2QKBNR b KQkq - 2 6"];
+const fenSaragossaOpeningGeneral_A00 = ["rnbqkbnr/pppppppp/8/8/8/2P5/PP1PPPPP/RNBQKBNR b KQkq - 0 1"];
+const fenPhilidorDefenseHanhamVariation_C41 = ["r1bqkbnr/pppn1ppp/3p4/4p3/3PP3/5N2/PPP2PPP/RNBQKB1R w KQkq - 1 4"];
+const fenItalianGameClassicalVariationGeneral_C53 = ["r1bqk1nr/pppp1ppp/2n5/2b1p3/2B1P3/2P2N2/PP1P1PPP/RNBQK2R b KQkq - 0 4"];
+const fenQueensGambitRefusedBalticDefense_D02 = ["rn1qkbnr/ppp1pppp/8/3p1b2/2PP4/8/PP2PPPP/RNBQKBNR w KQkq - 1 3"];
+const fenTrompowskyAttackEdgeVariation_A45 = ["rnbqkb1r/pppppppp/8/8/3Pn2B/8/PPP1PPPP/RN1QKBNR b KQkq - 4 3"];
+const fenQueensGambitAcceptedAlekhineDefense_D22 = ["rnbqkbnr/1pp1pppp/p7/8/2pP4/5N2/PP2PPPP/RNBQKB1R w KQkq - 0 4"];
+const fenTarraschDefenseClassicalVariationAdvanceVariation_D34 = ["r1bq1rk1/pp2bppp/2n2n2/3p2B1/2pP4/2N2NP1/PP2PPBP/R2Q1RK1 w - - 0 10"];
+const fenSicilianDefenseScheveningenVariationClassicalVariation_2_B84 = ["rnb1kb1r/1pq2ppp/p2ppn2/8/3NP3/2N5/PPP1BPPP/R1BQ1RK1 w kq - 2 8"];
+const fenKingsIndianDefensePetrosianVariation_E92 = ["rnbq1rk1/ppp2pbp/3p1np1/3Pp3/2P1P3/2N2N2/PP2BPPP/R1BQK2R b KQ - 0 7"];
+const fenFrenchDefenseAdvanceVariationNimzowitschSystem_C02 = ["rnbqkbnr/pp3ppp/4p3/2ppP3/3P4/5N2/PPP2PPP/RNBQKB1R b KQkq - 1 4"];
+const fenSicilianDefenseNajdorfVariation_B98 = ["rnbqk2r/1p2bppp/p2ppn2/6B1/3NPP2/2N5/PPP3PP/R2QKB1R w KQkq - 1 8"];
+const fenNimzoIndianDefenseNormalVariationBronsteinByrneVariation_E45 = ["rn1qk2r/p1pp1ppp/bp2pn2/8/1bPP4/2N1P3/PP2NPPP/R1BQKB1R w KQkq - 2 6"];
+const fenScotchGameGeneral_C44 = ["r1bqkbnr/pppp1ppp/2n5/4p3/3PP3/5N2/PPP2PPP/RNBQKB1R b KQkq - 0 3"];
+const fenQueensGambitDeclinedHarrwitzAttackOrthodoxDefense_D37 = ["rnbq1rk1/pp2bppp/2p1pn2/3p4/2PP1B2/2N1PN2/PP3PPP/R2QKB1R w KQ - 0 7"];
+const fenGruenfeldDefenseRussianVariationHungarianVariation_D97 = ["rnbq1rk1/1pp1ppbp/p4np1/8/2QPP3/2N2N2/PP3PPP/R1B1KB1R w KQ - 0 8"];
+const fenNimzoIndianDefenseClassicalVariationNoaVariation_E36 = ["rnbqk2r/ppp2ppp/4pn2/3p4/1bPP4/P1N5/1PQ1PPPP/R1B1KBNR b KQkq - 0 5"];
+const fenRussianGameClassicalAttackChigorinVariationMainLine_C42 = ["r1bqk2r/ppp1bppp/8/3p4/1nPPn3/5N2/PP2BPPP/RNBQ1RK1 b kq - 2 9"];
+const fenAlekhineDefenseModernVariationLarsenVariation_B04 = ["rnbqkb1r/ppp1pppp/8/3np3/3P4/5N2/PPP2PPP/RNBQKB1R w KQkq - 0 5"];
+const fenSpanishGameClosedVariationsClosedDefense_1_C96 = ["r1bq1rk1/4bppp/p2p1n2/npp1p3/4P3/2P2N1P/PPBP1PP1/RNBQR1K1 w - - 0 11"];
+const fenSpanishGameMarshallAttackModernMainLine_C89 = ["r1b2rk1/5ppp/p1pb4/1p1n4/3P4/1BP3Pq/PP3P1P/RNBQR1K1 w - - 1 15"];
+const fenPolishDefenseGeneral_A40 = ["rnbqkbnr/p1pppppp/8/1p6/3P4/8/PPP1PPPP/RNBQKBNR w KQkq - 0 2"];
+const fenQueensGambitDeclinedModernKnightDefense_2_D51 = ["r1bqkb1r/pppn1ppp/4pn2/3p2B1/2PP4/2N5/PP2PPPP/R2QKBNR w KQkq - 4 5"];
+const fenSemiSlavDefenseMeranVariation_D48 = ["r1bqkb1r/3n1ppp/p1p1pn2/1p6/3P4/2NBPN2/PP3PPP/R1BQK2R w KQkq - 0 9"];
+const fenKingsIndianDefenseFianchettoVariationYugoslavVariation_E65 = ["rnbq1rk1/pp2ppbp/3p1np1/2p5/2PP4/2N2NP1/PP2PPBP/R1BQ1RK1 b - - 1 7"];
+const fenBudapestDefenseFajarowiczVariation_A51 = ["rnbqkb1r/pppp1ppp/8/4P3/2P1n3/8/PP2PPPP/RNBQKBNR w KQkq - 1 4"];
+const fenCatalanOpeningOpenDefenseModernSharpVariation_E04 = ["r1bqk2r/ppp2ppp/2n1pn2/8/QbpP4/5NP1/PP2PPBP/RNB1K2R w KQkq - 4 7"];
+const fenAlekhineDefenseNormalVariation_B02 = ["rnbqkb1r/pppppppp/8/3nP3/8/8/PPPP1PPP/RNBQKBNR w KQkq - 1 3"];
+const fenSicilianDefenseKveinisVariation_B40 = ["rnb1kbnr/pp1p1ppp/1q2p3/8/3NP3/8/PPP2PPP/RNBQKB1R w KQkq - 1 5"];
+const fenQueensIndianDefenseClassicalVariation_E17 = ["rn1qk2r/pbppbppp/1p2pn2/8/2PP4/5NP1/PP2PPBP/RNBQ1RK1 b kq - 4 6"];
+const fenFrenchDefenseAdvanceVariation_3_C02 = ["r1bqkbnr/pp3ppp/2n1p3/2ppP3/3P4/2P5/PP3PPP/RNBQKBNR w KQkq - 1 5"];
+const fenSicilianDefenseScheveningenVariationDelayedKeresAttack_B81 = ["rnbqkb1r/1p3ppp/p2ppn2/8/3NP1P1/2N1B3/PPP2P1P/R2QKB1R b KQkq - 0 7"];
+const fenBenoniDefenseFourPawnsAttackMainLine_A69 = ["rnbqr1k1/pp3pbp/3p1np1/2pP4/4PP2/2N2N2/PP2B1PP/R1BQK2R w KQ - 5 10"];
+const fenRussianGameModernAttack_C43 = ["rnbqkb1r/pppp1ppp/5n2/4p3/3PP3/5N2/PPP2PPP/RNBQKB1R b KQkq - 0 3"];
+const fenNimzoIndianDefenseNormalVariationSchlechterDefense_E52 = ["rnbq1rk1/p1p2ppp/1p2pn2/3p4/1bPP4/2NBPN2/PP3PPP/R1BQK2R w KQ - 0 7"];
+const fenKingsIndianDefenseAverbakhVariationGellerDefense_E73 = ["r1bq1rk1/pppnppbp/3p1np1/6B1/2PPP3/2N5/PP2BPPP/R2QK1NR w KQ - 4 7"];
+const fenQueensGambitDeclinedNormalDefense_D35 = ["rnbqkb1r/ppp2ppp/4pn2/3p4/2PP4/2N5/PP2PPPP/R1BQKBNR w KQkq - 2 4"];
+const fenFrenchDefenseQueensKnight_C00 = ["rnbqkbnr/pppp1ppp/4p3/8/4P3/2N5/PPPP1PPP/R1BQKBNR b KQkq - 1 2"];
+const fenSicilianDefenseDragonVariationYugoslavAttackEarlydeviations_B75 = ["rnbqk2r/pp2ppbp/3p1np1/8/3NP3/2N1BP2/PPP3PP/R2QKB1R b KQkq - 0 7"];
+const fenGruenfeldDefenseThreeKnightsVariationBurilleVariationReversedTarrasch_D94 = ["r1bq1rk1/pp2ppbp/2n2np1/3p4/2PP4/2N2N2/PP2BPPP/R1BQ1RK1 w - - 3 9"];
+const fenScandinavianDefenseLaskerVariation_B01 = ["rn2kb1r/ppp1pppp/5n2/q7/3P2b1/2N2N1P/PPP2PP1/R1BQKB1R b KQkq - 0 6"];
+const fenSicilianDefenseOKellyVariationMaroczyBindPaulsenLine_B28 = ["rnbqkbnr/1p1p1ppp/p3p3/2p5/2P1P3/5N2/PP1P1PPP/RNBQKB1R w KQkq - 0 4"];
+const fenKingsIndianAttackPachmanSystem_A07 = ["rnbqk2r/ppp1npbp/6p1/3pp3/8/3P1NP1/PPP1PPBP/RNBQ1RK1 w kq - 1 6"];
+const fenAlekhineDefenseFourPawnsAttack_B03 = ["rnbqkb1r/ppp1pppp/1n1p4/4P3/2PP1P2/8/PP4PP/RNBQKBNR b KQkq - 0 5"];
+const fenEnglishOpeningSymmetricalVariationTwoKnightsVariation_A35 = ["r1bqkbnr/pp1ppppp/2n5/2p5/2P5/2N5/PP1PPPPP/R1BQKBNR w KQkq - 2 3"];
+const fenSicilianDefenseScheveningenVariationMatanovicAttack_B82 = ["rnbqkb1r/pp3ppp/3ppn2/8/3NPP2/2N5/PPP3PP/R1BQKB1R b KQkq - 0 6"];
+const fenItalianGameTwoKnightsDefensePolerioDefenseSuhleDefense_C59 = ["r1bqkb1r/p4pp1/2p2n1p/n3p1N1/8/8/PPPPBPPP/RNBQK2R w KQkq - 0 9"];
+const fenEnglishOpeningKingsEnglishVariationGeneralVariation_A21 = ["rnbqkbnr/ppp2ppp/3p4/4p3/2P5/2N2N2/PP1PPPPP/R1BQKB1R b KQkq - 1 3"];
+const fenSicilianDefenseModernVariationsMainLine_B57 = ["rnbqkb1r/pp2pppp/3p1n2/8/3NP3/8/PPP2PPP/RNBQKB1R w KQkq - 1 5"];
+const fenSpanishGameMorphyDefenseModernSteinitzDefense_1_C75 = ["r2qkbnr/1ppb1ppp/p1np4/4p3/B3P3/2P2N2/PP1P1PPP/RNBQK2R w KQkq - 1 6"];
+const fenSlavDefenseCzechVariationWiesbadenVariation_D17 = ["rn1qkb1r/pp3ppp/2p1pn2/4Nb2/P1pP4/2N5/1P2PPPP/R1BQKB1R w KQkq - 0 7"];
+const fenSpanishGameBerlinDefenseBeverwijkVariation_C65 = ["r1bqk2r/pppp1ppp/2n2n2/1Bb1p3/4P3/5N2/PPPP1PPP/RNBQ1RK1 w kq - 6 5"];
+const fenSicilianDefenseKanVariation_B41 = ["rnbqkbnr/1p1p1ppp/p3p3/8/3NP3/8/PPP2PPP/RNBQKB1R w KQkq - 0 5"];
+const fenCaroKannDefenseForgacsVariation_B15 = ["rnbqkb1r/pp3ppp/2p2p2/8/2BP4/8/PPP2PPP/R1BQK1NR b KQkq - 1 6"];
+const fenSpanishGameSchliemannDefenseTartakowerVariation_C63 = ["r1bqkb1r/pppp2pp/2n2n2/1B2p3/4N3/5N2/PPPP1PPP/R1BQK2R w KQkq - 1 6"];
+const fenSpanishGameClosedVariationsWorrallAttackCasltingline_C86 = ["r1bq1rk1/2ppbppp/p1n2n2/1p2p3/4P3/1B3N2/PPPPQPPP/RNB2RK1 w - - 2 8"];
+const fenNimzowitschDefenseGeneral_B00 = ["r1bqkbnr/pppppppp/2n5/8/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 1 2"];
+const fenSicilianDefenseDragonVariationClassicalVariationNormalLine_B74 = ["r1bq1rk1/pp2ppbp/2np1np1/8/4P3/1NN1B3/PPP1BPPP/R2Q1RK1 b - - 7 9"];
+const fenSpanishGameClosedVariationsKeresDefense_1_C92 = ["r1bq1rk1/2pnbppp/p1np4/1p2p3/4P3/1BP2N1P/PP1P1PP1/RNBQR1K1 w - - 1 10"];
+const fenQueensGambitAcceptedShowalterVariation_D24 = ["rnbqkb1r/ppp1pppp/5n2/8/2pP4/2N2N2/PP2PPPP/R1BQKB1R b KQkq - 3 4"];
+const fenTarraschDefenseClassicalVariationMainLine_D34 = ["r1bqr1k1/pp2bpp1/2n2n1p/3p4/3N4/2N1B1P1/PP2PPBP/R2Q1RK1 w - - 2 12"];
+const fenSicilianDefenseDragonVariationModernBc4Variation_B35 = ["r1bqk2r/pp2ppbp/2np1np1/8/2BNP3/2N1B3/PPP2PPP/R2QK2R w KQkq - 6 8"];
+const fenEnglishOpeningKingsEnglishVariationFourKnightsVariationKorchnoiLine_A28 = ["r1bqkb1r/pppp1ppp/2n2n2/4p3/2P5/P1N2N2/1P1PPPPP/R1BQKB1R b KQkq - 0 4"];
+const fenQueensGambitDeclinedOrthodoxDefenseGeneral_D60 = ["r1bq1rk1/pppnbppp/4pn2/3p2B1/2PP4/2N1PN2/PP3PPP/R2QKB1R w KQ - 3 7"];
+const fenEnglishOpeningSymmetricalVariationAntiBenoniVariationSpielmannDefense_A32 = ["rnbqkb1r/pp1p1ppp/4pn2/8/2PN4/8/PP2PPPP/RNBQKB1R w KQkq - 0 5"];
+const fenFourKnightsGameItalianVariation_C50 = ["r1bqk2r/pppp1ppp/2n2n2/2b1p3/2B1P3/2N2N2/PPPP1PPP/R1BQK2R w KQkq - 6 5"];
+const fenIndianGameBudapestDefense_A51 = ["rnbqkb1r/pppp1ppp/5n2/4p3/2PP4/8/PP2PPPP/RNBQKBNR w KQkq - 0 3"];
+const fenRatDefenseAcceleratedGurgenidze_B07 = ["rnbqkbnr/pp2pp1p/2pp2p1/8/3PP3/2N5/PPP2PPP/R1BQKBNR w KQkq - 0 4"];
+const fenKingsIndianDefenseAcceleratedAverbakhVariation_E70 = ["rnbqk2r/ppp1ppbp/3p1np1/6B1/2PPP3/2N5/PP3PPP/R2QKBNR b KQkq - 1 5"];
+const fenRetiOpeningAngloSlavVariationBogoljubowVariationStonewallLine_A12 = ["rnbq1rk1/pp2bppp/2p1pn2/3p4/2P5/1P3NP1/PB1PPPBP/RN1Q1RK1 b - - 4 7"];
+const fenPircDefenseClassicalVariationQuietSystemChigorinLine_B08 = ["r1bq1rk1/ppp1ppbp/2np1np1/8/3PP3/2N2N2/PPP1BPPP/R1BQ1RK1 w - - 6 7"];
+const fenPircDefenseKholmovSystem_B07 = ["rnbqkb1r/ppp1pp1p/3p1np1/8/2BPP3/2N5/PPP2PPP/R1BQK1NR b KQkq - 1 4"];
+const fenQueensGambitAcceptedNormalVariation_D25 = ["rnbqkb1r/ppp1pppp/5n2/8/2pP4/4PN2/PP3PPP/RNBQKB1R b KQkq - 0 4"];
+const fenPircDefenseAustrianAttack_2_B09 = ["rnbq1rk1/ppp1ppbp/3p1np1/8/3PPP2/2N2N2/PPP3PP/R1BQKB1R w KQ - 3 6"];
+const fenItalianGameDeutzGambit_C55 = ["r1bqk2r/pppp1ppp/2n2n2/2b1p3/2BPP3/5N2/PPP2PPP/RNBQ1RK1 b kq - 0 5"];
+const fenSpanishGameBerlinDefenseImprovedSteinitzDefense_C66 = ["r1bqkb1r/ppp2ppp/2np1n2/1B2p3/4P3/5N2/PPPP1PPP/RNBQ1RK1 w kq - 0 5"];
+const fenQueensGambitRefusedBalticDefensePseudoSlav_D02 = ["rn1qkbnr/pp3ppp/2p1p3/3p1b2/2PP4/2N2N2/PP2PPPP/R1BQKB1R w KQkq - 0 5"];
+const fenZukertortOpeningOldIndianAttack_A06 = ["rnbqkbnr/ppp1pppp/8/3p4/8/3P1N2/PPP1PPPP/RNBQKB1R b KQkq - 0 2"];
+const fenItalianGameGiuocoPianissimoCanalVariation_C50 = ["r1bqk2r/ppp2ppp/2np1n2/2b1p1B1/2B1P3/2NP1N2/PPP2PPP/R2QK2R b KQkq - 1 6"];
+const fenBishopsOpeningGeneral_C23 = ["rnbqkbnr/pppp1ppp/8/4p3/2B1P3/8/PPPP1PPP/RNBQK1NR b KQkq - 1 2"];
+const fenCaroKannDefenseAdvanceVariationBayonetAttack_B12 = ["rn1qkbnr/pp2pppp/2p5/3pPb2/3P2P1/8/PPP2P1P/RNBQKBNR b KQkq - 0 4"];
+const fenDutchDefenseClassicalVariationHuislVariation_A96 = ["rnbq1rk1/ppp1b1pp/3pp3/5p2/2PPn3/2N2NP1/PP2PPBP/R1BQ1RK1 w - - 2 8"];
+const fenKadasOpeningGeneral_A00 = ["rnbqkbnr/pppppppp/8/8/7P/8/PPPPPPP1/RNBQKBNR b KQkq - 0 1"];
+const fenViennaGameGeneral_C27 = ["rnbqkbnr/pppp1ppp/8/4p3/4P3/2N5/PPPP1PPP/R1BQKBNR b KQkq - 1 2"];
+const fenFrenchDefenseMacCutcheonVariationLaskerVariation_2_C12 = ["rnbqk2r/ppp2p2/4p1pp/3pP3/3Pn1Q1/2P5/P1PB1PPP/R3KBNR w KQkq - 0 9"];
+const fenCaroKannDefenseTwoKnightsAttackMindenoVariation_B11 = ["rn1qkbnr/pp2pppp/2p5/3p4/4P1b1/2N2N2/PPPP1PPP/R1BQKB1R w KQkq - 2 4"];
+const fenSicilianDefenseDragonVariationClassicalVariation_1_B73 = ["r1bqk2r/pp2ppbp/2np1np1/8/3NP3/2N1B3/PPP1BPPP/R2Q1RK1 b kq - 5 8"];
+const fenSpanishGameMorphyDefenseModernSteinitzDefenseFianchettoVariation_C76 = ["r2qkbnr/1ppb1p1p/p1np2p1/4p3/B2PP3/2P2N2/PP3PPP/RNBQK2R w KQkq - 0 7"];
+const fenSpanishGameOpenVariationsOpenVariation_C80 = ["r1bqkb1r/1ppp1ppp/p1n5/4p3/B3n3/5N2/PPPP1PPP/RNBQ1RK1 w kq - 0 6"];
+const fenGrobOpeningGeneral_A00 = ["rnbqkbnr/pppppppp/8/8/6P1/8/PPPPPP1P/RNBQKBNR b KQkq - 0 1"];
+const fenSicilianDefenseOKellyVariationYerevanSystem_B28 = ["rnbqkbnr/1p1ppppp/p7/2p5/4P3/2N2N2/PPPP1PPP/R1BQKB1R b KQkq - 1 3"];
+const fenCaroKannDefenseAcceleratedPanovAttack_1_B10 = ["rnbqkbnr/pp2pppp/2p5/3p4/2P1P3/8/PP1P1PPP/RNBQKBNR w KQkq - 0 3"];
+const fenSicilianDefenseDragonVariationClassicalVariationBatteryVariation_B73 = ["r1bq1rk1/pp2ppbp/2np1np1/8/3NP3/2N1B3/PPPQBPPP/R4RK1 b - - 7 9"];
+const fenSicilianDefenseDragonVariationLevenfishVariation_B71 = ["rnbqkb1r/pp2pp1p/3p1np1/8/3NPP2/2N5/PPP3PP/R1BQKB1R b KQkq - 0 6"];
+const fenQueensGambitAcceptedFurmanVariation_D27 = ["rnbqk2r/1p3ppp/p3pn2/2b5/2B5/4PN2/PP3PPP/RNBQ1RK1 w kq - 0 8"];
+const fenModernDefenseGurgenidzeDefense_B06 = ["rnbqk1nr/pp2ppb1/2p3p1/3pP2p/3P1P2/2N5/PPP3PP/R1BQKBNR w KQkq - 0 6"];
+const fenSpanishGameClassicalVariationCentralVariation_C64 = ["r1bqk1nr/pppp1ppp/2n5/1Bb1p3/4P3/2P2N2/PP1P1PPP/RNBQK2R b KQkq - 0 4"];
+const fenSicilianDefenseRichterRauzerVariationNeoModernVariation_B68 = ["r2qk2r/1p1bbppp/p1nppn2/6B1/3NPP2/2N5/PPPQ2PP/2KR1B1R w kq - 1 10"];
+const fenSpanishGameSchliemannDefenseDyckhoffVariation_C63 = ["r1bqkbnr/pppp2pp/2n5/1B2pp2/4P3/2N2N2/PPPP1PPP/R1BQK2R b KQkq - 1 4"];
+const fenCaroKannDefenseTwoKnightsAttackMindenoVariationRetreatLine_B11 = ["rn1qkbnr/pp2pppp/2p5/3p3b/4P3/2N2N1P/PPPP1PP1/R1BQKB1R w KQkq - 1 5"];
+const fenSpanishGameClosedVariationsAverbakhVariation_C87 = ["r1bqk2r/1pp1bppp/p1np1n2/4p3/B3P3/5N2/PPPP1PPP/RNBQR1K1 w kq - 0 7"];
+const fenSpanishGameOpenVariationsMainLines_C80 = ["r2qkb1r/2p2ppp/p1n1b3/1p1pP3/4n3/1B3N2/PPP2PPP/RNBQ1RK1 w kq - 1 9"];
+const fenAlekhineDefenseMaroczyVariation_B02 = ["rnbqkb1r/pppppppp/5n2/8/4P3/3P4/PPP2PPP/RNBQKBNR b KQkq - 0 2"];
+const fenEnglishOpeningKingsEnglishVariationFourKnightsVariationGeneral_A28 = ["r1bqkb1r/pppp1ppp/2n2n2/4p3/2P5/2N2N2/PP1PPPPP/R1BQKB1R w KQkq - 4 4"];
+const fenLionDefenseAntiPhilidorLionsCave_B07 = ["r1bqkb1r/pppn1ppp/3p1n2/4p3/3PPP2/2N5/PPP3PP/R1BQKBNR w KQkq - 0 5"];
+const fenKingsIndianDefenseFianchettoVariationDebrecenDefense_E67 = ["r1bq1rk1/pppnppbp/3p1np1/8/2PP4/2N2NP1/PP2PPBP/R1BQK2R w KQ - 3 7"];
+const fenSicilianDefenseKanVariationSwissCheeseVariation_B42 = ["rnbqkbnr/1p1p1p1p/p3p1p1/8/3NP3/3B4/PPP2PPP/RNBQK2R w KQkq - 0 6"];
+const fenNimzoIndianDefenseSaemischVariationKeresVariation_E25 = ["rnbqk2r/pp3ppp/4p3/2Pn4/8/P1P2P2/4P1PP/R1BQKBNR b KQkq - 0 8"];
+const fenSlavDefenseAlekhineVariation_D15 = ["rnbqkb1r/pp2pppp/2p2n2/8/2pP4/2N1PN2/PP3PPP/R1BQKB1R b KQkq - 0 5"];
+const fenSicilianDefenseRichterRauzerVariationModernVariation_B60 = ["r2qkb1r/pp1bpppp/2np1n2/6B1/3NP3/2N5/PPP2PPP/R2QKB1R w KQkq - 5 7"];
+const fenNimzoIndianDefenseNormalVariationRagozinVariation_E51 = ["rnbq1rk1/ppp2ppp/4pn2/3p4/1bPP4/2N1PN2/PP3PPP/R1BQKB1R w KQ - 0 6"];
+const fenQueensIndianDefenseFianchettoTraditional_E15 = ["rn1qkb1r/pbpp1ppp/1p2pn2/8/2PP4/5NP1/PP2PP1P/RNBQKB1R w KQkq - 1 5"];
+const fenEnglishOpeningKingsEnglishVariationFourKnightsVariationQuietLine_2_A28 = ["r1bqk2r/pppp1ppp/2n2n2/4p3/2P5/2b1PN2/PPQP1PPP/R1B1KB1R w KQkq - 0 6"];
+const fenKingsIndianDefenseSaemischVariationClosedVariation7c6_E88 = ["rnbq1rk1/pp3pbp/2pp1np1/3Pp3/2P1P3/2N1BP2/PP4PP/R2QKBNR w KQ - 0 8"];
+const fenEnglishOpeningAngloIndianDefenseAngloGrunfeldVariation_2_A16 = ["rnbqkb1r/ppp1pp1p/6p1/8/8/2n3P1/PP1PPPBP/R1BQK1NR w KQkq - 0 6"];
+const fenEnglishOpeningKingsEnglishVariationHungarianAttack_A25 = ["r1bqk1nr/pppp1pbp/2n3p1/4p3/2P5/2N3P1/PP1PPPBP/1RBQK1NR b Kkq - 3 5"];
+const fenQueensGambitDeclinedNeoOrthodoxVariationMainLine_D55 = ["rnbq1rk1/ppp1bpp1/4pn1p/3p4/2PP3B/2N1PN2/PP3PPP/R2QKB1R b KQ - 1 7"];
+const fenNimzoIndianDefenseClassicalVariationNoaVariationModernLine_E35 = ["rnb1k2r/ppp2ppp/4pn2/3q4/1b1P4/2N5/PPQ1PPPP/R1B1KBNR w KQkq - 0 6"];
+const fenSemiSlavDefenseQuietVariation_2_D30 = ["rnbqkb1r/pp3ppp/2p1pn2/3p4/2PP4/4PN2/PP1N1PPP/R1BQKB1R b KQkq - 1 5"];
+const fenQueensIndianDefenseRiuminVariation_E16 = ["rn1qk2r/pbppbppp/1p2pn2/8/2PP4/5NP1/PP1BPPBP/RN1QK2R w KQkq - 5 7"];
+const fenSicilianDefenseSmithMorraGambitAcceptedPaulsenFormation_B21 = ["r1bqkbnr/1p1p1ppp/p1n1p3/8/2B1P3/2N2N2/PP3PPP/R1BQK2R w KQkq - 0 7"];
+const fenQueensIndianDefenseKasparovPetrosianVariationPetrosianAttack_E12 = ["rn1qkb1r/pbp2ppp/1p2p3/3n4/3P4/P1N1PN2/1P3PPP/R1BQKB1R b KQkq - 0 7"];
+const fenFrenchDefenseTarraschVariationGuimardDefense_C03 = ["r1bqkbnr/ppp2ppp/2n1p3/3p4/3PP3/8/PPPN1PPP/R1BQKBNR w KQkq - 2 4"];
+const fenFrenchDefenseWinawerVariationAdvanceVariation_C19 = ["rnbqk2r/pp2nppp/4p3/2ppP3/P2P4/2P5/2P2PPP/R1BQKBNR b KQkq - 0 7"];
+const fenNeoGruenfeldDefenseExchangeVariationwith6e4_D72 = ["rnbqk2r/ppp1ppbp/1n4p1/8/3PP3/6P1/PP2NPBP/RNBQK2R b KQkq - 2 7"];
+const fenEnglishOpeningAngloIndianDefenseRomanishinGambit_A13 = ["rnbqkb1r/2pp1ppp/p3pn2/1p6/2P5/5NP1/PP1PPPBP/RNBQK2R w KQkq - 0 5"];
+const fenSpanishGameClosedVariationsSmyslovDefense_C93 = ["r1bq1rk1/2p1bpp1/p1np1n1p/1p2p3/4P3/1BP2N1P/PP1P1PP1/RNBQR1K1 w - - 0 10"];
+const fenCaroKannDefenseStandardUnorthodoxReplies_B15 = ["rnbqkbnr/pp2pppp/2p5/3p4/3PP3/2N5/PPP2PPP/R1BQKBNR b KQkq - 1 3"];
+const fenGruenfeldDefenseRussianVariation_D96 = ["rnbqk2r/ppp1ppbp/5np1/3p4/2PP4/1QN2N2/PP2PPPP/R1B1KB1R b KQkq - 3 5"];
+const fenNimzoIndianDefenseHuebnerVariationMainLine_E41 = ["r1bqk2r/pp3ppp/2nppn2/2p5/2PP4/2PBPN2/P4PPP/R1BQK2R w KQkq - 0 8"];
+const fenBlumenfeldCountergambitDusChotimurskyVariation_E10 = ["rnbqkb1r/p2p1ppp/4pn2/1ppP2B1/2P5/5N2/PP2PPPP/RN1QKB1R b KQkq - 1 5"];
+const fenQueensGambitDeclinedHarrwitzAttackTwoKnightsDefenseBlockadeLine_D37 = ["r1bq1rk1/pppnbppp/4pn2/2Pp4/3P1B2/2N1PN2/PP3PPP/R2QKB1R b KQ - 0 7"];
+const fenTarraschDefensePragueVariation_D33 = ["r1bqkb1r/pp3ppp/2n2n2/2pp4/3P4/2N2NP1/PP2PP1P/R1BQKB1R w KQkq - 1 7"];
+const fenSicilianDefenseDragonVariationClassicalVariation_2_B73 = ["r1bqk2r/pp2ppbp/2np1np1/8/3NP3/2N1B3/PPP1BPPP/R2QK2R w KQkq - 4 8"];
+const fenKingsGambitDeclinedClassicalVariation_C30 = ["rnbqk1nr/pppp1ppp/8/2b1p3/4PP2/8/PPPP2PP/RNBQKBNR w KQkq - 1 3"];
+const fenQueensGambitRefusedAlbinCountergambit_D08 = ["rnbqkbnr/ppp2ppp/8/3pp3/2PP4/8/PP2PPPP/RNBQKBNR w KQkq - 0 3"];
+const fenFrenchDefenseLaBourdonnaisVariation_C00 = ["rnbqkbnr/pppp1ppp/4p3/8/4PP2/8/PPPP2PP/RNBQKBNR b KQkq - 0 2"];
+const fenScandinavianDefenseSchillerPytelVariation_B01 = ["rnb1kbnr/pp2pppp/2pq4/8/3P4/2N5/PPP2PPP/R1BQKBNR w KQkq - 0 5"];
+const fenSicilianDefensePaulsenBasmanDefense_B40 = ["rnbqk1nr/pp1p1ppp/4p3/2b5/3NP3/8/PPP2PPP/RNBQKB1R w KQkq - 1 5"];
+const fenEnglishOpeningAngloIndianDefenseAngloGrunfeldVariation_3_A16 = ["rnbqkb1r/ppp1pppp/8/3n4/8/2N2N2/PP1PPPPP/R1BQKB1R b KQkq - 1 4"];
+const fenOldIndianCzechVariation_A53 = ["rnbqkb1r/pp2pppp/2pp1n2/8/2PP4/2N2N2/PP2PPPP/R1BQKB1R b KQkq - 1 4"];
+const fenZukertortOpeningGrunfeldReversed_A49 = ["r1bqkbnr/pp3ppp/2n1p3/2pp4/3P4/5NP1/PPP1PPBP/RNBQ1RK1 b kq - 1 5"];
+const fenCaroKannDefenseModernVariation_B12 = ["rnbqkbnr/pp2pppp/2p5/3p4/3PP3/8/PPPN1PPP/R1BQKBNR b KQkq - 1 3"];
+const fenSicilianDefenseKatalimovVariation_B27 = ["rnbqkbnr/p2ppppp/1p6/2p5/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq - 0 3"];
+const fenSlavDefenseSteinerVariation_D16 = ["rn1qkb1r/pp2pppp/2p2n2/8/P1pP2b1/2N2N2/1P2PPPP/R1BQKB1R w KQkq - 1 6"];
+const fenKingsIndianDefenseFianchettoVariationLongVariation_E68 = ["r1bqr1k1/1pp2pbp/3p1np1/p1n5/2PNP3/2N3PP/PP3PB1/R1BQR1K1 w - - 0 12"];
+const fenFourKnightsGameDoubleSpanish_C49 = ["r1bqk2r/pppp1ppp/2n2n2/1B2p3/1b2P3/2N2N2/PPPP1PPP/R1BQK2R w KQkq - 6 5"];
+const fenQueensGambitAcceptedMannheimVariation_D23 = ["rnbqkb1r/ppp1pppp/5n2/8/Q1pP4/5N2/PP2PPPP/RNB1KB1R b KQkq - 3 4"];
+const fenBenoniDefenseClassicalVariationCzerniakDefenseTalLine_A77 = ["rnbqr1k1/pp3pbp/3p1np1/2pP4/4P3/2N5/PP1NBPPP/R1BQ1RK1 b - - 7 10"];
+const fenQueensIndianDefenseMilesVariation_E12 = ["rnbqkb1r/p1pp1ppp/1p2pn2/8/2PP1B2/5N2/PP2PPPP/RN1QKB1R b KQkq - 1 4"];
+const fenElephantGambitGeneral_C40 = ["rnbqkbnr/ppp2ppp/8/3pp3/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq - 0 3"];
+const fenSicilianDefenseGrandPrixAttackSchofmanVariation_B23 = ["r1bqk1nr/pp1p1pbp/2n1p1p1/2p2P2/2B1P3/2N2N2/PPPP2PP/R1BQK2R b KQkq - 0 6"];
+const fenCatalanOpeningClosedVariation_E07 = ["r1bq1rk1/pppnbppp/4pn2/3p4/2PP4/5NP1/PP2PPBP/RNBQ1RK1 w - - 6 7"];
+const fenSicilianDefenseLaskerPelikanVariationSchlechterVariation_B33 = ["r1bqkb1r/pp1p1ppp/2n2n2/4p3/4P3/1NN5/PPP2PPP/R1BQKB1R b KQkq - 1 6"];
+const fenEnglishOpeningSymmetricalVariationAntiBenoniVariationGellerVariation_A33 = ["r1b1kb1r/pp1p1ppp/1qn1pn2/8/2PN4/2N3P1/PP2PP1P/R1BQKB1R w KQkq - 1 7"];
+const fenSemiSlavDefenseBogoljubowVariation_D46 = ["r1bqk2r/pp1nbppp/2p1pn2/3p4/2PP4/2NBPN2/PP3PPP/R1BQK2R w KQkq - 3 7"];
+const fenAlekhineDefenseTwoPawnAttackLaskerVariation_B02 = ["rnbqkb1r/pppppppp/1n6/2P1P3/8/8/PP1P1PPP/RNBQKBNR b KQkq - 0 4"];
+const fenFrenchDefenseTarraschVariationOpenSystemSuechtingLine_C07 = ["rnbqkbnr/pp3ppp/4p3/2pp4/3PP3/2P5/PP1N1PPP/R1BQKBNR b KQkq - 0 4"];
+const fenBudapestDefenseGeneral_A52 = ["rnbqkb1r/pppp1ppp/8/4P3/2P3n1/8/PP2PPPP/RNBQKBNR w KQkq - 1 4"];
+const fenCaroKannDefensePanovAttackFianchettoDefenseFianchettoGambit_B13 = ["rnbqk2r/pp2ppbp/5np1/3P4/3P4/2N5/PP3PPP/R1BQKBNR w KQkq - 1 7"];
+const fenSpanishGameMorphyDefenseCaroVariation_C70 = ["r1bqkbnr/2pp1ppp/p1n5/1p2p3/B3P3/5N2/PPPP1PPP/RNBQK2R w KQkq - 0 5"];
+const fenScotchGameHaxoGambit_C45 = ["r1bqk1nr/pppp1ppp/2n5/2b5/2BpP3/5N2/PPP2PPP/RNBQK2R w KQkq - 2 5"];
+const fenSpanishGameMorphyDefenseModernSteinitzDefense_1_C71 = ["r1bqkbnr/1pp2ppp/p1np4/4p3/B3P3/5N2/PPPP1PPP/RNBQK2R w KQkq - 0 5"];
+const fenEnglishOpeningAngloIndianDefenseKingsIndianFormationDoubleFianchetto_A15 = ["rn1qkb1r/pbpppp1p/1p3np1/8/2P5/5NP1/PP1PPPBP/RNBQK2R w KQkq - 2 5"];
+const fenQueensGambitRefusedChigorinDefenseExchangeVariation_D07 = ["r1b1kbnr/ppp1pppp/2n5/3q4/3P4/8/PP2PPPP/RNBQKBNR w KQkq - 0 4"];
+const fenViennaGameViennaGambitMainLine_C29 = ["rnbqkb1r/ppp2ppp/5n2/3pp3/4PP2/2N5/PPPP2PP/R1BQKBNR w KQkq - 0 4"];
+const fenQueensGambitDeclinedRagozinDefenseViennaVariation_D39 = ["rnbqk2r/ppp2ppp/4pn2/6B1/1bpP4/2N2N2/PP2PPPP/R2QKB1R w KQkq - 0 6"];
+const fenSpanishGameOpenVariationsHowellAttack_C81 = ["r2qkb1r/2p2ppp/p1n1b3/1p1pP3/4n3/1B3N2/PPP1QPPP/RNB2RK1 b kq - 2 9"];
+const fenCaroKannDefensePanovAttack_1_B13 = ["rnbqkbnr/pp2pppp/8/3p4/2PP4/8/PP3PPP/RNBQKBNR b KQkq - 0 4"];
+const fenPircDefenseAustrianAttackUnzickerAttack_B09 = ["rnbq1rk1/ppp1ppbp/3p1np1/4P3/3P1P2/2N2N2/PPP3PP/R1BQKB1R b KQ - 0 6"];
+const fenKingsIndianDefenseSaemischVariationOrthodoxVariation_E85 = ["rnbq1rk1/ppp2pbp/3p1np1/4p3/2PPP3/2N1BP2/PP4PP/R2QKBNR w KQ - 0 7"];
+const fenIndianGameReversedChigorinDefense_A45 = ["rnbqkb1r/pp1ppppp/5n2/2p5/3P4/2N5/PPP1PPPP/R1BQKBNR w KQkq - 0 3"];
+const fenEnglishOpeningAngloIndianDefenseAntiAntiGrunfeld_A17 = ["rnbqk2r/ppppppbp/5np1/8/2P1P3/2N2N2/PP1P1PPP/R1BQKB1R b KQkq - 0 4"];
+const fenOldIndianDefenseTartakowerIndian_A54 = ["rn1qkb1r/ppp1pppp/3p1n2/8/2PP2b1/5N2/PP2PPPP/RNBQKB1R w KQkq - 2 4"];
+const fenCaroKannDefenseGoldmanVariation_B12 = ["rnbqkbnr/pp2pppp/2p5/3p4/4P3/2N2Q2/PPPP1PPP/R1B1KBNR b KQkq - 1 3"];
+const fenQueensGambitAcceptedCentralVariationModernDefense_D20 = ["r1bqkbnr/ppp1pppp/2n5/8/2pPP3/8/PP3PPP/RNBQKBNR w KQkq - 1 4"];
+const fenNimzoIndianDefenseNormalVariationBernsteinDefenseExchangeLine_E58 = ["r1bq1rk1/pp3ppp/2n1pn2/2pp4/2PP4/P1PBPN2/5PPP/R1BQ1RK1 b - - 0 9"];
+const fenRussianGameClassicalAttackMasonShowalterVariation_C42 = ["r1bqkb1r/ppp2ppp/2n5/3p4/3Pn3/3B1N2/PPP2PPP/RNBQK2R w KQkq - 2 7"];
+const fenCaroKannDefenseKarpovVariationSmyslovVariation_B17 = ["r1bqkb1r/pp3ppp/1np1pn2/6N1/2BP4/8/PPP1QPPP/R1B1K1NR w KQkq - 2 8"];
+const fenKingsIndianDefenseKazakhVariation_E91 = ["r1bq1rk1/ppp1ppbp/n2p1np1/8/2PPP3/2N2N2/PP2BPPP/R1BQK2R w KQ - 4 7"];
+const fenFrenchDefenseWinawerVariationAlekhineGambitKanVariation_C15 = ["r1bqk1nr/ppp2ppp/2n1p3/8/3Pp3/P1N5/1PP2PPP/R1BQKB1R w KQkq - 1 7"];
+const fenKingsIndianDefenseLarsenVariation_E90 = ["rnbq1rk1/ppp1ppbp/3p1np1/8/2PPP3/2N1BN2/PP3PPP/R2QKB1R b KQ - 3 6"];
+const fenQueensGambitAcceptedGunsbergDefense_D21 = ["rnbqkbnr/pp2pppp/8/2p5/2pP4/5N2/PP2PPPP/RNBQKB1R w KQkq - 0 4"];
+const fenNimzoIndianDefenseNormalVariationGligoricSystemBronsteinVariation_E55 = ["r1bq1rk1/pp1n1ppp/4pn2/2p5/1bBP4/2N1PN2/PP3PPP/R1BQ1RK1 w - - 1 9"];
+const fenQueensIndianDefenseClassicalVariationPolugayevskyGambit_E17 = ["rn1q1rk1/pbppbppp/1p3n2/3p4/2P4N/6P1/PP2PPBP/RNBQ1RK1 b - - 1 8"];
+const fenSicilianDefenseWingGambit_B20 = ["rnbqkbnr/pp1ppppp/8/2p5/1P2P3/8/P1PP1PPP/RNBQKBNR b KQkq - 0 2"];
+const fenIndianGameDzindziIndianDefense_E10 = ["rnbqkb1r/1ppp1ppp/p3pn2/8/2PP4/5N2/PP2PPPP/RNBQKB1R w KQkq - 0 4"];
+const fenSicilianDefenseNajdorfVariationTraditionalLine_B98 = ["rnb1k2r/1pq1bppp/p2ppn2/6B1/3NPP2/2N2Q2/PPP3PP/R3KB1R w KQkq - 3 9"];
+const fenSicilianDefenseWingGambitMarshallVariation_B20 = ["rnbqkbnr/pp1ppppp/8/8/1p2P3/P7/2PP1PPP/RNBQKBNR b KQkq - 0 3"];
+const fenDutchDefenseClassicalVariationGeneral_A96 = ["rnbq1rk1/ppp1b1pp/3ppn2/5p2/2PP4/5NP1/PP2PPBP/RNBQ1RK1 w - - 0 7"];
+const fenTarraschDefenseGeneral_D32 = ["rnbqkbnr/pp3ppp/4p3/2pp4/2PP4/2N5/PP2PPPP/R1BQKBNR w KQkq - 0 4"];
+const fenModernDefenseBeefeaterVariation_A40 = ["rnbqk1nr/pp1pp2p/6p1/2pP1p2/2P5/2P5/P3PPPP/R1BQKBNR w KQkq - 0 6"];
+const fenPhilidorDefenseLionVariationShirovGambit_C41 = ["r1bqkb1r/pppn1ppp/3p1n2/4p3/3PP1P1/2N2N2/PPP2P1P/R1BQKB1R b KQkq - 0 5"];
+const fenSicilianDefenseClassicalVariation_B58 = ["r1bqkb1r/pp2pppp/2np1n2/8/3NP3/2N5/PPP1BPPP/R1BQK2R b KQkq - 4 6"];
+const fenCaroKannDefenseKarpovVariationModernVariation_B17 = ["r1bqkbnr/pp1npppp/2p5/6N1/3P4/8/PPP2PPP/R1BQKBNR b KQkq - 2 5"];
+const fenItalianGameTwoKnightsDefense_1_C55 = ["r1bqkb1r/pppp1ppp/2n2n2/4p3/2B1P3/5N2/PPPP1PPP/RNBQK2R w KQkq - 4 4"];
+const fenQueensGambitDeclinedAntiTartakowerVariation_D55 = ["rnbq1rk1/ppp1bpp1/4pB1p/3p4/2PP4/2N1PN2/PP3PPP/R2QKB1R b KQ - 0 7"];
+const fenKingsGambitAcceptedFischerDefense_C34 = ["rnbqkbnr/ppp2ppp/3p4/8/4Pp2/5N2/PPPP2PP/RNBQKB1R w KQkq - 0 4"];
+const fenFrenchDefenseAlekhineChatardAttack_C13 = ["rnbqk2r/pppnbppp/4p3/3pP1B1/3P3P/2N5/PPP2PP1/R2QKBNR b KQkq - 0 6"];
+const fenPircDefenseAustrianAttackKurajicaVariation_B09 = ["rnbq1rk1/ppp1ppbp/3p1np1/8/3PPP2/2N1BN2/PPP3PP/R2QKB1R b KQ - 4 6"];
+const fenSpanishGameOpenVariationsClassicalDefense_C83 = ["r2qk2r/2p1bppp/p1n1b3/1p1pP3/4n3/1BP2N2/PP3PPP/RNBQ1RK1 w kq - 1 10"];
+const fenSpanishGameMorphyDefenseBayreuthVariation_C77 = ["r1bqkb1r/1ppp1ppp/p1B2n2/4p3/4P3/5N2/PPPP1PPP/RNBQK2R b KQkq - 0 5"];
+const fenSicilianDefenseOKellyVariationMaroczyBind_B28 = ["rnbqkbnr/1p1ppppp/p7/2p5/2P1P3/5N2/PP1P1PPP/RNBQKB1R b KQkq - 0 3"];
+const fenNimzowitschDefenseScandinavianVariationExchangeVariation_B00 = ["r1b1kbnr/ppp1pppp/2n5/3q4/3P4/8/PPP2PPP/RNBQKBNR w KQkq - 0 4"];
+const fenSicilianDefensePaulsenVariationModernLine_B44 = ["r1bq1rk1/4bppp/ppnppn2/8/2P1P3/N1N5/PP2BPPP/R1BQ1RK1 w - - 0 11"];
+const fenZukertortOpeningSlavInvitation_A04 = ["rnbqkbnr/pp1ppppp/2p5/8/8/5N2/PPPPPPPP/RNBQKB1R w KQkq - 0 2"];
+const fenQueenPawnGameVeresovAttackTwoKnightsSystem_D01 = ["r1bqkb1r/pppnpppp/5n2/3p2B1/3P4/2N2N2/PPP1PPPP/R2QKB1R b KQkq - 5 4"];
+const fenRatDefenseHarmonist_B07 = ["rnbqkbnr/ppp1pppp/3p4/8/4PP2/8/PPPP2PP/RNBQKBNR b KQkq - 0 2"];
+const fenBirdOpeningFromGambit_A02 = ["rnbqkbnr/pppp1ppp/8/4p3/5P2/8/PPPPP1PP/RNBQKBNR w KQkq - 0 2"];
+const fenEnglishOpeningAgincourtDefenseKeresDefense_A14 = ["r1bqk2r/pp2bppp/2n1p3/2pn4/8/2N2NP1/PP1PPPBP/R1BQ1RK1 w kq - 2 8"];
+const fenItalianGameAntiFriedLiverDefense_C55 = ["r1bqkbnr/pppp1pp1/2n4p/4p3/2B1P3/5N2/PPPP1PPP/RNBQK2R w KQkq - 0 4"];
+const fenSicilianDefenseFrenchVariationOpen_B40 = ["rnbqkbnr/pp1p1ppp/4p3/8/3pP3/5N2/PPP2PPP/RNBQKB1R w KQkq - 0 4"];
+const fenItalianGameTwoKnightsDefensePolerioDefenseBogoljubowVariation_C58 = ["r1bqkb1r/p4ppp/2p2n2/nB2p1N1/8/5Q2/PPPP1PPP/RNB1K2R b KQkq - 1 8"];
+const fenViennaGameAnderssenDefense_C25 = ["rnbqk1nr/pppp1ppp/8/2b1p3/4P3/2N5/PPPP1PPP/R1BQKBNR w KQkq - 2 3"];
+const fenQueensIndianDefenseOpocenskyVariation_E17 = ["rn1qk2r/pbppbppp/1p2p3/8/2PPn3/2N2NP1/PP1BPPBP/R2QK2R b KQkq - 6 7"];
+const fenQueensGambitAcceptedClassicalDefense_D26 = ["rnbqkb1r/pp3ppp/4pn2/2p5/2BP4/4PN2/PP3PPP/RNBQK2R w KQkq - 0 6"];
+const fenSlavDefenseGellerGambit_1_D15 = ["rnbqkb1r/p3pppp/2p2n2/1p2P3/2pP4/2N2N2/PP3PPP/R1BQKB1R b KQkq - 0 6"];
+const fenEnglishOpeningAngloIndianDefenseFlohrMikenasCarlsVariationNeiGambit_A19 = ["rnbqkbnr/pp1p1ppp/4p3/2p1P3/2P5/2N5/PP1P1PPP/R1BQKBNR w KQkq - 1 5"];
+const fenEnglishOpeningKingsEnglishVariationBotvinnikSystem_A26 = ["r1bqk1nr/ppp2pbp/2np2p1/4p3/2P1P3/2NP2P1/PP3PBP/R1BQK1NR b KQkq - 0 6"];
+const fenSemiSlavDefenseMarshallGambit_D31 = ["rnbqkbnr/pp3ppp/2p1p3/3p4/2PPP3/2N5/PP3PPP/R1BQKBNR b KQkq - 0 4"];
+const fenQueensIndianDefenseGeneral_E12 = ["rnbqkb1r/p1pp1ppp/1p2pn2/8/2PP4/5N2/PP2PPPP/RNBQKB1R w KQkq - 0 4"];
+const fenKingsIndianDefenseSaemischVariation_E86 = ["rnbq1rk1/pp3pbp/2pp1np1/4p3/2PPP3/2N1BP2/PP2N1PP/R2QKB1R w KQ - 0 8"];
+const fenNeoGruenfeldDefenseExchangeVariation_D71 = ["rnbqk2r/ppp1ppbp/6p1/3n4/3P4/6P1/PP2PPBP/RNBQK1NR w KQkq - 0 6"];
+const fenSicilianDefenseRichterRauzerVariation_B62 = ["r1bqkb1r/pp3ppp/2nppn2/6B1/3NP3/2NQ4/PPP2PPP/R3KB1R b KQkq - 1 7"];
+const fenPhilidorDefenseExchangeVariation_2_C41 = ["rnbqkbnr/ppp2ppp/3p4/8/3pP3/5N2/PPP2PPP/RNBQKB1R w KQkq - 0 4"];
+const fenPhilidorDefenseGeneral_2_C41 = ["rnbqkbnr/ppp2ppp/3p4/4p3/3PP3/5N2/PPP2PPP/RNBQKB1R b KQkq - 0 3"];
+const fenSemiSlavDefenseBotvinnikSystemLilienthalVariation_D44 = ["r1bqkb1r/p2n1p2/2p1pn2/1p2P1B1/2pP4/2N3P1/PP3P1P/R2QKB1R b KQkq - 0 11"];
+const fenDutchDefenseNormalVariation_A84 = ["rnbqkb1r/ppppp1pp/5n2/5p2/2PP4/8/PP2PPPP/RNBQKBNR w KQkq - 1 3"];
+const fenRussianGameKaufmannAttack_C42 = ["rnbqkb1r/ppp2ppp/3p4/8/2P1n3/5N2/PP1P1PPP/RNBQKB1R b KQkq - 0 5"];
+const fenScandinavianDefenseIcelandicPalmeGambit_B01 = ["rnbqkb1r/ppp2ppp/4pn2/3P4/2P5/8/PP1P1PPP/RNBQKBNR w KQkq - 0 4"];
+const fenFrenchDefenseTarraschVariationBotvinnikVariation_C05 = ["rnbqkb1r/p2n1ppp/1p2p3/2ppP3/3P4/2PB4/PP1N1PPP/R1BQK1NR w KQkq - 0 7"];
+const fenSlavDefenseCzechVariationCarlsbadVariation_D17 = ["r3kb1r/ppqn1ppp/2p2n2/4pb2/P1NP4/2N3P1/1P2PP1P/R1BQKB1R w KQkq - 0 9"];
+const fenBenoniDefenseModernVariationSnakeVariation_A60 = ["rnbqk2r/pp1p1ppp/3b1n2/2pP4/8/2N5/PP2PPPP/R1BQKBNR w KQkq - 1 6"];
+const fenViennaGameViennaGambit_C28 = ["rnbqkb1r/pppp1ppp/5n2/4p3/4PP2/2N5/PPPP2PP/R1BQKBNR b KQkq - 0 3"];
+const fenNimzoIndianDefenseSimaginVariation_E46 = ["rnbq1rk1/ppp2ppp/3bpn2/3p4/2PP4/P1N1P3/1P2NPPP/R1BQKB1R w KQ - 1 7"];
+const fenSicilianDefenseRichterRauzerVariationNeoModernVariationNyezhmetdinovAttack_B69 = ["r2qk2r/3bbppp/p1nppB2/1p6/4PP2/2N2N2/PPPQ2PP/2KR1B1R b kq - 0 11"];
+const fenRetiOpeningAngloSlavVariationNewYorkSystem_A12 = ["rn1qkb1r/pp2pppp/2p2n2/3p1b2/2P5/1P3N2/PB1PPPPP/RN1QKB1R w KQkq - 3 5"];
+const fenNimzowitschDefenseKennedyVariationLinksspringerVariation_B00 = ["r1bqkbnr/pppp1ppp/2n5/3Pp3/4P3/8/PPP2PPP/RNBQKBNR b KQkq - 0 3"];
+const fenBenoniDefenseFrancoSicilianDefense_A43 = ["rnbqkbnr/pp1p1ppp/4p3/2pP4/4P3/8/PPP2PPP/RNBQKBNR b KQkq - 0 3"];
+const fenCaroKannDefenseAdvanceVariationVanderWielAttackBishopHunt_B12 = ["rn1qkbnr/pp3ppp/4p1b1/2ppP3/3P2PP/2N5/PPP1NP2/R1BQKB1R b KQkq - 0 7"];
+const fenDutchDefenseClassicalVariationBuenosAiresVariation_A96 = ["rnbq1rk1/1pp1b1pp/3ppn2/p4p2/2PP4/2N2NP1/PP2PPBP/R1BQ1RK1 w - - 0 8"];
+const fenSicilianDefensePinVariationKochVariation_B40 = ["rnbqk2r/pp1p1ppp/4pn2/4P3/1b1N4/2N5/PPP2PPP/R1BQKB1R b KQkq - 0 6"];
+const fenFourKnightsGameScotchVariationBelgradeGambit_C47 = ["r1bqkb1r/pppp1ppp/2n2n2/3N4/3pP3/5N2/PPP2PPP/R1BQKB1R b KQkq - 1 5"];
+const fenModernDefenseLizardDefenseMittenbergerGambit_B06 = ["rnbqk1nr/ppp1ppbp/6p1/3p4/3PP3/2N5/PPP2PPP/R1BQKBNR w KQkq - 0 4"];
+const fenEnglundGambitComplexEnglundGambit_A40 = ["r1b1kbnr/ppppqppp/2n5/4P3/8/5N2/PPP1PPPP/RNBQKB1R w KQkq - 3 4"];
+const fenItalianGameClassicalVariationCenterAtttack_C53 = ["r1bqk2r/pppp1ppp/2n2n2/2b1p3/2BPP3/2P2N2/PP3PPP/RNBQK2R b KQkq - 0 5"];
+const fenFrenchDefenseClassicalVariationBurnVariationMainLine_C11 = ["rnbq1rk1/ppp2ppp/4pb2/8/3PN3/5N2/PPP2PPP/R2QKB1R w KQ - 2 8"];
+const fenAlekhineDefenseModernVariationSchmidVariation_B04 = ["rnbqkb1r/ppp1pppp/1n1p4/4P3/3P4/5N2/PPP2PPP/RNBQKB1R w KQkq - 2 5"];
+const fenQueensIndianDefenseAntiQueensIndianSystem_E17 = ["rn1qk2r/pbppbppp/1p2pn2/8/2PP4/2N2NP1/PP2PPBP/R1BQK2R b KQkq - 4 6"];
+const fenKingsIndianDefenseFianchettoVariationYugoslavSystemwoNc3_E64 = ["rnbq1rk1/pp2ppbp/3p1np1/2p5/2PP4/5NP1/PP2PPBP/RNBQ1RK1 w - - 0 7"];
+const fenSicilianDefenseAcceleratedDragonExchangeVariation_B34 = ["r1bqkbnr/pp1ppp1p/2N3p1/8/4P3/8/PPP2PPP/RNBQKB1R b KQkq - 0 5"];
+const fenIndianGamePolishVariation_A46 = ["rnbqkb1r/p1pppppp/5n2/1p6/3P4/5N2/PPP1PPPP/RNBQKB1R w KQkq - 0 3"];
+const fenSemiSlavDefenseMeranVariationReynoldsVariation_D48 = ["r1bqkb1r/3n1ppp/p3pn2/1ppP4/4P3/2NB1N2/PP3PPP/R1BQK2R b KQkq - 0 10"];
+const fenQueensGambitDeclinedOrthodoxDefenseMainLine_2_D63 = ["r1bq1rk1/pppnbppp/4pn2/3p2B1/2PP4/2N1PN2/PP3PPP/2RQKB1R b K - 4 7"];
+const fenQueensGambitDeclinedOrthodoxDefenseHennegergerVariation_D63 = ["r1bq1rk1/1ppnbppp/p3pn2/3p2B1/2PP4/2N1PN2/PP3PPP/2RQKB1R w K - 0 8"];
+const fenSemiSlavDefenseAccepted_D44 = ["rnbqkb1r/pp3ppp/2p1pn2/6B1/2pP4/2N2N2/PP2PPPP/R2QKB1R w KQkq - 0 6"];
+const fenBenoniDefenseBenoniGambitAccepted_A43 = ["rnbqkbnr/pp1ppppp/8/2P5/8/8/PPP1PPPP/RNBQKBNR b KQkq - 0 2"];
+const fenBenkoGambitZaitsevSystem_A58 = ["rnbqkb1r/3ppppp/p4n2/1PpP4/8/2N5/PP2PPPP/R1BQKBNR b KQkq - 1 5"];
+const fenCaroKannDefenseAdvanceVariationBronsteinVariation_B12 = ["rn1qkbnr/pp2pppp/2p5/3pPb2/3P4/8/PPP1NPPP/RNBQKB1R b KQkq - 2 4"];
+const fenRatDefenseAntalDefense_B07 = ["r1bqkbnr/pppnpppp/3p4/8/3PP3/8/PPP2PPP/RNBQKBNR w KQkq - 1 3"];
+const fenQueensGambitDeclinedExchangeVariationSaemischVariation_D35 = ["r1bqkb1r/pppn1ppp/5n2/3p4/3P1B2/2N2N2/PP2PPPP/R2QKB1R b KQkq - 3 6"];
+const fenPolishOpeningCzechDefense_A00 = ["rnbqkbnr/ppp2ppp/3p4/4p3/1P6/8/PBPPPPPP/RN1QKBNR w KQkq - 0 3"];
+const fenQueensGambitDeclinedCapablancaGeneral_D30 = ["rnbqkb1r/ppp2pp1/4pn1p/3p2B1/2PP4/5N2/PP2PPPP/RN1QKB1R w KQkq - 0 5"];
+const fenGruenfeldDefenseExchangeVariationSpasskyVariation_D88 = ["r1bq1rk1/pp2ppbp/2n3p1/8/2BPP3/4B3/P3NPPP/R2Q1RK1 b - - 0 11"];
+const fenNimzoIndianDefenseSaemischVariation_E25 = ["rnbqk2r/pp3ppp/4pn2/2pP4/3P4/P1P2P2/4P1PP/R1BQKBNR b KQkq - 0 7"];
+const fenScotchGameScotchGambitGoringGambitDeclined_C44 = ["r1bqkbnr/ppp2ppp/2n5/3p4/3pP3/2P2N2/PP3PPP/RNBQKB1R w KQkq - 0 5"];
+const fenGruenfeldDefenseRussianVariationPrinsVariation_D97 = ["r1bq1rk1/ppp1ppbp/n4np1/8/2QPP3/2N2N2/PP3PPP/R1B1KB1R w KQ - 1 8"];
+const fenKingsIndianDefensePetrosianVariationNormalDefense_E93 = ["r1bq1rk1/pppn1pbp/3p1np1/3Pp3/2P1P3/2N2N2/PP2BPPP/R1BQK2R w KQ - 1 8"];
+const fenKingsIndianDefenseSaemischVariationDoubleFianchetto_E82 = ["rnbq1rk1/p1p1ppbp/1p1p1np1/8/2PPP3/2N1BP2/PP4PP/R2QKBNR w KQ - 0 7"];
+const fenSicilianDefenseDragonVariationYugoslavAttackMainLine_B77 = ["r1bq1rk1/pp2ppbp/2np1np1/8/2BNP3/2N1BP2/PPPQ2PP/R3K2R b KQ - 4 9"];
+const fenTorreAttackFianchettoDefenseEuweVariation_A48 = ["rnbqk2r/pp1pppbp/5np1/2p3B1/3P4/5N2/PPPNPPPP/R2QKB1R w KQkq - 0 5"];
+const fenItalianGameClassicalVariationGrecoGambitMoellerTherkatzAttack_C54 = ["r1bqk2r/pppp1ppp/2n5/3P4/2B1n3/2b2N2/PP3PPP/R1BQ1RK1 b kq - 0 9"];
+const fenSicilianDefenseAlapinVariationBarmenDefenseCentralExchange_B22 = ["r3kbnr/pp2pppp/2n5/3q4/3P2b1/5N2/PP3PPP/RNBQKB1R w KQkq - 3 7"];
+const fenFrenchDefenseClassicalVariationDelayedExchangeVariation_C11 = ["rnbqkb1r/ppp2ppp/4pn2/3P4/3P4/2N5/PPP2PPP/R1BQKBNR b KQkq - 0 4"];
+const fenSpanishGameMarshallAttackModernVariation_C89 = ["r1bq1rk1/4bppp/p1p5/1p1nR3/8/1BP5/PP1P1PPP/RNBQ2K1 w - - 0 12"];
+const fenEnglishOpeningSymmetricalVariationBotvinnikSystemReversed_A36 = ["r1bqk1nr/pp1p1pbp/2n3p1/2p1p3/2P5/2N1P1P1/PP1P1PBP/R1BQK1NR w KQkq - 0 6"];
+const fenBenkoGambitDeclinedQuietLine_A57 = ["rnbqkb1r/p2ppppp/5n2/1ppP4/2P5/8/PP1NPPPP/R1BQKBNR b KQkq - 1 4"];
+const fenQueensIndianDefenseKasparovPetrosianVariationHedgehogVariation_E17 = ["rn1qkb1r/pbpp1p1p/1p2pnp1/8/2PP4/P1N2N2/1P2PPPP/R1BQKB1R w KQkq - 0 6"];
+const fenRussianGameClassicalAttackChigorinVariation_C42 = ["r1bqk2r/ppp1bppp/2n5/3p4/3Pn3/3B1N2/PPP2PPP/RNBQR1K1 b kq - 5 8"];
+const fenTarraschDefenseClassicalVariationCarlsbadVariation_D34 = ["r1bq1rk1/pp2bppp/2n2n2/2pp2B1/3P4/2N2NP1/PP2PPBP/R2Q1RK1 b - - 6 9"];
+const fenSicilianDefenseRichterRauzerVariationClassicalVariation_B64 = ["r1bq1rk1/pp2bppp/2nppn2/6B1/3NPP2/2N5/PPPQ2PP/2KR1B1R b - - 0 9"];
+const fenAlekhineDefenseBaloghVariation_B03 = ["rnbqkb1r/ppp1pppp/3p4/3nP3/2BP4/8/PPP2PPP/RNBQK1NR b KQkq - 1 4"];
+const fenQueensGambitDeclinedHarrwitzAttack_D35 = ["rnbqkb1r/ppp2ppp/4pn2/3p4/2PP1B2/2N5/PP2PPPP/R2QKBNR b KQkq - 3 4"];
+const fenSicilianDefensePrinsVariationVeniceAttack_B55 = ["rnbqkb1r/pp3ppp/3p1n2/1B2p3/3NP3/5P2/PPP3PP/RNBQK2R b KQkq - 1 6"];
+const fenKingsGambitGeneral_C30 = ["rnbqkbnr/pppp1ppp/8/4p3/4PP2/8/PPPP2PP/RNBQKBNR b KQkq - 0 2"];
+const fenEnglishOpeningKingsEnglishVariationTrogerDefense_A21 = ["r2qkbnr/ppp2ppp/2npb3/4p3/2P5/2N3P1/PP1PPPBP/R1BQK1NR w KQkq - 3 5"];
+const fenThreeKnightsOpeningSteinitzDefense_C46 = ["r1bqkbnr/pppp1p1p/2n3p1/4p3/4P3/2N2N2/PPPP1PPP/R1BQKB1R w KQkq - 0 4"];
+const fenNimzoLarsenAttackSymmetricalVariation_A01 = ["rnbqkbnr/p1pppppp/1p6/8/8/1P6/P1PPPPPP/RNBQKBNR w KQkq - 0 2"];
+const fenSicilianDefenseModernVariations_B56 = ["rnbqkb1r/pp2pppp/3p1n2/8/3NP3/2N5/PPP2PPP/R1BQKB1R b KQkq - 2 5"];
+const fenSlavDefenseGellerGambit_2_D15 = ["rnbqkb1r/pp2pppp/2p2n2/8/2pPP3/2N2N2/PP3PPP/R1BQKB1R b KQkq - 0 5"];
+const fenBlumenfeldCountergambitGeneral_E10 = ["rnbqkb1r/p2p1ppp/4pn2/1ppP4/2P5/5N2/PP2PPPP/RNBQKB1R w KQkq - 0 5"];
+const fenKingsIndianDefenseFianchettoVariationDoubleFianchettoAttack_E64 = ["r1bq1rk1/pppn1pbp/3p1np1/4p3/2PP4/1PN2NP1/P3PPBP/R1BQ1RK1 b - - 0 8"];
+const fenPonzianiOpeningGeneral_C44 = ["r1bqkbnr/pppp1ppp/2n5/4p3/4P3/2P2N2/PP1P1PPP/RNBQKB1R b KQkq - 0 3"];
+const fenKingsKnightOpeningNormalVariation_C44 = ["r1bqkbnr/pppp1ppp/2n5/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq - 2 3"];
+const fenQueensIndianDefenseKasparovPetrosianVariationAnderssonVariation_E12 = ["rn1qkb1r/pbpp1ppp/1p2p3/8/2PPn3/P1N2N2/1P2PPPP/R1BQKB1R w KQkq - 1 6"];
+const fenSpanishGameMorphyDefenseNorwegianVariation_C70 = ["r1bqkbnr/2pp1ppp/p7/np2p3/4P3/1B3N2/PPPP1PPP/RNBQK2R w KQkq - 2 6"];
+const fenCatalanOpeningOpenDefenseClassicalLine_E05 = ["rnbqk2r/ppp1bppp/4pn2/8/2pP4/5NP1/PP2PPBP/RNBQK2R w KQkq - 2 6"];
+const fenCaroKannDefenseAcceleratedPanovAttack_2_B10 = ["rnbqkbnr/pp1ppppp/2p5/8/2P1P3/8/PP1P1PPP/RNBQKBNR b KQkq - 0 2"];
+const fenQueensGambitRefusedChigorinDefenseModernGambit_D06 = ["r1bqkb1r/ppp1pppp/2n2n2/8/2pP4/2N2N2/PP2PPPP/R1BQKB1R w KQkq - 0 5"];
+const fenSicilianDefenseLaskerPelikanVariationRetreatVariation_B33 = ["r1bqkb1r/pp1p1ppp/2n2n2/4p3/4P3/2N2N2/PPP2PPP/R1BQKB1R b KQkq - 1 6"];
+const fenSpanishGameClosedVariationsWorrallAttackDelayedcastlingline_C86 = ["r1bqk2r/2p1bppp/p1np1n2/1p2p3/4P3/1B3N2/PPPPQPPP/RNB2RK1 w kq - 0 8"];
+const fenKangarooDefenseKeresDefenseTranspositionalVariation_E00 = ["rnbqk1nr/pppp1ppp/4p3/8/1bPP4/2N5/PP2PPPP/R1BQKBNR b KQkq - 2 3"];
+const fenSicilianDefensePinVariation_B40 = ["rnbqk2r/pp1p1ppp/4pn2/8/1b1NP3/2N5/PPP2PPP/R1BQKB1R w KQkq - 3 6"];
+const fenGruenfeldDefenseSmyslovDefense_D94 = ["rn1q1rk1/pp2ppbp/2p2np1/3p4/2PP2b1/2NBPN2/PP3PPP/R1BQ1RK1 w - - 2 8"];
+const fenNimzoIndianDefenseNormalVariationGligoricSystemBernsteinDefense_E56 = ["r1bq1rk1/pp3ppp/2n1pn2/2pp4/1bPP4/2NBPN2/PP3PPP/R1BQ1RK1 w - - 2 8"];
+const fenTarraschDefenseClassicalVariationRetiVariation_D34 = ["r1bq1rk1/pp3ppp/2n2n2/2bp4/N7/5NP1/PP2PPBP/R1BQ1RK1 b - - 1 10"];
+const fenQueensGambitAcceptedClassicalDefenseAlekhineSystemMainLine_D29 = ["rn1qkb1r/1b3ppp/p3pn2/1pp5/3P4/1B2PN2/PP2QPPP/RNB2RK1 w kq - 2 9"];
+const fenPhilidorDefenseLarsenVariation_C41 = ["rnbqkbnr/ppp2p1p/3p2p1/8/3NP3/8/PPP2PPP/RNBQKB1R w KQkq - 0 5"];
+const fenEnglishOpeningAgincourtDefenseTarraschDefense_A14 = ["r1bqk2r/pp2bppp/2n1pn2/2pp4/2P5/1P3NP1/P2PPPBP/RNBQ1RK1 w kq - 3 7"];
+const fenViennaGameViennaGambitPaulsenAttack_C29 = ["rnbqkb1r/ppp2ppp/8/3pP3/4n3/2N2Q2/PPPP2PP/R1B1KBNR b KQkq - 1 5"];
+const fenNimzoIndianDefenseHuebnerVariationRubinsteinVariationMainLine_E42 = ["rnbq1rk1/pp1p1ppp/4pn2/8/1bPP4/P1N5/1P2NPPP/R1BQKB1R b KQ - 0 7"];
+const fenSpanishGameClassicalVariationZukertortGambit_C64 = ["r1bqk2r/pppp1ppp/2n2n2/1Bb1p3/4P3/2P2N2/PP1P1PPP/RNBQ1RK1 b kq - 0 5"];
+const fenPircDefenseBayonetAttack_B07 = ["rnbqk2r/ppp1ppbp/3p1np1/8/3PP2P/2N5/PPP1BPP1/R1BQK1NR b KQkq - 0 5"];
+const fenSicilianDefenseNimzowitschVariationExchangeVariation_B29 = ["rnbqkb1r/pp1ppppp/8/2p1P3/8/2n2N2/PPPP1PPP/R1BQKB1R w KQkq - 0 5"];
+const fenKingsIndianDefenseFianchettoVariationBenjaminDefense_E61 = ["rnb2rk1/pp2ppbp/1qpp1np1/8/2PP4/2N2NP1/PP2PPBP/R1BQ1RK1 w - - 2 8"];
+const fenBenoniDefenseKingsIndianSystem_A56 = ["rnbqkb1r/pp3p1p/3p1np1/2pPp3/2P1P3/2N5/PP3PPP/R1BQKBNR w KQkq - 0 6"];
+const fenBlumenfeldCountergambitAccepted_E10 = ["rnbqkb1r/p5pp/4pn2/1Ppp4/8/5N2/PP2PPPP/RNBQKB1R w KQkq - 0 7"];
+const fenIndianGameSeirawanAttack_E00 = ["rnbqkb1r/pppp1ppp/4pn2/6B1/2PP4/8/PP2PPPP/RN1QKBNR b KQkq - 1 3"];
+const fenPterodactylDefenseEasternBenoni_B06 = ["rnbqk1nr/pp1pppbp/6p1/2pP4/4P3/2N5/PPP2PPP/R1BQKBNR b KQkq - 0 4"];
+const fenKingsIndianDefenseOrthodoxVariationDonnerDefense_E94 = ["rnbq1rk1/pp3pbp/2pp1np1/4p3/2PPP3/2N2N2/PP2BPPP/R1BQ1RK1 w - - 0 8"];
+const fenQueensGambitDeclinedSemiTarraschDefenseMainLine_D42 = ["r1bqkb1r/pp3ppp/2n1p3/2pn4/3P4/2NBPN2/PP3PPP/R1BQK2R b KQkq - 2 7"];
+const fenSpanishGameClosedVariationsChigorinDefense_1_C98 = ["r1b2rk1/2q1bppp/p1np1n2/1pp1p3/3PP3/2P2N1P/PPBN1PP1/R1BQR1K1 w - - 3 13"];
+const fenPterodactylDefenseWesternRhamporhynchus_B06 = ["rnb1k1nr/pp1pppbp/6p1/q1P5/4P3/5N2/PPP2PPP/RNBQKB1R w KQkq - 1 5"];
+const fenQueensGambitRefusedAlbinCountergambitFianchettoVariation_D09 = ["r1bqkbnr/ppp2ppp/2n5/4P3/2Pp4/5NP1/PP2PP1P/RNBQKB1R b KQkq - 0 5"];
+const fenSicilianDefenseScheveningenVariationEnglishAttack_2_B80 = ["rnbqkb1r/1p3ppp/p2ppn2/8/3NP3/2N1B3/PPPQ1PPP/R3KB1R b KQkq - 1 7"];
+const fenAlekhineDefenseModernVariationLarsenHaakertVariation_B04 = ["r1bqkb1r/ppp1pppp/2np4/3nP3/3P4/5N2/PPP2PPP/RNBQKB1R w KQkq - 2 5"];
+const fenSicilianDefenseNimzowitschVariationMainLine_B29 = ["r1bqkb1r/pp1p1ppp/2n5/2ppP3/3P4/5N2/PPP2PPP/R1BQKB1R w KQkq - 1 7"];
+const fenZukertortOpeningPolishDefense_A04 = ["rnbqkbnr/p1pppppp/8/1p6/8/5N2/PPPPPPPP/RNBQKB1R w KQkq - 0 2"];
+const fenEnglishOpeningSymmetricalVariationFianchettoVariation_A36 = ["r1bqkbnr/pp1ppppp/2n5/2p5/2P5/2N3P1/PP1PPP1P/R1BQKBNR b KQkq - 0 3"];
+const fenSlavDefenseCzechVariationCarlsbadVariationMorozevichVariation_D17 = ["r3kb1r/ppqn1p1p/2p5/4nbp1/P1N2B2/2N3P1/1P2PPBP/R2QK2R w KQkq - 0 12"];
+const fenFourKnightsGameSpanishVariationRubinsteinVariationAccepted_C48 = ["r1bqkb1r/pppp1ppp/5n2/1B2p3/3NP3/2N5/PPPP1PPP/R1BQK2R b KQkq - 0 5"];
+const fenSicilianDefenseCanalAttackHaagGambit_B51 = ["r3kb1r/pp1qpppp/2np1n2/2p5/3PP3/2P2N2/PP3PPP/RNBQ1RK1 b kq - 0 7"];
+const fenSpanishGameMarshallAttackGeneral_C89 = ["r1bq1rk1/2p1bppp/p1n2n2/1p1pp3/4P3/1BP2N2/PP1P1PPP/RNBQR1K1 w - - 0 9"];
+const fenRussianGameMilleniumAttack_C42 = ["rnbqkb1r/ppp2ppp/3p4/8/4n3/3B1N2/PPPP1PPP/RNBQK2R b KQkq - 1 5"];
+const fenGruenfeldDefenseRussianVariationByrneSimaginVariation_D97 = ["r1bq1rk1/ppp1ppbp/2n2np1/8/2QPP3/2N2N2/PP3PPP/R1B1KB1R w KQ - 1 8"];
+const fenSpanishGameClosedVariationsZaitsevSystem_C92 = ["r1bqr1k1/2p1bppp/p1np1n2/1p2p3/4P3/1BP2N1P/PP1P1PP1/RNBQR1K1 w - - 1 10"];
+const fenPircDefense150AttackSveshnikovJansaAttack_B07 = ["rnbqkb1r/pp2pp1p/2pp1np1/8/3PP3/2N1B2P/PPP2PP1/R2QKBNR b KQkq - 0 5"];
+const fenFourKnightsGameSpanishVariation_C49 = ["r1bq1rk1/pppp1ppp/2n2n2/1B2p3/4P3/2bP1N2/PPP2PPP/R1BQ1RK1 w - - 0 7"];
+const fenQueensGambitDeclinedSemiTarraschDefensePillsburyVariation_D41 = ["rnbqkb1r/pp3ppp/4p3/2pn4/3P4/2N1PN2/PP3PPP/R1BQKB1R b KQkq - 0 6"];
+const fenSicilianDefenseRichterRauzerVariationVitolinsVariation_B62 = ["r1bqkb1r/pp3ppp/2nppn2/1B4B1/3NP3/2N5/PPP2PPP/R2QK2R b KQkq - 1 7"];
+const fenSicilianDefenseFlohrVariation_B32 = ["r1b1kbnr/ppqppppp/2n5/8/3NP3/8/PPP2PPP/RNBQKB1R w KQkq - 1 5"];
+const fenEnglishOpeningAngloIndianDefenseQueensIndianFormation_A17 = ["rnbqkb1r/p1pp1ppp/1p2pn2/8/2P5/2N2N2/PP1PPPPP/R1BQKB1R w KQkq - 0 4"];
+const fenElephantGambitPaulsenCountergambit_C40 = ["rnbqkbnr/ppp2ppp/8/3P4/4p3/5N2/PPPP1PPP/RNBQKB1R w KQkq - 0 4"];
+const fenRussianGamePaulsenAttack_C42 = ["rnbqkb1r/ppp2ppp/3p1n2/8/2N1P3/8/PPPP1PPP/RNBQKB1R b KQkq - 1 4"];
+const fenCaroKannDefensePanovAttackModernDefenseCarlsbadLine_B13 = ["r1bqkb1r/pp3ppp/2n1pn2/3p2B1/2PP4/2N5/PP3PPP/R2QKBNR w KQkq - 0 7"];
+const fenQueensIndianDefenseFianchettoVariationSaemischVariation_E15 = ["rn1qkb1r/pb1p1ppp/1p2pn2/2p5/2PP4/5NP1/PP2PPBP/RNBQK2R w KQkq - 0 6"];
+const fenQueenPawnGameVeresovAtackRichterVariation_D01 = ["rn1qkb1r/ppp1pppp/5n2/3p1bB1/3P4/2N2P2/PPP1P1PP/R2QKBNR b KQkq - 0 4"];
+const fenRetiOpeningAngloSlavVariationBogoljubowVariationIII_A12 = ["rnbqkbnr/pp2pppp/2p5/3p4/2P5/1P3N2/P2PPPPP/RNBQKB1R b KQkq - 0 3"];
+const fenSpanishGameMorphyDefenseModernSteinitzDefense_1_C73 = ["r1bqkbnr/2p3pp/p1pp1p2/4p3/3PP3/5N2/PPP2PPP/RNBQK2R w KQkq - 0 7"];
+const fenSicilianDefenseModernVariationsAntiQxd4MoveOrder_B50 = ["rnbqkb1r/pp2pppp/3p1n2/2p5/3PP3/5N2/PPP2PPP/RNBQKB1R w KQkq - 1 4"];
+const fenBenkoGambitDeclinedSosonkoVariation_A57 = ["rnbqkb1r/p2ppppp/5n2/1ppP4/P1P5/8/1P2PPPP/RNBQKBNR b KQkq - 0 4"];
+const fenGruenfeldDefenseBrinckmannAttackGrunfeldGambitCapablancaVariation_D83 = ["rnbq1rk1/ppp1ppbp/5np1/3p4/2PP1B2/2N1P3/PP3PPP/2RQKBNR b K - 2 6"];
+const fenRussianGameModernAttackCenterAttack_C43 = ["rnbqkb1r/pppp1ppp/8/4P3/3Qn3/5N2/PPP2PPP/RNB1KB1R b KQkq - 0 5"];
+const fenViennaGameStanleyVariation_C26 = ["rnbqkb1r/pppp1ppp/5n2/4p3/2B1P3/2N5/PPPP1PPP/R1BQK1NR b KQkq - 3 3"];
+const fenSpanishGameMorphyDefenseFianchettoDefenseDeferred_C70 = ["r1bqkbnr/1ppp1p1p/p1n3p1/4p3/B3P3/5N2/PPPP1PPP/RNBQK2R w KQkq - 0 5"];
+const fenSicilianDefenseSmithMorraGambitDeclinedScandinavianFormation_B21 = ["rnbqkbnr/pp2pppp/8/3p4/3pP3/2P5/PP3PPP/RNBQKBNR w KQkq - 0 4"];
+const fenQueensGambitAcceptedBogoljubowDefense_D24 = ["rnbqkb1r/1pp1pppp/p4n2/8/2pPP3/2N2N2/PP3PPP/R1BQKB1R b KQkq - 0 5"];
+const fenGunderamDefenseGeneral_C40 = ["rnb1kbnr/ppppqppp/8/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq - 2 3"];
+const fenRussianGameDamianoVariationKholmovGambit_C42 = ["rnb1kb1r/ppppqppp/8/4N3/4n3/8/PPPPQPPP/RNB1KB1R w KQkq - 2 5"];
+const fenQueenPawnGameAntiTorre_D02 = ["rn1qkbnr/ppp1pppp/8/3p4/3P2b1/5N2/PPP1PPPP/RNBQKB1R w KQkq - 2 3"];
+const fenFrenchDefenseMacCutcheonVariationJanowskiVariation_C12 = ["rnbqk2r/ppp2pp1/4pn1p/3pP3/1b1P4/2N1B3/PPP2PPP/R2QKBNR b KQkq - 1 6"];
+const fenSlavDefenseSlavGambitAlekhineAttack_D10 = ["rnbqkbnr/pp2pppp/2p5/8/2pPP3/2N5/PP3PPP/R1BQKBNR b KQkq - 0 4"];
+const fenCatalanOpeningOpenDefenseTarraschDefense_E04 = ["r1bqkb1r/pp3ppp/2n1pn2/2pp4/2PP4/5NP1/PP2PPBP/RNBQK2R w KQkq - 2 6"];
+const fenNimzoIndianDefenseClassicalVariationNoaVariation_E37 = ["rnbqk2r/ppp2ppp/4p3/3p4/2PPn3/P7/1PQ1PPPP/R1B1KBNR b KQkq - 2 7"];
+const fenBenkoGambitZaitsevVariationNescafeFrappeAttack_A57 = ["rnbqkb1r/3ppppp/5n2/1NpP4/1p2P3/8/PP3PPP/R1BQKBNR b KQkq - 1 7"];
+const fenKingPawnGameMaroczyDefense_B07 = ["rnbqkbnr/ppp2ppp/3p4/4p3/3PP3/8/PPP2PPP/RNBQKBNR w KQkq - 0 3"];
+const fenScotchGameGoringGambit_C44 = ["r1bqkbnr/pppp1ppp/2n5/8/3pP3/2P2N2/PP3PPP/RNBQKB1R b KQkq - 0 4"];
+const fenItalianGameScotchGambitMaxLangeAttack_C55 = ["r1bqk2r/pppp1ppp/2n2n2/2b5/2BpP3/5N2/PPP2PPP/RNBQ1RK1 w kq - 2 6"];
+const fenSicilianDefenseDragonVariationYugoslavAttack_B76 = ["rnbq1rk1/pp2ppbp/3p1np1/8/3NP3/2N1BP2/PPP3PP/R2QKB1R w KQ - 1 8"];
+const fenSicilianDefenseMcDonnellAttackTalGambit_B21 = ["rnbqkb1r/pp2pppp/5n2/2pP4/5P2/8/PPPP2PP/RNBQKBNR w KQkq - 1 4"];
+const fenSicilianDefenseScheveningenVariationClassicalVariationPaulsenVariation_1_B85 = ["r1b1kb1r/1pq2ppp/p1nppn2/8/3NPP2/2N1B3/PPP1B1PP/R2Q1RK1 b kq - 2 9"];
+const fenQueensIndianDefenseFianchettoVariationNimzowitschVariationTimmansLine_E15 = ["rn1qkb1r/p1pp1ppp/bp2pn2/8/2PP4/1Q3NP1/PP2PP1P/RNB1KB1R b KQkq - 2 5"];
+const fenCaroKannDefenseKarpovVariationSmyslovVariationMainLine_B17 = ["r1bqkb1r/pp3ppp/1np1pn2/6N1/3P4/1B6/PPP1QPPP/R1B1K1NR b KQkq - 3 8"];
+const fenNimzoIndianDefenseSaemischVariation_E26 = ["rnbqk2r/pp1p1ppp/4pn2/2p5/2PP4/P1P1P3/5PPP/R1BQKBNR b KQkq - 0 6"];
+const fenBishopsOpeningViennaHybridHromadkaVariation_C28 = ["r1bqk2r/pppp1ppp/2n2n2/4p3/1bB1P3/2NP4/PPP1NPPP/R1BQK2R b KQkq - 4 5"];
+const fenSlavDefenseExchangeVariationTrifunovicVariation_D14 = ["r2qk2r/pp3ppp/2n1pn2/3p1b2/1b1P1B2/1QN1PN2/PP3PPP/R3KB1R w KQkq - 2 9"];
+const fenSemiSlavDefenseMeranVariationLundinVariation_D47 = ["r1bqkb1r/p2n1ppp/2p1pn2/8/1p1P4/2NBPN2/PP3PPP/R1BQK2R w KQkq - 0 9"];
+const fenNimzoIndianDefenseSpielmannVariation_E22 = ["rnbqk2r/pppp1ppp/4pn2/8/1bPP4/1QN5/PP2PPPP/R1B1KBNR b KQkq - 3 4"];
+const fenNimzoIndianDefenseSaemischVariation_E28 = ["rnbq1rk1/pppp1ppp/4pn2/8/2PP4/P1P1P3/5PPP/R1BQKBNR b KQ - 0 6"];
+const fenSicilianDefenseRichterRauzerVariationIvanovVariation_B63 = ["r1b1kb1r/pp3ppp/1qnppn2/6B1/3NP3/2N5/PPPQ1PPP/R3KB1R w KQkq - 2 8"];
+const fenQueensIndianDefenseKasparovVariationGeneral_E13 = ["rn1qk2r/pbpp1pp1/1p2pn1p/8/1bPP3B/2N2N2/PP2PPPP/R2QKB1R w KQkq - 2 7"];
+const fenViennaGameFalkbeerVariation_C26 = ["rnbqkb1r/pppp1ppp/5n2/4p3/4P3/2N5/PPPP1PPP/R1BQKBNR w KQkq - 2 3"];
+const fenKingsIndianAttackSmyslovVariation_A05 = ["rnbqkb1r/pppppp1p/5np1/8/1P6/5NP1/P1PPPP1P/RNBQKB1R b KQkq - 0 3"];
+const fenPircDefenseClassicalVariation_1_B07 = ["rnbqkb1r/ppp1pp1p/3p1np1/8/3PP3/2N5/PPP1BPPP/R1BQK1NR b KQkq - 1 4"];
+const fenQueenPawnGameVeresovAtackAlburtDefense_D00 = ["rn1qkbnr/ppp1pppp/8/3p1b2/3P4/2N5/PPP1PPPP/R1BQKBNR w KQkq - 2 3"];
+const fenDutchDefenseClassicalVariationStonewallVariation_A95 = ["rnbq1rk1/pp2b1pp/2p1pn2/3p1p2/2PP4/2N2NP1/PP2PPBP/R1BQ1RK1 w - - 0 8"];
+const fenDanishGambitGeneral_C21 = ["rnbqkbnr/pppp1ppp/8/8/3pP3/2P5/PP3PPP/RNBQKBNR b KQkq - 0 3"];
+const fenScandinavianDefensePanovTransfer_B01 = ["rnbqkb1r/pp2pppp/2p2n2/3P4/2P5/8/PP1P1PPP/RNBQKBNR w KQkq - 0 4"];
+const fenQueensGambitAcceptedRosenthalVariation_D21 = ["rnbqkbnr/ppp2ppp/4p3/8/2pP4/5N2/PP2PPPP/RNBQKB1R w KQkq - 0 4"];
+const fenItalianGameEvansGambitAnderssenVariationCordelLine_C51 = ["r1bqk1nr/ppppbppp/8/n3p3/2BPP3/2P2N2/P4PPP/RNBQK2R w KQkq - 1 7"];
+const fenBirdOpeningLaskerVariation_A03 = ["rnbqkb1r/pp2pppp/5n2/2pp4/5P2/4PN2/PPPP2PP/RNBQKB1R w KQkq - 0 4"];
+const fenRussianGameClassicalAttackMarshallVariation_C42 = ["rnbqk2r/ppp2ppp/3b4/3p4/3Pn3/3B1N2/PPP2PPP/RNBQK2R w KQkq - 2 7"];
+const fenRetiOpeningAngloSlavVariationLondonDefensiveSystem_A12 = ["rn1qkb1r/pp2pppp/2p2n2/3p1b2/2P5/1P3NP1/P2PPP1P/RNBQKB1R w KQkq - 1 5"];
+const fenZukertortOpeningLisitsynGambit_A04 = ["rnbqkbnr/ppppp1pp/8/5p2/4P3/5N2/PPPP1PPP/RNBQKB1R b KQkq - 0 2"];
+const fenSicilianDefenseKanVariationWingAttackSpraggettAttack_B43 = ["rnb1kbnr/3p1ppp/pq2p3/1p6/4P3/2NB1N2/PPP2PPP/R1BQK2R b KQkq - 3 7"];
+const fenSpanishGameClosedVariationsCenterAttack_C84 = ["r1bqk2r/1pppbppp/p1n2n2/4p3/B2PP3/5N2/PPP2PPP/RNBQ1RK1 b kq - 0 6"];
+const fenFrenchDefenseAlekhineChatardAttackMaroczyVariation_C13 = ["rnbqk2r/1ppnbppp/p3p3/3pP1B1/3P3P/2N5/PPP2PP1/R2QKBNR w KQkq - 0 7"];
+const fenDutchDefenseLeningradVariation_A86 = ["rnbqkb1r/ppppp2p/5np1/5p2/2PP4/6P1/PP2PP1P/RNBQKBNR w KQkq - 0 4"];
+const fenKingsIndianDefenseFianchettoVariationYugoslavVariationRareLines_E64 = ["rnbq1rk1/pp2ppbp/3p1np1/2p5/2PP4/2N2NP1/PP2PPBP/R1BQK2R w KQ - 0 7"];
+const fenSlavDefenseCzechVariationWiesbadenVariationSharpline_D17 = ["rn1qk2r/pp3ppp/2p1pn2/4Nb2/PbpPP3/2N2P2/1P4PP/R1BQKB1R b KQkq - 0 8"];
+const fenQueensGambitDeclinedWestphalianVariation_D51 = ["r1bqk2r/pp1n1ppp/4pn2/2pp2B1/1bPP4/2N1PN2/PP3PPP/R2QKB1R w KQkq - 0 7"];
+const fenNimzowitschDefenseMikenasVariation_B00 = ["r1bqkbnr/ppp1pppp/2np4/8/3PP3/8/PPP2PPP/RNBQKBNR w KQkq - 0 3"];
+const fenSicilianDefenseNajdorfVariationNeoClassicalDefense_B96 = ["r1bqkb1r/1p3ppp/p1nppn2/6B1/3NPP2/2N5/PPP3PP/R2QKB1R w KQkq - 1 8"];
+const fenAlekhineDefenseGeneral_B02 = ["rnbqkb1r/pppppppp/5n2/8/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 1 2"];
+const fenModernDefenseRossolimoVariation_A41 = ["rn1qk1nr/ppp1ppbp/3p2p1/8/2PPP1b1/5N2/PP3PPP/RNBQKB1R w KQkq - 1 5"];
+const fenDutchDefenseClassicalVariationIlyinZhenevskyVariationGeneral_A97 = ["rnb1qrk1/ppp1b1pp/3ppn2/5p2/2PP4/2N2NP1/PP2PPBP/R1BQ1RK1 w - - 2 8"];
+const fenItalianGameClassicalVariationGiuocoPianissimoMainline_C53 = ["r1bq1rk1/bpp2ppp/p1np1n2/4p3/4P3/1BPP1N1P/PP3PP1/RNBQR1K1 b - - 1 9"];
+const fenSicilianDefenseKanVariationWingAttackFianchettoVariation_B43 = ["rnbqkbnr/3p1ppp/p3p3/1p6/3NP3/2N3P1/PPP2P1P/R1BQKB1R b KQkq - 0 6"];
+const fenQueensGambitDeclinedAntiTartakowerVariationPetrosianVariation_D55 = ["r1bq1rk1/pp1n1pp1/2p1pb1p/8/2BP4/2N1PN2/PP3PPP/2RQ1RK1 b - - 0 11"];
+const fenFrenchDefenseWinawerVariationRetreatVariationGeneral_C18 = ["rnbqk1nr/pp3ppp/4p3/b1ppP3/3P4/P1N5/1PP2PPP/R1BQKBNR w KQkq - 1 6"];
+const fenIndianGameNormalVariation_A50 = ["rnbqkb1r/pppppppp/5n2/8/2PP4/8/PP2PPPP/RNBQKBNR b KQkq - 0 2"];
+const fenSicilianDefenseKronbergerVariation_B20 = ["rnbqkbnr/pp1ppppp/8/2p5/4P3/N7/PPPP1PPP/R1BQKBNR b KQkq - 1 2"];
+const fenSemiSlavDefenseMeranVariationWadeVariationLarsenVariation_D47 = ["r2qkb1r/pb1n1ppp/4p3/2pnP3/Np1P4/3B1N2/PP3PPP/R1BQK2R w KQkq - 1 12"];
+const fenDutchDefenseNimzoDutchVariation_A90 = ["rnbqk2r/pppp2pp/4pn2/5p2/1bPP4/6P1/PP2PPBP/RNBQK1NR w KQkq - 2 5"];
+const fenKingsIndianDefenseOrthodoxVariationClassicalSystemBenkoAttack_E99 = ["r1bq1rk1/pppnn1bp/3p2p1/3Ppp2/2P1P1P1/2N2P2/PP2B2P/R1BQNRK1 b - - 0 11"];
+const fenSicilianDefenseNajdorfVariationBrowneVariation_B98 = ["rnb1k2r/1pq1bpp1/p2ppn1p/8/3NPP1B/2N2Q2/PPP3PP/R3KB1R w KQkq - 2 10"];
+const fenRubinsteinOpeningBogoljubowDefense_D05 = ["r1bq1rk1/pp3ppp/2nbpn2/2pp4/3P4/1P1BPN2/PBP2PPP/RN1Q1RK1 w - - 5 8"];
+const fenNeoGruenfeldDefenseClassicalVariationPolgarVariation_D78 = ["r1bq1rk1/ppp1ppbp/2n2np1/3p4/2PP4/5NP1/PP2PPBP/RNBQ1RK1 w - - 6 7"];
+const fenItalianGameClassicalVariationGrecoGambitAnderssenVariation_C54 = ["r1bqk2r/ppp2ppp/2n5/1B1pP3/1b1Pn3/5N2/PP3PPP/RNBQK2R w KQkq - 1 9"];
+const fenBirdOpeningFromGambitLaskerVariation_A02 = ["rnbqk1nr/ppp2p1p/3b4/6p1/8/5N2/PPPPP1PP/RNBQKB1R w KQkq - 0 5"];
+const fenSicilianDefenseOKellyVariationMaroczyBindRobatschLine_B28 = ["rnbqkbnr/1p2pppp/p2p4/2p5/2P1P3/5N2/PP1P1PPP/RNBQKB1R w KQkq - 0 4"];
+const fenNimzoIndianDefenseClassicalVariationZurichVariation_E33 = ["r1bqk2r/pppp1ppp/2n1pn2/8/1bPP4/2N5/PPQ1PPPP/R1B1KBNR w KQkq - 4 5"];
+const fenItalianGameTwoKnightsDefenseUlvestadVariation_C57 = ["r1bqkb1r/p1p2ppp/2n2n2/1p1Pp1N1/2B5/8/PPPP1PPP/RNBQK2R w KQkq - 0 6"];
+const fenSpanishGameMorphyDefenseModernSteinitzDefense_2_C75 = ["r2qkb1r/1ppbnppp/p1np4/4p3/B2PP3/2P2N2/PP3PPP/RNBQK2R w KQkq - 1 7"];
+const fenQueenPawnGameColleSystemGruenfeldFormation_A48 = ["rnbqk2r/ppp1ppbp/5np1/3p4/3P4/3BPN2/PPP2PPP/RNBQK2R w KQkq - 0 5"];
+const fenKingsIndianDefenseZinnowitzVariation_E90 = ["rnbq1rk1/ppp1ppbp/3p1np1/6B1/2PPP3/2N2N2/PP3PPP/R2QKB1R b KQ - 3 6"];
+const fenSpanishGameClosedVariationsSmyslovBreyerZaitsevHybrid_C93 = ["r2qrbk1/1bp2pp1/p1np1n1p/1p2p3/3PP3/PBP2N1P/1P1N1PP1/R1BQR1K1 w - - 0 13"];
+const fenNimzoIndianDefenseThreeKnightsVariationDuchampVariationModernLine_E21 = ["rn1qk2r/pbpp1ppp/1p2pn2/6B1/1bPP4/2N5/PP1NPPPP/R2QKB1R b KQkq - 3 6"];
+const fenSlavDefenseSmyslovVariation_D16 = ["r1bqkb1r/pp2pppp/n1p2n2/8/P1pP4/2N2N2/1P2PPPP/R1BQKB1R w KQkq - 1 6"];
+const fenOldIndianCzechVariationwNc3_A53 = ["rnbqkb1r/pp2pppp/2pp1n2/8/2PP4/2N5/PP2PPPP/R1BQKBNR w KQkq - 0 4"];
+const fenModernDefenseBishopAttack_B06 = ["rnbqk1nr/ppppppbp/6p1/8/2BPP3/8/PPP2PPP/RNBQK1NR b KQkq - 2 3"];
+const fenItalianGameTwoKnightsDefenseFritzVariation_C57 = ["r1bqkb1r/ppp2ppp/5n2/3Pp1N1/2Bn4/8/PPPP1PPP/RNBQK2R w KQkq - 1 6"];
+const fenBenoniDefenseOldBenoniDefenseClarendonCourtVariation_A43 = ["rnbqkbnr/pp1pp1pp/8/2pP1p2/8/8/PPP1PPPP/RNBQKBNR w KQkq - 0 3"];
+const fenFourKnightsGameScotchVariation_C47 = ["r1bqkb1r/pppp1ppp/2n2n2/4p3/3PP3/2N2N2/PPP2PPP/R1BQKB1R b KQkq - 0 4"];
+const fenRetiOpeningAngloSlavVariationBogoljubowVariationII_A12 = ["rn1qkbnr/pp2pppp/2p5/3p4/2P3b1/1P3N2/P2PPPPP/RNBQKB1R w KQkq - 1 4"];
+const fenTrompowskyAttackPoisonedPawnVariation_A45 = ["rnb1kb1r/pp1ppppp/1q3n2/2pP2B1/8/2N5/PPP1PPPP/R2QKBNR b KQkq - 2 4"];
+const fenRussianGameModernAttackMurreyVariation_C43 = ["r1bqkb1r/pppp1ppp/2n5/4p3/3Pn3/3B1N2/PPP2PPP/RNBQK2R w KQkq - 2 5"];
+const fenFrenchDefenseWinawerVariationAdvanceVariationMoscowVariation_C17 = ["rnbqk1nr/pp3ppp/4p3/2ppP3/1b1P2Q1/2N5/PPP2PPP/R1B1KBNR b KQkq - 1 5"];
+const fenKingsKnightOpeningKonstantinopolskyOpening_C44 = ["r1bqkbnr/pppp1ppp/2n5/4p3/4P3/5NP1/PPPP1P1P/RNBQKB1R b KQkq - 0 3"];
+const fenSicilianDefenseKanVariationMaroczyBindBronsteinVariation_B41 = ["r1bqk2r/1p1p1ppp/p1n1pn2/8/1bPNP3/2NB4/PP3PPP/R1BQK2R w KQkq - 5 8"];
+const fenKingPawnGameTaylerOpeningInvertedHanham_C44 = ["r1bqkb1r/ppp2ppp/2n2n2/3pp3/4P3/3P1N2/PPPNBPPP/R1BQK2R b KQkq - 1 5"];
+const fenItalianGameBirdsAttack_C53 = ["r1bqk2r/pppp1ppp/2n2n2/2b1p3/1PB1P3/2P2N2/P2P1PPP/RNBQK2R b KQkq - 0 5"];
+const fenBenoniDefenseClassicalVariationMainline_A73 = ["rnbq1rk1/pp3pbp/3p1np1/2pP4/4P3/2N2N2/PP2BPPP/R1BQ1RK1 b - - 5 9"];
+const fenCatalanOpeningClosedVariationBotvinnikVariation_E07 = ["r1bq1rk1/pp1nbppp/2p1pn2/3p4/2PP4/2NQ1NP1/PP2PPBP/R1B2RK1 b - - 1 8"];
+const fenEnglishOpeningKingsEnglishVariationClosedSystem_A25 = ["r1bqk1nr/pppp1pbp/2n3p1/4p3/2P5/2NP2P1/PP2PPBP/R1BQK1NR b KQkq - 0 5"];
+const fenNimzoIndianDefenseRomanishinVariationEnglishHybrid_E20 = ["rnbq1rk1/pp3ppp/4p3/3n4/1b1N4/2N3P1/PP2PPBP/R1BQK2R w KQ - 0 9"];
+const fenSlavDefenseAlapinVariation_D16 = ["rnbqkb1r/pp2pppp/2p2n2/8/P1pP4/2N2N2/1P2PPPP/R1BQKB1R b KQkq - 0 5"];
+const fenBenoniDefenseUhlmannVariation_A61 = ["rnbqkb1r/pp3p1p/3p1np1/2pP2B1/8/2N2N2/PP2PPPP/R2QKB1R b KQkq - 1 7"];
+const fenItalianGameClassicalVariationClosedVariation_C53 = ["r1b1k1nr/ppppqppp/2n5/2b1p3/2B1P3/2P2N2/PP1P1PPP/RNBQK2R w KQkq - 1 5"];
+const fenSpanishGameMorphyDefenseModernSteinitzDefense_2_C73 = ["r1bqkbnr/2p2ppp/p1pp4/4p3/3PP3/5N2/PPP2PPP/RNBQK2R b KQkq - 0 6"];
+const fenHungarianOpeningDutchDefense_A00 = ["rnbqkbnr/ppppp1pp/8/5p2/8/6P1/PPPPPP1P/RNBQKBNR w KQkq - 0 2"];
+const fenRussianGameClassicalAttackMasonVariation_C42 = ["rnbq1rk1/ppp1bppp/8/3p4/3Pn3/3B1N2/PPP2PPP/RNBQ1RK1 w - - 4 8"];
+const fenSicilianDefenseNajdorfVariationPolugayevskyVariation_B96 = ["rnbqkb1r/5ppp/p2ppn2/1p4B1/3NPP2/2N5/PPP3PP/R2QKB1R w KQkq - 0 8"];
+const fenModernDefenseNorwegianDefense_B06 = ["rnbqkb1r/pppppp1p/5np1/8/3PP3/8/PPP2PPP/RNBQKBNR w KQkq - 1 3"];
+const fenSpanishGameBerlinDefense_C65 = ["r1bqkb1r/pppp1ppp/2n2n2/1B2p3/4P3/5N2/PPPP1PPP/RNBQ1RK1 b kq - 5 4"];
+const fenSemiSlavDefenseBotvinnikVariation_D44 = ["rnbqkb1r/pp3ppp/2p1pn2/6B1/2pPP3/2N2N2/PP3PPP/R2QKB1R b KQkq - 0 6"];
+const fenSlavDefenseWinawerCountergambit_D10 = ["rnbqkbnr/pp3ppp/2p5/3pp3/2PP4/2N5/PP2PPPP/R1BQKBNR w KQkq - 0 4"];
+const fenFrenchDefenseMacCutcheonVariationExchangeVariation_C12 = ["rnbqk2r/ppp2ppp/4pn2/3P2B1/1b1P4/2N5/PPP2PPP/R2QKBNR b KQkq - 0 5"];
+const fenRatDefenseSmallCenterDefense_C00 = ["rnbqkbnr/ppp2ppp/3pp3/8/3PP3/8/PPP2PPP/RNBQKBNR w KQkq - 0 3"];
+const fenQueenPawnGameFrancoSicilianDefense_C00 = ["rnbqkbnr/pp1p1ppp/4p3/2p5/3PP3/8/PPP2PPP/RNBQKBNR w KQkq - 0 3"];
+const fenSpanishGameSchliemannDefenseSchonemannAttack_C63 = ["r1bqkbnr/pppp2pp/2n5/1B2pp2/3PP3/5N2/PPP2PPP/RNBQK2R b KQkq - 0 4"];
+const fenSicilianDefenseOKellyVariationRetiSystem_B28 = ["rnbqkbnr/1p1ppppp/p7/2p5/4P3/5NP1/PPPP1P1P/RNBQKB1R b KQkq - 0 3"];
+const fenSpanishGameMorphyDefenseModernSteinitzDefense_1_C74 = ["r1bqkbnr/1pp2ppp/p1np4/4p3/B3P3/2P2N2/PP1P1PPP/RNBQK2R b KQkq - 0 5"];
+const fenQueensGambitRefusedAustrianDefense_D06 = ["rnbqkbnr/pp2pppp/8/2pp4/2PP4/8/PP2PPPP/RNBQKBNR w KQkq - 0 3"];
+const fenClemenzOpeningGeneral_A00 = ["rnbqkbnr/pppppppp/8/8/8/7P/PPPPPPP1/RNBQKBNR b KQkq - 0 1"];
+const fenQueensGambitDeclinedMilesVariationDzhindzhiAttack_D53 = ["rnbq1rk1/ppp1bppp/4pn2/3p2B1/2PP4/2N2N2/PPQ1PPPP/R3KB1R b KQ - 7 6"];
+const fenFrenchDefenseAlekhineChatardAttackAlbinChatardGambit_C13 = ["rnb1k2r/pppn1ppp/4p3/3pP1q1/3P4/2N5/PPP2PP1/R2QKBNR w KQkq - 0 8"];
+const fenRussianGameClassicalAttackJaenischVariation_C42 = ["r1bqk2r/ppp1bppp/2n5/3p4/2PPn3/3B1N2/PP3PPP/RNBQ1RK1 b kq - 0 8"];
+const fenSpanishGameBerlinDefenseBerlinWallJRogersLine_C67 = ["r2k1b1r/pppb1ppp/2p5/4Pn2/8/2N2N2/PPP2PPP/R1B2RK1 w - - 2 10"];
+const fenSpanishGameOpenVariationsStPetersburgVariation_C82 = ["r2qk2r/2p2ppp/p1n1b3/1pbpP3/4n3/1BP2N2/PP1N1PPP/R1BQ1RK1 b kq - 2 10"];
+const fenAlekhineDefenseTwoPawnAttack_B02 = ["rnbqkb1r/pppppppp/8/3nP3/2P5/8/PP1P1PPP/RNBQKBNR b KQkq - 0 3"];
+const fenBenoniDefenseClassicalVariationAverbakhGrivasAttack_A71 = ["rnbqk2r/pp3pbp/3p1np1/2pP2B1/4P3/2N2N2/PP3PPP/R2QKB1R b KQkq - 3 8"];
+const fenItalianGameTwoKnightsDefensePerreuxVariation_C55 = ["r1bqkb1r/pppp1ppp/2n2n2/6N1/2BpP3/8/PPP2PPP/RNBQK2R b KQkq - 1 5"];
+const fenQueensGambitDeclinedLaskerDefenseTeichmannVariation_D56 = ["rnb2rk1/ppp1qpp1/4p2p/3p4/2PPn3/2N1PN2/PPQ2PPP/R3KB1R b KQ - 1 9"];
+const fenSpanishGameSchliemannDefenseClassicalVariation_C63 = ["r1b1kbnr/ppp3pp/2N5/1B4q1/4p3/8/PPPP1PPP/R1BQK2R w KQkq - 1 8"];
+const fenKingsIndianDefenseAverbakhVariation_E73 = ["rnbq1rk1/ppp1ppbp/3p1np1/6B1/2PPP3/2N5/PP2BPPP/R2QK1NR b KQ - 3 6"];
+const fenIndianGameDefensePseudoQueensIndianMarienbadSystem_A47 = ["rn1qkb1r/pb1ppppp/1p3n2/2p5/3P4/5NP1/PPP1PPBP/RNBQK2R w KQkq - 0 5"];
+const fenNimzoIndianDefenseSaemischVariation_E27 = ["rnbq1rk1/pppp1ppp/4pn2/8/2PP4/P1P5/4PPPP/R1BQKBNR w KQ - 1 6"];
+const fenNimzoIndianDefenseClassicalVariationVitolinshAdorjanGambit_E32 = ["rnbq1rk1/p1pp1ppp/4pn2/1p6/2PP4/P1Q5/1P2PPPP/R1B1KBNR w KQ - 0 7"];
+const fenSicilianDefenseSmithMorraGambitAcceptedClassicalFormation_B21 = ["r1bqkb1r/1p2pppp/p1np1n2/8/2B1P3/2N2N2/PP3PPP/R1BQ1RK1 w kq - 2 8"];
+const fenItalianGameEvansGambitDeclined_C51 = ["r1bqk1nr/pppp1ppp/1bn5/4p3/1PB1P3/5N2/P1PP1PPP/RNBQK2R w KQkq - 1 5"];
+const fenViennaGameViennaGambitModernVariation_C29 = ["rnbqkb1r/ppp2ppp/8/3pP3/4n3/2NP4/PPP3PP/R1BQKBNR b KQkq - 0 5"];
+const fenSpanishGameMorphyDefenseSchliemannDefenseDeferred_C70 = ["r1bqkbnr/1ppp2pp/p1n5/4pp2/B3P3/5N2/PPPP1PPP/RNBQK2R w KQkq - 0 5"];
+const fenViennaGameViennaGambitBreyerVariation_C29 = ["rnbqk2r/ppp1bppp/8/3pP3/4n3/2N2N2/PPPP2PP/R1BQKB1R w KQkq - 2 6"];
+const fenSicilianDefenseSmithMorraGambitDeferred_B40 = ["rnbqkbnr/pp1p1ppp/4p3/8/3pP3/2P2N2/PP3PPP/RNBQKB1R b KQkq - 0 4"];
+const fenQueensGambitDeclinedViennaVariation_D30 = ["rnbqk2r/ppp2ppp/4pn2/3p2B1/1bPP4/5N2/PP2PPPP/RN1QKB1R w KQkq - 4 5"];
+const fenPhilidorDefenseExchangeVariation_3_C41 = ["rnbqkbnr/ppp2ppp/3p4/8/3NP3/8/PPP2PPP/RNBQKB1R b KQkq - 0 4"];
+const fenSpanishGameClosedVariationsKholmovVariation_C92 = ["r2q1rk1/2p1bppp/p1npbn2/1p2p3/4P3/1BP2N1P/PP1P1PP1/RNBQR1K1 w - - 1 10"];
+const fenSemiSlavDefenseMarshallGambitForgottenVariation_D31 = ["rnbqk1nr/pp3ppp/2p1p3/8/1bPP4/2N5/PP3PPP/R1BQKBNR b KQkq - 2 6"];
+const fenQueensGambitDeclinedHarrwitzAttackMainLineOldMainLine_D37 = ["r1b2rk1/pp3ppp/2n1pn2/q1bp4/2P2B2/P1N1PN2/1PQ2PPP/3RKB1R b K - 2 10"];
+const fenOldIndianDefenseJanowskiVariationFianchettoVariation_1_A53 = ["rn1qkb1r/ppp1pppp/3p1n2/5b2/2PP4/2N2N2/PP2PPPP/R1BQKB1R b KQkq - 3 4"];
+const fenEnglishOpeningAgincourtDefenseKurajicaDefense_A13 = ["rnbqkbnr/pp3ppp/2p1p3/3p4/2P5/5NP1/PP1PPP1P/RNBQKB1R w KQkq - 0 4"];
+const fenKingsGambitAcceptedSchallopDefense_C34 = ["rnbqkb1r/pppp1ppp/5n2/8/4Pp2/5N2/PPPP2PP/RNBQKB1R w KQkq - 2 4"];
+const fenSicilianDefenseDragonVariationYugoslavAttackSosonkoVariation_B77 = ["r1bq1rk1/pp1nppbp/2np2p1/8/2BNP3/2N1BP2/PPPQ2PP/R3K2R w KQ - 5 10"];
+const fenKingsGambitDeclinedClassicalVariationGeneral_C30 = ["rnbqk1nr/ppp2ppp/3p4/2b1p3/4PP2/2P2N2/PP1P2PP/RNBQKB1R b KQkq - 0 4"];
+const fenQueensGambitDeclinedHastingsVariation_D30 = ["rnb1kb1r/pp3pp1/2p1pq1p/3p4/2PP4/1QN2N2/PP2PPPP/R3KB1R b KQkq - 1 7"];
+const fenSicilianDefenseNyezhmetdinovRossolimoAttackFianchettoVariationGufeldGambit_B31 = ["r1bqk1nr/pp1p1pbp/2n3p1/1Bp1p3/3PP3/2P2N2/PP3PPP/RNBQ1RK1 b kq - 0 6"];
+const fenScotchGameModernDefense_C45 = ["r1b1k1nr/pppp1ppp/2n5/8/1b1NP2q/2N5/PPP2PPP/R1BQKB1R w KQkq - 3 6"];
+const fenGruenfeldDefenseOpocenskyVariation_D94 = ["rnbq1rk1/ppp1ppbp/5np1/3p4/2PP4/2N1PN2/PP1B1PPP/R2QKB1R b KQ - 2 6"];
+const fenEnglishOpeningAngloIndianDefenseScandavianDefenseExchangeVariation_A15 = ["rnbqkb1r/ppp1pppp/8/3n4/8/5N2/PP1PPPPP/RNBQKB1R w KQkq - 0 4"];
+const fenSpanishGameClassicalVariationModernMainLine_C64 = ["r1bq1rk1/pppp1ppp/1bn2n2/1B2p1B1/3PP3/2P2N2/PP3PPP/RN1Q1RK1 b - - 2 7"];
+const fenKingsGambitAcceptedBishopsGambit_C33 = ["rnbqkbnr/pppp1ppp/8/8/2B1Pp2/8/PPPP2PP/RNBQK1NR b KQkq - 1 3"];
+const fenSicilianDefenseDragonVariationClassicalVariationTartakowerLine_B74 = ["r1q2rk1/pp2ppbp/2npbnp1/8/4PP2/1NN1B3/PPP1B1PP/R2Q1RK1 w - - 1 11"];
+const fenAlekhineDefenseModernVariation_B04 = ["rnbqkb1r/ppp1pppp/3p4/3nP3/3P4/5N2/PPP2PPP/RNBQKB1R b KQkq - 1 4"];
+const fenFrenchDefenseWinawerVariationAdvanceVariation_1_C17 = ["rnbqk1nr/pp3ppp/4p3/2ppP3/1b1P4/2N5/PPP2PPP/R1BQKBNR w KQkq - 0 5"];
+const fenPolishOpeningOutflankVariation_A00 = ["rnbqkbnr/pp1ppppp/2p5/8/1P6/8/P1PPPPPP/RNBQKBNR w KQkq - 0 2"];
+const fenSicilianDefenseWingGambitDeferred_B40 = ["rnbqkbnr/pp1p1ppp/4p3/2p5/1P2P3/5N2/P1PP1PPP/RNBQKB1R b KQkq - 0 3"];
+const fenQueensGambitAcceptedCentralVariationGrecoVariation_D20 = ["rnbqkbnr/p1p1pppp/8/1p6/2pPP3/8/PP3PPP/RNBQKBNR w KQkq - 0 4"];
+const fenGruenfeldDefenseMakogonovVariation_D94 = ["rnbq1rk1/ppp1ppbp/5np1/3p4/1PPP4/2N1PN2/P4PPP/R1BQKB1R b KQ - 0 6"];
+const fenQueensIndianDefenseFianchettoVariationRubinsteinVariation_E16 = ["rn1qkb1r/pb1p1ppp/1p3n2/2pp4/2P4N/6P1/PP2PPBP/RNBQK2R b KQkq - 1 7"];
+const fenItalianGameClassicalVariationAlbinGambit_C53 = ["r1bqk2r/pppp1ppp/2n2n2/2b1p3/2B1P3/2P2N2/PP1P1PPP/RNBQ1RK1 b kq - 2 5"];
+const fenSicilianDefenseLaskerPelikanVariationSveshnikovVariation_2_B33 = ["r1bqkb1r/5ppp/p1np1n2/1p2p1B1/4P3/N1N5/PPP2PPP/R2QKB1R w KQkq - 0 9"];
+const fenQueenPawnGameMasonAttack_D00 = ["rnbqkbnr/ppp1pppp/8/3p4/3P1P2/8/PPP1P1PP/RNBQKBNR b KQkq - 0 2"];
+const fenGruenfeldDefenseRussianVariationAcceleratedVariation_D81 = ["rnbqkb1r/ppp1pp1p/5np1/3p4/2PP4/1QN5/PP2PPPP/R1B1KBNR b KQkq - 1 4"];
+const fenGruenfeldDefenseExchangeVariationSimaginsImprovedVariation_D86 = ["r1bq1rk1/ppp1ppbp/2n3p1/8/2BPP3/2P5/P3NPPP/R1BQK2R w KQ - 5 9"];
+const fenSicilianDefenseOKellyVariationMaroczyBindGellerLine_B28 = ["r1bqkbnr/1p1p1ppp/p1n5/4p3/2PNP3/8/PP3PPP/RNBQKB1R w KQkq - 0 6"];
+const fenQueensGambitDeclinedTartakowerVariationExchangeVariation_D57 = ["rnbq1rk1/p1p1bpp1/1p3n1p/3p4/3P3B/2N1PN2/PP3PPP/R2QKB1R w KQ - 0 9"];
+const fenSpanishGameMorphyDefenseDurasVariation_C77 = ["r1bqkb1r/1pp2ppp/p1np1n2/4p3/B1P1P3/3P1N2/PP3PPP/RNBQK2R b KQkq - 0 6"];
+const fenScandinavianDefensePortugueseVariationPortugueseGambit_B01 = ["r2qkb1r/pppnpppp/5n2/1B1P1b2/3P4/5P2/PPP3PP/RNBQK1NR w KQkq - 3 6"];
+const fenStGeorgeDefensePolishVariation_B00 = ["rn1qkbnr/1bpp1ppp/p3p3/1p6/3PP3/3B1N2/PPP2PPP/RNBQK2R w KQkq - 0 5"];
+const fenQueenPawnGameVeresovAtackClassicalDefense_D01 = ["rnbqkb1r/ppp2ppp/4pn2/3p2B1/3P4/2N2N2/PPP1PPPP/R2QKB1R b KQkq - 1 4"];
+const fenNimzoIndianDefenseSaemischVariation_E29 = ["r1bq1rk1/pp1p1ppp/2n1pn2/2p5/2PP4/P1PBP3/5PPP/R1BQK1NR w KQ - 2 8"];
+const fenGruenfeldDefenseThreeKnightsVariationParisVariation_D94 = ["rnbq1rk1/ppp1ppbp/5np1/3p4/2PP4/2NBPN2/PP3PPP/R1BQK2R b KQ - 2 6"];
+const fenFrenchDefenseExchangeVariationSvenoniusVariation_C01 = ["rnbqkb1r/ppp2ppp/5n2/3p2B1/3P4/2N5/PPP2PPP/R2QKBNR b KQkq - 3 5"];
+const fenKingPawnGameLeonardisVariation_C20 = ["rnbqkbnr/pppp1ppp/8/4p3/4P3/3P4/PPP2PPP/RNBQKBNR b KQkq - 0 2"];
+const fenSicilianDefenseModernVariationsTartakower_B53 = ["rnbqkbnr/pp2pppp/3p4/8/3pP3/2P2N2/PP3PPP/RNBQKB1R b KQkq - 0 4"];
+const fenFourKnightsGameNimzowitschPaulsen_C49 = ["r1bq1rk1/pppp1ppp/2B2n2/4p3/1b2P3/2N2N2/PPPP1PPP/R1BQ1RK1 b - - 0 6"];
+const fenScotchGameScotchGambitLondonDefense_C44 = ["r1bqk1nr/pppp1ppp/2n5/8/1bBpP3/5N2/PPP2PPP/RNBQK2R w KQkq - 2 5"];
+const fenSlavDefenseTwoKnightsAttack_D15 = ["rnbqkb1r/pp2pppp/2p2n2/8/2pP4/2N2N2/PP2PPPP/R1BQKB1R w KQkq - 0 5"];
+const fenCaroKannDefenseDeBruyckerDefense_A40 = ["r1bqkbnr/pp1ppppp/n1p5/8/3PP3/8/PPP2PPP/RNBQKBNR w KQkq - 1 3"];
+const fenRetiOpeningAngloSlavVariationCapablancaVariation_A12 = ["rn1qkb1r/pp2pppp/2p2n2/3p4/2P3b1/1P3N2/PB1PPPPP/RN1QKB1R w KQkq - 3 5"];
+const fenFourKnightsGameSpanishVariationSymmetricalVariation_2_C49 = ["r1bq1rk1/ppp2ppp/2np1n2/1B2p3/1b2P3/3P1N2/PPP1NPPP/R1BQ1RK1 b - - 1 7"];
+const fenCenterGameNormalVariation_C22 = ["r1bqkbnr/pppp1ppp/2n5/8/3QP3/8/PPP2PPP/RNB1KBNR w KQkq - 1 4"];
+const fenVanGeetOpeningNapoleonAttack_A00 = ["r1bqkbnr/pppp1ppp/2n5/4p3/3P4/2N2N2/PPP1PPPP/R1BQKB1R b KQkq - 0 3"];
+const fenDanishGambitDeclinedSorensenDefense_C21 = ["rnbqkbnr/ppp2ppp/8/3p4/3pP3/2P5/PP3PPP/RNBQKBNR w KQkq - 0 4"];
+const fenFrenchDefenseClassicalVariationSwissVariation_C11 = ["rnbqkb1r/ppp2ppp/4pn2/3p4/3PP3/2NB4/PPP2PPP/R1BQK1NR b KQkq - 3 4"];
+const fenSicilianDefenseScheveningenVariationTalVariation_B82 = ["r1bqk2r/pp2bppp/2nppn2/8/3NPP2/2N1BQ2/PPP3PP/R3KB1R b KQkq - 4 8"];
+const fenGruenfeldDefenseExchangeVariationModernExchangeVariationKramniksline_D85 = ["rnbqk2r/pp2ppbp/6p1/2p5/3PP3/2P2N1P/P4PP1/R1BQKB1R b KQkq - 0 8"];
+const fenSystemCanardFormation_A45 = ["rnbqkb1r/pppppppp/5n2/8/3P1P2/8/PPP1P1PP/RNBQKBNR b KQkq - 0 2"];
+const fenBenoniDefenseClassicalVariationArgentineCounterattack_A75 = ["rn1q1rk1/1p3pbp/p2p1np1/2pP4/P3P1b1/2N2N2/1P2BPPP/R1BQ1RK1 w - - 1 11"];
+const fenNeoGrunfeldDefenseNonorDelayedFianchetto_D70 = ["rnbqkb1r/ppp1pp1p/5np1/3p4/2PP4/5N2/PP2PPPP/RNBQKB1R w KQkq - 0 4"];
+const fenScotchGameScotchGambitKingsideVariation_C45 = ["r1bqkb1r/pppp1ppp/2n5/4P3/2Bp2n1/5N2/PPP2PPP/RNBQK2R w KQkq - 1 6"];
+const fenCatalanOpeningOpenDefense_E02 = ["rnbqkb1r/ppp2ppp/4pn2/8/Q1pP4/6P1/PP2PPBP/RNB1K1NR b KQkq - 1 5"];
+const fenSicilianDefenseRichterRauzerVariationClassicalVariationKantscherLine_B66 = ["r1bqk2r/4bppp/p2ppn2/1p4B1/3QPP2/2N5/PPP3PP/2KR1B1R w kq - 0 11"];
+const fenQueensGambitAcceptedClassicalDefenseAlekhineSystemExceptMainLine_D28 = ["rnbqkb1r/5ppp/p3pn2/1pp5/2BP4/4PN2/PP2QPPP/RNB2RK1 w kq - 0 8"];
+const fenQueensGambitRefusedBalticDefensePseudoChigorin_D02 = ["r2qkbnr/ppp2ppp/2n1p3/3p1b2/2PP4/2N2N2/PP2PPPP/R1BQKB1R w KQkq - 2 5"];
+const fenRussianGameUrusovGambit_C42 = ["rnbqkb1r/pppp1ppp/5n2/4p3/2B1P3/5N2/PPPP1PPP/RNBQK2R b KQkq - 3 3"];
+const fenNimzoIndianDefenseLeningradVariationBenoniDefense_E31 = ["rnbqk2r/pp3pp1/3ppn1p/2pP4/1bP4B/2N5/PP2PPPP/R2QKBNR w KQkq - 0 7"];
+const fenNeoGruenfeldDefenseDelayedExchangeVariation_1_D75 = ["rnbq1rk1/pp2ppbp/6p1/2pn4/3P4/2N2NP1/PP2PPBP/R1BQ1RK1 b - - 1 8"];
+const fenZukertortOpeningLisitsynGambitDeferred_A04 = ["rnbqkb1r/ppppp1pp/5n2/5p2/4P3/3P1N2/PPP2PPP/RNBQKB1R b KQkq - 0 3"];
+const fenSicilianDefenseOKellyVariationNormalSystemTaimanovLine_B28 = ["rnbqkbnr/1p1p1ppp/p7/4p3/3NP3/8/PPP2PPP/RNBQKB1R w KQkq - 0 5"];
+const fenZukertortOpeningDoubleFianchettoAttack_A49 = ["rnbq1rk1/ppp1ppbp/3p1np1/8/8/1P3NP1/PBPPPPBP/RN1Q1RK1 b - - 1 6"];
+const fenBorgDefenseGeneral_B00 = ["rnbqkbnr/pppppp1p/8/6p1/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2"];
+const fenQueensGambitRefusedAlbinCountergambitModernLine_D08 = ["r1bqkbnr/ppp2ppp/2n5/4P3/2Pp4/5N2/PP1NPPPP/R1BQKB1R b KQkq - 3 5"];
+const fenKingsIndianDefenseFianchettoVariationDelayedFianchetto_E62 = ["rnbqk2r/ppp1ppbp/3p1np1/8/2PP4/2N2NP1/PP2PP1P/R1BQKB1R b KQkq - 0 5"];
+const fenAlekhineDefenseFourPawnsAttackFianchettoVariation_B03 = ["rnbqkb1r/ppp1pp1p/1n1p2p1/4P3/2PP1P2/8/PP4PP/RNBQKBNR w KQkq - 0 6"];
+const fenSicilianDefenseRichterRauzerVariationTraditionalVariation_B63 = ["r1bqkb1r/pp3ppp/2nppn2/6B1/3NP3/2N5/PPPQ1PPP/R3KB1R b KQkq - 1 7"];
+const fenRetiOpeningAngloSlavVariationTorreSystem_A12 = ["rn1qkb1r/pp2pppp/2p2n2/3p4/2P3b1/1P3NP1/P2PPP1P/RNBQKB1R w KQkq - 1 5"];
+const fenNimzoIndianDefenseNormalVariationHubnerDeferred_E50 = ["rnbq1rk1/pp1p1ppp/4pn2/2p5/1bPP4/2N1PN2/PP3PPP/R1BQKB1R w KQ - 0 6"];
+const fenEnglishOpeningAngloLithuanianVariation_A10 = ["r1bqkbnr/pppppppp/2n5/8/2P5/8/PP1PPPPP/RNBQKBNR w KQkq - 1 2"];
+const fenSicilianDefenseLaskerPelikanVariationExchangeVariation_B33 = ["r1bqkb1r/pp1p1ppp/2N2n2/4p3/4P3/2N5/PPP2PPP/R1BQKB1R b KQkq - 0 6"];
+const fenQueensGambitDeclinedModernKnightDefense_3_D51 = ["r1bqkb1r/pppn1ppp/4pn2/3p2B1/2PP4/2N1P3/PP3PPP/R2QKBNR b KQkq - 0 5"];
+const fenFrenchDefenseHorwitzAttack_C00 = ["rnbqkbnr/pppp1ppp/4p3/8/4P3/1P6/P1PP1PPP/RNBQKBNR b KQkq - 0 2"];
+const fenBenoniDefenseFourPawnsAttack_A68 = ["rnbq1rk1/pp3pbp/3p1np1/2pP4/4PP2/2N2N2/PP4PP/R1BQKB1R w KQ - 3 9"];
+const fenSicilianDefenseNajdorfVariationScheveningenVariation_B84 = ["r1bqkb1r/1p1n1ppp/p2ppn2/8/3NP3/2N5/PPP1BPPP/R1BQ1RK1 w kq - 2 8"];
+const fenSpanishGameMorphyDefenseBreyerDefenseQuietVariation_C94 = ["rnbq1rk1/2p1bppp/p2p1n2/1p2p3/4P3/1BPP1N1P/PP3PP1/RNBQR1K1 b - - 0 10"];
+const fenSicilianDefenseOKellyVariationVeniceSystemSteinerLine_B28 = ["rnbqkbnr/1p2pppp/p2p4/2p5/4P3/2P2N2/PP1P1PPP/RNBQKB1R w KQkq - 0 4"];
+const fenKingsGambitFalkbeerCountergambitNimzowitschMarshallCountergambit_C31 = ["rnbqkbnr/pp3ppp/2p5/3Pp3/5P2/8/PPPP2PP/RNBQKBNR w KQkq - 0 4"];
+const fenQueenPawnGameVeresovAtackVeresovVariation_D01 = ["rn1qkb1r/ppp1pppp/5B2/3p1b2/3P4/2N5/PPP1PPPP/R2QKBNR b KQkq - 0 4"];
+const fenEnglishOpeningTheWhale_C20 = ["rnbqkbnr/pppp1ppp/8/4p3/2P1P3/8/PP1P1PPP/RNBQKBNR b KQkq - 0 2"];
+const fenFrenchDefenseMacCutcheonVariationWolfGambit_C12 = ["rnbqk2r/ppp2ppp/4pn2/3p2B1/1b1PP3/2N5/PPP1NPPP/R2QKB1R b KQkq - 5 5"];
+const fenGruenfeldDefenseRussianVariationSmyslovVariation_D98 = ["rn1q1rk1/ppp1ppbp/5np1/8/2QPP1b1/2N2N2/PP3PPP/R1B1KB1R w KQ - 1 8"];
+const fenGruenfeldDefenseFlohrVariation_D90 = ["rnbqk2r/ppp1ppbp/5np1/3p4/Q1PP4/2N2N2/PP2PPPP/R1B1KB1R b KQkq - 3 5"];
+const fenBenkoGambitAcceptedYugoslavwithout7Bxf1_A59 = ["rn1qkb1r/4pppp/b2p1n2/2pP4/4P3/2N5/PP3PPP/R1BQKBNR b KQkq - 0 7"];
+const fenSpanishGameOpenVariationsDilworthVariation_C82 = ["r2q1rk1/2p2ppp/p1n1b3/1pbpP3/8/2P2N2/PPBN1nPP/R1BQ1RK1 w - - 0 12"];
+const fenGruenfeldDefenseThreeKnightsVariationViennaVariation_D95 = ["rnbq1rk1/ppp1ppbp/5np1/3p4/2PP4/1QN1PN2/PP3PPP/R1B1KB1R b KQ - 2 6"];
+const fenGruenfeldDefenseRussianVariationSzaboBoleslavsky_D97 = ["rnbq1rk1/pp2ppbp/2p2np1/8/2QPP3/2N2N2/PP3PPP/R1B1KB1R w KQ - 0 8"];
+const fenItalianGameScotchGambitJanowskiDefense_C55 = ["r1bqkb1r/ppp2ppp/2np1n2/8/2BpP3/5N2/PPP2PPP/RNBQ1RK1 w kq - 0 6"];
+const fenCaroKannDefensePanovAttack_2_B13 = ["rnbqkb1r/pp2pppp/5n2/3p4/2PP4/2N5/PP3PPP/R1BQKBNR b KQkq - 2 5"];
+const fenBenoniDefenseClassicalVariationCzerniakDefense_A79 = ["r1bqr1k1/pp3pbp/n2p1np1/2pP4/4P3/2N2P2/PP1NB1PP/R1BQ1RK1 b - - 0 11"];
+const fenCaroKannDefenseKarpovVariationTiviakovFischerAttack_B17 = ["r1bqkb1r/pp2pppp/2p2n2/8/2BP4/8/PPP2PPP/R1BQK1NR w KQkq - 0 7"];
+const fenTarraschDefenseSwedishVariation_D33 = ["r1bqkbnr/pp3ppp/2n5/3p4/2pP4/2N2NP1/PP2PP1P/R1BQKB1R w KQkq - 0 7"];
+const fenEnglishOpeningAgincourtDefenseBogoljubowDefense_A13 = ["rnbqk2r/ppp2ppp/3bpn2/3p4/2P5/5NP1/PP1PPPBP/RNBQK2R w KQkq - 3 5"];
+const fenDutchDefenseClassicalVariation_A91 = ["rnbqk2r/ppppb1pp/4pn2/5p2/2PP4/6P1/PP2PPBP/RNBQK1NR w KQkq - 2 5"];
+const fenSicilianDefenseClosedVariationBotvinnikDefenseI_B25 = ["r1bqk1nr/pp3pbp/2np2p1/2p1p3/4PP2/2NP2P1/PPP3BP/R1BQK1NR w KQkq - 0 7"];
+const fenViennaGameStanleyVariationModernVariation_C27 = ["rnbqkb1r/pppp1ppp/8/4p3/2B1n3/2N5/PPPP1PPP/R1BQK1NR w KQkq - 0 4"];
+const fenPolishOpeningBugayevAttack_A00 = ["rnbqkbnr/pppp1ppp/8/4p3/1P6/P7/2PPPPPP/RNBQKBNR b KQkq - 0 2"];
+const fenSpanishGameClosedVariationsClosedDefense_2_C96 = ["r1bq1rk1/2p1bppp/p2p1n2/np2p3/4P3/2P2N1P/PPBP1PP1/RNBQR1K1 b - - 2 10"];
+const fenSpanishGameClosedVariationsYatesVariation_C91 = ["r1bq1rk1/2p1bppp/p1np1n2/1p2p3/3PP3/1BP2N2/PP3PPP/RNBQR1K1 b - - 0 9"];
+const fenFourKnightsGameItalianVariationNoaGambit_C47 = ["r1bqkb1r/pppp1Bpp/2n5/4p3/4n3/2N2N2/PPPP1PPP/R1BQK2R b KQkq - 0 5"];
+const fenGruenfeldDefenseExchangeVariationNadanianAttack_D85 = ["rnbqkb1r/ppp1pp1p/6p1/3n4/N2P4/8/PP2PPPP/R1BQKBNR b KQkq - 1 5"];
+const fenRussianGameStaffordGambit_C42 = ["r1bqkb1r/pppp1ppp/2n2n2/4N3/4P3/8/PPPP1PPP/RNBQKB1R w KQkq - 1 4"];
+const fenQueensGambitAcceptedNormalVariation_D21 = ["rnbqkbnr/ppp1pppp/8/8/2pP4/5N2/PP2PPPP/RNBQKB1R b KQkq - 1 3"];
+const fenSicilianDefenseDragonVariationYugoslavAttackCzerniakVariation_B77 = ["r2q1rk1/pp2ppbp/3pbnp1/8/2BBP3/2N2P2/PPPQ2PP/R3K2R w KQ - 1 11"];
+const fenQueensGambitAcceptedCentralVariationRubinsteinDefense_D20 = ["rnbqkbnr/pp2pppp/8/2p5/2pPP3/8/PP3PPP/RNBQKBNR w KQkq - 0 4"];
+const fenBogoIndianDefenseRetreatVariation_E11 = ["rnbqk2r/ppppbppp/4pn2/8/2PP4/5N2/PP1BPPPP/RN1QKB1R w KQkq - 4 5"];
+const fenGruenfeldDefenseBrinckmannAttackGrunfeldGambitAccepted_D84 = ["rnb2rk1/ppB1ppbp/6p1/3q4/3P4/4P3/PP3PPP/R2QKBNR b KQ - 0 8"];
+const fenSicilianDefensePaulsenVariationTaimanovVariation_B46 = ["r1bqkb1r/1p1pnppp/p1n1p3/8/3NP3/2N5/PPP1BPPP/R1BQK2R w KQkq - 2 7"];
+const fenFrenchDefenseAlekhineChatardAttackBreyerVariation_C13 = ["rnbqk2r/pp1nbppp/4p3/2ppP1B1/3P3P/2N5/PPP2PP1/R2QKBNR w KQkq - 0 7"];
+const fenSicilianDefenseRichterRauzerVariationDragonVariation_B60 = ["r1bqkb1r/pp2pp1p/2np1np1/6B1/3NP3/2N5/PPP2PPP/R2QKB1R w KQkq - 0 7"];
+const fenSpanishGameMorphyDefenseModernSteinitzDefenseSiestaVariation_C74 = ["r1bqkbnr/1pp3pp/p1np4/4pp2/B3P3/2P2N2/PP1P1PPP/RNBQK2R w KQkq - 0 6"];
+const fenSpanishGameMorphyDefenseModernSteinitzDefense_2_C71 = ["r1bqkbnr/1pp2ppp/p1np4/4p3/B1P1P3/5N2/PP1P1PPP/RNBQK2R b KQkq - 0 5"];
+const fenEnglishOpeningKingsEnglishVariationTwoKnightsVariationFianchettoLines_A24 = ["rnbqkb1r/pppp1p1p/5np1/4p3/2P5/2N3P1/PP1PPP1P/R1BQKBNR w KQkq - 0 4"];
+const fenKingsIndianAttackSicilianVariation_A07 = ["rnbqkbnr/pp2pppp/8/2pp4/8/5NP1/PPPPPP1P/RNBQKB1R w KQkq - 0 3"];
+const fenCaroKannDefenseAdvanceVariationVanderWielAttackDreyevDefense_B12 = ["rn2kbnr/pp2pppp/1qp5/3pPb2/3P4/2N5/PPP2PPP/R1BQKBNR w KQkq - 3 5"];
+const fenQueensIndianDefenseClassicalVariationTiviakovDefense_E17 = ["r2q1rk1/pbppbppp/np2pn2/8/2PP4/2N2NP1/PP2PPBP/R1BQ1RK1 w - - 7 8"];
+const fenIndianGameCzechIndian_A46 = ["rnbqkb1r/pp1ppppp/2p2n2/8/3P4/5N2/PPP1PPPP/RNBQKB1R w KQkq - 0 3"];
+const fenMikenasDefenseLithuanianVariation_A40 = ["r1bqkbnr/ppppnppp/8/3Pp3/2P5/8/PP2PPPP/RNBQKBNR w KQkq - 1 4"];
+const fenGruenfeldDefenseExchangeVariationSpasskyVariation_D89 = ["r2q1rk1/pp2ppbp/4b1p1/n7/3PP3/3BBP2/P3N1PP/R2Q1RK1 w - - 3 14"];
+const fenBishopsOpeningBoiVariation_C20 = ["rnbqk1nr/pppp1ppp/8/2b1p3/2B1P3/8/PPPP1PPP/RNBQK1NR w KQkq - 2 3"];
+const fenSpanishGameBerlinDefenseHedgehogVariation_C66 = ["r2qk2r/pppbbppp/2np1n2/1B2p3/3PP3/2N2N2/PPP2PPP/R1BQ1RK1 w kq - 3 7"];
+const fenEnglishOpeningKingsEnglishVariationBremenHortVariation_A25 = ["r2qk1nr/ppp2pbp/2npb1p1/4p3/2P5/2N1P1P1/PP1PNPBP/R1BQK2R w KQkq - 2 7"];
+const fenSicilianDefenseSnyderVariationQueenFianchettoVariation_B20 = ["rnbqkbnr/p2ppppp/1p6/2p5/4P3/1P6/P1PP1PPP/RNBQKBNR w KQkq - 0 3"];
+const fenSicilianDefenseClosedVariationBotvinnikDefenseII_B25 = ["r1bqk1nr/pp3pbp/2np2p1/2p1p3/4P3/2NP2P1/PPP1NPBP/R1BQK2R w KQkq - 0 7"];
+const fenViennaGameViennaGambit_C25 = ["r1bqkbnr/pppp1ppp/2n5/4p3/4PP2/2N5/PPPP2PP/R1BQKBNR b KQkq - 0 3"];
+const fenSicilianDefenseScheveningenVariationModernVariation_2_B83 = ["r2q1rk1/pp1bbppp/2nppn2/8/4PP2/1NN1B3/PPP1B1PP/R2Q1RK1 b - - 2 10"];
+const fenPircDefenseClassicalVariation_2_B07 = ["rnbqkb1r/ppp1pp1p/3p1np1/8/3PP3/2N2N2/PPP2PPP/R1BQKB1R b KQkq - 1 4"];
+const fenSemiSlavDefenseMeranVariationBlumenfeldVariation_D49 = ["r1bqkb1r/3n1ppp/p3pn2/1N2P3/3p4/3B1N2/PP3PPP/R1BQK2R b KQkq - 0 11"];
+const fenBenoniDefenseFianchettoVariationHastingsDefense_A63 = ["r1bq1rk1/pp1n1pbp/3p1np1/2pP4/8/2N2NP1/PP2PPBP/R1BQ1RK1 w - - 5 10"];
+const fenSpanishGameClosedVariationsMorphyAttack_C78 = ["r1bqk2r/1pppbppp/p1n2n2/4p3/B3P3/2N2N2/PPPP1PPP/R1BQ1RK1 b kq - 5 6"];
+const fenQueensGambitAcceptedClassicalDefenseAlekhineSystem_D28 = ["rnbqkb1r/1p3ppp/p3pn2/2p5/2BP4/4PN2/PP2QPPP/RNB2RK1 b kq - 1 7"];
+const fenFrenchDefenseMacCutcheonVariationDrOllandDutchVariation_C12 = ["rnbqk2r/ppp2pp1/4pn1p/3pP3/1b1P4/2N5/PPP2PPP/R1BQKBNR b KQkq - 1 6"];
+const fenGruenfeldDefenseExchangeVariationSokolskyVariation_D89 = ["r2q1rk1/pp2ppbp/4b1p1/n2P4/4P3/3BBP2/P3N1PP/R2Q1RK1 b - - 0 14"];
+const fenSpanishGameMorphyDefenseModernSteinitzDefense_2_C74 = ["r2qkbnr/1pp3pp/p1np4/4pb2/B7/2P2N2/PP1P1PPP/RNBQ1RK1 b kq - 1 7"];
+const fenBudapestDefenseAlekhineVariation_A52 = ["rnbqkb1r/pppp1ppp/8/4P3/2P1P1n1/8/PP3PPP/RNBQKBNR b KQkq - 0 4"];
+const fenEnglishOpeningAngloIndianDefenseSlavFormation_A15 = ["rnbqkb1r/pp1ppp1p/2p2np1/8/2P5/5NP1/PP1PPP1P/RNBQKB1R w KQkq - 0 4"];
+const fenSicilianDefenseVeniceAttack_B56 = ["rnbqkb1r/pp3ppp/3p1n2/1B2p3/3NP3/2N5/PPP2PPP/R1BQK2R b KQkq - 1 6"];
+const fenSpanishGameBerlinDefenseRiodeJaneiroVariation_C67 = ["r1bqk2r/ppppbppp/2n5/1B2p3/3Pn3/5N2/PPP2PPP/RNBQ1RK1 w kq - 1 6"];
+const fenBlackmarDiemerGambitTeichmannVariation_D00 = ["rn1qkb1r/ppp1pppp/5n2/8/3P2b1/2N2N2/PPP3PP/R1BQKB1R w KQkq - 1 6"];
+const fenViennaGameStanleyVariationReversedSpanish_C26 = ["rnbqk2r/pppp1ppp/5n2/4p3/1bB1P3/2N5/PPPP1PPP/R1BQK1NR w KQkq - 4 4"];
+const fenPolishOpeningZukertortSystem_A04 = ["rnbqkb1r/pppppppp/5n2/8/1P6/5N2/P1PPPPPP/RNBQKB1R b KQkq - 2 2"];
+const fenGrobOpeningGrobGambitFritzGambit_A00 = ["rn1qkbnr/ppp1pppp/8/3p4/2P3b1/8/PP1PPPBP/RNBQK1NR b KQkq - 0 3"];
+const fenAlekhineDefenseFourPawnsAttackTrifunovicVariation_B03 = ["rn1qkb1r/ppp1pppp/1n1p4/4Pb2/2PP1P2/8/PP4PP/RNBQKBNR w KQkq - 1 6"];
+const fenMiesesOpeningReversedRat_A00 = ["rnbqkbnr/pppp1ppp/8/4p3/8/3P4/PPP1PPPP/RNBQKBNR w KQkq - 0 2"];
+const fenEnglishOpeningAngloIndianDefenseFlohrMikenasCarlsVariation_A19 = ["rnbqkb1r/pp1p1ppp/4pn2/2p5/2P1P3/2N5/PP1P1PPP/R1BQKBNR w KQkq - 0 4"];
+const fenSpanishGameOpenVariations_C80 = ["r1bqkb1r/2pp1ppp/p1n5/1p2p3/3Pn3/1B3N2/PPP2PPP/RNBQ1RK1 b kq - 1 7"];
+const fenKingPawnGameGeneral_C20 = ["rnbqkbnr/pppp1ppp/8/4p3/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2"];
+const fenDutchDefenseKrejcikGambit_A80 = ["rnbqkbnr/ppppp1pp/8/5p2/3P2P1/8/PPP1PP1P/RNBQKBNR b KQkq - 0 2"];
+const fenDutchDefenseClassicalVariationIlyinZhenevskyVariationModernMainLine_A99 = ["rnb1qrk1/ppp1b1pp/3ppn2/5p2/2PP4/1PN2NP1/P3PPBP/R1BQ1RK1 b - - 0 8"];
+const fenPolishOpeningKingsIndianVariationSokolskyAttack_A00 = ["rnbq1rk1/ppp1ppbp/3p1np1/8/1PPP4/4PN2/PB3PPP/RN1QKB1R b KQ - 0 6"];
+const fenNimzowitschDefenseLeanVariationColoradoCounterAccepted_B00 = ["r1bqkbnr/ppppp1pp/2n5/5P2/8/5N2/PPPP1PPP/RNBQKB1R b KQkq - 0 3"];
+const fenIndianGameColleSystemKingsIndianVariation_A48 = ["rnbqk2r/ppp1ppbp/3p1np1/8/3P4/3BPN2/PPP2PPP/RNBQK2R w KQkq - 0 5"];
+const fenScotchGameScotchGambitSarattVariation_C44 = ["r1bqk1nr/pppp1ppp/2n5/2b3N1/2BpP3/8/PPP2PPP/RNBQK2R b KQkq - 3 5"];
+const fenGruenfeldDefenseBotvinnikVariation_D95 = ["rnbq1rk1/ppp2pbp/4pnp1/3p4/2PP4/1QN1PN2/PP3PPP/R1B1KB1R w KQ - 0 7"];
+const fenItalianGameEvansGambitTartakowerAttack_C52 = ["r1bqk1nr/ppp2ppp/2np4/b3p3/2BPP3/1QP2N2/P4PPP/RNB1K2R b KQkq - 1 7"];
+const fenKingPawnGameTaylerOpening_C44 = ["r1bqkbnr/pppp1ppp/2n5/4p3/4P3/5N2/PPPPBPPP/RNBQK2R b KQkq - 3 3"];
+const fenQueensGambitAcceptedAlekhineDefenseHaberditzVariation_D22 = ["rnbqkbnr/2p1pppp/p7/1p6/2pP4/4PN2/PP3PPP/RNBQKB1R w KQkq - 0 5"];
+const fenItalianGameEvansGambitAnderssenVariation_C51 = ["r1bqk1nr/ppppbppp/2n5/4p3/2B1P3/2P2N2/P2P1PPP/RNBQK2R w KQkq - 1 6"];
+const fenCenterGameAccepted_C21 = ["rnbqkbnr/pppp1ppp/8/8/3pP3/8/PPP2PPP/RNBQKBNR w KQkq - 0 3"];
+const fenDutchDefenseClassicalVariationStonewallVariation_A94 = ["rnbq1rk1/pp2b1pp/2p1pn2/3p1p2/2PP4/BP3NP1/P3PPBP/RN1Q1RK1 b - - 1 8"];
+const fenSpanishGameClosedVariationsBreyerDefense_C95 = ["r2q1rk1/1b1nbppp/p2p1n2/1pp1p3/3PP3/2P2N1P/PPBN1PP1/R1BQR1K1 w - - 0 13"];
+const fenSicilianDefenseSmithMorraGambitAcceptedKanFormation_B21 = ["rnbqkbnr/1p1p1ppp/p3p3/8/4P3/2N2N2/PP3PPP/R1BQKB1R w KQkq - 0 6"];
+const fenNimzowitschDefenseScandinavianVariationBogoljubowVariationVehreVariation_B00 = ["r1bqkb1r/ppp1pppp/2n2n2/3p4/3PP3/2N5/PPP2PPP/R1BQKBNR w KQkq - 2 4"];
+const fenSicilianDefenseLaskerPelikanVariationSveshnikovVariationPeresypkinsSacrifice_B33 = ["r1bqkb1r/5p1p/p1np4/1B1Npp2/4P3/N7/PPP2PPP/R2QK2R b KQkq - 0 11"];
+const fenSpanishGameClassicalVariationCordelGambit_C64 = ["r1bqk1nr/pppp2pp/2n5/1Bb1pp2/4P3/2P2N2/PP1P1PPP/RNBQK2R w KQkq - 0 5"];
+const fenSpanishGameMorphyDefense_2_C78 = ["r1bqkb1r/2p2ppp/p1np1n2/1p2p3/4P3/1B3N2/PPPP1PPP/RNBQ1RK1 w kq - 0 7"];
+const fenNimzoIndianDefenseClassicalVariationBerlinVariationMaciejaSystem_E39 = ["rnbq1rk1/p2p1ppp/1p2pn2/2b5/2P2B2/P1N2N2/1PQ1PPPP/R3KB1R b KQ - 1 8"];
+const fenScotchGameRomanishinVariation_C45 = ["r1bqk1nr/pppp1ppp/2n5/8/1b2P3/1N6/PPP2PPP/RNBQKB1R w KQkq - 3 6"];
+const fenRubinsteinOpeningClassicalDefense_D05 = ["r1bq1rk1/pp2bppp/2n1pn2/2pp4/3P4/1P1BPN2/PBP2PPP/RN1Q1RK1 w - - 5 8"];
+const fenSicilianDefenseNimzoAmericanVariation_B32 = ["r1bqkbnr/pp2pppp/2n5/3p4/3NP3/8/PPP2PPP/RNBQKB1R w KQkq - 0 5"];
+const fenQueensGambitAcceptedDeferred_D25 = ["rnbqkb1r/ppp1pppp/5n2/8/2pP4/5N2/PP2PPPP/RNBQKB1R w KQkq - 0 4"];
+const fenQueensGambitAcceptedSmyslovVariation_D25 = ["rnbqkb1r/ppp1pp1p/5np1/8/2pP4/4PN2/PP3PPP/RNBQKB1R w KQkq - 0 5"];
+const fenQueenPawnGameVeresovAttackTwoKnightsSystemGruenfeldDefense_D01 = ["r1bqkb1r/pppnpp1p/5np1/3p2B1/3P4/2N2N2/PPP1PPPP/R2QKB1R w KQkq - 0 5"];
+const fenNimzoIndianDefenseNormalVariationTaimanovVariation_E40 = ["r1bqk2r/pppp1ppp/2n1pn2/8/1bPP4/2N1P3/PP3PPP/R1BQKBNR w KQkq - 1 5"];
+const fenSicilianDefenseNimzowitschVariationGeneral_B29 = ["rnbqkb1r/pp1ppppp/5n2/2p5/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq - 2 3"];
+const fenItalianGameTwoKnightsDefenseFriedLiverAttack_C57 = ["r1bqkb1r/ppp2Npp/2n5/3np3/2B5/8/PPPP1PPP/RNBQK2R b KQkq - 0 6"];
+const fenQueensIndianDefenseEuweVariation_E17 = ["rn1q1rk1/pbppbppp/1p2pn2/8/2PP4/1P3NP1/P3PPBP/RNBQ1RK1 b - - 0 7"];
+const fenNimzowitschDefenseFrenchConnection_B00 = ["r1bqkbnr/pppp1ppp/2n1p3/8/4P3/2N5/PPPP1PPP/R1BQKBNR w KQkq - 0 3"];
+const fenRetiOpeningReversedBlumenfeldGambit_A09 = ["rnbqkbnr/pp2pppp/8/2p5/1PPp4/4PN2/P2P1PPP/RNBQKB1R b KQkq - 0 4"];
+const fenScotchGameGoringGambitDoublePawnSacrifice_C44 = ["r1bqkbnr/pppp1ppp/2n5/8/2B1P3/2p2N2/PP3PPP/RNBQK2R b KQkq - 1 5"];
+const fenSicilianDefenseDelayedAlapinBasmanPalatnikDoubleGambit_B50 = ["r1b1kb1r/pp2pppp/2np4/q2P4/8/2P2N2/P3BPPP/R1BQK2R b KQkq - 0 9"];
+const fenSicilianDefenseDragonVariationClassicalVariation_2_B72 = ["r1bqk2r/pp2ppbp/2np1np1/8/4P3/1NN1B3/PPP1BPPP/R2QK2R b KQkq - 5 8"];
+const fenBishopsOpeningBodenKieseritskyGambit_C27 = ["rnbqkb1r/pppp1ppp/8/4p3/2B1n3/2N2N2/PPPP1PPP/R1BQK2R b KQkq - 1 4"];
+const fenSpanishGameCozioDefensePaulsenVariation_C60 = ["r1bqkb1r/ppppnp1p/2n3p1/1B2p3/4P3/2N2N2/PPPP1PPP/R1BQK2R w KQkq - 0 5"];
+const fenNimzowitschDefenseFrancoNimzowitschVariation_B00 = ["r1bqkbnr/pppp1ppp/2n1p3/8/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq - 0 3"];
+const fenFrenchDefenseWinawerVariationFingerslipVariation_C15 = ["rnbqk1nr/ppp2ppp/4p3/3p4/1b1PP3/2N5/PPPB1PPP/R2QKBNR b KQkq - 3 4"];
+const fenFourKnightsGameScotchVariationKrauseGambit_C47 = ["r1bqk2r/pppp1ppp/2n2n2/4N3/1b1PP3/2N5/PPP2PPP/R1BQKB1R b KQkq - 0 5"];
+const fenSemiSlavDefenseBotvinnikSystemEkstromVariation_D44 = ["rnbqkb1r/p4p2/2p1pP1p/1p2N3/2pP3p/2N5/PP3PPP/R2QKB1R b KQkq - 1 10"];
+const fenSpanishGameSchliemannDefenseExchangeVariation_C63 = ["r1bqkbnr/pppp2pp/2B5/4pp2/4P3/5N2/PPPP1PPP/RNBQK2R b KQkq - 0 4"];
+const fenSlavDefenseExchangeVariationSchalloppVariation_D12 = ["rn1qkb1r/pp2pppp/5n2/3p1b2/3P4/2N1PN2/PP3PPP/R1BQKB1R b KQkq - 1 6"];
+const fenScotchGameTartakowerVariation_C45 = ["r1bqkb1r/p1pp1ppp/2p2n2/8/4P3/8/PPPN1PPP/R1BQKB1R b KQkq - 1 6"];
+const fenKingsGambitFalkbeerCountergambitModernTransfer_C32 = ["rnbqkbnr/ppp2ppp/8/3P4/5p2/8/PPPP2PP/RNBQKBNR w KQkq - 0 4"];
+const fenKingsIndianDefenseNormalVariationDeferredFianchetto_E72 = ["rnbqk2r/ppp1ppbp/3p1np1/8/2PPP3/2N3P1/PP3P1P/R1BQKBNR b KQkq - 0 5"];
+const fenEnglishOpeningKingsEnglishVariationNimzowitschVariationGeneral_A20 = ["rnbqkbnr/pppp1ppp/8/4p3/2P5/5N2/PP1PPPPP/RNBQKB1R b KQkq - 1 2"];
+const fenSpanishGameClosedVariationsBorisenkoVariation_C96 = ["r1bq1rk1/4bppp/p1np1n2/1pp1p3/3PP3/2P2N1P/PPB2PP1/RNBQR1K1 w - - 1 12"];
+const fenGrobOpeningGrobGambitDeclined_A00 = ["rnbqkbnr/pp2pppp/2p5/3p4/6P1/8/PPPPPPBP/RNBQK1NR w KQkq - 0 3"];
+const fenBudapestDefenseAlekhineVariationAbonyiVariation_A52 = ["rnbqkb1r/pppp1ppp/2n5/8/2P1PP2/8/PP4PP/RNBQKBNR w KQkq - 1 6"];
+const fenDutchDefenseStauntonGambitChigorinVariation_A83 = ["rnbqkb1r/pp1pp1pp/2p2n2/6B1/3Pp3/2N5/PPP2PPP/R2QKBNR w KQkq - 0 5"];
+const fenPonzianiOpeningSteinitzVariation_C44 = ["r1bqkbnr/ppp3pp/2n2p2/3pp3/Q3P3/2P2N2/PP1P1PPP/RNB1KB1R w KQkq - 0 5"];
+const fenSpanishGameMorphyDefenseGrazVariation_C70 = ["r1bqk1nr/2pp1ppp/p1n5/1pb1p3/4P3/1B3N2/PPPP1PPP/RNBQK2R w KQkq - 2 6"];
+const fenEnglundGambitComplexHartlaubCharlickGambit_A40 = ["rnbqkbnr/ppp2ppp/3p4/4P3/8/8/PPP1PPPP/RNBQKBNR w KQkq - 0 3"];
+const fenRetiOpeningAngloSlavVariationBledVariation_A12 = ["rnbqkb1r/pp2pp1p/2p2np1/3p4/2P5/1P3N2/PB1PPPPP/RN1QKB1R w KQkq - 0 5"];
+const fenEnglishOpeningAngloIndianDefenseScandinavianDefense_A15 = ["rnbqkb1r/ppp1pppp/5n2/3p4/2P5/5N2/PP1PPPPP/RNBQKB1R w KQkq - 0 3"];
+const fenSicilianDefenseMarshallGambit_B23 = ["rnbqkbnr/pp3ppp/4p3/2pp4/3PP3/2N5/PPP2PPP/R1BQKBNR w KQkq - 0 4"];
+const fenSicilianDefenseCanalAttackMoscowGambit_B51 = ["r2qkb1r/1p2pppp/p2p1n2/2p3B1/3Pb3/2P2N2/PP3PPP/RN1QR1K1 b kq - 1 9"];
+const fenAlekhineDefenseBrooklynVariation_B02 = ["rnbqkbnr/pppppppp/8/4P3/8/8/PPPP1PPP/RNBQKBNR w KQkq - 1 3"];
+const fenCaroKannDefenseMaroczyVariationMaroczyGambit_B12 = ["rnbqkbnr/pp3ppp/2p5/8/2BpP3/5N2/PPP3PP/RNBQK2R b KQkq - 1 6"];
+const fenSpanishGameClosedVariationsClosedDefense_C90 = ["r1bq1rk1/2p1bppp/p1np1n2/1p2p3/4P3/1BP2N2/PP1P1PPP/RNBQR1K1 w - - 0 9"];
+const fenKingsIndianDefenseOrthodoxVariationPositionalDefenseMainLine_E96 = ["r1bq1rk1/1p1n1pbp/2pp1np1/p3p3/2PPP3/2N2N2/PP3PPP/R1BQRBK1 w - - 0 10"];
+const fenQueensGambitDeclinedLaskerDefenseMainLine_D57 = ["rnb2rk1/ppp1qpp1/4p2p/3P4/3P4/2P1PN2/P4PPP/R2QKB1R b KQ - 0 10"];
+const fenQueensIndianDefenseKasparovPetrosianVariationRomanishinAttack_E12 = ["rn1qkb1r/pbp2ppp/1p2p3/3n4/3P4/P1N2N2/1P1BPPPP/R2QKB1R b KQkq - 1 7"];
+const fenQueensGambitRefusedAlbinCountergambitFianchettoVariationBe6Line_D09 = ["r2qkbnr/ppp2ppp/2n1b3/4P3/2Pp4/5NP1/PP2PP1P/RNBQKB1R w KQkq - 1 6"];
+const fenKingsGambitDeclinedQueensKnightDefense_C30 = ["r1bqkbnr/pppp1ppp/2n5/4p3/4PP2/8/PPPP2PP/RNBQKBNR w KQkq - 1 3"];
+const fenKingsGambitAcceptedBonschOsmolovskyVariation_C34 = ["rnbqkb1r/ppppnppp/8/8/4Pp2/5N2/PPPP2PP/RNBQKB1R w KQkq - 2 4"];
+const fenTarraschDefenseClassicalVariationEndgameVariation_D34 = ["r2q1rk1/pp2bppp/2n1bn2/2pp2B1/3P4/2N2NP1/PP2PPBP/R2Q1RK1 w - - 7 10"];
+const fenQueenPawnGameAngloSlavOpening_A41 = ["rnbqkbnr/pp2pppp/2pp4/8/2PP4/8/PP2PPPP/RNBQKBNR w KQkq - 0 3"];
+const fenPterodactylDefenseEasternPterodactyl_B06 = ["rnb1k1nr/pp1pppbp/6p1/q1P5/4P3/2N5/PPP2PPP/R1BQKBNR w KQkq - 1 5"];
+const fenNeoGruenfeldDefenseClassicalVariation_D77 = ["rnbq1rk1/ppp1ppbp/5np1/3p4/2PP4/5NP1/PP2PPBP/RNBQ1RK1 b - - 5 6"];
+const fenSemiSlavDefenseRomihVariation_D46 = ["r1bqk2r/pp1n1ppp/2p1pn2/3p4/1bPP4/2NBPN2/PP3PPP/R1BQK2R w KQkq - 3 7"];
+const fenQueensGambitRefusedChigorinDefenseLazardGambit_D06 = ["r1bqkbnr/ppp2ppp/2n5/3pp3/2PP4/5N2/PP2PPPP/RNBQKB1R w KQkq - 0 4"];
+const fenBenoniDefenseClassicalVariationTraditionalVariation_A72 = ["rnbqk2r/pp3pbp/3p1np1/2pP4/4P3/2N2N2/PP2BPPP/R1BQK2R b KQkq - 3 8"];
+const fenSicilianDefenseAlapinVariationStoltzAttackIvanchukLine_B22 = ["r1b1kb1r/ppqppp1p/1nn5/4P1p1/2p5/2P2N2/PPBPQPPP/RNB1K2R w KQkq - 0 9"];
+const fenItalianGameClassicalVariationDelaBourdonnaisVariation_C53 = ["r1bqk1nr/ppp2ppp/1bnp4/8/2BPP3/5N2/PP3PPP/RNBQK2R w KQkq - 1 7"];
+const fenSicilianDefenseSmithMorraGambitDeclinedDuboisVariation_B21 = ["rnbqkbnr/pp1ppppp/8/8/2P1P3/3p4/PP3PPP/RNBQKBNR b KQkq - 0 4"];
+const fenDutchDefenseBlackburneVariation_A81 = ["rnbqkb1r/pppp2pp/4pn2/5p2/3P4/6PN/PPP1PPBP/RNBQK2R b KQkq - 1 4"];
+const fenLionDefenseBayonetAttack_B07 = ["r1bqkb1r/pppnpppp/3p1n2/8/3PP1P1/2N5/PPP2P1P/R1BQKBNR b KQkq - 0 4"];
+const fenAlekhineDefenseHuntVariationLaskerSimulGambit_B02 = ["rnbqkb1r/pppp1ppp/4p3/2PnP3/2B5/2N5/PP1P1PPP/R1BQK1NR b KQkq - 1 6"];
+const fenFrenchDefenseAdvanceVariationNimzowitschAttack_C02 = ["rnbqkbnr/pp3ppp/4p3/2ppP3/3P2Q1/8/PPP2PPP/RNB1KBNR b KQkq - 1 4"];
+const fenQueensGambitAcceptedClassicalDefenseSteinitzVariationExchangeVariation_D26 = ["rnbqkb1r/pp3ppp/4pn2/8/2Bp4/4PN2/PP3PPP/RNBQ1RK1 w kq - 0 7"];
+const fenPolishOpeningSchifflerSokolskyVariation_A00 = ["rnbqkb1r/ppp2ppp/4pn2/1P1p4/8/4P3/PBPP1PPP/RN1QKBNR b KQkq - 0 4"];
+const fenPolishOpeningKingsIndianVariation_A00 = ["rnbqkb1r/pppppp1p/5np1/8/1P6/8/PBPPPPPP/RN1QKBNR w KQkq - 0 3"];
+const fenFrenchDefenseTarraschVariationLeningradVariation_C06 = ["r1bqkb1r/pp3ppp/1nn1p3/3pP3/3P4/3B4/PP1NNPPP/R1BQK2R w KQkq - 1 9"];
+const fenFrenchDefenseClassicalVariationRichterAttack_1_C13 = ["rnbqk2r/ppp1bppp/4pB2/3p4/3PP3/2N5/PPP2PPP/R2QKBNR b KQkq - 0 5"];
+const fenScandinavianDefenseModernVariation_2_B01 = ["rnbqkb1r/ppp1pppp/5n2/3P4/3P4/8/PPP2PPP/RNBQKBNR b KQkq - 0 3"];
+const fenFrenchDefenseClassicalVariation_C11 = ["rnbqkb1r/ppp2ppp/4pn2/3p4/3PP3/2N5/PPP2PPP/R1BQKBNR w KQkq - 2 4"];
+const fenEnglishOpeningAngloIndianDefenseRomanishinVariation_A11 = ["rnbqkb1r/1ppp1ppp/p3pn2/8/2P5/5NP1/PP1PPP1P/RNBQKB1R w KQkq - 0 4"];
+const fenQueenPawnGameLevitskyAttackEuweVariationModernLine_D00 = ["rnb1kbnr/pp2ppp1/1qp4p/3p4/3P3B/5N2/PPP1PPPP/RN1QKB1R w KQkq - 2 5"];
+const fenOldIndianDefenseJanowskiVariationMainLine_A53 = ["rn1qkb1r/ppp1pppp/3p1n2/5b2/2PP4/2N2P2/PP2P1PP/R1BQKBNR b KQkq - 0 4"];
+const fenSemiSlavDefenseStoltzVariationCenterVariation_D45 = ["r1bqk2r/pp1n1ppp/2pbpn2/3p4/2PPP3/2N2N2/PPQ2PPP/R1B1KB1R b KQkq - 0 7"];
+const fenNimzoIndianDefenseSaemischVariationCapablancaVariation_E29 = ["r1bqnrk1/p2p1ppp/1pn1p3/2p5/2PPP3/P1PB4/4NPPP/R1BQK2R w KQ - 1 10"];
+const fenSicilianDefenseDragonVariationClassicalVariationMaroczyLine_B74 = ["r2q1rk1/pp2ppbp/3pbnp1/n7/4PP2/1NN1B3/PPP1B1PP/R2Q1RK1 w - - 1 11"];
+const fenQueensGambitRefusedAlbinCountergambitFianchettoVariationBg4Line_D09 = ["r2qkbnr/ppp2ppp/2n5/4P3/2Pp2b1/5NP1/PP2PP1P/RNBQKB1R w KQkq - 1 6"];
+const fenSicilianDefenseModernVariationsAntiQxd4MoveOrderAccepted_B50 = ["rnbqkb1r/pp2pppp/3p4/2P5/4n3/5N2/PPP2PPP/RNBQKB1R w KQkq - 0 5"];
+const fenDutchDefenseAlekhineVariation_A92 = ["rnbq1rk1/ppppb1pp/4p3/5p2/2PPn3/5NP1/PP2PPBP/RNBQ1RK1 w - - 6 7"];
+const fenKingsGambitAcceptedCunninghamDefense_C35 = ["rnbqk1nr/ppppbppp/8/8/4Pp2/5N2/PPPP2PP/RNBQKB1R w KQkq - 2 4"];
+const fenBenoniDefenseClassicalVariationCzerniakDefense_A78 = ["r1bqr1k1/pp3pbp/n2p1np1/2pP4/4P3/2N5/PP1NBPPP/R1BQ1RK1 w - - 8 11"];
+const fenItalianGameScotchGambitDeRiviereDefense_C55 = ["r1bqk2r/ppppbppp/2n2n2/8/2BpP3/5N2/PPP2PPP/RNBQ1RK1 w kq - 2 6"];
+const fenEnglundGambitComplexGeneral_A40 = ["rnbqkbnr/pppp1ppp/8/4p3/3P4/8/PPP1PPPP/RNBQKBNR w KQkq - 0 2"];
+const fenNimzoIndianDefenseRomanishinVariation_2_E20 = ["rnbq1rk1/pp1p1ppp/4pn2/2p5/1bPP4/2N2NP1/PP2PPBP/R1BQK2R b KQ - 2 6"];
+const fenPterodactylDefenseMiscellanyQueenPterodactylQuiet_A40 = ["rnbqk1nr/pp1pppbp/6p1/2p5/2PP4/2N1P3/PP3PPP/R1BQKBNR b KQkq - 0 4"];
+const fenBenoniDefenseVultureDefense_A56 = ["rnbqkb1r/pp1ppppp/8/2pP4/2P1n3/8/PP2PPPP/RNBQKBNR w KQkq - 1 4"];
+const fenModernDefenseModernPterodactyl_B06 = ["rnbqk1nr/pp1pppbp/6p1/2p5/3PP3/2N5/PPP2PPP/R1BQKBNR w KQkq - 0 4"];
+const fenQueensGambitDeclinedOrthodoxDefenseRubinsteinVariationFlohrLine_D62 = ["r1bq1rk1/pp1nbppp/4pn2/2pP2B1/3P4/2N1PN2/PPQ2PPP/R3KB1R b KQ - 0 8"];
+const fenSicilianDefenseWingGambitDeferredVariation_B50 = ["rnbqkbnr/pp2pppp/3p4/2p5/1P2P3/5N2/P1PP1PPP/RNBQKB1R b KQkq - 0 3"];
+const fenQueensGambitDeclinedSemiTarraschDefensePillsburyVariation_D40 = ["rnbqkb1r/pp3ppp/4pn2/2pp2B1/2PP4/2N2N2/PP2PPPP/R2QKB1R b KQkq - 1 5"];
+const fenVanGeetOpeningSicilianTwoKnights_A00 = ["r1bqkbnr/pp1ppppp/2n5/8/3N4/2N5/PPP1PPPP/R1BQKB1R b KQkq - 0 4"];
+const fenSicilianDefenseSmithMorraGambitAcceptedPinDefense_B21 = ["r1bqk1nr/pp1p1ppp/2n1p3/8/1bB1P3/2N2N2/PP3PPP/R1BQK2R w KQkq - 2 7"];
+const fenQueensGambitRefusedChigorinDefenseExchangeVariationCostasLine_D07 = ["r1b1k1nr/ppp2ppp/2n5/3q4/3p4/2B1P3/PP2NPPP/R2QKB1R b KQkq - 1 8"];
+const fenKingsIndianDefenseFianchettoVariationPterodactylVariation_E64 = ["rnb1k2r/pp1pppbp/5np1/q1p5/2PP4/5NP1/PP2PPBP/RNBQK2R w KQkq - 2 6"];
+const fenFrenchDefenseMacCutcheonVariationChigorinVariation_C12 = ["rnbqk2r/ppp2pp1/4pP1p/3p2B1/1b1P4/2N5/PPP2PPP/R2QKBNR b KQkq - 0 6"];
+const fenPhilidorDefenseHanhamVariationKrauseVariation_C41 = ["r1bqkbnr/pp1n1ppp/2pp4/4p3/2BPP3/5N2/PPP2PPP/RNBQ1RK1 b kq - 1 5"];
+const fenSemiSlavDefenseMainLines_D46 = ["r1bqkb1r/pp1n1ppp/2p1pn2/3p4/2PP4/2NBPN2/PP3PPP/R1BQK2R b KQkq - 2 6"];
+const fenSpanishGameClosedVariationsKeresDefense_2_C92 = ["r1bq1rk1/2p1bppp/2np1n2/pp2p3/4P3/1BP2N1P/PP1P1PP1/RNBQR1K1 w - - 0 10"];
+const fenDutchDefenseClassicalVariationStonewallVariationBotvinnikVariation_A93 = ["rnbq1rk1/ppp1b1pp/4pn2/3p1p2/2PP4/1P3NP1/P3PPBP/RNBQ1RK1 b - - 0 7"];
+const fenRetiOpeningAdvanceVariationMichelGambit_A09 = ["rnbqkbnr/pp2pppp/8/2p5/1PPp4/5N2/P2PPPPP/RNBQKB1R w KQkq - 0 4"];
+const fenNimzowitschDefenseKennedyVariationPaulsenAttack_B00 = ["r1bqkbnr/pppp1ppp/8/4n3/4P3/5N2/PPP2PPP/RNBQKB1R b KQkq - 1 4"];
+const fenSicilianDefenseMorphyGambit_B21 = ["rnbqkbnr/pp1ppppp/8/8/3pP3/5N2/PPP2PPP/RNBQKB1R b KQkq - 1 3"];
+const fenScotchGameSchmidGambit_C44 = ["r1bqkb1r/pppp1ppp/2n5/8/3Nn3/2N5/PPP2PPP/R1BQKB1R w KQkq - 0 6"];
+const fenRussianGameKarklinsMartinovskyVariation_C42 = ["rnbqkb1r/ppp2ppp/3p1n2/8/4P3/3N4/PPPP1PPP/RNBQKB1R b KQkq - 1 4"];
+const fenSlavDefenseSuchtingVariation_D15 = ["rnb1kb1r/pp2pppp/1qp2n2/3p4/2PP4/2N2N2/PP2PPPP/R1BQKB1R w KQkq - 4 5"];
+const fenDutchDefenseStonewallVariationGeneralVariation_A92 = ["rnbq1rk1/ppp1b1pp/4pn2/3p1p2/2PP4/5NP1/PP2PPBP/RNBQ1RK1 w - - 0 7"];
+const fenDutchDefenseClassicalVariationIlyinZhenevskyVariationAlatortsevLisitsynLine_A98 = ["rnb1qrk1/ppp1b1pp/3ppn2/5p2/2PP4/2N2NP1/PPQ1PPBP/R1B2RK1 b - - 3 8"];
+const fenFrenchDefenseRetiSpielmannAttack_C00 = ["rnbqkbnr/pppp1ppp/4p3/8/4P3/6P1/PPPP1P1P/RNBQKBNR b KQkq - 0 2"];
+const fenGrobOpeningKeeneDefense_A00 = ["rnbqkbnr/pp3ppp/2p5/3pp3/6P1/7P/PPPPPPB1/RNBQK1NR w KQkq - 0 4"];
+const fenQueensGambitDeclinedHarrwitzAttackMainLineNewMainLine_D37 = ["r1b2rk1/pp3ppp/2n1pn2/q1bp4/2P2B2/P1N1PN2/1PQ2PPP/2KR1B1R b - - 2 10"];
+const fenNimzoIndianDefenseRagozinDefense_E46 = ["r1bq1rk1/ppp2ppp/2n1pn2/3p4/1bPP4/2NBPN2/PP3PPP/R1BQ1RK1 b - - 1 7"];
+const fenGruenfeldDefenseRussianVariationWithe4_D97 = ["rnbq1rk1/ppp1ppbp/5np1/8/2QPP3/2N2N2/PP3PPP/R1B1KB1R b KQ - 0 7"];
+const fenLatvianGambitAcceptedBilguerVariation_C40 = ["rnb1kbnr/ppp3pp/3p1q2/5p2/2NPP3/8/PPP2PPP/RNBQKB1R b KQkq - 1 5"];
+const fenBenoniDefenseWeeninkVariation_A56 = ["rnbqkb1r/pp1p1ppp/4pn2/2P5/2P5/8/PP2PPPP/RNBQKBNR w KQkq - 0 4"];
+const fenPhilidorDefenseLionVariationLionsClawII_C41 = ["r1bqk2r/pppnbpp1/3p1n1p/4p3/2BPP3/2N2N2/PPP2PPP/R1BQ1RK1 w kq - 0 7"];
+const fenKingsGambitFalkbeerCountergambitCharousekGambitAccepted_C32 = ["rnbqkb1r/ppp2ppp/5n2/3P4/4PP2/8/PPP3PP/RNBQKBNR b KQkq - 0 5"];
+const fenSpanishGameClosedVariationsTrajkovicCounterattack_C88 = ["r2qk2r/1bppbppp/p1n2n2/1p2p3/4P3/1B3N2/PPPP1PPP/RNBQR1K1 w kq - 2 8"];
+const fenCaroKannDefenseGurgenidzeCounterattack_B15 = ["rnbqkbnr/p3pppp/2p5/1p1p4/3PP3/2N5/PPP2PPP/R1BQKBNR w KQkq - 0 4"];
+const fenPhilidorDefenseHanhamVariationSchlechterVariation_C41 = ["r1bqkbnr/pp1n1ppp/2pp4/4p3/2BPP3/2N2N2/PPP2PPP/R1BQK2R b KQkq - 1 5"];
+const fenItalianGameSchillingKosticGambit_C50 = ["r1bqkbnr/pppp1ppp/8/4p3/2BnP3/5N2/PPPP1PPP/RNBQK2R w KQkq - 4 4"];
+const fenSicilianDefenseWingGambitCarlsbadVariation_B20 = ["rnbqkbnr/pp1ppppp/8/8/4P3/p7/2PP1PPP/RNBQKBNR w KQkq - 0 4"];
+const fenQueensGambitAcceptedGunsbergDefensePrianishenmoGambit_D24 = ["rnbqkb1r/pp3ppp/5n2/2ppP3/2p5/2N2N2/PP3PPP/R1BQKB1R b KQkq - 0 7"];
+const fenSicilianDefenseDragonVariationYugoslavAttack_2_B77 = ["r1bq1rk1/pp2ppbp/2np1np1/8/3NP3/2N1BP2/PPPQ2PP/R3KB1R w KQ - 3 9"];
+const fenTarraschDefenseClassicalVariationClassicalTarraschGambit_D34 = ["r1bq1rk1/pp2bppp/2n2n2/2P5/3p4/2N2NP1/PP2PPBP/R1BQ1RK1 w - - 0 10"];
+const fenScandinavianDefenseBlackburneGambit_B01 = ["r1bqkbnr/pp2pppp/2n5/8/8/8/PPPP1PPP/RNBQKBNR w KQkq - 0 4"];
+const fenZukertortOpeningSantasieresFolly_A06 = ["rnbqkbnr/ppp1pppp/8/3p4/1P6/5N2/P1PPPPPP/RNBQKB1R b KQkq - 0 2"];
+const fenScotchGameClassicalVariationMillenniumVariation_C45 = ["r1b1k1nr/pppp1ppp/2n3q1/2b5/3NP3/2P1B3/PP3PPP/RN1QKB1R w KQkq - 1 7"];
+const fenEnglishDefensePerrinVariation_A40 = ["r2qkbnr/pbpp1ppp/1pn1p3/8/2PPP3/3B4/PP3PPP/RNBQK1NR w KQkq - 3 5"];
+const fenNimzowitschDefenseScandinavianVariationBogoljubowVariationNimzowitschGambit_B00 = ["r1bqkbnr/ppp1pppp/8/3Pn3/4p3/2N5/PPP2PPP/R1BQKBNR w KQkq - 1 5"];
+const fenEnglishOpeningDrillVariation_A20 = ["rnbqkbnr/pppp1pp1/8/4p2p/2P5/6P1/PP1PPP1P/RNBQKBNR w KQkq - 0 3"];
+const fenModernDefenseSemiAverbakhVariationPterodactylVariation_B06 = ["rnb1k1nr/pp1pppbp/6p1/q1p5/2PPP3/5N2/PP3PPP/RNBQKB1R w KQkq - 2 5"];
+const fenCaroKannDefenseEuweAttack_B10 = ["rnbqkbnr/pp1ppppp/2p5/8/4P3/1P6/P1PP1PPP/RNBQKBNR b KQkq - 0 2"];
+const fenSicilianDefenseOKellyVariationVeniceSystemBarczaLine_B28 = ["rnbqkb1r/1p1ppppp/p4n2/2p5/4P3/2P2N2/PP1P1PPP/RNBQKB1R w KQkq - 1 4"];
+const fenKingsGambitAcceptedBishopsGambitBogoljubowDefense_C33 = ["rnbqkb1r/pp1p1ppp/2p2n2/8/2B1Pp2/2N5/PPPP2PP/R1BQK1NR w KQkq - 0 5"];
+const fenCaroKannDefenseClassicalVariationMaroczyAttack_B18 = ["rn1qkbnr/pp2pppp/2p3b1/8/3P1P2/6N1/PPP3PP/R1BQKBNR b KQkq - 0 6"];
+const fenPircDefenseAustrianAttackUnzickerAttackBronsteinVariation_B09 = ["rnbq1rk1/pppnppbp/3p2p1/4P3/3P1P1P/2N2N2/PPP3P1/R1BQKB1R b KQ - 0 7"];
+const fenSpanishGameExchangeVariationLutikovVariation_C68 = ["r1bqkbnr/2pp1ppp/p1p5/4p3/4P3/5N2/PPPP1PPP/RNBQK2R w KQkq - 0 5"];
+const fenWareOpeningGeneral_A00 = ["rnbqkbnr/pppppppp/8/8/P7/8/1PPPPPPP/RNBQKBNR b KQkq - 0 1"];
+const fenNimzoIndianDefenseNormalVariationSaemischDeferred_E51 = ["rnbq1rk1/ppp2ppp/4pn2/3p4/1bPP4/P1N1PN2/1P3PPP/R1BQKB1R b KQ - 0 6"];
+const fenFrenchDefenseClassicalVariationRubinsteinVariation_C14 = ["rnb1k2r/pppnqppp/4p3/3pP3/3P4/2N5/PPPQ1PPP/R3KBNR b KQkq - 1 7"];
+const fenKingsIndianDefenseFianchettoVariationHungarianVariation_E64 = ["r1bq1rk1/1ppnppbp/p2p1np1/8/2PP4/2N2NP1/PP2PPBP/R1BQ1RK1 w - - 0 8"];
+const fenRetiOpeningAngloSlavVariationBogoljubowVariation_A12 = ["rnbqkb1r/pp2pppp/2p2n2/3p4/2P5/1P3N2/PB1PPPPP/RN1QKB1R b KQkq - 2 4"];
+const fenNimzoLarsenAttackDutchVariation_A01 = ["rnbqkbnr/ppppp1pp/8/5p2/8/1P6/P1PPPPPP/RNBQKBNR w KQkq - 0 2"];
+const fenGruenfeldDefenseExchangeVariationSevilleVariation_D87 = ["r2q1rk1/pp2pBbp/6p1/n1p5/3PP1b1/2P1BP2/P3N1PP/R2Q1RK1 b - - 0 12"];
+const fenScotchGameHorwitzAttack_C45 = ["r1b1kbnr/pppp1ppp/2n5/1N6/4P2q/8/PPP2PPP/RNBQKB1R b KQkq - 2 5"];
+const fenItalianGameTwoKnightsDefensePolerioDefenseKieseritskyVariation_C58 = ["r1bqkb1r/ppp2ppp/5n2/n2Pp1N1/2B5/3P4/PPP2PPP/RNBQK2R b KQkq - 0 6"];
+const fenLondonSystemPoisonedPawnVariation_D02 = ["rnb1kb1r/pp2pppp/1q3n2/2pp4/3P1B2/2N1PN2/PPP2PPP/R2QKB1R b KQkq - 2 5"];
+const fenPolishOpeningBalticDefense_A00 = ["rn1qkbnr/ppp1pppp/8/3p1b2/1P6/8/PBPPPPPP/RN1QKBNR w KQkq - 2 3"];
+const fenGruenfeldDefenseExchangeVariationModernExchangeVariationPawnGrabline_D85 = ["r1bq1rk1/pp2pp1p/2n3p1/2pP4/4P3/2b2N2/P3BPPP/1RBQK2R w K - 0 11"];
+const fenItalianGameEvansGambitPierceDefense_C52 = ["r1bqk1nr/pppp1ppp/2n5/b7/2BpP3/2P2N2/P4PPP/RNBQK2R w KQkq - 0 7"];
+const fenQueensGambitDeclinedTarraschDefensePseudoTarraschBishopAttack_D30 = ["rnbqkbnr/pp3ppp/8/2pp2B1/3P4/5N2/PP2PPPP/RN1QKB1R b KQkq - 1 5"];
+const fenPterodactylDefenseEasternAnhanguera_B06 = ["rnbqk1nr/pp1pppbp/6p1/2p5/3PP3/2N1B3/PPP2PPP/R2QKBNR b KQkq - 1 4"];
+const fenFrenchDefenseWinawerVariationAlekhineGambitAccepted_C15 = ["rnbqk1nr/ppp2ppp/4p3/8/3Pp3/P1b5/1PP1NPPP/R1BQKB1R w KQkq - 0 6"];
+const fenKingsIndianDefenseFianchettoVariationPannoVariationDonnerLine_E63 = ["1rbq1rk1/4pp1p/p2p1npb/n1pP4/2P5/2N3P1/PBQNPPBP/R4RK1 w - - 1 14"];
+const fenRussianGameCochraneGambitCenterVariation_C42 = ["rnbq1b1r/ppp2kpp/3p1n2/8/3PP3/8/PPP2PPP/RNBQKB1R b KQ - 0 5"];
+const fenItalianGameScotchGambitWalbrodtBairdGambit_C55 = ["r1bqk2r/pppp1ppp/2n2n2/2b5/2BpP3/2P2N2/PP3PPP/RNBQ1RK1 b kq - 0 6"];
+const fenHungarianOpeningCatalanFormation_A00 = ["rnbqkbnr/ppp2ppp/4p3/3p4/8/6P1/PPPPPPBP/RNBQK1NR w KQkq - 0 3"];
+const fenSpanishGameOpenVariationsRigaVariation_C80 = ["r1bqkb1r/1ppp1ppp/p1n5/8/B2pn3/5N2/PPP2PPP/RNBQ1RK1 w kq - 0 7"];
+const fenQueensGambitDeclinedOrthodoxDefenseAlekhineVariation_D67 = ["r1b2rk1/pp1nqppp/2p1p3/3n4/2BPN3/4PN2/PP3PPP/2RQK2R b K - 1 11"];
+const fenFrenchDefenseAlapinGambit_C00 = ["rnbqkbnr/ppp2ppp/4p3/3p4/3PP3/4B3/PPP2PPP/RN1QKBNR b KQkq - 1 3"];
+const fenEnglishOpeningAngloIndianDefenseZviagintsevKrasenkovAttack_A18 = ["rnbqk2r/pppp1ppp/4pn2/8/1bP3P1/2N2N2/PP1PPP1P/R1BQKB1R b KQkq - 0 4"];
+const fenQueensIndianDefenseKasparovPetrosianVariation_E17 = ["rn1qkb1r/pbpp1ppp/1p2pn2/8/2PP4/P1N2N2/1P2PPPP/R1BQKB1R b KQkq - 0 5"];
+const fenQueensGambitDeclinedOrthodoxDefenseMainLine_D67 = ["r1b2rk1/pp1nqppp/2p1p3/3n4/2BP4/2N1PN2/PP3PPP/2RQ1RK1 b - - 1 11"];
+const fenFrenchDefenseClassicalVariationAlapinVariation_C14 = ["rnb1k2r/pppnqppp/4p3/1N1pP3/3P4/8/PPP2PPP/R2QKBNR b KQkq - 1 7"];
+const fenSemiSlavDefenseSemiMeranVariation_D47 = ["r1bqkb1r/pp1n1ppp/2p1pn2/8/2BP4/2N1PN2/PP3PPP/R1BQK2R b KQkq - 0 7"];
+const fenViennaGameViennaGambitSteinitzGambitKnightVariation_C25 = ["r1bqkbnr/pppp1ppp/2n5/8/4Pp2/2N2N2/PPPP2PP/R1BQKB1R b KQkq - 1 4"];
+const fenFrenchDefenseAdvanceVariationNimzowitschGambit_C02 = ["rnbqkbnr/pp3ppp/4p3/3pP3/3p2Q1/5N2/PPP2PPP/RNB1KB1R b KQkq - 1 5"];
+const fenDutchDefenseClassicalVariationBlackburneAttack_A91 = ["rnbqk2r/ppppb1pp/4pn2/5p2/2PP4/6PN/PP2PPBP/RNBQK2R b KQkq - 3 5"];
+const fenQueensGambitAcceptedClassicalDefenseRussianGambit_D27 = ["rnbqkb1r/1p3ppp/p3pn2/2p5/2BPP3/5N2/PP3PPP/RNBQ1RK1 b kq - 0 7"];
+const fenSicilianDefenseMarshallCounterattack_B40 = ["rnbqkbnr/pp3ppp/4p3/2pp4/3PP3/5N2/PPP2PPP/RNBQKB1R w KQkq - 0 4"];
+const fenFrenchDefenseClassicalVariationTartakowerVariation_C13 = ["rnbqk2r/ppp1bppp/4p3/3pP1B1/3Pn3/2N5/PPP2PPP/R2QKBNR w KQkq - 1 6"];
+const fenDutchDefenseBlackmarsSecondGambit_A80 = ["rnbqkb1r/ppppp1pp/5n2/8/3Pp3/2N2P2/PPP3PP/R1BQKBNR b KQkq - 0 4"];
+const fenSicilianDefenseSmithMorraGambitAcceptedFianchettoDefense_B21 = ["r1bqkbnr/pp1ppp1p/2n3p1/8/4P3/2N2N2/PP3PPP/R1BQKB1R w KQkq - 0 6"];
+const fenNimzoIndianDefenseSaemischVariationOKellyVariation_E26 = ["rnbqk2r/p2p1ppp/1p2pn2/2p5/2PP4/P1P1P3/5PPP/R1BQKBNR w KQkq - 0 7"];
+const fenGruenfeldDefenseZaitsevGambit_D80 = ["rnbqkb1r/ppp1pp1p/5np1/3p4/2PP3P/2N5/PP2PPP1/R1BQKBNR b KQkq - 0 4"];
+const fenAlekhineDefenseModernVariationKeresVariation_B04 = ["rnbqk2r/ppp1ppbp/1n1p2p1/4P3/P2P4/1B3N2/1PP2PPP/RNBQK2R b KQkq - 0 7"];
+const fenEnglishOpeningKingsEnglishVariationNimzowitschFlohrVariation_A20 = ["rnbqkbnr/pppp1ppp/8/8/2P1p3/5N2/PP1PPPPP/RNBQKB1R w KQkq - 0 3"];
+const fenSicilianDefenseClosedVariationBotvinnikDefenseIEdgeVariation_B25 = ["r1bqk2r/pp2npbp/2np2p1/2p1p3/4PP2/2NP2PN/PPP3BP/R1BQK2R w KQkq - 2 8"];
+const fenKingsIndianDefenseOrthodoxVariationKorchnoiAttack_E97 = ["r1bq1rk1/ppp1npbp/3p1np1/3Pp3/2P1P3/2N2N2/PP1BBPPP/R2Q1RK1 b - - 2 9"];
+const fenSicilianDefenseScheveningenVariationClassicalVariationPaulsenVariation_2_B85 = ["r1b1k2r/1pq1bppp/p1nppn2/8/P2NPP2/2N5/1PP1B1PP/R1BQ1R1K b kq - 0 10"];
+const fenQueensGambitDeclinedOrthodoxDefenseClassicalVariation_1_D68 = ["r1b2rk1/pp1nqppp/2p5/4p3/2BP4/2R1PN2/PP3PPP/3Q1RK1 w - - 0 13"];
+const fenSicilianDefenseOKellyVariationQuietSystem_B28 = ["rnbqkbnr/1p1ppppp/p7/2p5/4P3/3P1N2/PPP2PPP/RNBQKB1R b KQkq - 0 3"];
+const fenKingsIndianDefenseFourPawnsAttackGeneral_E77 = ["rnbq1rk1/ppp1ppbp/3p1np1/8/2PPPP2/2N5/PP2B1PP/R1BQK1NR b KQ - 2 6"];
+const fenHungarianOpeningReversedModernDefense_A00 = ["rnbqkbnr/pp2pppp/8/2pp4/8/6P1/PPPPPPBP/RNBQK1NR w KQkq - 0 3"];
+const fenQueenPawnGameHubschGambit_D00 = ["rnbqkb1r/ppp1pppp/8/3p4/3Pn3/2N5/PPP2PPP/R1BQKBNR w KQkq - 0 4"];
+const fenFrenchDefenseWinawerVariationMaroczyWallisVariation_C18 = ["rnbqk1nr/pp3ppp/4p3/3pP3/1P6/2p5/1PP2PPP/R1BQKBNR w KQkq - 0 7"];
+const fenQueensGambitDeclinedNeoOrthodoxVariation_D54 = ["rnbq1rk1/ppp1bppp/4pn2/3p2B1/2PP4/2N1P3/PP3PPP/2RQKBNR b K - 2 6"];
+const fenZukertortOpeningTennisonGambit_A06 = ["rnbqkbnr/ppp1pppp/8/3p4/4P3/5N2/PPPP1PPP/RNBQKB1R b KQkq - 0 2"];
+const fenModernDefenseImprovedMaroczy_B06 = ["rnb1k1nr/pp1pppbp/1q4p1/2p5/2PPP3/5N2/PP3PPP/RNBQKB1R w KQkq - 1 5"];
+const fenScandinavianDefenseAnderssenCounterattack_B01 = ["rnb1kbnr/ppp2ppp/8/q3p3/3P4/2N5/PPP2PPP/R1BQKBNR w KQkq - 0 5"];
+const fenItalianGameTwoKnightsDefenseTraxlerCounterattackBishopsacline_C57 = ["r1bqk2r/pppp1Bpp/2n2n2/2b1p1N1/4P3/8/PPPP1PPP/RNBQK2R b KQkq - 0 5"];
+const fenKingsIndianDefenseOrthodoxVariation_E92 = ["rnbq1rk1/ppp2pbp/3p1np1/4p3/2PPP3/2N2N2/PP2BPPP/R1BQK2R w KQ - 0 7"];
+const fenSicilianDefensePaulsenVariationAmericanAttack_B45 = ["r1bqk2r/pp1p1ppp/2nNpn2/8/1b2P3/2N5/PPP2PPP/R1BQKB1R b KQkq - 6 7"];
+const fenViennaGameStanleyVariationMonsterDeclined_C27 = ["rnbqk2r/ppppbppp/3n4/4p2Q/8/1BN5/PPPP1PPP/R1B1K1NR w KQkq - 4 6"];
+const fenKingsIndianDefenseAverbakhVariationBenoniDefenseExchangeVariation_E74 = ["rnbq1rk1/pp2ppbp/3p1np1/2P3B1/2P1P3/2N5/PP2BPPP/R2QK1NR b KQ - 0 7"];
+const fenSicilianDefenseNyezhmetdinovRossolimoAttackFianchettoVariationLutikovGambit_B31 = ["r1bqk2r/pp1pppbp/2n2np1/1Bp5/3PP3/2P2N2/PP3PPP/RNBQ1RK1 b kq - 0 6"];
+const fenSicilianDefenseWingGambitAbrahamsVariation_B20 = ["rnbqkbnr/pp1ppppp/8/8/1p2P3/8/PBPP1PPP/RN1QKBNR b KQkq - 1 3"];
+const fenKingsIndianDefensePomarSystem_E72 = ["rnbq1rk1/ppp2pbp/3p1np1/4p3/2PPP3/2N3P1/PP2NPBP/R1BQK2R b KQ - 1 7"];
+const fenFourKnightsGameRankenVariation_C48 = ["r1bqkb1r/1ppp1ppp/p1B2n2/4p3/4P3/2N2N2/PPPP1PPP/R1BQK2R b KQkq - 0 5"];
+const fenSicilianDefenseGawPawVariation_B40 = ["rnb1kb1r/pp1p1ppp/1q2pn2/8/3NP3/2N5/PPP2PPP/R1BQKB1R w KQkq - 3 6"];
+const fenFrenchDefenseClassicalVariationNormalVariation_C13 = ["rnbqk2r/ppp1bppp/4pn2/3p2B1/3PP3/2N5/PPP2PPP/R2QKBNR w KQkq - 4 5"];
+const fenRussianGameClassicalAttackChigorinVariationBrowneAttack_C42 = ["r1bqk2r/ppp1bppp/8/3P4/1n1Pn3/3B1N2/PP3PPP/RNBQ1RK1 b kq - 0 9"];
+const fenSicilianDefenseClosedSicilianAntiSveshnikovVariationKharlovKramnikLine_B30 = ["r1bqk1nr/pp3ppp/2np4/2p1p1b1/2B1P3/2NP4/PPPN1PPP/R1BQK2R w KQkq - 3 7"];
+const fenKingsGambitAcceptedMacLeodDefense_C34 = ["r1bqkbnr/pppp1ppp/2n5/8/4Pp2/5N2/PPPP2PP/RNBQKB1R w KQkq - 2 4"];
+const fenQueensGambitDeclinedOrthodoxDefenseFianchettoVariation_D66 = ["r1bq1rk1/p2nbppp/2p1pn2/1p4B1/2BP4/2N1PN2/PP3PPP/2RQK2R w K - 0 10"];
+const fenFrenchDefenseSteinitzAttack_C00 = ["rnbqkbnr/pppp1ppp/4p3/4P3/8/8/PPPP1PPP/RNBQKBNR b KQkq - 0 2"];
+const fenTarraschDefenseClassicalVariationSpasskyVariation_D34 = ["r2q1rk1/pp2bpp1/2n2n1p/3p4/3N2b1/2N1B1P1/PP2PPBP/R2Q1RK1 w - - 2 12"];
+const fenKingsGambitAcceptedBeckerDefense_C34 = ["rnbqkbnr/pppp1pp1/7p/8/4Pp2/5N2/PPPP2PP/RNBQKB1R w KQkq - 0 4"];
+const fenBishopsOpeningPonzianiGambit_C24 = ["rnbqkb1r/pppp1ppp/5n2/4p3/2BPP3/8/PPP2PPP/RNBQK1NR b KQkq - 0 3"];
+const fenItalianGameClassicalVariationCenterHoldingVariation_C53 = ["r1b1k1nr/ppppqppp/1bn5/4p3/2BPP3/2P2N2/PP3PPP/RNBQK2R w KQkq - 1 6"];
+const fenSicilianDefenseNyezhmetdinovRossolimoAttackGurgenidzeVariation_B31 = ["r1bqk1nr/pp1p1pbp/2n3p1/1Bp1p3/1P2P3/5N2/P1PP1PPP/RNBQR1K1 b kq - 0 6"];
+const fenPhilidorDefenseNimzowitschVariationRellstabVariation_C41 = ["rnbqkb1r/ppp2ppp/3p4/3QP3/4n3/5N2/PPP2PPP/RNB1KB1R b KQkq - 1 5"];
+const fenBlackmarDiemerGambitEuweDefense_D00 = ["rnbqkb1r/ppp2ppp/4pn2/8/3P4/2N2N2/PPP3PP/R1BQKB1R w KQkq - 0 6"];
+const fenPhilidorDefenseHanhamVariationSteinerVariation_C41 = ["r1bqk1nr/pp1nbppp/2pp4/4P3/2B1P3/5N2/PPP2PPP/RNBQ1RK1 b kq - 0 6"];
+const fenBarnesOpeningGeneral_A00 = ["rnbqkbnr/pppppppp/8/8/8/5P2/PPPPP1PP/RNBQKBNR b KQkq - 0 1"];
+const fenOldIndianDefenseJanowskiVariationFianchettoVariation_2_A53 = ["rn1qkb1r/ppp1pppp/3p1n2/5b2/2PP4/2N3P1/PP2PP1P/R1BQKBNR b KQkq - 0 4"];
+const fenEnglishOpeningKingsEnglishVariationFourKnightsVariationQuietLine_3_A28 = ["r1bqr1k1/pppp1ppp/2n2n2/3NpQ2/1bP5/4PN2/PP1P1PPP/R1B1KB1R b KQ - 6 7"];
+const fenItalianGameScotchGambitMaxLangeAttackLongVariation_C55 = ["r3k2r/ppp2ppp/2n1bP2/2b2qN1/2ppN3/8/PPP2PPP/R1BQR1K1 b kq - 7 11"];
+const fenStGeorgeDefenseNewStGeorgeTraditionalLine_B00 = ["rn1qkb1r/1b1p1ppp/p3pn2/1pp5/3PP3/2PB1N2/PP3PPP/RNBQ1RK1 w kq - 3 7"];
+const fenSicilianDefenseAlapinVariationSherzerVariation_B22 = ["r1bqkb1r/pp1p1ppp/2n1p3/2pnP3/3P4/2P2N2/PP3PPP/RNBQKB1R w KQkq - 2 6"];
+const fenFrenchDefenseRubinsteinVariationMaricVariation_C10 = ["rnb1kbnr/ppp2ppp/4p3/3q4/3PN3/8/PPP2PPP/R1BQKBNR w KQkq - 1 5"];
+const fenBenkoGambitDeclinedPseudoSaemisch_A57 = ["rnbqkb1r/p2ppppp/5n2/1ppP4/2P5/5P2/PP2P1PP/RNBQKBNR b KQkq - 0 4"];
+const fenQueenPawnOpeningVeresovAttackIrishGambit_D00 = ["rnbqkbnr/pp2pppp/8/2pp4/3P4/2N5/PPP1PPPP/R1BQKBNR w KQkq - 0 3"];
+const fenEnglundGambitDeclinedReversedFrench_A40 = ["rnbqkbnr/pppp1ppp/8/4p3/3P4/4P3/PPP2PPP/RNBQKBNR b KQkq - 0 2"];
+const fenNeoGruenfeldDefenseDelayedExchangeVariation_2_D75 = ["rnbq1rk1/pp2ppbp/6p1/2Pn4/8/5NP1/PP2PPBP/RNBQ1RK1 b - - 0 8"];
+const fenKingsGambitAcceptedModernDefense_C36 = ["rnbqkbnr/ppp2ppp/8/3p4/4Pp2/5N2/PPPP2PP/RNBQKB1R w KQkq - 0 4"];
+const fenSemiSlavDefenseNoteboomVariationAntiNoteboomGambit_D31 = ["rnbqkbnr/pp3ppp/2p1p3/8/2pP4/2N2NP1/PP2PP1P/R1BQKB1R b KQkq - 0 5"];
+const fenSpanishGameMarshallAttackOriginalMarshallAttack_C89 = ["r1bq1rk1/2p1bppp/p4n2/1p2R3/8/1BP5/PP1P1PPP/RNBQ2K1 w - - 1 12"];
+const fenSpanishGameClosedVariationsGeneral_C92 = ["r1bq1rk1/2p1bppp/p1np1n2/1p2p3/4P3/1BP2N1P/PP1P1PP1/RNBQR1K1 b - - 0 9"];
+const fenScandinavianDefenseMainLinesLeonhardtGambit_B01 = ["rnb1kbnr/ppp1pppp/8/q7/1P6/2N5/P1PP1PPP/R1BQKBNR b KQkq - 0 4"];
+const fenViennaGameStanleyVariationThreeKnightsVariation_C28 = ["r1bqkb1r/pppp1ppp/2n2n2/4p3/2B1P3/2N5/PPPP1PPP/R1BQK1NR w KQkq - 4 4"];
+const fenFourKnightsGameScotchVariationKrauseGambitLeonhardtDefense_C47 = ["r1b1k2r/ppppqppp/2n2n2/4N3/1b1PP3/2N5/PPP2PPP/R1BQKB1R w KQkq - 1 6"];
+const fenFrenchDefenseClassicalVariationGeneralVariation_C14 = ["rnb1k2r/pppnqppp/4p3/3pP3/3P4/2N5/PPP2PPP/R2QKBNR w KQkq - 0 7"];
+const fenEnglishOpeningAdorjanDefense_A10 = ["rnbqkbnr/pppp1p1p/6p1/4p3/2P1P3/8/PP1P1PPP/RNBQKBNR w KQkq - 0 3"];
+const fenModernDefenseAverbakhVariationPseudoSaemisch_A42 = ["rnbqk2r/ppp1ppbp/3p1np1/8/2PPP3/4BP2/PP4PP/RN1QKBNR b KQkq - 0 5"];
+const fenDutchDefenseKorchnoiAttack_A80 = ["rnbqkbnr/ppppp1pp/8/5p2/3P4/7P/PPP1PPP1/RNBQKBNR b KQkq - 0 2"];
+const fenFourKnightsGameSpanishVariationSymmetricalVariation_3_C49 = ["r1bq1rk1/ppp1nppp/3p1n2/1B2p1B1/1b2P3/2NP1N2/PPP2PPP/R2Q1RK1 w - - 2 8"];
+const fenKingsIndianDefenseOrthodoxVariationClassicalSystemTraditionalLine_E99 = ["r1bq1rk1/pppnn1bp/3p2p1/3Ppp2/2P1P3/2N2P2/PP2B1PP/R1BQNRK1 w - - 0 11"];
+const fenItalianGameEvansGambitStoneWareVariation_C51 = ["r1bqk1nr/pppp1ppp/2nb4/4p3/2B1P3/2P2N2/P2P1PPP/RNBQK2R w KQkq - 1 6"];
+const fenAmarOpeningGeneral_A00 = ["rnbqkbnr/pppppppp/8/8/8/7N/PPPPPPPP/RNBQKB1R b KQkq - 1 1"];
+const fenBenoniDefenseMikenasVariation_A66 = ["rnbqk2r/pp3pbp/3p1np1/2pPP3/5P2/2N5/PP4PP/R1BQKBNR b KQkq - 0 8"];
+const fenSpanishGameOpenVariationsItalianVariation_C82 = ["r2qk2r/2p2ppp/p1n1b3/1pbpP3/4n3/1BP2N2/PP3PPP/RNBQ1RK1 w kq - 1 10"];
+const fenItalianGameEvansGambitMacDonnellDefense_C51 = ["r1bqk1nr/pppp1ppp/2n5/2b1p3/2B1P3/2P2N2/P2P1PPP/RNBQK2R w KQkq - 1 6"];
+const fenKingsGambitAcceptedCunninghamDefenseMcCormickDefense_C35 = ["rnbqk2r/ppppbppp/5n2/8/2B1Pp2/5N2/PPPP2PP/RNBQK2R w KQkq - 4 5"];
+const fenDutchDefenseClassicalVariation_A92 = ["rnbq1rk1/ppppb1pp/4pn2/5p2/2PP4/5NP1/PP2PPBP/RNBQK2R w KQ - 4 6"];
+const fenBenoniDefenseClassicalVariationCzerniakDefense_A76 = ["rnbqr1k1/pp3pbp/3p1np1/2pP4/4P3/2N2N2/PP2BPPP/R1BQ1RK1 w - - 6 10"];
+const fenZukertortOpeningStGeorgeDefense_A04 = ["rnbqkbnr/1ppppppp/p7/8/8/5N2/PPPPPPPP/RNBQKB1R w KQkq - 0 2"];
+const fenSicilianDefenseOKellyVariation_B28 = ["rnbqkbnr/1p1ppppp/p7/2p5/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq - 0 3"];
+const fenQueensGambitDeclinedPseudoTarraschVariation_D50 = ["rnbqkb1r/pp3ppp/4pn2/2pP2B1/3P4/2N5/PP2PPPP/R2QKBNR b KQkq - 0 5"];
+const fenCaroKannDefenseHillbillyAttack_B00 = ["rnbqkbnr/pp1ppppp/2p5/8/2B1P3/8/PPPP1PPP/RNBQK1NR b KQkq - 1 2"];
+const fenPircDefenseChineseVariation_B07 = ["rnbqk2r/ppp1ppbp/3p1np1/8/3PP1P1/2N5/PPP1BP1P/R1BQK1NR b KQkq - 0 5"];
+const fenKingsIndianDefenseSaemischVariationByrneDefense_E81 = ["rnbq1rk1/1p2ppbp/p1pp1np1/8/2PPP3/2NBBP2/PP4PP/R2QK1NR w KQ - 0 8"];
+const fenCaroKannDefensePanovAttackModernDefenseCzerniakLine_B13 = ["r1b1kb1r/pp2pppp/2n2n2/q2p2B1/2PP4/2N5/PP3PPP/R2QKBNR w KQkq - 5 7"];
+const fenKingsIndianDefenseFourPawnsAttackExchangeVariation_E79 = ["r1bq1rk1/pp2ppbp/2np1np1/8/2PNPP2/2N1B3/PP2B1PP/R2QK2R b KQ - 2 9"];
+const fenSicilianDefenseNajdorfVariationGoteborgArgentine_B98 = ["rnbqk2r/1p2bp2/p2ppn1p/6p1/3NPP1B/2N2Q2/PPP3PP/R3KB1R w KQkq - 0 10"];
+const fenQueensGambitRefusedChigorinDefenseJanowskiVariation_D07 = ["r1bqkbnr/ppp1pppp/2n5/8/2pP4/2N2N2/PP2PPPP/R1BQKB1R b KQkq - 1 4"];
+const fenSpanishGameAlapinDefense_C60 = ["r1bqk1nr/pppp1ppp/2n5/1B2p3/1b2P3/5N2/PPPP1PPP/RNBQK2R w KQkq - 4 4"];
+const fenSicilianDefenseNajdorfVariationPolugayevskyVariationSimaginLine_B96 = ["rnb1kb1r/2q2ppp/p3pn2/1p2P1B1/3N4/2N5/PPP1Q1PP/R3KB1R b KQkq - 2 10"];
+const fenFrenchDefenseAdvanceVariationExtendedBishopSwap_C02 = ["rn1qkbnr/pppb1ppp/4p3/3pP3/3P4/8/PPP2PPP/RNBQKBNR w KQkq - 1 4"];
+const fenGruenfeldDefenseBrinckmannAttackGrunfeldGambit_D83 = ["rnbq1rk1/ppp1ppbp/5np1/3p4/2PP1B2/2N1P3/PP3PPP/R2QKBNR w KQ - 1 6"];
+const fenSpanishGameBerlinDefenseNyholmAttack_C65 = ["r1bqkb1r/pppp1ppp/2n2n2/1B6/3pP3/5N2/PPP2PPP/RNBQ1RK1 b kq - 1 5"];
+const fenScotchGameMeitnerVariation_C45 = ["r1b1k2r/ppppnppp/2n2q2/2b5/4P3/2P1B3/PPN2PPP/RN1QKB1R b KQkq - 2 7"];
+const fenFrenchDefenseAdvanceVariationRuisdonkGambit_C02 = ["rnbqkbnr/pp3ppp/4p3/3pP3/3p4/3B1N2/PPP2PPP/RNBQK2R b KQkq - 1 5"];
+const fenSpanishGameBerlinDefenseClosedWolfVariation_C66 = ["r2qkb1r/pppb1ppp/2np1n2/1B6/3pP3/2N2N2/PPP2PPP/R1BQ1RK1 w kq - 0 7"];
+const fenIndianGameAntiGrunfeldAdvanceVariation_E60 = ["rnbqkb1r/pppppp1p/5np1/3P4/2P5/8/PP2PPPP/RNBQKBNR b KQkq - 0 3"];
+const fenQueensGambitAcceptedWinawerDefense_D25 = ["rn1qkb1r/ppp1pppp/4bn2/8/2pP4/4PN2/PP3PPP/RNBQKB1R w KQkq - 1 5"];
+const fenEnglishOpeningAngloScandinavianDefenseGeneral_A10 = ["rnbqkbnr/ppp1pppp/8/3p4/2P5/8/PP1PPPPP/RNBQKBNR w KQkq - 0 2"];
+const fenPterodactylDefenseEasternPteronodon_B06 = ["rnb1k1nr/pp1ppp1p/6p1/q1P5/4P3/2P5/P1P2PPP/R1BQKBNR w KQkq - 1 6"];
+const fenBlackmarDiemerGambitViennaVariation_D00 = ["rn1qkb1r/ppp1pppp/5n2/5b2/3Pp3/2N2P2/PPP3PP/R1BQKBNR w KQkq - 1 5"];
+const fenKingsIndianDefenseSaemischVariationClosedVariationMainLine_E89 = ["rnbq1rk1/pp3pbp/3p1np1/3pp3/2P1P3/2N1BP2/PP2N1PP/R2QKB1R w KQ - 0 9"];
+const fenDutchDefenseStauntonGambitAccepted_A82 = ["rnbqkbnr/ppppp1pp/8/8/3Pp3/8/PPP2PPP/RNBQKBNR w KQkq - 0 3"];
+const fenAlekhineDefenseModernVariationPanovVariation_B05 = ["rn1qkb1r/ppp1pppp/3p4/3nP3/3P2b1/5N1P/PPP2PP1/RNBQKB1R b KQkq - 0 5"];
+const fenKingsIndianDefenseOrthodoxVariationClassicalSystemKozulGambit_E99 = ["r1bq1rk1/pppn2bp/3p2n1/2PPp1p1/4Pp2/2N2P2/PP2BBPP/2RQNRK1 b - - 0 14"];
+const fenQueensIndianDefenseFianchettoVariationCheckVariation_E15 = ["rn1qk2r/p1pp1ppp/bp2pn2/8/1bPP4/1P3NP1/P3PP1P/RNBQKB1R w KQkq - 1 6"];
+const fenSicilianDefenseNyezhmetdinovRossolimoAttackFianchettoVariationTotskyAttack_B31 = ["r1bqk2r/pp1pppbp/2n2np1/1Bp5/Q3P3/2P2N2/PP1P1PPP/RNB2RK1 b kq - 2 6"];
+const fenItalianGameEvansGambitMiesesDefense_C52 = ["r1bqk2r/ppppnppp/2n5/b7/2BpP3/2P2N2/P4PPP/RNBQ1RK1 w kq - 2 8"];
+const fenSicilianDefensePaulsenVariationBastrikovVariationPonomariovGambit_B48 = ["rqb1kbnr/1p1p1ppp/pBn1p3/1N6/4P3/2N5/PPP2PPP/R2QKB1R b KQkq - 1 8"];
+const fenBenoniDefenseClassicalVariationFullline_A74 = ["rnbq1rk1/1p3pbp/p2p1np1/2pP4/P3P3/2N2N2/1P2BPPP/R1BQ1RK1 b - - 0 10"];
+const fenElephantGambitMaroczyGambit_C40 = ["rnbqk1nr/ppp2ppp/3b4/3Pp3/8/5N2/PPPP1PPP/RNBQKB1R w KQkq - 1 4"];
+const fenEnglishOpeningAngloIndianDefenseFlohrMikenasCarlsVariation_3_A18 = ["r1bqkb1r/pppp1ppp/2n1pn2/8/2P1P3/2N5/PP1P1PPP/R1BQKBNR w KQkq - 1 4"];
+const fenViennaGameViennaGambitBardelebenVariation_C29 = ["rnbqkb1r/ppp3pp/8/3pPp2/4n3/2N2Q2/PPPP2PP/R1B1KBNR w KQkq f6 0 6"];
+const fenCaroKannDefenseVonHennigGambit_B15 = ["rnbqkbnr/pp2pppp/2p5/8/2BPp3/2N5/PPP2PPP/R1BQK1NR b KQkq - 1 4"];
+const fenRussianGameClassicalAttackBergerVariation_C42 = ["r2qk2r/ppp1b1pp/2n5/3p1p2/3Pn1b1/2PB1N2/PP1N1PPP/R1BQR1K1 b kq - 1 10"];
+const fenFourKnightsGameJanowskiVariation_C49 = ["r1bq1rk1/ppp2ppp/2np1n2/1B2p3/4P3/2PP1N2/P1P2PPP/R1BQR1K1 b - - 1 8"];
+const fenBlumenfeldCountergambitSpielmannVariation_E10 = ["rnbqkb1r/p2p1pp1/5n1p/1ppP2B1/8/5N2/PP2PPPP/RN1QKB1R w KQkq - 0 7"];
+const fenNimzoIndianDefenseNormalVariationGligoricSystem_E53 = ["r1bq1rk1/pp1n1ppp/4pn2/2pp4/1bPP4/2NBPN2/PP3PPP/R1BQ1RK1 w - - 2 8"];
+const fenSpanishGameSchleimannDefenseJaenischGambitAccepted_C60 = ["r1bqkbnr/pppp2pp/2n5/1B2pP2/8/5N2/PPPP1PPP/RNBQK2R b KQkq - 0 4"];
+const fenSpanishGameSchliemannDefenseMohringVariation_C63 = ["r1b1kbnr/ppp3pp/2N5/1B1q4/4p3/8/PPPP1PPP/R1BQK2R w KQkq - 1 8"];
+const fenNimzoIndianDefenseNormalVariationGligoricSystemKeresVariation_E53 = ["rnbq1rk1/p4ppp/1p2pn2/2pp4/1bPP4/2NBPN2/PP3PPP/R1BQ1RK1 w - - 0 8"];
+const fenRussianGameDamianoVariation_C42 = ["rnbqkb1r/pppp1ppp/8/4N3/4n3/8/PPPP1PPP/RNBQKB1R w KQkq - 0 4"];
+const fenItalianGameScotchGambitNakhmansonGambit_C56 = ["r1bqkb1r/pppp1ppp/2n5/8/2Bpn3/2N2N2/PPP2PPP/R1BQ1RK1 b kq - 1 6"];
+const fenItalianGameClassicalVariationGrecoGambitMasonGambit_C54 = ["r1bqk2r/pppp1ppp/2n2n2/2b5/2BpP3/2P2N2/PP3PPP/RNBQ1RK1 b kq - 1 6"];
+const fenKingsGambitAcceptedBishopsGambitBogoljubowVariation_C33 = ["rnbqkb1r/pppp1ppp/5n2/8/2B1Pp2/2N5/PPPP2PP/R1BQK1NR b KQkq - 3 4"];
+const fenKingsGambitFalkbeerCountergambitStauntonLine_C31 = ["rnbqkbnr/ppp2ppp/8/3P4/4pP2/8/PPPP2PP/RNBQKBNR w KQkq - 0 4"];
+const fenSpanishGameOpenVariationsMotzkoAttackII_C82 = ["r2qk2r/2p2ppp/p1n1b3/1pbpP3/4n3/1BPQ1N2/PP3PPP/RNB2RK1 b kq - 2 10"];
+const fenFourKnightsGameSpanishVariationClassicalVariationMarshallGambit_C48 = ["r1bq1rk1/pppp1ppp/5n2/2b1N3/B2nP3/2N5/PPPP1PPP/R1BQK2R w KQ - 3 7"];
+const fenQueensGambitDeclinedOrthodoxDefenseClassicalVariation_D69 = ["r1b2rk1/pp2qppp/2p5/4N3/2B5/2R1P3/PP3PPP/3Q1RK1 b - - 0 14"];
+const fenFrenchDefenseWinawerVariationExchangeVariationCanalAttack_C01 = ["rnbqk2r/ppp1nppp/8/3p3Q/1b1P4/2NB4/PPP2PPP/R1B1K1NR b KQkq - 3 6"];
+const fenSicilianDefenseMiscDefenses_B27 = ["rnbqkbnr/pp1ppppp/8/2p5/4P3/5N2/PPPP1PPP/RNBQKB1R b KQkq - 1 2"];
+const fenSpanishGameClosedVariationsChigorinDefense_2_C98 = ["r1b2rk1/2q1bppp/p1np1n2/1pP1p3/4P3/2P2N1P/PPBN1PP1/R1BQR1K1 b - - 0 13"];
+const fenSicilianDefenseScheveningenVariationDelayedKeresAttackPerenyiGambit_B81 = ["rnbqkb1r/1p3p1p/p2p1np1/4pNP1/4P3/2N1B3/PPP2P1P/R2QKB1R b KQkq - 0 9"];
+const fenQueensGambitAcceptedAcceleratedMannheimVariation_D20 = ["rnbqkbnr/ppp1pppp/8/8/Q1pP4/8/PP2PPPP/RNB1KBNR b KQkq - 1 3"];
+const fenPonzianiOpeningCaroGambit_C44 = ["r2qkbnr/pppb1ppp/2n5/3pp3/Q3P3/2P2N2/PP1P1PPP/RNB1KB1R w KQkq - 2 5"];
+const fenGrobOpeningGrobGambit_A00 = ["rnbqkbnr/ppp1pppp/8/3p4/6P1/8/PPPPPPBP/RNBQK1NR b KQkq - 1 2"];
+const fenKingsIndianDefenseFianchettoVariationPannoVariationKorchnoiLine_E63 = ["1rbq1rk1/2p1ppbp/p1np1np1/1p6/2PP4/2N1B1PP/PP1NPPB1/R2Q1RK1 b - - 1 10"];
+const fenLatvianGambitGeneral_C40 = ["rnbqkbnr/pppp2pp/8/4pp2/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq - 0 3"];
+const fenEnglishOpeningAngloIndianDefenseQueensIndianVariation_A17 = ["rn1qkb1r/pbpp1ppp/1p2pn2/8/2P1P3/2NB1N2/PP1P1PPP/R1BQK2R b KQkq - 2 5"];
+const fenScandinavianDefenseKielVariation_B01 = ["rnbqkb1r/ppp1pppp/8/8/1nPP4/8/PP3PPP/RNBQKBNR w KQkq - 1 5"];
+const fenSicilianDefenseDragonVariationLevenfishVariationMainLine_B71 = ["r1bqkb1r/pp1npp1p/3p1np1/8/3NPP2/2N5/PPP3PP/R1BQKB1R w KQkq - 1 7"];
+const fenSicilianDefenseDragonVariationClassicalVariationAlekhineLine_B74 = ["r1bq1rk1/1p2ppbp/2np1np1/p7/4P3/1NN1B3/PPP1BPPP/R2Q1RK1 w - - 0 10"];
+const fenZukertortOpeningReversedMexicanDefense_A06 = ["rnbqkbnr/ppp1pppp/8/3p4/8/2N2N2/PPPPPPPP/R1BQKB1R b KQkq - 1 2"];
+const fenScotchGameClassicalVariationBlackburneAttack_C45 = ["r1b1k2r/ppppnppp/2n2q2/2b5/3NP3/2P1B3/PP1Q1PPP/RN2KB1R b KQkq - 2 7"];
+const fenSpanishGameOpenVariationsBerlinVariation_C82 = ["r2qkb1r/2p2ppp/p1n1b3/1pnpP3/8/1BP2N2/PP3PPP/RNBQ1RK1 w kq - 1 10"];
+const fenKingsGambitFalkbeerCountergambitCharousekGambit_C31 = ["rnbqkbnr/ppp2ppp/8/3P4/4pP2/3P4/PPP3PP/RNBQKBNR b KQkq - 0 4"];
+const fenPolishOpeningGermanDefense_A00 = ["rnb1kbnr/ppp1pppp/3q4/3p4/1P6/8/PBPPPPPP/RN1QKBNR w KQkq - 2 3"];
+const fenFrenchDefenseClassicalVariationPollockVariation_C14 = ["rnb1k2r/pppnqppp/4p3/3pP3/3P2Q1/2N5/PPP2PPP/R3KBNR b KQkq - 1 7"];
+const fenFrenchDefenseAlekhineChatardAttackSpielmannVariation_C13 = ["rnbq1rk1/pppnbppp/4p3/3pP1B1/3P3P/2N5/PPP2PP1/R2QKBNR w KQ - 1 7"];
+const fenZukertortOpeningWadeDefenseChigorinPlan_A41 = ["1r1qkbnr/pppnpppp/3p4/8/2PP2b1/1Q3N2/PP2PPPP/RNB1KB1R w KQk - 3 5"];
+const fenPterodactylDefenseEasternRhamporhynchus_B06 = ["rnbqk1nr/pp1pppbp/6p1/2P5/4P3/2N5/PPP2PPP/R1BQKBNR b KQkq - 0 4"];
+const fenBenkoGambitAcceptedCentralStormingVariation_A57 = ["rn1qkb1r/3ppp1p/b4np1/2pP4/5P2/2N5/PP2P1PP/R1BQKBNR b KQkq - 0 7"];
+const fenKingsIndianDefenseAverbakhVariationSpanishDefense_E73 = ["rnbq1rk1/1pp1ppbp/p2p1np1/6B1/2PPP3/2N5/PP2BPPP/R2QK1NR w KQ - 0 7"];
+const fenQueensGambitRefusedChigorinDefenseTartakowerGambit_D06 = ["r1bqkbnr/ppp2ppp/2n5/3pp3/2PP4/2N5/PP2PPPP/R1BQKBNR w KQkq - 0 4"];
+const fenKingPawnGameWaywardQueenAttack_C20 = ["rnbqkbnr/pppp1ppp/8/4p2Q/4P3/8/PPPP1PPP/RNB1KBNR b KQkq - 1 2"];
+const fenAlekhineDefenseSpielmannGambit_B02 = ["rnbqkb1r/pppnpppp/4P3/3p4/8/2N5/PPPP1PPP/R1BQKBNR b KQkq - 0 4"];
+const fenPhilidorDefenseLionVariationBishopSac_C41 = ["r1bqk2r/pppnbBpp/3p1n2/4p3/3PP3/2N2N2/PPP2PPP/R1BQK2R b KQkq - 0 6"];
+const fenBirdOpeningHorseflyDefense_A03 = ["rnbqkb1r/pppppppp/7n/8/5P2/8/PPPPP1PP/RNBQKBNR w KQkq - 1 2"];
+const fenSlavDefenseBonetGambit_D11 = ["rnbqkb1r/pp2pppp/2p2n2/3p2B1/2PP4/5N2/PP2PPPP/RN1QKB1R b KQkq - 3 4"];
+const fenEnglishOpeningKingsEnglishVariationBellonGambit_A22 = ["rnbqkb1r/p1pp1ppp/5n2/1p4N1/2P1p3/2N5/PP1PPPPP/R1BQKB1R w KQkq - 0 5"];
+const fenThreeKnightsOpeningSteinitzRosenthalVariation_C46 = ["r1bqkbnr/pppp1p1p/2n3p1/3N4/3pP3/5N2/PPP2PPP/R1BQKB1R b KQkq - 1 5"];
+const fenItalianGameClassicalVariationGrecoGambitMainLine_C54 = ["r1bqk2r/pppp1ppp/2n5/8/2BPn3/2b2N2/PP3PPP/R1BQ1RK1 w kq - 0 9"];
+const fenBenkoGambitAcceptedYugoslavwith7Bxf1Nge2_A59 = ["rn1qkb1r/4pp1p/3p1np1/2pP4/4P3/2N5/PP2NPPP/R1BQ1K1R b kq - 1 9"];
+const fenQueensGambitAcceptedSaduletoVariation_D20 = ["rnbqkbnr/ppp1pppp/8/8/2pPP3/8/PP3PPP/RNBQKBNR b KQkq - 0 3"];
+const fenFrenchDefenseMacCutcheonVariationBernsteinVariation_C12 = ["rnbqk2r/ppp2pp1/4pn1p/3pP3/1b1P3B/2N5/PPP2PPP/R2QKBNR b KQkq - 1 6"];
+const fenPterodactylDefenseSicilianAnhanguera_B06 = ["rnb1k1nr/pp1pppbp/6p1/q1p5/3PP3/2N1BN2/PPP2PPP/R2QKB1R b KQkq - 3 5"];
+const fenBenoniDefensePawnStormVariation_A66 = ["rnbqkb1r/pp3p1p/3p1np1/2pP4/4PP2/2N5/PP4PP/R1BQKBNR b KQkq - 0 7"];
+const fenQueensGambitRefusedBalticDefenseArgentinianGambit_D31 = ["r2qkbnr/pp2pppp/2n5/8/Q2P4/8/PP2PPPP/RbB1KBNR w KQkq - 0 6"];
+const fenFourKnightsGameHalloweenGambit_C46 = ["r1bqkb1r/pppp1ppp/2n2n2/4N3/4P3/2N5/PPPP1PPP/R1BQKB1R b KQkq - 0 4"];
+const fenNimzoIndianDefenseLeningradVariationAverbakhGambit_E30 = ["rnbqk2r/p2p1pp1/4pn1p/1ppP4/1bP4B/2N5/PP2PPPP/R2QKBNR w KQkq - 0 7"];
+const fenTarraschDefensePragueVariationMainLine_D34 = ["r1bqk2r/pp2bppp/2n2n2/2pp4/3P4/2N2NP1/PP2PPBP/R1BQK2R w KQkq - 3 8"];
+const fenSicilianDefenseOKellyVariationVeniceSystemGambitline_B28 = ["rnbqkb1r/1p2pppp/p4n2/2pP4/8/2P2N2/PP1P1PPP/RNBQKB1R w KQkq - 1 5"];
+const fenSlavDefenseCzechVariation_D17 = ["rn1qkb1r/pp2pppp/2p2n2/5b2/P1pP4/2N2N2/1P2PPPP/R1BQKB1R w KQkq - 1 6"];
+const fenFrenchDefenseWinawerVariationPoisonedPawnVariationPaoliVariation_C18 = ["rnb1k1r1/ppq1np1Q/4p3/3pP3/3p4/P1P5/2P2PPP/R1BK1BNR b q - 1 10"];
+const fenScandinavianDefenseGrunfeldVariation_B01 = ["rn2kb1r/pp2pppp/2p2n2/q3Nb2/3P2P1/2N5/PPP2P1P/R1BQKB1R b KQkq - 0 7"];
+const fenGruenfeldDefenseBrinckmannAttackGrunfeldGambitBotvinnikVariation_D83 = ["rn1q1rk1/pp2ppbp/4bnp1/2Pp4/2P2B2/2N1P3/PP3PPP/2RQKBNR w K - 1 8"];
+const fenFrenchDefenseOrthoschnappGambit_C00 = ["rnbqkbnr/ppp2ppp/8/3p4/4P3/1Q6/PP1P1PPP/RNB1KBNR b KQkq - 1 4"];
+const fenViennaGameOmahaGambit_C25 = ["rnbqkbnr/ppp2ppp/3p4/4p3/4PP2/2N5/PPPP2PP/R1BQKBNR b KQkq - 0 3"];
+const fenQueensGambitDeclinedOrthodoxDefensePillsburyVariation_D63 = ["r1bq1rk1/p1pnbppp/1p3n2/3p2B1/3P4/2NBPN2/PP3PPP/2RQK2R b K - 1 9"];
+const fenSicilianDefenseChekhoverVariationZaitsevDefense_B53 = ["r1b1kbnr/pp1qpppp/2np4/1B6/3QP3/5N2/PPP2PPP/RNB1K2R w KQkq - 3 6"];
+const fenKingsGambitAcceptedKieseritskyGambitKolischDefense_C39 = ["rnbqkbnr/ppp2p1p/3p4/4N3/4PppP/8/PPPP2P1/RNBQKB1R w KQkq - 0 6"];
+const fenItalianGameTwoKnightsDefenseKnightAttackNormalVariation_C57 = ["r1bqkb1r/ppp2ppp/2n2n2/3pp1N1/2B1P3/8/PPPP1PPP/RNBQK2R w KQkq - 0 5"];
+const fenItalianGameScotchGambitDeclined_C55 = ["r1bqkb1r/ppp2ppp/2np1n2/4p3/2BPP3/5N2/PPP2PPP/RNBQK2R w KQkq - 0 5"];
+const fenSicilianDefenseFrancoScilianVariation_B32 = ["r1bqkbnr/pp1p1ppp/2n1p3/2p5/3PP3/5N2/PPP2PPP/RNBQKB1R w KQkq - 0 4"];
+const fenScotchGameGoringGambitMainLine_C44 = ["r1bqk1nr/pppp1ppp/2n5/8/1b2P3/2N2N2/PP3PPP/R1BQKB1R w KQkq - 1 6"];
+const fenIndianGamePalefaceAttack_A45 = ["rnbqkb1r/pppppppp/5n2/8/3P4/5P2/PPP1P1PP/RNBQKBNR b KQkq - 0 2"];
+const fenDutchDefenseFianchettoVariation_A86 = ["rnbqkb1r/ppppp1pp/5n2/5p2/2PP4/6P1/PP2PP1P/RNBQKBNR b KQkq - 0 3"];
+const fenCatalanOpeningOpenDefense_E03 = ["r1bqkb1r/pppn1ppp/4pn2/8/2QP4/6P1/PP2PPBP/RNB1K1NR b KQkq - 0 6"];
+const fenPhilidorDefenseNimzowitschVariation_1_C41 = ["rnbqkb1r/ppp2ppp/3p1n2/4P3/4P3/5N2/PPP2PPP/RNBQKB1R b KQkq - 0 4"];
+const fenGruenfeldDefenseBrinckmannAttackReshevskyGambit_D83 = ["rnb2rk1/pp2ppbp/5np1/q1Pp4/2P2B2/2N1P3/PP3PPP/2RQKBNR w K - 1 8"];
+const fenSicilianDefenseScheveningenVariationVitolinsVariation_B80 = ["rnbqkb1r/pp3ppp/3ppn2/1B6/3NP3/2N5/PPP2PPP/R1BQK2R b KQkq - 1 6"];
+const fenScotchGameScotchGambitDuboisRetiDefense_C44 = ["r1bqkb1r/pppp1ppp/2n2n2/8/2BpP3/5N2/PPP2PPP/RNBQK2R w KQkq - 2 5"];
+const fenKingsIndianDefenseAverbakhVariation6Nc6Defense_E73 = ["r1bq1rk1/ppp1ppbp/2np1np1/6B1/2PPP3/2N5/PP2BPPP/R2QK1NR w KQ - 4 7"];
+const fenBlackmarDiemerGambitDeclinedLangeheineckeDefense_D00 = ["rnbqkb1r/ppp1pppp/5n2/8/3P4/2N1pP2/PPP3PP/R1BQKBNR w KQkq - 0 5"];
+const fenKingsIndianDefenseFourPawnsAttackFlorentineGambit_E77 = ["rnbq1rk1/pp3pbp/3p1np1/2ppP3/2P2P2/2N2N2/PP2B1PP/R1BQK2R b KQ - 0 9"];
+const fenSpanishGameMorphyDefenseWingAttack_C78 = ["r1bqk2r/2ppbppp/p1n2n2/1p2p3/P3P3/1B3N2/1PPP1PPP/RNBQ1RK1 b kq - 0 7"];
+const fenKingsIndianDefensePetrosianVariationKeresDefense_E93 = ["r1bq1rk1/pppn1pb1/3p3p/3Pp1pn/2P1P2P/2N2NB1/PP2BPP1/R2QK2R b KQ - 0 11"];
+const fenQueensGambitDeclinedOrthodoxDefenseClassicalVariation_2_D68 = ["r1b2rk1/pp1nqppp/2p5/4p3/2BP4/2R1PN2/PPQ2PPP/5RK1 b - - 1 13"];
+const fenSpanishGameBerlinDefenseMinckwitzVariation_C67 = ["r1bqk2r/ppppbppp/2n5/1B2P3/4n3/5N2/PPP2PPP/RNBQ1RK1 b kq - 0 6"];
+const fenItalianGameEvansGambitMainLine_C52 = ["r1bqk1nr/pppp1ppp/2n5/b3p3/2B1P3/2P2N2/P2P1PPP/RNBQK2R w KQkq - 1 6"];
+const fenSpanishGameMarshallAttackSteinerVariation_C89 = ["r1bq1rk1/2p1bppp/p1n2n2/1p1P4/4p3/1BP2N2/PP1P1PPP/RNBQR1K1 w - - 0 10"];
+const fenPhilidorDefenseNimzowitschVariation_2_C41 = ["rnbqkb1r/ppp2ppp/3p1n2/4p3/3PP3/5N2/PPP2PPP/RNBQKB1R w KQkq - 1 4"];
+const fenQueensGambitDeclinedCapablancaVariation_D30 = ["r1bqkb1r/pp1n1ppp/2p1pn2/3p2B1/2PP4/4PN2/PP1N1PPP/R2QKB1R b KQkq - 1 6"];
+const fenFrenchDefenseReversedPhilidorFormation_C00 = ["r1bqkb1r/ppp2ppp/2n1pn2/3p4/4P3/3P1N2/PPPNBPPP/R1BQK2R b KQkq - 5 5"];
+const fenDutchDefenseStauntonGambitLaskerVariation_A83 = ["rnbqkb1r/ppppp2p/5np1/6B1/3Pp3/2N2P2/PPP3PP/R2QKBNR b KQkq - 0 5"];
+const fenSpanishGameMarshallAttackMainLine_C89 = ["r1bq1rk1/4bppp/p1p5/1p1nR3/3P4/1BP5/PP3PPP/RNBQ2K1 b - - 0 12"];
+const fenQueensGambitAcceptedLinaresVariation_D20 = ["rnbqkb1r/p3pppp/5n2/1ppP4/2p1P3/2N5/PP3PPP/R1BQKBNR w KQkq - 0 6"];
+const fenPhilidorDefenseLionVariationSozinVariation_C41 = ["r1bq1rk1/pp1nbppp/2pp1n2/8/P1BpP3/2N2N2/1PP1QPPP/R1B2RK1 w - - 0 9"];
+const fenRussianGameModernAttackSuchtingGambit_C43 = ["rnbqkb1r/pppp1ppp/5n2/8/2BpP3/5N2/PPP2PPP/RNBQK2R b KQkq - 1 4"];
+const fenBenkoGambitDeclinedBishopAttack_A57 = ["rnbqkb1r/p2ppppp/5n2/1ppP2B1/2P5/8/PP2PPPP/RN1QKBNR b KQkq - 1 4"];
+const fenLatvianGambitAcceptedLeonhardtVariation_C40 = ["rnb1kbnr/pppp2pp/5q2/8/2N1p3/2N5/PPPP1PPP/R1BQKB1R b KQkq - 1 5"];
+const fenQueensGambitDeclinedNeoOrthodoxVariation_D55 = ["rnbq1rk1/ppp1bpp1/4pn1p/3p2B1/2PP4/2N1PN2/PP3PPP/R2QKB1R w KQ - 0 7"];
+const fenQueenPawnGameTorreAttackGruenfeldVariation_D03 = ["rnbqkb1r/ppp1pp1p/5np1/3p2B1/3P4/5N2/PPP1PPPP/RN1QKB1R w KQkq - 0 4"];
+const fenCaroKannDefenseKarpovVariationModernVariationIvanchukDefense_B17 = ["r1bqkbnr/pp2pppp/2p2n2/6N1/3P4/8/PPP2PPP/R1BQKBNR w KQkq - 3 6"];
+const fenBishopsOpeningBlanelGambit_C23 = ["rnbqkb1r/pppp1ppp/8/4p3/2B1n3/2N5/PPPP1PPP/R1BQK1NR w KQkq - 0 4"];
+const fenSpanishGameBerlinDefenselHermetVariationWesterinenLine_C67 = ["r1bqkb1r/ppp2ppp/2p5/4P3/4n3/5N2/PPP2PPP/RNBQ1RK1 w kq - 1 8"];
+const fenNimzowitschDefenseScandinavianVariationBogoljubowVariation_B00 = ["r1bqkbnr/ppp1pppp/2n5/3p4/3PP3/2N5/PPP2PPP/R1BQKBNR b KQkq - 1 3"];
+const fenQueensGambitDeclinedManhattanVariation_D51 = ["r1bqk2r/pppn1ppp/4pn2/3p2B1/1bPP4/2N1P3/PP3PPP/R2QKBNR w KQkq - 1 6"];
+const fenGruenfeldDefenseRussianVariationSmyslovVariation_D99 = ["rn1q1rk1/pppnppbp/6p1/8/3PP1b1/1QN1BN2/PP3PPP/R3KB1R b KQ - 4 9"];
+const fenEnglishOpeningKingsEnglishVariationBotvinnikSystemPricklyPawnPassSystem_A26 = ["rnbq1rk1/1p3pbp/p1pp1np1/4p3/2P1P3/2NP2P1/PP2NPBP/R1BQ1RK1 w - - 0 9"];
+const fenVanGeetOpeningGruenfeldDefense_A00 = ["rnbqkbnr/ppp2ppp/8/4p3/4N3/8/PPPP1PPP/R1BQKBNR w KQkq - 0 4"];
+const fenCaroKannDefenseRasaStudierGambit_B15 = ["rnbqkbnr/pp2pppp/2p5/8/3Pp3/2N2P2/PPP3PP/R1BQKBNR b KQkq - 0 4"];
+const fenFrenchDefenseWinawerVariationFingerslipVariationMainLine_C15 = ["rnbqk1r1/ppp2p1p/4pn1Q/8/1b1Pp3/2N5/PPPB1PPP/R3KBNR b KQq - 2 7"];
+const fenSicilianDefenseDrazicVariation_B40 = ["rnbqkbnr/1p1p1ppp/p3p3/2p5/3PP3/5N2/PPP2PPP/RNBQKB1R w KQkq - 0 4"];
+const fenBlackmarDiemerGambitVonPopielGambit_D00 = ["rnbqkb1r/ppp1pppp/5n2/6B1/3Pp3/2N5/PPP2PPP/R2QKBNR b KQkq - 3 4"];
+const fenZukertortOpeningBasmanDefense_A04 = ["rnbqkbnr/ppppppp1/7p/8/8/5N2/PPPPPPPP/RNBQKB1R w KQkq - 0 2"];
+const fenQueenPawnGameVeresovAtackBoyceDefense_D01 = ["rnbqkb1r/ppp1pppp/8/3p2B1/3Pn3/2N5/PPP1PPPP/R2QKBNR w KQkq - 4 4"];
+const fenPhilidorDefenseLionVariationLionsClawI_C41 = ["r1bqk2r/pp1nbppp/2pp1n2/4p3/3PP3/2N2N2/PPP1BPPP/R1BQ1RK1 w kq - 0 7"];
+const fenPhilidorDefenseLionVariationForcingLine_C41 = ["r1bq2k1/pppnbrpp/3pNn2/4p3/3PP3/2N5/PPP2PPP/R1BQK2R b KQ - 1 8"];
+const fenQueensGambitAcceptedClassicalDefenseNormalLines_D26 = ["rnbqkb1r/pp3ppp/4pn2/2p5/2BP4/4PN2/PP3PPP/RNBQ1RK1 b kq - 1 6"];
+const fenSicilianDefenseOKellyVariationKieseritzkySystem_B28 = ["rnbqkbnr/1p1ppppp/p7/2p5/4P3/1P3N2/P1PP1PPP/RNBQKB1R b KQkq - 0 3"];
+const fenSpanishGameClosedVariationsWorrallAttack_C86 = ["r1bqk2r/1pppbppp/p1n2n2/4p3/B3P3/5N2/PPPPQPPP/RNB2RK1 b kq - 5 6"];
+const fenLatvianGambitFraserDefense_C40 = ["r1bqkbnr/pppp2pp/2n5/4Np2/4P3/8/PPPP1PPP/RNBQKB1R w KQkq - 1 4"];
+const fenFrenchDefenseTarraschVariationHaberditzVariation_C03 = ["rnbqkbnr/ppp3pp/4p3/3p1p2/3PP3/8/PPPN1PPP/R1BQKBNR w KQkq - 0 4"];
+const fenSicilianDefenseMorphyGambitAndreaschekGambit_B21 = ["rnbqkbnr/pp1p1ppp/8/4p3/3pP3/2P2N2/PP3PPP/RNBQKB1R b KQkq - 0 4"];
+const fenKingPawnGameMacleodAttack_C20 = ["rnbqkbnr/pppp1ppp/8/4p3/4P3/2P5/PP1P1PPP/RNBQKBNR b KQkq - 0 2"];
+const fenSicilianDefenseSmithMorraGambitDeclinedAlapinFormation_B21 = ["rnbqkb1r/pp1ppppp/5n2/8/3pP3/2P5/PP3PPP/RNBQKBNR w KQkq - 1 4"];
+const fenLatvianGambitAccepted_C40 = ["rnbqkbnr/pppp2pp/8/4pP2/8/5N2/PPPP1PPP/RNBQKB1R b KQkq - 0 3"];
+const fenNimzoIndianDefenseSpielmannVariationRomanovskyGambit_E23 = ["r1bqk2r/pp1p1ppp/2n1pn2/2P5/1bP5/1QN5/PP2PPPP/R1B1KBNR w KQkq - 1 6"];
+const fenQueensGambitRefusedAustrianDefenseGusevCountergambit_D06 = ["rnbqkb1r/pp2pppp/5n2/2pP4/3P4/8/PP2PPPP/RNBQKBNR w KQkq - 1 4"];
+const fenBishopsOpeningUrusovGambitKeidanskyGambit_C24 = ["rnbqkb1r/pppp1ppp/8/8/2BQn3/5N2/PPP2PPP/RNB1K2R b KQkq - 0 5"];
+const fenFrenchDefenseWinawerVariationBogoljubowVariationIcelandicDefense_C17 = ["rnbqk2r/pp2nppp/4p3/2ppP3/1b1P1P2/2N5/PPPB2PP/R2QKBNR b KQkq - 0 6"];
+const fenScotchGameSteinitzVariation_C45 = ["r1b1kbnr/pppp1ppp/2n5/8/3NP2q/8/PPP2PPP/RNBQKB1R w KQkq - 1 5"];
+const fenStGeorgeDefenseNewStGeorgeThreePawnAttack_B00 = ["rnbqkbnr/1ppp1ppp/p3p3/8/2PPP3/8/PP3PPP/RNBQKBNR b KQkq - 0 3"];
+const fenKingsGambitAcceptedBishopsGambitBledowCountergambit_C33 = ["rnbqkb1r/ppp2ppp/5n2/3B4/4Pp2/8/PPPP2PP/RNBQK1NR w KQkq - 1 5"];
+const fenSicilianDefenseSmithMorraGambitDeclinedCenterFormation_B21 = ["rnbqkbnr/pp1p1ppp/8/4p3/3pP3/2P5/PP3PPP/RNBQKBNR w KQkq - 0 4"];
+const fenItalianGameEvansGambitMacDonnellDefenseMainLine_C51 = ["r1bqk1nr/ppp2ppp/1bnp4/8/2BPP3/5N2/P4PPP/RNBQ1RK1 w kq - 1 9"];
+const fenEnglishOpeningKingsEnglishVariationFourKnightsVariationBradleyBeachVariation_A28 = ["r1bqkb1r/pppp1ppp/2n2n2/8/2PPp3/2N2N2/PP2PPPP/R1BQKB1R w KQkq - 0 5"];
+const fenSpanishGameOpenVariationsClassicalDefenseMainLine_C83 = ["r2qk2r/2p1bppp/p1n1b3/1p1pP3/4n3/1BP2N2/PP3PPP/RNBQR1K1 b kq - 2 10"];
+const fenKingPawnGameAlapinOpening_C20 = ["rnbqkbnr/pppp1ppp/8/4p3/4P3/8/PPPPNPPP/RNBQKB1R b KQkq - 1 2"];
+const fenNimzoIndianDefenseSpielmannVariationKarlsbadVariation_E23 = ["r1bqk2r/pp1p1ppp/2n1p3/2P5/1bP5/1QN2N2/PP1nPPPP/R3KB1R w KQkq - 0 8"];
+const fenCaroKannDefenseFinnishVariation_B16 = ["rnbqkbnr/pp2ppp1/2p4p/8/3PN3/8/PPP2PPP/R1BQKBNR w KQkq - 0 5"];
+const fenLatvianGambitMasonCountergambit_C40 = ["rnbqkbnr/pppp2pp/8/4pp2/3PP3/5N2/PPP2PPP/RNBQKB1R b KQkq - 0 3"];
+const fenTorreAttackClassicalDefensePetrosianGambit_A46 = ["rnbqkb1r/p2p1ppp/1p2pn2/2pP2B1/8/4PN2/PPP2PPP/RN1QKB1R b KQkq - 0 5"];
+const fenItalianGameClassicalVariationGrecoGambitGrecoVariation_C54 = ["r1bqk2r/pppp1ppp/2n5/8/1bBP4/2n2N2/PP3PPP/R1BQ1RK1 w kq - 0 9"];
+const fenSpanishGameColumbusVariation_C70 = ["r1bqkbnr/1ppp1ppp/p1n5/4p3/B3P3/5N2/PPPP1PPP/RNBQK2R b KQkq - 1 4"];
+const fenTarraschDefenseClassicalVariationPeturssonVariation_D34 = ["r1bqr1k1/pp2bppp/2n2n2/3p2B1/3N4/2N3P1/PP2PPBP/R2Q1RK1 w - - 1 11"];
+const fenGruenfeldDefenseLutikovVariation_D70 = ["rnbqkb1r/ppp1pp1p/5np1/3p4/2PP4/2N2P2/PP2P1PP/R1BQKBNR b KQkq - 0 4"];
+const fenDutchDefenseJanzenKorchnoiGambit_A80 = ["rnbqkb1r/ppppp1pp/5n2/5p2/3P2P1/7P/PPP1PP2/RNBQKBNR b KQkq - 0 3"];
+const fenFrenchDefenseRubinsteinVariationCapablancaLine_C10 = ["r1bqkb1r/ppp2ppp/4pn2/4N3/3P4/8/PPP2PPP/R1BQKB1R b KQkq - 1 7"];
+const fenKingsGambitDeclinedKeeneDefense_C30 = ["rnb1kbnr/ppppqppp/8/4p3/4PP2/6P1/PPPP3P/RNBQKBNR w KQkq - 1 4"];
+const fenItalianGameTwoKnightsDefenseTraxlerCounterattackKnightsacline_C57 = ["r1bqk2r/pppp1Npp/2n2n2/2b1p3/2B1P3/8/PPPP1PPP/RNBQK2R b KQkq - 0 5"];
+const fenDutchDefenseKmochAttack_A80 = ["rnbqkbnr/ppppp1pp/8/5p2/3P4/3Q4/PPP1PPPP/RNB1KBNR b KQkq - 1 2"];
+const fenFrenchDefenseMacCutcheonVariation_C12 = ["rnbqk2r/ppp2ppp/4pn2/3p2B1/1b1PP3/2N5/PPP2PPP/R2QKBNR w KQkq - 4 5"];
+const fenRatDefenseBaloghDefense_B07 = ["rnbqkbnr/ppp1p1pp/3p4/5p2/3PP3/8/PPP2PPP/RNBQKBNR w KQkq - 0 3"];
+const fenBenoniDefenseOldBenoniSchmidVariation_A43 = ["rnbqkbnr/pp2pp1p/3p2p1/2pP4/8/2N5/PPP1PPPP/R1BQKBNR w KQkq - 0 4"];
+const fenSicilianDefenseMongooseVariation_B27 = ["rnb1kbnr/pp1ppppp/8/q1p5/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq - 2 3"];
+const fenKingPawnGameBuschGassGambit_C40 = ["rnbqk1nr/pppp1ppp/8/2b1p3/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq - 2 3"];
+const fenViennaGameStanleyVariationFrankensteinDraculaVariation_C27 = ["N1bk1b1r/p2pq2p/1pnn2p1/3Qpp2/8/1B6/PPPP1PPP/R1B1K1NR w KQ - 0 11"];
+const fenKingsGambitAcceptedMasonKeresGambit_C33 = ["rnbqkbnr/pppp1ppp/8/8/4Pp2/2N5/PPPP2PP/R1BQKBNR b KQkq - 1 3"];
+const fenFrenchDefensePelikanVariation_C00 = ["rnbqkbnr/ppp2ppp/4p3/3p4/4PP2/2N5/PPPP2PP/R1BQKBNR b KQkq - 0 3"];
+const fenFrenchDefenseMediterraneanDefense_C01 = ["rnbqkb1r/pppp1ppp/4pn2/8/3PP3/8/PPP2PPP/RNBQKBNR w KQkq - 1 3"];
+const fenKingsGambitAcceptedKingsKnightGambit_C34 = ["rnbqkbnr/pppp1ppp/8/8/4Pp2/5N2/PPPP2PP/RNBQKB1R b KQkq - 1 3"];
+const fenQueenPawnGameMorrisCountergambit_D00 = ["rnbqkbnr/pp2pppp/8/2pp4/3PPB2/8/PPP2PPP/RN1QKBNR b KQkq - 0 3"];
+const fenItalianGameEvansGambitAnderssenDefense_C52 = ["r1bqk2r/pppp1ppp/2n2n2/b7/2BpP3/2P2N2/P4PPP/RNBQ1RK1 w kq - 2 8"];
+const fenFrenchDefenseWinawerVariationFingerslipVariationKuninDoubleGambit_C15 = ["rnb1k1nr/ppp2ppp/4p3/8/1b1qp1Q1/2N5/PPPB1PPP/R3KBNR w KQkq - 0 6"];
+const fenPhilidorDefenseAlbinBlackburneGambit_C41 = ["r2qkbnr/pppn1ppp/3p4/4P3/4P1b1/5N2/PPP2PPP/RNBQKB1R w KQkq - 1 5"];
+const fenPhilidorDefenseMorphyGambit_C41 = ["rnbqkbnr/ppp2ppp/3p4/8/2BpP3/5N2/PPP2PPP/RNBQK2R b KQkq - 1 4"];
+const fenLionDefenseAntiPhilidor_B07 = ["r1bqkb1r/pppnpppp/3p1n2/8/3PPP2/2N5/PPP3PP/R1BQKBNR b KQkq - 0 4"];
+const fenKingsGambitDeclinedMilesDefense_C30 = ["r1bqkbnr/pppp2pp/2n5/4pp2/4PP2/5N2/PPPP2PP/RNBQKB1R w KQkq - 0 4"];
+const fenKingsIndianDefenseAverbakhVariationModernDefenseBurgessLine_E73 = ["r1bq1rk1/pp2ppbp/n1pp1np1/6B1/2PPP3/2N5/PP1QBPPP/R3K1NR w KQ - 0 8"];
+const fenSemiSlavDefenseMeranVariationWadeVariationKaidanovGambit_D47 = ["r2qkb1r/pb1n1ppp/4p3/3nP3/Np1N4/3B4/PP3PPP/R1BQ1RK1 b kq - 0 13"];
+const fenTrompowskyAttackBorgVariation_A45 = ["rnbqkb1r/pppppp1p/8/6p1/3PnB2/8/PPP1PPPP/RN1QKBNR w KQkq - 0 4"];
+const fenRussianGameModernAttackTrifunovicVariation_C43 = ["rnbq1rk1/ppp2ppp/8/3pb3/2PPn3/3B4/PP3PPP/RNBQ1RK1 w - - 0 8"];
+const fenQueensGambitAcceptedAlekhineDefenseBorisenkoFurmanVariation_D21 = ["rnbqkbnr/1pp1pppp/p7/8/2pPP3/5N2/PP3PPP/RNBQKB1R b KQkq - 0 4"];
+const fenPolishDefenseSpasskyGambitAccepted_A40 = ["rn1qkbnr/pbpppppp/8/1B6/3PP3/8/PPP2PPP/RNBQK1NR b KQkq - 0 3"];
+const fenEnglishOpeningSymmetricalVariationDoubleFianchetto_A38 = ["r1bq1rk1/pp1pppbp/2n2np1/2p5/2P5/1PN2NP1/P2PPPBP/R1BQ1RK1 b - - 0 7"];
+const fenSemiSlavDefenseMeranVariationRabinovichVariation_D49 = ["r1bqkb1r/3n1ppp/p3p3/1N2P3/3p2n1/3B1N2/PP3PPP/R1BQK2R w KQkq - 1 12"];
+const fenSpanishGameClosedVariationsSuetinVariation_C90 = ["r1bq1rk1/2p1bppp/p1np1n2/1p2p3/4P3/PBP2N2/1P1P1PPP/RNBQR1K1 b - - 0 9"];
+const fenBlackmarDiemerGambitZieglerDefense_D00 = ["rnbqkb1r/pp2pppp/2p2n2/8/3P4/2N2N2/PPP3PP/R1BQKB1R w KQkq - 0 6"];
+const fenItalianGameClassicalVariation_C53 = ["r1bqk2r/pppp1ppp/2n2n2/2b1p3/2B1P3/2P2N2/PP1P1PPP/RNBQK2R w KQkq - 1 5"];
+const fenVanGeetOpeningReversedNimzowitsch_A00 = ["rnbqkbnr/pppp1ppp/8/4p3/8/2N5/PPPPPPPP/R1BQKBNR w KQkq - 0 2"];
+const fenItalianGameRosentreterGambit_C50 = ["r1bqk1nr/pppp1ppp/2n5/2b1p3/2BPP3/5N2/PPP2PPP/RNBQK2R b KQkq - 0 4"];
+const fenSicilianDefenseBoleslavskyVariationLoumaVariation_B58 = ["r1bqkb1r/pp3ppp/2Np1n2/4p3/4P3/2N5/PPP1BPPP/R1BQK2R b KQkq - 0 7"];
+const fenKingsGambitAcceptedHansteinGambit_C38 = ["rnbqk1nr/pppp1pbp/8/6p1/2B1Pp2/5N2/PPPP2PP/RNBQ1RK1 b kq - 3 5"];
+const fenCarrDefenseGeneral_B00 = ["rnbqkbnr/ppppppp1/7p/8/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2"];
+const fenKingsGambitAcceptedBishopsGambitCozioVariation_C33 = ["rnb1kbnr/ppp2ppp/3p4/8/2B1Pp1q/8/PPPP2PP/RNBQ1KNR w kq - 0 5"];
+const fenViennaGameMengariniVariation_C26 = ["rnbqkb1r/pppp1ppp/5n2/4p3/4P3/P1N5/1PPP1PPP/R1BQKBNR b KQkq - 0 3"];
+const fenSemiSlavDefenseAntiNoteboomStonewallVariationPortischGambit_D31 = ["rnbqkbnr/pp4pp/2p1p3/3p1p2/2PP2P1/2N1P3/PP3P1P/R1BQKBNR b KQkq - 0 5"];
+const fenWareDefenseGeneral_B00 = ["rnbqkbnr/1ppppppp/8/p7/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2"];
+const fenPolishOpeningTartakowerGambit_A00 = ["rnbqkbnr/pppp2pp/5p2/4p3/1P2P3/8/PBPP1PPP/RN1QKBNR b KQkq - 0 3"];
+const fenBenoniDefenseBenoniGambitSchlenkerDefense_A43 = ["r1bqkbnr/pp1ppppp/n7/2P5/8/8/PPP1PPPP/RNBQKBNR w KQkq - 1 3"];
+const fenEnglundGambitComplexStockholmVariation_A40 = ["r1b1kbnr/ppppqppp/2n5/3QP3/8/5N2/PPP1PPPP/RNB1KB1R b KQkq - 4 4"];
+const fenPterodactylDefenseSicilianRhamporhynchus_B06 = ["rnb1k1nr/pp1pppbp/6p1/q1P5/4P3/2N2N2/PPP2PPP/R1BQKB1R b KQkq - 0 5"];
+const fenKingsGambitAcceptedBishopsGambitMaurianDefense_C33 = ["r1bqkbnr/pppp1ppp/2n5/8/2B1Pp2/8/PPPP2PP/RNBQK1NR w KQkq - 2 4"];
+const fenItalianGameRousseauGambit_C50 = ["r1bqkbnr/pppp2pp/2n5/4pp2/2B1P3/5N2/PPPP1PPP/RNBQK2R w KQkq - 0 4"];
+const fenGoldsmithDefenseGeneral_B00 = ["rnbqkbnr/ppppppp1/8/7p/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2"];
+const fenFrenchDefenseClassicalVariationRichterAttack_2_C13 = ["rnbqk2r/ppp1bppp/4p3/3pP3/3P2Q1/2N5/PPP2PPP/R3KBNR b KQkq - 2 7"];
+const fenCatalanOpeningClosedVariationRabinovichVariation_E09 = ["r1bq1rk1/p2nbppp/2p1pn2/1p1p4/2PP4/5NP1/PPQNPPBP/R1B2RK1 w - - 0 9"];
+const fenOldIndianCzechVariationwNf3_A53 = ["rnbqkb1r/pp2pppp/2pp1n2/8/2PP4/5N2/PP2PPPP/RNBQKB1R w KQkq - 0 4"];
+const fenModernDefenseNorwegianDefenseNorwegianGambit_B06 = ["rnbqkb1r/ppp1pp1p/3p2p1/4P2n/3P4/8/PPP1BPPP/RNBQK1NR w KQkq - 0 5"];
+const fenFrenchDefenseSteinitzVariationGledhillAttack_C11 = ["rnbqkb1r/pppn1ppp/4p3/3pP3/3P2Q1/2N5/PPP2PPP/R1B1KBNR b KQkq - 2 5"];
+const fenSpanishGameBerlinDefenseRosenthalVariation_C67 = ["r1bqkb1r/1ppp1ppp/p1n5/1B2p3/3Pn3/5N2/PPP2PPP/RNBQ1RK1 w kq - 0 6"];
+const fenAlekhineDefenseModernVariationAlekhineGambit_B04 = ["rn1qkb1r/ppp1pppp/1n1p4/4P3/2PP2b1/5N2/PP2BPPP/RNBQK2R b KQkq - 2 6"];
+const fenSemiSlavDefenseBotvinnikSystemAlatortsevSystem_D44 = ["rnbqkb1r/p4p2/2p1p2p/1p1nP1N1/2pP3B/2N5/PP3PPP/R2QKB1R w KQkq - 1 10"];
+const fenTarraschDefenseRubinsteinSystem_D33 = ["r1bqkbnr/pp3ppp/2n5/2pp4/3P4/2N2NP1/PP2PP1P/R1BQKB1R b KQkq - 0 6"];
+const fenIndianGameGibbinsWiedehagenGambitAccepted_A45 = ["rnbqkb1r/pppppppp/8/8/3P2n1/8/PPP1PP1P/RNBQKBNR w KQkq - 0 3"];
+const fenNimzowitschDefenseLeanVariation_B00 = ["r1bqkbnr/ppppp1pp/2n5/5p2/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq - 0 3"];
+const fenModernDefenseMongredienDefense_1_B06 = ["rnbqk1nr/p1ppppbp/1p4p1/8/3PP3/2N5/PPP2PPP/R1BQKBNR w KQkq - 0 4"];
+const fenSicilianDefensePaulsenVariationBastrikovVariationEnglishAttack_B49 = ["r1b1kbnr/1pqp1ppp/p1n1p3/8/3NP3/2N1BP2/PPP3PP/R2QKB1R b KQkq - 0 7"];
+const fenBlackmarDiemerGambitTartakowerVariation_D00 = ["rn1qkb1r/ppp1pppp/5n2/5b2/3P4/2N2N2/PPP3PP/R1BQKB1R w KQkq - 1 6"];
+const fenViennaGameStanleyVariationAlekhineVariation_C27 = ["r1bqk2r/ppppbppp/2nn4/4N2Q/8/1BN5/PPPP1PPP/R1B1K2R b KQkq - 0 7"];
+const fenNimzowitschDefenseScandinavianVariationBogoljubowVariationHeinolaDeppeGambit_B00 = ["r1bqkbnr/ppp2ppp/2n5/3pp3/3PP3/2N5/PPP2PPP/R1BQKBNR w KQkq - 0 4"];
+const fenItalianGameHungarianDefenseTartakowerVariation_C50 = ["r1bqk2r/ppppbppp/2n5/4P3/2Bpn3/2P2N2/PP3PPP/RNBQK2R w KQkq - 1 7"];
+const fenNeoGruenfeldDefenseGeneral_D70 = ["rnbqkb1r/ppp1pp1p/5np1/3p4/2PP4/6P1/PP2PP1P/RNBQKBNR w KQkq - 0 4"];
+const fenGruenfeldDefenseFlohrDefense_D94 = ["rn1q1rk1/pp2ppbp/2p2np1/3p1b2/2PP4/2NBPN2/PP3PPP/R1BQ1RK1 w - - 2 8"];
+const fenDutchDefenseNimzoDutchVariationAlekhineVariation_A90 = ["rnbqk2r/ppppb1pp/4pn2/5p2/2PP4/6P1/PP1BPPBP/RN1QK1NR w KQkq - 4 6"];
+const fenSpanishGameMarshallAttackRe3variation_C89 = ["r1bq1rk1/5ppp/p2b4/1p1p4/3P4/2P1R3/PP3PPP/RNBQ2K1 b - - 2 14"];
+const fenPortugueseOpeningGeneral_C20 = ["rnbqkbnr/pppp1ppp/8/1B2p3/4P3/8/PPPP1PPP/RNBQK1NR b KQkq - 1 2"];
+const fenPterodactylDefenseFianchettoQueenPteronodon_A40 = ["rnb1k1nr/pp1ppp1p/6p1/q1pP4/2P5/2P5/P3PPPP/R1BQKBNR w KQkq - 1 6"];
+const fenSodiumAttackGeneral_A00 = ["rnbqkbnr/pppppppp/8/8/8/N7/PPPPPPPP/R1BQKBNR b KQkq - 1 1"];
+const fenSicilianDefenseAlapinVariationBarmenDefenseMilnerBarryAttack_B22 = ["r1b1k1nr/pp3ppp/2n5/3qp3/1b1P4/2N2N2/PP2BPPP/R1BQK2R b KQkq - 3 8"];
+const fenCaroKannDefensePanovAttackGunderamAttack_B13 = ["rnbqkb1r/pp2pppp/5n2/2Pp4/3P4/8/PP3PPP/RNBQKBNR b KQkq - 0 5"];
+const fenQueensIndianDefenseKasparovVariationBotvinnikAttack_E12 = ["rn1qkb1r/pbpp1p2/1p2p2p/6pn/2PP4/2N2NB1/PP2PPPP/R2QKB1R w KQkq - 2 8"];
+const fenFrenchDefenseTarraschVariationOpenSystemAdvanceLine_C08 = ["rnbqkbnr/pp3ppp/8/3p4/2pP4/5N2/PPPN1PPP/R1BQKB1R w KQkq - 0 6"];
+const fenSpanishGameExchangeVariationAlekhineVariation_C68 = ["r1b1k1nr/1pp2ppp/p1pb4/8/3NP3/8/PPP2PPP/RNB1K2R w KQkq - 1 8"];
+const fenFrenchDefenseWinawerVariationAdvanceVariation_2_C17 = ["rnbqk1nr/pp3ppp/4p3/2ppP3/1b1P4/P1N5/1PP2PPP/R1BQKBNR b KQkq - 0 5"];
+const fenItalianGameEvansGambitSlowVariation_C52 = ["r1bqk1nr/pppp1ppp/2n5/b3p3/2B1P3/2P2N2/P2P1PPP/RNBQ1RK1 b kq - 2 6"];
+const fenPhilidorDefensePhilidorCountergambit_C41 = ["rnbqkbnr/ppp3pp/3p4/4pp2/3PP3/5N2/PPP2PPP/RNBQKB1R w KQkq - 0 4"];
+const fenItalianGameScotchGambitMaxLangeAttackSpielmannDefense_C56 = ["r1bqk2r/pppp1ppp/2n5/2b1P3/2Bp2n1/5N2/PPP2PPP/RNBQ1RK1 w kq - 1 7"];
+const fenPircDefenseAustrianAttackLjubojevicVariation_B09 = ["rnbqk2r/ppp1ppbp/3p1np1/8/2BPPP2/2N5/PPP3PP/R1BQK1NR b KQkq - 2 5"];
+const fenKingsGambitFalkbeerCountergambitBlackburneAttack_C31 = ["rnbqkbnr/ppp2ppp/8/3pp3/4PP2/5N2/PPPP2PP/RNBQKB1R b KQkq - 1 3"];
+const fenNimzoIndianDefenseNormalVariationGligoricSystemSmyslovVariation_E54 = ["rnb2rk1/pp2qppp/4pn2/2p5/1bBP4/2N1PN2/PP3PPP/R1BQ1RK1 w - - 1 9"];
+const fenFourKnightsGameDoubleSpanishMiscwith5OO_C49 = ["r1bq1rk1/pppp1ppp/2n2n2/1B2p3/1b2P3/2NP1N2/PPP2PPP/R1BQ1RK1 b - - 0 6"];
+const fenBlackmarDiemerGambitGeneral_D00 = ["rnbqkbnr/ppp1pppp/8/3p4/3PP3/8/PPP2PPP/RNBQKBNR b KQkq - 0 2"];
+const fenSemiSlavDefenseMeranVariationSozinVariationII_D49 = ["r1bqkb1r/5ppp/p3pn2/1N2n3/3p4/3B1N2/PP3PPP/R1BQK2R w KQkq - 0 12"];
+const fenEnglishOpeningKingsEnglishVariationFourKnightsVariation_A28 = ["r1bqk2r/pppp1pp1/5n1p/4n3/2PN3B/2P5/P3PPPP/R2QKB1R w KQkq - 1 9"];
+const fenKingsGambitAcceptedTraditionalVariation_C38 = ["rnbqk1nr/pppp1pbp/8/6p1/2B1Pp2/5N2/PPPP2PP/RNBQK2R w KQkq - 2 5"];
+const fenPonzianiOpeningVukovicGambit_C44 = ["r1bqk2r/pppp1ppp/2n5/2bPp3/4n3/2P2N2/PP3PPP/RNBQKB1R w KQkq - 1 6"];
+const fenKingsIndianDefenseFourPawnsAttackFluidAttack_E78 = ["rnbq1rk1/pp2ppbp/3p1np1/2p5/2PPPP2/2N2N2/PP2B1PP/R1BQK2R b KQ - 1 7"];
+const fenSpanishGameMorphyDefenseBreyerDefense_C94 = ["rnbq1rk1/2p1bppp/p2p1n2/1p2p3/4P3/1BP2N1P/PP1P1PP1/RNBQR1K1 w - - 1 10"];
+const fenKingsGambitFalkbeerCountergambitAccepted_C31 = ["rnbqkbnr/ppp2ppp/8/3Pp3/5P2/8/PPPP2PP/RNBQKBNR b KQkq - 0 3"];
+const fenDurasGambitGeneral_B00 = ["rnbqkbnr/ppppp1pp/8/5p2/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2"];
+const fenSpanishGameBerlinDefenseClosedShowalterVariation_C66 = ["r2qk2r/pppbbppp/2Bp1n2/4p3/3PP3/2N2N2/PPP2PPP/R1BQ1RK1 b kq - 0 7"];
+const fenSicilianDefenseQuinterosVariation_B27 = ["rnb1kbnr/ppqppppp/8/2p5/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq - 2 3"];
+const fenKingsGambitDeclinedPetrovsDefense_C30 = ["rnbqkb1r/pppp1ppp/5n2/4p3/4PP2/8/PPPP2PP/RNBQKBNR w KQkq - 1 3"];
+const fenGruenfeldDefenseCounterthrustVariation_E60 = ["rnbqk2r/ppp1ppbp/5np1/3p4/2PP4/6P1/PP2PPBP/RNBQK1NR w KQkq - 0 5"];
+const fenSemiSlavDefenseStonewallDefense_D45 = ["rnbqkb1r/pp4pp/2p1p3/3p1p2/2PPn3/2NBPN2/PP3PPP/R1BQK2R w KQkq - 0 7"];
+const fenModernDefenseAverbakhSystemRandspringerVariation_A42 = ["rnbqk1nr/ppp1p1bp/3p2p1/5p2/2PPP3/2N5/PP3PPP/R1BQKBNR w KQkq - 0 5"];
+const fenItalianGameScotchGambitCanalVariation_C56 = ["r1bqkb1r/ppp2ppp/2n5/3p4/2Bpn3/2N2N2/PPP2PPP/R1BQR1K1 b kq - 1 7"];
+const fenNimzoLarsenAttackSpikeVariation_A01 = ["rnbqkb1r/pppppp1p/5np1/8/6P1/1P6/PBPPPP1P/RN1QKBNR b KQkq - 0 3"];
+const fenSicilianDefenseAlapinVariationBarmenDefenseEndgameVariation_B22 = ["r3kbnr/pp2pppp/8/8/3n4/2N2P2/PP3P1P/R1B1KB1R w KQkq - 0 10"];
+const fenNimzowitschDefenseKennedyVariationMainLine_B00 = ["r1bqkbnr/pppp1ppp/6n1/8/4PP2/8/PPP3PP/RNBQKBNR w KQkq - 1 5"];
+const fenQueensGambitRefusedBalticDefenseQueenAttack_D02 = ["rn1qkbnr/ppp1pppp/8/3p1b2/2PP4/1Q6/PP2PPPP/RNB1KBNR b KQkq - 2 3"];
+const fenCaroKannDefenseHillbillyAttackSchaefferGambit_B10 = ["rnbqkbnr/pp2pppp/2p5/7Q/4p3/1B6/PPPP1PPP/RNB1K1NR b KQkq - 1 4"];
+const fenSemiSlavDefenseMeranVariationOldVariation_D48 = ["r1bqkb1r/3n1ppp/p3pn2/1pp1P3/3P4/2NB1N2/PP3PPP/R1BQK2R b KQkq - 0 10"];
+const fenFrenchDefenseMacCutcheonVariationTartakowerVariation_C12 = ["rnbqk2r/pppn1pp1/4p2p/3pP3/1b1P4/2N5/PPPB1PPP/R2QKBNR w KQkq - 2 7"];
+const fenPonzianiOpeningPonzianiCountergambit_C44 = ["r1bqkbnr/pppp2pp/2n5/4pp2/4P3/2P2N2/PP1P1PPP/RNBQKB1R w KQkq - 0 4"];
+const fenKingsKnightOpeningGeneral_C40 = ["rnbqkbnr/pppp1ppp/8/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R b KQkq - 1 2"];
+const fenEnglishOpeningAngloIndianDefenseGruenfeldFormation_A15 = ["rnbqkb1r/ppp1pp1p/5np1/3p4/2P5/5NP1/PP1PPP1P/RNBQKB1R w KQkq - 0 4"];
+const fenQueensIndianDefenseKasparovPetrosianVariationRashkovskyAttack_E12 = ["rn1qkb1r/pbp2ppp/1p2p3/3n4/Q2P4/P1N2N2/1P2PPPP/R1B1KB1R b KQkq - 1 7"];
+const fenVanGeetOpeningBattambangVariation_A00 = ["rnbqkbnr/pppp1ppp/8/4p3/8/P1N5/1PPPPPPP/R1BQKBNR b KQkq - 0 2"];
+const fenScotchGameGoringGambitBardelebenVariation_C44 = ["r1bqk2r/pppp1ppp/2n2n2/8/1bB1P3/2N2N2/PP3PPP/R1BQK2R w KQkq - 3 7"];
+const fenKingPawnGameDresdenOpening_C44 = ["r1bqkbnr/pppp1ppp/2n5/4p3/2P1P3/5N2/PP1P1PPP/RNBQKB1R b KQkq - 0 3"];
+const fenQueensGambitDeclinedBeenKoomenVariation_D50 = ["rnbqkb1r/pp3ppp/4pn2/2pp2B1/2PP4/2N5/PP2PPPP/R2QKBNR w KQkq - 0 5"];
+const fenSlavDefenseCzechVariationLaskerVariation_D18 = ["r2qkb1r/pp2pppp/n1p2n2/5b2/P1pP4/2N1PN2/1P3PPP/R1BQKB1R w KQkq - 1 7"];
+const fenTarraschDefenseWagnerVariation_D33 = ["r2qkb1r/pp3ppp/2n2n2/2pp4/3P2b1/2N2NP1/PP2PPBP/R1BQK2R w KQkq - 3 8"];
+const fenIndianGameKnightsVariationAlburtMilesVariation_A46 = ["rnbqkb1r/1ppppppp/p4n2/8/3P4/5N2/PPP1PPPP/RNBQKB1R w KQkq - 0 3"];
+const fenQueensGambitDeclinedSemmeringVariation_D30 = ["r1bqkb1r/pp1n1ppp/4pn2/2pp4/2PP4/3BPN2/PP1N1PPP/R1BQK2R w KQkq - 0 7"];
+const fenScotchGameScotchGambitCochraneAnderssenVariation_C44 = ["r2qk1nr/ppp2ppp/2np4/2b5/2BpP1b1/2P2N2/PP3PPP/RNBQ1RK1 w kq - 1 7"];
+const fenBorgDefenseTroonGambit_B00 = ["rnbqkbnr/pppppp2/7p/8/3PP1pP/8/PPP2PP1/RNBQKBNR w KQkq - 0 4"];
+const fenZukertortOpeningWadeTartakowerDefense_A04 = ["rn1qkbnr/ppp1pppp/3p4/8/4P1b1/5N2/PPPP1PPP/RNBQKB1R w KQkq - 1 3"];
+const fenItalianGameScotchGambitAnderssenAttackMainLine_C56 = ["r3kb1r/ppp2ppp/2n1b3/3q2B1/3pN3/5N2/PPP2PPP/R2QR1K1 b kq - 4 11"];
+const fenFourKnightsGameSpanishVariationSymmetricalVariation_4_C49 = ["r2n1rk1/ppp1qppp/3p1n2/1B2p1B1/3PP1b1/2P2N2/P1P2PPP/R2QR1K1 w - - 1 11"];
+const fenBirdOpeningSchlechterGambit_A02 = ["r1bqkbnr/pppp1ppp/2n5/4P3/8/8/PPPPP1PP/RNBQKBNR w KQkq - 1 3"];
+const fenItalianGameTwoKnightsDefense_2_C55 = ["r1bqkb1r/pppp1ppp/2n5/4p3/2BPn3/5N2/PPP2PPP/RNBQK2R w KQkq - 0 5"];
+const fenBlackmarDiemerGambitRyderGambit_D00 = ["rnbqkb1r/ppp1pppp/5n2/8/3P4/2N2Q2/PPP3PP/R1B1KBNR b KQkq - 0 5"];
+const fenBlackmarDiemerGambitNetherlandsVariation_D00 = ["rnbqkbnr/ppp1p1pp/8/5p2/3Pp3/2N5/PPP2PPP/R1BQKBNR w KQkq - 0 4"];
+const fenFrenchDefenseDiemerDuhmGambit_C00 = ["rnbqkbnr/ppp2ppp/4p3/8/2PPp3/8/PP3PPP/RNBQKBNR w KQkq - 0 4"];
+const fenPhilidorDefensePhilidorCountergambitZukertortVariation_C41 = ["rnbqkbnr/ppp3pp/3p4/4pp2/3PP3/2N2N2/PPP2PPP/R1BQKB1R b KQkq - 1 4"];
+const fenKingsGambitAcceptedGrecoGambit_C38 = ["rnbqk1nr/ppp2pb1/3p3p/6p1/2BPPp1P/5N2/PPP3P1/RNBQK2R w KQkq - 0 7"];
+const fenHungarianOpeningReversedAlekhine_A00 = ["rnbqkbnr/pppp1ppp/8/4p3/8/5NP1/PPPPPP1P/RNBQKB1R b KQkq - 1 2"];
+const fenZukertortOpeningHerrstromGambit_A04 = ["rnbqkbnr/pppppp1p/8/6p1/8/5N2/PPPPPPPP/RNBQKB1R w KQkq - 0 2"];
+const fenBenoniDefenseWoozle_A43 = ["rnb1kb1r/pp1ppppp/5n2/q1pP4/8/2N5/PPP1PPPP/R1BQKBNR w KQkq - 3 4"];
+const fenItalianGameScotchGambit_C55 = ["r1bqkb1r/pppp1ppp/2n2n2/8/2BpP3/5N2/PPP2PPP/RNBQ1RK1 b kq - 1 5"];
+const fenCreepyCrawlyFormationClassicalDefense_A00 = ["rnbqkbnr/ppp2ppp/8/3pp3/8/P6P/1PPPPPP1/RNBQKBNR w KQkq - 0 3"];
+const fenItalianGameTwoKnightsDefensePolerioDefense_C57 = ["r1bqkb1r/ppp2ppp/5n2/n2Pp1N1/2B5/8/PPPP1PPP/RNBQK2R w KQkq - 1 6"];
+const fenEnglishOpeningAngloScandinavianDefenseMalvinasVariation_A10 = ["rnb1kbnr/ppp1pppp/8/q7/8/2N5/PP1PPPPP/R1BQKBNR w KQkq - 2 4"];
+const fenSicilianDefenseClassicalVariationDragonTransfer_B58 = ["r1bqkb1r/pp2pp1p/3p1np1/8/3QP3/2N5/PPP1BPPP/R1B1K2R w KQkq - 0 8"];
+const fenRubinsteinOpeningSemiSlavDefense_D05 = ["r1bq1rk1/pppn1ppp/3bpn2/3p4/3P4/1P1BPN2/PBP2PPP/RN1Q1RK1 b - - 2 7"];
+const fenCaroKannDefenseBreyerVariationSteinAttack_B10 = ["rnbq1rk1/pp2npbp/2p3p1/3pp3/1P2P3/3P1NP1/P1PN1PBP/R1BQ1RK1 b - - 0 8"];
+const fenQueenPawnGameTorreAttackBreyerVariation_D03 = ["rnb1kb1r/pp3ppp/1q2pn2/2pp2B1/3P4/2P1PN2/PP3PPP/RN1QKB1R w KQkq - 1 6"];
+const fenModernDefensePterodactylVariation_B06 = ["rnb1k1nr/pp1pppbp/6p1/q1p5/3PP3/2N2N2/PPP2PPP/R1BQKB1R w KQkq - 2 5"];
+const fenNimzowitschDefenseKennedyVariationRiemannDefense_B00 = ["r1bqkbnr/pppp1ppp/2n5/8/4PP2/8/PPP3PP/RNBQKBNR w KQkq - 1 5"];
+const fenViennaGameViennaGambitKaufmannVariation_C29 = ["rn1qkb1r/ppp2ppp/8/3pP3/4n1b1/2N2N2/PPPPQ1PP/R1B1KB1R b KQkq - 3 6"];
+const fenQueensIndianDefenseMarienbadSystemBergVariation_A47 = ["rn1qkb1r/pb1ppppp/1p3n2/8/2PQ4/5NP1/PP2PPBP/RNB1K2R b KQkq - 0 6"];
+const fenEnglundGambitComplexDeclined_A40 = ["rnbqkbnr/pppp1ppp/8/3Pp3/8/8/PPP1PPPP/RNBQKBNR b KQkq - 0 2"];
+const fenSpanishGameSteinitzDefenseNimzowitschAttack_C62 = ["r2qkb1r/pppb1ppp/2Bp1n2/4p3/3PP3/2N2N2/PPP2PPP/R1BQK2R b KQkq - 0 6"];
+const fenModernDefenseMongredienDefense_2_B06 = ["rnbqk1nr/p1ppppbp/1p4p1/8/3PP3/5N2/PPP2PPP/RNBQKB1R w KQkq - 0 4"];
+const fenEnglishOpeningKingsEnglishVariationKeresDefense_A21 = ["rnbqkbnr/pp3ppp/2pp4/4p3/2P5/2N3P1/PP1PPP1P/R1BQKBNR w KQkq - 0 4"];
+const fenSpanishGameOpenVariationsMalkinVariation_C83 = ["r2q1rk1/2p1bppp/p1n1b3/1p1pP3/4n3/1BP2N2/PP1NQPPP/R1B2RK1 b - - 4 11"];
+const fenCaroKannDefenseAlekhineGambit_B15 = ["rnbqkb1r/pp2pppp/2p2n2/8/3PN3/3B4/PPP2PPP/R1BQK1NR b KQkq - 2 5"];
+const fenVanGeetOpeningMyersAttack_A00 = ["rnbqkbnr/pppppp1p/6p1/8/7P/2N5/PPPPPPP1/R1BQKBNR b KQkq - 0 2"];
+const fenSicilianDefenseSpielmannVariation_B56 = ["r1bqkb1r/pp2pppp/2np1n2/8/4P3/2N5/PPP1NPPP/R1BQKB1R b KQkq - 4 6"];
+const fenAlekhineDefenseSteinerVariation_B02 = ["rnbqkb1r/pppppppp/1n6/4P3/2P5/1P6/P2P1PPP/RNBQKBNR b KQkq - 0 4"];
+const fenSicilianDefenseHyperacceleratedPterodactylExchangeVariation_B27 = ["rnb1k1nr/pp1ppp1p/6p1/2P5/4P3/2q2N2/P1P2PPP/R1BQKB1R w KQkq - 0 7"];
+const fenItalianGameTwoKnightsDefenseKnightAttack_C57 = ["r1bqkb1r/pppp1ppp/2n2n2/4p1N1/2B1P3/8/PPPP1PPP/RNBQK2R b KQkq - 5 4"];
+const fenPolishOpeningBugayevAdvanceVariation_A00 = ["rnbqkbnr/pppp2pp/5p2/1P2p3/8/8/PBPPPPPP/RN1QKBNR b KQkq - 0 3"];
+const fenFrenchDefenseWinawerVariationAdvanceVariation_3_C17 = ["rnbqk1nr/pp3ppp/4p3/3pP3/1P6/2p2N2/1PP2PPP/R1BQKB1R b KQkq - 1 7"];
+const fenKingsIndianDefenseOrthodoxVariationUkranianDefense_E94 = ["rnbq1rk1/1pp2pbp/3p1np1/p3p3/2PPP3/2N2N2/PP2BPPP/R1BQ1RK1 w - - 0 8"];
+const fenGrobOpeningSpikeHurstAttack_A00 = ["rnbqkbnr/ppp2ppp/8/3pp3/2P3P1/8/PP1PPPBP/RNBQK1NR b KQkq - 0 3"];
+const fenBlackmarDiemerGambitDeclinedOKellyDefense_D00 = ["rnbqkb1r/pp2pppp/2p2n2/8/3Pp3/2N2P2/PPP3PP/R1BQKBNR w KQkq - 0 5"];
+const fenQueensGambitRefusedChigorinDefenseMainLineAlekhineVariation_D07 = ["r2qkbnr/ppp1pppp/2n5/3p4/Q1PP2b1/5N2/PP2PPPP/RNB1KB1R b KQkq - 4 4"];
+const fenKingsGambitAcceptedKieseritskyGambitRubinsteinVariation_C39 = ["rnbqkb1r/pppp1p1p/5n2/4N3/3PPppP/8/PPP3P1/RNBQKB1R b KQkq - 0 6"];
+const fenEnglishOpeningAngloScandinavianDefenseSchulzGambit_A10 = ["rnbqkb1r/ppp1pppp/5n2/3P4/8/8/PP1PPPPP/RNBQKBNR w KQkq - 1 3"];
+const fenPonzianiOpeningSpanishVariation_C44 = ["r1bqkbnr/ppp2ppp/2n5/1B1pp3/4P3/2P2N2/PP1P1PPP/RNBQK2R b KQkq - 1 4"];
+const fenBlackmarDiemerGambitBogoljubowVariationStudierAttack_D00 = ["rnbq1rk1/ppp1ppbp/5np1/8/2BP4/2N2N2/PPP3PP/R1B1QRK1 b - - 5 8"];
+const fenScotchGameLolliVariation_C44 = ["r1bqkbnr/pppp1ppp/8/4p3/3nP3/5N2/PPP2PPP/RNBQKB1R w KQkq - 0 4"];
+const fenSpanishGameOpenVariationsKarpovGambit_C80 = ["r2qkb1r/2p2ppp/p1n1b3/1pn1P1N1/3p4/1BP5/PP1N1PPP/R1BQ1RK1 b kq - 1 11"];
+const fenGruenfeldDefenseExchangeVariationLarsenVariation_D86 = ["rnb2rk1/pppqppbp/6p1/8/2BPP3/2P5/P3NPPP/R1BQK2R w KQ - 5 9"];
+const fenQueenPawnOpeningVeresovOpeningRichterAttack_D00 = ["rnbqkb1r/ppp1pppp/5n2/3p4/3P4/2N2P2/PPP1P1PP/R1BQKBNR b KQkq - 0 3"];
+const fenItalianGameEvansGambitBronsteinDefense_C51 = ["r1bqk1nr/ppp2ppp/2np4/b3p3/2BPP3/2P2N2/P4PPP/RNBQK2R w KQkq - 0 7"];
+const fenItalianGameTwoKnightsDefenseLolliAttack_C57 = ["r1bqkb1r/ppp2ppp/2n5/3np1N1/2BP4/8/PPP2PPP/RNBQK2R b KQkq - 0 6"];
+const fenIndianGameAntiGrunfeldAlekhineVariationLekoGambit_D70 = ["rnbqkb1r/pppp1p1p/5np1/4p3/2PP4/5P2/PP2P1PP/RNBQKBNR w KQkq - 0 4"];
+const fenScotchGameRelfssonGambit_C44 = ["r1bqkbnr/pppp1ppp/2n5/1B6/3pP3/5N2/PPP2PPP/RNBQK2R b KQkq - 1 4"];
+const fenNimzowitschDefensePseudoSpanishVariation_B00 = ["r1bqkbnr/pppppppp/2n5/1B6/4P3/8/PPPP1PPP/RNBQK1NR b KQkq - 2 2"];
+const fenFrenchDefenseMainLine_C00 = ["rnbqkbnr/ppp2ppp/4p3/3p4/3PP3/8/PPP2PPP/RNBQKBNR w KQkq - 0 3"];
+const fenSicilianDefensePinVariationJaffeVariation_B40 = ["rnbqk2r/pp1p1ppp/5n2/4p3/1b1NP3/2NB4/PPP2PPP/R1BQK2R w KQkq - 0 7"];
+const fenBudapestDefenseFajarowiczSteinerVariation_A51 = ["rnbqkb1r/pppp1ppp/8/4P3/2P1n3/8/PPQ1PPPP/RNB1KBNR b KQkq - 2 4"];
+const fenVanGeetOpeningBerlinGambit_A00 = ["r1bqkbnr/ppp1pppp/2n5/3P4/4p3/2N5/PPP2PPP/R1BQKBNR b KQkq - 0 4"];
+const fenVanGeetOpeningNovosibirskVariation_A00 = ["r1bqkbnr/pp1ppppp/2n5/8/7Q/2N5/PPP1PPPP/R1B1KBNR b KQkq - 2 4"];
+const fenTorreAttackWagnerGambit_A46 = ["rnbqkb1r/pp1p1ppp/4pn2/2p3B1/3PP3/5N2/PPP2PPP/RN1QKB1R b KQkq - 0 4"];
+const fenQueensGambitGeneral_D06 = ["rnbqkbnr/ppp1pppp/8/3p4/2PP4/8/PP2PPPP/RNBQKBNR b KQkq - 0 2"];
+const fenItalianGameScotchGambitDoubleGambitAccepted_C56 = ["r1bqkb1r/pppp1ppp/2n5/8/2Bpn3/5N2/PPP2PPP/RNBQ1RK1 w kq - 0 6"];
+const fenQueensGambitRefusedAlbinCountergambitFianchettoVariationBf5Liner_D09 = ["r2qkbnr/ppp2ppp/2n5/4Pb2/2Pp4/5NP1/PP2PP1P/RNBQKB1R w KQkq - 1 6"];
+const fenKingsGambitAcceptedKieseritskyGambitLongWhip_C39 = ["rnbqkbnr/pppp1p2/8/4N2p/4PppP/8/PPPP2P1/RNBQKB1R w KQkq - 0 6"];
+const fenNimzowitschDefenseKennedyVariationKeresAttack_B00 = ["r1bqkbnr/pppp1ppp/8/4n3/4P3/2N5/PPP2PPP/R1BQKBNR b KQkq - 1 4"];
+const fenQueenPawnGameChandlerGambit_D02 = ["rnbqkbnr/pp2pppp/8/3p4/3p4/5NP1/PPP1PPBP/RNBQK2R b KQkq - 1 4"];
+const fenBishopsOpeningUrusovGambit_C24 = ["rnbqkb1r/pppp1ppp/5n2/8/2BpP3/5N2/PPP2PPP/RNBQK2R b KQkq - 1 4"];
+const fenOldIndianDefenseJanowskiVariation_A53 = ["rn1qkb1r/ppp1pppp/3p1n2/5b2/2PP4/2N5/PP2PPPP/R1BQKBNR w KQkq - 2 4"];
+const fenTarraschDefenseVonHennigGambit_D32 = ["r2qkbnr/pp3ppp/2n1b3/3Q4/8/2N5/PP2PPPP/R1B1KBNR w KQkq - 1 8"];
+const fenItalianGameEvansGambitCompromisedDefense_C52 = ["r1bqk1nr/pppp1ppp/2n5/b7/2B1P3/2p2N2/P4PPP/RNBQ1RK1 w kq - 0 8"];
 
 const getRandomFenFromArray = (fenArrayType: FenArrayType): string => {
   let fenArray: string[];
@@ -14155,8 +15699,8 @@ const getRandomFenFromArray = (fenArrayType: FenArrayType): string => {
     case FenArrayType.SicilianDefenseKanVariationKnightVariation_B43:
       fenArray = fenSicilianDefenseKanVariationKnightVariation_B43 ;
       break;
-    case FenArrayType.QueensGambitDeclinedExchangeVariationPositionalVariation_D35:
-      fenArray = fenQueensGambitDeclinedExchangeVariationPositionalVariation_D35 ;
+    case FenArrayType.QueensGambitDeclinedExchangeVariationPositionalVariation_1_D35:
+      fenArray = fenQueensGambitDeclinedExchangeVariationPositionalVariation_1_D35 ;
       break;
     case FenArrayType.QueenPawnGameZukertortVariation_D02:
       fenArray = fenQueenPawnGameZukertortVariation_D02 ;
@@ -14416,8 +15960,8 @@ const getRandomFenFromArray = (fenArrayType: FenArrayType): string => {
     case FenArrayType.IndianGameWadeTarkatowerDefense_A46:
       fenArray = fenIndianGameWadeTarkatowerDefense_A46 ;
       break;
-    case FenArrayType.SpanishGameMorphyDefense_C78:
-      fenArray = fenSpanishGameMorphyDefense_C78 ;
+    case FenArrayType.SpanishGameMorphyDefense_1_C78:
+      fenArray = fenSpanishGameMorphyDefense_1_C78 ;
       break;
     case FenArrayType.FrenchDefenseAdvanceVariationEuweVariation_C02:
       fenArray = fenFrenchDefenseAdvanceVariationEuweVariation_C02 ;
@@ -14473,8 +16017,11 @@ const getRandomFenFromArray = (fenArrayType: FenArrayType): string => {
     case FenArrayType.KingsIndianDefenseOrthodoxVariationPositionalDefense_E94:
       fenArray = fenKingsIndianDefenseOrthodoxVariationPositionalDefense_E94 ;
       break;
-    case FenArrayType.SicilianDefenseScheveningenVariationClassicalVariation_B84:
-      fenArray = fenSicilianDefenseScheveningenVariationClassicalVariation_B84 ;
+    case FenArrayType.QueensGambitDeclinedExchangeVariationPositionalVariation_2_D35:
+      fenArray = fenQueensGambitDeclinedExchangeVariationPositionalVariation_2_D35 ;
+      break;
+    case FenArrayType.SicilianDefenseScheveningenVariationClassicalVariation_1_B84:
+      fenArray = fenSicilianDefenseScheveningenVariationClassicalVariation_1_B84 ;
       break;
     case FenArrayType.ItalianGameItalianVariation_C50:
       fenArray = fenItalianGameItalianVariation_C50 ;
@@ -14521,8 +16068,8 @@ const getRandomFenFromArray = (fenArrayType: FenArrayType): string => {
     case FenArrayType.EnglishOpeningSymmetricalVariationSymmetricalVariation_A36:
       fenArray = fenEnglishOpeningSymmetricalVariationSymmetricalVariation_A36 ;
       break;
-    case FenArrayType.ScandinavianDefenseModernVariation_B01:
-      fenArray = fenScandinavianDefenseModernVariation_B01 ;
+    case FenArrayType.ScandinavianDefenseModernVariation_1_B01:
+      fenArray = fenScandinavianDefenseModernVariation_1_B01 ;
       break;
     case FenArrayType.CaroKannDefenseTwoKnightsAttackMindenoVariationExchangeLine_B11:
       fenArray = fenCaroKannDefenseTwoKnightsAttackMindenoVariationExchangeLine_B11 ;
@@ -14602,8 +16149,8 @@ const getRandomFenFromArray = (fenArrayType: FenArrayType): string => {
     case FenArrayType.BenoniDefenseModernVariation_A56:
       fenArray = fenBenoniDefenseModernVariation_A56 ;
       break;
-    case FenArrayType.FrenchDefenseTarraschVariationClosedVariation_C05:
-      fenArray = fenFrenchDefenseTarraschVariationClosedVariation_C05 ;
+    case FenArrayType.FrenchDefenseTarraschVariationClosedVariation_1_C05:
+      fenArray = fenFrenchDefenseTarraschVariationClosedVariation_1_C05 ;
       break;
     case FenArrayType.SicilianDefenseNajdorfVariationAmsterdamVariation_B93:
       fenArray = fenSicilianDefenseNajdorfVariationAmsterdamVariation_B93 ;
@@ -14665,8 +16212,8 @@ const getRandomFenFromArray = (fenArrayType: FenArrayType): string => {
     case FenArrayType.KingsIndianAttackYugoslavVariation_A07:
       fenArray = fenKingsIndianAttackYugoslavVariation_A07 ;
       break;
-    case FenArrayType.SicilianDefenseScheveningenVariationEnglishAttack_B80:
-      fenArray = fenSicilianDefenseScheveningenVariationEnglishAttack_B80 ;
+    case FenArrayType.SicilianDefenseScheveningenVariationEnglishAttack_1_B80:
+      fenArray = fenSicilianDefenseScheveningenVariationEnglishAttack_1_B80 ;
       break;
     case FenArrayType.ModernDefensePseudoAustrianAttack_B06:
       fenArray = fenModernDefensePseudoAustrianAttack_B06 ;
@@ -14737,8 +16284,8 @@ const getRandomFenFromArray = (fenArrayType: FenArrayType): string => {
     case FenArrayType.BishopsOpeningBerlinDefense_C24:
       fenArray = fenBishopsOpeningBerlinDefense_C24 ;
       break;
-    case FenArrayType.SicilianDefenseLaskerPelikanVariationSveshnikovVariation_B33:
-      fenArray = fenSicilianDefenseLaskerPelikanVariationSveshnikovVariation_B33 ;
+    case FenArrayType.SicilianDefenseLaskerPelikanVariationSveshnikovVariation_1_B33:
+      fenArray = fenSicilianDefenseLaskerPelikanVariationSveshnikovVariation_1_B33 ;
       break;
     case FenArrayType.SicilianDefenseNajdorfVariationZagrebFianchettoVariation_B91:
       fenArray = fenSicilianDefenseNajdorfVariationZagrebFianchettoVariation_B91 ;
@@ -14779,8 +16326,8 @@ const getRandomFenFromArray = (fenArrayType: FenArrayType): string => {
     case FenArrayType.QueensGambitDeclinedTartakowerDefenseGeneral_D58:
       fenArray = fenQueensGambitDeclinedTartakowerDefenseGeneral_D58 ;
       break;
-    case FenArrayType.PhilidorDefenseExchangeVariation_C41:
-      fenArray = fenPhilidorDefenseExchangeVariation_C41 ;
+    case FenArrayType.PhilidorDefenseExchangeVariation_1_C41:
+      fenArray = fenPhilidorDefenseExchangeVariation_1_C41 ;
       break;
     case FenArrayType.QueensIndianDefenseFianchettoVariationNimzowitschVariation_E15:
       fenArray = fenQueensIndianDefenseFianchettoVariationNimzowitschVariation_E15 ;
@@ -14859,6 +16406,9 @@ const getRandomFenFromArray = (fenArrayType: FenArrayType): string => {
       break;
     case FenArrayType.BenoniDefenseBenoniIndianDefenseKingsidemoveorder_A43:
       fenArray = fenBenoniDefenseBenoniIndianDefenseKingsidemoveorder_A43 ;
+      break;
+    case FenArrayType.FrenchDefenseTarraschVariationClosedVariation_2_C05:
+      fenArray = fenFrenchDefenseTarraschVariationClosedVariation_2_C05 ;
       break;
     case FenArrayType.FrenchDefenseClassicalVariationBurnVariation_C11:
       fenArray = fenFrenchDefenseClassicalVariationBurnVariation_C11 ;
@@ -14953,8 +16503,8 @@ const getRandomFenFromArray = (fenArrayType: FenArrayType): string => {
     case FenArrayType.KingsIndianDefenseOrthodoxVariationClassicalSystemMiscLines_E98:
       fenArray = fenKingsIndianDefenseOrthodoxVariationClassicalSystemMiscLines_E98 ;
       break;
-    case FenArrayType.KingsIndianAttackSicilianVariation_A08:
-      fenArray = fenKingsIndianAttackSicilianVariation_A08 ;
+    case FenArrayType.KingsIndianAttackSicilianVariation_1_A08:
+      fenArray = fenKingsIndianAttackSicilianVariation_1_A08 ;
       break;
     case FenArrayType.KingsIndianDefenseNormalVariation_E70:
       fenArray = fenKingsIndianDefenseNormalVariation_E70 ;
@@ -15019,6 +16569,9 @@ const getRandomFenFromArray = (fenArrayType: FenArrayType): string => {
     case FenArrayType.QueensIndianDefenseSpasskySystem_E14:
       fenArray = fenQueensIndianDefenseSpasskySystem_E14 ;
       break;
+    case FenArrayType.KingsIndianAttackSicilianVariation_2_A08:
+      fenArray = fenKingsIndianAttackSicilianVariation_2_A08 ;
+      break;
     case FenArrayType.SicilianDefenseFrenchVariationNormal_B40:
       fenArray = fenSicilianDefenseFrenchVariationNormal_B40 ;
       break;
@@ -15052,8 +16605,8 @@ const getRandomFenFromArray = (fenArrayType: FenArrayType): string => {
     case FenArrayType.EnglishOpeningEnglishDefenseGeneral_A10:
       fenArray = fenEnglishOpeningEnglishDefenseGeneral_A10 ;
       break;
-    case FenArrayType.PhilidorDefenseGeneral_C41:
-      fenArray = fenPhilidorDefenseGeneral_C41 ;
+    case FenArrayType.PhilidorDefenseGeneral_1_C41:
+      fenArray = fenPhilidorDefenseGeneral_1_C41 ;
       break;
     case FenArrayType.KingsIndianDefenseOrthodoxVariation_E94:
       fenArray = fenKingsIndianDefenseOrthodoxVariation_E94 ;
@@ -15079,8 +16632,8 @@ const getRandomFenFromArray = (fenArrayType: FenArrayType): string => {
     case FenArrayType.CaroKannDefenseBronsteinLarsenVariation_B16:
       fenArray = fenCaroKannDefenseBronsteinLarsenVariation_B16 ;
       break;
-    case FenArrayType.FrenchDefenseWinawerVariationAdvanceVariation_C18:
-      fenArray = fenFrenchDefenseWinawerVariationAdvanceVariation_C18 ;
+    case FenArrayType.FrenchDefenseWinawerVariationAdvanceVariation_1_C18:
+      fenArray = fenFrenchDefenseWinawerVariationAdvanceVariation_1_C18 ;
       break;
     case FenArrayType.FrenchDefenseTarraschVariationOpenSystem_C07:
       fenArray = fenFrenchDefenseTarraschVariationOpenSystem_C07 ;
@@ -15199,8 +16752,8 @@ const getRandomFenFromArray = (fenArrayType: FenArrayType): string => {
     case FenArrayType.KingsIndianDefenseOrthodoxVariationAroninTaimanovDefense_E97:
       fenArray = fenKingsIndianDefenseOrthodoxVariationAroninTaimanovDefense_E97 ;
       break;
-    case FenArrayType.ColleSystem_D05:
-      fenArray = fenColleSystem_D05 ;
+    case FenArrayType.ColleSystem_1_D05:
+      fenArray = fenColleSystem_1_D05 ;
       break;
     case FenArrayType.MexicanDefenseGeneral_A50:
       fenArray = fenMexicanDefenseGeneral_A50 ;
@@ -15274,8 +16827,8 @@ const getRandomFenFromArray = (fenArrayType: FenArrayType): string => {
     case FenArrayType.SicilianDefenseChameleon_B20:
       fenArray = fenSicilianDefenseChameleon_B20 ;
       break;
-    case FenArrayType.SicilianDefenseDragonVariationYugoslavAttack_B77:
-      fenArray = fenSicilianDefenseDragonVariationYugoslavAttack_B77 ;
+    case FenArrayType.SicilianDefenseDragonVariationYugoslavAttack_1_B77:
+      fenArray = fenSicilianDefenseDragonVariationYugoslavAttack_1_B77 ;
       break;
     case FenArrayType.SicilianDefenseAcceleratedDragonMaroczyBindBreyerVariation_B39:
       fenArray = fenSicilianDefenseAcceleratedDragonMaroczyBindBreyerVariation_B39 ;
@@ -15358,8 +16911,8 @@ const getRandomFenFromArray = (fenArrayType: FenArrayType): string => {
     case FenArrayType.FrenchDefenseWinawerVariationClassicalVariation_C18:
       fenArray = fenFrenchDefenseWinawerVariationClassicalVariation_C18 ;
       break;
-    case FenArrayType.EnglishOpeningKingsEnglishVariationFourKnightsVariationQuietLine_A28:
-      fenArray = fenEnglishOpeningKingsEnglishVariationFourKnightsVariationQuietLine_A28 ;
+    case FenArrayType.EnglishOpeningKingsEnglishVariationFourKnightsVariationQuietLine_1_A28:
+      fenArray = fenEnglishOpeningKingsEnglishVariationFourKnightsVariationQuietLine_1_A28 ;
       break;
     case FenArrayType.ScotchGameClassicalVariationIntermezzoVariation_C45:
       fenArray = fenScotchGameClassicalVariationIntermezzoVariation_C45 ;
@@ -15541,6 +17094,4632 @@ const getRandomFenFromArray = (fenArrayType: FenArrayType): string => {
     case FenArrayType.SicilianDefenseSozinAttackMainLine_B89:
       fenArray = fenSicilianDefenseSozinAttackMainLine_B89 ;
       break;
+    case FenArrayType.SpanishGameClassicalVariation_C64:
+      fenArray = fenSpanishGameClassicalVariation_C64 ;
+      break;
+    case FenArrayType.LionDefenseLionsJaw_B07:
+      fenArray = fenLionDefenseLionsJaw_B07 ;
+      break;
+    case FenArrayType.ScandinavianDefensePortugueseVariation_B01:
+      fenArray = fenScandinavianDefensePortugueseVariation_B01 ;
+      break;
+    case FenArrayType.EnglishOpeningAngloIndianDefenseFlohrMikenasCarlsVariation_1_A18:
+      fenArray = fenEnglishOpeningAngloIndianDefenseFlohrMikenasCarlsVariation_1_A18 ;
+      break;
+    case FenArrayType.BenkoGambitGeneral_A57:
+      fenArray = fenBenkoGambitGeneral_A57 ;
+      break;
+    case FenArrayType.BenoniDefenseHromodkaSystem_A57:
+      fenArray = fenBenoniDefenseHromodkaSystem_A57 ;
+      break;
+    case FenArrayType.NimzoIndianDefenseFischerVariation_E44:
+      fenArray = fenNimzoIndianDefenseFischerVariation_E44 ;
+      break;
+    case FenArrayType.KingsIndianDefenseOrthodoxVariationModernSystem_E97:
+      fenArray = fenKingsIndianDefenseOrthodoxVariationModernSystem_E97 ;
+      break;
+    case FenArrayType.QueensGambitAcceptedJanowskiLarsenVariation_D25:
+      fenArray = fenQueensGambitAcceptedJanowskiLarsenVariation_D25 ;
+      break;
+    case FenArrayType.SlavDefenseSchlechterVariation_D15:
+      fenArray = fenSlavDefenseSchlechterVariation_D15 ;
+      break;
+    case FenArrayType.QueensGambitDeclinedSemiTarraschDefense_D40:
+      fenArray = fenQueensGambitDeclinedSemiTarraschDefense_D40 ;
+      break;
+    case FenArrayType.SemiSlavDefenseAcceleratedMeranVariation_D45:
+      fenArray = fenSemiSlavDefenseAcceleratedMeranVariation_D45 ;
+      break;
+    case FenArrayType.SicilianDefenseBoleslavskyVariation_B59:
+      fenArray = fenSicilianDefenseBoleslavskyVariation_B59 ;
+      break;
+    case FenArrayType.NimzoIndianDefenseHuebnerVariation_E41:
+      fenArray = fenNimzoIndianDefenseHuebnerVariation_E41 ;
+      break;
+    case FenArrayType.FrenchDefenseWinawerVariationPoisonedPawnVariationMainLine_C18:
+      fenArray = fenFrenchDefenseWinawerVariationPoisonedPawnVariationMainLine_C18 ;
+      break;
+    case FenArrayType.SicilianDefenseScheveningenVariationModernVariation_1_B83:
+      fenArray = fenSicilianDefenseScheveningenVariationModernVariation_1_B83 ;
+      break;
+    case FenArrayType.SicilianDefenseNajdorfVariationEnglishAttackAntiEnglish_B90:
+      fenArray = fenSicilianDefenseNajdorfVariationEnglishAttackAntiEnglish_B90 ;
+      break;
+    case FenArrayType.NimzoIndianDefenseRagozinVariation_E20:
+      fenArray = fenNimzoIndianDefenseRagozinVariation_E20 ;
+      break;
+    case FenArrayType.SicilianDefenseNimzowitschVariationClosedVariation_B29:
+      fenArray = fenSicilianDefenseNimzowitschVariationClosedVariation_B29 ;
+      break;
+    case FenArrayType.QueensGambitAcceptedCentralVariationMcDonnellDefense_D20:
+      fenArray = fenQueensGambitAcceptedCentralVariationMcDonnellDefense_D20 ;
+      break;
+    case FenArrayType.SicilianDefenseHyperacceleratedPterodactyl_B27:
+      fenArray = fenSicilianDefenseHyperacceleratedPterodactyl_B27 ;
+      break;
+    case FenArrayType.GruenfeldDefenseThreeKnightsVariationBurilleVariation_D94:
+      fenArray = fenGruenfeldDefenseThreeKnightsVariationBurilleVariation_D94 ;
+      break;
+    case FenArrayType.QueensGambitDeclinedSemiTarraschDefenseExchangeVariation_D41:
+      fenArray = fenQueensGambitDeclinedSemiTarraschDefenseExchangeVariation_D41 ;
+      break;
+    case FenArrayType.ItalianGameTwoKnightsDefensePolerioDefenseBishopCheckline_C58:
+      fenArray = fenItalianGameTwoKnightsDefensePolerioDefenseBishopCheckline_C58 ;
+      break;
+    case FenArrayType.SicilianDefenseAcceleratedDragonGeneral_B36:
+      fenArray = fenSicilianDefenseAcceleratedDragonGeneral_B36 ;
+      break;
+    case FenArrayType.SicilianDefenseRichterRauzerVariationClassicalVariation_B63:
+      fenArray = fenSicilianDefenseRichterRauzerVariationClassicalVariation_B63 ;
+      break;
+    case FenArrayType.NimzoLarsenAttackGeneral_A01:
+      fenArray = fenNimzoLarsenAttackGeneral_A01 ;
+      break;
+    case FenArrayType.FrenchDefenseAdvanceVariation_1_C02:
+      fenArray = fenFrenchDefenseAdvanceVariation_1_C02 ;
+      break;
+    case FenArrayType.CaroKannDefensePanovAttackModernDefenseMiesesLine_B13:
+      fenArray = fenCaroKannDefensePanovAttackModernDefenseMiesesLine_B13 ;
+      break;
+    case FenArrayType.QueensIndianDefenseCapablancaVariation_E16:
+      fenArray = fenQueensIndianDefenseCapablancaVariation_E16 ;
+      break;
+    case FenArrayType.SicilianDefenseRichterRauzerVariationGeneral_B60:
+      fenArray = fenSicilianDefenseRichterRauzerVariationGeneral_B60 ;
+      break;
+    case FenArrayType.RussianGameCozioLaskerAttack_C42:
+      fenArray = fenRussianGameCozioLaskerAttack_C42 ;
+      break;
+    case FenArrayType.SicilianDefenseOKellyVariationNormalSystem_B28:
+      fenArray = fenSicilianDefenseOKellyVariationNormalSystem_B28 ;
+      break;
+    case FenArrayType.QueensIndianDefenseKasparovPetrosianVariationMainLine_E12:
+      fenArray = fenQueensIndianDefenseKasparovPetrosianVariationMainLine_E12 ;
+      break;
+    case FenArrayType.ZukertortOpeningQueensideFianchettoVariation_A04:
+      fenArray = fenZukertortOpeningQueensideFianchettoVariation_A04 ;
+      break;
+    case FenArrayType.QueensIndianDefenseClassicalVariationTraditionalVariationMainLine_E19:
+      fenArray = fenQueensIndianDefenseClassicalVariationTraditionalVariationMainLine_E19 ;
+      break;
+    case FenArrayType.EnglishOpeningKingsEnglishVariationFourKnightsVariationBotvinnikLine_A28:
+      fenArray = fenEnglishOpeningKingsEnglishVariationFourKnightsVariationBotvinnikLine_A28 ;
+      break;
+    case FenArrayType.SemiSlavDefenseMeranVariationWadeVariation_D47:
+      fenArray = fenSemiSlavDefenseMeranVariationWadeVariation_D47 ;
+      break;
+    case FenArrayType.CatalanOpeningClosedVariationTraditionalVariation_E09:
+      fenArray = fenCatalanOpeningClosedVariationTraditionalVariation_E09 ;
+      break;
+    case FenArrayType.QueenPawnGameTorreAttackGruenfeldVariationMainLine_D03:
+      fenArray = fenQueenPawnGameTorreAttackGruenfeldVariationMainLine_D03 ;
+      break;
+    case FenArrayType.SpanishGameMorphyDefenseNeoArchangelskVariation_C78:
+      fenArray = fenSpanishGameMorphyDefenseNeoArchangelskVariation_C78 ;
+      break;
+    case FenArrayType.SicilianDefenseBowdlerAttack_B20:
+      fenArray = fenSicilianDefenseBowdlerAttack_B20 ;
+      break;
+    case FenArrayType.QueensIndianDefenseFianchettoVariationNimzowitschVariationNimzowitschAttack_E15:
+      fenArray = fenQueensIndianDefenseFianchettoVariationNimzowitschVariationNimzowitschAttack_E15 ;
+      break;
+    case FenArrayType.NimzoIndianDefenseHuebnerVariationRubinsteinVariation_E42:
+      fenArray = fenNimzoIndianDefenseHuebnerVariationRubinsteinVariation_E42 ;
+      break;
+    case FenArrayType.IndianGamePseudoBenko_A46:
+      fenArray = fenIndianGamePseudoBenko_A46 ;
+      break;
+    case FenArrayType.SpanishGameExchangeVariationGeneral_C68:
+      fenArray = fenSpanishGameExchangeVariationGeneral_C68 ;
+      break;
+    case FenArrayType.QueensGambitDeclinedHarrwitzAttackFianchettoDefense_D37:
+      fenArray = fenQueensGambitDeclinedHarrwitzAttackFianchettoDefense_D37 ;
+      break;
+    case FenArrayType.NimzoIndianDefenseNormalVariation_E46:
+      fenArray = fenNimzoIndianDefenseNormalVariation_E46 ;
+      break;
+    case FenArrayType.KingsIndianDefenseSaemischVariationBobotsovKorchnoiPetrosianVariation_E81:
+      fenArray = fenKingsIndianDefenseSaemischVariationBobotsovKorchnoiPetrosianVariation_E81 ;
+      break;
+    case FenArrayType.DutchDefenseClassicalVariation_A90:
+      fenArray = fenDutchDefenseClassicalVariation_A90 ;
+      break;
+    case FenArrayType.EnglishOpeningAngloIndianDefenseQueensIndianFormation_A15:
+      fenArray = fenEnglishOpeningAngloIndianDefenseQueensIndianFormation_A15 ;
+      break;
+    case FenArrayType.ThreeKnightsOpeningGeneral_C46:
+      fenArray = fenThreeKnightsOpeningGeneral_C46 ;
+      break;
+    case FenArrayType.FourKnightsGameItalianVariation_C46:
+      fenArray = fenFourKnightsGameItalianVariation_C46 ;
+      break;
+    case FenArrayType.SicilianDefenseNajdorfVariationPoisonedPawnVariation_B97:
+      fenArray = fenSicilianDefenseNajdorfVariationPoisonedPawnVariation_B97 ;
+      break;
+    case FenArrayType.FourKnightsGameSpanishVariationRubinsteinVariation_C48:
+      fenArray = fenFourKnightsGameSpanishVariationRubinsteinVariation_C48 ;
+      break;
+    case FenArrayType.KingsIndianDefenseFianchettoVariationLesserSimaginSpassky_E62:
+      fenArray = fenKingsIndianDefenseFianchettoVariationLesserSimaginSpassky_E62 ;
+      break;
+    case FenArrayType.BenkoGambitAcceptedKingWalkVariation_A59:
+      fenArray = fenBenkoGambitAcceptedKingWalkVariation_A59 ;
+      break;
+    case FenArrayType.SpanishGameMorphyDefenseCozioDefense_C70:
+      fenArray = fenSpanishGameMorphyDefenseCozioDefense_C70 ;
+      break;
+    case FenArrayType.QueensIndianDefenseClassicalVariationTraditionalVariationNimowitschLine_E18:
+      fenArray = fenQueensIndianDefenseClassicalVariationTraditionalVariationNimowitschLine_E18 ;
+      break;
+    case FenArrayType.EnglishOpeningSymmetricalVariationRubinsteinVariation_A34:
+      fenArray = fenEnglishOpeningSymmetricalVariationRubinsteinVariation_A34 ;
+      break;
+    case FenArrayType.SicilianDefenseRichterRauzerVariationModernVariation_B61:
+      fenArray = fenSicilianDefenseRichterRauzerVariationModernVariation_B61 ;
+      break;
+    case FenArrayType.SicilianDefenseModernVariations_B54:
+      fenArray = fenSicilianDefenseModernVariations_B54 ;
+      break;
+    case FenArrayType.ItalianGameClassicalVariationGrecoGambit_C53:
+      fenArray = fenItalianGameClassicalVariationGrecoGambit_C53 ;
+      break;
+    case FenArrayType.QueenPawnGameTorreAttackGossipVariation_D03:
+      fenArray = fenQueenPawnGameTorreAttackGossipVariation_D03 ;
+      break;
+    case FenArrayType.FrenchDefenseAdvanceVariationLputianVariation_C02:
+      fenArray = fenFrenchDefenseAdvanceVariationLputianVariation_C02 ;
+      break;
+    case FenArrayType.FrenchDefenseTarraschVariationChistyakovDefenseModernLine_C07:
+      fenArray = fenFrenchDefenseTarraschVariationChistyakovDefenseModernLine_C07 ;
+      break;
+    case FenArrayType.SpanishGameOpenVariationsBernsteinVariation_C80:
+      fenArray = fenSpanishGameOpenVariationsBernsteinVariation_C80 ;
+      break;
+    case FenArrayType.SicilianDefenseDragonVariationYugoslavAttackPanovVariation_B76:
+      fenArray = fenSicilianDefenseDragonVariationYugoslavAttackPanovVariation_B76 ;
+      break;
+    case FenArrayType.SemiSlavDefenseNoteboomVariation_D31:
+      fenArray = fenSemiSlavDefenseNoteboomVariation_D31 ;
+      break;
+    case FenArrayType.BenoniDefenseKnightsTourVariation_A61:
+      fenArray = fenBenoniDefenseKnightsTourVariation_A61 ;
+      break;
+    case FenArrayType.NimzoIndianDefenseSaemischVariationAccelerated_E24:
+      fenArray = fenNimzoIndianDefenseSaemischVariationAccelerated_E24 ;
+      break;
+    case FenArrayType.BogoIndianDefenseExchangeVariation_E11:
+      fenArray = fenBogoIndianDefenseExchangeVariation_E11 ;
+      break;
+    case FenArrayType.ZukertortOpeningQuietsystem_A04:
+      fenArray = fenZukertortOpeningQuietsystem_A04 ;
+      break;
+    case FenArrayType.EnglishOpeningSymmetricalVariationFullSymmetryLine_A38:
+      fenArray = fenEnglishOpeningSymmetricalVariationFullSymmetryLine_A38 ;
+      break;
+    case FenArrayType.SicilianDefenseSozinAttackLeonhardtVariation_B88:
+      fenArray = fenSicilianDefenseSozinAttackLeonhardtVariation_B88 ;
+      break;
+    case FenArrayType.BenoniDefenseClassicalVariationGeneral_A70:
+      fenArray = fenBenoniDefenseClassicalVariationGeneral_A70 ;
+      break;
+    case FenArrayType.ItalianGameScotchGambitAnderssenAttack_C56:
+      fenArray = fenItalianGameScotchGambitAnderssenAttack_C56 ;
+      break;
+    case FenArrayType.KingsIndianDefenseFianchettoVariationLarsenDefense_E62:
+      fenArray = fenKingsIndianDefenseFianchettoVariationLarsenDefense_E62 ;
+      break;
+    case FenArrayType.KingsIndianDefenseFourPawnsAttackDynamicAttack_E76:
+      fenArray = fenKingsIndianDefenseFourPawnsAttackDynamicAttack_E76 ;
+      break;
+    case FenArrayType.SicilianDefenseScheveningenVariationClassicalVariationGeneral_B83:
+      fenArray = fenSicilianDefenseScheveningenVariationClassicalVariationGeneral_B83 ;
+      break;
+    case FenArrayType.RussianGameClassicalAttackStauntonVariation_C42:
+      fenArray = fenRussianGameClassicalAttackStauntonVariation_C42 ;
+      break;
+    case FenArrayType.KingsIndianDefenseOrthodoxVariationClassicalSystemNeoClasssicalLine_E99:
+      fenArray = fenKingsIndianDefenseOrthodoxVariationClassicalSystemNeoClasssicalLine_E99 ;
+      break;
+    case FenArrayType.SicilianDefenseOldSicilianOpen_B32:
+      fenArray = fenSicilianDefenseOldSicilianOpen_B32 ;
+      break;
+    case FenArrayType.RussianGameClassicalAttack_C42:
+      fenArray = fenRussianGameClassicalAttack_C42 ;
+      break;
+    case FenArrayType.ScandinavianDefenseClassicalVariation_B01:
+      fenArray = fenScandinavianDefenseClassicalVariation_B01 ;
+      break;
+    case FenArrayType.SlavDefenseCzechVariationClassicalSystemMainLine_D19:
+      fenArray = fenSlavDefenseCzechVariationClassicalSystemMainLine_D19 ;
+      break;
+    case FenArrayType.TarraschDefenseTwoKnightsVariation_D32:
+      fenArray = fenTarraschDefenseTwoKnightsVariation_D32 ;
+      break;
+    case FenArrayType.EnglishOpeningAgincourtDefenseCatalanDefenseSemiSlavDefense_A13:
+      fenArray = fenEnglishOpeningAgincourtDefenseCatalanDefenseSemiSlavDefense_A13 ;
+      break;
+    case FenArrayType.KingsIndianDefenseSmyslovVariation_E61:
+      fenArray = fenKingsIndianDefenseSmyslovVariation_E61 ;
+      break;
+    case FenArrayType.SicilianDefenseClosedVariationChameleonVariation_B23:
+      fenArray = fenSicilianDefenseClosedVariationChameleonVariation_B23 ;
+      break;
+    case FenArrayType.QueenPawnGameStonewallAttack_D00:
+      fenArray = fenQueenPawnGameStonewallAttack_D00 ;
+      break;
+    case FenArrayType.GruenfeldDefenseThreeKnightsVariationHungarianVariation_D93:
+      fenArray = fenGruenfeldDefenseThreeKnightsVariationHungarianVariation_D93 ;
+      break;
+    case FenArrayType.SicilianDefenseMengariniVariation_B20:
+      fenArray = fenSicilianDefenseMengariniVariation_B20 ;
+      break;
+    case FenArrayType.NimzoIndianDefenseClassicalVariationLisitsynBondarevskyGambit_E39:
+      fenArray = fenNimzoIndianDefenseClassicalVariationLisitsynBondarevskyGambit_E39 ;
+      break;
+    case FenArrayType.ItalianGameGeneral_C50:
+      fenArray = fenItalianGameGeneral_C50 ;
+      break;
+    case FenArrayType.DutchDefenseFianchettoAttack_A81:
+      fenArray = fenDutchDefenseFianchettoAttack_A81 ;
+      break;
+    case FenArrayType.EnglishOpeningSymmetricalVariationNormalVariation_A34:
+      fenArray = fenEnglishOpeningSymmetricalVariationNormalVariation_A34 ;
+      break;
+    case FenArrayType.SlavIndian_A50:
+      fenArray = fenSlavIndian_A50 ;
+      break;
+    case FenArrayType.CaroKannDefenseMainLine_B15:
+      fenArray = fenCaroKannDefenseMainLine_B15 ;
+      break;
+    case FenArrayType.AlekhineDefenseModernVariationLarsenVariationMilesLine_B04:
+      fenArray = fenAlekhineDefenseModernVariationLarsenVariationMilesLine_B04 ;
+      break;
+    case FenArrayType.SpanishGameBirdVariation_C61:
+      fenArray = fenSpanishGameBirdVariation_C61 ;
+      break;
+    case FenArrayType.KingsIndianDefenseOrthodoxVariationBayonetAttackSokolovsLine_E97:
+      fenArray = fenKingsIndianDefenseOrthodoxVariationBayonetAttackSokolovsLine_E97 ;
+      break;
+    case FenArrayType.FrenchDefenseAdvanceVariation_2_C02:
+      fenArray = fenFrenchDefenseAdvanceVariation_2_C02 ;
+      break;
+    case FenArrayType.PonzianiOpeningJaenischCounterattack_C44:
+      fenArray = fenPonzianiOpeningJaenischCounterattack_C44 ;
+      break;
+    case FenArrayType.ScandinavianDefenseRichterVariation_B01:
+      fenArray = fenScandinavianDefenseRichterVariation_B01 ;
+      break;
+    case FenArrayType.ColleSystemTraditionalColle_D05:
+      fenArray = fenColleSystemTraditionalColle_D05 ;
+      break;
+    case FenArrayType.QueensGambitDeclinedTarraschDefensePseudoTarrasch_D30:
+      fenArray = fenQueensGambitDeclinedTarraschDefensePseudoTarrasch_D30 ;
+      break;
+    case FenArrayType.DutchDefenseClassicalVariation_A84:
+      fenArray = fenDutchDefenseClassicalVariation_A84 ;
+      break;
+    case FenArrayType.SicilianDefenseClosedVariationKorchnoiDefense_B23:
+      fenArray = fenSicilianDefenseClosedVariationKorchnoiDefense_B23 ;
+      break;
+    case FenArrayType.MikenasDefense_A40:
+      fenArray = fenMikenasDefense_A40 ;
+      break;
+    case FenArrayType.RubinsteinOpening_D05:
+      fenArray = fenRubinsteinOpening_D05 ;
+      break;
+    case FenArrayType.QueensGambitDeclinedHarrwitzAttackMainLine_D37:
+      fenArray = fenQueensGambitDeclinedHarrwitzAttackMainLine_D37 ;
+      break;
+    case FenArrayType.BenoniDefenseOldBenoniPawnThrust_A44:
+      fenArray = fenBenoniDefenseOldBenoniPawnThrust_A44 ;
+      break;
+    case FenArrayType.KingsIndianDefenseSaemischVariationYatesDefense_E83:
+      fenArray = fenKingsIndianDefenseSaemischVariationYatesDefense_E83 ;
+      break;
+    case FenArrayType.EnglishOpeningAngloIndianDefenseFlohrMikenasCarlsVariation_2_A18:
+      fenArray = fenEnglishOpeningAngloIndianDefenseFlohrMikenasCarlsVariation_2_A18 ;
+      break;
+    case FenArrayType.RussianGameGeneral_C42:
+      fenArray = fenRussianGameGeneral_C42 ;
+      break;
+    case FenArrayType.DutchDefenseLeningradVariation_A87:
+      fenArray = fenDutchDefenseLeningradVariation_A87 ;
+      break;
+    case FenArrayType.NimzoIndianDefenseNormalLine_E40:
+      fenArray = fenNimzoIndianDefenseNormalLine_E40 ;
+      break;
+    case FenArrayType.SpanishGameClosedVariationsKeresDefense_C96:
+      fenArray = fenSpanishGameClosedVariationsKeresDefense_C96 ;
+      break;
+    case FenArrayType.SicilianDefenseAlapinVariationStoltzAttack_B22:
+      fenArray = fenSicilianDefenseAlapinVariationStoltzAttack_B22 ;
+      break;
+    case FenArrayType.NeoGruenfeldDefenseDelayedExchangeVariation_D76:
+      fenArray = fenNeoGruenfeldDefenseDelayedExchangeVariation_D76 ;
+      break;
+    case FenArrayType.KingsIndianDefenseFourPawnsAttackNormalAttack_E77:
+      fenArray = fenKingsIndianDefenseFourPawnsAttackNormalAttack_E77 ;
+      break;
+    case FenArrayType.NimzoIndianDefenseRomanishinVariation_1_E20:
+      fenArray = fenNimzoIndianDefenseRomanishinVariation_1_E20 ;
+      break;
+    case FenArrayType.KingsIndianDefenseOrthodoxVariationPositionalDefenseClosedLine_E94:
+      fenArray = fenKingsIndianDefenseOrthodoxVariationPositionalDefenseClosedLine_E94 ;
+      break;
+    case FenArrayType.SicilianDefenseNimzowitschVariationAdvanceVariation_B29:
+      fenArray = fenSicilianDefenseNimzowitschVariationAdvanceVariation_B29 ;
+      break;
+    case FenArrayType.StGeorgeDefenseGeneral_B00:
+      fenArray = fenStGeorgeDefenseGeneral_B00 ;
+      break;
+    case FenArrayType.GruenfeldDefenseThreeKnightsVariationHungarianAttack_D92:
+      fenArray = fenGruenfeldDefenseThreeKnightsVariationHungarianAttack_D92 ;
+      break;
+    case FenArrayType.SpanishGameMorphyDefenseSteinitzDeferred_C79:
+      fenArray = fenSpanishGameMorphyDefenseSteinitzDeferred_C79 ;
+      break;
+    case FenArrayType.QueensGambitAcceptedCentralVariationAlekhineSystem_D20:
+      fenArray = fenQueensGambitAcceptedCentralVariationAlekhineSystem_D20 ;
+      break;
+    case FenArrayType.ScotchGameScotchGambit_C44:
+      fenArray = fenScotchGameScotchGambit_C44 ;
+      break;
+    case FenArrayType.SicilianDefenseBoleslavskyVariationGeneralVariation_B58:
+      fenArray = fenSicilianDefenseBoleslavskyVariationGeneralVariation_B58 ;
+      break;
+    case FenArrayType.PircDefenseClassicalVariationQuietSystemParmaDefense_B08:
+      fenArray = fenPircDefenseClassicalVariationQuietSystemParmaDefense_B08 ;
+      break;
+    case FenArrayType.NimzoIndianDefenseNormalVariationBernsteinDefenseExceptGligoricSystem_E53:
+      fenArray = fenNimzoIndianDefenseNormalVariationBernsteinDefenseExceptGligoricSystem_E53 ;
+      break;
+    case FenArrayType.QueensIndianDefenseFianchettoVariationGeneral_E15:
+      fenArray = fenQueensIndianDefenseFianchettoVariationGeneral_E15 ;
+      break;
+    case FenArrayType.FrenchDefenseRubinsteinVariation_C10:
+      fenArray = fenFrenchDefenseRubinsteinVariation_C10 ;
+      break;
+    case FenArrayType.GruenfeldDefenseBrinckmannAttack_D82:
+      fenArray = fenGruenfeldDefenseBrinckmannAttack_D82 ;
+      break;
+    case FenArrayType.SemiSlavDefenseStoltzVariationShabalovAttack_D45:
+      fenArray = fenSemiSlavDefenseStoltzVariationShabalovAttack_D45 ;
+      break;
+    case FenArrayType.BenoniDefenseFianchettoVariationHastingsDefenseMainLine_A64:
+      fenArray = fenBenoniDefenseFianchettoVariationHastingsDefenseMainLine_A64 ;
+      break;
+    case FenArrayType.HungarianOpeningSlavFormation_A00:
+      fenArray = fenHungarianOpeningSlavFormation_A00 ;
+      break;
+    case FenArrayType.BishopsOpeningViennaHybridSpielmannAttack_C26:
+      fenArray = fenBishopsOpeningViennaHybridSpielmannAttack_C26 ;
+      break;
+    case FenArrayType.FrenchDefenseWingGambit_C00:
+      fenArray = fenFrenchDefenseWingGambit_C00 ;
+      break;
+    case FenArrayType.SemiSlavDefenseQuietVariation_1_D30:
+      fenArray = fenSemiSlavDefenseQuietVariation_1_D30 ;
+      break;
+    case FenArrayType.FrenchDefenseWinawerVariationAdvanceVariation_2_C18:
+      fenArray = fenFrenchDefenseWinawerVariationAdvanceVariation_2_C18 ;
+      break;
+    case FenArrayType.FrenchDefenseWinawerVariationPetrosianVariation_C16:
+      fenArray = fenFrenchDefenseWinawerVariationPetrosianVariation_C16 ;
+      break;
+    case FenArrayType.ScotchGameMalaniukVariation_C45:
+      fenArray = fenScotchGameMalaniukVariation_C45 ;
+      break;
+    case FenArrayType.DutchDefenseModernStonewallVariation_A97:
+      fenArray = fenDutchDefenseModernStonewallVariation_A97 ;
+      break;
+    case FenArrayType.EnglishOpeningKingsEnglishVariationTwoKnightsVariationKeresVariation_A23:
+      fenArray = fenEnglishOpeningKingsEnglishVariationTwoKnightsVariationKeresVariation_A23 ;
+      break;
+    case FenArrayType.NimzowitschDefenseDeclinedVariation_B00:
+      fenArray = fenNimzowitschDefenseDeclinedVariation_B00 ;
+      break;
+    case FenArrayType.QueenPawnGameColleSystemAntiColle_D04:
+      fenArray = fenQueenPawnGameColleSystemAntiColle_D04 ;
+      break;
+    case FenArrayType.KingsIndianDefenseAverbakhVariationModernDefense_E73:
+      fenArray = fenKingsIndianDefenseAverbakhVariationModernDefense_E73 ;
+      break;
+    case FenArrayType.HungarianOpeningSicilianInvitation_A00:
+      fenArray = fenHungarianOpeningSicilianInvitation_A00 ;
+      break;
+    case FenArrayType.SlavDefenseBreyerVariation_D11:
+      fenArray = fenSlavDefenseBreyerVariation_D11 ;
+      break;
+    case FenArrayType.FrenchDefenseSteinitzVariation_C11:
+      fenArray = fenFrenchDefenseSteinitzVariation_C11 ;
+      break;
+    case FenArrayType.QueensIndianDefenseFianchettoVariationKramnikVariation_E17:
+      fenArray = fenQueensIndianDefenseFianchettoVariationKramnikVariation_E17 ;
+      break;
+    case FenArrayType.QueensGambitDeclinedOrthodoxDefenseRubinsteinVariation_D61:
+      fenArray = fenQueensGambitDeclinedOrthodoxDefenseRubinsteinVariation_D61 ;
+      break;
+    case FenArrayType.AlekhineDefenseSaemischAttack_B02:
+      fenArray = fenAlekhineDefenseSaemischAttack_B02 ;
+      break;
+    case FenArrayType.FrenchDefenseWinawerVariation_C15:
+      fenArray = fenFrenchDefenseWinawerVariation_C15 ;
+      break;
+    case FenArrayType.SpanishGameExchangeVariationAlapinGambit_C69:
+      fenArray = fenSpanishGameExchangeVariationAlapinGambit_C69 ;
+      break;
+    case FenArrayType.ColleSystem_2_D05:
+      fenArray = fenColleSystem_2_D05 ;
+      break;
+    case FenArrayType.NimzowitschDefenseScandinavianVariationAdvanceVariation_B00:
+      fenArray = fenNimzowitschDefenseScandinavianVariationAdvanceVariation_B00 ;
+      break;
+    case FenArrayType.FourKnightsGameGunsbergVariation_C46:
+      fenArray = fenFourKnightsGameGunsbergVariation_C46 ;
+      break;
+    case FenArrayType.SicilianDefenseScheveningenVariationModernVariationGeneral_B83:
+      fenArray = fenSicilianDefenseScheveningenVariationModernVariationGeneral_B83 ;
+      break;
+    case FenArrayType.FrenchDefenseMacCutcheonVariationLaskerVariation_1_C12:
+      fenArray = fenFrenchDefenseMacCutcheonVariationLaskerVariation_1_C12 ;
+      break;
+    case FenArrayType.KingsIndianDefenseAverbakhVariationFlexibleDefense_E73:
+      fenArray = fenKingsIndianDefenseAverbakhVariationFlexibleDefense_E73 ;
+      break;
+    case FenArrayType.SicilianDefenseFourKnightsVariationCobraVariation_B45:
+      fenArray = fenSicilianDefenseFourKnightsVariationCobraVariation_B45 ;
+      break;
+    case FenArrayType.MiesesOpeningGeneral_A00:
+      fenArray = fenMiesesOpeningGeneral_A00 ;
+      break;
+    case FenArrayType.QueensIndianDefenseKasparovPetrosianVariationKasparovAttack_E12:
+      fenArray = fenQueensIndianDefenseKasparovPetrosianVariationKasparovAttack_E12 ;
+      break;
+    case FenArrayType.EnglishDefenseGeneral_A40:
+      fenArray = fenEnglishDefenseGeneral_A40 ;
+      break;
+    case FenArrayType.QueensGambitRefusedChigorinDefense_D07:
+      fenArray = fenQueensGambitRefusedChigorinDefense_D07 ;
+      break;
+    case FenArrayType.FrenchDefenseHorwitzAttackPapaTiculatGambit_C00:
+      fenArray = fenFrenchDefenseHorwitzAttackPapaTiculatGambit_C00 ;
+      break;
+    case FenArrayType.SicilianDefenseSmithMorraGambitDeclinedPushVariation_B21:
+      fenArray = fenSicilianDefenseSmithMorraGambitDeclinedPushVariation_B21 ;
+      break;
+    case FenArrayType.EnglishOpeningSymmetricalVariationDuchampVariation_A38:
+      fenArray = fenEnglishOpeningSymmetricalVariationDuchampVariation_A38 ;
+      break;
+    case FenArrayType.SicilianDefenseClassicalVariationFianchettoVariation_B58:
+      fenArray = fenSicilianDefenseClassicalVariationFianchettoVariation_B58 ;
+      break;
+    case FenArrayType.CaroKannDefenseKarpovVariationModernVariationKasparovAttack_B17:
+      fenArray = fenCaroKannDefenseKarpovVariationModernVariationKasparovAttack_B17 ;
+      break;
+    case FenArrayType.SicilianDefenseVelimirovicAttack_B89:
+      fenArray = fenSicilianDefenseVelimirovicAttack_B89 ;
+      break;
+    case FenArrayType.QueensGambitDeclinedHarrwitzAttackTwoKnightsDefense_D37:
+      fenArray = fenQueensGambitDeclinedHarrwitzAttackTwoKnightsDefense_D37 ;
+      break;
+    case FenArrayType.SpanishGameMorphyDefenseClassicalDefenseDeferred_C70:
+      fenArray = fenSpanishGameMorphyDefenseClassicalDefenseDeferred_C70 ;
+      break;
+    case FenArrayType.KingsIndianDefenseSaemischVariationClosedVariation_E87:
+      fenArray = fenKingsIndianDefenseSaemischVariationClosedVariation_E87 ;
+      break;
+    case FenArrayType.QueensGambitAcceptedGeneral_D20:
+      fenArray = fenQueensGambitAcceptedGeneral_D20 ;
+      break;
+    case FenArrayType.ItalianGameGiuocoPianissimo_C50:
+      fenArray = fenItalianGameGiuocoPianissimo_C50 ;
+      break;
+    case FenArrayType.CenterGameBergerVariation_C22:
+      fenArray = fenCenterGameBergerVariation_C22 ;
+      break;
+    case FenArrayType.NimzoIndianDefenseClassicalVariationMilnerBarryVariation_E33:
+      fenArray = fenNimzoIndianDefenseClassicalVariationMilnerBarryVariation_E33 ;
+      break;
+    case FenArrayType.SicilianDefenseDragonVariationFianchettoVariation_B70:
+      fenArray = fenSicilianDefenseDragonVariationFianchettoVariation_B70 ;
+      break;
+    case FenArrayType.KingsIndianDefenseNormalVariationStandardDevelopment_E73:
+      fenArray = fenKingsIndianDefenseNormalVariationStandardDevelopment_E73 ;
+      break;
+    case FenArrayType.SpanishGameExchangeVariationKeresVariation_C68:
+      fenArray = fenSpanishGameExchangeVariationKeresVariation_C68 ;
+      break;
+    case FenArrayType.KingsIndianDefenseFianchettoVariationKarlsbadVariation_E62:
+      fenArray = fenKingsIndianDefenseFianchettoVariationKarlsbadVariation_E62 ;
+      break;
+    case FenArrayType.QueenPawnGameVeresovAtackDutchSystem_A80:
+      fenArray = fenQueenPawnGameVeresovAtackDutchSystem_A80 ;
+      break;
+    case FenArrayType.QueensGambitDeclinedModernKnightDefense_1_D51:
+      fenArray = fenQueensGambitDeclinedModernKnightDefense_1_D51 ;
+      break;
+    case FenArrayType.CatalanOpeningClosedVariation_E08:
+      fenArray = fenCatalanOpeningClosedVariation_E08 ;
+      break;
+    case FenArrayType.TarraschDefenseScharaGambit_D32:
+      fenArray = fenTarraschDefenseScharaGambit_D32 ;
+      break;
+    case FenArrayType.EnglishOpeningAgincourtDefenseWimpySystem_A13:
+      fenArray = fenEnglishOpeningAgincourtDefenseWimpySystem_A13 ;
+      break;
+    case FenArrayType.KingsIndianDefenseFianchettoVariationYugoslavVariationExchangeLine_E66:
+      fenArray = fenKingsIndianDefenseFianchettoVariationYugoslavVariationExchangeLine_E66 ;
+      break;
+    case FenArrayType.BenoniDefenseOldBenoni_A43:
+      fenArray = fenBenoniDefenseOldBenoni_A43 ;
+      break;
+    case FenArrayType.CaroKannDefenseKarpovVariationModernMainLine_B17:
+      fenArray = fenCaroKannDefenseKarpovVariationModernMainLine_B17 ;
+      break;
+    case FenArrayType.ScandinavianDefenseModernVariationGipslisVariation_B01:
+      fenArray = fenScandinavianDefenseModernVariationGipslisVariation_B01 ;
+      break;
+    case FenArrayType.FrenchDefenseWinawerVariationRetreatVariationArmenianLine_C18:
+      fenArray = fenFrenchDefenseWinawerVariationRetreatVariationArmenianLine_C18 ;
+      break;
+    case FenArrayType.QueensGambitDeclinedOrthodoxDefenseMainLine_1_D63:
+      fenArray = fenQueensGambitDeclinedOrthodoxDefenseMainLine_1_D63 ;
+      break;
+    case FenArrayType.PircDefense150Attack_B07:
+      fenArray = fenPircDefense150Attack_B07 ;
+      break;
+    case FenArrayType.EnglishOpeningAngloIndianDefenseOldIndianFormation_A15:
+      fenArray = fenEnglishOpeningAngloIndianDefenseOldIndianFormation_A15 ;
+      break;
+    case FenArrayType.NimzoLarsenAttackEnglishVariation_A01:
+      fenArray = fenNimzoLarsenAttackEnglishVariation_A01 ;
+      break;
+    case FenArrayType.DutchDefenseStauntonGambitGeneralVariation_A83:
+      fenArray = fenDutchDefenseStauntonGambitGeneralVariation_A83 ;
+      break;
+    case FenArrayType.CaroKannDefenseClassicalVariationFlohrVariation_B18:
+      fenArray = fenCaroKannDefenseClassicalVariationFlohrVariation_B18 ;
+      break;
+    case FenArrayType.KingsGambitAcceptedAbbaziaDefense_C36:
+      fenArray = fenKingsGambitAcceptedAbbaziaDefense_C36 ;
+      break;
+    case FenArrayType.NimzoIndianDefenseNormalVariationGligoricSystemExchangeatc4_E54:
+      fenArray = fenNimzoIndianDefenseNormalVariationGligoricSystemExchangeatc4_E54 ;
+      break;
+    case FenArrayType.NimzoIndianDefenseNormalVariationBotvinnikSystem_E49:
+      fenArray = fenNimzoIndianDefenseNormalVariationBotvinnikSystem_E49 ;
+      break;
+    case FenArrayType.QueensIndianDefensePetrosianVariationFaragoDefense_E11:
+      fenArray = fenQueensIndianDefensePetrosianVariationFaragoDefense_E11 ;
+      break;
+    case FenArrayType.SicilianDefenseRichterRauzerVariationClassicalVariation_B65:
+      fenArray = fenSicilianDefenseRichterRauzerVariationClassicalVariation_B65 ;
+      break;
+    case FenArrayType.SpanishGameMorphyDefenseTarraschVariation_C77:
+      fenArray = fenSpanishGameMorphyDefenseTarraschVariation_C77 ;
+      break;
+    case FenArrayType.BenkoGambitAcceptedDlugyVariation_A57:
+      fenArray = fenBenkoGambitAcceptedDlugyVariation_A57 ;
+      break;
+    case FenArrayType.OldIndianDefenseTwoKnightsVariation_A54:
+      fenArray = fenOldIndianDefenseTwoKnightsVariation_A54 ;
+      break;
+    case FenArrayType.NeoGrunfeldDefenseGoglidzeAttack_D70:
+      fenArray = fenNeoGrunfeldDefenseGoglidzeAttack_D70 ;
+      break;
+    case FenArrayType.ZukertortOpeningBlackMustangDefense_A04:
+      fenArray = fenZukertortOpeningBlackMustangDefense_A04 ;
+      break;
+    case FenArrayType.TrompowskyAttackRaptorVariation_A45:
+      fenArray = fenTrompowskyAttackRaptorVariation_A45 ;
+      break;
+    case FenArrayType.QueenPawnGameBarryAttackGruenfeldVariation_D02:
+      fenArray = fenQueenPawnGameBarryAttackGruenfeldVariation_D02 ;
+      break;
+    case FenArrayType.EnglishOpeningKingsEnglishVariationClosedSystemFullSymmetry_A26:
+      fenArray = fenEnglishOpeningKingsEnglishVariationClosedSystemFullSymmetry_A26 ;
+      break;
+    case FenArrayType.VanGeetOpeningCaroKannVariation_A00:
+      fenArray = fenVanGeetOpeningCaroKannVariation_A00 ;
+      break;
+    case FenArrayType.ModernDefenseGeneral_A41:
+      fenArray = fenModernDefenseGeneral_A41 ;
+      break;
+    case FenArrayType.QueensGambitAcceptedNormalVariationTraditionalSystem_D26:
+      fenArray = fenQueensGambitAcceptedNormalVariationTraditionalSystem_D26 ;
+      break;
+    case FenArrayType.NeoGruenfeldDefenseDelayedExchangeVariation_D74:
+      fenArray = fenNeoGruenfeldDefenseDelayedExchangeVariation_D74 ;
+      break;
+    case FenArrayType.AlekhineDefenseNormalVariation_B03:
+      fenArray = fenAlekhineDefenseNormalVariation_B03 ;
+      break;
+    case FenArrayType.IndianGameAntiGrunfeldAlekhineVariation_D70:
+      fenArray = fenIndianGameAntiGrunfeldAlekhineVariation_D70 ;
+      break;
+    case FenArrayType.SemiSlavDefenseBotvinnikSystem_D44:
+      fenArray = fenSemiSlavDefenseBotvinnikSystem_D44 ;
+      break;
+    case FenArrayType.SpanishGameExchangeVariationBronsteinVariation_C69:
+      fenArray = fenSpanishGameExchangeVariationBronsteinVariation_C69 ;
+      break;
+    case FenArrayType.KingsIndianDefenseFianchettoVariationYugoslavVariationAdvanceLine_E66:
+      fenArray = fenKingsIndianDefenseFianchettoVariationYugoslavVariationAdvanceLine_E66 ;
+      break;
+    case FenArrayType.EnglishOpeningAngloIndianDefenseAngloGrunfeldVariation_1_A16:
+      fenArray = fenEnglishOpeningAngloIndianDefenseAngloGrunfeldVariation_1_A16 ;
+      break;
+    case FenArrayType.QueensGambitDeclinedLaskerDefense_D56:
+      fenArray = fenQueensGambitDeclinedLaskerDefense_D56 ;
+      break;
+    case FenArrayType.CaroKannDefenseAcceleratedPanovAttackOpenVariation_B10:
+      fenArray = fenCaroKannDefenseAcceleratedPanovAttackOpenVariation_B10 ;
+      break;
+    case FenArrayType.KingsIndianDefenseFianchettoVariationSimaginVariation_E62:
+      fenArray = fenKingsIndianDefenseFianchettoVariationSimaginVariation_E62 ;
+      break;
+    case FenArrayType.QueensGambitRefusedAlbinCountergambitNormalLine_D08:
+      fenArray = fenQueensGambitRefusedAlbinCountergambitNormalLine_D08 ;
+      break;
+    case FenArrayType.ModernDefenseThreePawnsAttack_B06:
+      fenArray = fenModernDefenseThreePawnsAttack_B06 ;
+      break;
+    case FenArrayType.FourKnightsGameSpanishVariationSymmetricalVariation_1_C49:
+      fenArray = fenFourKnightsGameSpanishVariationSymmetricalVariation_1_C49 ;
+      break;
+    case FenArrayType.FourKnightsGameSpanishVariationClassicalVariation_C48:
+      fenArray = fenFourKnightsGameSpanishVariationClassicalVariation_C48 ;
+      break;
+    case FenArrayType.SicilianDefenseSmithMorraGambitAcceptedScheveningenFormation_B21:
+      fenArray = fenSicilianDefenseSmithMorraGambitAcceptedScheveningenFormation_B21 ;
+      break;
+    case FenArrayType.SpanishGameBerlinDefenselHermetVariation_C67:
+      fenArray = fenSpanishGameBerlinDefenselHermetVariation_C67 ;
+      break;
+    case FenArrayType.QueensGambitDeclinedTartakowerDefenseMakogonovExchangeVariation_D59:
+      fenArray = fenQueensGambitDeclinedTartakowerDefenseMakogonovExchangeVariation_D59 ;
+      break;
+    case FenArrayType.SicilianDefenseLaskerPelikanVariationBirdVariation_B33:
+      fenArray = fenSicilianDefenseLaskerPelikanVariationBirdVariation_B33 ;
+      break;
+    case FenArrayType.EnglishOpeningKingsEnglishVariationFourKnightsVariationFlexibleLine_A28:
+      fenArray = fenEnglishOpeningKingsEnglishVariationFourKnightsVariationFlexibleLine_A28 ;
+      break;
+    case FenArrayType.SicilianDefenseDragonVariationYugoslavAttackBelezkyLine_B76:
+      fenArray = fenSicilianDefenseDragonVariationYugoslavAttackBelezkyLine_B76 ;
+      break;
+    case FenArrayType.BenoniDefenseBenoniIndianDefense_A43:
+      fenArray = fenBenoniDefenseBenoniIndianDefense_A43 ;
+      break;
+    case FenArrayType.EnglishOpeningGolombekDefense_A16:
+      fenArray = fenEnglishOpeningGolombekDefense_A16 ;
+      break;
+    case FenArrayType.SicilianDefenseDragonVariationClassicalVariation_1_B72:
+      fenArray = fenSicilianDefenseDragonVariationClassicalVariation_1_B72 ;
+      break;
+    case FenArrayType.SicilianDefenseSozinAttackGeneralVariation_B86:
+      fenArray = fenSicilianDefenseSozinAttackGeneralVariation_B86 ;
+      break;
+    case FenArrayType.CenterGamePaulsenAttackVariation_C22:
+      fenArray = fenCenterGamePaulsenAttackVariation_C22 ;
+      break;
+    case FenArrayType.SicilianDefenseNajdorfVariationOpocenskyVariationModernLine_B92:
+      fenArray = fenSicilianDefenseNajdorfVariationOpocenskyVariationModernLine_B92 ;
+      break;
+    case FenArrayType.FrenchDefenseWinawerVariationWinckelmannRiemerGambit_C15:
+      fenArray = fenFrenchDefenseWinawerVariationWinckelmannRiemerGambit_C15 ;
+      break;
+    case FenArrayType.QueensGambitAcceptedClassicalDefenseSteinitzVariationDevelopmentVariation_D26:
+      fenArray = fenQueensGambitAcceptedClassicalDefenseSteinitzVariationDevelopmentVariation_D26 ;
+      break;
+    case FenArrayType.AlekhineDefenseFourPawnsAttackMainLine_B03:
+      fenArray = fenAlekhineDefenseFourPawnsAttackMainLine_B03 ;
+      break;
+    case FenArrayType.ViennaGamePaulsenVariation_C25:
+      fenArray = fenViennaGamePaulsenVariation_C25 ;
+      break;
+    case FenArrayType.RussianGameFrenchAttack_C42:
+      fenArray = fenRussianGameFrenchAttack_C42 ;
+      break;
+    case FenArrayType.QueensIndianDefenseKasparovPetrosianVariationMarcoDefense_E12:
+      fenArray = fenQueensIndianDefenseKasparovPetrosianVariationMarcoDefense_E12 ;
+      break;
+    case FenArrayType.NeoGruenfeldDefenseMiscwith5Nf3_D73:
+      fenArray = fenNeoGruenfeldDefenseMiscwith5Nf3_D73 ;
+      break;
+    case FenArrayType.SlavDefenseCzechVariationBledAttack_D17:
+      fenArray = fenSlavDefenseCzechVariationBledAttack_D17 ;
+      break;
+    case FenArrayType.SpanishGameExchangeVariationKingsBishopVariation_C68:
+      fenArray = fenSpanishGameExchangeVariationKingsBishopVariation_C68 ;
+      break;
+    case FenArrayType.SicilianDefenseKupreichikVariation_B56:
+      fenArray = fenSicilianDefenseKupreichikVariation_B56 ;
+      break;
+    case FenArrayType.NimzoIndianDefenseNormalVariationBernsteinDefense_E59:
+      fenArray = fenNimzoIndianDefenseNormalVariationBernsteinDefense_E59 ;
+      break;
+    case FenArrayType.OldIndianDefenseUkrainianVariation_A54:
+      fenArray = fenOldIndianDefenseUkrainianVariation_A54 ;
+      break;
+    case FenArrayType.FrenchDefenseGeneral_C00:
+      fenArray = fenFrenchDefenseGeneral_C00 ;
+      break;
+    case FenArrayType.SicilianDefenseNajdorfVariationFreakAttack_B90:
+      fenArray = fenSicilianDefenseNajdorfVariationFreakAttack_B90 ;
+      break;
+    case FenArrayType.SemiSlavDefenseNoteboomVariationAbrahamsVariation_D31:
+      fenArray = fenSemiSlavDefenseNoteboomVariationAbrahamsVariation_D31 ;
+      break;
+    case FenArrayType.PircDefenseAustrianAttack_1_B09:
+      fenArray = fenPircDefenseAustrianAttack_1_B09 ;
+      break;
+    case FenArrayType.QueensGambitDeclinedOrthodoxDefenseBotvinnikVariation_D60:
+      fenArray = fenQueensGambitDeclinedOrthodoxDefenseBotvinnikVariation_D60 ;
+      break;
+    case FenArrayType.QueensIndianDefenseKasparovPetrosianVariationClassicalVariation_E12:
+      fenArray = fenQueensIndianDefenseKasparovPetrosianVariationClassicalVariation_E12 ;
+      break;
+    case FenArrayType.SlavDefenseSoultanbeieffVariation_D16:
+      fenArray = fenSlavDefenseSoultanbeieffVariation_D16 ;
+      break;
+    case FenArrayType.QueensIndianDefenseYatesVariation_E16:
+      fenArray = fenQueensIndianDefenseYatesVariation_E16 ;
+      break;
+    case FenArrayType.RetiOpeningRetiGambit_A09:
+      fenArray = fenRetiOpeningRetiGambit_A09 ;
+      break;
+    case FenArrayType.SicilianDefenseNajdorfVariationPoisonedPawnAccepted_B97:
+      fenArray = fenSicilianDefenseNajdorfVariationPoisonedPawnAccepted_B97 ;
+      break;
+    case FenArrayType.SicilianDefenseScheveningenVariationFianchettoVariation_B80:
+      fenArray = fenSicilianDefenseScheveningenVariationFianchettoVariation_B80 ;
+      break;
+    case FenArrayType.SemiSlavDefenseMarshallGambitMainLine_D31:
+      fenArray = fenSemiSlavDefenseMarshallGambitMainLine_D31 ;
+      break;
+    case FenArrayType.SaragossaOpeningGeneral_A00:
+      fenArray = fenSaragossaOpeningGeneral_A00 ;
+      break;
+    case FenArrayType.PhilidorDefenseHanhamVariation_C41:
+      fenArray = fenPhilidorDefenseHanhamVariation_C41 ;
+      break;
+    case FenArrayType.ItalianGameClassicalVariationGeneral_C53:
+      fenArray = fenItalianGameClassicalVariationGeneral_C53 ;
+      break;
+    case FenArrayType.QueensGambitRefusedBalticDefense_D02:
+      fenArray = fenQueensGambitRefusedBalticDefense_D02 ;
+      break;
+    case FenArrayType.TrompowskyAttackEdgeVariation_A45:
+      fenArray = fenTrompowskyAttackEdgeVariation_A45 ;
+      break;
+    case FenArrayType.QueensGambitAcceptedAlekhineDefense_D22:
+      fenArray = fenQueensGambitAcceptedAlekhineDefense_D22 ;
+      break;
+    case FenArrayType.TarraschDefenseClassicalVariationAdvanceVariation_D34:
+      fenArray = fenTarraschDefenseClassicalVariationAdvanceVariation_D34 ;
+      break;
+    case FenArrayType.SicilianDefenseScheveningenVariationClassicalVariation_2_B84:
+      fenArray = fenSicilianDefenseScheveningenVariationClassicalVariation_2_B84 ;
+      break;
+    case FenArrayType.KingsIndianDefensePetrosianVariation_E92:
+      fenArray = fenKingsIndianDefensePetrosianVariation_E92 ;
+      break;
+    case FenArrayType.FrenchDefenseAdvanceVariationNimzowitschSystem_C02:
+      fenArray = fenFrenchDefenseAdvanceVariationNimzowitschSystem_C02 ;
+      break;
+    case FenArrayType.SicilianDefenseNajdorfVariation_B98:
+      fenArray = fenSicilianDefenseNajdorfVariation_B98 ;
+      break;
+    case FenArrayType.NimzoIndianDefenseNormalVariationBronsteinByrneVariation_E45:
+      fenArray = fenNimzoIndianDefenseNormalVariationBronsteinByrneVariation_E45 ;
+      break;
+    case FenArrayType.ScotchGameGeneral_C44:
+      fenArray = fenScotchGameGeneral_C44 ;
+      break;
+    case FenArrayType.QueensGambitDeclinedHarrwitzAttackOrthodoxDefense_D37:
+      fenArray = fenQueensGambitDeclinedHarrwitzAttackOrthodoxDefense_D37 ;
+      break;
+    case FenArrayType.GruenfeldDefenseRussianVariationHungarianVariation_D97:
+      fenArray = fenGruenfeldDefenseRussianVariationHungarianVariation_D97 ;
+      break;
+    case FenArrayType.NimzoIndianDefenseClassicalVariationNoaVariation_E36:
+      fenArray = fenNimzoIndianDefenseClassicalVariationNoaVariation_E36 ;
+      break;
+    case FenArrayType.RussianGameClassicalAttackChigorinVariationMainLine_C42:
+      fenArray = fenRussianGameClassicalAttackChigorinVariationMainLine_C42 ;
+      break;
+    case FenArrayType.AlekhineDefenseModernVariationLarsenVariation_B04:
+      fenArray = fenAlekhineDefenseModernVariationLarsenVariation_B04 ;
+      break;
+    case FenArrayType.SpanishGameClosedVariationsClosedDefense_1_C96:
+      fenArray = fenSpanishGameClosedVariationsClosedDefense_1_C96 ;
+      break;
+    case FenArrayType.SpanishGameMarshallAttackModernMainLine_C89:
+      fenArray = fenSpanishGameMarshallAttackModernMainLine_C89 ;
+      break;
+    case FenArrayType.PolishDefenseGeneral_A40:
+      fenArray = fenPolishDefenseGeneral_A40 ;
+      break;
+    case FenArrayType.QueensGambitDeclinedModernKnightDefense_2_D51:
+      fenArray = fenQueensGambitDeclinedModernKnightDefense_2_D51 ;
+      break;
+    case FenArrayType.SemiSlavDefenseMeranVariation_D48:
+      fenArray = fenSemiSlavDefenseMeranVariation_D48 ;
+      break;
+    case FenArrayType.KingsIndianDefenseFianchettoVariationYugoslavVariation_E65:
+      fenArray = fenKingsIndianDefenseFianchettoVariationYugoslavVariation_E65 ;
+      break;
+    case FenArrayType.BudapestDefenseFajarowiczVariation_A51:
+      fenArray = fenBudapestDefenseFajarowiczVariation_A51 ;
+      break;
+    case FenArrayType.CatalanOpeningOpenDefenseModernSharpVariation_E04:
+      fenArray = fenCatalanOpeningOpenDefenseModernSharpVariation_E04 ;
+      break;
+    case FenArrayType.AlekhineDefenseNormalVariation_B02:
+      fenArray = fenAlekhineDefenseNormalVariation_B02 ;
+      break;
+    case FenArrayType.SicilianDefenseKveinisVariation_B40:
+      fenArray = fenSicilianDefenseKveinisVariation_B40 ;
+      break;
+    case FenArrayType.QueensIndianDefenseClassicalVariation_E17:
+      fenArray = fenQueensIndianDefenseClassicalVariation_E17 ;
+      break;
+    case FenArrayType.FrenchDefenseAdvanceVariation_3_C02:
+      fenArray = fenFrenchDefenseAdvanceVariation_3_C02 ;
+      break;
+    case FenArrayType.SicilianDefenseScheveningenVariationDelayedKeresAttack_B81:
+      fenArray = fenSicilianDefenseScheveningenVariationDelayedKeresAttack_B81 ;
+      break;
+    case FenArrayType.BenoniDefenseFourPawnsAttackMainLine_A69:
+      fenArray = fenBenoniDefenseFourPawnsAttackMainLine_A69 ;
+      break;
+    case FenArrayType.RussianGameModernAttack_C43:
+      fenArray = fenRussianGameModernAttack_C43 ;
+      break;
+    case FenArrayType.NimzoIndianDefenseNormalVariationSchlechterDefense_E52:
+      fenArray = fenNimzoIndianDefenseNormalVariationSchlechterDefense_E52 ;
+      break;
+    case FenArrayType.KingsIndianDefenseAverbakhVariationGellerDefense_E73:
+      fenArray = fenKingsIndianDefenseAverbakhVariationGellerDefense_E73 ;
+      break;
+    case FenArrayType.QueensGambitDeclinedNormalDefense_D35:
+      fenArray = fenQueensGambitDeclinedNormalDefense_D35 ;
+      break;
+    case FenArrayType.FrenchDefenseQueensKnight_C00:
+      fenArray = fenFrenchDefenseQueensKnight_C00 ;
+      break;
+    case FenArrayType.SicilianDefenseDragonVariationYugoslavAttackEarlydeviations_B75:
+      fenArray = fenSicilianDefenseDragonVariationYugoslavAttackEarlydeviations_B75 ;
+      break;
+    case FenArrayType.GruenfeldDefenseThreeKnightsVariationBurilleVariationReversedTarrasch_D94:
+      fenArray = fenGruenfeldDefenseThreeKnightsVariationBurilleVariationReversedTarrasch_D94 ;
+      break;
+    case FenArrayType.ScandinavianDefenseLaskerVariation_B01:
+      fenArray = fenScandinavianDefenseLaskerVariation_B01 ;
+      break;
+    case FenArrayType.SicilianDefenseOKellyVariationMaroczyBindPaulsenLine_B28:
+      fenArray = fenSicilianDefenseOKellyVariationMaroczyBindPaulsenLine_B28 ;
+      break;
+    case FenArrayType.KingsIndianAttackPachmanSystem_A07:
+      fenArray = fenKingsIndianAttackPachmanSystem_A07 ;
+      break;
+    case FenArrayType.AlekhineDefenseFourPawnsAttack_B03:
+      fenArray = fenAlekhineDefenseFourPawnsAttack_B03 ;
+      break;
+    case FenArrayType.EnglishOpeningSymmetricalVariationTwoKnightsVariation_A35:
+      fenArray = fenEnglishOpeningSymmetricalVariationTwoKnightsVariation_A35 ;
+      break;
+    case FenArrayType.SicilianDefenseScheveningenVariationMatanovicAttack_B82:
+      fenArray = fenSicilianDefenseScheveningenVariationMatanovicAttack_B82 ;
+      break;
+    case FenArrayType.ItalianGameTwoKnightsDefensePolerioDefenseSuhleDefense_C59:
+      fenArray = fenItalianGameTwoKnightsDefensePolerioDefenseSuhleDefense_C59 ;
+      break;
+    case FenArrayType.EnglishOpeningKingsEnglishVariationGeneralVariation_A21:
+      fenArray = fenEnglishOpeningKingsEnglishVariationGeneralVariation_A21 ;
+      break;
+    case FenArrayType.SicilianDefenseModernVariationsMainLine_B57:
+      fenArray = fenSicilianDefenseModernVariationsMainLine_B57 ;
+      break;
+    case FenArrayType.SpanishGameMorphyDefenseModernSteinitzDefense_1_C75:
+      fenArray = fenSpanishGameMorphyDefenseModernSteinitzDefense_1_C75 ;
+      break;
+    case FenArrayType.SlavDefenseCzechVariationWiesbadenVariation_D17:
+      fenArray = fenSlavDefenseCzechVariationWiesbadenVariation_D17 ;
+      break;
+    case FenArrayType.SpanishGameBerlinDefenseBeverwijkVariation_C65:
+      fenArray = fenSpanishGameBerlinDefenseBeverwijkVariation_C65 ;
+      break;
+    case FenArrayType.SicilianDefenseKanVariation_B41:
+      fenArray = fenSicilianDefenseKanVariation_B41 ;
+      break;
+    case FenArrayType.CaroKannDefenseForgacsVariation_B15:
+      fenArray = fenCaroKannDefenseForgacsVariation_B15 ;
+      break;
+    case FenArrayType.SpanishGameSchliemannDefenseTartakowerVariation_C63:
+      fenArray = fenSpanishGameSchliemannDefenseTartakowerVariation_C63 ;
+      break;
+    case FenArrayType.SpanishGameClosedVariationsWorrallAttackCasltingline_C86:
+      fenArray = fenSpanishGameClosedVariationsWorrallAttackCasltingline_C86 ;
+      break;
+    case FenArrayType.NimzowitschDefenseGeneral_B00:
+      fenArray = fenNimzowitschDefenseGeneral_B00 ;
+      break;
+    case FenArrayType.SicilianDefenseDragonVariationClassicalVariationNormalLine_B74:
+      fenArray = fenSicilianDefenseDragonVariationClassicalVariationNormalLine_B74 ;
+      break;
+    case FenArrayType.SpanishGameClosedVariationsKeresDefense_1_C92:
+      fenArray = fenSpanishGameClosedVariationsKeresDefense_1_C92 ;
+      break;
+    case FenArrayType.QueensGambitAcceptedShowalterVariation_D24:
+      fenArray = fenQueensGambitAcceptedShowalterVariation_D24 ;
+      break;
+    case FenArrayType.TarraschDefenseClassicalVariationMainLine_D34:
+      fenArray = fenTarraschDefenseClassicalVariationMainLine_D34 ;
+      break;
+    case FenArrayType.SicilianDefenseDragonVariationModernBc4Variation_B35:
+      fenArray = fenSicilianDefenseDragonVariationModernBc4Variation_B35 ;
+      break;
+    case FenArrayType.EnglishOpeningKingsEnglishVariationFourKnightsVariationKorchnoiLine_A28:
+      fenArray = fenEnglishOpeningKingsEnglishVariationFourKnightsVariationKorchnoiLine_A28 ;
+      break;
+    case FenArrayType.QueensGambitDeclinedOrthodoxDefenseGeneral_D60:
+      fenArray = fenQueensGambitDeclinedOrthodoxDefenseGeneral_D60 ;
+      break;
+    case FenArrayType.EnglishOpeningSymmetricalVariationAntiBenoniVariationSpielmannDefense_A32:
+      fenArray = fenEnglishOpeningSymmetricalVariationAntiBenoniVariationSpielmannDefense_A32 ;
+      break;
+    case FenArrayType.FourKnightsGameItalianVariation_C50:
+      fenArray = fenFourKnightsGameItalianVariation_C50 ;
+      break;
+    case FenArrayType.IndianGameBudapestDefense_A51:
+      fenArray = fenIndianGameBudapestDefense_A51 ;
+      break;
+    case FenArrayType.RatDefenseAcceleratedGurgenidze_B07:
+      fenArray = fenRatDefenseAcceleratedGurgenidze_B07 ;
+      break;
+    case FenArrayType.KingsIndianDefenseAcceleratedAverbakhVariation_E70:
+      fenArray = fenKingsIndianDefenseAcceleratedAverbakhVariation_E70 ;
+      break;
+    case FenArrayType.RetiOpeningAngloSlavVariationBogoljubowVariationStonewallLine_A12:
+      fenArray = fenRetiOpeningAngloSlavVariationBogoljubowVariationStonewallLine_A12 ;
+      break;
+    case FenArrayType.PircDefenseClassicalVariationQuietSystemChigorinLine_B08:
+      fenArray = fenPircDefenseClassicalVariationQuietSystemChigorinLine_B08 ;
+      break;
+    case FenArrayType.PircDefenseKholmovSystem_B07:
+      fenArray = fenPircDefenseKholmovSystem_B07 ;
+      break;
+    case FenArrayType.QueensGambitAcceptedNormalVariation_D25:
+      fenArray = fenQueensGambitAcceptedNormalVariation_D25 ;
+      break;
+    case FenArrayType.PircDefenseAustrianAttack_2_B09:
+      fenArray = fenPircDefenseAustrianAttack_2_B09 ;
+      break;
+    case FenArrayType.ItalianGameDeutzGambit_C55:
+      fenArray = fenItalianGameDeutzGambit_C55 ;
+      break;
+    case FenArrayType.SpanishGameBerlinDefenseImprovedSteinitzDefense_C66:
+      fenArray = fenSpanishGameBerlinDefenseImprovedSteinitzDefense_C66 ;
+      break;
+    case FenArrayType.QueensGambitRefusedBalticDefensePseudoSlav_D02:
+      fenArray = fenQueensGambitRefusedBalticDefensePseudoSlav_D02 ;
+      break;
+    case FenArrayType.ZukertortOpeningOldIndianAttack_A06:
+      fenArray = fenZukertortOpeningOldIndianAttack_A06 ;
+      break;
+    case FenArrayType.ItalianGameGiuocoPianissimoCanalVariation_C50:
+      fenArray = fenItalianGameGiuocoPianissimoCanalVariation_C50 ;
+      break;
+    case FenArrayType.BishopsOpeningGeneral_C23:
+      fenArray = fenBishopsOpeningGeneral_C23 ;
+      break;
+    case FenArrayType.CaroKannDefenseAdvanceVariationBayonetAttack_B12:
+      fenArray = fenCaroKannDefenseAdvanceVariationBayonetAttack_B12 ;
+      break;
+    case FenArrayType.DutchDefenseClassicalVariationHuislVariation_A96:
+      fenArray = fenDutchDefenseClassicalVariationHuislVariation_A96 ;
+      break;
+    case FenArrayType.KadasOpeningGeneral_A00:
+      fenArray = fenKadasOpeningGeneral_A00 ;
+      break;
+    case FenArrayType.ViennaGameGeneral_C27:
+      fenArray = fenViennaGameGeneral_C27 ;
+      break;
+    case FenArrayType.FrenchDefenseMacCutcheonVariationLaskerVariation_2_C12:
+      fenArray = fenFrenchDefenseMacCutcheonVariationLaskerVariation_2_C12 ;
+      break;
+    case FenArrayType.CaroKannDefenseTwoKnightsAttackMindenoVariation_B11:
+      fenArray = fenCaroKannDefenseTwoKnightsAttackMindenoVariation_B11 ;
+      break;
+    case FenArrayType.SicilianDefenseDragonVariationClassicalVariation_1_B73:
+      fenArray = fenSicilianDefenseDragonVariationClassicalVariation_1_B73 ;
+      break;
+    case FenArrayType.SpanishGameMorphyDefenseModernSteinitzDefenseFianchettoVariation_C76:
+      fenArray = fenSpanishGameMorphyDefenseModernSteinitzDefenseFianchettoVariation_C76 ;
+      break;
+    case FenArrayType.SpanishGameOpenVariationsOpenVariation_C80:
+      fenArray = fenSpanishGameOpenVariationsOpenVariation_C80 ;
+      break;
+    case FenArrayType.GrobOpeningGeneral_A00:
+      fenArray = fenGrobOpeningGeneral_A00 ;
+      break;
+    case FenArrayType.SicilianDefenseOKellyVariationYerevanSystem_B28:
+      fenArray = fenSicilianDefenseOKellyVariationYerevanSystem_B28 ;
+      break;
+    case FenArrayType.CaroKannDefenseAcceleratedPanovAttack_1_B10:
+      fenArray = fenCaroKannDefenseAcceleratedPanovAttack_1_B10 ;
+      break;
+    case FenArrayType.SicilianDefenseDragonVariationClassicalVariationBatteryVariation_B73:
+      fenArray = fenSicilianDefenseDragonVariationClassicalVariationBatteryVariation_B73 ;
+      break;
+    case FenArrayType.SicilianDefenseDragonVariationLevenfishVariation_B71:
+      fenArray = fenSicilianDefenseDragonVariationLevenfishVariation_B71 ;
+      break;
+    case FenArrayType.QueensGambitAcceptedFurmanVariation_D27:
+      fenArray = fenQueensGambitAcceptedFurmanVariation_D27 ;
+      break;
+    case FenArrayType.ModernDefenseGurgenidzeDefense_B06:
+      fenArray = fenModernDefenseGurgenidzeDefense_B06 ;
+      break;
+    case FenArrayType.SpanishGameClassicalVariationCentralVariation_C64:
+      fenArray = fenSpanishGameClassicalVariationCentralVariation_C64 ;
+      break;
+    case FenArrayType.SicilianDefenseRichterRauzerVariationNeoModernVariation_B68:
+      fenArray = fenSicilianDefenseRichterRauzerVariationNeoModernVariation_B68 ;
+      break;
+    case FenArrayType.SpanishGameSchliemannDefenseDyckhoffVariation_C63:
+      fenArray = fenSpanishGameSchliemannDefenseDyckhoffVariation_C63 ;
+      break;
+    case FenArrayType.CaroKannDefenseTwoKnightsAttackMindenoVariationRetreatLine_B11:
+      fenArray = fenCaroKannDefenseTwoKnightsAttackMindenoVariationRetreatLine_B11 ;
+      break;
+    case FenArrayType.SpanishGameClosedVariationsAverbakhVariation_C87:
+      fenArray = fenSpanishGameClosedVariationsAverbakhVariation_C87 ;
+      break;
+    case FenArrayType.SpanishGameOpenVariationsMainLines_C80:
+      fenArray = fenSpanishGameOpenVariationsMainLines_C80 ;
+      break;
+    case FenArrayType.AlekhineDefenseMaroczyVariation_B02:
+      fenArray = fenAlekhineDefenseMaroczyVariation_B02 ;
+      break;
+    case FenArrayType.EnglishOpeningKingsEnglishVariationFourKnightsVariationGeneral_A28:
+      fenArray = fenEnglishOpeningKingsEnglishVariationFourKnightsVariationGeneral_A28 ;
+      break;
+    case FenArrayType.LionDefenseAntiPhilidorLionsCave_B07:
+      fenArray = fenLionDefenseAntiPhilidorLionsCave_B07 ;
+      break;
+    case FenArrayType.KingsIndianDefenseFianchettoVariationDebrecenDefense_E67:
+      fenArray = fenKingsIndianDefenseFianchettoVariationDebrecenDefense_E67 ;
+      break;
+    case FenArrayType.SicilianDefenseKanVariationSwissCheeseVariation_B42:
+      fenArray = fenSicilianDefenseKanVariationSwissCheeseVariation_B42 ;
+      break;
+    case FenArrayType.NimzoIndianDefenseSaemischVariationKeresVariation_E25:
+      fenArray = fenNimzoIndianDefenseSaemischVariationKeresVariation_E25 ;
+      break;
+    case FenArrayType.SlavDefenseAlekhineVariation_D15:
+      fenArray = fenSlavDefenseAlekhineVariation_D15 ;
+      break;
+    case FenArrayType.SicilianDefenseRichterRauzerVariationModernVariation_B60:
+      fenArray = fenSicilianDefenseRichterRauzerVariationModernVariation_B60 ;
+      break;
+    case FenArrayType.NimzoIndianDefenseNormalVariationRagozinVariation_E51:
+      fenArray = fenNimzoIndianDefenseNormalVariationRagozinVariation_E51 ;
+      break;
+    case FenArrayType.QueensIndianDefenseFianchettoTraditional_E15:
+      fenArray = fenQueensIndianDefenseFianchettoTraditional_E15 ;
+      break;
+    case FenArrayType.EnglishOpeningKingsEnglishVariationFourKnightsVariationQuietLine_2_A28:
+      fenArray = fenEnglishOpeningKingsEnglishVariationFourKnightsVariationQuietLine_2_A28 ;
+      break;
+    case FenArrayType.KingsIndianDefenseSaemischVariationClosedVariation7c6_E88:
+      fenArray = fenKingsIndianDefenseSaemischVariationClosedVariation7c6_E88 ;
+      break;
+    case FenArrayType.EnglishOpeningAngloIndianDefenseAngloGrunfeldVariation_2_A16:
+      fenArray = fenEnglishOpeningAngloIndianDefenseAngloGrunfeldVariation_2_A16 ;
+      break;
+    case FenArrayType.EnglishOpeningKingsEnglishVariationHungarianAttack_A25:
+      fenArray = fenEnglishOpeningKingsEnglishVariationHungarianAttack_A25 ;
+      break;
+    case FenArrayType.QueensGambitDeclinedNeoOrthodoxVariationMainLine_D55:
+      fenArray = fenQueensGambitDeclinedNeoOrthodoxVariationMainLine_D55 ;
+      break;
+    case FenArrayType.NimzoIndianDefenseClassicalVariationNoaVariationModernLine_E35:
+      fenArray = fenNimzoIndianDefenseClassicalVariationNoaVariationModernLine_E35 ;
+      break;
+    case FenArrayType.SemiSlavDefenseQuietVariation_2_D30:
+      fenArray = fenSemiSlavDefenseQuietVariation_2_D30 ;
+      break;
+    case FenArrayType.QueensIndianDefenseRiuminVariation_E16:
+      fenArray = fenQueensIndianDefenseRiuminVariation_E16 ;
+      break;
+    case FenArrayType.SicilianDefenseSmithMorraGambitAcceptedPaulsenFormation_B21:
+      fenArray = fenSicilianDefenseSmithMorraGambitAcceptedPaulsenFormation_B21 ;
+      break;
+    case FenArrayType.QueensIndianDefenseKasparovPetrosianVariationPetrosianAttack_E12:
+      fenArray = fenQueensIndianDefenseKasparovPetrosianVariationPetrosianAttack_E12 ;
+      break;
+    case FenArrayType.FrenchDefenseTarraschVariationGuimardDefense_C03:
+      fenArray = fenFrenchDefenseTarraschVariationGuimardDefense_C03 ;
+      break;
+    case FenArrayType.FrenchDefenseWinawerVariationAdvanceVariation_C19:
+      fenArray = fenFrenchDefenseWinawerVariationAdvanceVariation_C19 ;
+      break;
+    case FenArrayType.NeoGruenfeldDefenseExchangeVariationwith6e4_D72:
+      fenArray = fenNeoGruenfeldDefenseExchangeVariationwith6e4_D72 ;
+      break;
+    case FenArrayType.EnglishOpeningAngloIndianDefenseRomanishinGambit_A13:
+      fenArray = fenEnglishOpeningAngloIndianDefenseRomanishinGambit_A13 ;
+      break;
+    case FenArrayType.SpanishGameClosedVariationsSmyslovDefense_C93:
+      fenArray = fenSpanishGameClosedVariationsSmyslovDefense_C93 ;
+      break;
+    case FenArrayType.CaroKannDefenseStandardUnorthodoxReplies_B15:
+      fenArray = fenCaroKannDefenseStandardUnorthodoxReplies_B15 ;
+      break;
+    case FenArrayType.GruenfeldDefenseRussianVariation_D96:
+      fenArray = fenGruenfeldDefenseRussianVariation_D96 ;
+      break;
+    case FenArrayType.NimzoIndianDefenseHuebnerVariationMainLine_E41:
+      fenArray = fenNimzoIndianDefenseHuebnerVariationMainLine_E41 ;
+      break;
+    case FenArrayType.BlumenfeldCountergambitDusChotimurskyVariation_E10:
+      fenArray = fenBlumenfeldCountergambitDusChotimurskyVariation_E10 ;
+      break;
+    case FenArrayType.QueensGambitDeclinedHarrwitzAttackTwoKnightsDefenseBlockadeLine_D37:
+      fenArray = fenQueensGambitDeclinedHarrwitzAttackTwoKnightsDefenseBlockadeLine_D37 ;
+      break;
+    case FenArrayType.TarraschDefensePragueVariation_D33:
+      fenArray = fenTarraschDefensePragueVariation_D33 ;
+      break;
+    case FenArrayType.SicilianDefenseDragonVariationClassicalVariation_2_B73:
+      fenArray = fenSicilianDefenseDragonVariationClassicalVariation_2_B73 ;
+      break;
+    case FenArrayType.KingsGambitDeclinedClassicalVariation_C30:
+      fenArray = fenKingsGambitDeclinedClassicalVariation_C30 ;
+      break;
+    case FenArrayType.QueensGambitRefusedAlbinCountergambit_D08:
+      fenArray = fenQueensGambitRefusedAlbinCountergambit_D08 ;
+      break;
+    case FenArrayType.FrenchDefenseLaBourdonnaisVariation_C00:
+      fenArray = fenFrenchDefenseLaBourdonnaisVariation_C00 ;
+      break;
+    case FenArrayType.ScandinavianDefenseSchillerPytelVariation_B01:
+      fenArray = fenScandinavianDefenseSchillerPytelVariation_B01 ;
+      break;
+    case FenArrayType.SicilianDefensePaulsenBasmanDefense_B40:
+      fenArray = fenSicilianDefensePaulsenBasmanDefense_B40 ;
+      break;
+    case FenArrayType.EnglishOpeningAngloIndianDefenseAngloGrunfeldVariation_3_A16:
+      fenArray = fenEnglishOpeningAngloIndianDefenseAngloGrunfeldVariation_3_A16 ;
+      break;
+    case FenArrayType.OldIndianCzechVariation_A53:
+      fenArray = fenOldIndianCzechVariation_A53 ;
+      break;
+    case FenArrayType.ZukertortOpeningGrunfeldReversed_A49:
+      fenArray = fenZukertortOpeningGrunfeldReversed_A49 ;
+      break;
+    case FenArrayType.CaroKannDefenseModernVariation_B12:
+      fenArray = fenCaroKannDefenseModernVariation_B12 ;
+      break;
+    case FenArrayType.SicilianDefenseKatalimovVariation_B27:
+      fenArray = fenSicilianDefenseKatalimovVariation_B27 ;
+      break;
+    case FenArrayType.SlavDefenseSteinerVariation_D16:
+      fenArray = fenSlavDefenseSteinerVariation_D16 ;
+      break;
+    case FenArrayType.KingsIndianDefenseFianchettoVariationLongVariation_E68:
+      fenArray = fenKingsIndianDefenseFianchettoVariationLongVariation_E68 ;
+      break;
+    case FenArrayType.FourKnightsGameDoubleSpanish_C49:
+      fenArray = fenFourKnightsGameDoubleSpanish_C49 ;
+      break;
+    case FenArrayType.QueensGambitAcceptedMannheimVariation_D23:
+      fenArray = fenQueensGambitAcceptedMannheimVariation_D23 ;
+      break;
+    case FenArrayType.BenoniDefenseClassicalVariationCzerniakDefenseTalLine_A77:
+      fenArray = fenBenoniDefenseClassicalVariationCzerniakDefenseTalLine_A77 ;
+      break;
+    case FenArrayType.QueensIndianDefenseMilesVariation_E12:
+      fenArray = fenQueensIndianDefenseMilesVariation_E12 ;
+      break;
+    case FenArrayType.ElephantGambitGeneral_C40:
+      fenArray = fenElephantGambitGeneral_C40 ;
+      break;
+    case FenArrayType.SicilianDefenseGrandPrixAttackSchofmanVariation_B23:
+      fenArray = fenSicilianDefenseGrandPrixAttackSchofmanVariation_B23 ;
+      break;
+    case FenArrayType.CatalanOpeningClosedVariation_E07:
+      fenArray = fenCatalanOpeningClosedVariation_E07 ;
+      break;
+    case FenArrayType.SicilianDefenseLaskerPelikanVariationSchlechterVariation_B33:
+      fenArray = fenSicilianDefenseLaskerPelikanVariationSchlechterVariation_B33 ;
+      break;
+    case FenArrayType.EnglishOpeningSymmetricalVariationAntiBenoniVariationGellerVariation_A33:
+      fenArray = fenEnglishOpeningSymmetricalVariationAntiBenoniVariationGellerVariation_A33 ;
+      break;
+    case FenArrayType.SemiSlavDefenseBogoljubowVariation_D46:
+      fenArray = fenSemiSlavDefenseBogoljubowVariation_D46 ;
+      break;
+    case FenArrayType.AlekhineDefenseTwoPawnAttackLaskerVariation_B02:
+      fenArray = fenAlekhineDefenseTwoPawnAttackLaskerVariation_B02 ;
+      break;
+    case FenArrayType.FrenchDefenseTarraschVariationOpenSystemSuechtingLine_C07:
+      fenArray = fenFrenchDefenseTarraschVariationOpenSystemSuechtingLine_C07 ;
+      break;
+    case FenArrayType.BudapestDefenseGeneral_A52:
+      fenArray = fenBudapestDefenseGeneral_A52 ;
+      break;
+    case FenArrayType.CaroKannDefensePanovAttackFianchettoDefenseFianchettoGambit_B13:
+      fenArray = fenCaroKannDefensePanovAttackFianchettoDefenseFianchettoGambit_B13 ;
+      break;
+    case FenArrayType.SpanishGameMorphyDefenseCaroVariation_C70:
+      fenArray = fenSpanishGameMorphyDefenseCaroVariation_C70 ;
+      break;
+    case FenArrayType.ScotchGameHaxoGambit_C45:
+      fenArray = fenScotchGameHaxoGambit_C45 ;
+      break;
+    case FenArrayType.SpanishGameMorphyDefenseModernSteinitzDefense_1_C71:
+      fenArray = fenSpanishGameMorphyDefenseModernSteinitzDefense_1_C71 ;
+      break;
+    case FenArrayType.EnglishOpeningAngloIndianDefenseKingsIndianFormationDoubleFianchetto_A15:
+      fenArray = fenEnglishOpeningAngloIndianDefenseKingsIndianFormationDoubleFianchetto_A15 ;
+      break;
+    case FenArrayType.QueensGambitRefusedChigorinDefenseExchangeVariation_D07:
+      fenArray = fenQueensGambitRefusedChigorinDefenseExchangeVariation_D07 ;
+      break;
+    case FenArrayType.ViennaGameViennaGambitMainLine_C29:
+      fenArray = fenViennaGameViennaGambitMainLine_C29 ;
+      break;
+    case FenArrayType.QueensGambitDeclinedRagozinDefenseViennaVariation_D39:
+      fenArray = fenQueensGambitDeclinedRagozinDefenseViennaVariation_D39 ;
+      break;
+    case FenArrayType.SpanishGameOpenVariationsHowellAttack_C81:
+      fenArray = fenSpanishGameOpenVariationsHowellAttack_C81 ;
+      break;
+    case FenArrayType.CaroKannDefensePanovAttack_1_B13:
+      fenArray = fenCaroKannDefensePanovAttack_1_B13 ;
+      break;
+    case FenArrayType.PircDefenseAustrianAttackUnzickerAttack_B09:
+      fenArray = fenPircDefenseAustrianAttackUnzickerAttack_B09 ;
+      break;
+    case FenArrayType.KingsIndianDefenseSaemischVariationOrthodoxVariation_E85:
+      fenArray = fenKingsIndianDefenseSaemischVariationOrthodoxVariation_E85 ;
+      break;
+    case FenArrayType.IndianGameReversedChigorinDefense_A45:
+      fenArray = fenIndianGameReversedChigorinDefense_A45 ;
+      break;
+    case FenArrayType.EnglishOpeningAngloIndianDefenseAntiAntiGrunfeld_A17:
+      fenArray = fenEnglishOpeningAngloIndianDefenseAntiAntiGrunfeld_A17 ;
+      break;
+    case FenArrayType.OldIndianDefenseTartakowerIndian_A54:
+      fenArray = fenOldIndianDefenseTartakowerIndian_A54 ;
+      break;
+    case FenArrayType.CaroKannDefenseGoldmanVariation_B12:
+      fenArray = fenCaroKannDefenseGoldmanVariation_B12 ;
+      break;
+    case FenArrayType.QueensGambitAcceptedCentralVariationModernDefense_D20:
+      fenArray = fenQueensGambitAcceptedCentralVariationModernDefense_D20 ;
+      break;
+    case FenArrayType.NimzoIndianDefenseNormalVariationBernsteinDefenseExchangeLine_E58:
+      fenArray = fenNimzoIndianDefenseNormalVariationBernsteinDefenseExchangeLine_E58 ;
+      break;
+    case FenArrayType.RussianGameClassicalAttackMasonShowalterVariation_C42:
+      fenArray = fenRussianGameClassicalAttackMasonShowalterVariation_C42 ;
+      break;
+    case FenArrayType.CaroKannDefenseKarpovVariationSmyslovVariation_B17:
+      fenArray = fenCaroKannDefenseKarpovVariationSmyslovVariation_B17 ;
+      break;
+    case FenArrayType.KingsIndianDefenseKazakhVariation_E91:
+      fenArray = fenKingsIndianDefenseKazakhVariation_E91 ;
+      break;
+    case FenArrayType.FrenchDefenseWinawerVariationAlekhineGambitKanVariation_C15:
+      fenArray = fenFrenchDefenseWinawerVariationAlekhineGambitKanVariation_C15 ;
+      break;
+    case FenArrayType.KingsIndianDefenseLarsenVariation_E90:
+      fenArray = fenKingsIndianDefenseLarsenVariation_E90 ;
+      break;
+    case FenArrayType.QueensGambitAcceptedGunsbergDefense_D21:
+      fenArray = fenQueensGambitAcceptedGunsbergDefense_D21 ;
+      break;
+    case FenArrayType.NimzoIndianDefenseNormalVariationGligoricSystemBronsteinVariation_E55:
+      fenArray = fenNimzoIndianDefenseNormalVariationGligoricSystemBronsteinVariation_E55 ;
+      break;
+    case FenArrayType.QueensIndianDefenseClassicalVariationPolugayevskyGambit_E17:
+      fenArray = fenQueensIndianDefenseClassicalVariationPolugayevskyGambit_E17 ;
+      break;
+    case FenArrayType.SicilianDefenseWingGambit_B20:
+      fenArray = fenSicilianDefenseWingGambit_B20 ;
+      break;
+    case FenArrayType.IndianGameDzindziIndianDefense_E10:
+      fenArray = fenIndianGameDzindziIndianDefense_E10 ;
+      break;
+    case FenArrayType.SicilianDefenseNajdorfVariationTraditionalLine_B98:
+      fenArray = fenSicilianDefenseNajdorfVariationTraditionalLine_B98 ;
+      break;
+    case FenArrayType.SicilianDefenseWingGambitMarshallVariation_B20:
+      fenArray = fenSicilianDefenseWingGambitMarshallVariation_B20 ;
+      break;
+    case FenArrayType.DutchDefenseClassicalVariationGeneral_A96:
+      fenArray = fenDutchDefenseClassicalVariationGeneral_A96 ;
+      break;
+    case FenArrayType.TarraschDefenseGeneral_D32:
+      fenArray = fenTarraschDefenseGeneral_D32 ;
+      break;
+    case FenArrayType.ModernDefenseBeefeaterVariation_A40:
+      fenArray = fenModernDefenseBeefeaterVariation_A40 ;
+      break;
+    case FenArrayType.PhilidorDefenseLionVariationShirovGambit_C41:
+      fenArray = fenPhilidorDefenseLionVariationShirovGambit_C41 ;
+      break;
+    case FenArrayType.SicilianDefenseClassicalVariation_B58:
+      fenArray = fenSicilianDefenseClassicalVariation_B58 ;
+      break;
+    case FenArrayType.CaroKannDefenseKarpovVariationModernVariation_B17:
+      fenArray = fenCaroKannDefenseKarpovVariationModernVariation_B17 ;
+      break;
+    case FenArrayType.ItalianGameTwoKnightsDefense_1_C55:
+      fenArray = fenItalianGameTwoKnightsDefense_1_C55 ;
+      break;
+    case FenArrayType.QueensGambitDeclinedAntiTartakowerVariation_D55:
+      fenArray = fenQueensGambitDeclinedAntiTartakowerVariation_D55 ;
+      break;
+    case FenArrayType.KingsGambitAcceptedFischerDefense_C34:
+      fenArray = fenKingsGambitAcceptedFischerDefense_C34 ;
+      break;
+    case FenArrayType.FrenchDefenseAlekhineChatardAttack_C13:
+      fenArray = fenFrenchDefenseAlekhineChatardAttack_C13 ;
+      break;
+    case FenArrayType.PircDefenseAustrianAttackKurajicaVariation_B09:
+      fenArray = fenPircDefenseAustrianAttackKurajicaVariation_B09 ;
+      break;
+    case FenArrayType.SpanishGameOpenVariationsClassicalDefense_C83:
+      fenArray = fenSpanishGameOpenVariationsClassicalDefense_C83 ;
+      break;
+    case FenArrayType.SpanishGameMorphyDefenseBayreuthVariation_C77:
+      fenArray = fenSpanishGameMorphyDefenseBayreuthVariation_C77 ;
+      break;
+    case FenArrayType.SicilianDefenseOKellyVariationMaroczyBind_B28:
+      fenArray = fenSicilianDefenseOKellyVariationMaroczyBind_B28 ;
+      break;
+    case FenArrayType.NimzowitschDefenseScandinavianVariationExchangeVariation_B00:
+      fenArray = fenNimzowitschDefenseScandinavianVariationExchangeVariation_B00 ;
+      break;
+    case FenArrayType.SicilianDefensePaulsenVariationModernLine_B44:
+      fenArray = fenSicilianDefensePaulsenVariationModernLine_B44 ;
+      break;
+    case FenArrayType.ZukertortOpeningSlavInvitation_A04:
+      fenArray = fenZukertortOpeningSlavInvitation_A04 ;
+      break;
+    case FenArrayType.QueenPawnGameVeresovAttackTwoKnightsSystem_D01:
+      fenArray = fenQueenPawnGameVeresovAttackTwoKnightsSystem_D01 ;
+      break;
+    case FenArrayType.RatDefenseHarmonist_B07:
+      fenArray = fenRatDefenseHarmonist_B07 ;
+      break;
+    case FenArrayType.BirdOpeningFromGambit_A02:
+      fenArray = fenBirdOpeningFromGambit_A02 ;
+      break;
+    case FenArrayType.EnglishOpeningAgincourtDefenseKeresDefense_A14:
+      fenArray = fenEnglishOpeningAgincourtDefenseKeresDefense_A14 ;
+      break;
+    case FenArrayType.ItalianGameAntiFriedLiverDefense_C55:
+      fenArray = fenItalianGameAntiFriedLiverDefense_C55 ;
+      break;
+    case FenArrayType.SicilianDefenseFrenchVariationOpen_B40:
+      fenArray = fenSicilianDefenseFrenchVariationOpen_B40 ;
+      break;
+    case FenArrayType.ItalianGameTwoKnightsDefensePolerioDefenseBogoljubowVariation_C58:
+      fenArray = fenItalianGameTwoKnightsDefensePolerioDefenseBogoljubowVariation_C58 ;
+      break;
+    case FenArrayType.ViennaGameAnderssenDefense_C25:
+      fenArray = fenViennaGameAnderssenDefense_C25 ;
+      break;
+    case FenArrayType.QueensIndianDefenseOpocenskyVariation_E17:
+      fenArray = fenQueensIndianDefenseOpocenskyVariation_E17 ;
+      break;
+    case FenArrayType.QueensGambitAcceptedClassicalDefense_D26:
+      fenArray = fenQueensGambitAcceptedClassicalDefense_D26 ;
+      break;
+    case FenArrayType.SlavDefenseGellerGambit_1_D15:
+      fenArray = fenSlavDefenseGellerGambit_1_D15 ;
+      break;
+    case FenArrayType.EnglishOpeningAngloIndianDefenseFlohrMikenasCarlsVariationNeiGambit_A19:
+      fenArray = fenEnglishOpeningAngloIndianDefenseFlohrMikenasCarlsVariationNeiGambit_A19 ;
+      break;
+    case FenArrayType.EnglishOpeningKingsEnglishVariationBotvinnikSystem_A26:
+      fenArray = fenEnglishOpeningKingsEnglishVariationBotvinnikSystem_A26 ;
+      break;
+    case FenArrayType.SemiSlavDefenseMarshallGambit_D31:
+      fenArray = fenSemiSlavDefenseMarshallGambit_D31 ;
+      break;
+    case FenArrayType.QueensIndianDefenseGeneral_E12:
+      fenArray = fenQueensIndianDefenseGeneral_E12 ;
+      break;
+    case FenArrayType.KingsIndianDefenseSaemischVariation_E86:
+      fenArray = fenKingsIndianDefenseSaemischVariation_E86 ;
+      break;
+    case FenArrayType.NeoGruenfeldDefenseExchangeVariation_D71:
+      fenArray = fenNeoGruenfeldDefenseExchangeVariation_D71 ;
+      break;
+    case FenArrayType.SicilianDefenseRichterRauzerVariation_B62:
+      fenArray = fenSicilianDefenseRichterRauzerVariation_B62 ;
+      break;
+    case FenArrayType.PhilidorDefenseExchangeVariation_2_C41:
+      fenArray = fenPhilidorDefenseExchangeVariation_2_C41 ;
+      break;
+    case FenArrayType.PhilidorDefenseGeneral_2_C41:
+      fenArray = fenPhilidorDefenseGeneral_2_C41 ;
+      break;
+    case FenArrayType.SemiSlavDefenseBotvinnikSystemLilienthalVariation_D44:
+      fenArray = fenSemiSlavDefenseBotvinnikSystemLilienthalVariation_D44 ;
+      break;
+    case FenArrayType.DutchDefenseNormalVariation_A84:
+      fenArray = fenDutchDefenseNormalVariation_A84 ;
+      break;
+    case FenArrayType.RussianGameKaufmannAttack_C42:
+      fenArray = fenRussianGameKaufmannAttack_C42 ;
+      break;
+    case FenArrayType.ScandinavianDefenseIcelandicPalmeGambit_B01:
+      fenArray = fenScandinavianDefenseIcelandicPalmeGambit_B01 ;
+      break;
+    case FenArrayType.FrenchDefenseTarraschVariationBotvinnikVariation_C05:
+      fenArray = fenFrenchDefenseTarraschVariationBotvinnikVariation_C05 ;
+      break;
+    case FenArrayType.SlavDefenseCzechVariationCarlsbadVariation_D17:
+      fenArray = fenSlavDefenseCzechVariationCarlsbadVariation_D17 ;
+      break;
+    case FenArrayType.BenoniDefenseModernVariationSnakeVariation_A60:
+      fenArray = fenBenoniDefenseModernVariationSnakeVariation_A60 ;
+      break;
+    case FenArrayType.ViennaGameViennaGambit_C28:
+      fenArray = fenViennaGameViennaGambit_C28 ;
+      break;
+    case FenArrayType.NimzoIndianDefenseSimaginVariation_E46:
+      fenArray = fenNimzoIndianDefenseSimaginVariation_E46 ;
+      break;
+    case FenArrayType.SicilianDefenseRichterRauzerVariationNeoModernVariationNyezhmetdinovAttack_B69:
+      fenArray = fenSicilianDefenseRichterRauzerVariationNeoModernVariationNyezhmetdinovAttack_B69 ;
+      break;
+    case FenArrayType.RetiOpeningAngloSlavVariationNewYorkSystem_A12:
+      fenArray = fenRetiOpeningAngloSlavVariationNewYorkSystem_A12 ;
+      break;
+    case FenArrayType.NimzowitschDefenseKennedyVariationLinksspringerVariation_B00:
+      fenArray = fenNimzowitschDefenseKennedyVariationLinksspringerVariation_B00 ;
+      break;
+    case FenArrayType.BenoniDefenseFrancoSicilianDefense_A43:
+      fenArray = fenBenoniDefenseFrancoSicilianDefense_A43 ;
+      break;
+    case FenArrayType.CaroKannDefenseAdvanceVariationVanderWielAttackBishopHunt_B12:
+      fenArray = fenCaroKannDefenseAdvanceVariationVanderWielAttackBishopHunt_B12 ;
+      break;
+    case FenArrayType.DutchDefenseClassicalVariationBuenosAiresVariation_A96:
+      fenArray = fenDutchDefenseClassicalVariationBuenosAiresVariation_A96 ;
+      break;
+    case FenArrayType.SicilianDefensePinVariationKochVariation_B40:
+      fenArray = fenSicilianDefensePinVariationKochVariation_B40 ;
+      break;
+    case FenArrayType.FourKnightsGameScotchVariationBelgradeGambit_C47:
+      fenArray = fenFourKnightsGameScotchVariationBelgradeGambit_C47 ;
+      break;
+    case FenArrayType.ModernDefenseLizardDefenseMittenbergerGambit_B06:
+      fenArray = fenModernDefenseLizardDefenseMittenbergerGambit_B06 ;
+      break;
+    case FenArrayType.EnglundGambitComplexEnglundGambit_A40:
+      fenArray = fenEnglundGambitComplexEnglundGambit_A40 ;
+      break;
+    case FenArrayType.ItalianGameClassicalVariationCenterAtttack_C53:
+      fenArray = fenItalianGameClassicalVariationCenterAtttack_C53 ;
+      break;
+    case FenArrayType.FrenchDefenseClassicalVariationBurnVariationMainLine_C11:
+      fenArray = fenFrenchDefenseClassicalVariationBurnVariationMainLine_C11 ;
+      break;
+    case FenArrayType.AlekhineDefenseModernVariationSchmidVariation_B04:
+      fenArray = fenAlekhineDefenseModernVariationSchmidVariation_B04 ;
+      break;
+    case FenArrayType.QueensIndianDefenseAntiQueensIndianSystem_E17:
+      fenArray = fenQueensIndianDefenseAntiQueensIndianSystem_E17 ;
+      break;
+    case FenArrayType.KingsIndianDefenseFianchettoVariationYugoslavSystemwoNc3_E64:
+      fenArray = fenKingsIndianDefenseFianchettoVariationYugoslavSystemwoNc3_E64 ;
+      break;
+    case FenArrayType.SicilianDefenseAcceleratedDragonExchangeVariation_B34:
+      fenArray = fenSicilianDefenseAcceleratedDragonExchangeVariation_B34 ;
+      break;
+    case FenArrayType.IndianGamePolishVariation_A46:
+      fenArray = fenIndianGamePolishVariation_A46 ;
+      break;
+    case FenArrayType.SemiSlavDefenseMeranVariationReynoldsVariation_D48:
+      fenArray = fenSemiSlavDefenseMeranVariationReynoldsVariation_D48 ;
+      break;
+    case FenArrayType.QueensGambitDeclinedOrthodoxDefenseMainLine_2_D63:
+      fenArray = fenQueensGambitDeclinedOrthodoxDefenseMainLine_2_D63 ;
+      break;
+    case FenArrayType.QueensGambitDeclinedOrthodoxDefenseHennegergerVariation_D63:
+      fenArray = fenQueensGambitDeclinedOrthodoxDefenseHennegergerVariation_D63 ;
+      break;
+    case FenArrayType.SemiSlavDefenseAccepted_D44:
+      fenArray = fenSemiSlavDefenseAccepted_D44 ;
+      break;
+    case FenArrayType.BenoniDefenseBenoniGambitAccepted_A43:
+      fenArray = fenBenoniDefenseBenoniGambitAccepted_A43 ;
+      break;
+    case FenArrayType.BenkoGambitZaitsevSystem_A58:
+      fenArray = fenBenkoGambitZaitsevSystem_A58 ;
+      break;
+    case FenArrayType.CaroKannDefenseAdvanceVariationBronsteinVariation_B12:
+      fenArray = fenCaroKannDefenseAdvanceVariationBronsteinVariation_B12 ;
+      break;
+    case FenArrayType.RatDefenseAntalDefense_B07:
+      fenArray = fenRatDefenseAntalDefense_B07 ;
+      break;
+    case FenArrayType.QueensGambitDeclinedExchangeVariationSaemischVariation_D35:
+      fenArray = fenQueensGambitDeclinedExchangeVariationSaemischVariation_D35 ;
+      break;
+    case FenArrayType.PolishOpeningCzechDefense_A00:
+      fenArray = fenPolishOpeningCzechDefense_A00 ;
+      break;
+    case FenArrayType.QueensGambitDeclinedCapablancaGeneral_D30:
+      fenArray = fenQueensGambitDeclinedCapablancaGeneral_D30 ;
+      break;
+    case FenArrayType.GruenfeldDefenseExchangeVariationSpasskyVariation_D88:
+      fenArray = fenGruenfeldDefenseExchangeVariationSpasskyVariation_D88 ;
+      break;
+    case FenArrayType.NimzoIndianDefenseSaemischVariation_E25:
+      fenArray = fenNimzoIndianDefenseSaemischVariation_E25 ;
+      break;
+    case FenArrayType.ScotchGameScotchGambitGoringGambitDeclined_C44:
+      fenArray = fenScotchGameScotchGambitGoringGambitDeclined_C44 ;
+      break;
+    case FenArrayType.GruenfeldDefenseRussianVariationPrinsVariation_D97:
+      fenArray = fenGruenfeldDefenseRussianVariationPrinsVariation_D97 ;
+      break;
+    case FenArrayType.KingsIndianDefensePetrosianVariationNormalDefense_E93:
+      fenArray = fenKingsIndianDefensePetrosianVariationNormalDefense_E93 ;
+      break;
+    case FenArrayType.KingsIndianDefenseSaemischVariationDoubleFianchetto_E82:
+      fenArray = fenKingsIndianDefenseSaemischVariationDoubleFianchetto_E82 ;
+      break;
+    case FenArrayType.SicilianDefenseDragonVariationYugoslavAttackMainLine_B77:
+      fenArray = fenSicilianDefenseDragonVariationYugoslavAttackMainLine_B77 ;
+      break;
+    case FenArrayType.TorreAttackFianchettoDefenseEuweVariation_A48:
+      fenArray = fenTorreAttackFianchettoDefenseEuweVariation_A48 ;
+      break;
+    case FenArrayType.ItalianGameClassicalVariationGrecoGambitMoellerTherkatzAttack_C54:
+      fenArray = fenItalianGameClassicalVariationGrecoGambitMoellerTherkatzAttack_C54 ;
+      break;
+    case FenArrayType.SicilianDefenseAlapinVariationBarmenDefenseCentralExchange_B22:
+      fenArray = fenSicilianDefenseAlapinVariationBarmenDefenseCentralExchange_B22 ;
+      break;
+    case FenArrayType.FrenchDefenseClassicalVariationDelayedExchangeVariation_C11:
+      fenArray = fenFrenchDefenseClassicalVariationDelayedExchangeVariation_C11 ;
+      break;
+    case FenArrayType.SpanishGameMarshallAttackModernVariation_C89:
+      fenArray = fenSpanishGameMarshallAttackModernVariation_C89 ;
+      break;
+    case FenArrayType.EnglishOpeningSymmetricalVariationBotvinnikSystemReversed_A36:
+      fenArray = fenEnglishOpeningSymmetricalVariationBotvinnikSystemReversed_A36 ;
+      break;
+    case FenArrayType.BenkoGambitDeclinedQuietLine_A57:
+      fenArray = fenBenkoGambitDeclinedQuietLine_A57 ;
+      break;
+    case FenArrayType.QueensIndianDefenseKasparovPetrosianVariationHedgehogVariation_E17:
+      fenArray = fenQueensIndianDefenseKasparovPetrosianVariationHedgehogVariation_E17 ;
+      break;
+    case FenArrayType.RussianGameClassicalAttackChigorinVariation_C42:
+      fenArray = fenRussianGameClassicalAttackChigorinVariation_C42 ;
+      break;
+    case FenArrayType.TarraschDefenseClassicalVariationCarlsbadVariation_D34:
+      fenArray = fenTarraschDefenseClassicalVariationCarlsbadVariation_D34 ;
+      break;
+    case FenArrayType.SicilianDefenseRichterRauzerVariationClassicalVariation_B64:
+      fenArray = fenSicilianDefenseRichterRauzerVariationClassicalVariation_B64 ;
+      break;
+    case FenArrayType.AlekhineDefenseBaloghVariation_B03:
+      fenArray = fenAlekhineDefenseBaloghVariation_B03 ;
+      break;
+    case FenArrayType.QueensGambitDeclinedHarrwitzAttack_D35:
+      fenArray = fenQueensGambitDeclinedHarrwitzAttack_D35 ;
+      break;
+    case FenArrayType.SicilianDefensePrinsVariationVeniceAttack_B55:
+      fenArray = fenSicilianDefensePrinsVariationVeniceAttack_B55 ;
+      break;
+    case FenArrayType.KingsGambitGeneral_C30:
+      fenArray = fenKingsGambitGeneral_C30 ;
+      break;
+    case FenArrayType.EnglishOpeningKingsEnglishVariationTrogerDefense_A21:
+      fenArray = fenEnglishOpeningKingsEnglishVariationTrogerDefense_A21 ;
+      break;
+    case FenArrayType.ThreeKnightsOpeningSteinitzDefense_C46:
+      fenArray = fenThreeKnightsOpeningSteinitzDefense_C46 ;
+      break;
+    case FenArrayType.NimzoLarsenAttackSymmetricalVariation_A01:
+      fenArray = fenNimzoLarsenAttackSymmetricalVariation_A01 ;
+      break;
+    case FenArrayType.SicilianDefenseModernVariations_B56:
+      fenArray = fenSicilianDefenseModernVariations_B56 ;
+      break;
+    case FenArrayType.SlavDefenseGellerGambit_2_D15:
+      fenArray = fenSlavDefenseGellerGambit_2_D15 ;
+      break;
+    case FenArrayType.BlumenfeldCountergambitGeneral_E10:
+      fenArray = fenBlumenfeldCountergambitGeneral_E10 ;
+      break;
+    case FenArrayType.KingsIndianDefenseFianchettoVariationDoubleFianchettoAttack_E64:
+      fenArray = fenKingsIndianDefenseFianchettoVariationDoubleFianchettoAttack_E64 ;
+      break;
+    case FenArrayType.PonzianiOpeningGeneral_C44:
+      fenArray = fenPonzianiOpeningGeneral_C44 ;
+      break;
+    case FenArrayType.KingsKnightOpeningNormalVariation_C44:
+      fenArray = fenKingsKnightOpeningNormalVariation_C44 ;
+      break;
+    case FenArrayType.QueensIndianDefenseKasparovPetrosianVariationAnderssonVariation_E12:
+      fenArray = fenQueensIndianDefenseKasparovPetrosianVariationAnderssonVariation_E12 ;
+      break;
+    case FenArrayType.SpanishGameMorphyDefenseNorwegianVariation_C70:
+      fenArray = fenSpanishGameMorphyDefenseNorwegianVariation_C70 ;
+      break;
+    case FenArrayType.CatalanOpeningOpenDefenseClassicalLine_E05:
+      fenArray = fenCatalanOpeningOpenDefenseClassicalLine_E05 ;
+      break;
+    case FenArrayType.CaroKannDefenseAcceleratedPanovAttack_2_B10:
+      fenArray = fenCaroKannDefenseAcceleratedPanovAttack_2_B10 ;
+      break;
+    case FenArrayType.QueensGambitRefusedChigorinDefenseModernGambit_D06:
+      fenArray = fenQueensGambitRefusedChigorinDefenseModernGambit_D06 ;
+      break;
+    case FenArrayType.SicilianDefenseLaskerPelikanVariationRetreatVariation_B33:
+      fenArray = fenSicilianDefenseLaskerPelikanVariationRetreatVariation_B33 ;
+      break;
+    case FenArrayType.SpanishGameClosedVariationsWorrallAttackDelayedcastlingline_C86:
+      fenArray = fenSpanishGameClosedVariationsWorrallAttackDelayedcastlingline_C86 ;
+      break;
+    case FenArrayType.KangarooDefenseKeresDefenseTranspositionalVariation_E00:
+      fenArray = fenKangarooDefenseKeresDefenseTranspositionalVariation_E00 ;
+      break;
+    case FenArrayType.SicilianDefensePinVariation_B40:
+      fenArray = fenSicilianDefensePinVariation_B40 ;
+      break;
+    case FenArrayType.GruenfeldDefenseSmyslovDefense_D94:
+      fenArray = fenGruenfeldDefenseSmyslovDefense_D94 ;
+      break;
+    case FenArrayType.NimzoIndianDefenseNormalVariationGligoricSystemBernsteinDefense_E56:
+      fenArray = fenNimzoIndianDefenseNormalVariationGligoricSystemBernsteinDefense_E56 ;
+      break;
+    case FenArrayType.TarraschDefenseClassicalVariationRetiVariation_D34:
+      fenArray = fenTarraschDefenseClassicalVariationRetiVariation_D34 ;
+      break;
+    case FenArrayType.QueensGambitAcceptedClassicalDefenseAlekhineSystemMainLine_D29:
+      fenArray = fenQueensGambitAcceptedClassicalDefenseAlekhineSystemMainLine_D29 ;
+      break;
+    case FenArrayType.PhilidorDefenseLarsenVariation_C41:
+      fenArray = fenPhilidorDefenseLarsenVariation_C41 ;
+      break;
+    case FenArrayType.EnglishOpeningAgincourtDefenseTarraschDefense_A14:
+      fenArray = fenEnglishOpeningAgincourtDefenseTarraschDefense_A14 ;
+      break;
+    case FenArrayType.ViennaGameViennaGambitPaulsenAttack_C29:
+      fenArray = fenViennaGameViennaGambitPaulsenAttack_C29 ;
+      break;
+    case FenArrayType.NimzoIndianDefenseHuebnerVariationRubinsteinVariationMainLine_E42:
+      fenArray = fenNimzoIndianDefenseHuebnerVariationRubinsteinVariationMainLine_E42 ;
+      break;
+    case FenArrayType.SpanishGameClassicalVariationZukertortGambit_C64:
+      fenArray = fenSpanishGameClassicalVariationZukertortGambit_C64 ;
+      break;
+    case FenArrayType.PircDefenseBayonetAttack_B07:
+      fenArray = fenPircDefenseBayonetAttack_B07 ;
+      break;
+    case FenArrayType.SicilianDefenseNimzowitschVariationExchangeVariation_B29:
+      fenArray = fenSicilianDefenseNimzowitschVariationExchangeVariation_B29 ;
+      break;
+    case FenArrayType.KingsIndianDefenseFianchettoVariationBenjaminDefense_E61:
+      fenArray = fenKingsIndianDefenseFianchettoVariationBenjaminDefense_E61 ;
+      break;
+    case FenArrayType.BenoniDefenseKingsIndianSystem_A56:
+      fenArray = fenBenoniDefenseKingsIndianSystem_A56 ;
+      break;
+    case FenArrayType.BlumenfeldCountergambitAccepted_E10:
+      fenArray = fenBlumenfeldCountergambitAccepted_E10 ;
+      break;
+    case FenArrayType.IndianGameSeirawanAttack_E00:
+      fenArray = fenIndianGameSeirawanAttack_E00 ;
+      break;
+    case FenArrayType.PterodactylDefenseEasternBenoni_B06:
+      fenArray = fenPterodactylDefenseEasternBenoni_B06 ;
+      break;
+    case FenArrayType.KingsIndianDefenseOrthodoxVariationDonnerDefense_E94:
+      fenArray = fenKingsIndianDefenseOrthodoxVariationDonnerDefense_E94 ;
+      break;
+    case FenArrayType.QueensGambitDeclinedSemiTarraschDefenseMainLine_D42:
+      fenArray = fenQueensGambitDeclinedSemiTarraschDefenseMainLine_D42 ;
+      break;
+    case FenArrayType.SpanishGameClosedVariationsChigorinDefense_1_C98:
+      fenArray = fenSpanishGameClosedVariationsChigorinDefense_1_C98 ;
+      break;
+    case FenArrayType.PterodactylDefenseWesternRhamporhynchus_B06:
+      fenArray = fenPterodactylDefenseWesternRhamporhynchus_B06 ;
+      break;
+    case FenArrayType.QueensGambitRefusedAlbinCountergambitFianchettoVariation_D09:
+      fenArray = fenQueensGambitRefusedAlbinCountergambitFianchettoVariation_D09 ;
+      break;
+    case FenArrayType.SicilianDefenseScheveningenVariationEnglishAttack_2_B80:
+      fenArray = fenSicilianDefenseScheveningenVariationEnglishAttack_2_B80 ;
+      break;
+    case FenArrayType.AlekhineDefenseModernVariationLarsenHaakertVariation_B04:
+      fenArray = fenAlekhineDefenseModernVariationLarsenHaakertVariation_B04 ;
+      break;
+    case FenArrayType.SicilianDefenseNimzowitschVariationMainLine_B29:
+      fenArray = fenSicilianDefenseNimzowitschVariationMainLine_B29 ;
+      break;
+    case FenArrayType.ZukertortOpeningPolishDefense_A04:
+      fenArray = fenZukertortOpeningPolishDefense_A04 ;
+      break;
+    case FenArrayType.EnglishOpeningSymmetricalVariationFianchettoVariation_A36:
+      fenArray = fenEnglishOpeningSymmetricalVariationFianchettoVariation_A36 ;
+      break;
+    case FenArrayType.SlavDefenseCzechVariationCarlsbadVariationMorozevichVariation_D17:
+      fenArray = fenSlavDefenseCzechVariationCarlsbadVariationMorozevichVariation_D17 ;
+      break;
+    case FenArrayType.FourKnightsGameSpanishVariationRubinsteinVariationAccepted_C48:
+      fenArray = fenFourKnightsGameSpanishVariationRubinsteinVariationAccepted_C48 ;
+      break;
+    case FenArrayType.SicilianDefenseCanalAttackHaagGambit_B51:
+      fenArray = fenSicilianDefenseCanalAttackHaagGambit_B51 ;
+      break;
+    case FenArrayType.SpanishGameMarshallAttackGeneral_C89:
+      fenArray = fenSpanishGameMarshallAttackGeneral_C89 ;
+      break;
+    case FenArrayType.RussianGameMilleniumAttack_C42:
+      fenArray = fenRussianGameMilleniumAttack_C42 ;
+      break;
+    case FenArrayType.GruenfeldDefenseRussianVariationByrneSimaginVariation_D97:
+      fenArray = fenGruenfeldDefenseRussianVariationByrneSimaginVariation_D97 ;
+      break;
+    case FenArrayType.SpanishGameClosedVariationsZaitsevSystem_C92:
+      fenArray = fenSpanishGameClosedVariationsZaitsevSystem_C92 ;
+      break;
+    case FenArrayType.PircDefense150AttackSveshnikovJansaAttack_B07:
+      fenArray = fenPircDefense150AttackSveshnikovJansaAttack_B07 ;
+      break;
+    case FenArrayType.FourKnightsGameSpanishVariation_C49:
+      fenArray = fenFourKnightsGameSpanishVariation_C49 ;
+      break;
+    case FenArrayType.QueensGambitDeclinedSemiTarraschDefensePillsburyVariation_D41:
+      fenArray = fenQueensGambitDeclinedSemiTarraschDefensePillsburyVariation_D41 ;
+      break;
+    case FenArrayType.SicilianDefenseRichterRauzerVariationVitolinsVariation_B62:
+      fenArray = fenSicilianDefenseRichterRauzerVariationVitolinsVariation_B62 ;
+      break;
+    case FenArrayType.SicilianDefenseFlohrVariation_B32:
+      fenArray = fenSicilianDefenseFlohrVariation_B32 ;
+      break;
+    case FenArrayType.EnglishOpeningAngloIndianDefenseQueensIndianFormation_A17:
+      fenArray = fenEnglishOpeningAngloIndianDefenseQueensIndianFormation_A17 ;
+      break;
+    case FenArrayType.ElephantGambitPaulsenCountergambit_C40:
+      fenArray = fenElephantGambitPaulsenCountergambit_C40 ;
+      break;
+    case FenArrayType.RussianGamePaulsenAttack_C42:
+      fenArray = fenRussianGamePaulsenAttack_C42 ;
+      break;
+    case FenArrayType.CaroKannDefensePanovAttackModernDefenseCarlsbadLine_B13:
+      fenArray = fenCaroKannDefensePanovAttackModernDefenseCarlsbadLine_B13 ;
+      break;
+    case FenArrayType.QueensIndianDefenseFianchettoVariationSaemischVariation_E15:
+      fenArray = fenQueensIndianDefenseFianchettoVariationSaemischVariation_E15 ;
+      break;
+    case FenArrayType.QueenPawnGameVeresovAtackRichterVariation_D01:
+      fenArray = fenQueenPawnGameVeresovAtackRichterVariation_D01 ;
+      break;
+    case FenArrayType.RetiOpeningAngloSlavVariationBogoljubowVariationIII_A12:
+      fenArray = fenRetiOpeningAngloSlavVariationBogoljubowVariationIII_A12 ;
+      break;
+    case FenArrayType.SpanishGameMorphyDefenseModernSteinitzDefense_1_C73:
+      fenArray = fenSpanishGameMorphyDefenseModernSteinitzDefense_1_C73 ;
+      break;
+    case FenArrayType.SicilianDefenseModernVariationsAntiQxd4MoveOrder_B50:
+      fenArray = fenSicilianDefenseModernVariationsAntiQxd4MoveOrder_B50 ;
+      break;
+    case FenArrayType.BenkoGambitDeclinedSosonkoVariation_A57:
+      fenArray = fenBenkoGambitDeclinedSosonkoVariation_A57 ;
+      break;
+    case FenArrayType.GruenfeldDefenseBrinckmannAttackGrunfeldGambitCapablancaVariation_D83:
+      fenArray = fenGruenfeldDefenseBrinckmannAttackGrunfeldGambitCapablancaVariation_D83 ;
+      break;
+    case FenArrayType.RussianGameModernAttackCenterAttack_C43:
+      fenArray = fenRussianGameModernAttackCenterAttack_C43 ;
+      break;
+    case FenArrayType.ViennaGameStanleyVariation_C26:
+      fenArray = fenViennaGameStanleyVariation_C26 ;
+      break;
+    case FenArrayType.SpanishGameMorphyDefenseFianchettoDefenseDeferred_C70:
+      fenArray = fenSpanishGameMorphyDefenseFianchettoDefenseDeferred_C70 ;
+      break;
+    case FenArrayType.SicilianDefenseSmithMorraGambitDeclinedScandinavianFormation_B21:
+      fenArray = fenSicilianDefenseSmithMorraGambitDeclinedScandinavianFormation_B21 ;
+      break;
+    case FenArrayType.QueensGambitAcceptedBogoljubowDefense_D24:
+      fenArray = fenQueensGambitAcceptedBogoljubowDefense_D24 ;
+      break;
+    case FenArrayType.GunderamDefenseGeneral_C40:
+      fenArray = fenGunderamDefenseGeneral_C40 ;
+      break;
+    case FenArrayType.RussianGameDamianoVariationKholmovGambit_C42:
+      fenArray = fenRussianGameDamianoVariationKholmovGambit_C42 ;
+      break;
+    case FenArrayType.QueenPawnGameAntiTorre_D02:
+      fenArray = fenQueenPawnGameAntiTorre_D02 ;
+      break;
+    case FenArrayType.FrenchDefenseMacCutcheonVariationJanowskiVariation_C12:
+      fenArray = fenFrenchDefenseMacCutcheonVariationJanowskiVariation_C12 ;
+      break;
+    case FenArrayType.SlavDefenseSlavGambitAlekhineAttack_D10:
+      fenArray = fenSlavDefenseSlavGambitAlekhineAttack_D10 ;
+      break;
+    case FenArrayType.CatalanOpeningOpenDefenseTarraschDefense_E04:
+      fenArray = fenCatalanOpeningOpenDefenseTarraschDefense_E04 ;
+      break;
+    case FenArrayType.NimzoIndianDefenseClassicalVariationNoaVariation_E37:
+      fenArray = fenNimzoIndianDefenseClassicalVariationNoaVariation_E37 ;
+      break;
+    case FenArrayType.BenkoGambitZaitsevVariationNescafeFrappeAttack_A57:
+      fenArray = fenBenkoGambitZaitsevVariationNescafeFrappeAttack_A57 ;
+      break;
+    case FenArrayType.KingPawnGameMaroczyDefense_B07:
+      fenArray = fenKingPawnGameMaroczyDefense_B07 ;
+      break;
+    case FenArrayType.ScotchGameGoringGambit_C44:
+      fenArray = fenScotchGameGoringGambit_C44 ;
+      break;
+    case FenArrayType.ItalianGameScotchGambitMaxLangeAttack_C55:
+      fenArray = fenItalianGameScotchGambitMaxLangeAttack_C55 ;
+      break;
+    case FenArrayType.SicilianDefenseDragonVariationYugoslavAttack_B76:
+      fenArray = fenSicilianDefenseDragonVariationYugoslavAttack_B76 ;
+      break;
+    case FenArrayType.SicilianDefenseMcDonnellAttackTalGambit_B21:
+      fenArray = fenSicilianDefenseMcDonnellAttackTalGambit_B21 ;
+      break;
+    case FenArrayType.SicilianDefenseScheveningenVariationClassicalVariationPaulsenVariation_1_B85:
+      fenArray = fenSicilianDefenseScheveningenVariationClassicalVariationPaulsenVariation_1_B85 ;
+      break;
+    case FenArrayType.QueensIndianDefenseFianchettoVariationNimzowitschVariationTimmansLine_E15:
+      fenArray = fenQueensIndianDefenseFianchettoVariationNimzowitschVariationTimmansLine_E15 ;
+      break;
+    case FenArrayType.CaroKannDefenseKarpovVariationSmyslovVariationMainLine_B17:
+      fenArray = fenCaroKannDefenseKarpovVariationSmyslovVariationMainLine_B17 ;
+      break;
+    case FenArrayType.NimzoIndianDefenseSaemischVariation_E26:
+      fenArray = fenNimzoIndianDefenseSaemischVariation_E26 ;
+      break;
+    case FenArrayType.BishopsOpeningViennaHybridHromadkaVariation_C28:
+      fenArray = fenBishopsOpeningViennaHybridHromadkaVariation_C28 ;
+      break;
+    case FenArrayType.SlavDefenseExchangeVariationTrifunovicVariation_D14:
+      fenArray = fenSlavDefenseExchangeVariationTrifunovicVariation_D14 ;
+      break;
+    case FenArrayType.SemiSlavDefenseMeranVariationLundinVariation_D47:
+      fenArray = fenSemiSlavDefenseMeranVariationLundinVariation_D47 ;
+      break;
+    case FenArrayType.NimzoIndianDefenseSpielmannVariation_E22:
+      fenArray = fenNimzoIndianDefenseSpielmannVariation_E22 ;
+      break;
+    case FenArrayType.NimzoIndianDefenseSaemischVariation_E28:
+      fenArray = fenNimzoIndianDefenseSaemischVariation_E28 ;
+      break;
+    case FenArrayType.SicilianDefenseRichterRauzerVariationIvanovVariation_B63:
+      fenArray = fenSicilianDefenseRichterRauzerVariationIvanovVariation_B63 ;
+      break;
+    case FenArrayType.QueensIndianDefenseKasparovVariationGeneral_E13:
+      fenArray = fenQueensIndianDefenseKasparovVariationGeneral_E13 ;
+      break;
+    case FenArrayType.ViennaGameFalkbeerVariation_C26:
+      fenArray = fenViennaGameFalkbeerVariation_C26 ;
+      break;
+    case FenArrayType.KingsIndianAttackSmyslovVariation_A05:
+      fenArray = fenKingsIndianAttackSmyslovVariation_A05 ;
+      break;
+    case FenArrayType.PircDefenseClassicalVariation_1_B07:
+      fenArray = fenPircDefenseClassicalVariation_1_B07 ;
+      break;
+    case FenArrayType.QueenPawnGameVeresovAtackAlburtDefense_D00:
+      fenArray = fenQueenPawnGameVeresovAtackAlburtDefense_D00 ;
+      break;
+    case FenArrayType.DutchDefenseClassicalVariationStonewallVariation_A95:
+      fenArray = fenDutchDefenseClassicalVariationStonewallVariation_A95 ;
+      break;
+    case FenArrayType.DanishGambitGeneral_C21:
+      fenArray = fenDanishGambitGeneral_C21 ;
+      break;
+    case FenArrayType.ScandinavianDefensePanovTransfer_B01:
+      fenArray = fenScandinavianDefensePanovTransfer_B01 ;
+      break;
+    case FenArrayType.QueensGambitAcceptedRosenthalVariation_D21:
+      fenArray = fenQueensGambitAcceptedRosenthalVariation_D21 ;
+      break;
+    case FenArrayType.ItalianGameEvansGambitAnderssenVariationCordelLine_C51:
+      fenArray = fenItalianGameEvansGambitAnderssenVariationCordelLine_C51 ;
+      break;
+    case FenArrayType.BirdOpeningLaskerVariation_A03:
+      fenArray = fenBirdOpeningLaskerVariation_A03 ;
+      break;
+    case FenArrayType.RussianGameClassicalAttackMarshallVariation_C42:
+      fenArray = fenRussianGameClassicalAttackMarshallVariation_C42 ;
+      break;
+    case FenArrayType.RetiOpeningAngloSlavVariationLondonDefensiveSystem_A12:
+      fenArray = fenRetiOpeningAngloSlavVariationLondonDefensiveSystem_A12 ;
+      break;
+    case FenArrayType.ZukertortOpeningLisitsynGambit_A04:
+      fenArray = fenZukertortOpeningLisitsynGambit_A04 ;
+      break;
+    case FenArrayType.SicilianDefenseKanVariationWingAttackSpraggettAttack_B43:
+      fenArray = fenSicilianDefenseKanVariationWingAttackSpraggettAttack_B43 ;
+      break;
+    case FenArrayType.SpanishGameClosedVariationsCenterAttack_C84:
+      fenArray = fenSpanishGameClosedVariationsCenterAttack_C84 ;
+      break;
+    case FenArrayType.FrenchDefenseAlekhineChatardAttackMaroczyVariation_C13:
+      fenArray = fenFrenchDefenseAlekhineChatardAttackMaroczyVariation_C13 ;
+      break;
+    case FenArrayType.DutchDefenseLeningradVariation_A86:
+      fenArray = fenDutchDefenseLeningradVariation_A86 ;
+      break;
+    case FenArrayType.KingsIndianDefenseFianchettoVariationYugoslavVariationRareLines_E64:
+      fenArray = fenKingsIndianDefenseFianchettoVariationYugoslavVariationRareLines_E64 ;
+      break;
+    case FenArrayType.SlavDefenseCzechVariationWiesbadenVariationSharpline_D17:
+      fenArray = fenSlavDefenseCzechVariationWiesbadenVariationSharpline_D17 ;
+      break;
+    case FenArrayType.QueensGambitDeclinedWestphalianVariation_D51:
+      fenArray = fenQueensGambitDeclinedWestphalianVariation_D51 ;
+      break;
+    case FenArrayType.NimzowitschDefenseMikenasVariation_B00:
+      fenArray = fenNimzowitschDefenseMikenasVariation_B00 ;
+      break;
+    case FenArrayType.SicilianDefenseNajdorfVariationNeoClassicalDefense_B96:
+      fenArray = fenSicilianDefenseNajdorfVariationNeoClassicalDefense_B96 ;
+      break;
+    case FenArrayType.AlekhineDefenseGeneral_B02:
+      fenArray = fenAlekhineDefenseGeneral_B02 ;
+      break;
+    case FenArrayType.ModernDefenseRossolimoVariation_A41:
+      fenArray = fenModernDefenseRossolimoVariation_A41 ;
+      break;
+    case FenArrayType.DutchDefenseClassicalVariationIlyinZhenevskyVariationGeneral_A97:
+      fenArray = fenDutchDefenseClassicalVariationIlyinZhenevskyVariationGeneral_A97 ;
+      break;
+    case FenArrayType.ItalianGameClassicalVariationGiuocoPianissimoMainline_C53:
+      fenArray = fenItalianGameClassicalVariationGiuocoPianissimoMainline_C53 ;
+      break;
+    case FenArrayType.SicilianDefenseKanVariationWingAttackFianchettoVariation_B43:
+      fenArray = fenSicilianDefenseKanVariationWingAttackFianchettoVariation_B43 ;
+      break;
+    case FenArrayType.QueensGambitDeclinedAntiTartakowerVariationPetrosianVariation_D55:
+      fenArray = fenQueensGambitDeclinedAntiTartakowerVariationPetrosianVariation_D55 ;
+      break;
+    case FenArrayType.FrenchDefenseWinawerVariationRetreatVariationGeneral_C18:
+      fenArray = fenFrenchDefenseWinawerVariationRetreatVariationGeneral_C18 ;
+      break;
+    case FenArrayType.IndianGameNormalVariation_A50:
+      fenArray = fenIndianGameNormalVariation_A50 ;
+      break;
+    case FenArrayType.SicilianDefenseKronbergerVariation_B20:
+      fenArray = fenSicilianDefenseKronbergerVariation_B20 ;
+      break;
+    case FenArrayType.SemiSlavDefenseMeranVariationWadeVariationLarsenVariation_D47:
+      fenArray = fenSemiSlavDefenseMeranVariationWadeVariationLarsenVariation_D47 ;
+      break;
+    case FenArrayType.DutchDefenseNimzoDutchVariation_A90:
+      fenArray = fenDutchDefenseNimzoDutchVariation_A90 ;
+      break;
+    case FenArrayType.KingsIndianDefenseOrthodoxVariationClassicalSystemBenkoAttack_E99:
+      fenArray = fenKingsIndianDefenseOrthodoxVariationClassicalSystemBenkoAttack_E99 ;
+      break;
+    case FenArrayType.SicilianDefenseNajdorfVariationBrowneVariation_B98:
+      fenArray = fenSicilianDefenseNajdorfVariationBrowneVariation_B98 ;
+      break;
+    case FenArrayType.RubinsteinOpeningBogoljubowDefense_D05:
+      fenArray = fenRubinsteinOpeningBogoljubowDefense_D05 ;
+      break;
+    case FenArrayType.NeoGruenfeldDefenseClassicalVariationPolgarVariation_D78:
+      fenArray = fenNeoGruenfeldDefenseClassicalVariationPolgarVariation_D78 ;
+      break;
+    case FenArrayType.ItalianGameClassicalVariationGrecoGambitAnderssenVariation_C54:
+      fenArray = fenItalianGameClassicalVariationGrecoGambitAnderssenVariation_C54 ;
+      break;
+    case FenArrayType.BirdOpeningFromGambitLaskerVariation_A02:
+      fenArray = fenBirdOpeningFromGambitLaskerVariation_A02 ;
+      break;
+    case FenArrayType.SicilianDefenseOKellyVariationMaroczyBindRobatschLine_B28:
+      fenArray = fenSicilianDefenseOKellyVariationMaroczyBindRobatschLine_B28 ;
+      break;
+    case FenArrayType.NimzoIndianDefenseClassicalVariationZurichVariation_E33:
+      fenArray = fenNimzoIndianDefenseClassicalVariationZurichVariation_E33 ;
+      break;
+    case FenArrayType.ItalianGameTwoKnightsDefenseUlvestadVariation_C57:
+      fenArray = fenItalianGameTwoKnightsDefenseUlvestadVariation_C57 ;
+      break;
+    case FenArrayType.SpanishGameMorphyDefenseModernSteinitzDefense_2_C75:
+      fenArray = fenSpanishGameMorphyDefenseModernSteinitzDefense_2_C75 ;
+      break;
+    case FenArrayType.QueenPawnGameColleSystemGruenfeldFormation_A48:
+      fenArray = fenQueenPawnGameColleSystemGruenfeldFormation_A48 ;
+      break;
+    case FenArrayType.KingsIndianDefenseZinnowitzVariation_E90:
+      fenArray = fenKingsIndianDefenseZinnowitzVariation_E90 ;
+      break;
+    case FenArrayType.SpanishGameClosedVariationsSmyslovBreyerZaitsevHybrid_C93:
+      fenArray = fenSpanishGameClosedVariationsSmyslovBreyerZaitsevHybrid_C93 ;
+      break;
+    case FenArrayType.NimzoIndianDefenseThreeKnightsVariationDuchampVariationModernLine_E21:
+      fenArray = fenNimzoIndianDefenseThreeKnightsVariationDuchampVariationModernLine_E21 ;
+      break;
+    case FenArrayType.SlavDefenseSmyslovVariation_D16:
+      fenArray = fenSlavDefenseSmyslovVariation_D16 ;
+      break;
+    case FenArrayType.OldIndianCzechVariationwNc3_A53:
+      fenArray = fenOldIndianCzechVariationwNc3_A53 ;
+      break;
+    case FenArrayType.ModernDefenseBishopAttack_B06:
+      fenArray = fenModernDefenseBishopAttack_B06 ;
+      break;
+    case FenArrayType.ItalianGameTwoKnightsDefenseFritzVariation_C57:
+      fenArray = fenItalianGameTwoKnightsDefenseFritzVariation_C57 ;
+      break;
+    case FenArrayType.BenoniDefenseOldBenoniDefenseClarendonCourtVariation_A43:
+      fenArray = fenBenoniDefenseOldBenoniDefenseClarendonCourtVariation_A43 ;
+      break;
+    case FenArrayType.FourKnightsGameScotchVariation_C47:
+      fenArray = fenFourKnightsGameScotchVariation_C47 ;
+      break;
+    case FenArrayType.RetiOpeningAngloSlavVariationBogoljubowVariationII_A12:
+      fenArray = fenRetiOpeningAngloSlavVariationBogoljubowVariationII_A12 ;
+      break;
+    case FenArrayType.TrompowskyAttackPoisonedPawnVariation_A45:
+      fenArray = fenTrompowskyAttackPoisonedPawnVariation_A45 ;
+      break;
+    case FenArrayType.RussianGameModernAttackMurreyVariation_C43:
+      fenArray = fenRussianGameModernAttackMurreyVariation_C43 ;
+      break;
+    case FenArrayType.FrenchDefenseWinawerVariationAdvanceVariationMoscowVariation_C17:
+      fenArray = fenFrenchDefenseWinawerVariationAdvanceVariationMoscowVariation_C17 ;
+      break;
+    case FenArrayType.KingsKnightOpeningKonstantinopolskyOpening_C44:
+      fenArray = fenKingsKnightOpeningKonstantinopolskyOpening_C44 ;
+      break;
+    case FenArrayType.SicilianDefenseKanVariationMaroczyBindBronsteinVariation_B41:
+      fenArray = fenSicilianDefenseKanVariationMaroczyBindBronsteinVariation_B41 ;
+      break;
+    case FenArrayType.KingPawnGameTaylerOpeningInvertedHanham_C44:
+      fenArray = fenKingPawnGameTaylerOpeningInvertedHanham_C44 ;
+      break;
+    case FenArrayType.ItalianGameBirdsAttack_C53:
+      fenArray = fenItalianGameBirdsAttack_C53 ;
+      break;
+    case FenArrayType.BenoniDefenseClassicalVariationMainline_A73:
+      fenArray = fenBenoniDefenseClassicalVariationMainline_A73 ;
+      break;
+    case FenArrayType.CatalanOpeningClosedVariationBotvinnikVariation_E07:
+      fenArray = fenCatalanOpeningClosedVariationBotvinnikVariation_E07 ;
+      break;
+    case FenArrayType.EnglishOpeningKingsEnglishVariationClosedSystem_A25:
+      fenArray = fenEnglishOpeningKingsEnglishVariationClosedSystem_A25 ;
+      break;
+    case FenArrayType.NimzoIndianDefenseRomanishinVariationEnglishHybrid_E20:
+      fenArray = fenNimzoIndianDefenseRomanishinVariationEnglishHybrid_E20 ;
+      break;
+    case FenArrayType.SlavDefenseAlapinVariation_D16:
+      fenArray = fenSlavDefenseAlapinVariation_D16 ;
+      break;
+    case FenArrayType.BenoniDefenseUhlmannVariation_A61:
+      fenArray = fenBenoniDefenseUhlmannVariation_A61 ;
+      break;
+    case FenArrayType.ItalianGameClassicalVariationClosedVariation_C53:
+      fenArray = fenItalianGameClassicalVariationClosedVariation_C53 ;
+      break;
+    case FenArrayType.SpanishGameMorphyDefenseModernSteinitzDefense_2_C73:
+      fenArray = fenSpanishGameMorphyDefenseModernSteinitzDefense_2_C73 ;
+      break;
+    case FenArrayType.HungarianOpeningDutchDefense_A00:
+      fenArray = fenHungarianOpeningDutchDefense_A00 ;
+      break;
+    case FenArrayType.RussianGameClassicalAttackMasonVariation_C42:
+      fenArray = fenRussianGameClassicalAttackMasonVariation_C42 ;
+      break;
+    case FenArrayType.SicilianDefenseNajdorfVariationPolugayevskyVariation_B96:
+      fenArray = fenSicilianDefenseNajdorfVariationPolugayevskyVariation_B96 ;
+      break;
+    case FenArrayType.ModernDefenseNorwegianDefense_B06:
+      fenArray = fenModernDefenseNorwegianDefense_B06 ;
+      break;
+    case FenArrayType.SpanishGameBerlinDefense_C65:
+      fenArray = fenSpanishGameBerlinDefense_C65 ;
+      break;
+    case FenArrayType.SemiSlavDefenseBotvinnikVariation_D44:
+      fenArray = fenSemiSlavDefenseBotvinnikVariation_D44 ;
+      break;
+    case FenArrayType.SlavDefenseWinawerCountergambit_D10:
+      fenArray = fenSlavDefenseWinawerCountergambit_D10 ;
+      break;
+    case FenArrayType.FrenchDefenseMacCutcheonVariationExchangeVariation_C12:
+      fenArray = fenFrenchDefenseMacCutcheonVariationExchangeVariation_C12 ;
+      break;
+    case FenArrayType.RatDefenseSmallCenterDefense_C00:
+      fenArray = fenRatDefenseSmallCenterDefense_C00 ;
+      break;
+    case FenArrayType.QueenPawnGameFrancoSicilianDefense_C00:
+      fenArray = fenQueenPawnGameFrancoSicilianDefense_C00 ;
+      break;
+    case FenArrayType.SpanishGameSchliemannDefenseSchonemannAttack_C63:
+      fenArray = fenSpanishGameSchliemannDefenseSchonemannAttack_C63 ;
+      break;
+    case FenArrayType.SicilianDefenseOKellyVariationRetiSystem_B28:
+      fenArray = fenSicilianDefenseOKellyVariationRetiSystem_B28 ;
+      break;
+    case FenArrayType.SpanishGameMorphyDefenseModernSteinitzDefense_1_C74:
+      fenArray = fenSpanishGameMorphyDefenseModernSteinitzDefense_1_C74 ;
+      break;
+    case FenArrayType.QueensGambitRefusedAustrianDefense_D06:
+      fenArray = fenQueensGambitRefusedAustrianDefense_D06 ;
+      break;
+    case FenArrayType.ClemenzOpeningGeneral_A00:
+      fenArray = fenClemenzOpeningGeneral_A00 ;
+      break;
+    case FenArrayType.QueensGambitDeclinedMilesVariationDzhindzhiAttack_D53:
+      fenArray = fenQueensGambitDeclinedMilesVariationDzhindzhiAttack_D53 ;
+      break;
+    case FenArrayType.FrenchDefenseAlekhineChatardAttackAlbinChatardGambit_C13:
+      fenArray = fenFrenchDefenseAlekhineChatardAttackAlbinChatardGambit_C13 ;
+      break;
+    case FenArrayType.RussianGameClassicalAttackJaenischVariation_C42:
+      fenArray = fenRussianGameClassicalAttackJaenischVariation_C42 ;
+      break;
+    case FenArrayType.SpanishGameBerlinDefenseBerlinWallJRogersLine_C67:
+      fenArray = fenSpanishGameBerlinDefenseBerlinWallJRogersLine_C67 ;
+      break;
+    case FenArrayType.SpanishGameOpenVariationsStPetersburgVariation_C82:
+      fenArray = fenSpanishGameOpenVariationsStPetersburgVariation_C82 ;
+      break;
+    case FenArrayType.AlekhineDefenseTwoPawnAttack_B02:
+      fenArray = fenAlekhineDefenseTwoPawnAttack_B02 ;
+      break;
+    case FenArrayType.BenoniDefenseClassicalVariationAverbakhGrivasAttack_A71:
+      fenArray = fenBenoniDefenseClassicalVariationAverbakhGrivasAttack_A71 ;
+      break;
+    case FenArrayType.ItalianGameTwoKnightsDefensePerreuxVariation_C55:
+      fenArray = fenItalianGameTwoKnightsDefensePerreuxVariation_C55 ;
+      break;
+    case FenArrayType.QueensGambitDeclinedLaskerDefenseTeichmannVariation_D56:
+      fenArray = fenQueensGambitDeclinedLaskerDefenseTeichmannVariation_D56 ;
+      break;
+    case FenArrayType.SpanishGameSchliemannDefenseClassicalVariation_C63:
+      fenArray = fenSpanishGameSchliemannDefenseClassicalVariation_C63 ;
+      break;
+    case FenArrayType.KingsIndianDefenseAverbakhVariation_E73:
+      fenArray = fenKingsIndianDefenseAverbakhVariation_E73 ;
+      break;
+    case FenArrayType.IndianGameDefensePseudoQueensIndianMarienbadSystem_A47:
+      fenArray = fenIndianGameDefensePseudoQueensIndianMarienbadSystem_A47 ;
+      break;
+    case FenArrayType.NimzoIndianDefenseSaemischVariation_E27:
+      fenArray = fenNimzoIndianDefenseSaemischVariation_E27 ;
+      break;
+    case FenArrayType.NimzoIndianDefenseClassicalVariationVitolinshAdorjanGambit_E32:
+      fenArray = fenNimzoIndianDefenseClassicalVariationVitolinshAdorjanGambit_E32 ;
+      break;
+    case FenArrayType.SicilianDefenseSmithMorraGambitAcceptedClassicalFormation_B21:
+      fenArray = fenSicilianDefenseSmithMorraGambitAcceptedClassicalFormation_B21 ;
+      break;
+    case FenArrayType.ItalianGameEvansGambitDeclined_C51:
+      fenArray = fenItalianGameEvansGambitDeclined_C51 ;
+      break;
+    case FenArrayType.ViennaGameViennaGambitModernVariation_C29:
+      fenArray = fenViennaGameViennaGambitModernVariation_C29 ;
+      break;
+    case FenArrayType.SpanishGameMorphyDefenseSchliemannDefenseDeferred_C70:
+      fenArray = fenSpanishGameMorphyDefenseSchliemannDefenseDeferred_C70 ;
+      break;
+    case FenArrayType.ViennaGameViennaGambitBreyerVariation_C29:
+      fenArray = fenViennaGameViennaGambitBreyerVariation_C29 ;
+      break;
+    case FenArrayType.SicilianDefenseSmithMorraGambitDeferred_B40:
+      fenArray = fenSicilianDefenseSmithMorraGambitDeferred_B40 ;
+      break;
+    case FenArrayType.QueensGambitDeclinedViennaVariation_D30:
+      fenArray = fenQueensGambitDeclinedViennaVariation_D30 ;
+      break;
+    case FenArrayType.PhilidorDefenseExchangeVariation_3_C41:
+      fenArray = fenPhilidorDefenseExchangeVariation_3_C41 ;
+      break;
+    case FenArrayType.SpanishGameClosedVariationsKholmovVariation_C92:
+      fenArray = fenSpanishGameClosedVariationsKholmovVariation_C92 ;
+      break;
+    case FenArrayType.SemiSlavDefenseMarshallGambitForgottenVariation_D31:
+      fenArray = fenSemiSlavDefenseMarshallGambitForgottenVariation_D31 ;
+      break;
+    case FenArrayType.QueensGambitDeclinedHarrwitzAttackMainLineOldMainLine_D37:
+      fenArray = fenQueensGambitDeclinedHarrwitzAttackMainLineOldMainLine_D37 ;
+      break;
+    case FenArrayType.OldIndianDefenseJanowskiVariationFianchettoVariation_1_A53:
+      fenArray = fenOldIndianDefenseJanowskiVariationFianchettoVariation_1_A53 ;
+      break;
+    case FenArrayType.EnglishOpeningAgincourtDefenseKurajicaDefense_A13:
+      fenArray = fenEnglishOpeningAgincourtDefenseKurajicaDefense_A13 ;
+      break;
+    case FenArrayType.KingsGambitAcceptedSchallopDefense_C34:
+      fenArray = fenKingsGambitAcceptedSchallopDefense_C34 ;
+      break;
+    case FenArrayType.SicilianDefenseDragonVariationYugoslavAttackSosonkoVariation_B77:
+      fenArray = fenSicilianDefenseDragonVariationYugoslavAttackSosonkoVariation_B77 ;
+      break;
+    case FenArrayType.KingsGambitDeclinedClassicalVariationGeneral_C30:
+      fenArray = fenKingsGambitDeclinedClassicalVariationGeneral_C30 ;
+      break;
+    case FenArrayType.QueensGambitDeclinedHastingsVariation_D30:
+      fenArray = fenQueensGambitDeclinedHastingsVariation_D30 ;
+      break;
+    case FenArrayType.SicilianDefenseNyezhmetdinovRossolimoAttackFianchettoVariationGufeldGambit_B31:
+      fenArray = fenSicilianDefenseNyezhmetdinovRossolimoAttackFianchettoVariationGufeldGambit_B31 ;
+      break;
+    case FenArrayType.ScotchGameModernDefense_C45:
+      fenArray = fenScotchGameModernDefense_C45 ;
+      break;
+    case FenArrayType.GruenfeldDefenseOpocenskyVariation_D94:
+      fenArray = fenGruenfeldDefenseOpocenskyVariation_D94 ;
+      break;
+    case FenArrayType.EnglishOpeningAngloIndianDefenseScandavianDefenseExchangeVariation_A15:
+      fenArray = fenEnglishOpeningAngloIndianDefenseScandavianDefenseExchangeVariation_A15 ;
+      break;
+    case FenArrayType.SpanishGameClassicalVariationModernMainLine_C64:
+      fenArray = fenSpanishGameClassicalVariationModernMainLine_C64 ;
+      break;
+    case FenArrayType.KingsGambitAcceptedBishopsGambit_C33:
+      fenArray = fenKingsGambitAcceptedBishopsGambit_C33 ;
+      break;
+    case FenArrayType.SicilianDefenseDragonVariationClassicalVariationTartakowerLine_B74:
+      fenArray = fenSicilianDefenseDragonVariationClassicalVariationTartakowerLine_B74 ;
+      break;
+    case FenArrayType.AlekhineDefenseModernVariation_B04:
+      fenArray = fenAlekhineDefenseModernVariation_B04 ;
+      break;
+    case FenArrayType.FrenchDefenseWinawerVariationAdvanceVariation_1_C17:
+      fenArray = fenFrenchDefenseWinawerVariationAdvanceVariation_1_C17 ;
+      break;
+    case FenArrayType.PolishOpeningOutflankVariation_A00:
+      fenArray = fenPolishOpeningOutflankVariation_A00 ;
+      break;
+    case FenArrayType.SicilianDefenseWingGambitDeferred_B40:
+      fenArray = fenSicilianDefenseWingGambitDeferred_B40 ;
+      break;
+    case FenArrayType.QueensGambitAcceptedCentralVariationGrecoVariation_D20:
+      fenArray = fenQueensGambitAcceptedCentralVariationGrecoVariation_D20 ;
+      break;
+    case FenArrayType.GruenfeldDefenseMakogonovVariation_D94:
+      fenArray = fenGruenfeldDefenseMakogonovVariation_D94 ;
+      break;
+    case FenArrayType.QueensIndianDefenseFianchettoVariationRubinsteinVariation_E16:
+      fenArray = fenQueensIndianDefenseFianchettoVariationRubinsteinVariation_E16 ;
+      break;
+    case FenArrayType.ItalianGameClassicalVariationAlbinGambit_C53:
+      fenArray = fenItalianGameClassicalVariationAlbinGambit_C53 ;
+      break;
+    case FenArrayType.SicilianDefenseLaskerPelikanVariationSveshnikovVariation_2_B33:
+      fenArray = fenSicilianDefenseLaskerPelikanVariationSveshnikovVariation_2_B33 ;
+      break;
+    case FenArrayType.QueenPawnGameMasonAttack_D00:
+      fenArray = fenQueenPawnGameMasonAttack_D00 ;
+      break;
+    case FenArrayType.GruenfeldDefenseRussianVariationAcceleratedVariation_D81:
+      fenArray = fenGruenfeldDefenseRussianVariationAcceleratedVariation_D81 ;
+      break;
+    case FenArrayType.GruenfeldDefenseExchangeVariationSimaginsImprovedVariation_D86:
+      fenArray = fenGruenfeldDefenseExchangeVariationSimaginsImprovedVariation_D86 ;
+      break;
+    case FenArrayType.SicilianDefenseOKellyVariationMaroczyBindGellerLine_B28:
+      fenArray = fenSicilianDefenseOKellyVariationMaroczyBindGellerLine_B28 ;
+      break;
+    case FenArrayType.QueensGambitDeclinedTartakowerVariationExchangeVariation_D57:
+      fenArray = fenQueensGambitDeclinedTartakowerVariationExchangeVariation_D57 ;
+      break;
+    case FenArrayType.SpanishGameMorphyDefenseDurasVariation_C77:
+      fenArray = fenSpanishGameMorphyDefenseDurasVariation_C77 ;
+      break;
+    case FenArrayType.ScandinavianDefensePortugueseVariationPortugueseGambit_B01:
+      fenArray = fenScandinavianDefensePortugueseVariationPortugueseGambit_B01 ;
+      break;
+    case FenArrayType.StGeorgeDefensePolishVariation_B00:
+      fenArray = fenStGeorgeDefensePolishVariation_B00 ;
+      break;
+    case FenArrayType.QueenPawnGameVeresovAtackClassicalDefense_D01:
+      fenArray = fenQueenPawnGameVeresovAtackClassicalDefense_D01 ;
+      break;
+    case FenArrayType.NimzoIndianDefenseSaemischVariation_E29:
+      fenArray = fenNimzoIndianDefenseSaemischVariation_E29 ;
+      break;
+    case FenArrayType.GruenfeldDefenseThreeKnightsVariationParisVariation_D94:
+      fenArray = fenGruenfeldDefenseThreeKnightsVariationParisVariation_D94 ;
+      break;
+    case FenArrayType.FrenchDefenseExchangeVariationSvenoniusVariation_C01:
+      fenArray = fenFrenchDefenseExchangeVariationSvenoniusVariation_C01 ;
+      break;
+    case FenArrayType.KingPawnGameLeonardisVariation_C20:
+      fenArray = fenKingPawnGameLeonardisVariation_C20 ;
+      break;
+    case FenArrayType.SicilianDefenseModernVariationsTartakower_B53:
+      fenArray = fenSicilianDefenseModernVariationsTartakower_B53 ;
+      break;
+    case FenArrayType.FourKnightsGameNimzowitschPaulsen_C49:
+      fenArray = fenFourKnightsGameNimzowitschPaulsen_C49 ;
+      break;
+    case FenArrayType.ScotchGameScotchGambitLondonDefense_C44:
+      fenArray = fenScotchGameScotchGambitLondonDefense_C44 ;
+      break;
+    case FenArrayType.SlavDefenseTwoKnightsAttack_D15:
+      fenArray = fenSlavDefenseTwoKnightsAttack_D15 ;
+      break;
+    case FenArrayType.CaroKannDefenseDeBruyckerDefense_A40:
+      fenArray = fenCaroKannDefenseDeBruyckerDefense_A40 ;
+      break;
+    case FenArrayType.RetiOpeningAngloSlavVariationCapablancaVariation_A12:
+      fenArray = fenRetiOpeningAngloSlavVariationCapablancaVariation_A12 ;
+      break;
+    case FenArrayType.FourKnightsGameSpanishVariationSymmetricalVariation_2_C49:
+      fenArray = fenFourKnightsGameSpanishVariationSymmetricalVariation_2_C49 ;
+      break;
+    case FenArrayType.CenterGameNormalVariation_C22:
+      fenArray = fenCenterGameNormalVariation_C22 ;
+      break;
+    case FenArrayType.VanGeetOpeningNapoleonAttack_A00:
+      fenArray = fenVanGeetOpeningNapoleonAttack_A00 ;
+      break;
+    case FenArrayType.DanishGambitDeclinedSorensenDefense_C21:
+      fenArray = fenDanishGambitDeclinedSorensenDefense_C21 ;
+      break;
+    case FenArrayType.FrenchDefenseClassicalVariationSwissVariation_C11:
+      fenArray = fenFrenchDefenseClassicalVariationSwissVariation_C11 ;
+      break;
+    case FenArrayType.SicilianDefenseScheveningenVariationTalVariation_B82:
+      fenArray = fenSicilianDefenseScheveningenVariationTalVariation_B82 ;
+      break;
+    case FenArrayType.GruenfeldDefenseExchangeVariationModernExchangeVariationKramniksline_D85:
+      fenArray = fenGruenfeldDefenseExchangeVariationModernExchangeVariationKramniksline_D85 ;
+      break;
+    case FenArrayType.SystemCanardFormation_A45:
+      fenArray = fenSystemCanardFormation_A45 ;
+      break;
+    case FenArrayType.BenoniDefenseClassicalVariationArgentineCounterattack_A75:
+      fenArray = fenBenoniDefenseClassicalVariationArgentineCounterattack_A75 ;
+      break;
+    case FenArrayType.NeoGrunfeldDefenseNonorDelayedFianchetto_D70:
+      fenArray = fenNeoGrunfeldDefenseNonorDelayedFianchetto_D70 ;
+      break;
+    case FenArrayType.ScotchGameScotchGambitKingsideVariation_C45:
+      fenArray = fenScotchGameScotchGambitKingsideVariation_C45 ;
+      break;
+    case FenArrayType.CatalanOpeningOpenDefense_E02:
+      fenArray = fenCatalanOpeningOpenDefense_E02 ;
+      break;
+    case FenArrayType.SicilianDefenseRichterRauzerVariationClassicalVariationKantscherLine_B66:
+      fenArray = fenSicilianDefenseRichterRauzerVariationClassicalVariationKantscherLine_B66 ;
+      break;
+    case FenArrayType.QueensGambitAcceptedClassicalDefenseAlekhineSystemExceptMainLine_D28:
+      fenArray = fenQueensGambitAcceptedClassicalDefenseAlekhineSystemExceptMainLine_D28 ;
+      break;
+    case FenArrayType.QueensGambitRefusedBalticDefensePseudoChigorin_D02:
+      fenArray = fenQueensGambitRefusedBalticDefensePseudoChigorin_D02 ;
+      break;
+    case FenArrayType.RussianGameUrusovGambit_C42:
+      fenArray = fenRussianGameUrusovGambit_C42 ;
+      break;
+    case FenArrayType.NimzoIndianDefenseLeningradVariationBenoniDefense_E31:
+      fenArray = fenNimzoIndianDefenseLeningradVariationBenoniDefense_E31 ;
+      break;
+    case FenArrayType.NeoGruenfeldDefenseDelayedExchangeVariation_1_D75:
+      fenArray = fenNeoGruenfeldDefenseDelayedExchangeVariation_1_D75 ;
+      break;
+    case FenArrayType.ZukertortOpeningLisitsynGambitDeferred_A04:
+      fenArray = fenZukertortOpeningLisitsynGambitDeferred_A04 ;
+      break;
+    case FenArrayType.SicilianDefenseOKellyVariationNormalSystemTaimanovLine_B28:
+      fenArray = fenSicilianDefenseOKellyVariationNormalSystemTaimanovLine_B28 ;
+      break;
+    case FenArrayType.ZukertortOpeningDoubleFianchettoAttack_A49:
+      fenArray = fenZukertortOpeningDoubleFianchettoAttack_A49 ;
+      break;
+    case FenArrayType.BorgDefenseGeneral_B00:
+      fenArray = fenBorgDefenseGeneral_B00 ;
+      break;
+    case FenArrayType.QueensGambitRefusedAlbinCountergambitModernLine_D08:
+      fenArray = fenQueensGambitRefusedAlbinCountergambitModernLine_D08 ;
+      break;
+    case FenArrayType.KingsIndianDefenseFianchettoVariationDelayedFianchetto_E62:
+      fenArray = fenKingsIndianDefenseFianchettoVariationDelayedFianchetto_E62 ;
+      break;
+    case FenArrayType.AlekhineDefenseFourPawnsAttackFianchettoVariation_B03:
+      fenArray = fenAlekhineDefenseFourPawnsAttackFianchettoVariation_B03 ;
+      break;
+    case FenArrayType.SicilianDefenseRichterRauzerVariationTraditionalVariation_B63:
+      fenArray = fenSicilianDefenseRichterRauzerVariationTraditionalVariation_B63 ;
+      break;
+    case FenArrayType.RetiOpeningAngloSlavVariationTorreSystem_A12:
+      fenArray = fenRetiOpeningAngloSlavVariationTorreSystem_A12 ;
+      break;
+    case FenArrayType.NimzoIndianDefenseNormalVariationHubnerDeferred_E50:
+      fenArray = fenNimzoIndianDefenseNormalVariationHubnerDeferred_E50 ;
+      break;
+    case FenArrayType.EnglishOpeningAngloLithuanianVariation_A10:
+      fenArray = fenEnglishOpeningAngloLithuanianVariation_A10 ;
+      break;
+    case FenArrayType.SicilianDefenseLaskerPelikanVariationExchangeVariation_B33:
+      fenArray = fenSicilianDefenseLaskerPelikanVariationExchangeVariation_B33 ;
+      break;
+    case FenArrayType.QueensGambitDeclinedModernKnightDefense_3_D51:
+      fenArray = fenQueensGambitDeclinedModernKnightDefense_3_D51 ;
+      break;
+    case FenArrayType.FrenchDefenseHorwitzAttack_C00:
+      fenArray = fenFrenchDefenseHorwitzAttack_C00 ;
+      break;
+    case FenArrayType.BenoniDefenseFourPawnsAttack_A68:
+      fenArray = fenBenoniDefenseFourPawnsAttack_A68 ;
+      break;
+    case FenArrayType.SicilianDefenseNajdorfVariationScheveningenVariation_B84:
+      fenArray = fenSicilianDefenseNajdorfVariationScheveningenVariation_B84 ;
+      break;
+    case FenArrayType.SpanishGameMorphyDefenseBreyerDefenseQuietVariation_C94:
+      fenArray = fenSpanishGameMorphyDefenseBreyerDefenseQuietVariation_C94 ;
+      break;
+    case FenArrayType.SicilianDefenseOKellyVariationVeniceSystemSteinerLine_B28:
+      fenArray = fenSicilianDefenseOKellyVariationVeniceSystemSteinerLine_B28 ;
+      break;
+    case FenArrayType.KingsGambitFalkbeerCountergambitNimzowitschMarshallCountergambit_C31:
+      fenArray = fenKingsGambitFalkbeerCountergambitNimzowitschMarshallCountergambit_C31 ;
+      break;
+    case FenArrayType.QueenPawnGameVeresovAtackVeresovVariation_D01:
+      fenArray = fenQueenPawnGameVeresovAtackVeresovVariation_D01 ;
+      break;
+    case FenArrayType.EnglishOpeningTheWhale_C20:
+      fenArray = fenEnglishOpeningTheWhale_C20 ;
+      break;
+    case FenArrayType.FrenchDefenseMacCutcheonVariationWolfGambit_C12:
+      fenArray = fenFrenchDefenseMacCutcheonVariationWolfGambit_C12 ;
+      break;
+    case FenArrayType.GruenfeldDefenseRussianVariationSmyslovVariation_D98:
+      fenArray = fenGruenfeldDefenseRussianVariationSmyslovVariation_D98 ;
+      break;
+    case FenArrayType.GruenfeldDefenseFlohrVariation_D90:
+      fenArray = fenGruenfeldDefenseFlohrVariation_D90 ;
+      break;
+    case FenArrayType.BenkoGambitAcceptedYugoslavwithout7Bxf1_A59:
+      fenArray = fenBenkoGambitAcceptedYugoslavwithout7Bxf1_A59 ;
+      break;
+    case FenArrayType.SpanishGameOpenVariationsDilworthVariation_C82:
+      fenArray = fenSpanishGameOpenVariationsDilworthVariation_C82 ;
+      break;
+    case FenArrayType.GruenfeldDefenseThreeKnightsVariationViennaVariation_D95:
+      fenArray = fenGruenfeldDefenseThreeKnightsVariationViennaVariation_D95 ;
+      break;
+    case FenArrayType.GruenfeldDefenseRussianVariationSzaboBoleslavsky_D97:
+      fenArray = fenGruenfeldDefenseRussianVariationSzaboBoleslavsky_D97 ;
+      break;
+    case FenArrayType.ItalianGameScotchGambitJanowskiDefense_C55:
+      fenArray = fenItalianGameScotchGambitJanowskiDefense_C55 ;
+      break;
+    case FenArrayType.CaroKannDefensePanovAttack_2_B13:
+      fenArray = fenCaroKannDefensePanovAttack_2_B13 ;
+      break;
+    case FenArrayType.BenoniDefenseClassicalVariationCzerniakDefense_A79:
+      fenArray = fenBenoniDefenseClassicalVariationCzerniakDefense_A79 ;
+      break;
+    case FenArrayType.CaroKannDefenseKarpovVariationTiviakovFischerAttack_B17:
+      fenArray = fenCaroKannDefenseKarpovVariationTiviakovFischerAttack_B17 ;
+      break;
+    case FenArrayType.TarraschDefenseSwedishVariation_D33:
+      fenArray = fenTarraschDefenseSwedishVariation_D33 ;
+      break;
+    case FenArrayType.EnglishOpeningAgincourtDefenseBogoljubowDefense_A13:
+      fenArray = fenEnglishOpeningAgincourtDefenseBogoljubowDefense_A13 ;
+      break;
+    case FenArrayType.DutchDefenseClassicalVariation_A91:
+      fenArray = fenDutchDefenseClassicalVariation_A91 ;
+      break;
+    case FenArrayType.SicilianDefenseClosedVariationBotvinnikDefenseI_B25:
+      fenArray = fenSicilianDefenseClosedVariationBotvinnikDefenseI_B25 ;
+      break;
+    case FenArrayType.ViennaGameStanleyVariationModernVariation_C27:
+      fenArray = fenViennaGameStanleyVariationModernVariation_C27 ;
+      break;
+    case FenArrayType.PolishOpeningBugayevAttack_A00:
+      fenArray = fenPolishOpeningBugayevAttack_A00 ;
+      break;
+    case FenArrayType.SpanishGameClosedVariationsClosedDefense_2_C96:
+      fenArray = fenSpanishGameClosedVariationsClosedDefense_2_C96 ;
+      break;
+    case FenArrayType.SpanishGameClosedVariationsYatesVariation_C91:
+      fenArray = fenSpanishGameClosedVariationsYatesVariation_C91 ;
+      break;
+    case FenArrayType.FourKnightsGameItalianVariationNoaGambit_C47:
+      fenArray = fenFourKnightsGameItalianVariationNoaGambit_C47 ;
+      break;
+    case FenArrayType.GruenfeldDefenseExchangeVariationNadanianAttack_D85:
+      fenArray = fenGruenfeldDefenseExchangeVariationNadanianAttack_D85 ;
+      break;
+    case FenArrayType.RussianGameStaffordGambit_C42:
+      fenArray = fenRussianGameStaffordGambit_C42 ;
+      break;
+    case FenArrayType.QueensGambitAcceptedNormalVariation_D21:
+      fenArray = fenQueensGambitAcceptedNormalVariation_D21 ;
+      break;
+    case FenArrayType.SicilianDefenseDragonVariationYugoslavAttackCzerniakVariation_B77:
+      fenArray = fenSicilianDefenseDragonVariationYugoslavAttackCzerniakVariation_B77 ;
+      break;
+    case FenArrayType.QueensGambitAcceptedCentralVariationRubinsteinDefense_D20:
+      fenArray = fenQueensGambitAcceptedCentralVariationRubinsteinDefense_D20 ;
+      break;
+    case FenArrayType.BogoIndianDefenseRetreatVariation_E11:
+      fenArray = fenBogoIndianDefenseRetreatVariation_E11 ;
+      break;
+    case FenArrayType.GruenfeldDefenseBrinckmannAttackGrunfeldGambitAccepted_D84:
+      fenArray = fenGruenfeldDefenseBrinckmannAttackGrunfeldGambitAccepted_D84 ;
+      break;
+    case FenArrayType.SicilianDefensePaulsenVariationTaimanovVariation_B46:
+      fenArray = fenSicilianDefensePaulsenVariationTaimanovVariation_B46 ;
+      break;
+    case FenArrayType.FrenchDefenseAlekhineChatardAttackBreyerVariation_C13:
+      fenArray = fenFrenchDefenseAlekhineChatardAttackBreyerVariation_C13 ;
+      break;
+    case FenArrayType.SicilianDefenseRichterRauzerVariationDragonVariation_B60:
+      fenArray = fenSicilianDefenseRichterRauzerVariationDragonVariation_B60 ;
+      break;
+    case FenArrayType.SpanishGameMorphyDefenseModernSteinitzDefenseSiestaVariation_C74:
+      fenArray = fenSpanishGameMorphyDefenseModernSteinitzDefenseSiestaVariation_C74 ;
+      break;
+    case FenArrayType.SpanishGameMorphyDefenseModernSteinitzDefense_2_C71:
+      fenArray = fenSpanishGameMorphyDefenseModernSteinitzDefense_2_C71 ;
+      break;
+    case FenArrayType.EnglishOpeningKingsEnglishVariationTwoKnightsVariationFianchettoLines_A24:
+      fenArray = fenEnglishOpeningKingsEnglishVariationTwoKnightsVariationFianchettoLines_A24 ;
+      break;
+    case FenArrayType.KingsIndianAttackSicilianVariation_A07:
+      fenArray = fenKingsIndianAttackSicilianVariation_A07 ;
+      break;
+    case FenArrayType.CaroKannDefenseAdvanceVariationVanderWielAttackDreyevDefense_B12:
+      fenArray = fenCaroKannDefenseAdvanceVariationVanderWielAttackDreyevDefense_B12 ;
+      break;
+    case FenArrayType.QueensIndianDefenseClassicalVariationTiviakovDefense_E17:
+      fenArray = fenQueensIndianDefenseClassicalVariationTiviakovDefense_E17 ;
+      break;
+    case FenArrayType.IndianGameCzechIndian_A46:
+      fenArray = fenIndianGameCzechIndian_A46 ;
+      break;
+    case FenArrayType.MikenasDefenseLithuanianVariation_A40:
+      fenArray = fenMikenasDefenseLithuanianVariation_A40 ;
+      break;
+    case FenArrayType.GruenfeldDefenseExchangeVariationSpasskyVariation_D89:
+      fenArray = fenGruenfeldDefenseExchangeVariationSpasskyVariation_D89 ;
+      break;
+    case FenArrayType.BishopsOpeningBoiVariation_C20:
+      fenArray = fenBishopsOpeningBoiVariation_C20 ;
+      break;
+    case FenArrayType.SpanishGameBerlinDefenseHedgehogVariation_C66:
+      fenArray = fenSpanishGameBerlinDefenseHedgehogVariation_C66 ;
+      break;
+    case FenArrayType.EnglishOpeningKingsEnglishVariationBremenHortVariation_A25:
+      fenArray = fenEnglishOpeningKingsEnglishVariationBremenHortVariation_A25 ;
+      break;
+    case FenArrayType.SicilianDefenseSnyderVariationQueenFianchettoVariation_B20:
+      fenArray = fenSicilianDefenseSnyderVariationQueenFianchettoVariation_B20 ;
+      break;
+    case FenArrayType.SicilianDefenseClosedVariationBotvinnikDefenseII_B25:
+      fenArray = fenSicilianDefenseClosedVariationBotvinnikDefenseII_B25 ;
+      break;
+    case FenArrayType.ViennaGameViennaGambit_C25:
+      fenArray = fenViennaGameViennaGambit_C25 ;
+      break;
+    case FenArrayType.SicilianDefenseScheveningenVariationModernVariation_2_B83:
+      fenArray = fenSicilianDefenseScheveningenVariationModernVariation_2_B83 ;
+      break;
+    case FenArrayType.PircDefenseClassicalVariation_2_B07:
+      fenArray = fenPircDefenseClassicalVariation_2_B07 ;
+      break;
+    case FenArrayType.SemiSlavDefenseMeranVariationBlumenfeldVariation_D49:
+      fenArray = fenSemiSlavDefenseMeranVariationBlumenfeldVariation_D49 ;
+      break;
+    case FenArrayType.BenoniDefenseFianchettoVariationHastingsDefense_A63:
+      fenArray = fenBenoniDefenseFianchettoVariationHastingsDefense_A63 ;
+      break;
+    case FenArrayType.SpanishGameClosedVariationsMorphyAttack_C78:
+      fenArray = fenSpanishGameClosedVariationsMorphyAttack_C78 ;
+      break;
+    case FenArrayType.QueensGambitAcceptedClassicalDefenseAlekhineSystem_D28:
+      fenArray = fenQueensGambitAcceptedClassicalDefenseAlekhineSystem_D28 ;
+      break;
+    case FenArrayType.FrenchDefenseMacCutcheonVariationDrOllandDutchVariation_C12:
+      fenArray = fenFrenchDefenseMacCutcheonVariationDrOllandDutchVariation_C12 ;
+      break;
+    case FenArrayType.GruenfeldDefenseExchangeVariationSokolskyVariation_D89:
+      fenArray = fenGruenfeldDefenseExchangeVariationSokolskyVariation_D89 ;
+      break;
+    case FenArrayType.SpanishGameMorphyDefenseModernSteinitzDefense_2_C74:
+      fenArray = fenSpanishGameMorphyDefenseModernSteinitzDefense_2_C74 ;
+      break;
+    case FenArrayType.BudapestDefenseAlekhineVariation_A52:
+      fenArray = fenBudapestDefenseAlekhineVariation_A52 ;
+      break;
+    case FenArrayType.EnglishOpeningAngloIndianDefenseSlavFormation_A15:
+      fenArray = fenEnglishOpeningAngloIndianDefenseSlavFormation_A15 ;
+      break;
+    case FenArrayType.SicilianDefenseVeniceAttack_B56:
+      fenArray = fenSicilianDefenseVeniceAttack_B56 ;
+      break;
+    case FenArrayType.SpanishGameBerlinDefenseRiodeJaneiroVariation_C67:
+      fenArray = fenSpanishGameBerlinDefenseRiodeJaneiroVariation_C67 ;
+      break;
+    case FenArrayType.BlackmarDiemerGambitTeichmannVariation_D00:
+      fenArray = fenBlackmarDiemerGambitTeichmannVariation_D00 ;
+      break;
+    case FenArrayType.ViennaGameStanleyVariationReversedSpanish_C26:
+      fenArray = fenViennaGameStanleyVariationReversedSpanish_C26 ;
+      break;
+    case FenArrayType.PolishOpeningZukertortSystem_A04:
+      fenArray = fenPolishOpeningZukertortSystem_A04 ;
+      break;
+    case FenArrayType.GrobOpeningGrobGambitFritzGambit_A00:
+      fenArray = fenGrobOpeningGrobGambitFritzGambit_A00 ;
+      break;
+    case FenArrayType.AlekhineDefenseFourPawnsAttackTrifunovicVariation_B03:
+      fenArray = fenAlekhineDefenseFourPawnsAttackTrifunovicVariation_B03 ;
+      break;
+    case FenArrayType.MiesesOpeningReversedRat_A00:
+      fenArray = fenMiesesOpeningReversedRat_A00 ;
+      break;
+    case FenArrayType.EnglishOpeningAngloIndianDefenseFlohrMikenasCarlsVariation_A19:
+      fenArray = fenEnglishOpeningAngloIndianDefenseFlohrMikenasCarlsVariation_A19 ;
+      break;
+    case FenArrayType.SpanishGameOpenVariations_C80:
+      fenArray = fenSpanishGameOpenVariations_C80 ;
+      break;
+    case FenArrayType.KingPawnGameGeneral_C20:
+      fenArray = fenKingPawnGameGeneral_C20 ;
+      break;
+    case FenArrayType.DutchDefenseKrejcikGambit_A80:
+      fenArray = fenDutchDefenseKrejcikGambit_A80 ;
+      break;
+    case FenArrayType.DutchDefenseClassicalVariationIlyinZhenevskyVariationModernMainLine_A99:
+      fenArray = fenDutchDefenseClassicalVariationIlyinZhenevskyVariationModernMainLine_A99 ;
+      break;
+    case FenArrayType.PolishOpeningKingsIndianVariationSokolskyAttack_A00:
+      fenArray = fenPolishOpeningKingsIndianVariationSokolskyAttack_A00 ;
+      break;
+    case FenArrayType.NimzowitschDefenseLeanVariationColoradoCounterAccepted_B00:
+      fenArray = fenNimzowitschDefenseLeanVariationColoradoCounterAccepted_B00 ;
+      break;
+    case FenArrayType.IndianGameColleSystemKingsIndianVariation_A48:
+      fenArray = fenIndianGameColleSystemKingsIndianVariation_A48 ;
+      break;
+    case FenArrayType.ScotchGameScotchGambitSarattVariation_C44:
+      fenArray = fenScotchGameScotchGambitSarattVariation_C44 ;
+      break;
+    case FenArrayType.GruenfeldDefenseBotvinnikVariation_D95:
+      fenArray = fenGruenfeldDefenseBotvinnikVariation_D95 ;
+      break;
+    case FenArrayType.ItalianGameEvansGambitTartakowerAttack_C52:
+      fenArray = fenItalianGameEvansGambitTartakowerAttack_C52 ;
+      break;
+    case FenArrayType.KingPawnGameTaylerOpening_C44:
+      fenArray = fenKingPawnGameTaylerOpening_C44 ;
+      break;
+    case FenArrayType.QueensGambitAcceptedAlekhineDefenseHaberditzVariation_D22:
+      fenArray = fenQueensGambitAcceptedAlekhineDefenseHaberditzVariation_D22 ;
+      break;
+    case FenArrayType.ItalianGameEvansGambitAnderssenVariation_C51:
+      fenArray = fenItalianGameEvansGambitAnderssenVariation_C51 ;
+      break;
+    case FenArrayType.CenterGameAccepted_C21:
+      fenArray = fenCenterGameAccepted_C21 ;
+      break;
+    case FenArrayType.DutchDefenseClassicalVariationStonewallVariation_A94:
+      fenArray = fenDutchDefenseClassicalVariationStonewallVariation_A94 ;
+      break;
+    case FenArrayType.SpanishGameClosedVariationsBreyerDefense_C95:
+      fenArray = fenSpanishGameClosedVariationsBreyerDefense_C95 ;
+      break;
+    case FenArrayType.SicilianDefenseSmithMorraGambitAcceptedKanFormation_B21:
+      fenArray = fenSicilianDefenseSmithMorraGambitAcceptedKanFormation_B21 ;
+      break;
+    case FenArrayType.NimzowitschDefenseScandinavianVariationBogoljubowVariationVehreVariation_B00:
+      fenArray = fenNimzowitschDefenseScandinavianVariationBogoljubowVariationVehreVariation_B00 ;
+      break;
+    case FenArrayType.SicilianDefenseLaskerPelikanVariationSveshnikovVariationPeresypkinsSacrifice_B33:
+      fenArray = fenSicilianDefenseLaskerPelikanVariationSveshnikovVariationPeresypkinsSacrifice_B33 ;
+      break;
+    case FenArrayType.SpanishGameClassicalVariationCordelGambit_C64:
+      fenArray = fenSpanishGameClassicalVariationCordelGambit_C64 ;
+      break;
+    case FenArrayType.SpanishGameMorphyDefense_2_C78:
+      fenArray = fenSpanishGameMorphyDefense_2_C78 ;
+      break;
+    case FenArrayType.NimzoIndianDefenseClassicalVariationBerlinVariationMaciejaSystem_E39:
+      fenArray = fenNimzoIndianDefenseClassicalVariationBerlinVariationMaciejaSystem_E39 ;
+      break;
+    case FenArrayType.ScotchGameRomanishinVariation_C45:
+      fenArray = fenScotchGameRomanishinVariation_C45 ;
+      break;
+    case FenArrayType.RubinsteinOpeningClassicalDefense_D05:
+      fenArray = fenRubinsteinOpeningClassicalDefense_D05 ;
+      break;
+    case FenArrayType.SicilianDefenseNimzoAmericanVariation_B32:
+      fenArray = fenSicilianDefenseNimzoAmericanVariation_B32 ;
+      break;
+    case FenArrayType.QueensGambitAcceptedDeferred_D25:
+      fenArray = fenQueensGambitAcceptedDeferred_D25 ;
+      break;
+    case FenArrayType.QueensGambitAcceptedSmyslovVariation_D25:
+      fenArray = fenQueensGambitAcceptedSmyslovVariation_D25 ;
+      break;
+    case FenArrayType.QueenPawnGameVeresovAttackTwoKnightsSystemGruenfeldDefense_D01:
+      fenArray = fenQueenPawnGameVeresovAttackTwoKnightsSystemGruenfeldDefense_D01 ;
+      break;
+    case FenArrayType.NimzoIndianDefenseNormalVariationTaimanovVariation_E40:
+      fenArray = fenNimzoIndianDefenseNormalVariationTaimanovVariation_E40 ;
+      break;
+    case FenArrayType.SicilianDefenseNimzowitschVariationGeneral_B29:
+      fenArray = fenSicilianDefenseNimzowitschVariationGeneral_B29 ;
+      break;
+    case FenArrayType.ItalianGameTwoKnightsDefenseFriedLiverAttack_C57:
+      fenArray = fenItalianGameTwoKnightsDefenseFriedLiverAttack_C57 ;
+      break;
+    case FenArrayType.QueensIndianDefenseEuweVariation_E17:
+      fenArray = fenQueensIndianDefenseEuweVariation_E17 ;
+      break;
+    case FenArrayType.NimzowitschDefenseFrenchConnection_B00:
+      fenArray = fenNimzowitschDefenseFrenchConnection_B00 ;
+      break;
+    case FenArrayType.RetiOpeningReversedBlumenfeldGambit_A09:
+      fenArray = fenRetiOpeningReversedBlumenfeldGambit_A09 ;
+      break;
+    case FenArrayType.ScotchGameGoringGambitDoublePawnSacrifice_C44:
+      fenArray = fenScotchGameGoringGambitDoublePawnSacrifice_C44 ;
+      break;
+    case FenArrayType.SicilianDefenseDelayedAlapinBasmanPalatnikDoubleGambit_B50:
+      fenArray = fenSicilianDefenseDelayedAlapinBasmanPalatnikDoubleGambit_B50 ;
+      break;
+    case FenArrayType.SicilianDefenseDragonVariationClassicalVariation_2_B72:
+      fenArray = fenSicilianDefenseDragonVariationClassicalVariation_2_B72 ;
+      break;
+    case FenArrayType.BishopsOpeningBodenKieseritskyGambit_C27:
+      fenArray = fenBishopsOpeningBodenKieseritskyGambit_C27 ;
+      break;
+    case FenArrayType.SpanishGameCozioDefensePaulsenVariation_C60:
+      fenArray = fenSpanishGameCozioDefensePaulsenVariation_C60 ;
+      break;
+    case FenArrayType.NimzowitschDefenseFrancoNimzowitschVariation_B00:
+      fenArray = fenNimzowitschDefenseFrancoNimzowitschVariation_B00 ;
+      break;
+    case FenArrayType.FrenchDefenseWinawerVariationFingerslipVariation_C15:
+      fenArray = fenFrenchDefenseWinawerVariationFingerslipVariation_C15 ;
+      break;
+    case FenArrayType.FourKnightsGameScotchVariationKrauseGambit_C47:
+      fenArray = fenFourKnightsGameScotchVariationKrauseGambit_C47 ;
+      break;
+    case FenArrayType.SemiSlavDefenseBotvinnikSystemEkstromVariation_D44:
+      fenArray = fenSemiSlavDefenseBotvinnikSystemEkstromVariation_D44 ;
+      break;
+    case FenArrayType.SpanishGameSchliemannDefenseExchangeVariation_C63:
+      fenArray = fenSpanishGameSchliemannDefenseExchangeVariation_C63 ;
+      break;
+    case FenArrayType.SlavDefenseExchangeVariationSchalloppVariation_D12:
+      fenArray = fenSlavDefenseExchangeVariationSchalloppVariation_D12 ;
+      break;
+    case FenArrayType.ScotchGameTartakowerVariation_C45:
+      fenArray = fenScotchGameTartakowerVariation_C45 ;
+      break;
+    case FenArrayType.KingsGambitFalkbeerCountergambitModernTransfer_C32:
+      fenArray = fenKingsGambitFalkbeerCountergambitModernTransfer_C32 ;
+      break;
+    case FenArrayType.KingsIndianDefenseNormalVariationDeferredFianchetto_E72:
+      fenArray = fenKingsIndianDefenseNormalVariationDeferredFianchetto_E72 ;
+      break;
+    case FenArrayType.EnglishOpeningKingsEnglishVariationNimzowitschVariationGeneral_A20:
+      fenArray = fenEnglishOpeningKingsEnglishVariationNimzowitschVariationGeneral_A20 ;
+      break;
+    case FenArrayType.SpanishGameClosedVariationsBorisenkoVariation_C96:
+      fenArray = fenSpanishGameClosedVariationsBorisenkoVariation_C96 ;
+      break;
+    case FenArrayType.GrobOpeningGrobGambitDeclined_A00:
+      fenArray = fenGrobOpeningGrobGambitDeclined_A00 ;
+      break;
+    case FenArrayType.BudapestDefenseAlekhineVariationAbonyiVariation_A52:
+      fenArray = fenBudapestDefenseAlekhineVariationAbonyiVariation_A52 ;
+      break;
+    case FenArrayType.DutchDefenseStauntonGambitChigorinVariation_A83:
+      fenArray = fenDutchDefenseStauntonGambitChigorinVariation_A83 ;
+      break;
+    case FenArrayType.PonzianiOpeningSteinitzVariation_C44:
+      fenArray = fenPonzianiOpeningSteinitzVariation_C44 ;
+      break;
+    case FenArrayType.SpanishGameMorphyDefenseGrazVariation_C70:
+      fenArray = fenSpanishGameMorphyDefenseGrazVariation_C70 ;
+      break;
+    case FenArrayType.EnglundGambitComplexHartlaubCharlickGambit_A40:
+      fenArray = fenEnglundGambitComplexHartlaubCharlickGambit_A40 ;
+      break;
+    case FenArrayType.RetiOpeningAngloSlavVariationBledVariation_A12:
+      fenArray = fenRetiOpeningAngloSlavVariationBledVariation_A12 ;
+      break;
+    case FenArrayType.EnglishOpeningAngloIndianDefenseScandinavianDefense_A15:
+      fenArray = fenEnglishOpeningAngloIndianDefenseScandinavianDefense_A15 ;
+      break;
+    case FenArrayType.SicilianDefenseMarshallGambit_B23:
+      fenArray = fenSicilianDefenseMarshallGambit_B23 ;
+      break;
+    case FenArrayType.SicilianDefenseCanalAttackMoscowGambit_B51:
+      fenArray = fenSicilianDefenseCanalAttackMoscowGambit_B51 ;
+      break;
+    case FenArrayType.AlekhineDefenseBrooklynVariation_B02:
+      fenArray = fenAlekhineDefenseBrooklynVariation_B02 ;
+      break;
+    case FenArrayType.CaroKannDefenseMaroczyVariationMaroczyGambit_B12:
+      fenArray = fenCaroKannDefenseMaroczyVariationMaroczyGambit_B12 ;
+      break;
+    case FenArrayType.SpanishGameClosedVariationsClosedDefense_C90:
+      fenArray = fenSpanishGameClosedVariationsClosedDefense_C90 ;
+      break;
+    case FenArrayType.KingsIndianDefenseOrthodoxVariationPositionalDefenseMainLine_E96:
+      fenArray = fenKingsIndianDefenseOrthodoxVariationPositionalDefenseMainLine_E96 ;
+      break;
+    case FenArrayType.QueensGambitDeclinedLaskerDefenseMainLine_D57:
+      fenArray = fenQueensGambitDeclinedLaskerDefenseMainLine_D57 ;
+      break;
+    case FenArrayType.QueensIndianDefenseKasparovPetrosianVariationRomanishinAttack_E12:
+      fenArray = fenQueensIndianDefenseKasparovPetrosianVariationRomanishinAttack_E12 ;
+      break;
+    case FenArrayType.QueensGambitRefusedAlbinCountergambitFianchettoVariationBe6Line_D09:
+      fenArray = fenQueensGambitRefusedAlbinCountergambitFianchettoVariationBe6Line_D09 ;
+      break;
+    case FenArrayType.KingsGambitDeclinedQueensKnightDefense_C30:
+      fenArray = fenKingsGambitDeclinedQueensKnightDefense_C30 ;
+      break;
+    case FenArrayType.KingsGambitAcceptedBonschOsmolovskyVariation_C34:
+      fenArray = fenKingsGambitAcceptedBonschOsmolovskyVariation_C34 ;
+      break;
+    case FenArrayType.TarraschDefenseClassicalVariationEndgameVariation_D34:
+      fenArray = fenTarraschDefenseClassicalVariationEndgameVariation_D34 ;
+      break;
+    case FenArrayType.QueenPawnGameAngloSlavOpening_A41:
+      fenArray = fenQueenPawnGameAngloSlavOpening_A41 ;
+      break;
+    case FenArrayType.PterodactylDefenseEasternPterodactyl_B06:
+      fenArray = fenPterodactylDefenseEasternPterodactyl_B06 ;
+      break;
+    case FenArrayType.NeoGruenfeldDefenseClassicalVariation_D77:
+      fenArray = fenNeoGruenfeldDefenseClassicalVariation_D77 ;
+      break;
+    case FenArrayType.SemiSlavDefenseRomihVariation_D46:
+      fenArray = fenSemiSlavDefenseRomihVariation_D46 ;
+      break;
+    case FenArrayType.QueensGambitRefusedChigorinDefenseLazardGambit_D06:
+      fenArray = fenQueensGambitRefusedChigorinDefenseLazardGambit_D06 ;
+      break;
+    case FenArrayType.BenoniDefenseClassicalVariationTraditionalVariation_A72:
+      fenArray = fenBenoniDefenseClassicalVariationTraditionalVariation_A72 ;
+      break;
+    case FenArrayType.SicilianDefenseAlapinVariationStoltzAttackIvanchukLine_B22:
+      fenArray = fenSicilianDefenseAlapinVariationStoltzAttackIvanchukLine_B22 ;
+      break;
+    case FenArrayType.ItalianGameClassicalVariationDelaBourdonnaisVariation_C53:
+      fenArray = fenItalianGameClassicalVariationDelaBourdonnaisVariation_C53 ;
+      break;
+    case FenArrayType.SicilianDefenseSmithMorraGambitDeclinedDuboisVariation_B21:
+      fenArray = fenSicilianDefenseSmithMorraGambitDeclinedDuboisVariation_B21 ;
+      break;
+    case FenArrayType.DutchDefenseBlackburneVariation_A81:
+      fenArray = fenDutchDefenseBlackburneVariation_A81 ;
+      break;
+    case FenArrayType.LionDefenseBayonetAttack_B07:
+      fenArray = fenLionDefenseBayonetAttack_B07 ;
+      break;
+    case FenArrayType.AlekhineDefenseHuntVariationLaskerSimulGambit_B02:
+      fenArray = fenAlekhineDefenseHuntVariationLaskerSimulGambit_B02 ;
+      break;
+    case FenArrayType.FrenchDefenseAdvanceVariationNimzowitschAttack_C02:
+      fenArray = fenFrenchDefenseAdvanceVariationNimzowitschAttack_C02 ;
+      break;
+    case FenArrayType.QueensGambitAcceptedClassicalDefenseSteinitzVariationExchangeVariation_D26:
+      fenArray = fenQueensGambitAcceptedClassicalDefenseSteinitzVariationExchangeVariation_D26 ;
+      break;
+    case FenArrayType.PolishOpeningSchifflerSokolskyVariation_A00:
+      fenArray = fenPolishOpeningSchifflerSokolskyVariation_A00 ;
+      break;
+    case FenArrayType.PolishOpeningKingsIndianVariation_A00:
+      fenArray = fenPolishOpeningKingsIndianVariation_A00 ;
+      break;
+    case FenArrayType.FrenchDefenseTarraschVariationLeningradVariation_C06:
+      fenArray = fenFrenchDefenseTarraschVariationLeningradVariation_C06 ;
+      break;
+    case FenArrayType.FrenchDefenseClassicalVariationRichterAttack_1_C13:
+      fenArray = fenFrenchDefenseClassicalVariationRichterAttack_1_C13 ;
+      break;
+    case FenArrayType.ScandinavianDefenseModernVariation_2_B01:
+      fenArray = fenScandinavianDefenseModernVariation_2_B01 ;
+      break;
+    case FenArrayType.FrenchDefenseClassicalVariation_C11:
+      fenArray = fenFrenchDefenseClassicalVariation_C11 ;
+      break;
+    case FenArrayType.EnglishOpeningAngloIndianDefenseRomanishinVariation_A11:
+      fenArray = fenEnglishOpeningAngloIndianDefenseRomanishinVariation_A11 ;
+      break;
+    case FenArrayType.QueenPawnGameLevitskyAttackEuweVariationModernLine_D00:
+      fenArray = fenQueenPawnGameLevitskyAttackEuweVariationModernLine_D00 ;
+      break;
+    case FenArrayType.OldIndianDefenseJanowskiVariationMainLine_A53:
+      fenArray = fenOldIndianDefenseJanowskiVariationMainLine_A53 ;
+      break;
+    case FenArrayType.SemiSlavDefenseStoltzVariationCenterVariation_D45:
+      fenArray = fenSemiSlavDefenseStoltzVariationCenterVariation_D45 ;
+      break;
+    case FenArrayType.NimzoIndianDefenseSaemischVariationCapablancaVariation_E29:
+      fenArray = fenNimzoIndianDefenseSaemischVariationCapablancaVariation_E29 ;
+      break;
+    case FenArrayType.SicilianDefenseDragonVariationClassicalVariationMaroczyLine_B74:
+      fenArray = fenSicilianDefenseDragonVariationClassicalVariationMaroczyLine_B74 ;
+      break;
+    case FenArrayType.QueensGambitRefusedAlbinCountergambitFianchettoVariationBg4Line_D09:
+      fenArray = fenQueensGambitRefusedAlbinCountergambitFianchettoVariationBg4Line_D09 ;
+      break;
+    case FenArrayType.SicilianDefenseModernVariationsAntiQxd4MoveOrderAccepted_B50:
+      fenArray = fenSicilianDefenseModernVariationsAntiQxd4MoveOrderAccepted_B50 ;
+      break;
+    case FenArrayType.DutchDefenseAlekhineVariation_A92:
+      fenArray = fenDutchDefenseAlekhineVariation_A92 ;
+      break;
+    case FenArrayType.KingsGambitAcceptedCunninghamDefense_C35:
+      fenArray = fenKingsGambitAcceptedCunninghamDefense_C35 ;
+      break;
+    case FenArrayType.BenoniDefenseClassicalVariationCzerniakDefense_A78:
+      fenArray = fenBenoniDefenseClassicalVariationCzerniakDefense_A78 ;
+      break;
+    case FenArrayType.ItalianGameScotchGambitDeRiviereDefense_C55:
+      fenArray = fenItalianGameScotchGambitDeRiviereDefense_C55 ;
+      break;
+    case FenArrayType.EnglundGambitComplexGeneral_A40:
+      fenArray = fenEnglundGambitComplexGeneral_A40 ;
+      break;
+    case FenArrayType.NimzoIndianDefenseRomanishinVariation_2_E20:
+      fenArray = fenNimzoIndianDefenseRomanishinVariation_2_E20 ;
+      break;
+    case FenArrayType.PterodactylDefenseMiscellanyQueenPterodactylQuiet_A40:
+      fenArray = fenPterodactylDefenseMiscellanyQueenPterodactylQuiet_A40 ;
+      break;
+    case FenArrayType.BenoniDefenseVultureDefense_A56:
+      fenArray = fenBenoniDefenseVultureDefense_A56 ;
+      break;
+    case FenArrayType.ModernDefenseModernPterodactyl_B06:
+      fenArray = fenModernDefenseModernPterodactyl_B06 ;
+      break;
+    case FenArrayType.QueensGambitDeclinedOrthodoxDefenseRubinsteinVariationFlohrLine_D62:
+      fenArray = fenQueensGambitDeclinedOrthodoxDefenseRubinsteinVariationFlohrLine_D62 ;
+      break;
+    case FenArrayType.SicilianDefenseWingGambitDeferredVariation_B50:
+      fenArray = fenSicilianDefenseWingGambitDeferredVariation_B50 ;
+      break;
+    case FenArrayType.QueensGambitDeclinedSemiTarraschDefensePillsburyVariation_D40:
+      fenArray = fenQueensGambitDeclinedSemiTarraschDefensePillsburyVariation_D40 ;
+      break;
+    case FenArrayType.VanGeetOpeningSicilianTwoKnights_A00:
+      fenArray = fenVanGeetOpeningSicilianTwoKnights_A00 ;
+      break;
+    case FenArrayType.SicilianDefenseSmithMorraGambitAcceptedPinDefense_B21:
+      fenArray = fenSicilianDefenseSmithMorraGambitAcceptedPinDefense_B21 ;
+      break;
+    case FenArrayType.QueensGambitRefusedChigorinDefenseExchangeVariationCostasLine_D07:
+      fenArray = fenQueensGambitRefusedChigorinDefenseExchangeVariationCostasLine_D07 ;
+      break;
+    case FenArrayType.KingsIndianDefenseFianchettoVariationPterodactylVariation_E64:
+      fenArray = fenKingsIndianDefenseFianchettoVariationPterodactylVariation_E64 ;
+      break;
+    case FenArrayType.FrenchDefenseMacCutcheonVariationChigorinVariation_C12:
+      fenArray = fenFrenchDefenseMacCutcheonVariationChigorinVariation_C12 ;
+      break;
+    case FenArrayType.PhilidorDefenseHanhamVariationKrauseVariation_C41:
+      fenArray = fenPhilidorDefenseHanhamVariationKrauseVariation_C41 ;
+      break;
+    case FenArrayType.SemiSlavDefenseMainLines_D46:
+      fenArray = fenSemiSlavDefenseMainLines_D46 ;
+      break;
+    case FenArrayType.SpanishGameClosedVariationsKeresDefense_2_C92:
+      fenArray = fenSpanishGameClosedVariationsKeresDefense_2_C92 ;
+      break;
+    case FenArrayType.DutchDefenseClassicalVariationStonewallVariationBotvinnikVariation_A93:
+      fenArray = fenDutchDefenseClassicalVariationStonewallVariationBotvinnikVariation_A93 ;
+      break;
+    case FenArrayType.RetiOpeningAdvanceVariationMichelGambit_A09:
+      fenArray = fenRetiOpeningAdvanceVariationMichelGambit_A09 ;
+      break;
+    case FenArrayType.NimzowitschDefenseKennedyVariationPaulsenAttack_B00:
+      fenArray = fenNimzowitschDefenseKennedyVariationPaulsenAttack_B00 ;
+      break;
+    case FenArrayType.SicilianDefenseMorphyGambit_B21:
+      fenArray = fenSicilianDefenseMorphyGambit_B21 ;
+      break;
+    case FenArrayType.ScotchGameSchmidGambit_C44:
+      fenArray = fenScotchGameSchmidGambit_C44 ;
+      break;
+    case FenArrayType.RussianGameKarklinsMartinovskyVariation_C42:
+      fenArray = fenRussianGameKarklinsMartinovskyVariation_C42 ;
+      break;
+    case FenArrayType.SlavDefenseSuchtingVariation_D15:
+      fenArray = fenSlavDefenseSuchtingVariation_D15 ;
+      break;
+    case FenArrayType.DutchDefenseStonewallVariationGeneralVariation_A92:
+      fenArray = fenDutchDefenseStonewallVariationGeneralVariation_A92 ;
+      break;
+    case FenArrayType.DutchDefenseClassicalVariationIlyinZhenevskyVariationAlatortsevLisitsynLine_A98:
+      fenArray = fenDutchDefenseClassicalVariationIlyinZhenevskyVariationAlatortsevLisitsynLine_A98 ;
+      break;
+    case FenArrayType.FrenchDefenseRetiSpielmannAttack_C00:
+      fenArray = fenFrenchDefenseRetiSpielmannAttack_C00 ;
+      break;
+    case FenArrayType.GrobOpeningKeeneDefense_A00:
+      fenArray = fenGrobOpeningKeeneDefense_A00 ;
+      break;
+    case FenArrayType.QueensGambitDeclinedHarrwitzAttackMainLineNewMainLine_D37:
+      fenArray = fenQueensGambitDeclinedHarrwitzAttackMainLineNewMainLine_D37 ;
+      break;
+    case FenArrayType.NimzoIndianDefenseRagozinDefense_E46:
+      fenArray = fenNimzoIndianDefenseRagozinDefense_E46 ;
+      break;
+    case FenArrayType.GruenfeldDefenseRussianVariationWithe4_D97:
+      fenArray = fenGruenfeldDefenseRussianVariationWithe4_D97 ;
+      break;
+    case FenArrayType.LatvianGambitAcceptedBilguerVariation_C40:
+      fenArray = fenLatvianGambitAcceptedBilguerVariation_C40 ;
+      break;
+    case FenArrayType.BenoniDefenseWeeninkVariation_A56:
+      fenArray = fenBenoniDefenseWeeninkVariation_A56 ;
+      break;
+    case FenArrayType.PhilidorDefenseLionVariationLionsClawII_C41:
+      fenArray = fenPhilidorDefenseLionVariationLionsClawII_C41 ;
+      break;
+    case FenArrayType.KingsGambitFalkbeerCountergambitCharousekGambitAccepted_C32:
+      fenArray = fenKingsGambitFalkbeerCountergambitCharousekGambitAccepted_C32 ;
+      break;
+    case FenArrayType.SpanishGameClosedVariationsTrajkovicCounterattack_C88:
+      fenArray = fenSpanishGameClosedVariationsTrajkovicCounterattack_C88 ;
+      break;
+    case FenArrayType.CaroKannDefenseGurgenidzeCounterattack_B15:
+      fenArray = fenCaroKannDefenseGurgenidzeCounterattack_B15 ;
+      break;
+    case FenArrayType.PhilidorDefenseHanhamVariationSchlechterVariation_C41:
+      fenArray = fenPhilidorDefenseHanhamVariationSchlechterVariation_C41 ;
+      break;
+    case FenArrayType.ItalianGameSchillingKosticGambit_C50:
+      fenArray = fenItalianGameSchillingKosticGambit_C50 ;
+      break;
+    case FenArrayType.SicilianDefenseWingGambitCarlsbadVariation_B20:
+      fenArray = fenSicilianDefenseWingGambitCarlsbadVariation_B20 ;
+      break;
+    case FenArrayType.QueensGambitAcceptedGunsbergDefensePrianishenmoGambit_D24:
+      fenArray = fenQueensGambitAcceptedGunsbergDefensePrianishenmoGambit_D24 ;
+      break;
+    case FenArrayType.SicilianDefenseDragonVariationYugoslavAttack_2_B77:
+      fenArray = fenSicilianDefenseDragonVariationYugoslavAttack_2_B77 ;
+      break;
+    case FenArrayType.TarraschDefenseClassicalVariationClassicalTarraschGambit_D34:
+      fenArray = fenTarraschDefenseClassicalVariationClassicalTarraschGambit_D34 ;
+      break;
+    case FenArrayType.ScandinavianDefenseBlackburneGambit_B01:
+      fenArray = fenScandinavianDefenseBlackburneGambit_B01 ;
+      break;
+    case FenArrayType.ZukertortOpeningSantasieresFolly_A06:
+      fenArray = fenZukertortOpeningSantasieresFolly_A06 ;
+      break;
+    case FenArrayType.ScotchGameClassicalVariationMillenniumVariation_C45:
+      fenArray = fenScotchGameClassicalVariationMillenniumVariation_C45 ;
+      break;
+    case FenArrayType.EnglishDefensePerrinVariation_A40:
+      fenArray = fenEnglishDefensePerrinVariation_A40 ;
+      break;
+    case FenArrayType.NimzowitschDefenseScandinavianVariationBogoljubowVariationNimzowitschGambit_B00:
+      fenArray = fenNimzowitschDefenseScandinavianVariationBogoljubowVariationNimzowitschGambit_B00 ;
+      break;
+    case FenArrayType.EnglishOpeningDrillVariation_A20:
+      fenArray = fenEnglishOpeningDrillVariation_A20 ;
+      break;
+    case FenArrayType.ModernDefenseSemiAverbakhVariationPterodactylVariation_B06:
+      fenArray = fenModernDefenseSemiAverbakhVariationPterodactylVariation_B06 ;
+      break;
+    case FenArrayType.CaroKannDefenseEuweAttack_B10:
+      fenArray = fenCaroKannDefenseEuweAttack_B10 ;
+      break;
+    case FenArrayType.SicilianDefenseOKellyVariationVeniceSystemBarczaLine_B28:
+      fenArray = fenSicilianDefenseOKellyVariationVeniceSystemBarczaLine_B28 ;
+      break;
+    case FenArrayType.KingsGambitAcceptedBishopsGambitBogoljubowDefense_C33:
+      fenArray = fenKingsGambitAcceptedBishopsGambitBogoljubowDefense_C33 ;
+      break;
+    case FenArrayType.CaroKannDefenseClassicalVariationMaroczyAttack_B18:
+      fenArray = fenCaroKannDefenseClassicalVariationMaroczyAttack_B18 ;
+      break;
+    case FenArrayType.PircDefenseAustrianAttackUnzickerAttackBronsteinVariation_B09:
+      fenArray = fenPircDefenseAustrianAttackUnzickerAttackBronsteinVariation_B09 ;
+      break;
+    case FenArrayType.SpanishGameExchangeVariationLutikovVariation_C68:
+      fenArray = fenSpanishGameExchangeVariationLutikovVariation_C68 ;
+      break;
+    case FenArrayType.WareOpeningGeneral_A00:
+      fenArray = fenWareOpeningGeneral_A00 ;
+      break;
+    case FenArrayType.NimzoIndianDefenseNormalVariationSaemischDeferred_E51:
+      fenArray = fenNimzoIndianDefenseNormalVariationSaemischDeferred_E51 ;
+      break;
+    case FenArrayType.FrenchDefenseClassicalVariationRubinsteinVariation_C14:
+      fenArray = fenFrenchDefenseClassicalVariationRubinsteinVariation_C14 ;
+      break;
+    case FenArrayType.KingsIndianDefenseFianchettoVariationHungarianVariation_E64:
+      fenArray = fenKingsIndianDefenseFianchettoVariationHungarianVariation_E64 ;
+      break;
+    case FenArrayType.RetiOpeningAngloSlavVariationBogoljubowVariation_A12:
+      fenArray = fenRetiOpeningAngloSlavVariationBogoljubowVariation_A12 ;
+      break;
+    case FenArrayType.NimzoLarsenAttackDutchVariation_A01:
+      fenArray = fenNimzoLarsenAttackDutchVariation_A01 ;
+      break;
+    case FenArrayType.GruenfeldDefenseExchangeVariationSevilleVariation_D87:
+      fenArray = fenGruenfeldDefenseExchangeVariationSevilleVariation_D87 ;
+      break;
+    case FenArrayType.ScotchGameHorwitzAttack_C45:
+      fenArray = fenScotchGameHorwitzAttack_C45 ;
+      break;
+    case FenArrayType.ItalianGameTwoKnightsDefensePolerioDefenseKieseritskyVariation_C58:
+      fenArray = fenItalianGameTwoKnightsDefensePolerioDefenseKieseritskyVariation_C58 ;
+      break;
+    case FenArrayType.LondonSystemPoisonedPawnVariation_D02:
+      fenArray = fenLondonSystemPoisonedPawnVariation_D02 ;
+      break;
+    case FenArrayType.PolishOpeningBalticDefense_A00:
+      fenArray = fenPolishOpeningBalticDefense_A00 ;
+      break;
+    case FenArrayType.GruenfeldDefenseExchangeVariationModernExchangeVariationPawnGrabline_D85:
+      fenArray = fenGruenfeldDefenseExchangeVariationModernExchangeVariationPawnGrabline_D85 ;
+      break;
+    case FenArrayType.ItalianGameEvansGambitPierceDefense_C52:
+      fenArray = fenItalianGameEvansGambitPierceDefense_C52 ;
+      break;
+    case FenArrayType.QueensGambitDeclinedTarraschDefensePseudoTarraschBishopAttack_D30:
+      fenArray = fenQueensGambitDeclinedTarraschDefensePseudoTarraschBishopAttack_D30 ;
+      break;
+    case FenArrayType.PterodactylDefenseEasternAnhanguera_B06:
+      fenArray = fenPterodactylDefenseEasternAnhanguera_B06 ;
+      break;
+    case FenArrayType.FrenchDefenseWinawerVariationAlekhineGambitAccepted_C15:
+      fenArray = fenFrenchDefenseWinawerVariationAlekhineGambitAccepted_C15 ;
+      break;
+    case FenArrayType.KingsIndianDefenseFianchettoVariationPannoVariationDonnerLine_E63:
+      fenArray = fenKingsIndianDefenseFianchettoVariationPannoVariationDonnerLine_E63 ;
+      break;
+    case FenArrayType.RussianGameCochraneGambitCenterVariation_C42:
+      fenArray = fenRussianGameCochraneGambitCenterVariation_C42 ;
+      break;
+    case FenArrayType.ItalianGameScotchGambitWalbrodtBairdGambit_C55:
+      fenArray = fenItalianGameScotchGambitWalbrodtBairdGambit_C55 ;
+      break;
+    case FenArrayType.HungarianOpeningCatalanFormation_A00:
+      fenArray = fenHungarianOpeningCatalanFormation_A00 ;
+      break;
+    case FenArrayType.SpanishGameOpenVariationsRigaVariation_C80:
+      fenArray = fenSpanishGameOpenVariationsRigaVariation_C80 ;
+      break;
+    case FenArrayType.QueensGambitDeclinedOrthodoxDefenseAlekhineVariation_D67:
+      fenArray = fenQueensGambitDeclinedOrthodoxDefenseAlekhineVariation_D67 ;
+      break;
+    case FenArrayType.FrenchDefenseAlapinGambit_C00:
+      fenArray = fenFrenchDefenseAlapinGambit_C00 ;
+      break;
+    case FenArrayType.EnglishOpeningAngloIndianDefenseZviagintsevKrasenkovAttack_A18:
+      fenArray = fenEnglishOpeningAngloIndianDefenseZviagintsevKrasenkovAttack_A18 ;
+      break;
+    case FenArrayType.QueensIndianDefenseKasparovPetrosianVariation_E17:
+      fenArray = fenQueensIndianDefenseKasparovPetrosianVariation_E17 ;
+      break;
+    case FenArrayType.QueensGambitDeclinedOrthodoxDefenseMainLine_D67:
+      fenArray = fenQueensGambitDeclinedOrthodoxDefenseMainLine_D67 ;
+      break;
+    case FenArrayType.FrenchDefenseClassicalVariationAlapinVariation_C14:
+      fenArray = fenFrenchDefenseClassicalVariationAlapinVariation_C14 ;
+      break;
+    case FenArrayType.SemiSlavDefenseSemiMeranVariation_D47:
+      fenArray = fenSemiSlavDefenseSemiMeranVariation_D47 ;
+      break;
+    case FenArrayType.ViennaGameViennaGambitSteinitzGambitKnightVariation_C25:
+      fenArray = fenViennaGameViennaGambitSteinitzGambitKnightVariation_C25 ;
+      break;
+    case FenArrayType.FrenchDefenseAdvanceVariationNimzowitschGambit_C02:
+      fenArray = fenFrenchDefenseAdvanceVariationNimzowitschGambit_C02 ;
+      break;
+    case FenArrayType.DutchDefenseClassicalVariationBlackburneAttack_A91:
+      fenArray = fenDutchDefenseClassicalVariationBlackburneAttack_A91 ;
+      break;
+    case FenArrayType.QueensGambitAcceptedClassicalDefenseRussianGambit_D27:
+      fenArray = fenQueensGambitAcceptedClassicalDefenseRussianGambit_D27 ;
+      break;
+    case FenArrayType.SicilianDefenseMarshallCounterattack_B40:
+      fenArray = fenSicilianDefenseMarshallCounterattack_B40 ;
+      break;
+    case FenArrayType.FrenchDefenseClassicalVariationTartakowerVariation_C13:
+      fenArray = fenFrenchDefenseClassicalVariationTartakowerVariation_C13 ;
+      break;
+    case FenArrayType.DutchDefenseBlackmarsSecondGambit_A80:
+      fenArray = fenDutchDefenseBlackmarsSecondGambit_A80 ;
+      break;
+    case FenArrayType.SicilianDefenseSmithMorraGambitAcceptedFianchettoDefense_B21:
+      fenArray = fenSicilianDefenseSmithMorraGambitAcceptedFianchettoDefense_B21 ;
+      break;
+    case FenArrayType.NimzoIndianDefenseSaemischVariationOKellyVariation_E26:
+      fenArray = fenNimzoIndianDefenseSaemischVariationOKellyVariation_E26 ;
+      break;
+    case FenArrayType.GruenfeldDefenseZaitsevGambit_D80:
+      fenArray = fenGruenfeldDefenseZaitsevGambit_D80 ;
+      break;
+    case FenArrayType.AlekhineDefenseModernVariationKeresVariation_B04:
+      fenArray = fenAlekhineDefenseModernVariationKeresVariation_B04 ;
+      break;
+    case FenArrayType.EnglishOpeningKingsEnglishVariationNimzowitschFlohrVariation_A20:
+      fenArray = fenEnglishOpeningKingsEnglishVariationNimzowitschFlohrVariation_A20 ;
+      break;
+    case FenArrayType.SicilianDefenseClosedVariationBotvinnikDefenseIEdgeVariation_B25:
+      fenArray = fenSicilianDefenseClosedVariationBotvinnikDefenseIEdgeVariation_B25 ;
+      break;
+    case FenArrayType.KingsIndianDefenseOrthodoxVariationKorchnoiAttack_E97:
+      fenArray = fenKingsIndianDefenseOrthodoxVariationKorchnoiAttack_E97 ;
+      break;
+    case FenArrayType.SicilianDefenseScheveningenVariationClassicalVariationPaulsenVariation_2_B85:
+      fenArray = fenSicilianDefenseScheveningenVariationClassicalVariationPaulsenVariation_2_B85 ;
+      break;
+    case FenArrayType.QueensGambitDeclinedOrthodoxDefenseClassicalVariation_1_D68:
+      fenArray = fenQueensGambitDeclinedOrthodoxDefenseClassicalVariation_1_D68 ;
+      break;
+    case FenArrayType.SicilianDefenseOKellyVariationQuietSystem_B28:
+      fenArray = fenSicilianDefenseOKellyVariationQuietSystem_B28 ;
+      break;
+    case FenArrayType.KingsIndianDefenseFourPawnsAttackGeneral_E77:
+      fenArray = fenKingsIndianDefenseFourPawnsAttackGeneral_E77 ;
+      break;
+    case FenArrayType.HungarianOpeningReversedModernDefense_A00:
+      fenArray = fenHungarianOpeningReversedModernDefense_A00 ;
+      break;
+    case FenArrayType.QueenPawnGameHubschGambit_D00:
+      fenArray = fenQueenPawnGameHubschGambit_D00 ;
+      break;
+    case FenArrayType.FrenchDefenseWinawerVariationMaroczyWallisVariation_C18:
+      fenArray = fenFrenchDefenseWinawerVariationMaroczyWallisVariation_C18 ;
+      break;
+    case FenArrayType.QueensGambitDeclinedNeoOrthodoxVariation_D54:
+      fenArray = fenQueensGambitDeclinedNeoOrthodoxVariation_D54 ;
+      break;
+    case FenArrayType.ZukertortOpeningTennisonGambit_A06:
+      fenArray = fenZukertortOpeningTennisonGambit_A06 ;
+      break;
+    case FenArrayType.ModernDefenseImprovedMaroczy_B06:
+      fenArray = fenModernDefenseImprovedMaroczy_B06 ;
+      break;
+    case FenArrayType.ScandinavianDefenseAnderssenCounterattack_B01:
+      fenArray = fenScandinavianDefenseAnderssenCounterattack_B01 ;
+      break;
+    case FenArrayType.ItalianGameTwoKnightsDefenseTraxlerCounterattackBishopsacline_C57:
+      fenArray = fenItalianGameTwoKnightsDefenseTraxlerCounterattackBishopsacline_C57 ;
+      break;
+    case FenArrayType.KingsIndianDefenseOrthodoxVariation_E92:
+      fenArray = fenKingsIndianDefenseOrthodoxVariation_E92 ;
+      break;
+    case FenArrayType.SicilianDefensePaulsenVariationAmericanAttack_B45:
+      fenArray = fenSicilianDefensePaulsenVariationAmericanAttack_B45 ;
+      break;
+    case FenArrayType.ViennaGameStanleyVariationMonsterDeclined_C27:
+      fenArray = fenViennaGameStanleyVariationMonsterDeclined_C27 ;
+      break;
+    case FenArrayType.KingsIndianDefenseAverbakhVariationBenoniDefenseExchangeVariation_E74:
+      fenArray = fenKingsIndianDefenseAverbakhVariationBenoniDefenseExchangeVariation_E74 ;
+      break;
+    case FenArrayType.SicilianDefenseNyezhmetdinovRossolimoAttackFianchettoVariationLutikovGambit_B31:
+      fenArray = fenSicilianDefenseNyezhmetdinovRossolimoAttackFianchettoVariationLutikovGambit_B31 ;
+      break;
+    case FenArrayType.SicilianDefenseWingGambitAbrahamsVariation_B20:
+      fenArray = fenSicilianDefenseWingGambitAbrahamsVariation_B20 ;
+      break;
+    case FenArrayType.KingsIndianDefensePomarSystem_E72:
+      fenArray = fenKingsIndianDefensePomarSystem_E72 ;
+      break;
+    case FenArrayType.FourKnightsGameRankenVariation_C48:
+      fenArray = fenFourKnightsGameRankenVariation_C48 ;
+      break;
+    case FenArrayType.SicilianDefenseGawPawVariation_B40:
+      fenArray = fenSicilianDefenseGawPawVariation_B40 ;
+      break;
+    case FenArrayType.FrenchDefenseClassicalVariationNormalVariation_C13:
+      fenArray = fenFrenchDefenseClassicalVariationNormalVariation_C13 ;
+      break;
+    case FenArrayType.RussianGameClassicalAttackChigorinVariationBrowneAttack_C42:
+      fenArray = fenRussianGameClassicalAttackChigorinVariationBrowneAttack_C42 ;
+      break;
+    case FenArrayType.SicilianDefenseClosedSicilianAntiSveshnikovVariationKharlovKramnikLine_B30:
+      fenArray = fenSicilianDefenseClosedSicilianAntiSveshnikovVariationKharlovKramnikLine_B30 ;
+      break;
+    case FenArrayType.KingsGambitAcceptedMacLeodDefense_C34:
+      fenArray = fenKingsGambitAcceptedMacLeodDefense_C34 ;
+      break;
+    case FenArrayType.QueensGambitDeclinedOrthodoxDefenseFianchettoVariation_D66:
+      fenArray = fenQueensGambitDeclinedOrthodoxDefenseFianchettoVariation_D66 ;
+      break;
+    case FenArrayType.FrenchDefenseSteinitzAttack_C00:
+      fenArray = fenFrenchDefenseSteinitzAttack_C00 ;
+      break;
+    case FenArrayType.TarraschDefenseClassicalVariationSpasskyVariation_D34:
+      fenArray = fenTarraschDefenseClassicalVariationSpasskyVariation_D34 ;
+      break;
+    case FenArrayType.KingsGambitAcceptedBeckerDefense_C34:
+      fenArray = fenKingsGambitAcceptedBeckerDefense_C34 ;
+      break;
+    case FenArrayType.BishopsOpeningPonzianiGambit_C24:
+      fenArray = fenBishopsOpeningPonzianiGambit_C24 ;
+      break;
+    case FenArrayType.ItalianGameClassicalVariationCenterHoldingVariation_C53:
+      fenArray = fenItalianGameClassicalVariationCenterHoldingVariation_C53 ;
+      break;
+    case FenArrayType.SicilianDefenseNyezhmetdinovRossolimoAttackGurgenidzeVariation_B31:
+      fenArray = fenSicilianDefenseNyezhmetdinovRossolimoAttackGurgenidzeVariation_B31 ;
+      break;
+    case FenArrayType.PhilidorDefenseNimzowitschVariationRellstabVariation_C41:
+      fenArray = fenPhilidorDefenseNimzowitschVariationRellstabVariation_C41 ;
+      break;
+    case FenArrayType.BlackmarDiemerGambitEuweDefense_D00:
+      fenArray = fenBlackmarDiemerGambitEuweDefense_D00 ;
+      break;
+    case FenArrayType.PhilidorDefenseHanhamVariationSteinerVariation_C41:
+      fenArray = fenPhilidorDefenseHanhamVariationSteinerVariation_C41 ;
+      break;
+    case FenArrayType.BarnesOpeningGeneral_A00:
+      fenArray = fenBarnesOpeningGeneral_A00 ;
+      break;
+    case FenArrayType.OldIndianDefenseJanowskiVariationFianchettoVariation_2_A53:
+      fenArray = fenOldIndianDefenseJanowskiVariationFianchettoVariation_2_A53 ;
+      break;
+    case FenArrayType.EnglishOpeningKingsEnglishVariationFourKnightsVariationQuietLine_3_A28:
+      fenArray = fenEnglishOpeningKingsEnglishVariationFourKnightsVariationQuietLine_3_A28 ;
+      break;
+    case FenArrayType.ItalianGameScotchGambitMaxLangeAttackLongVariation_C55:
+      fenArray = fenItalianGameScotchGambitMaxLangeAttackLongVariation_C55 ;
+      break;
+    case FenArrayType.StGeorgeDefenseNewStGeorgeTraditionalLine_B00:
+      fenArray = fenStGeorgeDefenseNewStGeorgeTraditionalLine_B00 ;
+      break;
+    case FenArrayType.SicilianDefenseAlapinVariationSherzerVariation_B22:
+      fenArray = fenSicilianDefenseAlapinVariationSherzerVariation_B22 ;
+      break;
+    case FenArrayType.FrenchDefenseRubinsteinVariationMaricVariation_C10:
+      fenArray = fenFrenchDefenseRubinsteinVariationMaricVariation_C10 ;
+      break;
+    case FenArrayType.BenkoGambitDeclinedPseudoSaemisch_A57:
+      fenArray = fenBenkoGambitDeclinedPseudoSaemisch_A57 ;
+      break;
+    case FenArrayType.QueenPawnOpeningVeresovAttackIrishGambit_D00:
+      fenArray = fenQueenPawnOpeningVeresovAttackIrishGambit_D00 ;
+      break;
+    case FenArrayType.EnglundGambitDeclinedReversedFrench_A40:
+      fenArray = fenEnglundGambitDeclinedReversedFrench_A40 ;
+      break;
+    case FenArrayType.NeoGruenfeldDefenseDelayedExchangeVariation_2_D75:
+      fenArray = fenNeoGruenfeldDefenseDelayedExchangeVariation_2_D75 ;
+      break;
+    case FenArrayType.KingsGambitAcceptedModernDefense_C36:
+      fenArray = fenKingsGambitAcceptedModernDefense_C36 ;
+      break;
+    case FenArrayType.SemiSlavDefenseNoteboomVariationAntiNoteboomGambit_D31:
+      fenArray = fenSemiSlavDefenseNoteboomVariationAntiNoteboomGambit_D31 ;
+      break;
+    case FenArrayType.SpanishGameMarshallAttackOriginalMarshallAttack_C89:
+      fenArray = fenSpanishGameMarshallAttackOriginalMarshallAttack_C89 ;
+      break;
+    case FenArrayType.SpanishGameClosedVariationsGeneral_C92:
+      fenArray = fenSpanishGameClosedVariationsGeneral_C92 ;
+      break;
+    case FenArrayType.ScandinavianDefenseMainLinesLeonhardtGambit_B01:
+      fenArray = fenScandinavianDefenseMainLinesLeonhardtGambit_B01 ;
+      break;
+    case FenArrayType.ViennaGameStanleyVariationThreeKnightsVariation_C28:
+      fenArray = fenViennaGameStanleyVariationThreeKnightsVariation_C28 ;
+      break;
+    case FenArrayType.FourKnightsGameScotchVariationKrauseGambitLeonhardtDefense_C47:
+      fenArray = fenFourKnightsGameScotchVariationKrauseGambitLeonhardtDefense_C47 ;
+      break;
+    case FenArrayType.FrenchDefenseClassicalVariationGeneralVariation_C14:
+      fenArray = fenFrenchDefenseClassicalVariationGeneralVariation_C14 ;
+      break;
+    case FenArrayType.EnglishOpeningAdorjanDefense_A10:
+      fenArray = fenEnglishOpeningAdorjanDefense_A10 ;
+      break;
+    case FenArrayType.ModernDefenseAverbakhVariationPseudoSaemisch_A42:
+      fenArray = fenModernDefenseAverbakhVariationPseudoSaemisch_A42 ;
+      break;
+    case FenArrayType.DutchDefenseKorchnoiAttack_A80:
+      fenArray = fenDutchDefenseKorchnoiAttack_A80 ;
+      break;
+    case FenArrayType.FourKnightsGameSpanishVariationSymmetricalVariation_3_C49:
+      fenArray = fenFourKnightsGameSpanishVariationSymmetricalVariation_3_C49 ;
+      break;
+    case FenArrayType.KingsIndianDefenseOrthodoxVariationClassicalSystemTraditionalLine_E99:
+      fenArray = fenKingsIndianDefenseOrthodoxVariationClassicalSystemTraditionalLine_E99 ;
+      break;
+    case FenArrayType.ItalianGameEvansGambitStoneWareVariation_C51:
+      fenArray = fenItalianGameEvansGambitStoneWareVariation_C51 ;
+      break;
+    case FenArrayType.AmarOpeningGeneral_A00:
+      fenArray = fenAmarOpeningGeneral_A00 ;
+      break;
+    case FenArrayType.BenoniDefenseMikenasVariation_A66:
+      fenArray = fenBenoniDefenseMikenasVariation_A66 ;
+      break;
+    case FenArrayType.SpanishGameOpenVariationsItalianVariation_C82:
+      fenArray = fenSpanishGameOpenVariationsItalianVariation_C82 ;
+      break;
+    case FenArrayType.ItalianGameEvansGambitMacDonnellDefense_C51:
+      fenArray = fenItalianGameEvansGambitMacDonnellDefense_C51 ;
+      break;
+    case FenArrayType.KingsGambitAcceptedCunninghamDefenseMcCormickDefense_C35:
+      fenArray = fenKingsGambitAcceptedCunninghamDefenseMcCormickDefense_C35 ;
+      break;
+    case FenArrayType.DutchDefenseClassicalVariation_A92:
+      fenArray = fenDutchDefenseClassicalVariation_A92 ;
+      break;
+    case FenArrayType.BenoniDefenseClassicalVariationCzerniakDefense_A76:
+      fenArray = fenBenoniDefenseClassicalVariationCzerniakDefense_A76 ;
+      break;
+    case FenArrayType.ZukertortOpeningStGeorgeDefense_A04:
+      fenArray = fenZukertortOpeningStGeorgeDefense_A04 ;
+      break;
+    case FenArrayType.SicilianDefenseOKellyVariation_B28:
+      fenArray = fenSicilianDefenseOKellyVariation_B28 ;
+      break;
+    case FenArrayType.QueensGambitDeclinedPseudoTarraschVariation_D50:
+      fenArray = fenQueensGambitDeclinedPseudoTarraschVariation_D50 ;
+      break;
+    case FenArrayType.CaroKannDefenseHillbillyAttack_B00:
+      fenArray = fenCaroKannDefenseHillbillyAttack_B00 ;
+      break;
+    case FenArrayType.PircDefenseChineseVariation_B07:
+      fenArray = fenPircDefenseChineseVariation_B07 ;
+      break;
+    case FenArrayType.KingsIndianDefenseSaemischVariationByrneDefense_E81:
+      fenArray = fenKingsIndianDefenseSaemischVariationByrneDefense_E81 ;
+      break;
+    case FenArrayType.CaroKannDefensePanovAttackModernDefenseCzerniakLine_B13:
+      fenArray = fenCaroKannDefensePanovAttackModernDefenseCzerniakLine_B13 ;
+      break;
+    case FenArrayType.KingsIndianDefenseFourPawnsAttackExchangeVariation_E79:
+      fenArray = fenKingsIndianDefenseFourPawnsAttackExchangeVariation_E79 ;
+      break;
+    case FenArrayType.SicilianDefenseNajdorfVariationGoteborgArgentine_B98:
+      fenArray = fenSicilianDefenseNajdorfVariationGoteborgArgentine_B98 ;
+      break;
+    case FenArrayType.QueensGambitRefusedChigorinDefenseJanowskiVariation_D07:
+      fenArray = fenQueensGambitRefusedChigorinDefenseJanowskiVariation_D07 ;
+      break;
+    case FenArrayType.SpanishGameAlapinDefense_C60:
+      fenArray = fenSpanishGameAlapinDefense_C60 ;
+      break;
+    case FenArrayType.SicilianDefenseNajdorfVariationPolugayevskyVariationSimaginLine_B96:
+      fenArray = fenSicilianDefenseNajdorfVariationPolugayevskyVariationSimaginLine_B96 ;
+      break;
+    case FenArrayType.FrenchDefenseAdvanceVariationExtendedBishopSwap_C02:
+      fenArray = fenFrenchDefenseAdvanceVariationExtendedBishopSwap_C02 ;
+      break;
+    case FenArrayType.GruenfeldDefenseBrinckmannAttackGrunfeldGambit_D83:
+      fenArray = fenGruenfeldDefenseBrinckmannAttackGrunfeldGambit_D83 ;
+      break;
+    case FenArrayType.SpanishGameBerlinDefenseNyholmAttack_C65:
+      fenArray = fenSpanishGameBerlinDefenseNyholmAttack_C65 ;
+      break;
+    case FenArrayType.ScotchGameMeitnerVariation_C45:
+      fenArray = fenScotchGameMeitnerVariation_C45 ;
+      break;
+    case FenArrayType.FrenchDefenseAdvanceVariationRuisdonkGambit_C02:
+      fenArray = fenFrenchDefenseAdvanceVariationRuisdonkGambit_C02 ;
+      break;
+    case FenArrayType.SpanishGameBerlinDefenseClosedWolfVariation_C66:
+      fenArray = fenSpanishGameBerlinDefenseClosedWolfVariation_C66 ;
+      break;
+    case FenArrayType.IndianGameAntiGrunfeldAdvanceVariation_E60:
+      fenArray = fenIndianGameAntiGrunfeldAdvanceVariation_E60 ;
+      break;
+    case FenArrayType.QueensGambitAcceptedWinawerDefense_D25:
+      fenArray = fenQueensGambitAcceptedWinawerDefense_D25 ;
+      break;
+    case FenArrayType.EnglishOpeningAngloScandinavianDefenseGeneral_A10:
+      fenArray = fenEnglishOpeningAngloScandinavianDefenseGeneral_A10 ;
+      break;
+    case FenArrayType.PterodactylDefenseEasternPteronodon_B06:
+      fenArray = fenPterodactylDefenseEasternPteronodon_B06 ;
+      break;
+    case FenArrayType.BlackmarDiemerGambitViennaVariation_D00:
+      fenArray = fenBlackmarDiemerGambitViennaVariation_D00 ;
+      break;
+    case FenArrayType.KingsIndianDefenseSaemischVariationClosedVariationMainLine_E89:
+      fenArray = fenKingsIndianDefenseSaemischVariationClosedVariationMainLine_E89 ;
+      break;
+    case FenArrayType.DutchDefenseStauntonGambitAccepted_A82:
+      fenArray = fenDutchDefenseStauntonGambitAccepted_A82 ;
+      break;
+    case FenArrayType.AlekhineDefenseModernVariationPanovVariation_B05:
+      fenArray = fenAlekhineDefenseModernVariationPanovVariation_B05 ;
+      break;
+    case FenArrayType.KingsIndianDefenseOrthodoxVariationClassicalSystemKozulGambit_E99:
+      fenArray = fenKingsIndianDefenseOrthodoxVariationClassicalSystemKozulGambit_E99 ;
+      break;
+    case FenArrayType.QueensIndianDefenseFianchettoVariationCheckVariation_E15:
+      fenArray = fenQueensIndianDefenseFianchettoVariationCheckVariation_E15 ;
+      break;
+    case FenArrayType.SicilianDefenseNyezhmetdinovRossolimoAttackFianchettoVariationTotskyAttack_B31:
+      fenArray = fenSicilianDefenseNyezhmetdinovRossolimoAttackFianchettoVariationTotskyAttack_B31 ;
+      break;
+    case FenArrayType.ItalianGameEvansGambitMiesesDefense_C52:
+      fenArray = fenItalianGameEvansGambitMiesesDefense_C52 ;
+      break;
+    case FenArrayType.SicilianDefensePaulsenVariationBastrikovVariationPonomariovGambit_B48:
+      fenArray = fenSicilianDefensePaulsenVariationBastrikovVariationPonomariovGambit_B48 ;
+      break;
+    case FenArrayType.BenoniDefenseClassicalVariationFullline_A74:
+      fenArray = fenBenoniDefenseClassicalVariationFullline_A74 ;
+      break;
+    case FenArrayType.ElephantGambitMaroczyGambit_C40:
+      fenArray = fenElephantGambitMaroczyGambit_C40 ;
+      break;
+    case FenArrayType.EnglishOpeningAngloIndianDefenseFlohrMikenasCarlsVariation_3_A18:
+      fenArray = fenEnglishOpeningAngloIndianDefenseFlohrMikenasCarlsVariation_3_A18 ;
+      break;
+    case FenArrayType.ViennaGameViennaGambitBardelebenVariation_C29:
+      fenArray = fenViennaGameViennaGambitBardelebenVariation_C29 ;
+      break;
+    case FenArrayType.CaroKannDefenseVonHennigGambit_B15:
+      fenArray = fenCaroKannDefenseVonHennigGambit_B15 ;
+      break;
+    case FenArrayType.RussianGameClassicalAttackBergerVariation_C42:
+      fenArray = fenRussianGameClassicalAttackBergerVariation_C42 ;
+      break;
+    case FenArrayType.FourKnightsGameJanowskiVariation_C49:
+      fenArray = fenFourKnightsGameJanowskiVariation_C49 ;
+      break;
+    case FenArrayType.BlumenfeldCountergambitSpielmannVariation_E10:
+      fenArray = fenBlumenfeldCountergambitSpielmannVariation_E10 ;
+      break;
+    case FenArrayType.NimzoIndianDefenseNormalVariationGligoricSystem_E53:
+      fenArray = fenNimzoIndianDefenseNormalVariationGligoricSystem_E53 ;
+      break;
+    case FenArrayType.SpanishGameSchleimannDefenseJaenischGambitAccepted_C60:
+      fenArray = fenSpanishGameSchleimannDefenseJaenischGambitAccepted_C60 ;
+      break;
+    case FenArrayType.SpanishGameSchliemannDefenseMohringVariation_C63:
+      fenArray = fenSpanishGameSchliemannDefenseMohringVariation_C63 ;
+      break;
+    case FenArrayType.NimzoIndianDefenseNormalVariationGligoricSystemKeresVariation_E53:
+      fenArray = fenNimzoIndianDefenseNormalVariationGligoricSystemKeresVariation_E53 ;
+      break;
+    case FenArrayType.RussianGameDamianoVariation_C42:
+      fenArray = fenRussianGameDamianoVariation_C42 ;
+      break;
+    case FenArrayType.ItalianGameScotchGambitNakhmansonGambit_C56:
+      fenArray = fenItalianGameScotchGambitNakhmansonGambit_C56 ;
+      break;
+    case FenArrayType.ItalianGameClassicalVariationGrecoGambitMasonGambit_C54:
+      fenArray = fenItalianGameClassicalVariationGrecoGambitMasonGambit_C54 ;
+      break;
+    case FenArrayType.KingsGambitAcceptedBishopsGambitBogoljubowVariation_C33:
+      fenArray = fenKingsGambitAcceptedBishopsGambitBogoljubowVariation_C33 ;
+      break;
+    case FenArrayType.KingsGambitFalkbeerCountergambitStauntonLine_C31:
+      fenArray = fenKingsGambitFalkbeerCountergambitStauntonLine_C31 ;
+      break;
+    case FenArrayType.SpanishGameOpenVariationsMotzkoAttackII_C82:
+      fenArray = fenSpanishGameOpenVariationsMotzkoAttackII_C82 ;
+      break;
+    case FenArrayType.FourKnightsGameSpanishVariationClassicalVariationMarshallGambit_C48:
+      fenArray = fenFourKnightsGameSpanishVariationClassicalVariationMarshallGambit_C48 ;
+      break;
+    case FenArrayType.QueensGambitDeclinedOrthodoxDefenseClassicalVariation_D69:
+      fenArray = fenQueensGambitDeclinedOrthodoxDefenseClassicalVariation_D69 ;
+      break;
+    case FenArrayType.FrenchDefenseWinawerVariationExchangeVariationCanalAttack_C01:
+      fenArray = fenFrenchDefenseWinawerVariationExchangeVariationCanalAttack_C01 ;
+      break;
+    case FenArrayType.SicilianDefenseMiscDefenses_B27:
+      fenArray = fenSicilianDefenseMiscDefenses_B27 ;
+      break;
+    case FenArrayType.SpanishGameClosedVariationsChigorinDefense_2_C98:
+      fenArray = fenSpanishGameClosedVariationsChigorinDefense_2_C98 ;
+      break;
+    case FenArrayType.SicilianDefenseScheveningenVariationDelayedKeresAttackPerenyiGambit_B81:
+      fenArray = fenSicilianDefenseScheveningenVariationDelayedKeresAttackPerenyiGambit_B81 ;
+      break;
+    case FenArrayType.QueensGambitAcceptedAcceleratedMannheimVariation_D20:
+      fenArray = fenQueensGambitAcceptedAcceleratedMannheimVariation_D20 ;
+      break;
+    case FenArrayType.PonzianiOpeningCaroGambit_C44:
+      fenArray = fenPonzianiOpeningCaroGambit_C44 ;
+      break;
+    case FenArrayType.GrobOpeningGrobGambit_A00:
+      fenArray = fenGrobOpeningGrobGambit_A00 ;
+      break;
+    case FenArrayType.KingsIndianDefenseFianchettoVariationPannoVariationKorchnoiLine_E63:
+      fenArray = fenKingsIndianDefenseFianchettoVariationPannoVariationKorchnoiLine_E63 ;
+      break;
+    case FenArrayType.LatvianGambitGeneral_C40:
+      fenArray = fenLatvianGambitGeneral_C40 ;
+      break;
+    case FenArrayType.EnglishOpeningAngloIndianDefenseQueensIndianVariation_A17:
+      fenArray = fenEnglishOpeningAngloIndianDefenseQueensIndianVariation_A17 ;
+      break;
+    case FenArrayType.ScandinavianDefenseKielVariation_B01:
+      fenArray = fenScandinavianDefenseKielVariation_B01 ;
+      break;
+    case FenArrayType.SicilianDefenseDragonVariationLevenfishVariationMainLine_B71:
+      fenArray = fenSicilianDefenseDragonVariationLevenfishVariationMainLine_B71 ;
+      break;
+    case FenArrayType.SicilianDefenseDragonVariationClassicalVariationAlekhineLine_B74:
+      fenArray = fenSicilianDefenseDragonVariationClassicalVariationAlekhineLine_B74 ;
+      break;
+    case FenArrayType.ZukertortOpeningReversedMexicanDefense_A06:
+      fenArray = fenZukertortOpeningReversedMexicanDefense_A06 ;
+      break;
+    case FenArrayType.ScotchGameClassicalVariationBlackburneAttack_C45:
+      fenArray = fenScotchGameClassicalVariationBlackburneAttack_C45 ;
+      break;
+    case FenArrayType.SpanishGameOpenVariationsBerlinVariation_C82:
+      fenArray = fenSpanishGameOpenVariationsBerlinVariation_C82 ;
+      break;
+    case FenArrayType.KingsGambitFalkbeerCountergambitCharousekGambit_C31:
+      fenArray = fenKingsGambitFalkbeerCountergambitCharousekGambit_C31 ;
+      break;
+    case FenArrayType.PolishOpeningGermanDefense_A00:
+      fenArray = fenPolishOpeningGermanDefense_A00 ;
+      break;
+    case FenArrayType.FrenchDefenseClassicalVariationPollockVariation_C14:
+      fenArray = fenFrenchDefenseClassicalVariationPollockVariation_C14 ;
+      break;
+    case FenArrayType.FrenchDefenseAlekhineChatardAttackSpielmannVariation_C13:
+      fenArray = fenFrenchDefenseAlekhineChatardAttackSpielmannVariation_C13 ;
+      break;
+    case FenArrayType.ZukertortOpeningWadeDefenseChigorinPlan_A41:
+      fenArray = fenZukertortOpeningWadeDefenseChigorinPlan_A41 ;
+      break;
+    case FenArrayType.PterodactylDefenseEasternRhamporhynchus_B06:
+      fenArray = fenPterodactylDefenseEasternRhamporhynchus_B06 ;
+      break;
+    case FenArrayType.BenkoGambitAcceptedCentralStormingVariation_A57:
+      fenArray = fenBenkoGambitAcceptedCentralStormingVariation_A57 ;
+      break;
+    case FenArrayType.KingsIndianDefenseAverbakhVariationSpanishDefense_E73:
+      fenArray = fenKingsIndianDefenseAverbakhVariationSpanishDefense_E73 ;
+      break;
+    case FenArrayType.QueensGambitRefusedChigorinDefenseTartakowerGambit_D06:
+      fenArray = fenQueensGambitRefusedChigorinDefenseTartakowerGambit_D06 ;
+      break;
+    case FenArrayType.KingPawnGameWaywardQueenAttack_C20:
+      fenArray = fenKingPawnGameWaywardQueenAttack_C20 ;
+      break;
+    case FenArrayType.AlekhineDefenseSpielmannGambit_B02:
+      fenArray = fenAlekhineDefenseSpielmannGambit_B02 ;
+      break;
+    case FenArrayType.PhilidorDefenseLionVariationBishopSac_C41:
+      fenArray = fenPhilidorDefenseLionVariationBishopSac_C41 ;
+      break;
+    case FenArrayType.BirdOpeningHorseflyDefense_A03:
+      fenArray = fenBirdOpeningHorseflyDefense_A03 ;
+      break;
+    case FenArrayType.SlavDefenseBonetGambit_D11:
+      fenArray = fenSlavDefenseBonetGambit_D11 ;
+      break;
+    case FenArrayType.EnglishOpeningKingsEnglishVariationBellonGambit_A22:
+      fenArray = fenEnglishOpeningKingsEnglishVariationBellonGambit_A22 ;
+      break;
+    case FenArrayType.ThreeKnightsOpeningSteinitzRosenthalVariation_C46:
+      fenArray = fenThreeKnightsOpeningSteinitzRosenthalVariation_C46 ;
+      break;
+    case FenArrayType.ItalianGameClassicalVariationGrecoGambitMainLine_C54:
+      fenArray = fenItalianGameClassicalVariationGrecoGambitMainLine_C54 ;
+      break;
+    case FenArrayType.BenkoGambitAcceptedYugoslavwith7Bxf1Nge2_A59:
+      fenArray = fenBenkoGambitAcceptedYugoslavwith7Bxf1Nge2_A59 ;
+      break;
+    case FenArrayType.QueensGambitAcceptedSaduletoVariation_D20:
+      fenArray = fenQueensGambitAcceptedSaduletoVariation_D20 ;
+      break;
+    case FenArrayType.FrenchDefenseMacCutcheonVariationBernsteinVariation_C12:
+      fenArray = fenFrenchDefenseMacCutcheonVariationBernsteinVariation_C12 ;
+      break;
+    case FenArrayType.PterodactylDefenseSicilianAnhanguera_B06:
+      fenArray = fenPterodactylDefenseSicilianAnhanguera_B06 ;
+      break;
+    case FenArrayType.BenoniDefensePawnStormVariation_A66:
+      fenArray = fenBenoniDefensePawnStormVariation_A66 ;
+      break;
+    case FenArrayType.QueensGambitRefusedBalticDefenseArgentinianGambit_D31:
+      fenArray = fenQueensGambitRefusedBalticDefenseArgentinianGambit_D31 ;
+      break;
+    case FenArrayType.FourKnightsGameHalloweenGambit_C46:
+      fenArray = fenFourKnightsGameHalloweenGambit_C46 ;
+      break;
+    case FenArrayType.NimzoIndianDefenseLeningradVariationAverbakhGambit_E30:
+      fenArray = fenNimzoIndianDefenseLeningradVariationAverbakhGambit_E30 ;
+      break;
+    case FenArrayType.TarraschDefensePragueVariationMainLine_D34:
+      fenArray = fenTarraschDefensePragueVariationMainLine_D34 ;
+      break;
+    case FenArrayType.SicilianDefenseOKellyVariationVeniceSystemGambitline_B28:
+      fenArray = fenSicilianDefenseOKellyVariationVeniceSystemGambitline_B28 ;
+      break;
+    case FenArrayType.SlavDefenseCzechVariation_D17:
+      fenArray = fenSlavDefenseCzechVariation_D17 ;
+      break;
+    case FenArrayType.FrenchDefenseWinawerVariationPoisonedPawnVariationPaoliVariation_C18:
+      fenArray = fenFrenchDefenseWinawerVariationPoisonedPawnVariationPaoliVariation_C18 ;
+      break;
+    case FenArrayType.ScandinavianDefenseGrunfeldVariation_B01:
+      fenArray = fenScandinavianDefenseGrunfeldVariation_B01 ;
+      break;
+    case FenArrayType.GruenfeldDefenseBrinckmannAttackGrunfeldGambitBotvinnikVariation_D83:
+      fenArray = fenGruenfeldDefenseBrinckmannAttackGrunfeldGambitBotvinnikVariation_D83 ;
+      break;
+    case FenArrayType.FrenchDefenseOrthoschnappGambit_C00:
+      fenArray = fenFrenchDefenseOrthoschnappGambit_C00 ;
+      break;
+    case FenArrayType.ViennaGameOmahaGambit_C25:
+      fenArray = fenViennaGameOmahaGambit_C25 ;
+      break;
+    case FenArrayType.QueensGambitDeclinedOrthodoxDefensePillsburyVariation_D63:
+      fenArray = fenQueensGambitDeclinedOrthodoxDefensePillsburyVariation_D63 ;
+      break;
+    case FenArrayType.SicilianDefenseChekhoverVariationZaitsevDefense_B53:
+      fenArray = fenSicilianDefenseChekhoverVariationZaitsevDefense_B53 ;
+      break;
+    case FenArrayType.KingsGambitAcceptedKieseritskyGambitKolischDefense_C39:
+      fenArray = fenKingsGambitAcceptedKieseritskyGambitKolischDefense_C39 ;
+      break;
+    case FenArrayType.ItalianGameTwoKnightsDefenseKnightAttackNormalVariation_C57:
+      fenArray = fenItalianGameTwoKnightsDefenseKnightAttackNormalVariation_C57 ;
+      break;
+    case FenArrayType.ItalianGameScotchGambitDeclined_C55:
+      fenArray = fenItalianGameScotchGambitDeclined_C55 ;
+      break;
+    case FenArrayType.SicilianDefenseFrancoScilianVariation_B32:
+      fenArray = fenSicilianDefenseFrancoScilianVariation_B32 ;
+      break;
+    case FenArrayType.ScotchGameGoringGambitMainLine_C44:
+      fenArray = fenScotchGameGoringGambitMainLine_C44 ;
+      break;
+    case FenArrayType.IndianGamePalefaceAttack_A45:
+      fenArray = fenIndianGamePalefaceAttack_A45 ;
+      break;
+    case FenArrayType.DutchDefenseFianchettoVariation_A86:
+      fenArray = fenDutchDefenseFianchettoVariation_A86 ;
+      break;
+    case FenArrayType.CatalanOpeningOpenDefense_E03:
+      fenArray = fenCatalanOpeningOpenDefense_E03 ;
+      break;
+    case FenArrayType.PhilidorDefenseNimzowitschVariation_1_C41:
+      fenArray = fenPhilidorDefenseNimzowitschVariation_1_C41 ;
+      break;
+    case FenArrayType.GruenfeldDefenseBrinckmannAttackReshevskyGambit_D83:
+      fenArray = fenGruenfeldDefenseBrinckmannAttackReshevskyGambit_D83 ;
+      break;
+    case FenArrayType.SicilianDefenseScheveningenVariationVitolinsVariation_B80:
+      fenArray = fenSicilianDefenseScheveningenVariationVitolinsVariation_B80 ;
+      break;
+    case FenArrayType.ScotchGameScotchGambitDuboisRetiDefense_C44:
+      fenArray = fenScotchGameScotchGambitDuboisRetiDefense_C44 ;
+      break;
+    case FenArrayType.KingsIndianDefenseAverbakhVariation6Nc6Defense_E73:
+      fenArray = fenKingsIndianDefenseAverbakhVariation6Nc6Defense_E73 ;
+      break;
+    case FenArrayType.BlackmarDiemerGambitDeclinedLangeheineckeDefense_D00:
+      fenArray = fenBlackmarDiemerGambitDeclinedLangeheineckeDefense_D00 ;
+      break;
+    case FenArrayType.KingsIndianDefenseFourPawnsAttackFlorentineGambit_E77:
+      fenArray = fenKingsIndianDefenseFourPawnsAttackFlorentineGambit_E77 ;
+      break;
+    case FenArrayType.SpanishGameMorphyDefenseWingAttack_C78:
+      fenArray = fenSpanishGameMorphyDefenseWingAttack_C78 ;
+      break;
+    case FenArrayType.KingsIndianDefensePetrosianVariationKeresDefense_E93:
+      fenArray = fenKingsIndianDefensePetrosianVariationKeresDefense_E93 ;
+      break;
+    case FenArrayType.QueensGambitDeclinedOrthodoxDefenseClassicalVariation_2_D68:
+      fenArray = fenQueensGambitDeclinedOrthodoxDefenseClassicalVariation_2_D68 ;
+      break;
+    case FenArrayType.SpanishGameBerlinDefenseMinckwitzVariation_C67:
+      fenArray = fenSpanishGameBerlinDefenseMinckwitzVariation_C67 ;
+      break;
+    case FenArrayType.ItalianGameEvansGambitMainLine_C52:
+      fenArray = fenItalianGameEvansGambitMainLine_C52 ;
+      break;
+    case FenArrayType.SpanishGameMarshallAttackSteinerVariation_C89:
+      fenArray = fenSpanishGameMarshallAttackSteinerVariation_C89 ;
+      break;
+    case FenArrayType.PhilidorDefenseNimzowitschVariation_2_C41:
+      fenArray = fenPhilidorDefenseNimzowitschVariation_2_C41 ;
+      break;
+    case FenArrayType.QueensGambitDeclinedCapablancaVariation_D30:
+      fenArray = fenQueensGambitDeclinedCapablancaVariation_D30 ;
+      break;
+    case FenArrayType.FrenchDefenseReversedPhilidorFormation_C00:
+      fenArray = fenFrenchDefenseReversedPhilidorFormation_C00 ;
+      break;
+    case FenArrayType.DutchDefenseStauntonGambitLaskerVariation_A83:
+      fenArray = fenDutchDefenseStauntonGambitLaskerVariation_A83 ;
+      break;
+    case FenArrayType.SpanishGameMarshallAttackMainLine_C89:
+      fenArray = fenSpanishGameMarshallAttackMainLine_C89 ;
+      break;
+    case FenArrayType.QueensGambitAcceptedLinaresVariation_D20:
+      fenArray = fenQueensGambitAcceptedLinaresVariation_D20 ;
+      break;
+    case FenArrayType.PhilidorDefenseLionVariationSozinVariation_C41:
+      fenArray = fenPhilidorDefenseLionVariationSozinVariation_C41 ;
+      break;
+    case FenArrayType.RussianGameModernAttackSuchtingGambit_C43:
+      fenArray = fenRussianGameModernAttackSuchtingGambit_C43 ;
+      break;
+    case FenArrayType.BenkoGambitDeclinedBishopAttack_A57:
+      fenArray = fenBenkoGambitDeclinedBishopAttack_A57 ;
+      break;
+    case FenArrayType.LatvianGambitAcceptedLeonhardtVariation_C40:
+      fenArray = fenLatvianGambitAcceptedLeonhardtVariation_C40 ;
+      break;
+    case FenArrayType.QueensGambitDeclinedNeoOrthodoxVariation_D55:
+      fenArray = fenQueensGambitDeclinedNeoOrthodoxVariation_D55 ;
+      break;
+    case FenArrayType.QueenPawnGameTorreAttackGruenfeldVariation_D03:
+      fenArray = fenQueenPawnGameTorreAttackGruenfeldVariation_D03 ;
+      break;
+    case FenArrayType.CaroKannDefenseKarpovVariationModernVariationIvanchukDefense_B17:
+      fenArray = fenCaroKannDefenseKarpovVariationModernVariationIvanchukDefense_B17 ;
+      break;
+    case FenArrayType.BishopsOpeningBlanelGambit_C23:
+      fenArray = fenBishopsOpeningBlanelGambit_C23 ;
+      break;
+    case FenArrayType.SpanishGameBerlinDefenselHermetVariationWesterinenLine_C67:
+      fenArray = fenSpanishGameBerlinDefenselHermetVariationWesterinenLine_C67 ;
+      break;
+    case FenArrayType.NimzowitschDefenseScandinavianVariationBogoljubowVariation_B00:
+      fenArray = fenNimzowitschDefenseScandinavianVariationBogoljubowVariation_B00 ;
+      break;
+    case FenArrayType.QueensGambitDeclinedManhattanVariation_D51:
+      fenArray = fenQueensGambitDeclinedManhattanVariation_D51 ;
+      break;
+    case FenArrayType.GruenfeldDefenseRussianVariationSmyslovVariation_D99:
+      fenArray = fenGruenfeldDefenseRussianVariationSmyslovVariation_D99 ;
+      break;
+    case FenArrayType.EnglishOpeningKingsEnglishVariationBotvinnikSystemPricklyPawnPassSystem_A26:
+      fenArray = fenEnglishOpeningKingsEnglishVariationBotvinnikSystemPricklyPawnPassSystem_A26 ;
+      break;
+    case FenArrayType.VanGeetOpeningGruenfeldDefense_A00:
+      fenArray = fenVanGeetOpeningGruenfeldDefense_A00 ;
+      break;
+    case FenArrayType.CaroKannDefenseRasaStudierGambit_B15:
+      fenArray = fenCaroKannDefenseRasaStudierGambit_B15 ;
+      break;
+    case FenArrayType.FrenchDefenseWinawerVariationFingerslipVariationMainLine_C15:
+      fenArray = fenFrenchDefenseWinawerVariationFingerslipVariationMainLine_C15 ;
+      break;
+    case FenArrayType.SicilianDefenseDrazicVariation_B40:
+      fenArray = fenSicilianDefenseDrazicVariation_B40 ;
+      break;
+    case FenArrayType.BlackmarDiemerGambitVonPopielGambit_D00:
+      fenArray = fenBlackmarDiemerGambitVonPopielGambit_D00 ;
+      break;
+    case FenArrayType.ZukertortOpeningBasmanDefense_A04:
+      fenArray = fenZukertortOpeningBasmanDefense_A04 ;
+      break;
+    case FenArrayType.QueenPawnGameVeresovAtackBoyceDefense_D01:
+      fenArray = fenQueenPawnGameVeresovAtackBoyceDefense_D01 ;
+      break;
+    case FenArrayType.PhilidorDefenseLionVariationLionsClawI_C41:
+      fenArray = fenPhilidorDefenseLionVariationLionsClawI_C41 ;
+      break;
+    case FenArrayType.PhilidorDefenseLionVariationForcingLine_C41:
+      fenArray = fenPhilidorDefenseLionVariationForcingLine_C41 ;
+      break;
+    case FenArrayType.QueensGambitAcceptedClassicalDefenseNormalLines_D26:
+      fenArray = fenQueensGambitAcceptedClassicalDefenseNormalLines_D26 ;
+      break;
+    case FenArrayType.SicilianDefenseOKellyVariationKieseritzkySystem_B28:
+      fenArray = fenSicilianDefenseOKellyVariationKieseritzkySystem_B28 ;
+      break;
+    case FenArrayType.SpanishGameClosedVariationsWorrallAttack_C86:
+      fenArray = fenSpanishGameClosedVariationsWorrallAttack_C86 ;
+      break;
+    case FenArrayType.LatvianGambitFraserDefense_C40:
+      fenArray = fenLatvianGambitFraserDefense_C40 ;
+      break;
+    case FenArrayType.FrenchDefenseTarraschVariationHaberditzVariation_C03:
+      fenArray = fenFrenchDefenseTarraschVariationHaberditzVariation_C03 ;
+      break;
+    case FenArrayType.SicilianDefenseMorphyGambitAndreaschekGambit_B21:
+      fenArray = fenSicilianDefenseMorphyGambitAndreaschekGambit_B21 ;
+      break;
+    case FenArrayType.KingPawnGameMacleodAttack_C20:
+      fenArray = fenKingPawnGameMacleodAttack_C20 ;
+      break;
+    case FenArrayType.SicilianDefenseSmithMorraGambitDeclinedAlapinFormation_B21:
+      fenArray = fenSicilianDefenseSmithMorraGambitDeclinedAlapinFormation_B21 ;
+      break;
+    case FenArrayType.LatvianGambitAccepted_C40:
+      fenArray = fenLatvianGambitAccepted_C40 ;
+      break;
+    case FenArrayType.NimzoIndianDefenseSpielmannVariationRomanovskyGambit_E23:
+      fenArray = fenNimzoIndianDefenseSpielmannVariationRomanovskyGambit_E23 ;
+      break;
+    case FenArrayType.QueensGambitRefusedAustrianDefenseGusevCountergambit_D06:
+      fenArray = fenQueensGambitRefusedAustrianDefenseGusevCountergambit_D06 ;
+      break;
+    case FenArrayType.BishopsOpeningUrusovGambitKeidanskyGambit_C24:
+      fenArray = fenBishopsOpeningUrusovGambitKeidanskyGambit_C24 ;
+      break;
+    case FenArrayType.FrenchDefenseWinawerVariationBogoljubowVariationIcelandicDefense_C17:
+      fenArray = fenFrenchDefenseWinawerVariationBogoljubowVariationIcelandicDefense_C17 ;
+      break;
+    case FenArrayType.ScotchGameSteinitzVariation_C45:
+      fenArray = fenScotchGameSteinitzVariation_C45 ;
+      break;
+    case FenArrayType.StGeorgeDefenseNewStGeorgeThreePawnAttack_B00:
+      fenArray = fenStGeorgeDefenseNewStGeorgeThreePawnAttack_B00 ;
+      break;
+    case FenArrayType.KingsGambitAcceptedBishopsGambitBledowCountergambit_C33:
+      fenArray = fenKingsGambitAcceptedBishopsGambitBledowCountergambit_C33 ;
+      break;
+    case FenArrayType.SicilianDefenseSmithMorraGambitDeclinedCenterFormation_B21:
+      fenArray = fenSicilianDefenseSmithMorraGambitDeclinedCenterFormation_B21 ;
+      break;
+    case FenArrayType.ItalianGameEvansGambitMacDonnellDefenseMainLine_C51:
+      fenArray = fenItalianGameEvansGambitMacDonnellDefenseMainLine_C51 ;
+      break;
+    case FenArrayType.EnglishOpeningKingsEnglishVariationFourKnightsVariationBradleyBeachVariation_A28:
+      fenArray = fenEnglishOpeningKingsEnglishVariationFourKnightsVariationBradleyBeachVariation_A28 ;
+      break;
+    case FenArrayType.SpanishGameOpenVariationsClassicalDefenseMainLine_C83:
+      fenArray = fenSpanishGameOpenVariationsClassicalDefenseMainLine_C83 ;
+      break;
+    case FenArrayType.KingPawnGameAlapinOpening_C20:
+      fenArray = fenKingPawnGameAlapinOpening_C20 ;
+      break;
+    case FenArrayType.NimzoIndianDefenseSpielmannVariationKarlsbadVariation_E23:
+      fenArray = fenNimzoIndianDefenseSpielmannVariationKarlsbadVariation_E23 ;
+      break;
+    case FenArrayType.CaroKannDefenseFinnishVariation_B16:
+      fenArray = fenCaroKannDefenseFinnishVariation_B16 ;
+      break;
+    case FenArrayType.LatvianGambitMasonCountergambit_C40:
+      fenArray = fenLatvianGambitMasonCountergambit_C40 ;
+      break;
+    case FenArrayType.TorreAttackClassicalDefensePetrosianGambit_A46:
+      fenArray = fenTorreAttackClassicalDefensePetrosianGambit_A46 ;
+      break;
+    case FenArrayType.ItalianGameClassicalVariationGrecoGambitGrecoVariation_C54:
+      fenArray = fenItalianGameClassicalVariationGrecoGambitGrecoVariation_C54 ;
+      break;
+    case FenArrayType.SpanishGameColumbusVariation_C70:
+      fenArray = fenSpanishGameColumbusVariation_C70 ;
+      break;
+    case FenArrayType.TarraschDefenseClassicalVariationPeturssonVariation_D34:
+      fenArray = fenTarraschDefenseClassicalVariationPeturssonVariation_D34 ;
+      break;
+    case FenArrayType.GruenfeldDefenseLutikovVariation_D70:
+      fenArray = fenGruenfeldDefenseLutikovVariation_D70 ;
+      break;
+    case FenArrayType.DutchDefenseJanzenKorchnoiGambit_A80:
+      fenArray = fenDutchDefenseJanzenKorchnoiGambit_A80 ;
+      break;
+    case FenArrayType.FrenchDefenseRubinsteinVariationCapablancaLine_C10:
+      fenArray = fenFrenchDefenseRubinsteinVariationCapablancaLine_C10 ;
+      break;
+    case FenArrayType.KingsGambitDeclinedKeeneDefense_C30:
+      fenArray = fenKingsGambitDeclinedKeeneDefense_C30 ;
+      break;
+    case FenArrayType.ItalianGameTwoKnightsDefenseTraxlerCounterattackKnightsacline_C57:
+      fenArray = fenItalianGameTwoKnightsDefenseTraxlerCounterattackKnightsacline_C57 ;
+      break;
+    case FenArrayType.DutchDefenseKmochAttack_A80:
+      fenArray = fenDutchDefenseKmochAttack_A80 ;
+      break;
+    case FenArrayType.FrenchDefenseMacCutcheonVariation_C12:
+      fenArray = fenFrenchDefenseMacCutcheonVariation_C12 ;
+      break;
+    case FenArrayType.RatDefenseBaloghDefense_B07:
+      fenArray = fenRatDefenseBaloghDefense_B07 ;
+      break;
+    case FenArrayType.BenoniDefenseOldBenoniSchmidVariation_A43:
+      fenArray = fenBenoniDefenseOldBenoniSchmidVariation_A43 ;
+      break;
+    case FenArrayType.SicilianDefenseMongooseVariation_B27:
+      fenArray = fenSicilianDefenseMongooseVariation_B27 ;
+      break;
+    case FenArrayType.KingPawnGameBuschGassGambit_C40:
+      fenArray = fenKingPawnGameBuschGassGambit_C40 ;
+      break;
+    case FenArrayType.ViennaGameStanleyVariationFrankensteinDraculaVariation_C27:
+      fenArray = fenViennaGameStanleyVariationFrankensteinDraculaVariation_C27 ;
+      break;
+    case FenArrayType.KingsGambitAcceptedMasonKeresGambit_C33:
+      fenArray = fenKingsGambitAcceptedMasonKeresGambit_C33 ;
+      break;
+    case FenArrayType.FrenchDefensePelikanVariation_C00:
+      fenArray = fenFrenchDefensePelikanVariation_C00 ;
+      break;
+    case FenArrayType.FrenchDefenseMediterraneanDefense_C01:
+      fenArray = fenFrenchDefenseMediterraneanDefense_C01 ;
+      break;
+    case FenArrayType.KingsGambitAcceptedKingsKnightGambit_C34:
+      fenArray = fenKingsGambitAcceptedKingsKnightGambit_C34 ;
+      break;
+    case FenArrayType.QueenPawnGameMorrisCountergambit_D00:
+      fenArray = fenQueenPawnGameMorrisCountergambit_D00 ;
+      break;
+    case FenArrayType.ItalianGameEvansGambitAnderssenDefense_C52:
+      fenArray = fenItalianGameEvansGambitAnderssenDefense_C52 ;
+      break;
+    case FenArrayType.FrenchDefenseWinawerVariationFingerslipVariationKuninDoubleGambit_C15:
+      fenArray = fenFrenchDefenseWinawerVariationFingerslipVariationKuninDoubleGambit_C15 ;
+      break;
+    case FenArrayType.PhilidorDefenseAlbinBlackburneGambit_C41:
+      fenArray = fenPhilidorDefenseAlbinBlackburneGambit_C41 ;
+      break;
+    case FenArrayType.PhilidorDefenseMorphyGambit_C41:
+      fenArray = fenPhilidorDefenseMorphyGambit_C41 ;
+      break;
+    case FenArrayType.LionDefenseAntiPhilidor_B07:
+      fenArray = fenLionDefenseAntiPhilidor_B07 ;
+      break;
+    case FenArrayType.KingsGambitDeclinedMilesDefense_C30:
+      fenArray = fenKingsGambitDeclinedMilesDefense_C30 ;
+      break;
+    case FenArrayType.KingsIndianDefenseAverbakhVariationModernDefenseBurgessLine_E73:
+      fenArray = fenKingsIndianDefenseAverbakhVariationModernDefenseBurgessLine_E73 ;
+      break;
+    case FenArrayType.SemiSlavDefenseMeranVariationWadeVariationKaidanovGambit_D47:
+      fenArray = fenSemiSlavDefenseMeranVariationWadeVariationKaidanovGambit_D47 ;
+      break;
+    case FenArrayType.TrompowskyAttackBorgVariation_A45:
+      fenArray = fenTrompowskyAttackBorgVariation_A45 ;
+      break;
+    case FenArrayType.RussianGameModernAttackTrifunovicVariation_C43:
+      fenArray = fenRussianGameModernAttackTrifunovicVariation_C43 ;
+      break;
+    case FenArrayType.QueensGambitAcceptedAlekhineDefenseBorisenkoFurmanVariation_D21:
+      fenArray = fenQueensGambitAcceptedAlekhineDefenseBorisenkoFurmanVariation_D21 ;
+      break;
+    case FenArrayType.PolishDefenseSpasskyGambitAccepted_A40:
+      fenArray = fenPolishDefenseSpasskyGambitAccepted_A40 ;
+      break;
+    case FenArrayType.EnglishOpeningSymmetricalVariationDoubleFianchetto_A38:
+      fenArray = fenEnglishOpeningSymmetricalVariationDoubleFianchetto_A38 ;
+      break;
+    case FenArrayType.SemiSlavDefenseMeranVariationRabinovichVariation_D49:
+      fenArray = fenSemiSlavDefenseMeranVariationRabinovichVariation_D49 ;
+      break;
+    case FenArrayType.SpanishGameClosedVariationsSuetinVariation_C90:
+      fenArray = fenSpanishGameClosedVariationsSuetinVariation_C90 ;
+      break;
+    case FenArrayType.BlackmarDiemerGambitZieglerDefense_D00:
+      fenArray = fenBlackmarDiemerGambitZieglerDefense_D00 ;
+      break;
+    case FenArrayType.ItalianGameClassicalVariation_C53:
+      fenArray = fenItalianGameClassicalVariation_C53 ;
+      break;
+    case FenArrayType.VanGeetOpeningReversedNimzowitsch_A00:
+      fenArray = fenVanGeetOpeningReversedNimzowitsch_A00 ;
+      break;
+    case FenArrayType.ItalianGameRosentreterGambit_C50:
+      fenArray = fenItalianGameRosentreterGambit_C50 ;
+      break;
+    case FenArrayType.SicilianDefenseBoleslavskyVariationLoumaVariation_B58:
+      fenArray = fenSicilianDefenseBoleslavskyVariationLoumaVariation_B58 ;
+      break;
+    case FenArrayType.KingsGambitAcceptedHansteinGambit_C38:
+      fenArray = fenKingsGambitAcceptedHansteinGambit_C38 ;
+      break;
+    case FenArrayType.CarrDefenseGeneral_B00:
+      fenArray = fenCarrDefenseGeneral_B00 ;
+      break;
+    case FenArrayType.KingsGambitAcceptedBishopsGambitCozioVariation_C33:
+      fenArray = fenKingsGambitAcceptedBishopsGambitCozioVariation_C33 ;
+      break;
+    case FenArrayType.ViennaGameMengariniVariation_C26:
+      fenArray = fenViennaGameMengariniVariation_C26 ;
+      break;
+    case FenArrayType.SemiSlavDefenseAntiNoteboomStonewallVariationPortischGambit_D31:
+      fenArray = fenSemiSlavDefenseAntiNoteboomStonewallVariationPortischGambit_D31 ;
+      break;
+    case FenArrayType.WareDefenseGeneral_B00:
+      fenArray = fenWareDefenseGeneral_B00 ;
+      break;
+    case FenArrayType.PolishOpeningTartakowerGambit_A00:
+      fenArray = fenPolishOpeningTartakowerGambit_A00 ;
+      break;
+    case FenArrayType.BenoniDefenseBenoniGambitSchlenkerDefense_A43:
+      fenArray = fenBenoniDefenseBenoniGambitSchlenkerDefense_A43 ;
+      break;
+    case FenArrayType.EnglundGambitComplexStockholmVariation_A40:
+      fenArray = fenEnglundGambitComplexStockholmVariation_A40 ;
+      break;
+    case FenArrayType.PterodactylDefenseSicilianRhamporhynchus_B06:
+      fenArray = fenPterodactylDefenseSicilianRhamporhynchus_B06 ;
+      break;
+    case FenArrayType.KingsGambitAcceptedBishopsGambitMaurianDefense_C33:
+      fenArray = fenKingsGambitAcceptedBishopsGambitMaurianDefense_C33 ;
+      break;
+    case FenArrayType.ItalianGameRousseauGambit_C50:
+      fenArray = fenItalianGameRousseauGambit_C50 ;
+      break;
+    case FenArrayType.GoldsmithDefenseGeneral_B00:
+      fenArray = fenGoldsmithDefenseGeneral_B00 ;
+      break;
+    case FenArrayType.FrenchDefenseClassicalVariationRichterAttack_2_C13:
+      fenArray = fenFrenchDefenseClassicalVariationRichterAttack_2_C13 ;
+      break;
+    case FenArrayType.CatalanOpeningClosedVariationRabinovichVariation_E09:
+      fenArray = fenCatalanOpeningClosedVariationRabinovichVariation_E09 ;
+      break;
+    case FenArrayType.OldIndianCzechVariationwNf3_A53:
+      fenArray = fenOldIndianCzechVariationwNf3_A53 ;
+      break;
+    case FenArrayType.ModernDefenseNorwegianDefenseNorwegianGambit_B06:
+      fenArray = fenModernDefenseNorwegianDefenseNorwegianGambit_B06 ;
+      break;
+    case FenArrayType.FrenchDefenseSteinitzVariationGledhillAttack_C11:
+      fenArray = fenFrenchDefenseSteinitzVariationGledhillAttack_C11 ;
+      break;
+    case FenArrayType.SpanishGameBerlinDefenseRosenthalVariation_C67:
+      fenArray = fenSpanishGameBerlinDefenseRosenthalVariation_C67 ;
+      break;
+    case FenArrayType.AlekhineDefenseModernVariationAlekhineGambit_B04:
+      fenArray = fenAlekhineDefenseModernVariationAlekhineGambit_B04 ;
+      break;
+    case FenArrayType.SemiSlavDefenseBotvinnikSystemAlatortsevSystem_D44:
+      fenArray = fenSemiSlavDefenseBotvinnikSystemAlatortsevSystem_D44 ;
+      break;
+    case FenArrayType.TarraschDefenseRubinsteinSystem_D33:
+      fenArray = fenTarraschDefenseRubinsteinSystem_D33 ;
+      break;
+    case FenArrayType.IndianGameGibbinsWiedehagenGambitAccepted_A45:
+      fenArray = fenIndianGameGibbinsWiedehagenGambitAccepted_A45 ;
+      break;
+    case FenArrayType.NimzowitschDefenseLeanVariation_B00:
+      fenArray = fenNimzowitschDefenseLeanVariation_B00 ;
+      break;
+    case FenArrayType.ModernDefenseMongredienDefense_1_B06:
+      fenArray = fenModernDefenseMongredienDefense_1_B06 ;
+      break;
+    case FenArrayType.SicilianDefensePaulsenVariationBastrikovVariationEnglishAttack_B49:
+      fenArray = fenSicilianDefensePaulsenVariationBastrikovVariationEnglishAttack_B49 ;
+      break;
+    case FenArrayType.BlackmarDiemerGambitTartakowerVariation_D00:
+      fenArray = fenBlackmarDiemerGambitTartakowerVariation_D00 ;
+      break;
+    case FenArrayType.ViennaGameStanleyVariationAlekhineVariation_C27:
+      fenArray = fenViennaGameStanleyVariationAlekhineVariation_C27 ;
+      break;
+    case FenArrayType.NimzowitschDefenseScandinavianVariationBogoljubowVariationHeinolaDeppeGambit_B00:
+      fenArray = fenNimzowitschDefenseScandinavianVariationBogoljubowVariationHeinolaDeppeGambit_B00 ;
+      break;
+    case FenArrayType.ItalianGameHungarianDefenseTartakowerVariation_C50:
+      fenArray = fenItalianGameHungarianDefenseTartakowerVariation_C50 ;
+      break;
+    case FenArrayType.NeoGruenfeldDefenseGeneral_D70:
+      fenArray = fenNeoGruenfeldDefenseGeneral_D70 ;
+      break;
+    case FenArrayType.GruenfeldDefenseFlohrDefense_D94:
+      fenArray = fenGruenfeldDefenseFlohrDefense_D94 ;
+      break;
+    case FenArrayType.DutchDefenseNimzoDutchVariationAlekhineVariation_A90:
+      fenArray = fenDutchDefenseNimzoDutchVariationAlekhineVariation_A90 ;
+      break;
+    case FenArrayType.SpanishGameMarshallAttackRe3variation_C89:
+      fenArray = fenSpanishGameMarshallAttackRe3variation_C89 ;
+      break;
+    case FenArrayType.PortugueseOpeningGeneral_C20:
+      fenArray = fenPortugueseOpeningGeneral_C20 ;
+      break;
+    case FenArrayType.PterodactylDefenseFianchettoQueenPteronodon_A40:
+      fenArray = fenPterodactylDefenseFianchettoQueenPteronodon_A40 ;
+      break;
+    case FenArrayType.SodiumAttackGeneral_A00:
+      fenArray = fenSodiumAttackGeneral_A00 ;
+      break;
+    case FenArrayType.SicilianDefenseAlapinVariationBarmenDefenseMilnerBarryAttack_B22:
+      fenArray = fenSicilianDefenseAlapinVariationBarmenDefenseMilnerBarryAttack_B22 ;
+      break;
+    case FenArrayType.CaroKannDefensePanovAttackGunderamAttack_B13:
+      fenArray = fenCaroKannDefensePanovAttackGunderamAttack_B13 ;
+      break;
+    case FenArrayType.QueensIndianDefenseKasparovVariationBotvinnikAttack_E12:
+      fenArray = fenQueensIndianDefenseKasparovVariationBotvinnikAttack_E12 ;
+      break;
+    case FenArrayType.FrenchDefenseTarraschVariationOpenSystemAdvanceLine_C08:
+      fenArray = fenFrenchDefenseTarraschVariationOpenSystemAdvanceLine_C08 ;
+      break;
+    case FenArrayType.SpanishGameExchangeVariationAlekhineVariation_C68:
+      fenArray = fenSpanishGameExchangeVariationAlekhineVariation_C68 ;
+      break;
+    case FenArrayType.FrenchDefenseWinawerVariationAdvanceVariation_2_C17:
+      fenArray = fenFrenchDefenseWinawerVariationAdvanceVariation_2_C17 ;
+      break;
+    case FenArrayType.ItalianGameEvansGambitSlowVariation_C52:
+      fenArray = fenItalianGameEvansGambitSlowVariation_C52 ;
+      break;
+    case FenArrayType.PhilidorDefensePhilidorCountergambit_C41:
+      fenArray = fenPhilidorDefensePhilidorCountergambit_C41 ;
+      break;
+    case FenArrayType.ItalianGameScotchGambitMaxLangeAttackSpielmannDefense_C56:
+      fenArray = fenItalianGameScotchGambitMaxLangeAttackSpielmannDefense_C56 ;
+      break;
+    case FenArrayType.PircDefenseAustrianAttackLjubojevicVariation_B09:
+      fenArray = fenPircDefenseAustrianAttackLjubojevicVariation_B09 ;
+      break;
+    case FenArrayType.KingsGambitFalkbeerCountergambitBlackburneAttack_C31:
+      fenArray = fenKingsGambitFalkbeerCountergambitBlackburneAttack_C31 ;
+      break;
+    case FenArrayType.NimzoIndianDefenseNormalVariationGligoricSystemSmyslovVariation_E54:
+      fenArray = fenNimzoIndianDefenseNormalVariationGligoricSystemSmyslovVariation_E54 ;
+      break;
+    case FenArrayType.FourKnightsGameDoubleSpanishMiscwith5OO_C49:
+      fenArray = fenFourKnightsGameDoubleSpanishMiscwith5OO_C49 ;
+      break;
+    case FenArrayType.BlackmarDiemerGambitGeneral_D00:
+      fenArray = fenBlackmarDiemerGambitGeneral_D00 ;
+      break;
+    case FenArrayType.SemiSlavDefenseMeranVariationSozinVariationII_D49:
+      fenArray = fenSemiSlavDefenseMeranVariationSozinVariationII_D49 ;
+      break;
+    case FenArrayType.EnglishOpeningKingsEnglishVariationFourKnightsVariation_A28:
+      fenArray = fenEnglishOpeningKingsEnglishVariationFourKnightsVariation_A28 ;
+      break;
+    case FenArrayType.KingsGambitAcceptedTraditionalVariation_C38:
+      fenArray = fenKingsGambitAcceptedTraditionalVariation_C38 ;
+      break;
+    case FenArrayType.PonzianiOpeningVukovicGambit_C44:
+      fenArray = fenPonzianiOpeningVukovicGambit_C44 ;
+      break;
+    case FenArrayType.KingsIndianDefenseFourPawnsAttackFluidAttack_E78:
+      fenArray = fenKingsIndianDefenseFourPawnsAttackFluidAttack_E78 ;
+      break;
+    case FenArrayType.SpanishGameMorphyDefenseBreyerDefense_C94:
+      fenArray = fenSpanishGameMorphyDefenseBreyerDefense_C94 ;
+      break;
+    case FenArrayType.KingsGambitFalkbeerCountergambitAccepted_C31:
+      fenArray = fenKingsGambitFalkbeerCountergambitAccepted_C31 ;
+      break;
+    case FenArrayType.DurasGambitGeneral_B00:
+      fenArray = fenDurasGambitGeneral_B00 ;
+      break;
+    case FenArrayType.SpanishGameBerlinDefenseClosedShowalterVariation_C66:
+      fenArray = fenSpanishGameBerlinDefenseClosedShowalterVariation_C66 ;
+      break;
+    case FenArrayType.SicilianDefenseQuinterosVariation_B27:
+      fenArray = fenSicilianDefenseQuinterosVariation_B27 ;
+      break;
+    case FenArrayType.KingsGambitDeclinedPetrovsDefense_C30:
+      fenArray = fenKingsGambitDeclinedPetrovsDefense_C30 ;
+      break;
+    case FenArrayType.GruenfeldDefenseCounterthrustVariation_E60:
+      fenArray = fenGruenfeldDefenseCounterthrustVariation_E60 ;
+      break;
+    case FenArrayType.SemiSlavDefenseStonewallDefense_D45:
+      fenArray = fenSemiSlavDefenseStonewallDefense_D45 ;
+      break;
+    case FenArrayType.ModernDefenseAverbakhSystemRandspringerVariation_A42:
+      fenArray = fenModernDefenseAverbakhSystemRandspringerVariation_A42 ;
+      break;
+    case FenArrayType.ItalianGameScotchGambitCanalVariation_C56:
+      fenArray = fenItalianGameScotchGambitCanalVariation_C56 ;
+      break;
+    case FenArrayType.NimzoLarsenAttackSpikeVariation_A01:
+      fenArray = fenNimzoLarsenAttackSpikeVariation_A01 ;
+      break;
+    case FenArrayType.SicilianDefenseAlapinVariationBarmenDefenseEndgameVariation_B22:
+      fenArray = fenSicilianDefenseAlapinVariationBarmenDefenseEndgameVariation_B22 ;
+      break;
+    case FenArrayType.NimzowitschDefenseKennedyVariationMainLine_B00:
+      fenArray = fenNimzowitschDefenseKennedyVariationMainLine_B00 ;
+      break;
+    case FenArrayType.QueensGambitRefusedBalticDefenseQueenAttack_D02:
+      fenArray = fenQueensGambitRefusedBalticDefenseQueenAttack_D02 ;
+      break;
+    case FenArrayType.CaroKannDefenseHillbillyAttackSchaefferGambit_B10:
+      fenArray = fenCaroKannDefenseHillbillyAttackSchaefferGambit_B10 ;
+      break;
+    case FenArrayType.SemiSlavDefenseMeranVariationOldVariation_D48:
+      fenArray = fenSemiSlavDefenseMeranVariationOldVariation_D48 ;
+      break;
+    case FenArrayType.FrenchDefenseMacCutcheonVariationTartakowerVariation_C12:
+      fenArray = fenFrenchDefenseMacCutcheonVariationTartakowerVariation_C12 ;
+      break;
+    case FenArrayType.PonzianiOpeningPonzianiCountergambit_C44:
+      fenArray = fenPonzianiOpeningPonzianiCountergambit_C44 ;
+      break;
+    case FenArrayType.KingsKnightOpeningGeneral_C40:
+      fenArray = fenKingsKnightOpeningGeneral_C40 ;
+      break;
+    case FenArrayType.EnglishOpeningAngloIndianDefenseGruenfeldFormation_A15:
+      fenArray = fenEnglishOpeningAngloIndianDefenseGruenfeldFormation_A15 ;
+      break;
+    case FenArrayType.QueensIndianDefenseKasparovPetrosianVariationRashkovskyAttack_E12:
+      fenArray = fenQueensIndianDefenseKasparovPetrosianVariationRashkovskyAttack_E12 ;
+      break;
+    case FenArrayType.VanGeetOpeningBattambangVariation_A00:
+      fenArray = fenVanGeetOpeningBattambangVariation_A00 ;
+      break;
+    case FenArrayType.ScotchGameGoringGambitBardelebenVariation_C44:
+      fenArray = fenScotchGameGoringGambitBardelebenVariation_C44 ;
+      break;
+    case FenArrayType.KingPawnGameDresdenOpening_C44:
+      fenArray = fenKingPawnGameDresdenOpening_C44 ;
+      break;
+    case FenArrayType.QueensGambitDeclinedBeenKoomenVariation_D50:
+      fenArray = fenQueensGambitDeclinedBeenKoomenVariation_D50 ;
+      break;
+    case FenArrayType.SlavDefenseCzechVariationLaskerVariation_D18:
+      fenArray = fenSlavDefenseCzechVariationLaskerVariation_D18 ;
+      break;
+    case FenArrayType.TarraschDefenseWagnerVariation_D33:
+      fenArray = fenTarraschDefenseWagnerVariation_D33 ;
+      break;
+    case FenArrayType.IndianGameKnightsVariationAlburtMilesVariation_A46:
+      fenArray = fenIndianGameKnightsVariationAlburtMilesVariation_A46 ;
+      break;
+    case FenArrayType.QueensGambitDeclinedSemmeringVariation_D30:
+      fenArray = fenQueensGambitDeclinedSemmeringVariation_D30 ;
+      break;
+    case FenArrayType.ScotchGameScotchGambitCochraneAnderssenVariation_C44:
+      fenArray = fenScotchGameScotchGambitCochraneAnderssenVariation_C44 ;
+      break;
+    case FenArrayType.BorgDefenseTroonGambit_B00:
+      fenArray = fenBorgDefenseTroonGambit_B00 ;
+      break;
+    case FenArrayType.ZukertortOpeningWadeTartakowerDefense_A04:
+      fenArray = fenZukertortOpeningWadeTartakowerDefense_A04 ;
+      break;
+    case FenArrayType.ItalianGameScotchGambitAnderssenAttackMainLine_C56:
+      fenArray = fenItalianGameScotchGambitAnderssenAttackMainLine_C56 ;
+      break;
+    case FenArrayType.FourKnightsGameSpanishVariationSymmetricalVariation_4_C49:
+      fenArray = fenFourKnightsGameSpanishVariationSymmetricalVariation_4_C49 ;
+      break;
+    case FenArrayType.BirdOpeningSchlechterGambit_A02:
+      fenArray = fenBirdOpeningSchlechterGambit_A02 ;
+      break;
+    case FenArrayType.ItalianGameTwoKnightsDefense_2_C55:
+      fenArray = fenItalianGameTwoKnightsDefense_2_C55 ;
+      break;
+    case FenArrayType.BlackmarDiemerGambitRyderGambit_D00:
+      fenArray = fenBlackmarDiemerGambitRyderGambit_D00 ;
+      break;
+    case FenArrayType.BlackmarDiemerGambitNetherlandsVariation_D00:
+      fenArray = fenBlackmarDiemerGambitNetherlandsVariation_D00 ;
+      break;
+    case FenArrayType.FrenchDefenseDiemerDuhmGambit_C00:
+      fenArray = fenFrenchDefenseDiemerDuhmGambit_C00 ;
+      break;
+    case FenArrayType.PhilidorDefensePhilidorCountergambitZukertortVariation_C41:
+      fenArray = fenPhilidorDefensePhilidorCountergambitZukertortVariation_C41 ;
+      break;
+    case FenArrayType.KingsGambitAcceptedGrecoGambit_C38:
+      fenArray = fenKingsGambitAcceptedGrecoGambit_C38 ;
+      break;
+    case FenArrayType.HungarianOpeningReversedAlekhine_A00:
+      fenArray = fenHungarianOpeningReversedAlekhine_A00 ;
+      break;
+    case FenArrayType.ZukertortOpeningHerrstromGambit_A04:
+      fenArray = fenZukertortOpeningHerrstromGambit_A04 ;
+      break;
+    case FenArrayType.BenoniDefenseWoozle_A43:
+      fenArray = fenBenoniDefenseWoozle_A43 ;
+      break;
+    case FenArrayType.ItalianGameScotchGambit_C55:
+      fenArray = fenItalianGameScotchGambit_C55 ;
+      break;
+    case FenArrayType.CreepyCrawlyFormationClassicalDefense_A00:
+      fenArray = fenCreepyCrawlyFormationClassicalDefense_A00 ;
+      break;
+    case FenArrayType.ItalianGameTwoKnightsDefensePolerioDefense_C57:
+      fenArray = fenItalianGameTwoKnightsDefensePolerioDefense_C57 ;
+      break;
+    case FenArrayType.EnglishOpeningAngloScandinavianDefenseMalvinasVariation_A10:
+      fenArray = fenEnglishOpeningAngloScandinavianDefenseMalvinasVariation_A10 ;
+      break;
+    case FenArrayType.SicilianDefenseClassicalVariationDragonTransfer_B58:
+      fenArray = fenSicilianDefenseClassicalVariationDragonTransfer_B58 ;
+      break;
+    case FenArrayType.RubinsteinOpeningSemiSlavDefense_D05:
+      fenArray = fenRubinsteinOpeningSemiSlavDefense_D05 ;
+      break;
+    case FenArrayType.CaroKannDefenseBreyerVariationSteinAttack_B10:
+      fenArray = fenCaroKannDefenseBreyerVariationSteinAttack_B10 ;
+      break;
+    case FenArrayType.QueenPawnGameTorreAttackBreyerVariation_D03:
+      fenArray = fenQueenPawnGameTorreAttackBreyerVariation_D03 ;
+      break;
+    case FenArrayType.ModernDefensePterodactylVariation_B06:
+      fenArray = fenModernDefensePterodactylVariation_B06 ;
+      break;
+    case FenArrayType.NimzowitschDefenseKennedyVariationRiemannDefense_B00:
+      fenArray = fenNimzowitschDefenseKennedyVariationRiemannDefense_B00 ;
+      break;
+    case FenArrayType.ViennaGameViennaGambitKaufmannVariation_C29:
+      fenArray = fenViennaGameViennaGambitKaufmannVariation_C29 ;
+      break;
+    case FenArrayType.QueensIndianDefenseMarienbadSystemBergVariation_A47:
+      fenArray = fenQueensIndianDefenseMarienbadSystemBergVariation_A47 ;
+      break;
+    case FenArrayType.EnglundGambitComplexDeclined_A40:
+      fenArray = fenEnglundGambitComplexDeclined_A40 ;
+      break;
+    case FenArrayType.SpanishGameSteinitzDefenseNimzowitschAttack_C62:
+      fenArray = fenSpanishGameSteinitzDefenseNimzowitschAttack_C62 ;
+      break;
+    case FenArrayType.ModernDefenseMongredienDefense_2_B06:
+      fenArray = fenModernDefenseMongredienDefense_2_B06 ;
+      break;
+    case FenArrayType.EnglishOpeningKingsEnglishVariationKeresDefense_A21:
+      fenArray = fenEnglishOpeningKingsEnglishVariationKeresDefense_A21 ;
+      break;
+    case FenArrayType.SpanishGameOpenVariationsMalkinVariation_C83:
+      fenArray = fenSpanishGameOpenVariationsMalkinVariation_C83 ;
+      break;
+    case FenArrayType.CaroKannDefenseAlekhineGambit_B15:
+      fenArray = fenCaroKannDefenseAlekhineGambit_B15 ;
+      break;
+    case FenArrayType.VanGeetOpeningMyersAttack_A00:
+      fenArray = fenVanGeetOpeningMyersAttack_A00 ;
+      break;
+    case FenArrayType.SicilianDefenseSpielmannVariation_B56:
+      fenArray = fenSicilianDefenseSpielmannVariation_B56 ;
+      break;
+    case FenArrayType.AlekhineDefenseSteinerVariation_B02:
+      fenArray = fenAlekhineDefenseSteinerVariation_B02 ;
+      break;
+    case FenArrayType.SicilianDefenseHyperacceleratedPterodactylExchangeVariation_B27:
+      fenArray = fenSicilianDefenseHyperacceleratedPterodactylExchangeVariation_B27 ;
+      break;
+    case FenArrayType.ItalianGameTwoKnightsDefenseKnightAttack_C57:
+      fenArray = fenItalianGameTwoKnightsDefenseKnightAttack_C57 ;
+      break;
+    case FenArrayType.PolishOpeningBugayevAdvanceVariation_A00:
+      fenArray = fenPolishOpeningBugayevAdvanceVariation_A00 ;
+      break;
+    case FenArrayType.FrenchDefenseWinawerVariationAdvanceVariation_3_C17:
+      fenArray = fenFrenchDefenseWinawerVariationAdvanceVariation_3_C17 ;
+      break;
+    case FenArrayType.KingsIndianDefenseOrthodoxVariationUkranianDefense_E94:
+      fenArray = fenKingsIndianDefenseOrthodoxVariationUkranianDefense_E94 ;
+      break;
+    case FenArrayType.GrobOpeningSpikeHurstAttack_A00:
+      fenArray = fenGrobOpeningSpikeHurstAttack_A00 ;
+      break;
+    case FenArrayType.BlackmarDiemerGambitDeclinedOKellyDefense_D00:
+      fenArray = fenBlackmarDiemerGambitDeclinedOKellyDefense_D00 ;
+      break;
+    case FenArrayType.QueensGambitRefusedChigorinDefenseMainLineAlekhineVariation_D07:
+      fenArray = fenQueensGambitRefusedChigorinDefenseMainLineAlekhineVariation_D07 ;
+      break;
+    case FenArrayType.KingsGambitAcceptedKieseritskyGambitRubinsteinVariation_C39:
+      fenArray = fenKingsGambitAcceptedKieseritskyGambitRubinsteinVariation_C39 ;
+      break;
+    case FenArrayType.EnglishOpeningAngloScandinavianDefenseSchulzGambit_A10:
+      fenArray = fenEnglishOpeningAngloScandinavianDefenseSchulzGambit_A10 ;
+      break;
+    case FenArrayType.PonzianiOpeningSpanishVariation_C44:
+      fenArray = fenPonzianiOpeningSpanishVariation_C44 ;
+      break;
+    case FenArrayType.BlackmarDiemerGambitBogoljubowVariationStudierAttack_D00:
+      fenArray = fenBlackmarDiemerGambitBogoljubowVariationStudierAttack_D00 ;
+      break;
+    case FenArrayType.ScotchGameLolliVariation_C44:
+      fenArray = fenScotchGameLolliVariation_C44 ;
+      break;
+    case FenArrayType.SpanishGameOpenVariationsKarpovGambit_C80:
+      fenArray = fenSpanishGameOpenVariationsKarpovGambit_C80 ;
+      break;
+    case FenArrayType.GruenfeldDefenseExchangeVariationLarsenVariation_D86:
+      fenArray = fenGruenfeldDefenseExchangeVariationLarsenVariation_D86 ;
+      break;
+    case FenArrayType.QueenPawnOpeningVeresovOpeningRichterAttack_D00:
+      fenArray = fenQueenPawnOpeningVeresovOpeningRichterAttack_D00 ;
+      break;
+    case FenArrayType.ItalianGameEvansGambitBronsteinDefense_C51:
+      fenArray = fenItalianGameEvansGambitBronsteinDefense_C51 ;
+      break;
+    case FenArrayType.ItalianGameTwoKnightsDefenseLolliAttack_C57:
+      fenArray = fenItalianGameTwoKnightsDefenseLolliAttack_C57 ;
+      break;
+    case FenArrayType.IndianGameAntiGrunfeldAlekhineVariationLekoGambit_D70:
+      fenArray = fenIndianGameAntiGrunfeldAlekhineVariationLekoGambit_D70 ;
+      break;
+    case FenArrayType.ScotchGameRelfssonGambit_C44:
+      fenArray = fenScotchGameRelfssonGambit_C44 ;
+      break;
+    case FenArrayType.NimzowitschDefensePseudoSpanishVariation_B00:
+      fenArray = fenNimzowitschDefensePseudoSpanishVariation_B00 ;
+      break;
+    case FenArrayType.FrenchDefenseMainLine_C00:
+      fenArray = fenFrenchDefenseMainLine_C00 ;
+      break;
+    case FenArrayType.SicilianDefensePinVariationJaffeVariation_B40:
+      fenArray = fenSicilianDefensePinVariationJaffeVariation_B40 ;
+      break;
+    case FenArrayType.BudapestDefenseFajarowiczSteinerVariation_A51:
+      fenArray = fenBudapestDefenseFajarowiczSteinerVariation_A51 ;
+      break;
+    case FenArrayType.VanGeetOpeningBerlinGambit_A00:
+      fenArray = fenVanGeetOpeningBerlinGambit_A00 ;
+      break;
+    case FenArrayType.VanGeetOpeningNovosibirskVariation_A00:
+      fenArray = fenVanGeetOpeningNovosibirskVariation_A00 ;
+      break;
+    case FenArrayType.TorreAttackWagnerGambit_A46:
+      fenArray = fenTorreAttackWagnerGambit_A46 ;
+      break;
+    case FenArrayType.QueensGambitGeneral_D06:
+      fenArray = fenQueensGambitGeneral_D06 ;
+      break;
+    case FenArrayType.ItalianGameScotchGambitDoubleGambitAccepted_C56:
+      fenArray = fenItalianGameScotchGambitDoubleGambitAccepted_C56 ;
+      break;
+    case FenArrayType.QueensGambitRefusedAlbinCountergambitFianchettoVariationBf5Liner_D09:
+      fenArray = fenQueensGambitRefusedAlbinCountergambitFianchettoVariationBf5Liner_D09 ;
+      break;
+    case FenArrayType.KingsGambitAcceptedKieseritskyGambitLongWhip_C39:
+      fenArray = fenKingsGambitAcceptedKieseritskyGambitLongWhip_C39 ;
+      break;
+    case FenArrayType.NimzowitschDefenseKennedyVariationKeresAttack_B00:
+      fenArray = fenNimzowitschDefenseKennedyVariationKeresAttack_B00 ;
+      break;
+    case FenArrayType.QueenPawnGameChandlerGambit_D02:
+      fenArray = fenQueenPawnGameChandlerGambit_D02 ;
+      break;
+    case FenArrayType.BishopsOpeningUrusovGambit_C24:
+      fenArray = fenBishopsOpeningUrusovGambit_C24 ;
+      break;
+    case FenArrayType.OldIndianDefenseJanowskiVariation_A53:
+      fenArray = fenOldIndianDefenseJanowskiVariation_A53 ;
+      break;
+    case FenArrayType.TarraschDefenseVonHennigGambit_D32:
+      fenArray = fenTarraschDefenseVonHennigGambit_D32 ;
+      break;
+    case FenArrayType.ItalianGameEvansGambitCompromisedDefense_C52:
+      fenArray = fenItalianGameEvansGambitCompromisedDefense_C52 ;
+      break;
 
     default:
       window.gtag("event", "difficulty_selected", {
@@ -15604,7 +21783,7 @@ export enum FenArrayType {
   QueensGambitDeclinedGeneral_D30 = 'QueensGambitDeclinedGeneral_D30',
   QueenPawnGameSarrattAttack_D00 = 'QueenPawnGameSarrattAttack_D00',
   SicilianDefenseKanVariationKnightVariation_B43 = 'SicilianDefenseKanVariationKnightVariation_B43',
-  QueensGambitDeclinedExchangeVariationPositionalVariation_D35 = 'QueensGambitDeclinedExchangeVariationPositionalVariation_D35',
+  QueensGambitDeclinedExchangeVariationPositionalVariation_1_D35 = 'QueensGambitDeclinedExchangeVariationPositionalVariation_1_D35',
   QueenPawnGameZukertortVariation_D02 = 'QueenPawnGameZukertortVariation_D02',
   SicilianDefensePaulsenVariationBastrikovVariation_B47 = 'SicilianDefensePaulsenVariationBastrikovVariation_B47',
   ItalianGameTwoKnightsDefenseModernBishopsOpening_C55 = 'ItalianGameTwoKnightsDefenseModernBishopsOpening_C55',
@@ -15691,7 +21870,7 @@ export enum FenArrayType {
   ScandinavianDefenseGubinskyMeltsDefense_B01 = 'ScandinavianDefenseGubinskyMeltsDefense_B01',
   IndianGameSpielmannIndian_A46 = 'IndianGameSpielmannIndian_A46',
   IndianGameWadeTarkatowerDefense_A46 = 'IndianGameWadeTarkatowerDefense_A46',
-  SpanishGameMorphyDefense_C78 = 'SpanishGameMorphyDefense_C78',
+  SpanishGameMorphyDefense_1_C78 = 'SpanishGameMorphyDefense_1_C78',
   FrenchDefenseAdvanceVariationEuweVariation_C02 = 'FrenchDefenseAdvanceVariationEuweVariation_C02',
   TorreAttackClassicalDefense_A46 = 'TorreAttackClassicalDefense_A46',
   CaroKannDefenseClassicalVariation_B18 = 'CaroKannDefenseClassicalVariation_B18',
@@ -15710,7 +21889,8 @@ export enum FenArrayType {
   SicilianDefensePaulsenVariationBastrikovVariation_B48 = 'SicilianDefensePaulsenVariationBastrikovVariation_B48',
   QueensGambitDeclinedRagozinDefense_D38 = 'QueensGambitDeclinedRagozinDefense_D38',
   KingsIndianDefenseOrthodoxVariationPositionalDefense_E94 = 'KingsIndianDefenseOrthodoxVariationPositionalDefense_E94',
-  SicilianDefenseScheveningenVariationClassicalVariation_B84 = 'SicilianDefenseScheveningenVariationClassicalVariation_B84',
+  QueensGambitDeclinedExchangeVariationPositionalVariation_2_D35 = 'QueensGambitDeclinedExchangeVariationPositionalVariation_2_D35',
+  SicilianDefenseScheveningenVariationClassicalVariation_1_B84 = 'SicilianDefenseScheveningenVariationClassicalVariation_1_B84',
   ItalianGameItalianVariation_C50 = 'ItalianGameItalianVariation_C50',
   SlavDefenseChameleonVariation_D15 = 'SlavDefenseChameleonVariation_D15',
   KingsIndianDefenseSaemischVariationNormalDefense_E81 = 'KingsIndianDefenseSaemischVariationNormalDefense_E81',
@@ -15726,7 +21906,7 @@ export enum FenArrayType {
   KingsIndianDefenseOrthodoxVariationGligoricTaimanovSystem_E92 = 'KingsIndianDefenseOrthodoxVariationGligoricTaimanovSystem_E92',
   ScandinavianDefenseMainLinesMiesesVariation_B01 = 'ScandinavianDefenseMainLinesMiesesVariation_B01',
   EnglishOpeningSymmetricalVariationSymmetricalVariation_A36 = 'EnglishOpeningSymmetricalVariationSymmetricalVariation_A36',
-  ScandinavianDefenseModernVariation_B01 = 'ScandinavianDefenseModernVariation_B01',
+  ScandinavianDefenseModernVariation_1_B01 = 'ScandinavianDefenseModernVariation_1_B01',
   CaroKannDefenseTwoKnightsAttackMindenoVariationExchangeLine_B11 = 'CaroKannDefenseTwoKnightsAttackMindenoVariationExchangeLine_B11',
   OwenDefenseGeneral_B00 = 'OwenDefenseGeneral_B00',
   EnglishOpeningSymmetricalVariationHedgehogDefense_A30 = 'EnglishOpeningSymmetricalVariationHedgehogDefense_A30',
@@ -15753,7 +21933,7 @@ export enum FenArrayType {
   FrenchDefenseAdvanceVariationMainLine_C02 = 'FrenchDefenseAdvanceVariationMainLine_C02',
   BenkoGambitAcceptedFullyAcceptedVariation_A58 = 'BenkoGambitAcceptedFullyAcceptedVariation_A58',
   BenoniDefenseModernVariation_A56 = 'BenoniDefenseModernVariation_A56',
-  FrenchDefenseTarraschVariationClosedVariation_C05 = 'FrenchDefenseTarraschVariationClosedVariation_C05',
+  FrenchDefenseTarraschVariationClosedVariation_1_C05 = 'FrenchDefenseTarraschVariationClosedVariation_1_C05',
   SicilianDefenseNajdorfVariationAmsterdamVariation_B93 = 'SicilianDefenseNajdorfVariationAmsterdamVariation_B93',
   CaroKannDefenseAcceleratedPanovAttackModernVariation_B10 = 'CaroKannDefenseAcceleratedPanovAttackModernVariation_B10',
   QueenPawnGameChigorinVariation_D02 = 'QueenPawnGameChigorinVariation_D02',
@@ -15774,7 +21954,7 @@ export enum FenArrayType {
   EnglishOpeningAgincourtDefenseCatalanDefenseAccepted_A13 = 'EnglishOpeningAgincourtDefenseCatalanDefenseAccepted_A13',
   SicilianDefenseNajdorfVariationOpocenskyVariationTraditionalLine_B92 = 'SicilianDefenseNajdorfVariationOpocenskyVariationTraditionalLine_B92',
   KingsIndianAttackYugoslavVariation_A07 = 'KingsIndianAttackYugoslavVariation_A07',
-  SicilianDefenseScheveningenVariationEnglishAttack_B80 = 'SicilianDefenseScheveningenVariationEnglishAttack_B80',
+  SicilianDefenseScheveningenVariationEnglishAttack_1_B80 = 'SicilianDefenseScheveningenVariationEnglishAttack_1_B80',
   ModernDefensePseudoAustrianAttack_B06 = 'ModernDefensePseudoAustrianAttack_B06',
   AlekhineDefenseScandinavianVariation_B02 = 'AlekhineDefenseScandinavianVariation_B02',
   QueensGambitDeclinedBarmenVariation_D37 = 'QueensGambitDeclinedBarmenVariation_D37',
@@ -15798,7 +21978,7 @@ export enum FenArrayType {
   SemiSlavDefenseAcceleratedMoveOrder_D31 = 'SemiSlavDefenseAcceleratedMoveOrder_D31',
   CaroKannDefenseExchangeVariationRubinsteinVariation_B13 = 'CaroKannDefenseExchangeVariationRubinsteinVariation_B13',
   BishopsOpeningBerlinDefense_C24 = 'BishopsOpeningBerlinDefense_C24',
-  SicilianDefenseLaskerPelikanVariationSveshnikovVariation_B33 = 'SicilianDefenseLaskerPelikanVariationSveshnikovVariation_B33',
+  SicilianDefenseLaskerPelikanVariationSveshnikovVariation_1_B33 = 'SicilianDefenseLaskerPelikanVariationSveshnikovVariation_1_B33',
   SicilianDefenseNajdorfVariationZagrebFianchettoVariation_B91 = 'SicilianDefenseNajdorfVariationZagrebFianchettoVariation_B91',
   SicilianDefensePaulsenVariationGeneral_B44 = 'SicilianDefensePaulsenVariationGeneral_B44',
   TrompowskyAttackClassicalDefenseBigCenterVariation_A45 = 'TrompowskyAttackClassicalDefenseBigCenterVariation_A45',
@@ -15812,7 +21992,7 @@ export enum FenArrayType {
   KingsIndianDefenseFianchettoVariationClassicalMainLine_E69 = 'KingsIndianDefenseFianchettoVariationClassicalMainLine_E69',
   QueensGambitDeclinedCambridgeSpringsVariation_D52 = 'QueensGambitDeclinedCambridgeSpringsVariation_D52',
   QueensGambitDeclinedTartakowerDefenseGeneral_D58 = 'QueensGambitDeclinedTartakowerDefenseGeneral_D58',
-  PhilidorDefenseExchangeVariation_C41 = 'PhilidorDefenseExchangeVariation_C41',
+  PhilidorDefenseExchangeVariation_1_C41 = 'PhilidorDefenseExchangeVariation_1_C41',
   QueensIndianDefenseFianchettoVariationNimzowitschVariation_E15 = 'QueensIndianDefenseFianchettoVariationNimzowitschVariation_E15',
   CaroKannDefenseMaroczyVariation_B12 = 'CaroKannDefenseMaroczyVariation_B12',
   GruenfeldDefenseGeneral_D80 = 'GruenfeldDefenseGeneral_D80',
@@ -15839,6 +22019,7 @@ export enum FenArrayType {
   SpanishGameBerlinDefenseRioGambitAccepted_C67 = 'SpanishGameBerlinDefenseRioGambitAccepted_C67',
   IndianGameTartakowerAttack_A45 = 'IndianGameTartakowerAttack_A45',
   BenoniDefenseBenoniIndianDefenseKingsidemoveorder_A43 = 'BenoniDefenseBenoniIndianDefenseKingsidemoveorder_A43',
+  FrenchDefenseTarraschVariationClosedVariation_2_C05 = 'FrenchDefenseTarraschVariationClosedVariation_2_C05',
   FrenchDefenseClassicalVariationBurnVariation_C11 = 'FrenchDefenseClassicalVariationBurnVariation_C11',
   EnglishOpeningKingsEnglishVariationReversedClosedSicilian_A25 = 'EnglishOpeningKingsEnglishVariationReversedClosedSicilian_A25',
   IndianGameQueensPawnOpening_E00 = 'IndianGameQueensPawnOpening_E00',
@@ -15870,7 +22051,7 @@ export enum FenArrayType {
   CatalanOpeningClosedVariation_E01 = 'CatalanOpeningClosedVariation_E01',
   IndianGamePseudoQueensIndian_A47 = 'IndianGamePseudoQueensIndian_A47',
   KingsIndianDefenseOrthodoxVariationClassicalSystemMiscLines_E98 = 'KingsIndianDefenseOrthodoxVariationClassicalSystemMiscLines_E98',
-  KingsIndianAttackSicilianVariation_A08 = 'KingsIndianAttackSicilianVariation_A08',
+  KingsIndianAttackSicilianVariation_1_A08 = 'KingsIndianAttackSicilianVariation_1_A08',
   KingsIndianDefenseNormalVariation_E70 = 'KingsIndianDefenseNormalVariation_E70',
   BenkoGambitAcceptedPawnReturnVariation_A57 = 'BenkoGambitAcceptedPawnReturnVariation_A57',
   EnglishOpeningKingsEnglishVariationTwoKnightsVariationReversedDragon_A22 = 'EnglishOpeningKingsEnglishVariationTwoKnightsVariationReversedDragon_A22',
@@ -15892,6 +22073,7 @@ export enum FenArrayType {
   SpanishGameClosedVariationsFlohrSystem_C92 = 'SpanishGameClosedVariationsFlohrSystem_C92',
   OldIndianDefenseNormalVariation_A55 = 'OldIndianDefenseNormalVariation_A55',
   QueensIndianDefenseSpasskySystem_E14 = 'QueensIndianDefenseSpasskySystem_E14',
+  KingsIndianAttackSicilianVariation_2_A08 = 'KingsIndianAttackSicilianVariation_2_A08',
   SicilianDefenseFrenchVariationNormal_B40 = 'SicilianDefenseFrenchVariationNormal_B40',
   BenoniDefenseKingPawnlines_A65 = 'BenoniDefenseKingPawnlines_A65',
   SemiSlavDefenseMainLines_D45 = 'SemiSlavDefenseMainLines_D45',
@@ -15903,7 +22085,7 @@ export enum FenArrayType {
   ScandinavianDefenseMarshallVariation_B01 = 'ScandinavianDefenseMarshallVariation_B01',
   VanGeetOpeningGeneral_A00 = 'VanGeetOpeningGeneral_A00',
   EnglishOpeningEnglishDefenseGeneral_A10 = 'EnglishOpeningEnglishDefenseGeneral_A10',
-  PhilidorDefenseGeneral_C41 = 'PhilidorDefenseGeneral_C41',
+  PhilidorDefenseGeneral_1_C41 = 'PhilidorDefenseGeneral_1_C41',
   KingsIndianDefenseOrthodoxVariation_E94 = 'KingsIndianDefenseOrthodoxVariation_E94',
   QueensGambitDeclinedViennaVariation_D44 = 'QueensGambitDeclinedViennaVariation_D44',
   NimzowitschDefenseWilliamsVariation_B00 = 'NimzowitschDefenseWilliamsVariation_B00',
@@ -15912,7 +22094,7 @@ export enum FenArrayType {
   KingsIndianDefenseSixPawnsAttack_E77 = 'KingsIndianDefenseSixPawnsAttack_E77',
   SpanishGameMorphyDefenseArchangelskVariation_C78 = 'SpanishGameMorphyDefenseArchangelskVariation_C78',
   CaroKannDefenseBronsteinLarsenVariation_B16 = 'CaroKannDefenseBronsteinLarsenVariation_B16',
-  FrenchDefenseWinawerVariationAdvanceVariation_C18 = 'FrenchDefenseWinawerVariationAdvanceVariation_C18',
+  FrenchDefenseWinawerVariationAdvanceVariation_1_C18 = 'FrenchDefenseWinawerVariationAdvanceVariation_1_C18',
   FrenchDefenseTarraschVariationOpenSystem_C07 = 'FrenchDefenseTarraschVariationOpenSystem_C07',
   SicilianDefenseLaskerPelikanVariationSveshnikovVariationNovosibirskVariation_B33 = 'SicilianDefenseLaskerPelikanVariationSveshnikovVariationNovosibirskVariation_B33',
   FrenchDefenseTarraschVariationPawnCenterVariation_C05 = 'FrenchDefenseTarraschVariationPawnCenterVariation_C05',
@@ -15952,7 +22134,7 @@ export enum FenArrayType {
   FrenchDefenseAdvanceVariationMilnerBarryGambit_C02 = 'FrenchDefenseAdvanceVariationMilnerBarryGambit_C02',
   BudapestDefenseAdlerVariation_A52 = 'BudapestDefenseAdlerVariation_A52',
   KingsIndianDefenseOrthodoxVariationAroninTaimanovDefense_E97 = 'KingsIndianDefenseOrthodoxVariationAroninTaimanovDefense_E97',
-  ColleSystem_D05 = 'ColleSystem_D05',
+  ColleSystem_1_D05 = 'ColleSystem_1_D05',
   MexicanDefenseGeneral_A50 = 'MexicanDefenseGeneral_A50',
   EnglishOpeningKingsEnglishVariationThreeKnightsSystemGeneral_A27 = 'EnglishOpeningKingsEnglishVariationThreeKnightsSystemGeneral_A27',
   FrenchDefenseTarraschVariation_C03 = 'FrenchDefenseTarraschVariation_C03',
@@ -15977,7 +22159,7 @@ export enum FenArrayType {
   QueensGambitDeclinedTraditionalVariation_D30 = 'QueensGambitDeclinedTraditionalVariation_D30',
   QueenPawnOpeningGeneral_A40 = 'QueenPawnOpeningGeneral_A40',
   SicilianDefenseChameleon_B20 = 'SicilianDefenseChameleon_B20',
-  SicilianDefenseDragonVariationYugoslavAttack_B77 = 'SicilianDefenseDragonVariationYugoslavAttack_B77',
+  SicilianDefenseDragonVariationYugoslavAttack_1_B77 = 'SicilianDefenseDragonVariationYugoslavAttack_1_B77',
   SicilianDefenseAcceleratedDragonMaroczyBindBreyerVariation_B39 = 'SicilianDefenseAcceleratedDragonMaroczyBindBreyerVariation_B39',
   SicilianDefenseSmithMorraGambit_B21 = 'SicilianDefenseSmithMorraGambit_B21',
   EnglishOpeningKingsEnglishVariationTwoKnightsVariationSmyslovSystem_A22 = 'EnglishOpeningKingsEnglishVariationTwoKnightsVariationSmyslovSystem_A22',
@@ -16005,7 +22187,7 @@ export enum FenArrayType {
   NimzoIndianDefenseNormalVariationBishopAttack_E47 = 'NimzoIndianDefenseNormalVariationBishopAttack_E47',
   DutchDefenseLeningradVariationMatulovicVariation_A89 = 'DutchDefenseLeningradVariationMatulovicVariation_A89',
   FrenchDefenseWinawerVariationClassicalVariation_C18 = 'FrenchDefenseWinawerVariationClassicalVariation_C18',
-  EnglishOpeningKingsEnglishVariationFourKnightsVariationQuietLine_A28 = 'EnglishOpeningKingsEnglishVariationFourKnightsVariationQuietLine_A28',
+  EnglishOpeningKingsEnglishVariationFourKnightsVariationQuietLine_1_A28 = 'EnglishOpeningKingsEnglishVariationFourKnightsVariationQuietLine_1_A28',
   ScotchGameClassicalVariationIntermezzoVariation_C45 = 'ScotchGameClassicalVariationIntermezzoVariation_C45',
   SlavDefenseCzechVariationKrauseAttack_D17 = 'SlavDefenseCzechVariationKrauseAttack_D17',
   QueensGambitRefusedChigorinDefenseMainLine_D07 = 'QueensGambitRefusedChigorinDefenseMainLine_D07',
@@ -16066,6 +22248,1548 @@ export enum FenArrayType {
   EnglishOpeningAngloIndianDefenseHedgehogSystem_A17 = 'EnglishOpeningAngloIndianDefenseHedgehogSystem_A17',
   QueensIndianDefenseKasparovVariation_E12 = 'QueensIndianDefenseKasparovVariation_E12',
   SicilianDefenseSozinAttackMainLine_B89 = 'SicilianDefenseSozinAttackMainLine_B89',
+  SpanishGameClassicalVariation_C64 = 'SpanishGameClassicalVariation_C64',
+  LionDefenseLionsJaw_B07 = 'LionDefenseLionsJaw_B07',
+  ScandinavianDefensePortugueseVariation_B01 = 'ScandinavianDefensePortugueseVariation_B01',
+  EnglishOpeningAngloIndianDefenseFlohrMikenasCarlsVariation_1_A18 = 'EnglishOpeningAngloIndianDefenseFlohrMikenasCarlsVariation_1_A18',
+  BenkoGambitGeneral_A57 = 'BenkoGambitGeneral_A57',
+  BenoniDefenseHromodkaSystem_A57 = 'BenoniDefenseHromodkaSystem_A57',
+  NimzoIndianDefenseFischerVariation_E44 = 'NimzoIndianDefenseFischerVariation_E44',
+  KingsIndianDefenseOrthodoxVariationModernSystem_E97 = 'KingsIndianDefenseOrthodoxVariationModernSystem_E97',
+  QueensGambitAcceptedJanowskiLarsenVariation_D25 = 'QueensGambitAcceptedJanowskiLarsenVariation_D25',
+  SlavDefenseSchlechterVariation_D15 = 'SlavDefenseSchlechterVariation_D15',
+  QueensGambitDeclinedSemiTarraschDefense_D40 = 'QueensGambitDeclinedSemiTarraschDefense_D40',
+  SemiSlavDefenseAcceleratedMeranVariation_D45 = 'SemiSlavDefenseAcceleratedMeranVariation_D45',
+  SicilianDefenseBoleslavskyVariation_B59 = 'SicilianDefenseBoleslavskyVariation_B59',
+  NimzoIndianDefenseHuebnerVariation_E41 = 'NimzoIndianDefenseHuebnerVariation_E41',
+  FrenchDefenseWinawerVariationPoisonedPawnVariationMainLine_C18 = 'FrenchDefenseWinawerVariationPoisonedPawnVariationMainLine_C18',
+  SicilianDefenseScheveningenVariationModernVariation_1_B83 = 'SicilianDefenseScheveningenVariationModernVariation_1_B83',
+  SicilianDefenseNajdorfVariationEnglishAttackAntiEnglish_B90 = 'SicilianDefenseNajdorfVariationEnglishAttackAntiEnglish_B90',
+  NimzoIndianDefenseRagozinVariation_E20 = 'NimzoIndianDefenseRagozinVariation_E20',
+  SicilianDefenseNimzowitschVariationClosedVariation_B29 = 'SicilianDefenseNimzowitschVariationClosedVariation_B29',
+  QueensGambitAcceptedCentralVariationMcDonnellDefense_D20 = 'QueensGambitAcceptedCentralVariationMcDonnellDefense_D20',
+  SicilianDefenseHyperacceleratedPterodactyl_B27 = 'SicilianDefenseHyperacceleratedPterodactyl_B27',
+  GruenfeldDefenseThreeKnightsVariationBurilleVariation_D94 = 'GruenfeldDefenseThreeKnightsVariationBurilleVariation_D94',
+  QueensGambitDeclinedSemiTarraschDefenseExchangeVariation_D41 = 'QueensGambitDeclinedSemiTarraschDefenseExchangeVariation_D41',
+  ItalianGameTwoKnightsDefensePolerioDefenseBishopCheckline_C58 = 'ItalianGameTwoKnightsDefensePolerioDefenseBishopCheckline_C58',
+  SicilianDefenseAcceleratedDragonGeneral_B36 = 'SicilianDefenseAcceleratedDragonGeneral_B36',
+  SicilianDefenseRichterRauzerVariationClassicalVariation_B63 = 'SicilianDefenseRichterRauzerVariationClassicalVariation_B63',
+  NimzoLarsenAttackGeneral_A01 = 'NimzoLarsenAttackGeneral_A01',
+  FrenchDefenseAdvanceVariation_1_C02 = 'FrenchDefenseAdvanceVariation_1_C02',
+  CaroKannDefensePanovAttackModernDefenseMiesesLine_B13 = 'CaroKannDefensePanovAttackModernDefenseMiesesLine_B13',
+  QueensIndianDefenseCapablancaVariation_E16 = 'QueensIndianDefenseCapablancaVariation_E16',
+  SicilianDefenseRichterRauzerVariationGeneral_B60 = 'SicilianDefenseRichterRauzerVariationGeneral_B60',
+  RussianGameCozioLaskerAttack_C42 = 'RussianGameCozioLaskerAttack_C42',
+  SicilianDefenseOKellyVariationNormalSystem_B28 = 'SicilianDefenseOKellyVariationNormalSystem_B28',
+  QueensIndianDefenseKasparovPetrosianVariationMainLine_E12 = 'QueensIndianDefenseKasparovPetrosianVariationMainLine_E12',
+  ZukertortOpeningQueensideFianchettoVariation_A04 = 'ZukertortOpeningQueensideFianchettoVariation_A04',
+  QueensIndianDefenseClassicalVariationTraditionalVariationMainLine_E19 = 'QueensIndianDefenseClassicalVariationTraditionalVariationMainLine_E19',
+  EnglishOpeningKingsEnglishVariationFourKnightsVariationBotvinnikLine_A28 = 'EnglishOpeningKingsEnglishVariationFourKnightsVariationBotvinnikLine_A28',
+  SemiSlavDefenseMeranVariationWadeVariation_D47 = 'SemiSlavDefenseMeranVariationWadeVariation_D47',
+  CatalanOpeningClosedVariationTraditionalVariation_E09 = 'CatalanOpeningClosedVariationTraditionalVariation_E09',
+  QueenPawnGameTorreAttackGruenfeldVariationMainLine_D03 = 'QueenPawnGameTorreAttackGruenfeldVariationMainLine_D03',
+  SpanishGameMorphyDefenseNeoArchangelskVariation_C78 = 'SpanishGameMorphyDefenseNeoArchangelskVariation_C78',
+  SicilianDefenseBowdlerAttack_B20 = 'SicilianDefenseBowdlerAttack_B20',
+  QueensIndianDefenseFianchettoVariationNimzowitschVariationNimzowitschAttack_E15 = 'QueensIndianDefenseFianchettoVariationNimzowitschVariationNimzowitschAttack_E15',
+  NimzoIndianDefenseHuebnerVariationRubinsteinVariation_E42 = 'NimzoIndianDefenseHuebnerVariationRubinsteinVariation_E42',
+  IndianGamePseudoBenko_A46 = 'IndianGamePseudoBenko_A46',
+  SpanishGameExchangeVariationGeneral_C68 = 'SpanishGameExchangeVariationGeneral_C68',
+  QueensGambitDeclinedHarrwitzAttackFianchettoDefense_D37 = 'QueensGambitDeclinedHarrwitzAttackFianchettoDefense_D37',
+  NimzoIndianDefenseNormalVariation_E46 = 'NimzoIndianDefenseNormalVariation_E46',
+  KingsIndianDefenseSaemischVariationBobotsovKorchnoiPetrosianVariation_E81 = 'KingsIndianDefenseSaemischVariationBobotsovKorchnoiPetrosianVariation_E81',
+  DutchDefenseClassicalVariation_A90 = 'DutchDefenseClassicalVariation_A90',
+  EnglishOpeningAngloIndianDefenseQueensIndianFormation_A15 = 'EnglishOpeningAngloIndianDefenseQueensIndianFormation_A15',
+  ThreeKnightsOpeningGeneral_C46 = 'ThreeKnightsOpeningGeneral_C46',
+  FourKnightsGameItalianVariation_C46 = 'FourKnightsGameItalianVariation_C46',
+  SicilianDefenseNajdorfVariationPoisonedPawnVariation_B97 = 'SicilianDefenseNajdorfVariationPoisonedPawnVariation_B97',
+  FourKnightsGameSpanishVariationRubinsteinVariation_C48 = 'FourKnightsGameSpanishVariationRubinsteinVariation_C48',
+  KingsIndianDefenseFianchettoVariationLesserSimaginSpassky_E62 = 'KingsIndianDefenseFianchettoVariationLesserSimaginSpassky_E62',
+  BenkoGambitAcceptedKingWalkVariation_A59 = 'BenkoGambitAcceptedKingWalkVariation_A59',
+  SpanishGameMorphyDefenseCozioDefense_C70 = 'SpanishGameMorphyDefenseCozioDefense_C70',
+  QueensIndianDefenseClassicalVariationTraditionalVariationNimowitschLine_E18 = 'QueensIndianDefenseClassicalVariationTraditionalVariationNimowitschLine_E18',
+  EnglishOpeningSymmetricalVariationRubinsteinVariation_A34 = 'EnglishOpeningSymmetricalVariationRubinsteinVariation_A34',
+  SicilianDefenseRichterRauzerVariationModernVariation_B61 = 'SicilianDefenseRichterRauzerVariationModernVariation_B61',
+  SicilianDefenseModernVariations_B54 = 'SicilianDefenseModernVariations_B54',
+  ItalianGameClassicalVariationGrecoGambit_C53 = 'ItalianGameClassicalVariationGrecoGambit_C53',
+  QueenPawnGameTorreAttackGossipVariation_D03 = 'QueenPawnGameTorreAttackGossipVariation_D03',
+  FrenchDefenseAdvanceVariationLputianVariation_C02 = 'FrenchDefenseAdvanceVariationLputianVariation_C02',
+  FrenchDefenseTarraschVariationChistyakovDefenseModernLine_C07 = 'FrenchDefenseTarraschVariationChistyakovDefenseModernLine_C07',
+  SpanishGameOpenVariationsBernsteinVariation_C80 = 'SpanishGameOpenVariationsBernsteinVariation_C80',
+  SicilianDefenseDragonVariationYugoslavAttackPanovVariation_B76 = 'SicilianDefenseDragonVariationYugoslavAttackPanovVariation_B76',
+  SemiSlavDefenseNoteboomVariation_D31 = 'SemiSlavDefenseNoteboomVariation_D31',
+  BenoniDefenseKnightsTourVariation_A61 = 'BenoniDefenseKnightsTourVariation_A61',
+  NimzoIndianDefenseSaemischVariationAccelerated_E24 = 'NimzoIndianDefenseSaemischVariationAccelerated_E24',
+  BogoIndianDefenseExchangeVariation_E11 = 'BogoIndianDefenseExchangeVariation_E11',
+  ZukertortOpeningQuietsystem_A04 = 'ZukertortOpeningQuietsystem_A04',
+  EnglishOpeningSymmetricalVariationFullSymmetryLine_A38 = 'EnglishOpeningSymmetricalVariationFullSymmetryLine_A38',
+  SicilianDefenseSozinAttackLeonhardtVariation_B88 = 'SicilianDefenseSozinAttackLeonhardtVariation_B88',
+  BenoniDefenseClassicalVariationGeneral_A70 = 'BenoniDefenseClassicalVariationGeneral_A70',
+  ItalianGameScotchGambitAnderssenAttack_C56 = 'ItalianGameScotchGambitAnderssenAttack_C56',
+  KingsIndianDefenseFianchettoVariationLarsenDefense_E62 = 'KingsIndianDefenseFianchettoVariationLarsenDefense_E62',
+  KingsIndianDefenseFourPawnsAttackDynamicAttack_E76 = 'KingsIndianDefenseFourPawnsAttackDynamicAttack_E76',
+  SicilianDefenseScheveningenVariationClassicalVariationGeneral_B83 = 'SicilianDefenseScheveningenVariationClassicalVariationGeneral_B83',
+  RussianGameClassicalAttackStauntonVariation_C42 = 'RussianGameClassicalAttackStauntonVariation_C42',
+  KingsIndianDefenseOrthodoxVariationClassicalSystemNeoClasssicalLine_E99 = 'KingsIndianDefenseOrthodoxVariationClassicalSystemNeoClasssicalLine_E99',
+  SicilianDefenseOldSicilianOpen_B32 = 'SicilianDefenseOldSicilianOpen_B32',
+  RussianGameClassicalAttack_C42 = 'RussianGameClassicalAttack_C42',
+  ScandinavianDefenseClassicalVariation_B01 = 'ScandinavianDefenseClassicalVariation_B01',
+  SlavDefenseCzechVariationClassicalSystemMainLine_D19 = 'SlavDefenseCzechVariationClassicalSystemMainLine_D19',
+  TarraschDefenseTwoKnightsVariation_D32 = 'TarraschDefenseTwoKnightsVariation_D32',
+  EnglishOpeningAgincourtDefenseCatalanDefenseSemiSlavDefense_A13 = 'EnglishOpeningAgincourtDefenseCatalanDefenseSemiSlavDefense_A13',
+  KingsIndianDefenseSmyslovVariation_E61 = 'KingsIndianDefenseSmyslovVariation_E61',
+  SicilianDefenseClosedVariationChameleonVariation_B23 = 'SicilianDefenseClosedVariationChameleonVariation_B23',
+  QueenPawnGameStonewallAttack_D00 = 'QueenPawnGameStonewallAttack_D00',
+  GruenfeldDefenseThreeKnightsVariationHungarianVariation_D93 = 'GruenfeldDefenseThreeKnightsVariationHungarianVariation_D93',
+  SicilianDefenseMengariniVariation_B20 = 'SicilianDefenseMengariniVariation_B20',
+  NimzoIndianDefenseClassicalVariationLisitsynBondarevskyGambit_E39 = 'NimzoIndianDefenseClassicalVariationLisitsynBondarevskyGambit_E39',
+  ItalianGameGeneral_C50 = 'ItalianGameGeneral_C50',
+  DutchDefenseFianchettoAttack_A81 = 'DutchDefenseFianchettoAttack_A81',
+  EnglishOpeningSymmetricalVariationNormalVariation_A34 = 'EnglishOpeningSymmetricalVariationNormalVariation_A34',
+  SlavIndian_A50 = 'SlavIndian_A50',
+  CaroKannDefenseMainLine_B15 = 'CaroKannDefenseMainLine_B15',
+  AlekhineDefenseModernVariationLarsenVariationMilesLine_B04 = 'AlekhineDefenseModernVariationLarsenVariationMilesLine_B04',
+  SpanishGameBirdVariation_C61 = 'SpanishGameBirdVariation_C61',
+  KingsIndianDefenseOrthodoxVariationBayonetAttackSokolovsLine_E97 = 'KingsIndianDefenseOrthodoxVariationBayonetAttackSokolovsLine_E97',
+  FrenchDefenseAdvanceVariation_2_C02 = 'FrenchDefenseAdvanceVariation_2_C02',
+  PonzianiOpeningJaenischCounterattack_C44 = 'PonzianiOpeningJaenischCounterattack_C44',
+  ScandinavianDefenseRichterVariation_B01 = 'ScandinavianDefenseRichterVariation_B01',
+  ColleSystemTraditionalColle_D05 = 'ColleSystemTraditionalColle_D05',
+  QueensGambitDeclinedTarraschDefensePseudoTarrasch_D30 = 'QueensGambitDeclinedTarraschDefensePseudoTarrasch_D30',
+  DutchDefenseClassicalVariation_A84 = 'DutchDefenseClassicalVariation_A84',
+  SicilianDefenseClosedVariationKorchnoiDefense_B23 = 'SicilianDefenseClosedVariationKorchnoiDefense_B23',
+  MikenasDefense_A40 = 'MikenasDefense_A40',
+  RubinsteinOpening_D05 = 'RubinsteinOpening_D05',
+  QueensGambitDeclinedHarrwitzAttackMainLine_D37 = 'QueensGambitDeclinedHarrwitzAttackMainLine_D37',
+  BenoniDefenseOldBenoniPawnThrust_A44 = 'BenoniDefenseOldBenoniPawnThrust_A44',
+  KingsIndianDefenseSaemischVariationYatesDefense_E83 = 'KingsIndianDefenseSaemischVariationYatesDefense_E83',
+  EnglishOpeningAngloIndianDefenseFlohrMikenasCarlsVariation_2_A18 = 'EnglishOpeningAngloIndianDefenseFlohrMikenasCarlsVariation_2_A18',
+  RussianGameGeneral_C42 = 'RussianGameGeneral_C42',
+  DutchDefenseLeningradVariation_A87 = 'DutchDefenseLeningradVariation_A87',
+  NimzoIndianDefenseNormalLine_E40 = 'NimzoIndianDefenseNormalLine_E40',
+  SpanishGameClosedVariationsKeresDefense_C96 = 'SpanishGameClosedVariationsKeresDefense_C96',
+  SicilianDefenseAlapinVariationStoltzAttack_B22 = 'SicilianDefenseAlapinVariationStoltzAttack_B22',
+  NeoGruenfeldDefenseDelayedExchangeVariation_D76 = 'NeoGruenfeldDefenseDelayedExchangeVariation_D76',
+  KingsIndianDefenseFourPawnsAttackNormalAttack_E77 = 'KingsIndianDefenseFourPawnsAttackNormalAttack_E77',
+  NimzoIndianDefenseRomanishinVariation_1_E20 = 'NimzoIndianDefenseRomanishinVariation_1_E20',
+  KingsIndianDefenseOrthodoxVariationPositionalDefenseClosedLine_E94 = 'KingsIndianDefenseOrthodoxVariationPositionalDefenseClosedLine_E94',
+  SicilianDefenseNimzowitschVariationAdvanceVariation_B29 = 'SicilianDefenseNimzowitschVariationAdvanceVariation_B29',
+  StGeorgeDefenseGeneral_B00 = 'StGeorgeDefenseGeneral_B00',
+  GruenfeldDefenseThreeKnightsVariationHungarianAttack_D92 = 'GruenfeldDefenseThreeKnightsVariationHungarianAttack_D92',
+  SpanishGameMorphyDefenseSteinitzDeferred_C79 = 'SpanishGameMorphyDefenseSteinitzDeferred_C79',
+  QueensGambitAcceptedCentralVariationAlekhineSystem_D20 = 'QueensGambitAcceptedCentralVariationAlekhineSystem_D20',
+  ScotchGameScotchGambit_C44 = 'ScotchGameScotchGambit_C44',
+  SicilianDefenseBoleslavskyVariationGeneralVariation_B58 = 'SicilianDefenseBoleslavskyVariationGeneralVariation_B58',
+  PircDefenseClassicalVariationQuietSystemParmaDefense_B08 = 'PircDefenseClassicalVariationQuietSystemParmaDefense_B08',
+  NimzoIndianDefenseNormalVariationBernsteinDefenseExceptGligoricSystem_E53 = 'NimzoIndianDefenseNormalVariationBernsteinDefenseExceptGligoricSystem_E53',
+  QueensIndianDefenseFianchettoVariationGeneral_E15 = 'QueensIndianDefenseFianchettoVariationGeneral_E15',
+  FrenchDefenseRubinsteinVariation_C10 = 'FrenchDefenseRubinsteinVariation_C10',
+  GruenfeldDefenseBrinckmannAttack_D82 = 'GruenfeldDefenseBrinckmannAttack_D82',
+  SemiSlavDefenseStoltzVariationShabalovAttack_D45 = 'SemiSlavDefenseStoltzVariationShabalovAttack_D45',
+  BenoniDefenseFianchettoVariationHastingsDefenseMainLine_A64 = 'BenoniDefenseFianchettoVariationHastingsDefenseMainLine_A64',
+  HungarianOpeningSlavFormation_A00 = 'HungarianOpeningSlavFormation_A00',
+  BishopsOpeningViennaHybridSpielmannAttack_C26 = 'BishopsOpeningViennaHybridSpielmannAttack_C26',
+  FrenchDefenseWingGambit_C00 = 'FrenchDefenseWingGambit_C00',
+  SemiSlavDefenseQuietVariation_1_D30 = 'SemiSlavDefenseQuietVariation_1_D30',
+  FrenchDefenseWinawerVariationAdvanceVariation_2_C18 = 'FrenchDefenseWinawerVariationAdvanceVariation_2_C18',
+  FrenchDefenseWinawerVariationPetrosianVariation_C16 = 'FrenchDefenseWinawerVariationPetrosianVariation_C16',
+  ScotchGameMalaniukVariation_C45 = 'ScotchGameMalaniukVariation_C45',
+  DutchDefenseModernStonewallVariation_A97 = 'DutchDefenseModernStonewallVariation_A97',
+  EnglishOpeningKingsEnglishVariationTwoKnightsVariationKeresVariation_A23 = 'EnglishOpeningKingsEnglishVariationTwoKnightsVariationKeresVariation_A23',
+  NimzowitschDefenseDeclinedVariation_B00 = 'NimzowitschDefenseDeclinedVariation_B00',
+  QueenPawnGameColleSystemAntiColle_D04 = 'QueenPawnGameColleSystemAntiColle_D04',
+  KingsIndianDefenseAverbakhVariationModernDefense_E73 = 'KingsIndianDefenseAverbakhVariationModernDefense_E73',
+  HungarianOpeningSicilianInvitation_A00 = 'HungarianOpeningSicilianInvitation_A00',
+  SlavDefenseBreyerVariation_D11 = 'SlavDefenseBreyerVariation_D11',
+  FrenchDefenseSteinitzVariation_C11 = 'FrenchDefenseSteinitzVariation_C11',
+  QueensIndianDefenseFianchettoVariationKramnikVariation_E17 = 'QueensIndianDefenseFianchettoVariationKramnikVariation_E17',
+  QueensGambitDeclinedOrthodoxDefenseRubinsteinVariation_D61 = 'QueensGambitDeclinedOrthodoxDefenseRubinsteinVariation_D61',
+  AlekhineDefenseSaemischAttack_B02 = 'AlekhineDefenseSaemischAttack_B02',
+  FrenchDefenseWinawerVariation_C15 = 'FrenchDefenseWinawerVariation_C15',
+  SpanishGameExchangeVariationAlapinGambit_C69 = 'SpanishGameExchangeVariationAlapinGambit_C69',
+  ColleSystem_2_D05 = 'ColleSystem_2_D05',
+  NimzowitschDefenseScandinavianVariationAdvanceVariation_B00 = 'NimzowitschDefenseScandinavianVariationAdvanceVariation_B00',
+  FourKnightsGameGunsbergVariation_C46 = 'FourKnightsGameGunsbergVariation_C46',
+  SicilianDefenseScheveningenVariationModernVariationGeneral_B83 = 'SicilianDefenseScheveningenVariationModernVariationGeneral_B83',
+  FrenchDefenseMacCutcheonVariationLaskerVariation_1_C12 = 'FrenchDefenseMacCutcheonVariationLaskerVariation_1_C12',
+  KingsIndianDefenseAverbakhVariationFlexibleDefense_E73 = 'KingsIndianDefenseAverbakhVariationFlexibleDefense_E73',
+  SicilianDefenseFourKnightsVariationCobraVariation_B45 = 'SicilianDefenseFourKnightsVariationCobraVariation_B45',
+  MiesesOpeningGeneral_A00 = 'MiesesOpeningGeneral_A00',
+  QueensIndianDefenseKasparovPetrosianVariationKasparovAttack_E12 = 'QueensIndianDefenseKasparovPetrosianVariationKasparovAttack_E12',
+  EnglishDefenseGeneral_A40 = 'EnglishDefenseGeneral_A40',
+  QueensGambitRefusedChigorinDefense_D07 = 'QueensGambitRefusedChigorinDefense_D07',
+  FrenchDefenseHorwitzAttackPapaTiculatGambit_C00 = 'FrenchDefenseHorwitzAttackPapaTiculatGambit_C00',
+  SicilianDefenseSmithMorraGambitDeclinedPushVariation_B21 = 'SicilianDefenseSmithMorraGambitDeclinedPushVariation_B21',
+  EnglishOpeningSymmetricalVariationDuchampVariation_A38 = 'EnglishOpeningSymmetricalVariationDuchampVariation_A38',
+  SicilianDefenseClassicalVariationFianchettoVariation_B58 = 'SicilianDefenseClassicalVariationFianchettoVariation_B58',
+  CaroKannDefenseKarpovVariationModernVariationKasparovAttack_B17 = 'CaroKannDefenseKarpovVariationModernVariationKasparovAttack_B17',
+  SicilianDefenseVelimirovicAttack_B89 = 'SicilianDefenseVelimirovicAttack_B89',
+  QueensGambitDeclinedHarrwitzAttackTwoKnightsDefense_D37 = 'QueensGambitDeclinedHarrwitzAttackTwoKnightsDefense_D37',
+  SpanishGameMorphyDefenseClassicalDefenseDeferred_C70 = 'SpanishGameMorphyDefenseClassicalDefenseDeferred_C70',
+  KingsIndianDefenseSaemischVariationClosedVariation_E87 = 'KingsIndianDefenseSaemischVariationClosedVariation_E87',
+  QueensGambitAcceptedGeneral_D20 = 'QueensGambitAcceptedGeneral_D20',
+  ItalianGameGiuocoPianissimo_C50 = 'ItalianGameGiuocoPianissimo_C50',
+  CenterGameBergerVariation_C22 = 'CenterGameBergerVariation_C22',
+  NimzoIndianDefenseClassicalVariationMilnerBarryVariation_E33 = 'NimzoIndianDefenseClassicalVariationMilnerBarryVariation_E33',
+  SicilianDefenseDragonVariationFianchettoVariation_B70 = 'SicilianDefenseDragonVariationFianchettoVariation_B70',
+  KingsIndianDefenseNormalVariationStandardDevelopment_E73 = 'KingsIndianDefenseNormalVariationStandardDevelopment_E73',
+  SpanishGameExchangeVariationKeresVariation_C68 = 'SpanishGameExchangeVariationKeresVariation_C68',
+  KingsIndianDefenseFianchettoVariationKarlsbadVariation_E62 = 'KingsIndianDefenseFianchettoVariationKarlsbadVariation_E62',
+  QueenPawnGameVeresovAtackDutchSystem_A80 = 'QueenPawnGameVeresovAtackDutchSystem_A80',
+  QueensGambitDeclinedModernKnightDefense_1_D51 = 'QueensGambitDeclinedModernKnightDefense_1_D51',
+  CatalanOpeningClosedVariation_E08 = 'CatalanOpeningClosedVariation_E08',
+  TarraschDefenseScharaGambit_D32 = 'TarraschDefenseScharaGambit_D32',
+  EnglishOpeningAgincourtDefenseWimpySystem_A13 = 'EnglishOpeningAgincourtDefenseWimpySystem_A13',
+  KingsIndianDefenseFianchettoVariationYugoslavVariationExchangeLine_E66 = 'KingsIndianDefenseFianchettoVariationYugoslavVariationExchangeLine_E66',
+  BenoniDefenseOldBenoni_A43 = 'BenoniDefenseOldBenoni_A43',
+  CaroKannDefenseKarpovVariationModernMainLine_B17 = 'CaroKannDefenseKarpovVariationModernMainLine_B17',
+  ScandinavianDefenseModernVariationGipslisVariation_B01 = 'ScandinavianDefenseModernVariationGipslisVariation_B01',
+  FrenchDefenseWinawerVariationRetreatVariationArmenianLine_C18 = 'FrenchDefenseWinawerVariationRetreatVariationArmenianLine_C18',
+  QueensGambitDeclinedOrthodoxDefenseMainLine_1_D63 = 'QueensGambitDeclinedOrthodoxDefenseMainLine_1_D63',
+  PircDefense150Attack_B07 = 'PircDefense150Attack_B07',
+  EnglishOpeningAngloIndianDefenseOldIndianFormation_A15 = 'EnglishOpeningAngloIndianDefenseOldIndianFormation_A15',
+  NimzoLarsenAttackEnglishVariation_A01 = 'NimzoLarsenAttackEnglishVariation_A01',
+  DutchDefenseStauntonGambitGeneralVariation_A83 = 'DutchDefenseStauntonGambitGeneralVariation_A83',
+  CaroKannDefenseClassicalVariationFlohrVariation_B18 = 'CaroKannDefenseClassicalVariationFlohrVariation_B18',
+  KingsGambitAcceptedAbbaziaDefense_C36 = 'KingsGambitAcceptedAbbaziaDefense_C36',
+  NimzoIndianDefenseNormalVariationGligoricSystemExchangeatc4_E54 = 'NimzoIndianDefenseNormalVariationGligoricSystemExchangeatc4_E54',
+  NimzoIndianDefenseNormalVariationBotvinnikSystem_E49 = 'NimzoIndianDefenseNormalVariationBotvinnikSystem_E49',
+  QueensIndianDefensePetrosianVariationFaragoDefense_E11 = 'QueensIndianDefensePetrosianVariationFaragoDefense_E11',
+  SicilianDefenseRichterRauzerVariationClassicalVariation_B65 = 'SicilianDefenseRichterRauzerVariationClassicalVariation_B65',
+  SpanishGameMorphyDefenseTarraschVariation_C77 = 'SpanishGameMorphyDefenseTarraschVariation_C77',
+  BenkoGambitAcceptedDlugyVariation_A57 = 'BenkoGambitAcceptedDlugyVariation_A57',
+  OldIndianDefenseTwoKnightsVariation_A54 = 'OldIndianDefenseTwoKnightsVariation_A54',
+  NeoGrunfeldDefenseGoglidzeAttack_D70 = 'NeoGrunfeldDefenseGoglidzeAttack_D70',
+  ZukertortOpeningBlackMustangDefense_A04 = 'ZukertortOpeningBlackMustangDefense_A04',
+  TrompowskyAttackRaptorVariation_A45 = 'TrompowskyAttackRaptorVariation_A45',
+  QueenPawnGameBarryAttackGruenfeldVariation_D02 = 'QueenPawnGameBarryAttackGruenfeldVariation_D02',
+  EnglishOpeningKingsEnglishVariationClosedSystemFullSymmetry_A26 = 'EnglishOpeningKingsEnglishVariationClosedSystemFullSymmetry_A26',
+  VanGeetOpeningCaroKannVariation_A00 = 'VanGeetOpeningCaroKannVariation_A00',
+  ModernDefenseGeneral_A41 = 'ModernDefenseGeneral_A41',
+  QueensGambitAcceptedNormalVariationTraditionalSystem_D26 = 'QueensGambitAcceptedNormalVariationTraditionalSystem_D26',
+  NeoGruenfeldDefenseDelayedExchangeVariation_D74 = 'NeoGruenfeldDefenseDelayedExchangeVariation_D74',
+  AlekhineDefenseNormalVariation_B03 = 'AlekhineDefenseNormalVariation_B03',
+  IndianGameAntiGrunfeldAlekhineVariation_D70 = 'IndianGameAntiGrunfeldAlekhineVariation_D70',
+  SemiSlavDefenseBotvinnikSystem_D44 = 'SemiSlavDefenseBotvinnikSystem_D44',
+  SpanishGameExchangeVariationBronsteinVariation_C69 = 'SpanishGameExchangeVariationBronsteinVariation_C69',
+  KingsIndianDefenseFianchettoVariationYugoslavVariationAdvanceLine_E66 = 'KingsIndianDefenseFianchettoVariationYugoslavVariationAdvanceLine_E66',
+  EnglishOpeningAngloIndianDefenseAngloGrunfeldVariation_1_A16 = 'EnglishOpeningAngloIndianDefenseAngloGrunfeldVariation_1_A16',
+  QueensGambitDeclinedLaskerDefense_D56 = 'QueensGambitDeclinedLaskerDefense_D56',
+  CaroKannDefenseAcceleratedPanovAttackOpenVariation_B10 = 'CaroKannDefenseAcceleratedPanovAttackOpenVariation_B10',
+  KingsIndianDefenseFianchettoVariationSimaginVariation_E62 = 'KingsIndianDefenseFianchettoVariationSimaginVariation_E62',
+  QueensGambitRefusedAlbinCountergambitNormalLine_D08 = 'QueensGambitRefusedAlbinCountergambitNormalLine_D08',
+  ModernDefenseThreePawnsAttack_B06 = 'ModernDefenseThreePawnsAttack_B06',
+  FourKnightsGameSpanishVariationSymmetricalVariation_1_C49 = 'FourKnightsGameSpanishVariationSymmetricalVariation_1_C49',
+  FourKnightsGameSpanishVariationClassicalVariation_C48 = 'FourKnightsGameSpanishVariationClassicalVariation_C48',
+  SicilianDefenseSmithMorraGambitAcceptedScheveningenFormation_B21 = 'SicilianDefenseSmithMorraGambitAcceptedScheveningenFormation_B21',
+  SpanishGameBerlinDefenselHermetVariation_C67 = 'SpanishGameBerlinDefenselHermetVariation_C67',
+  QueensGambitDeclinedTartakowerDefenseMakogonovExchangeVariation_D59 = 'QueensGambitDeclinedTartakowerDefenseMakogonovExchangeVariation_D59',
+  SicilianDefenseLaskerPelikanVariationBirdVariation_B33 = 'SicilianDefenseLaskerPelikanVariationBirdVariation_B33',
+  EnglishOpeningKingsEnglishVariationFourKnightsVariationFlexibleLine_A28 = 'EnglishOpeningKingsEnglishVariationFourKnightsVariationFlexibleLine_A28',
+  SicilianDefenseDragonVariationYugoslavAttackBelezkyLine_B76 = 'SicilianDefenseDragonVariationYugoslavAttackBelezkyLine_B76',
+  BenoniDefenseBenoniIndianDefense_A43 = 'BenoniDefenseBenoniIndianDefense_A43',
+  EnglishOpeningGolombekDefense_A16 = 'EnglishOpeningGolombekDefense_A16',
+  SicilianDefenseDragonVariationClassicalVariation_1_B72 = 'SicilianDefenseDragonVariationClassicalVariation_1_B72',
+  SicilianDefenseSozinAttackGeneralVariation_B86 = 'SicilianDefenseSozinAttackGeneralVariation_B86',
+  CenterGamePaulsenAttackVariation_C22 = 'CenterGamePaulsenAttackVariation_C22',
+  SicilianDefenseNajdorfVariationOpocenskyVariationModernLine_B92 = 'SicilianDefenseNajdorfVariationOpocenskyVariationModernLine_B92',
+  FrenchDefenseWinawerVariationWinckelmannRiemerGambit_C15 = 'FrenchDefenseWinawerVariationWinckelmannRiemerGambit_C15',
+  QueensGambitAcceptedClassicalDefenseSteinitzVariationDevelopmentVariation_D26 = 'QueensGambitAcceptedClassicalDefenseSteinitzVariationDevelopmentVariation_D26',
+  AlekhineDefenseFourPawnsAttackMainLine_B03 = 'AlekhineDefenseFourPawnsAttackMainLine_B03',
+  ViennaGamePaulsenVariation_C25 = 'ViennaGamePaulsenVariation_C25',
+  RussianGameFrenchAttack_C42 = 'RussianGameFrenchAttack_C42',
+  QueensIndianDefenseKasparovPetrosianVariationMarcoDefense_E12 = 'QueensIndianDefenseKasparovPetrosianVariationMarcoDefense_E12',
+  NeoGruenfeldDefenseMiscwith5Nf3_D73 = 'NeoGruenfeldDefenseMiscwith5Nf3_D73',
+  SlavDefenseCzechVariationBledAttack_D17 = 'SlavDefenseCzechVariationBledAttack_D17',
+  SpanishGameExchangeVariationKingsBishopVariation_C68 = 'SpanishGameExchangeVariationKingsBishopVariation_C68',
+  SicilianDefenseKupreichikVariation_B56 = 'SicilianDefenseKupreichikVariation_B56',
+  NimzoIndianDefenseNormalVariationBernsteinDefense_E59 = 'NimzoIndianDefenseNormalVariationBernsteinDefense_E59',
+  OldIndianDefenseUkrainianVariation_A54 = 'OldIndianDefenseUkrainianVariation_A54',
+  FrenchDefenseGeneral_C00 = 'FrenchDefenseGeneral_C00',
+  SicilianDefenseNajdorfVariationFreakAttack_B90 = 'SicilianDefenseNajdorfVariationFreakAttack_B90',
+  SemiSlavDefenseNoteboomVariationAbrahamsVariation_D31 = 'SemiSlavDefenseNoteboomVariationAbrahamsVariation_D31',
+  PircDefenseAustrianAttack_1_B09 = 'PircDefenseAustrianAttack_1_B09',
+  QueensGambitDeclinedOrthodoxDefenseBotvinnikVariation_D60 = 'QueensGambitDeclinedOrthodoxDefenseBotvinnikVariation_D60',
+  QueensIndianDefenseKasparovPetrosianVariationClassicalVariation_E12 = 'QueensIndianDefenseKasparovPetrosianVariationClassicalVariation_E12',
+  SlavDefenseSoultanbeieffVariation_D16 = 'SlavDefenseSoultanbeieffVariation_D16',
+  QueensIndianDefenseYatesVariation_E16 = 'QueensIndianDefenseYatesVariation_E16',
+  RetiOpeningRetiGambit_A09 = 'RetiOpeningRetiGambit_A09',
+  SicilianDefenseNajdorfVariationPoisonedPawnAccepted_B97 = 'SicilianDefenseNajdorfVariationPoisonedPawnAccepted_B97',
+  SicilianDefenseScheveningenVariationFianchettoVariation_B80 = 'SicilianDefenseScheveningenVariationFianchettoVariation_B80',
+  SemiSlavDefenseMarshallGambitMainLine_D31 = 'SemiSlavDefenseMarshallGambitMainLine_D31',
+  SaragossaOpeningGeneral_A00 = 'SaragossaOpeningGeneral_A00',
+  PhilidorDefenseHanhamVariation_C41 = 'PhilidorDefenseHanhamVariation_C41',
+  ItalianGameClassicalVariationGeneral_C53 = 'ItalianGameClassicalVariationGeneral_C53',
+  QueensGambitRefusedBalticDefense_D02 = 'QueensGambitRefusedBalticDefense_D02',
+  TrompowskyAttackEdgeVariation_A45 = 'TrompowskyAttackEdgeVariation_A45',
+  QueensGambitAcceptedAlekhineDefense_D22 = 'QueensGambitAcceptedAlekhineDefense_D22',
+  TarraschDefenseClassicalVariationAdvanceVariation_D34 = 'TarraschDefenseClassicalVariationAdvanceVariation_D34',
+  SicilianDefenseScheveningenVariationClassicalVariation_2_B84 = 'SicilianDefenseScheveningenVariationClassicalVariation_2_B84',
+  KingsIndianDefensePetrosianVariation_E92 = 'KingsIndianDefensePetrosianVariation_E92',
+  FrenchDefenseAdvanceVariationNimzowitschSystem_C02 = 'FrenchDefenseAdvanceVariationNimzowitschSystem_C02',
+  SicilianDefenseNajdorfVariation_B98 = 'SicilianDefenseNajdorfVariation_B98',
+  NimzoIndianDefenseNormalVariationBronsteinByrneVariation_E45 = 'NimzoIndianDefenseNormalVariationBronsteinByrneVariation_E45',
+  ScotchGameGeneral_C44 = 'ScotchGameGeneral_C44',
+  QueensGambitDeclinedHarrwitzAttackOrthodoxDefense_D37 = 'QueensGambitDeclinedHarrwitzAttackOrthodoxDefense_D37',
+  GruenfeldDefenseRussianVariationHungarianVariation_D97 = 'GruenfeldDefenseRussianVariationHungarianVariation_D97',
+  NimzoIndianDefenseClassicalVariationNoaVariation_E36 = 'NimzoIndianDefenseClassicalVariationNoaVariation_E36',
+  RussianGameClassicalAttackChigorinVariationMainLine_C42 = 'RussianGameClassicalAttackChigorinVariationMainLine_C42',
+  AlekhineDefenseModernVariationLarsenVariation_B04 = 'AlekhineDefenseModernVariationLarsenVariation_B04',
+  SpanishGameClosedVariationsClosedDefense_1_C96 = 'SpanishGameClosedVariationsClosedDefense_1_C96',
+  SpanishGameMarshallAttackModernMainLine_C89 = 'SpanishGameMarshallAttackModernMainLine_C89',
+  PolishDefenseGeneral_A40 = 'PolishDefenseGeneral_A40',
+  QueensGambitDeclinedModernKnightDefense_2_D51 = 'QueensGambitDeclinedModernKnightDefense_2_D51',
+  SemiSlavDefenseMeranVariation_D48 = 'SemiSlavDefenseMeranVariation_D48',
+  KingsIndianDefenseFianchettoVariationYugoslavVariation_E65 = 'KingsIndianDefenseFianchettoVariationYugoslavVariation_E65',
+  BudapestDefenseFajarowiczVariation_A51 = 'BudapestDefenseFajarowiczVariation_A51',
+  CatalanOpeningOpenDefenseModernSharpVariation_E04 = 'CatalanOpeningOpenDefenseModernSharpVariation_E04',
+  AlekhineDefenseNormalVariation_B02 = 'AlekhineDefenseNormalVariation_B02',
+  SicilianDefenseKveinisVariation_B40 = 'SicilianDefenseKveinisVariation_B40',
+  QueensIndianDefenseClassicalVariation_E17 = 'QueensIndianDefenseClassicalVariation_E17',
+  FrenchDefenseAdvanceVariation_3_C02 = 'FrenchDefenseAdvanceVariation_3_C02',
+  SicilianDefenseScheveningenVariationDelayedKeresAttack_B81 = 'SicilianDefenseScheveningenVariationDelayedKeresAttack_B81',
+  BenoniDefenseFourPawnsAttackMainLine_A69 = 'BenoniDefenseFourPawnsAttackMainLine_A69',
+  RussianGameModernAttack_C43 = 'RussianGameModernAttack_C43',
+  NimzoIndianDefenseNormalVariationSchlechterDefense_E52 = 'NimzoIndianDefenseNormalVariationSchlechterDefense_E52',
+  KingsIndianDefenseAverbakhVariationGellerDefense_E73 = 'KingsIndianDefenseAverbakhVariationGellerDefense_E73',
+  QueensGambitDeclinedNormalDefense_D35 = 'QueensGambitDeclinedNormalDefense_D35',
+  FrenchDefenseQueensKnight_C00 = 'FrenchDefenseQueensKnight_C00',
+  SicilianDefenseDragonVariationYugoslavAttackEarlydeviations_B75 = 'SicilianDefenseDragonVariationYugoslavAttackEarlydeviations_B75',
+  GruenfeldDefenseThreeKnightsVariationBurilleVariationReversedTarrasch_D94 = 'GruenfeldDefenseThreeKnightsVariationBurilleVariationReversedTarrasch_D94',
+  ScandinavianDefenseLaskerVariation_B01 = 'ScandinavianDefenseLaskerVariation_B01',
+  SicilianDefenseOKellyVariationMaroczyBindPaulsenLine_B28 = 'SicilianDefenseOKellyVariationMaroczyBindPaulsenLine_B28',
+  KingsIndianAttackPachmanSystem_A07 = 'KingsIndianAttackPachmanSystem_A07',
+  AlekhineDefenseFourPawnsAttack_B03 = 'AlekhineDefenseFourPawnsAttack_B03',
+  EnglishOpeningSymmetricalVariationTwoKnightsVariation_A35 = 'EnglishOpeningSymmetricalVariationTwoKnightsVariation_A35',
+  SicilianDefenseScheveningenVariationMatanovicAttack_B82 = 'SicilianDefenseScheveningenVariationMatanovicAttack_B82',
+  ItalianGameTwoKnightsDefensePolerioDefenseSuhleDefense_C59 = 'ItalianGameTwoKnightsDefensePolerioDefenseSuhleDefense_C59',
+  EnglishOpeningKingsEnglishVariationGeneralVariation_A21 = 'EnglishOpeningKingsEnglishVariationGeneralVariation_A21',
+  SicilianDefenseModernVariationsMainLine_B57 = 'SicilianDefenseModernVariationsMainLine_B57',
+  SpanishGameMorphyDefenseModernSteinitzDefense_1_C75 = 'SpanishGameMorphyDefenseModernSteinitzDefense_1_C75',
+  SlavDefenseCzechVariationWiesbadenVariation_D17 = 'SlavDefenseCzechVariationWiesbadenVariation_D17',
+  SpanishGameBerlinDefenseBeverwijkVariation_C65 = 'SpanishGameBerlinDefenseBeverwijkVariation_C65',
+  SicilianDefenseKanVariation_B41 = 'SicilianDefenseKanVariation_B41',
+  CaroKannDefenseForgacsVariation_B15 = 'CaroKannDefenseForgacsVariation_B15',
+  SpanishGameSchliemannDefenseTartakowerVariation_C63 = 'SpanishGameSchliemannDefenseTartakowerVariation_C63',
+  SpanishGameClosedVariationsWorrallAttackCasltingline_C86 = 'SpanishGameClosedVariationsWorrallAttackCasltingline_C86',
+  NimzowitschDefenseGeneral_B00 = 'NimzowitschDefenseGeneral_B00',
+  SicilianDefenseDragonVariationClassicalVariationNormalLine_B74 = 'SicilianDefenseDragonVariationClassicalVariationNormalLine_B74',
+  SpanishGameClosedVariationsKeresDefense_1_C92 = 'SpanishGameClosedVariationsKeresDefense_1_C92',
+  QueensGambitAcceptedShowalterVariation_D24 = 'QueensGambitAcceptedShowalterVariation_D24',
+  TarraschDefenseClassicalVariationMainLine_D34 = 'TarraschDefenseClassicalVariationMainLine_D34',
+  SicilianDefenseDragonVariationModernBc4Variation_B35 = 'SicilianDefenseDragonVariationModernBc4Variation_B35',
+  EnglishOpeningKingsEnglishVariationFourKnightsVariationKorchnoiLine_A28 = 'EnglishOpeningKingsEnglishVariationFourKnightsVariationKorchnoiLine_A28',
+  QueensGambitDeclinedOrthodoxDefenseGeneral_D60 = 'QueensGambitDeclinedOrthodoxDefenseGeneral_D60',
+  EnglishOpeningSymmetricalVariationAntiBenoniVariationSpielmannDefense_A32 = 'EnglishOpeningSymmetricalVariationAntiBenoniVariationSpielmannDefense_A32',
+  FourKnightsGameItalianVariation_C50 = 'FourKnightsGameItalianVariation_C50',
+  IndianGameBudapestDefense_A51 = 'IndianGameBudapestDefense_A51',
+  RatDefenseAcceleratedGurgenidze_B07 = 'RatDefenseAcceleratedGurgenidze_B07',
+  KingsIndianDefenseAcceleratedAverbakhVariation_E70 = 'KingsIndianDefenseAcceleratedAverbakhVariation_E70',
+  RetiOpeningAngloSlavVariationBogoljubowVariationStonewallLine_A12 = 'RetiOpeningAngloSlavVariationBogoljubowVariationStonewallLine_A12',
+  PircDefenseClassicalVariationQuietSystemChigorinLine_B08 = 'PircDefenseClassicalVariationQuietSystemChigorinLine_B08',
+  PircDefenseKholmovSystem_B07 = 'PircDefenseKholmovSystem_B07',
+  QueensGambitAcceptedNormalVariation_D25 = 'QueensGambitAcceptedNormalVariation_D25',
+  PircDefenseAustrianAttack_2_B09 = 'PircDefenseAustrianAttack_2_B09',
+  ItalianGameDeutzGambit_C55 = 'ItalianGameDeutzGambit_C55',
+  SpanishGameBerlinDefenseImprovedSteinitzDefense_C66 = 'SpanishGameBerlinDefenseImprovedSteinitzDefense_C66',
+  QueensGambitRefusedBalticDefensePseudoSlav_D02 = 'QueensGambitRefusedBalticDefensePseudoSlav_D02',
+  ZukertortOpeningOldIndianAttack_A06 = 'ZukertortOpeningOldIndianAttack_A06',
+  ItalianGameGiuocoPianissimoCanalVariation_C50 = 'ItalianGameGiuocoPianissimoCanalVariation_C50',
+  BishopsOpeningGeneral_C23 = 'BishopsOpeningGeneral_C23',
+  CaroKannDefenseAdvanceVariationBayonetAttack_B12 = 'CaroKannDefenseAdvanceVariationBayonetAttack_B12',
+  DutchDefenseClassicalVariationHuislVariation_A96 = 'DutchDefenseClassicalVariationHuislVariation_A96',
+  KadasOpeningGeneral_A00 = 'KadasOpeningGeneral_A00',
+  ViennaGameGeneral_C27 = 'ViennaGameGeneral_C27',
+  FrenchDefenseMacCutcheonVariationLaskerVariation_2_C12 = 'FrenchDefenseMacCutcheonVariationLaskerVariation_2_C12',
+  CaroKannDefenseTwoKnightsAttackMindenoVariation_B11 = 'CaroKannDefenseTwoKnightsAttackMindenoVariation_B11',
+  SicilianDefenseDragonVariationClassicalVariation_1_B73 = 'SicilianDefenseDragonVariationClassicalVariation_1_B73',
+  SpanishGameMorphyDefenseModernSteinitzDefenseFianchettoVariation_C76 = 'SpanishGameMorphyDefenseModernSteinitzDefenseFianchettoVariation_C76',
+  SpanishGameOpenVariationsOpenVariation_C80 = 'SpanishGameOpenVariationsOpenVariation_C80',
+  GrobOpeningGeneral_A00 = 'GrobOpeningGeneral_A00',
+  SicilianDefenseOKellyVariationYerevanSystem_B28 = 'SicilianDefenseOKellyVariationYerevanSystem_B28',
+  CaroKannDefenseAcceleratedPanovAttack_1_B10 = 'CaroKannDefenseAcceleratedPanovAttack_1_B10',
+  SicilianDefenseDragonVariationClassicalVariationBatteryVariation_B73 = 'SicilianDefenseDragonVariationClassicalVariationBatteryVariation_B73',
+  SicilianDefenseDragonVariationLevenfishVariation_B71 = 'SicilianDefenseDragonVariationLevenfishVariation_B71',
+  QueensGambitAcceptedFurmanVariation_D27 = 'QueensGambitAcceptedFurmanVariation_D27',
+  ModernDefenseGurgenidzeDefense_B06 = 'ModernDefenseGurgenidzeDefense_B06',
+  SpanishGameClassicalVariationCentralVariation_C64 = 'SpanishGameClassicalVariationCentralVariation_C64',
+  SicilianDefenseRichterRauzerVariationNeoModernVariation_B68 = 'SicilianDefenseRichterRauzerVariationNeoModernVariation_B68',
+  SpanishGameSchliemannDefenseDyckhoffVariation_C63 = 'SpanishGameSchliemannDefenseDyckhoffVariation_C63',
+  CaroKannDefenseTwoKnightsAttackMindenoVariationRetreatLine_B11 = 'CaroKannDefenseTwoKnightsAttackMindenoVariationRetreatLine_B11',
+  SpanishGameClosedVariationsAverbakhVariation_C87 = 'SpanishGameClosedVariationsAverbakhVariation_C87',
+  SpanishGameOpenVariationsMainLines_C80 = 'SpanishGameOpenVariationsMainLines_C80',
+  AlekhineDefenseMaroczyVariation_B02 = 'AlekhineDefenseMaroczyVariation_B02',
+  EnglishOpeningKingsEnglishVariationFourKnightsVariationGeneral_A28 = 'EnglishOpeningKingsEnglishVariationFourKnightsVariationGeneral_A28',
+  LionDefenseAntiPhilidorLionsCave_B07 = 'LionDefenseAntiPhilidorLionsCave_B07',
+  KingsIndianDefenseFianchettoVariationDebrecenDefense_E67 = 'KingsIndianDefenseFianchettoVariationDebrecenDefense_E67',
+  SicilianDefenseKanVariationSwissCheeseVariation_B42 = 'SicilianDefenseKanVariationSwissCheeseVariation_B42',
+  NimzoIndianDefenseSaemischVariationKeresVariation_E25 = 'NimzoIndianDefenseSaemischVariationKeresVariation_E25',
+  SlavDefenseAlekhineVariation_D15 = 'SlavDefenseAlekhineVariation_D15',
+  SicilianDefenseRichterRauzerVariationModernVariation_B60 = 'SicilianDefenseRichterRauzerVariationModernVariation_B60',
+  NimzoIndianDefenseNormalVariationRagozinVariation_E51 = 'NimzoIndianDefenseNormalVariationRagozinVariation_E51',
+  QueensIndianDefenseFianchettoTraditional_E15 = 'QueensIndianDefenseFianchettoTraditional_E15',
+  EnglishOpeningKingsEnglishVariationFourKnightsVariationQuietLine_2_A28 = 'EnglishOpeningKingsEnglishVariationFourKnightsVariationQuietLine_2_A28',
+  KingsIndianDefenseSaemischVariationClosedVariation7c6_E88 = 'KingsIndianDefenseSaemischVariationClosedVariation7c6_E88',
+  EnglishOpeningAngloIndianDefenseAngloGrunfeldVariation_2_A16 = 'EnglishOpeningAngloIndianDefenseAngloGrunfeldVariation_2_A16',
+  EnglishOpeningKingsEnglishVariationHungarianAttack_A25 = 'EnglishOpeningKingsEnglishVariationHungarianAttack_A25',
+  QueensGambitDeclinedNeoOrthodoxVariationMainLine_D55 = 'QueensGambitDeclinedNeoOrthodoxVariationMainLine_D55',
+  NimzoIndianDefenseClassicalVariationNoaVariationModernLine_E35 = 'NimzoIndianDefenseClassicalVariationNoaVariationModernLine_E35',
+  SemiSlavDefenseQuietVariation_2_D30 = 'SemiSlavDefenseQuietVariation_2_D30',
+  QueensIndianDefenseRiuminVariation_E16 = 'QueensIndianDefenseRiuminVariation_E16',
+  SicilianDefenseSmithMorraGambitAcceptedPaulsenFormation_B21 = 'SicilianDefenseSmithMorraGambitAcceptedPaulsenFormation_B21',
+  QueensIndianDefenseKasparovPetrosianVariationPetrosianAttack_E12 = 'QueensIndianDefenseKasparovPetrosianVariationPetrosianAttack_E12',
+  FrenchDefenseTarraschVariationGuimardDefense_C03 = 'FrenchDefenseTarraschVariationGuimardDefense_C03',
+  FrenchDefenseWinawerVariationAdvanceVariation_C19 = 'FrenchDefenseWinawerVariationAdvanceVariation_C19',
+  NeoGruenfeldDefenseExchangeVariationwith6e4_D72 = 'NeoGruenfeldDefenseExchangeVariationwith6e4_D72',
+  EnglishOpeningAngloIndianDefenseRomanishinGambit_A13 = 'EnglishOpeningAngloIndianDefenseRomanishinGambit_A13',
+  SpanishGameClosedVariationsSmyslovDefense_C93 = 'SpanishGameClosedVariationsSmyslovDefense_C93',
+  CaroKannDefenseStandardUnorthodoxReplies_B15 = 'CaroKannDefenseStandardUnorthodoxReplies_B15',
+  GruenfeldDefenseRussianVariation_D96 = 'GruenfeldDefenseRussianVariation_D96',
+  NimzoIndianDefenseHuebnerVariationMainLine_E41 = 'NimzoIndianDefenseHuebnerVariationMainLine_E41',
+  BlumenfeldCountergambitDusChotimurskyVariation_E10 = 'BlumenfeldCountergambitDusChotimurskyVariation_E10',
+  QueensGambitDeclinedHarrwitzAttackTwoKnightsDefenseBlockadeLine_D37 = 'QueensGambitDeclinedHarrwitzAttackTwoKnightsDefenseBlockadeLine_D37',
+  TarraschDefensePragueVariation_D33 = 'TarraschDefensePragueVariation_D33',
+  SicilianDefenseDragonVariationClassicalVariation_2_B73 = 'SicilianDefenseDragonVariationClassicalVariation_2_B73',
+  KingsGambitDeclinedClassicalVariation_C30 = 'KingsGambitDeclinedClassicalVariation_C30',
+  QueensGambitRefusedAlbinCountergambit_D08 = 'QueensGambitRefusedAlbinCountergambit_D08',
+  FrenchDefenseLaBourdonnaisVariation_C00 = 'FrenchDefenseLaBourdonnaisVariation_C00',
+  ScandinavianDefenseSchillerPytelVariation_B01 = 'ScandinavianDefenseSchillerPytelVariation_B01',
+  SicilianDefensePaulsenBasmanDefense_B40 = 'SicilianDefensePaulsenBasmanDefense_B40',
+  EnglishOpeningAngloIndianDefenseAngloGrunfeldVariation_3_A16 = 'EnglishOpeningAngloIndianDefenseAngloGrunfeldVariation_3_A16',
+  OldIndianCzechVariation_A53 = 'OldIndianCzechVariation_A53',
+  ZukertortOpeningGrunfeldReversed_A49 = 'ZukertortOpeningGrunfeldReversed_A49',
+  CaroKannDefenseModernVariation_B12 = 'CaroKannDefenseModernVariation_B12',
+  SicilianDefenseKatalimovVariation_B27 = 'SicilianDefenseKatalimovVariation_B27',
+  SlavDefenseSteinerVariation_D16 = 'SlavDefenseSteinerVariation_D16',
+  KingsIndianDefenseFianchettoVariationLongVariation_E68 = 'KingsIndianDefenseFianchettoVariationLongVariation_E68',
+  FourKnightsGameDoubleSpanish_C49 = 'FourKnightsGameDoubleSpanish_C49',
+  QueensGambitAcceptedMannheimVariation_D23 = 'QueensGambitAcceptedMannheimVariation_D23',
+  BenoniDefenseClassicalVariationCzerniakDefenseTalLine_A77 = 'BenoniDefenseClassicalVariationCzerniakDefenseTalLine_A77',
+  QueensIndianDefenseMilesVariation_E12 = 'QueensIndianDefenseMilesVariation_E12',
+  ElephantGambitGeneral_C40 = 'ElephantGambitGeneral_C40',
+  SicilianDefenseGrandPrixAttackSchofmanVariation_B23 = 'SicilianDefenseGrandPrixAttackSchofmanVariation_B23',
+  CatalanOpeningClosedVariation_E07 = 'CatalanOpeningClosedVariation_E07',
+  SicilianDefenseLaskerPelikanVariationSchlechterVariation_B33 = 'SicilianDefenseLaskerPelikanVariationSchlechterVariation_B33',
+  EnglishOpeningSymmetricalVariationAntiBenoniVariationGellerVariation_A33 = 'EnglishOpeningSymmetricalVariationAntiBenoniVariationGellerVariation_A33',
+  SemiSlavDefenseBogoljubowVariation_D46 = 'SemiSlavDefenseBogoljubowVariation_D46',
+  AlekhineDefenseTwoPawnAttackLaskerVariation_B02 = 'AlekhineDefenseTwoPawnAttackLaskerVariation_B02',
+  FrenchDefenseTarraschVariationOpenSystemSuechtingLine_C07 = 'FrenchDefenseTarraschVariationOpenSystemSuechtingLine_C07',
+  BudapestDefenseGeneral_A52 = 'BudapestDefenseGeneral_A52',
+  CaroKannDefensePanovAttackFianchettoDefenseFianchettoGambit_B13 = 'CaroKannDefensePanovAttackFianchettoDefenseFianchettoGambit_B13',
+  SpanishGameMorphyDefenseCaroVariation_C70 = 'SpanishGameMorphyDefenseCaroVariation_C70',
+  ScotchGameHaxoGambit_C45 = 'ScotchGameHaxoGambit_C45',
+  SpanishGameMorphyDefenseModernSteinitzDefense_1_C71 = 'SpanishGameMorphyDefenseModernSteinitzDefense_1_C71',
+  EnglishOpeningAngloIndianDefenseKingsIndianFormationDoubleFianchetto_A15 = 'EnglishOpeningAngloIndianDefenseKingsIndianFormationDoubleFianchetto_A15',
+  QueensGambitRefusedChigorinDefenseExchangeVariation_D07 = 'QueensGambitRefusedChigorinDefenseExchangeVariation_D07',
+  ViennaGameViennaGambitMainLine_C29 = 'ViennaGameViennaGambitMainLine_C29',
+  QueensGambitDeclinedRagozinDefenseViennaVariation_D39 = 'QueensGambitDeclinedRagozinDefenseViennaVariation_D39',
+  SpanishGameOpenVariationsHowellAttack_C81 = 'SpanishGameOpenVariationsHowellAttack_C81',
+  CaroKannDefensePanovAttack_1_B13 = 'CaroKannDefensePanovAttack_1_B13',
+  PircDefenseAustrianAttackUnzickerAttack_B09 = 'PircDefenseAustrianAttackUnzickerAttack_B09',
+  KingsIndianDefenseSaemischVariationOrthodoxVariation_E85 = 'KingsIndianDefenseSaemischVariationOrthodoxVariation_E85',
+  IndianGameReversedChigorinDefense_A45 = 'IndianGameReversedChigorinDefense_A45',
+  EnglishOpeningAngloIndianDefenseAntiAntiGrunfeld_A17 = 'EnglishOpeningAngloIndianDefenseAntiAntiGrunfeld_A17',
+  OldIndianDefenseTartakowerIndian_A54 = 'OldIndianDefenseTartakowerIndian_A54',
+  CaroKannDefenseGoldmanVariation_B12 = 'CaroKannDefenseGoldmanVariation_B12',
+  QueensGambitAcceptedCentralVariationModernDefense_D20 = 'QueensGambitAcceptedCentralVariationModernDefense_D20',
+  NimzoIndianDefenseNormalVariationBernsteinDefenseExchangeLine_E58 = 'NimzoIndianDefenseNormalVariationBernsteinDefenseExchangeLine_E58',
+  RussianGameClassicalAttackMasonShowalterVariation_C42 = 'RussianGameClassicalAttackMasonShowalterVariation_C42',
+  CaroKannDefenseKarpovVariationSmyslovVariation_B17 = 'CaroKannDefenseKarpovVariationSmyslovVariation_B17',
+  KingsIndianDefenseKazakhVariation_E91 = 'KingsIndianDefenseKazakhVariation_E91',
+  FrenchDefenseWinawerVariationAlekhineGambitKanVariation_C15 = 'FrenchDefenseWinawerVariationAlekhineGambitKanVariation_C15',
+  KingsIndianDefenseLarsenVariation_E90 = 'KingsIndianDefenseLarsenVariation_E90',
+  QueensGambitAcceptedGunsbergDefense_D21 = 'QueensGambitAcceptedGunsbergDefense_D21',
+  NimzoIndianDefenseNormalVariationGligoricSystemBronsteinVariation_E55 = 'NimzoIndianDefenseNormalVariationGligoricSystemBronsteinVariation_E55',
+  QueensIndianDefenseClassicalVariationPolugayevskyGambit_E17 = 'QueensIndianDefenseClassicalVariationPolugayevskyGambit_E17',
+  SicilianDefenseWingGambit_B20 = 'SicilianDefenseWingGambit_B20',
+  IndianGameDzindziIndianDefense_E10 = 'IndianGameDzindziIndianDefense_E10',
+  SicilianDefenseNajdorfVariationTraditionalLine_B98 = 'SicilianDefenseNajdorfVariationTraditionalLine_B98',
+  SicilianDefenseWingGambitMarshallVariation_B20 = 'SicilianDefenseWingGambitMarshallVariation_B20',
+  DutchDefenseClassicalVariationGeneral_A96 = 'DutchDefenseClassicalVariationGeneral_A96',
+  TarraschDefenseGeneral_D32 = 'TarraschDefenseGeneral_D32',
+  ModernDefenseBeefeaterVariation_A40 = 'ModernDefenseBeefeaterVariation_A40',
+  PhilidorDefenseLionVariationShirovGambit_C41 = 'PhilidorDefenseLionVariationShirovGambit_C41',
+  SicilianDefenseClassicalVariation_B58 = 'SicilianDefenseClassicalVariation_B58',
+  CaroKannDefenseKarpovVariationModernVariation_B17 = 'CaroKannDefenseKarpovVariationModernVariation_B17',
+  ItalianGameTwoKnightsDefense_1_C55 = 'ItalianGameTwoKnightsDefense_1_C55',
+  QueensGambitDeclinedAntiTartakowerVariation_D55 = 'QueensGambitDeclinedAntiTartakowerVariation_D55',
+  KingsGambitAcceptedFischerDefense_C34 = 'KingsGambitAcceptedFischerDefense_C34',
+  FrenchDefenseAlekhineChatardAttack_C13 = 'FrenchDefenseAlekhineChatardAttack_C13',
+  PircDefenseAustrianAttackKurajicaVariation_B09 = 'PircDefenseAustrianAttackKurajicaVariation_B09',
+  SpanishGameOpenVariationsClassicalDefense_C83 = 'SpanishGameOpenVariationsClassicalDefense_C83',
+  SpanishGameMorphyDefenseBayreuthVariation_C77 = 'SpanishGameMorphyDefenseBayreuthVariation_C77',
+  SicilianDefenseOKellyVariationMaroczyBind_B28 = 'SicilianDefenseOKellyVariationMaroczyBind_B28',
+  NimzowitschDefenseScandinavianVariationExchangeVariation_B00 = 'NimzowitschDefenseScandinavianVariationExchangeVariation_B00',
+  SicilianDefensePaulsenVariationModernLine_B44 = 'SicilianDefensePaulsenVariationModernLine_B44',
+  ZukertortOpeningSlavInvitation_A04 = 'ZukertortOpeningSlavInvitation_A04',
+  QueenPawnGameVeresovAttackTwoKnightsSystem_D01 = 'QueenPawnGameVeresovAttackTwoKnightsSystem_D01',
+  RatDefenseHarmonist_B07 = 'RatDefenseHarmonist_B07',
+  BirdOpeningFromGambit_A02 = 'BirdOpeningFromGambit_A02',
+  EnglishOpeningAgincourtDefenseKeresDefense_A14 = 'EnglishOpeningAgincourtDefenseKeresDefense_A14',
+  ItalianGameAntiFriedLiverDefense_C55 = 'ItalianGameAntiFriedLiverDefense_C55',
+  SicilianDefenseFrenchVariationOpen_B40 = 'SicilianDefenseFrenchVariationOpen_B40',
+  ItalianGameTwoKnightsDefensePolerioDefenseBogoljubowVariation_C58 = 'ItalianGameTwoKnightsDefensePolerioDefenseBogoljubowVariation_C58',
+  ViennaGameAnderssenDefense_C25 = 'ViennaGameAnderssenDefense_C25',
+  QueensIndianDefenseOpocenskyVariation_E17 = 'QueensIndianDefenseOpocenskyVariation_E17',
+  QueensGambitAcceptedClassicalDefense_D26 = 'QueensGambitAcceptedClassicalDefense_D26',
+  SlavDefenseGellerGambit_1_D15 = 'SlavDefenseGellerGambit_1_D15',
+  EnglishOpeningAngloIndianDefenseFlohrMikenasCarlsVariationNeiGambit_A19 = 'EnglishOpeningAngloIndianDefenseFlohrMikenasCarlsVariationNeiGambit_A19',
+  EnglishOpeningKingsEnglishVariationBotvinnikSystem_A26 = 'EnglishOpeningKingsEnglishVariationBotvinnikSystem_A26',
+  SemiSlavDefenseMarshallGambit_D31 = 'SemiSlavDefenseMarshallGambit_D31',
+  QueensIndianDefenseGeneral_E12 = 'QueensIndianDefenseGeneral_E12',
+  KingsIndianDefenseSaemischVariation_E86 = 'KingsIndianDefenseSaemischVariation_E86',
+  NeoGruenfeldDefenseExchangeVariation_D71 = 'NeoGruenfeldDefenseExchangeVariation_D71',
+  SicilianDefenseRichterRauzerVariation_B62 = 'SicilianDefenseRichterRauzerVariation_B62',
+  PhilidorDefenseExchangeVariation_2_C41 = 'PhilidorDefenseExchangeVariation_2_C41',
+  PhilidorDefenseGeneral_2_C41 = 'PhilidorDefenseGeneral_2_C41',
+  SemiSlavDefenseBotvinnikSystemLilienthalVariation_D44 = 'SemiSlavDefenseBotvinnikSystemLilienthalVariation_D44',
+  DutchDefenseNormalVariation_A84 = 'DutchDefenseNormalVariation_A84',
+  RussianGameKaufmannAttack_C42 = 'RussianGameKaufmannAttack_C42',
+  ScandinavianDefenseIcelandicPalmeGambit_B01 = 'ScandinavianDefenseIcelandicPalmeGambit_B01',
+  FrenchDefenseTarraschVariationBotvinnikVariation_C05 = 'FrenchDefenseTarraschVariationBotvinnikVariation_C05',
+  SlavDefenseCzechVariationCarlsbadVariation_D17 = 'SlavDefenseCzechVariationCarlsbadVariation_D17',
+  BenoniDefenseModernVariationSnakeVariation_A60 = 'BenoniDefenseModernVariationSnakeVariation_A60',
+  ViennaGameViennaGambit_C28 = 'ViennaGameViennaGambit_C28',
+  NimzoIndianDefenseSimaginVariation_E46 = 'NimzoIndianDefenseSimaginVariation_E46',
+  SicilianDefenseRichterRauzerVariationNeoModernVariationNyezhmetdinovAttack_B69 = 'SicilianDefenseRichterRauzerVariationNeoModernVariationNyezhmetdinovAttack_B69',
+  RetiOpeningAngloSlavVariationNewYorkSystem_A12 = 'RetiOpeningAngloSlavVariationNewYorkSystem_A12',
+  NimzowitschDefenseKennedyVariationLinksspringerVariation_B00 = 'NimzowitschDefenseKennedyVariationLinksspringerVariation_B00',
+  BenoniDefenseFrancoSicilianDefense_A43 = 'BenoniDefenseFrancoSicilianDefense_A43',
+  CaroKannDefenseAdvanceVariationVanderWielAttackBishopHunt_B12 = 'CaroKannDefenseAdvanceVariationVanderWielAttackBishopHunt_B12',
+  DutchDefenseClassicalVariationBuenosAiresVariation_A96 = 'DutchDefenseClassicalVariationBuenosAiresVariation_A96',
+  SicilianDefensePinVariationKochVariation_B40 = 'SicilianDefensePinVariationKochVariation_B40',
+  FourKnightsGameScotchVariationBelgradeGambit_C47 = 'FourKnightsGameScotchVariationBelgradeGambit_C47',
+  ModernDefenseLizardDefenseMittenbergerGambit_B06 = 'ModernDefenseLizardDefenseMittenbergerGambit_B06',
+  EnglundGambitComplexEnglundGambit_A40 = 'EnglundGambitComplexEnglundGambit_A40',
+  ItalianGameClassicalVariationCenterAtttack_C53 = 'ItalianGameClassicalVariationCenterAtttack_C53',
+  FrenchDefenseClassicalVariationBurnVariationMainLine_C11 = 'FrenchDefenseClassicalVariationBurnVariationMainLine_C11',
+  AlekhineDefenseModernVariationSchmidVariation_B04 = 'AlekhineDefenseModernVariationSchmidVariation_B04',
+  QueensIndianDefenseAntiQueensIndianSystem_E17 = 'QueensIndianDefenseAntiQueensIndianSystem_E17',
+  KingsIndianDefenseFianchettoVariationYugoslavSystemwoNc3_E64 = 'KingsIndianDefenseFianchettoVariationYugoslavSystemwoNc3_E64',
+  SicilianDefenseAcceleratedDragonExchangeVariation_B34 = 'SicilianDefenseAcceleratedDragonExchangeVariation_B34',
+  IndianGamePolishVariation_A46 = 'IndianGamePolishVariation_A46',
+  SemiSlavDefenseMeranVariationReynoldsVariation_D48 = 'SemiSlavDefenseMeranVariationReynoldsVariation_D48',
+  QueensGambitDeclinedOrthodoxDefenseMainLine_2_D63 = 'QueensGambitDeclinedOrthodoxDefenseMainLine_2_D63',
+  QueensGambitDeclinedOrthodoxDefenseHennegergerVariation_D63 = 'QueensGambitDeclinedOrthodoxDefenseHennegergerVariation_D63',
+  SemiSlavDefenseAccepted_D44 = 'SemiSlavDefenseAccepted_D44',
+  BenoniDefenseBenoniGambitAccepted_A43 = 'BenoniDefenseBenoniGambitAccepted_A43',
+  BenkoGambitZaitsevSystem_A58 = 'BenkoGambitZaitsevSystem_A58',
+  CaroKannDefenseAdvanceVariationBronsteinVariation_B12 = 'CaroKannDefenseAdvanceVariationBronsteinVariation_B12',
+  RatDefenseAntalDefense_B07 = 'RatDefenseAntalDefense_B07',
+  QueensGambitDeclinedExchangeVariationSaemischVariation_D35 = 'QueensGambitDeclinedExchangeVariationSaemischVariation_D35',
+  PolishOpeningCzechDefense_A00 = 'PolishOpeningCzechDefense_A00',
+  QueensGambitDeclinedCapablancaGeneral_D30 = 'QueensGambitDeclinedCapablancaGeneral_D30',
+  GruenfeldDefenseExchangeVariationSpasskyVariation_D88 = 'GruenfeldDefenseExchangeVariationSpasskyVariation_D88',
+  NimzoIndianDefenseSaemischVariation_E25 = 'NimzoIndianDefenseSaemischVariation_E25',
+  ScotchGameScotchGambitGoringGambitDeclined_C44 = 'ScotchGameScotchGambitGoringGambitDeclined_C44',
+  GruenfeldDefenseRussianVariationPrinsVariation_D97 = 'GruenfeldDefenseRussianVariationPrinsVariation_D97',
+  KingsIndianDefensePetrosianVariationNormalDefense_E93 = 'KingsIndianDefensePetrosianVariationNormalDefense_E93',
+  KingsIndianDefenseSaemischVariationDoubleFianchetto_E82 = 'KingsIndianDefenseSaemischVariationDoubleFianchetto_E82',
+  SicilianDefenseDragonVariationYugoslavAttackMainLine_B77 = 'SicilianDefenseDragonVariationYugoslavAttackMainLine_B77',
+  TorreAttackFianchettoDefenseEuweVariation_A48 = 'TorreAttackFianchettoDefenseEuweVariation_A48',
+  ItalianGameClassicalVariationGrecoGambitMoellerTherkatzAttack_C54 = 'ItalianGameClassicalVariationGrecoGambitMoellerTherkatzAttack_C54',
+  SicilianDefenseAlapinVariationBarmenDefenseCentralExchange_B22 = 'SicilianDefenseAlapinVariationBarmenDefenseCentralExchange_B22',
+  FrenchDefenseClassicalVariationDelayedExchangeVariation_C11 = 'FrenchDefenseClassicalVariationDelayedExchangeVariation_C11',
+  SpanishGameMarshallAttackModernVariation_C89 = 'SpanishGameMarshallAttackModernVariation_C89',
+  EnglishOpeningSymmetricalVariationBotvinnikSystemReversed_A36 = 'EnglishOpeningSymmetricalVariationBotvinnikSystemReversed_A36',
+  BenkoGambitDeclinedQuietLine_A57 = 'BenkoGambitDeclinedQuietLine_A57',
+  QueensIndianDefenseKasparovPetrosianVariationHedgehogVariation_E17 = 'QueensIndianDefenseKasparovPetrosianVariationHedgehogVariation_E17',
+  RussianGameClassicalAttackChigorinVariation_C42 = 'RussianGameClassicalAttackChigorinVariation_C42',
+  TarraschDefenseClassicalVariationCarlsbadVariation_D34 = 'TarraschDefenseClassicalVariationCarlsbadVariation_D34',
+  SicilianDefenseRichterRauzerVariationClassicalVariation_B64 = 'SicilianDefenseRichterRauzerVariationClassicalVariation_B64',
+  AlekhineDefenseBaloghVariation_B03 = 'AlekhineDefenseBaloghVariation_B03',
+  QueensGambitDeclinedHarrwitzAttack_D35 = 'QueensGambitDeclinedHarrwitzAttack_D35',
+  SicilianDefensePrinsVariationVeniceAttack_B55 = 'SicilianDefensePrinsVariationVeniceAttack_B55',
+  KingsGambitGeneral_C30 = 'KingsGambitGeneral_C30',
+  EnglishOpeningKingsEnglishVariationTrogerDefense_A21 = 'EnglishOpeningKingsEnglishVariationTrogerDefense_A21',
+  ThreeKnightsOpeningSteinitzDefense_C46 = 'ThreeKnightsOpeningSteinitzDefense_C46',
+  NimzoLarsenAttackSymmetricalVariation_A01 = 'NimzoLarsenAttackSymmetricalVariation_A01',
+  SicilianDefenseModernVariations_B56 = 'SicilianDefenseModernVariations_B56',
+  SlavDefenseGellerGambit_2_D15 = 'SlavDefenseGellerGambit_2_D15',
+  BlumenfeldCountergambitGeneral_E10 = 'BlumenfeldCountergambitGeneral_E10',
+  KingsIndianDefenseFianchettoVariationDoubleFianchettoAttack_E64 = 'KingsIndianDefenseFianchettoVariationDoubleFianchettoAttack_E64',
+  PonzianiOpeningGeneral_C44 = 'PonzianiOpeningGeneral_C44',
+  KingsKnightOpeningNormalVariation_C44 = 'KingsKnightOpeningNormalVariation_C44',
+  QueensIndianDefenseKasparovPetrosianVariationAnderssonVariation_E12 = 'QueensIndianDefenseKasparovPetrosianVariationAnderssonVariation_E12',
+  SpanishGameMorphyDefenseNorwegianVariation_C70 = 'SpanishGameMorphyDefenseNorwegianVariation_C70',
+  CatalanOpeningOpenDefenseClassicalLine_E05 = 'CatalanOpeningOpenDefenseClassicalLine_E05',
+  CaroKannDefenseAcceleratedPanovAttack_2_B10 = 'CaroKannDefenseAcceleratedPanovAttack_2_B10',
+  QueensGambitRefusedChigorinDefenseModernGambit_D06 = 'QueensGambitRefusedChigorinDefenseModernGambit_D06',
+  SicilianDefenseLaskerPelikanVariationRetreatVariation_B33 = 'SicilianDefenseLaskerPelikanVariationRetreatVariation_B33',
+  SpanishGameClosedVariationsWorrallAttackDelayedcastlingline_C86 = 'SpanishGameClosedVariationsWorrallAttackDelayedcastlingline_C86',
+  KangarooDefenseKeresDefenseTranspositionalVariation_E00 = 'KangarooDefenseKeresDefenseTranspositionalVariation_E00',
+  SicilianDefensePinVariation_B40 = 'SicilianDefensePinVariation_B40',
+  GruenfeldDefenseSmyslovDefense_D94 = 'GruenfeldDefenseSmyslovDefense_D94',
+  NimzoIndianDefenseNormalVariationGligoricSystemBernsteinDefense_E56 = 'NimzoIndianDefenseNormalVariationGligoricSystemBernsteinDefense_E56',
+  TarraschDefenseClassicalVariationRetiVariation_D34 = 'TarraschDefenseClassicalVariationRetiVariation_D34',
+  QueensGambitAcceptedClassicalDefenseAlekhineSystemMainLine_D29 = 'QueensGambitAcceptedClassicalDefenseAlekhineSystemMainLine_D29',
+  PhilidorDefenseLarsenVariation_C41 = 'PhilidorDefenseLarsenVariation_C41',
+  EnglishOpeningAgincourtDefenseTarraschDefense_A14 = 'EnglishOpeningAgincourtDefenseTarraschDefense_A14',
+  ViennaGameViennaGambitPaulsenAttack_C29 = 'ViennaGameViennaGambitPaulsenAttack_C29',
+  NimzoIndianDefenseHuebnerVariationRubinsteinVariationMainLine_E42 = 'NimzoIndianDefenseHuebnerVariationRubinsteinVariationMainLine_E42',
+  SpanishGameClassicalVariationZukertortGambit_C64 = 'SpanishGameClassicalVariationZukertortGambit_C64',
+  PircDefenseBayonetAttack_B07 = 'PircDefenseBayonetAttack_B07',
+  SicilianDefenseNimzowitschVariationExchangeVariation_B29 = 'SicilianDefenseNimzowitschVariationExchangeVariation_B29',
+  KingsIndianDefenseFianchettoVariationBenjaminDefense_E61 = 'KingsIndianDefenseFianchettoVariationBenjaminDefense_E61',
+  BenoniDefenseKingsIndianSystem_A56 = 'BenoniDefenseKingsIndianSystem_A56',
+  BlumenfeldCountergambitAccepted_E10 = 'BlumenfeldCountergambitAccepted_E10',
+  IndianGameSeirawanAttack_E00 = 'IndianGameSeirawanAttack_E00',
+  PterodactylDefenseEasternBenoni_B06 = 'PterodactylDefenseEasternBenoni_B06',
+  KingsIndianDefenseOrthodoxVariationDonnerDefense_E94 = 'KingsIndianDefenseOrthodoxVariationDonnerDefense_E94',
+  QueensGambitDeclinedSemiTarraschDefenseMainLine_D42 = 'QueensGambitDeclinedSemiTarraschDefenseMainLine_D42',
+  SpanishGameClosedVariationsChigorinDefense_1_C98 = 'SpanishGameClosedVariationsChigorinDefense_1_C98',
+  PterodactylDefenseWesternRhamporhynchus_B06 = 'PterodactylDefenseWesternRhamporhynchus_B06',
+  QueensGambitRefusedAlbinCountergambitFianchettoVariation_D09 = 'QueensGambitRefusedAlbinCountergambitFianchettoVariation_D09',
+  SicilianDefenseScheveningenVariationEnglishAttack_2_B80 = 'SicilianDefenseScheveningenVariationEnglishAttack_2_B80',
+  AlekhineDefenseModernVariationLarsenHaakertVariation_B04 = 'AlekhineDefenseModernVariationLarsenHaakertVariation_B04',
+  SicilianDefenseNimzowitschVariationMainLine_B29 = 'SicilianDefenseNimzowitschVariationMainLine_B29',
+  ZukertortOpeningPolishDefense_A04 = 'ZukertortOpeningPolishDefense_A04',
+  EnglishOpeningSymmetricalVariationFianchettoVariation_A36 = 'EnglishOpeningSymmetricalVariationFianchettoVariation_A36',
+  SlavDefenseCzechVariationCarlsbadVariationMorozevichVariation_D17 = 'SlavDefenseCzechVariationCarlsbadVariationMorozevichVariation_D17',
+  FourKnightsGameSpanishVariationRubinsteinVariationAccepted_C48 = 'FourKnightsGameSpanishVariationRubinsteinVariationAccepted_C48',
+  SicilianDefenseCanalAttackHaagGambit_B51 = 'SicilianDefenseCanalAttackHaagGambit_B51',
+  SpanishGameMarshallAttackGeneral_C89 = 'SpanishGameMarshallAttackGeneral_C89',
+  RussianGameMilleniumAttack_C42 = 'RussianGameMilleniumAttack_C42',
+  GruenfeldDefenseRussianVariationByrneSimaginVariation_D97 = 'GruenfeldDefenseRussianVariationByrneSimaginVariation_D97',
+  SpanishGameClosedVariationsZaitsevSystem_C92 = 'SpanishGameClosedVariationsZaitsevSystem_C92',
+  PircDefense150AttackSveshnikovJansaAttack_B07 = 'PircDefense150AttackSveshnikovJansaAttack_B07',
+  FourKnightsGameSpanishVariation_C49 = 'FourKnightsGameSpanishVariation_C49',
+  QueensGambitDeclinedSemiTarraschDefensePillsburyVariation_D41 = 'QueensGambitDeclinedSemiTarraschDefensePillsburyVariation_D41',
+  SicilianDefenseRichterRauzerVariationVitolinsVariation_B62 = 'SicilianDefenseRichterRauzerVariationVitolinsVariation_B62',
+  SicilianDefenseFlohrVariation_B32 = 'SicilianDefenseFlohrVariation_B32',
+  EnglishOpeningAngloIndianDefenseQueensIndianFormation_A17 = 'EnglishOpeningAngloIndianDefenseQueensIndianFormation_A17',
+  ElephantGambitPaulsenCountergambit_C40 = 'ElephantGambitPaulsenCountergambit_C40',
+  RussianGamePaulsenAttack_C42 = 'RussianGamePaulsenAttack_C42',
+  CaroKannDefensePanovAttackModernDefenseCarlsbadLine_B13 = 'CaroKannDefensePanovAttackModernDefenseCarlsbadLine_B13',
+  QueensIndianDefenseFianchettoVariationSaemischVariation_E15 = 'QueensIndianDefenseFianchettoVariationSaemischVariation_E15',
+  QueenPawnGameVeresovAtackRichterVariation_D01 = 'QueenPawnGameVeresovAtackRichterVariation_D01',
+  RetiOpeningAngloSlavVariationBogoljubowVariationIII_A12 = 'RetiOpeningAngloSlavVariationBogoljubowVariationIII_A12',
+  SpanishGameMorphyDefenseModernSteinitzDefense_1_C73 = 'SpanishGameMorphyDefenseModernSteinitzDefense_1_C73',
+  SicilianDefenseModernVariationsAntiQxd4MoveOrder_B50 = 'SicilianDefenseModernVariationsAntiQxd4MoveOrder_B50',
+  BenkoGambitDeclinedSosonkoVariation_A57 = 'BenkoGambitDeclinedSosonkoVariation_A57',
+  GruenfeldDefenseBrinckmannAttackGrunfeldGambitCapablancaVariation_D83 = 'GruenfeldDefenseBrinckmannAttackGrunfeldGambitCapablancaVariation_D83',
+  RussianGameModernAttackCenterAttack_C43 = 'RussianGameModernAttackCenterAttack_C43',
+  ViennaGameStanleyVariation_C26 = 'ViennaGameStanleyVariation_C26',
+  SpanishGameMorphyDefenseFianchettoDefenseDeferred_C70 = 'SpanishGameMorphyDefenseFianchettoDefenseDeferred_C70',
+  SicilianDefenseSmithMorraGambitDeclinedScandinavianFormation_B21 = 'SicilianDefenseSmithMorraGambitDeclinedScandinavianFormation_B21',
+  QueensGambitAcceptedBogoljubowDefense_D24 = 'QueensGambitAcceptedBogoljubowDefense_D24',
+  GunderamDefenseGeneral_C40 = 'GunderamDefenseGeneral_C40',
+  RussianGameDamianoVariationKholmovGambit_C42 = 'RussianGameDamianoVariationKholmovGambit_C42',
+  QueenPawnGameAntiTorre_D02 = 'QueenPawnGameAntiTorre_D02',
+  FrenchDefenseMacCutcheonVariationJanowskiVariation_C12 = 'FrenchDefenseMacCutcheonVariationJanowskiVariation_C12',
+  SlavDefenseSlavGambitAlekhineAttack_D10 = 'SlavDefenseSlavGambitAlekhineAttack_D10',
+  CatalanOpeningOpenDefenseTarraschDefense_E04 = 'CatalanOpeningOpenDefenseTarraschDefense_E04',
+  NimzoIndianDefenseClassicalVariationNoaVariation_E37 = 'NimzoIndianDefenseClassicalVariationNoaVariation_E37',
+  BenkoGambitZaitsevVariationNescafeFrappeAttack_A57 = 'BenkoGambitZaitsevVariationNescafeFrappeAttack_A57',
+  KingPawnGameMaroczyDefense_B07 = 'KingPawnGameMaroczyDefense_B07',
+  ScotchGameGoringGambit_C44 = 'ScotchGameGoringGambit_C44',
+  ItalianGameScotchGambitMaxLangeAttack_C55 = 'ItalianGameScotchGambitMaxLangeAttack_C55',
+  SicilianDefenseDragonVariationYugoslavAttack_B76 = 'SicilianDefenseDragonVariationYugoslavAttack_B76',
+  SicilianDefenseMcDonnellAttackTalGambit_B21 = 'SicilianDefenseMcDonnellAttackTalGambit_B21',
+  SicilianDefenseScheveningenVariationClassicalVariationPaulsenVariation_1_B85 = 'SicilianDefenseScheveningenVariationClassicalVariationPaulsenVariation_1_B85',
+  QueensIndianDefenseFianchettoVariationNimzowitschVariationTimmansLine_E15 = 'QueensIndianDefenseFianchettoVariationNimzowitschVariationTimmansLine_E15',
+  CaroKannDefenseKarpovVariationSmyslovVariationMainLine_B17 = 'CaroKannDefenseKarpovVariationSmyslovVariationMainLine_B17',
+  NimzoIndianDefenseSaemischVariation_E26 = 'NimzoIndianDefenseSaemischVariation_E26',
+  BishopsOpeningViennaHybridHromadkaVariation_C28 = 'BishopsOpeningViennaHybridHromadkaVariation_C28',
+  SlavDefenseExchangeVariationTrifunovicVariation_D14 = 'SlavDefenseExchangeVariationTrifunovicVariation_D14',
+  SemiSlavDefenseMeranVariationLundinVariation_D47 = 'SemiSlavDefenseMeranVariationLundinVariation_D47',
+  NimzoIndianDefenseSpielmannVariation_E22 = 'NimzoIndianDefenseSpielmannVariation_E22',
+  NimzoIndianDefenseSaemischVariation_E28 = 'NimzoIndianDefenseSaemischVariation_E28',
+  SicilianDefenseRichterRauzerVariationIvanovVariation_B63 = 'SicilianDefenseRichterRauzerVariationIvanovVariation_B63',
+  QueensIndianDefenseKasparovVariationGeneral_E13 = 'QueensIndianDefenseKasparovVariationGeneral_E13',
+  ViennaGameFalkbeerVariation_C26 = 'ViennaGameFalkbeerVariation_C26',
+  KingsIndianAttackSmyslovVariation_A05 = 'KingsIndianAttackSmyslovVariation_A05',
+  PircDefenseClassicalVariation_1_B07 = 'PircDefenseClassicalVariation_1_B07',
+  QueenPawnGameVeresovAtackAlburtDefense_D00 = 'QueenPawnGameVeresovAtackAlburtDefense_D00',
+  DutchDefenseClassicalVariationStonewallVariation_A95 = 'DutchDefenseClassicalVariationStonewallVariation_A95',
+  DanishGambitGeneral_C21 = 'DanishGambitGeneral_C21',
+  ScandinavianDefensePanovTransfer_B01 = 'ScandinavianDefensePanovTransfer_B01',
+  QueensGambitAcceptedRosenthalVariation_D21 = 'QueensGambitAcceptedRosenthalVariation_D21',
+  ItalianGameEvansGambitAnderssenVariationCordelLine_C51 = 'ItalianGameEvansGambitAnderssenVariationCordelLine_C51',
+  BirdOpeningLaskerVariation_A03 = 'BirdOpeningLaskerVariation_A03',
+  RussianGameClassicalAttackMarshallVariation_C42 = 'RussianGameClassicalAttackMarshallVariation_C42',
+  RetiOpeningAngloSlavVariationLondonDefensiveSystem_A12 = 'RetiOpeningAngloSlavVariationLondonDefensiveSystem_A12',
+  ZukertortOpeningLisitsynGambit_A04 = 'ZukertortOpeningLisitsynGambit_A04',
+  SicilianDefenseKanVariationWingAttackSpraggettAttack_B43 = 'SicilianDefenseKanVariationWingAttackSpraggettAttack_B43',
+  SpanishGameClosedVariationsCenterAttack_C84 = 'SpanishGameClosedVariationsCenterAttack_C84',
+  FrenchDefenseAlekhineChatardAttackMaroczyVariation_C13 = 'FrenchDefenseAlekhineChatardAttackMaroczyVariation_C13',
+  DutchDefenseLeningradVariation_A86 = 'DutchDefenseLeningradVariation_A86',
+  KingsIndianDefenseFianchettoVariationYugoslavVariationRareLines_E64 = 'KingsIndianDefenseFianchettoVariationYugoslavVariationRareLines_E64',
+  SlavDefenseCzechVariationWiesbadenVariationSharpline_D17 = 'SlavDefenseCzechVariationWiesbadenVariationSharpline_D17',
+  QueensGambitDeclinedWestphalianVariation_D51 = 'QueensGambitDeclinedWestphalianVariation_D51',
+  NimzowitschDefenseMikenasVariation_B00 = 'NimzowitschDefenseMikenasVariation_B00',
+  SicilianDefenseNajdorfVariationNeoClassicalDefense_B96 = 'SicilianDefenseNajdorfVariationNeoClassicalDefense_B96',
+  AlekhineDefenseGeneral_B02 = 'AlekhineDefenseGeneral_B02',
+  ModernDefenseRossolimoVariation_A41 = 'ModernDefenseRossolimoVariation_A41',
+  DutchDefenseClassicalVariationIlyinZhenevskyVariationGeneral_A97 = 'DutchDefenseClassicalVariationIlyinZhenevskyVariationGeneral_A97',
+  ItalianGameClassicalVariationGiuocoPianissimoMainline_C53 = 'ItalianGameClassicalVariationGiuocoPianissimoMainline_C53',
+  SicilianDefenseKanVariationWingAttackFianchettoVariation_B43 = 'SicilianDefenseKanVariationWingAttackFianchettoVariation_B43',
+  QueensGambitDeclinedAntiTartakowerVariationPetrosianVariation_D55 = 'QueensGambitDeclinedAntiTartakowerVariationPetrosianVariation_D55',
+  FrenchDefenseWinawerVariationRetreatVariationGeneral_C18 = 'FrenchDefenseWinawerVariationRetreatVariationGeneral_C18',
+  IndianGameNormalVariation_A50 = 'IndianGameNormalVariation_A50',
+  SicilianDefenseKronbergerVariation_B20 = 'SicilianDefenseKronbergerVariation_B20',
+  SemiSlavDefenseMeranVariationWadeVariationLarsenVariation_D47 = 'SemiSlavDefenseMeranVariationWadeVariationLarsenVariation_D47',
+  DutchDefenseNimzoDutchVariation_A90 = 'DutchDefenseNimzoDutchVariation_A90',
+  KingsIndianDefenseOrthodoxVariationClassicalSystemBenkoAttack_E99 = 'KingsIndianDefenseOrthodoxVariationClassicalSystemBenkoAttack_E99',
+  SicilianDefenseNajdorfVariationBrowneVariation_B98 = 'SicilianDefenseNajdorfVariationBrowneVariation_B98',
+  RubinsteinOpeningBogoljubowDefense_D05 = 'RubinsteinOpeningBogoljubowDefense_D05',
+  NeoGruenfeldDefenseClassicalVariationPolgarVariation_D78 = 'NeoGruenfeldDefenseClassicalVariationPolgarVariation_D78',
+  ItalianGameClassicalVariationGrecoGambitAnderssenVariation_C54 = 'ItalianGameClassicalVariationGrecoGambitAnderssenVariation_C54',
+  BirdOpeningFromGambitLaskerVariation_A02 = 'BirdOpeningFromGambitLaskerVariation_A02',
+  SicilianDefenseOKellyVariationMaroczyBindRobatschLine_B28 = 'SicilianDefenseOKellyVariationMaroczyBindRobatschLine_B28',
+  NimzoIndianDefenseClassicalVariationZurichVariation_E33 = 'NimzoIndianDefenseClassicalVariationZurichVariation_E33',
+  ItalianGameTwoKnightsDefenseUlvestadVariation_C57 = 'ItalianGameTwoKnightsDefenseUlvestadVariation_C57',
+  SpanishGameMorphyDefenseModernSteinitzDefense_2_C75 = 'SpanishGameMorphyDefenseModernSteinitzDefense_2_C75',
+  QueenPawnGameColleSystemGruenfeldFormation_A48 = 'QueenPawnGameColleSystemGruenfeldFormation_A48',
+  KingsIndianDefenseZinnowitzVariation_E90 = 'KingsIndianDefenseZinnowitzVariation_E90',
+  SpanishGameClosedVariationsSmyslovBreyerZaitsevHybrid_C93 = 'SpanishGameClosedVariationsSmyslovBreyerZaitsevHybrid_C93',
+  NimzoIndianDefenseThreeKnightsVariationDuchampVariationModernLine_E21 = 'NimzoIndianDefenseThreeKnightsVariationDuchampVariationModernLine_E21',
+  SlavDefenseSmyslovVariation_D16 = 'SlavDefenseSmyslovVariation_D16',
+  OldIndianCzechVariationwNc3_A53 = 'OldIndianCzechVariationwNc3_A53',
+  ModernDefenseBishopAttack_B06 = 'ModernDefenseBishopAttack_B06',
+  ItalianGameTwoKnightsDefenseFritzVariation_C57 = 'ItalianGameTwoKnightsDefenseFritzVariation_C57',
+  BenoniDefenseOldBenoniDefenseClarendonCourtVariation_A43 = 'BenoniDefenseOldBenoniDefenseClarendonCourtVariation_A43',
+  FourKnightsGameScotchVariation_C47 = 'FourKnightsGameScotchVariation_C47',
+  RetiOpeningAngloSlavVariationBogoljubowVariationII_A12 = 'RetiOpeningAngloSlavVariationBogoljubowVariationII_A12',
+  TrompowskyAttackPoisonedPawnVariation_A45 = 'TrompowskyAttackPoisonedPawnVariation_A45',
+  RussianGameModernAttackMurreyVariation_C43 = 'RussianGameModernAttackMurreyVariation_C43',
+  FrenchDefenseWinawerVariationAdvanceVariationMoscowVariation_C17 = 'FrenchDefenseWinawerVariationAdvanceVariationMoscowVariation_C17',
+  KingsKnightOpeningKonstantinopolskyOpening_C44 = 'KingsKnightOpeningKonstantinopolskyOpening_C44',
+  SicilianDefenseKanVariationMaroczyBindBronsteinVariation_B41 = 'SicilianDefenseKanVariationMaroczyBindBronsteinVariation_B41',
+  KingPawnGameTaylerOpeningInvertedHanham_C44 = 'KingPawnGameTaylerOpeningInvertedHanham_C44',
+  ItalianGameBirdsAttack_C53 = 'ItalianGameBirdsAttack_C53',
+  BenoniDefenseClassicalVariationMainline_A73 = 'BenoniDefenseClassicalVariationMainline_A73',
+  CatalanOpeningClosedVariationBotvinnikVariation_E07 = 'CatalanOpeningClosedVariationBotvinnikVariation_E07',
+  EnglishOpeningKingsEnglishVariationClosedSystem_A25 = 'EnglishOpeningKingsEnglishVariationClosedSystem_A25',
+  NimzoIndianDefenseRomanishinVariationEnglishHybrid_E20 = 'NimzoIndianDefenseRomanishinVariationEnglishHybrid_E20',
+  SlavDefenseAlapinVariation_D16 = 'SlavDefenseAlapinVariation_D16',
+  BenoniDefenseUhlmannVariation_A61 = 'BenoniDefenseUhlmannVariation_A61',
+  ItalianGameClassicalVariationClosedVariation_C53 = 'ItalianGameClassicalVariationClosedVariation_C53',
+  SpanishGameMorphyDefenseModernSteinitzDefense_2_C73 = 'SpanishGameMorphyDefenseModernSteinitzDefense_2_C73',
+  HungarianOpeningDutchDefense_A00 = 'HungarianOpeningDutchDefense_A00',
+  RussianGameClassicalAttackMasonVariation_C42 = 'RussianGameClassicalAttackMasonVariation_C42',
+  SicilianDefenseNajdorfVariationPolugayevskyVariation_B96 = 'SicilianDefenseNajdorfVariationPolugayevskyVariation_B96',
+  ModernDefenseNorwegianDefense_B06 = 'ModernDefenseNorwegianDefense_B06',
+  SpanishGameBerlinDefense_C65 = 'SpanishGameBerlinDefense_C65',
+  SemiSlavDefenseBotvinnikVariation_D44 = 'SemiSlavDefenseBotvinnikVariation_D44',
+  SlavDefenseWinawerCountergambit_D10 = 'SlavDefenseWinawerCountergambit_D10',
+  FrenchDefenseMacCutcheonVariationExchangeVariation_C12 = 'FrenchDefenseMacCutcheonVariationExchangeVariation_C12',
+  RatDefenseSmallCenterDefense_C00 = 'RatDefenseSmallCenterDefense_C00',
+  QueenPawnGameFrancoSicilianDefense_C00 = 'QueenPawnGameFrancoSicilianDefense_C00',
+  SpanishGameSchliemannDefenseSchonemannAttack_C63 = 'SpanishGameSchliemannDefenseSchonemannAttack_C63',
+  SicilianDefenseOKellyVariationRetiSystem_B28 = 'SicilianDefenseOKellyVariationRetiSystem_B28',
+  SpanishGameMorphyDefenseModernSteinitzDefense_1_C74 = 'SpanishGameMorphyDefenseModernSteinitzDefense_1_C74',
+  QueensGambitRefusedAustrianDefense_D06 = 'QueensGambitRefusedAustrianDefense_D06',
+  ClemenzOpeningGeneral_A00 = 'ClemenzOpeningGeneral_A00',
+  QueensGambitDeclinedMilesVariationDzhindzhiAttack_D53 = 'QueensGambitDeclinedMilesVariationDzhindzhiAttack_D53',
+  FrenchDefenseAlekhineChatardAttackAlbinChatardGambit_C13 = 'FrenchDefenseAlekhineChatardAttackAlbinChatardGambit_C13',
+  RussianGameClassicalAttackJaenischVariation_C42 = 'RussianGameClassicalAttackJaenischVariation_C42',
+  SpanishGameBerlinDefenseBerlinWallJRogersLine_C67 = 'SpanishGameBerlinDefenseBerlinWallJRogersLine_C67',
+  SpanishGameOpenVariationsStPetersburgVariation_C82 = 'SpanishGameOpenVariationsStPetersburgVariation_C82',
+  AlekhineDefenseTwoPawnAttack_B02 = 'AlekhineDefenseTwoPawnAttack_B02',
+  BenoniDefenseClassicalVariationAverbakhGrivasAttack_A71 = 'BenoniDefenseClassicalVariationAverbakhGrivasAttack_A71',
+  ItalianGameTwoKnightsDefensePerreuxVariation_C55 = 'ItalianGameTwoKnightsDefensePerreuxVariation_C55',
+  QueensGambitDeclinedLaskerDefenseTeichmannVariation_D56 = 'QueensGambitDeclinedLaskerDefenseTeichmannVariation_D56',
+  SpanishGameSchliemannDefenseClassicalVariation_C63 = 'SpanishGameSchliemannDefenseClassicalVariation_C63',
+  KingsIndianDefenseAverbakhVariation_E73 = 'KingsIndianDefenseAverbakhVariation_E73',
+  IndianGameDefensePseudoQueensIndianMarienbadSystem_A47 = 'IndianGameDefensePseudoQueensIndianMarienbadSystem_A47',
+  NimzoIndianDefenseSaemischVariation_E27 = 'NimzoIndianDefenseSaemischVariation_E27',
+  NimzoIndianDefenseClassicalVariationVitolinshAdorjanGambit_E32 = 'NimzoIndianDefenseClassicalVariationVitolinshAdorjanGambit_E32',
+  SicilianDefenseSmithMorraGambitAcceptedClassicalFormation_B21 = 'SicilianDefenseSmithMorraGambitAcceptedClassicalFormation_B21',
+  ItalianGameEvansGambitDeclined_C51 = 'ItalianGameEvansGambitDeclined_C51',
+  ViennaGameViennaGambitModernVariation_C29 = 'ViennaGameViennaGambitModernVariation_C29',
+  SpanishGameMorphyDefenseSchliemannDefenseDeferred_C70 = 'SpanishGameMorphyDefenseSchliemannDefenseDeferred_C70',
+  ViennaGameViennaGambitBreyerVariation_C29 = 'ViennaGameViennaGambitBreyerVariation_C29',
+  SicilianDefenseSmithMorraGambitDeferred_B40 = 'SicilianDefenseSmithMorraGambitDeferred_B40',
+  QueensGambitDeclinedViennaVariation_D30 = 'QueensGambitDeclinedViennaVariation_D30',
+  PhilidorDefenseExchangeVariation_3_C41 = 'PhilidorDefenseExchangeVariation_3_C41',
+  SpanishGameClosedVariationsKholmovVariation_C92 = 'SpanishGameClosedVariationsKholmovVariation_C92',
+  SemiSlavDefenseMarshallGambitForgottenVariation_D31 = 'SemiSlavDefenseMarshallGambitForgottenVariation_D31',
+  QueensGambitDeclinedHarrwitzAttackMainLineOldMainLine_D37 = 'QueensGambitDeclinedHarrwitzAttackMainLineOldMainLine_D37',
+  OldIndianDefenseJanowskiVariationFianchettoVariation_1_A53 = 'OldIndianDefenseJanowskiVariationFianchettoVariation_1_A53',
+  EnglishOpeningAgincourtDefenseKurajicaDefense_A13 = 'EnglishOpeningAgincourtDefenseKurajicaDefense_A13',
+  KingsGambitAcceptedSchallopDefense_C34 = 'KingsGambitAcceptedSchallopDefense_C34',
+  SicilianDefenseDragonVariationYugoslavAttackSosonkoVariation_B77 = 'SicilianDefenseDragonVariationYugoslavAttackSosonkoVariation_B77',
+  KingsGambitDeclinedClassicalVariationGeneral_C30 = 'KingsGambitDeclinedClassicalVariationGeneral_C30',
+  QueensGambitDeclinedHastingsVariation_D30 = 'QueensGambitDeclinedHastingsVariation_D30',
+  SicilianDefenseNyezhmetdinovRossolimoAttackFianchettoVariationGufeldGambit_B31 = 'SicilianDefenseNyezhmetdinovRossolimoAttackFianchettoVariationGufeldGambit_B31',
+  ScotchGameModernDefense_C45 = 'ScotchGameModernDefense_C45',
+  GruenfeldDefenseOpocenskyVariation_D94 = 'GruenfeldDefenseOpocenskyVariation_D94',
+  EnglishOpeningAngloIndianDefenseScandavianDefenseExchangeVariation_A15 = 'EnglishOpeningAngloIndianDefenseScandavianDefenseExchangeVariation_A15',
+  SpanishGameClassicalVariationModernMainLine_C64 = 'SpanishGameClassicalVariationModernMainLine_C64',
+  KingsGambitAcceptedBishopsGambit_C33 = 'KingsGambitAcceptedBishopsGambit_C33',
+  SicilianDefenseDragonVariationClassicalVariationTartakowerLine_B74 = 'SicilianDefenseDragonVariationClassicalVariationTartakowerLine_B74',
+  AlekhineDefenseModernVariation_B04 = 'AlekhineDefenseModernVariation_B04',
+  FrenchDefenseWinawerVariationAdvanceVariation_1_C17 = 'FrenchDefenseWinawerVariationAdvanceVariation_1_C17',
+  PolishOpeningOutflankVariation_A00 = 'PolishOpeningOutflankVariation_A00',
+  SicilianDefenseWingGambitDeferred_B40 = 'SicilianDefenseWingGambitDeferred_B40',
+  QueensGambitAcceptedCentralVariationGrecoVariation_D20 = 'QueensGambitAcceptedCentralVariationGrecoVariation_D20',
+  GruenfeldDefenseMakogonovVariation_D94 = 'GruenfeldDefenseMakogonovVariation_D94',
+  QueensIndianDefenseFianchettoVariationRubinsteinVariation_E16 = 'QueensIndianDefenseFianchettoVariationRubinsteinVariation_E16',
+  ItalianGameClassicalVariationAlbinGambit_C53 = 'ItalianGameClassicalVariationAlbinGambit_C53',
+  SicilianDefenseLaskerPelikanVariationSveshnikovVariation_2_B33 = 'SicilianDefenseLaskerPelikanVariationSveshnikovVariation_2_B33',
+  QueenPawnGameMasonAttack_D00 = 'QueenPawnGameMasonAttack_D00',
+  GruenfeldDefenseRussianVariationAcceleratedVariation_D81 = 'GruenfeldDefenseRussianVariationAcceleratedVariation_D81',
+  GruenfeldDefenseExchangeVariationSimaginsImprovedVariation_D86 = 'GruenfeldDefenseExchangeVariationSimaginsImprovedVariation_D86',
+  SicilianDefenseOKellyVariationMaroczyBindGellerLine_B28 = 'SicilianDefenseOKellyVariationMaroczyBindGellerLine_B28',
+  QueensGambitDeclinedTartakowerVariationExchangeVariation_D57 = 'QueensGambitDeclinedTartakowerVariationExchangeVariation_D57',
+  SpanishGameMorphyDefenseDurasVariation_C77 = 'SpanishGameMorphyDefenseDurasVariation_C77',
+  ScandinavianDefensePortugueseVariationPortugueseGambit_B01 = 'ScandinavianDefensePortugueseVariationPortugueseGambit_B01',
+  StGeorgeDefensePolishVariation_B00 = 'StGeorgeDefensePolishVariation_B00',
+  QueenPawnGameVeresovAtackClassicalDefense_D01 = 'QueenPawnGameVeresovAtackClassicalDefense_D01',
+  NimzoIndianDefenseSaemischVariation_E29 = 'NimzoIndianDefenseSaemischVariation_E29',
+  GruenfeldDefenseThreeKnightsVariationParisVariation_D94 = 'GruenfeldDefenseThreeKnightsVariationParisVariation_D94',
+  FrenchDefenseExchangeVariationSvenoniusVariation_C01 = 'FrenchDefenseExchangeVariationSvenoniusVariation_C01',
+  KingPawnGameLeonardisVariation_C20 = 'KingPawnGameLeonardisVariation_C20',
+  SicilianDefenseModernVariationsTartakower_B53 = 'SicilianDefenseModernVariationsTartakower_B53',
+  FourKnightsGameNimzowitschPaulsen_C49 = 'FourKnightsGameNimzowitschPaulsen_C49',
+  ScotchGameScotchGambitLondonDefense_C44 = 'ScotchGameScotchGambitLondonDefense_C44',
+  SlavDefenseTwoKnightsAttack_D15 = 'SlavDefenseTwoKnightsAttack_D15',
+  CaroKannDefenseDeBruyckerDefense_A40 = 'CaroKannDefenseDeBruyckerDefense_A40',
+  RetiOpeningAngloSlavVariationCapablancaVariation_A12 = 'RetiOpeningAngloSlavVariationCapablancaVariation_A12',
+  FourKnightsGameSpanishVariationSymmetricalVariation_2_C49 = 'FourKnightsGameSpanishVariationSymmetricalVariation_2_C49',
+  CenterGameNormalVariation_C22 = 'CenterGameNormalVariation_C22',
+  VanGeetOpeningNapoleonAttack_A00 = 'VanGeetOpeningNapoleonAttack_A00',
+  DanishGambitDeclinedSorensenDefense_C21 = 'DanishGambitDeclinedSorensenDefense_C21',
+  FrenchDefenseClassicalVariationSwissVariation_C11 = 'FrenchDefenseClassicalVariationSwissVariation_C11',
+  SicilianDefenseScheveningenVariationTalVariation_B82 = 'SicilianDefenseScheveningenVariationTalVariation_B82',
+  GruenfeldDefenseExchangeVariationModernExchangeVariationKramniksline_D85 = 'GruenfeldDefenseExchangeVariationModernExchangeVariationKramniksline_D85',
+  SystemCanardFormation_A45 = 'SystemCanardFormation_A45',
+  BenoniDefenseClassicalVariationArgentineCounterattack_A75 = 'BenoniDefenseClassicalVariationArgentineCounterattack_A75',
+  NeoGrunfeldDefenseNonorDelayedFianchetto_D70 = 'NeoGrunfeldDefenseNonorDelayedFianchetto_D70',
+  ScotchGameScotchGambitKingsideVariation_C45 = 'ScotchGameScotchGambitKingsideVariation_C45',
+  CatalanOpeningOpenDefense_E02 = 'CatalanOpeningOpenDefense_E02',
+  SicilianDefenseRichterRauzerVariationClassicalVariationKantscherLine_B66 = 'SicilianDefenseRichterRauzerVariationClassicalVariationKantscherLine_B66',
+  QueensGambitAcceptedClassicalDefenseAlekhineSystemExceptMainLine_D28 = 'QueensGambitAcceptedClassicalDefenseAlekhineSystemExceptMainLine_D28',
+  QueensGambitRefusedBalticDefensePseudoChigorin_D02 = 'QueensGambitRefusedBalticDefensePseudoChigorin_D02',
+  RussianGameUrusovGambit_C42 = 'RussianGameUrusovGambit_C42',
+  NimzoIndianDefenseLeningradVariationBenoniDefense_E31 = 'NimzoIndianDefenseLeningradVariationBenoniDefense_E31',
+  NeoGruenfeldDefenseDelayedExchangeVariation_1_D75 = 'NeoGruenfeldDefenseDelayedExchangeVariation_1_D75',
+  ZukertortOpeningLisitsynGambitDeferred_A04 = 'ZukertortOpeningLisitsynGambitDeferred_A04',
+  SicilianDefenseOKellyVariationNormalSystemTaimanovLine_B28 = 'SicilianDefenseOKellyVariationNormalSystemTaimanovLine_B28',
+  ZukertortOpeningDoubleFianchettoAttack_A49 = 'ZukertortOpeningDoubleFianchettoAttack_A49',
+  BorgDefenseGeneral_B00 = 'BorgDefenseGeneral_B00',
+  QueensGambitRefusedAlbinCountergambitModernLine_D08 = 'QueensGambitRefusedAlbinCountergambitModernLine_D08',
+  KingsIndianDefenseFianchettoVariationDelayedFianchetto_E62 = 'KingsIndianDefenseFianchettoVariationDelayedFianchetto_E62',
+  AlekhineDefenseFourPawnsAttackFianchettoVariation_B03 = 'AlekhineDefenseFourPawnsAttackFianchettoVariation_B03',
+  SicilianDefenseRichterRauzerVariationTraditionalVariation_B63 = 'SicilianDefenseRichterRauzerVariationTraditionalVariation_B63',
+  RetiOpeningAngloSlavVariationTorreSystem_A12 = 'RetiOpeningAngloSlavVariationTorreSystem_A12',
+  NimzoIndianDefenseNormalVariationHubnerDeferred_E50 = 'NimzoIndianDefenseNormalVariationHubnerDeferred_E50',
+  EnglishOpeningAngloLithuanianVariation_A10 = 'EnglishOpeningAngloLithuanianVariation_A10',
+  SicilianDefenseLaskerPelikanVariationExchangeVariation_B33 = 'SicilianDefenseLaskerPelikanVariationExchangeVariation_B33',
+  QueensGambitDeclinedModernKnightDefense_3_D51 = 'QueensGambitDeclinedModernKnightDefense_3_D51',
+  FrenchDefenseHorwitzAttack_C00 = 'FrenchDefenseHorwitzAttack_C00',
+  BenoniDefenseFourPawnsAttack_A68 = 'BenoniDefenseFourPawnsAttack_A68',
+  SicilianDefenseNajdorfVariationScheveningenVariation_B84 = 'SicilianDefenseNajdorfVariationScheveningenVariation_B84',
+  SpanishGameMorphyDefenseBreyerDefenseQuietVariation_C94 = 'SpanishGameMorphyDefenseBreyerDefenseQuietVariation_C94',
+  SicilianDefenseOKellyVariationVeniceSystemSteinerLine_B28 = 'SicilianDefenseOKellyVariationVeniceSystemSteinerLine_B28',
+  KingsGambitFalkbeerCountergambitNimzowitschMarshallCountergambit_C31 = 'KingsGambitFalkbeerCountergambitNimzowitschMarshallCountergambit_C31',
+  QueenPawnGameVeresovAtackVeresovVariation_D01 = 'QueenPawnGameVeresovAtackVeresovVariation_D01',
+  EnglishOpeningTheWhale_C20 = 'EnglishOpeningTheWhale_C20',
+  FrenchDefenseMacCutcheonVariationWolfGambit_C12 = 'FrenchDefenseMacCutcheonVariationWolfGambit_C12',
+  GruenfeldDefenseRussianVariationSmyslovVariation_D98 = 'GruenfeldDefenseRussianVariationSmyslovVariation_D98',
+  GruenfeldDefenseFlohrVariation_D90 = 'GruenfeldDefenseFlohrVariation_D90',
+  BenkoGambitAcceptedYugoslavwithout7Bxf1_A59 = 'BenkoGambitAcceptedYugoslavwithout7Bxf1_A59',
+  SpanishGameOpenVariationsDilworthVariation_C82 = 'SpanishGameOpenVariationsDilworthVariation_C82',
+  GruenfeldDefenseThreeKnightsVariationViennaVariation_D95 = 'GruenfeldDefenseThreeKnightsVariationViennaVariation_D95',
+  GruenfeldDefenseRussianVariationSzaboBoleslavsky_D97 = 'GruenfeldDefenseRussianVariationSzaboBoleslavsky_D97',
+  ItalianGameScotchGambitJanowskiDefense_C55 = 'ItalianGameScotchGambitJanowskiDefense_C55',
+  CaroKannDefensePanovAttack_2_B13 = 'CaroKannDefensePanovAttack_2_B13',
+  BenoniDefenseClassicalVariationCzerniakDefense_A79 = 'BenoniDefenseClassicalVariationCzerniakDefense_A79',
+  CaroKannDefenseKarpovVariationTiviakovFischerAttack_B17 = 'CaroKannDefenseKarpovVariationTiviakovFischerAttack_B17',
+  TarraschDefenseSwedishVariation_D33 = 'TarraschDefenseSwedishVariation_D33',
+  EnglishOpeningAgincourtDefenseBogoljubowDefense_A13 = 'EnglishOpeningAgincourtDefenseBogoljubowDefense_A13',
+  DutchDefenseClassicalVariation_A91 = 'DutchDefenseClassicalVariation_A91',
+  SicilianDefenseClosedVariationBotvinnikDefenseI_B25 = 'SicilianDefenseClosedVariationBotvinnikDefenseI_B25',
+  ViennaGameStanleyVariationModernVariation_C27 = 'ViennaGameStanleyVariationModernVariation_C27',
+  PolishOpeningBugayevAttack_A00 = 'PolishOpeningBugayevAttack_A00',
+  SpanishGameClosedVariationsClosedDefense_2_C96 = 'SpanishGameClosedVariationsClosedDefense_2_C96',
+  SpanishGameClosedVariationsYatesVariation_C91 = 'SpanishGameClosedVariationsYatesVariation_C91',
+  FourKnightsGameItalianVariationNoaGambit_C47 = 'FourKnightsGameItalianVariationNoaGambit_C47',
+  GruenfeldDefenseExchangeVariationNadanianAttack_D85 = 'GruenfeldDefenseExchangeVariationNadanianAttack_D85',
+  RussianGameStaffordGambit_C42 = 'RussianGameStaffordGambit_C42',
+  QueensGambitAcceptedNormalVariation_D21 = 'QueensGambitAcceptedNormalVariation_D21',
+  SicilianDefenseDragonVariationYugoslavAttackCzerniakVariation_B77 = 'SicilianDefenseDragonVariationYugoslavAttackCzerniakVariation_B77',
+  QueensGambitAcceptedCentralVariationRubinsteinDefense_D20 = 'QueensGambitAcceptedCentralVariationRubinsteinDefense_D20',
+  BogoIndianDefenseRetreatVariation_E11 = 'BogoIndianDefenseRetreatVariation_E11',
+  GruenfeldDefenseBrinckmannAttackGrunfeldGambitAccepted_D84 = 'GruenfeldDefenseBrinckmannAttackGrunfeldGambitAccepted_D84',
+  SicilianDefensePaulsenVariationTaimanovVariation_B46 = 'SicilianDefensePaulsenVariationTaimanovVariation_B46',
+  FrenchDefenseAlekhineChatardAttackBreyerVariation_C13 = 'FrenchDefenseAlekhineChatardAttackBreyerVariation_C13',
+  SicilianDefenseRichterRauzerVariationDragonVariation_B60 = 'SicilianDefenseRichterRauzerVariationDragonVariation_B60',
+  SpanishGameMorphyDefenseModernSteinitzDefenseSiestaVariation_C74 = 'SpanishGameMorphyDefenseModernSteinitzDefenseSiestaVariation_C74',
+  SpanishGameMorphyDefenseModernSteinitzDefense_2_C71 = 'SpanishGameMorphyDefenseModernSteinitzDefense_2_C71',
+  EnglishOpeningKingsEnglishVariationTwoKnightsVariationFianchettoLines_A24 = 'EnglishOpeningKingsEnglishVariationTwoKnightsVariationFianchettoLines_A24',
+  KingsIndianAttackSicilianVariation_A07 = 'KingsIndianAttackSicilianVariation_A07',
+  CaroKannDefenseAdvanceVariationVanderWielAttackDreyevDefense_B12 = 'CaroKannDefenseAdvanceVariationVanderWielAttackDreyevDefense_B12',
+  QueensIndianDefenseClassicalVariationTiviakovDefense_E17 = 'QueensIndianDefenseClassicalVariationTiviakovDefense_E17',
+  IndianGameCzechIndian_A46 = 'IndianGameCzechIndian_A46',
+  MikenasDefenseLithuanianVariation_A40 = 'MikenasDefenseLithuanianVariation_A40',
+  GruenfeldDefenseExchangeVariationSpasskyVariation_D89 = 'GruenfeldDefenseExchangeVariationSpasskyVariation_D89',
+  BishopsOpeningBoiVariation_C20 = 'BishopsOpeningBoiVariation_C20',
+  SpanishGameBerlinDefenseHedgehogVariation_C66 = 'SpanishGameBerlinDefenseHedgehogVariation_C66',
+  EnglishOpeningKingsEnglishVariationBremenHortVariation_A25 = 'EnglishOpeningKingsEnglishVariationBremenHortVariation_A25',
+  SicilianDefenseSnyderVariationQueenFianchettoVariation_B20 = 'SicilianDefenseSnyderVariationQueenFianchettoVariation_B20',
+  SicilianDefenseClosedVariationBotvinnikDefenseII_B25 = 'SicilianDefenseClosedVariationBotvinnikDefenseII_B25',
+  ViennaGameViennaGambit_C25 = 'ViennaGameViennaGambit_C25',
+  SicilianDefenseScheveningenVariationModernVariation_2_B83 = 'SicilianDefenseScheveningenVariationModernVariation_2_B83',
+  PircDefenseClassicalVariation_2_B07 = 'PircDefenseClassicalVariation_2_B07',
+  SemiSlavDefenseMeranVariationBlumenfeldVariation_D49 = 'SemiSlavDefenseMeranVariationBlumenfeldVariation_D49',
+  BenoniDefenseFianchettoVariationHastingsDefense_A63 = 'BenoniDefenseFianchettoVariationHastingsDefense_A63',
+  SpanishGameClosedVariationsMorphyAttack_C78 = 'SpanishGameClosedVariationsMorphyAttack_C78',
+  QueensGambitAcceptedClassicalDefenseAlekhineSystem_D28 = 'QueensGambitAcceptedClassicalDefenseAlekhineSystem_D28',
+  FrenchDefenseMacCutcheonVariationDrOllandDutchVariation_C12 = 'FrenchDefenseMacCutcheonVariationDrOllandDutchVariation_C12',
+  GruenfeldDefenseExchangeVariationSokolskyVariation_D89 = 'GruenfeldDefenseExchangeVariationSokolskyVariation_D89',
+  SpanishGameMorphyDefenseModernSteinitzDefense_2_C74 = 'SpanishGameMorphyDefenseModernSteinitzDefense_2_C74',
+  BudapestDefenseAlekhineVariation_A52 = 'BudapestDefenseAlekhineVariation_A52',
+  EnglishOpeningAngloIndianDefenseSlavFormation_A15 = 'EnglishOpeningAngloIndianDefenseSlavFormation_A15',
+  SicilianDefenseVeniceAttack_B56 = 'SicilianDefenseVeniceAttack_B56',
+  SpanishGameBerlinDefenseRiodeJaneiroVariation_C67 = 'SpanishGameBerlinDefenseRiodeJaneiroVariation_C67',
+  BlackmarDiemerGambitTeichmannVariation_D00 = 'BlackmarDiemerGambitTeichmannVariation_D00',
+  ViennaGameStanleyVariationReversedSpanish_C26 = 'ViennaGameStanleyVariationReversedSpanish_C26',
+  PolishOpeningZukertortSystem_A04 = 'PolishOpeningZukertortSystem_A04',
+  GrobOpeningGrobGambitFritzGambit_A00 = 'GrobOpeningGrobGambitFritzGambit_A00',
+  AlekhineDefenseFourPawnsAttackTrifunovicVariation_B03 = 'AlekhineDefenseFourPawnsAttackTrifunovicVariation_B03',
+  MiesesOpeningReversedRat_A00 = 'MiesesOpeningReversedRat_A00',
+  EnglishOpeningAngloIndianDefenseFlohrMikenasCarlsVariation_A19 = 'EnglishOpeningAngloIndianDefenseFlohrMikenasCarlsVariation_A19',
+  SpanishGameOpenVariations_C80 = 'SpanishGameOpenVariations_C80',
+  KingPawnGameGeneral_C20 = 'KingPawnGameGeneral_C20',
+  DutchDefenseKrejcikGambit_A80 = 'DutchDefenseKrejcikGambit_A80',
+  DutchDefenseClassicalVariationIlyinZhenevskyVariationModernMainLine_A99 = 'DutchDefenseClassicalVariationIlyinZhenevskyVariationModernMainLine_A99',
+  PolishOpeningKingsIndianVariationSokolskyAttack_A00 = 'PolishOpeningKingsIndianVariationSokolskyAttack_A00',
+  NimzowitschDefenseLeanVariationColoradoCounterAccepted_B00 = 'NimzowitschDefenseLeanVariationColoradoCounterAccepted_B00',
+  IndianGameColleSystemKingsIndianVariation_A48 = 'IndianGameColleSystemKingsIndianVariation_A48',
+  ScotchGameScotchGambitSarattVariation_C44 = 'ScotchGameScotchGambitSarattVariation_C44',
+  GruenfeldDefenseBotvinnikVariation_D95 = 'GruenfeldDefenseBotvinnikVariation_D95',
+  ItalianGameEvansGambitTartakowerAttack_C52 = 'ItalianGameEvansGambitTartakowerAttack_C52',
+  KingPawnGameTaylerOpening_C44 = 'KingPawnGameTaylerOpening_C44',
+  QueensGambitAcceptedAlekhineDefenseHaberditzVariation_D22 = 'QueensGambitAcceptedAlekhineDefenseHaberditzVariation_D22',
+  ItalianGameEvansGambitAnderssenVariation_C51 = 'ItalianGameEvansGambitAnderssenVariation_C51',
+  CenterGameAccepted_C21 = 'CenterGameAccepted_C21',
+  DutchDefenseClassicalVariationStonewallVariation_A94 = 'DutchDefenseClassicalVariationStonewallVariation_A94',
+  SpanishGameClosedVariationsBreyerDefense_C95 = 'SpanishGameClosedVariationsBreyerDefense_C95',
+  SicilianDefenseSmithMorraGambitAcceptedKanFormation_B21 = 'SicilianDefenseSmithMorraGambitAcceptedKanFormation_B21',
+  NimzowitschDefenseScandinavianVariationBogoljubowVariationVehreVariation_B00 = 'NimzowitschDefenseScandinavianVariationBogoljubowVariationVehreVariation_B00',
+  SicilianDefenseLaskerPelikanVariationSveshnikovVariationPeresypkinsSacrifice_B33 = 'SicilianDefenseLaskerPelikanVariationSveshnikovVariationPeresypkinsSacrifice_B33',
+  SpanishGameClassicalVariationCordelGambit_C64 = 'SpanishGameClassicalVariationCordelGambit_C64',
+  SpanishGameMorphyDefense_2_C78 = 'SpanishGameMorphyDefense_2_C78',
+  NimzoIndianDefenseClassicalVariationBerlinVariationMaciejaSystem_E39 = 'NimzoIndianDefenseClassicalVariationBerlinVariationMaciejaSystem_E39',
+  ScotchGameRomanishinVariation_C45 = 'ScotchGameRomanishinVariation_C45',
+  RubinsteinOpeningClassicalDefense_D05 = 'RubinsteinOpeningClassicalDefense_D05',
+  SicilianDefenseNimzoAmericanVariation_B32 = 'SicilianDefenseNimzoAmericanVariation_B32',
+  QueensGambitAcceptedDeferred_D25 = 'QueensGambitAcceptedDeferred_D25',
+  QueensGambitAcceptedSmyslovVariation_D25 = 'QueensGambitAcceptedSmyslovVariation_D25',
+  QueenPawnGameVeresovAttackTwoKnightsSystemGruenfeldDefense_D01 = 'QueenPawnGameVeresovAttackTwoKnightsSystemGruenfeldDefense_D01',
+  NimzoIndianDefenseNormalVariationTaimanovVariation_E40 = 'NimzoIndianDefenseNormalVariationTaimanovVariation_E40',
+  SicilianDefenseNimzowitschVariationGeneral_B29 = 'SicilianDefenseNimzowitschVariationGeneral_B29',
+  ItalianGameTwoKnightsDefenseFriedLiverAttack_C57 = 'ItalianGameTwoKnightsDefenseFriedLiverAttack_C57',
+  QueensIndianDefenseEuweVariation_E17 = 'QueensIndianDefenseEuweVariation_E17',
+  NimzowitschDefenseFrenchConnection_B00 = 'NimzowitschDefenseFrenchConnection_B00',
+  RetiOpeningReversedBlumenfeldGambit_A09 = 'RetiOpeningReversedBlumenfeldGambit_A09',
+  ScotchGameGoringGambitDoublePawnSacrifice_C44 = 'ScotchGameGoringGambitDoublePawnSacrifice_C44',
+  SicilianDefenseDelayedAlapinBasmanPalatnikDoubleGambit_B50 = 'SicilianDefenseDelayedAlapinBasmanPalatnikDoubleGambit_B50',
+  SicilianDefenseDragonVariationClassicalVariation_2_B72 = 'SicilianDefenseDragonVariationClassicalVariation_2_B72',
+  BishopsOpeningBodenKieseritskyGambit_C27 = 'BishopsOpeningBodenKieseritskyGambit_C27',
+  SpanishGameCozioDefensePaulsenVariation_C60 = 'SpanishGameCozioDefensePaulsenVariation_C60',
+  NimzowitschDefenseFrancoNimzowitschVariation_B00 = 'NimzowitschDefenseFrancoNimzowitschVariation_B00',
+  FrenchDefenseWinawerVariationFingerslipVariation_C15 = 'FrenchDefenseWinawerVariationFingerslipVariation_C15',
+  FourKnightsGameScotchVariationKrauseGambit_C47 = 'FourKnightsGameScotchVariationKrauseGambit_C47',
+  SemiSlavDefenseBotvinnikSystemEkstromVariation_D44 = 'SemiSlavDefenseBotvinnikSystemEkstromVariation_D44',
+  SpanishGameSchliemannDefenseExchangeVariation_C63 = 'SpanishGameSchliemannDefenseExchangeVariation_C63',
+  SlavDefenseExchangeVariationSchalloppVariation_D12 = 'SlavDefenseExchangeVariationSchalloppVariation_D12',
+  ScotchGameTartakowerVariation_C45 = 'ScotchGameTartakowerVariation_C45',
+  KingsGambitFalkbeerCountergambitModernTransfer_C32 = 'KingsGambitFalkbeerCountergambitModernTransfer_C32',
+  KingsIndianDefenseNormalVariationDeferredFianchetto_E72 = 'KingsIndianDefenseNormalVariationDeferredFianchetto_E72',
+  EnglishOpeningKingsEnglishVariationNimzowitschVariationGeneral_A20 = 'EnglishOpeningKingsEnglishVariationNimzowitschVariationGeneral_A20',
+  SpanishGameClosedVariationsBorisenkoVariation_C96 = 'SpanishGameClosedVariationsBorisenkoVariation_C96',
+  GrobOpeningGrobGambitDeclined_A00 = 'GrobOpeningGrobGambitDeclined_A00',
+  BudapestDefenseAlekhineVariationAbonyiVariation_A52 = 'BudapestDefenseAlekhineVariationAbonyiVariation_A52',
+  DutchDefenseStauntonGambitChigorinVariation_A83 = 'DutchDefenseStauntonGambitChigorinVariation_A83',
+  PonzianiOpeningSteinitzVariation_C44 = 'PonzianiOpeningSteinitzVariation_C44',
+  SpanishGameMorphyDefenseGrazVariation_C70 = 'SpanishGameMorphyDefenseGrazVariation_C70',
+  EnglundGambitComplexHartlaubCharlickGambit_A40 = 'EnglundGambitComplexHartlaubCharlickGambit_A40',
+  RetiOpeningAngloSlavVariationBledVariation_A12 = 'RetiOpeningAngloSlavVariationBledVariation_A12',
+  EnglishOpeningAngloIndianDefenseScandinavianDefense_A15 = 'EnglishOpeningAngloIndianDefenseScandinavianDefense_A15',
+  SicilianDefenseMarshallGambit_B23 = 'SicilianDefenseMarshallGambit_B23',
+  SicilianDefenseCanalAttackMoscowGambit_B51 = 'SicilianDefenseCanalAttackMoscowGambit_B51',
+  AlekhineDefenseBrooklynVariation_B02 = 'AlekhineDefenseBrooklynVariation_B02',
+  CaroKannDefenseMaroczyVariationMaroczyGambit_B12 = 'CaroKannDefenseMaroczyVariationMaroczyGambit_B12',
+  SpanishGameClosedVariationsClosedDefense_C90 = 'SpanishGameClosedVariationsClosedDefense_C90',
+  KingsIndianDefenseOrthodoxVariationPositionalDefenseMainLine_E96 = 'KingsIndianDefenseOrthodoxVariationPositionalDefenseMainLine_E96',
+  QueensGambitDeclinedLaskerDefenseMainLine_D57 = 'QueensGambitDeclinedLaskerDefenseMainLine_D57',
+  QueensIndianDefenseKasparovPetrosianVariationRomanishinAttack_E12 = 'QueensIndianDefenseKasparovPetrosianVariationRomanishinAttack_E12',
+  QueensGambitRefusedAlbinCountergambitFianchettoVariationBe6Line_D09 = 'QueensGambitRefusedAlbinCountergambitFianchettoVariationBe6Line_D09',
+  KingsGambitDeclinedQueensKnightDefense_C30 = 'KingsGambitDeclinedQueensKnightDefense_C30',
+  KingsGambitAcceptedBonschOsmolovskyVariation_C34 = 'KingsGambitAcceptedBonschOsmolovskyVariation_C34',
+  TarraschDefenseClassicalVariationEndgameVariation_D34 = 'TarraschDefenseClassicalVariationEndgameVariation_D34',
+  QueenPawnGameAngloSlavOpening_A41 = 'QueenPawnGameAngloSlavOpening_A41',
+  PterodactylDefenseEasternPterodactyl_B06 = 'PterodactylDefenseEasternPterodactyl_B06',
+  NeoGruenfeldDefenseClassicalVariation_D77 = 'NeoGruenfeldDefenseClassicalVariation_D77',
+  SemiSlavDefenseRomihVariation_D46 = 'SemiSlavDefenseRomihVariation_D46',
+  QueensGambitRefusedChigorinDefenseLazardGambit_D06 = 'QueensGambitRefusedChigorinDefenseLazardGambit_D06',
+  BenoniDefenseClassicalVariationTraditionalVariation_A72 = 'BenoniDefenseClassicalVariationTraditionalVariation_A72',
+  SicilianDefenseAlapinVariationStoltzAttackIvanchukLine_B22 = 'SicilianDefenseAlapinVariationStoltzAttackIvanchukLine_B22',
+  ItalianGameClassicalVariationDelaBourdonnaisVariation_C53 = 'ItalianGameClassicalVariationDelaBourdonnaisVariation_C53',
+  SicilianDefenseSmithMorraGambitDeclinedDuboisVariation_B21 = 'SicilianDefenseSmithMorraGambitDeclinedDuboisVariation_B21',
+  DutchDefenseBlackburneVariation_A81 = 'DutchDefenseBlackburneVariation_A81',
+  LionDefenseBayonetAttack_B07 = 'LionDefenseBayonetAttack_B07',
+  AlekhineDefenseHuntVariationLaskerSimulGambit_B02 = 'AlekhineDefenseHuntVariationLaskerSimulGambit_B02',
+  FrenchDefenseAdvanceVariationNimzowitschAttack_C02 = 'FrenchDefenseAdvanceVariationNimzowitschAttack_C02',
+  QueensGambitAcceptedClassicalDefenseSteinitzVariationExchangeVariation_D26 = 'QueensGambitAcceptedClassicalDefenseSteinitzVariationExchangeVariation_D26',
+  PolishOpeningSchifflerSokolskyVariation_A00 = 'PolishOpeningSchifflerSokolskyVariation_A00',
+  PolishOpeningKingsIndianVariation_A00 = 'PolishOpeningKingsIndianVariation_A00',
+  FrenchDefenseTarraschVariationLeningradVariation_C06 = 'FrenchDefenseTarraschVariationLeningradVariation_C06',
+  FrenchDefenseClassicalVariationRichterAttack_1_C13 = 'FrenchDefenseClassicalVariationRichterAttack_1_C13',
+  ScandinavianDefenseModernVariation_2_B01 = 'ScandinavianDefenseModernVariation_2_B01',
+  FrenchDefenseClassicalVariation_C11 = 'FrenchDefenseClassicalVariation_C11',
+  EnglishOpeningAngloIndianDefenseRomanishinVariation_A11 = 'EnglishOpeningAngloIndianDefenseRomanishinVariation_A11',
+  QueenPawnGameLevitskyAttackEuweVariationModernLine_D00 = 'QueenPawnGameLevitskyAttackEuweVariationModernLine_D00',
+  OldIndianDefenseJanowskiVariationMainLine_A53 = 'OldIndianDefenseJanowskiVariationMainLine_A53',
+  SemiSlavDefenseStoltzVariationCenterVariation_D45 = 'SemiSlavDefenseStoltzVariationCenterVariation_D45',
+  NimzoIndianDefenseSaemischVariationCapablancaVariation_E29 = 'NimzoIndianDefenseSaemischVariationCapablancaVariation_E29',
+  SicilianDefenseDragonVariationClassicalVariationMaroczyLine_B74 = 'SicilianDefenseDragonVariationClassicalVariationMaroczyLine_B74',
+  QueensGambitRefusedAlbinCountergambitFianchettoVariationBg4Line_D09 = 'QueensGambitRefusedAlbinCountergambitFianchettoVariationBg4Line_D09',
+  SicilianDefenseModernVariationsAntiQxd4MoveOrderAccepted_B50 = 'SicilianDefenseModernVariationsAntiQxd4MoveOrderAccepted_B50',
+  DutchDefenseAlekhineVariation_A92 = 'DutchDefenseAlekhineVariation_A92',
+  KingsGambitAcceptedCunninghamDefense_C35 = 'KingsGambitAcceptedCunninghamDefense_C35',
+  BenoniDefenseClassicalVariationCzerniakDefense_A78 = 'BenoniDefenseClassicalVariationCzerniakDefense_A78',
+  ItalianGameScotchGambitDeRiviereDefense_C55 = 'ItalianGameScotchGambitDeRiviereDefense_C55',
+  EnglundGambitComplexGeneral_A40 = 'EnglundGambitComplexGeneral_A40',
+  NimzoIndianDefenseRomanishinVariation_2_E20 = 'NimzoIndianDefenseRomanishinVariation_2_E20',
+  PterodactylDefenseMiscellanyQueenPterodactylQuiet_A40 = 'PterodactylDefenseMiscellanyQueenPterodactylQuiet_A40',
+  BenoniDefenseVultureDefense_A56 = 'BenoniDefenseVultureDefense_A56',
+  ModernDefenseModernPterodactyl_B06 = 'ModernDefenseModernPterodactyl_B06',
+  QueensGambitDeclinedOrthodoxDefenseRubinsteinVariationFlohrLine_D62 = 'QueensGambitDeclinedOrthodoxDefenseRubinsteinVariationFlohrLine_D62',
+  SicilianDefenseWingGambitDeferredVariation_B50 = 'SicilianDefenseWingGambitDeferredVariation_B50',
+  QueensGambitDeclinedSemiTarraschDefensePillsburyVariation_D40 = 'QueensGambitDeclinedSemiTarraschDefensePillsburyVariation_D40',
+  VanGeetOpeningSicilianTwoKnights_A00 = 'VanGeetOpeningSicilianTwoKnights_A00',
+  SicilianDefenseSmithMorraGambitAcceptedPinDefense_B21 = 'SicilianDefenseSmithMorraGambitAcceptedPinDefense_B21',
+  QueensGambitRefusedChigorinDefenseExchangeVariationCostasLine_D07 = 'QueensGambitRefusedChigorinDefenseExchangeVariationCostasLine_D07',
+  KingsIndianDefenseFianchettoVariationPterodactylVariation_E64 = 'KingsIndianDefenseFianchettoVariationPterodactylVariation_E64',
+  FrenchDefenseMacCutcheonVariationChigorinVariation_C12 = 'FrenchDefenseMacCutcheonVariationChigorinVariation_C12',
+  PhilidorDefenseHanhamVariationKrauseVariation_C41 = 'PhilidorDefenseHanhamVariationKrauseVariation_C41',
+  SemiSlavDefenseMainLines_D46 = 'SemiSlavDefenseMainLines_D46',
+  SpanishGameClosedVariationsKeresDefense_2_C92 = 'SpanishGameClosedVariationsKeresDefense_2_C92',
+  DutchDefenseClassicalVariationStonewallVariationBotvinnikVariation_A93 = 'DutchDefenseClassicalVariationStonewallVariationBotvinnikVariation_A93',
+  RetiOpeningAdvanceVariationMichelGambit_A09 = 'RetiOpeningAdvanceVariationMichelGambit_A09',
+  NimzowitschDefenseKennedyVariationPaulsenAttack_B00 = 'NimzowitschDefenseKennedyVariationPaulsenAttack_B00',
+  SicilianDefenseMorphyGambit_B21 = 'SicilianDefenseMorphyGambit_B21',
+  ScotchGameSchmidGambit_C44 = 'ScotchGameSchmidGambit_C44',
+  RussianGameKarklinsMartinovskyVariation_C42 = 'RussianGameKarklinsMartinovskyVariation_C42',
+  SlavDefenseSuchtingVariation_D15 = 'SlavDefenseSuchtingVariation_D15',
+  DutchDefenseStonewallVariationGeneralVariation_A92 = 'DutchDefenseStonewallVariationGeneralVariation_A92',
+  DutchDefenseClassicalVariationIlyinZhenevskyVariationAlatortsevLisitsynLine_A98 = 'DutchDefenseClassicalVariationIlyinZhenevskyVariationAlatortsevLisitsynLine_A98',
+  FrenchDefenseRetiSpielmannAttack_C00 = 'FrenchDefenseRetiSpielmannAttack_C00',
+  GrobOpeningKeeneDefense_A00 = 'GrobOpeningKeeneDefense_A00',
+  QueensGambitDeclinedHarrwitzAttackMainLineNewMainLine_D37 = 'QueensGambitDeclinedHarrwitzAttackMainLineNewMainLine_D37',
+  NimzoIndianDefenseRagozinDefense_E46 = 'NimzoIndianDefenseRagozinDefense_E46',
+  GruenfeldDefenseRussianVariationWithe4_D97 = 'GruenfeldDefenseRussianVariationWithe4_D97',
+  LatvianGambitAcceptedBilguerVariation_C40 = 'LatvianGambitAcceptedBilguerVariation_C40',
+  BenoniDefenseWeeninkVariation_A56 = 'BenoniDefenseWeeninkVariation_A56',
+  PhilidorDefenseLionVariationLionsClawII_C41 = 'PhilidorDefenseLionVariationLionsClawII_C41',
+  KingsGambitFalkbeerCountergambitCharousekGambitAccepted_C32 = 'KingsGambitFalkbeerCountergambitCharousekGambitAccepted_C32',
+  SpanishGameClosedVariationsTrajkovicCounterattack_C88 = 'SpanishGameClosedVariationsTrajkovicCounterattack_C88',
+  CaroKannDefenseGurgenidzeCounterattack_B15 = 'CaroKannDefenseGurgenidzeCounterattack_B15',
+  PhilidorDefenseHanhamVariationSchlechterVariation_C41 = 'PhilidorDefenseHanhamVariationSchlechterVariation_C41',
+  ItalianGameSchillingKosticGambit_C50 = 'ItalianGameSchillingKosticGambit_C50',
+  SicilianDefenseWingGambitCarlsbadVariation_B20 = 'SicilianDefenseWingGambitCarlsbadVariation_B20',
+  QueensGambitAcceptedGunsbergDefensePrianishenmoGambit_D24 = 'QueensGambitAcceptedGunsbergDefensePrianishenmoGambit_D24',
+  SicilianDefenseDragonVariationYugoslavAttack_2_B77 = 'SicilianDefenseDragonVariationYugoslavAttack_2_B77',
+  TarraschDefenseClassicalVariationClassicalTarraschGambit_D34 = 'TarraschDefenseClassicalVariationClassicalTarraschGambit_D34',
+  ScandinavianDefenseBlackburneGambit_B01 = 'ScandinavianDefenseBlackburneGambit_B01',
+  ZukertortOpeningSantasieresFolly_A06 = 'ZukertortOpeningSantasieresFolly_A06',
+  ScotchGameClassicalVariationMillenniumVariation_C45 = 'ScotchGameClassicalVariationMillenniumVariation_C45',
+  EnglishDefensePerrinVariation_A40 = 'EnglishDefensePerrinVariation_A40',
+  NimzowitschDefenseScandinavianVariationBogoljubowVariationNimzowitschGambit_B00 = 'NimzowitschDefenseScandinavianVariationBogoljubowVariationNimzowitschGambit_B00',
+  EnglishOpeningDrillVariation_A20 = 'EnglishOpeningDrillVariation_A20',
+  ModernDefenseSemiAverbakhVariationPterodactylVariation_B06 = 'ModernDefenseSemiAverbakhVariationPterodactylVariation_B06',
+  CaroKannDefenseEuweAttack_B10 = 'CaroKannDefenseEuweAttack_B10',
+  SicilianDefenseOKellyVariationVeniceSystemBarczaLine_B28 = 'SicilianDefenseOKellyVariationVeniceSystemBarczaLine_B28',
+  KingsGambitAcceptedBishopsGambitBogoljubowDefense_C33 = 'KingsGambitAcceptedBishopsGambitBogoljubowDefense_C33',
+  CaroKannDefenseClassicalVariationMaroczyAttack_B18 = 'CaroKannDefenseClassicalVariationMaroczyAttack_B18',
+  PircDefenseAustrianAttackUnzickerAttackBronsteinVariation_B09 = 'PircDefenseAustrianAttackUnzickerAttackBronsteinVariation_B09',
+  SpanishGameExchangeVariationLutikovVariation_C68 = 'SpanishGameExchangeVariationLutikovVariation_C68',
+  WareOpeningGeneral_A00 = 'WareOpeningGeneral_A00',
+  NimzoIndianDefenseNormalVariationSaemischDeferred_E51 = 'NimzoIndianDefenseNormalVariationSaemischDeferred_E51',
+  FrenchDefenseClassicalVariationRubinsteinVariation_C14 = 'FrenchDefenseClassicalVariationRubinsteinVariation_C14',
+  KingsIndianDefenseFianchettoVariationHungarianVariation_E64 = 'KingsIndianDefenseFianchettoVariationHungarianVariation_E64',
+  RetiOpeningAngloSlavVariationBogoljubowVariation_A12 = 'RetiOpeningAngloSlavVariationBogoljubowVariation_A12',
+  NimzoLarsenAttackDutchVariation_A01 = 'NimzoLarsenAttackDutchVariation_A01',
+  GruenfeldDefenseExchangeVariationSevilleVariation_D87 = 'GruenfeldDefenseExchangeVariationSevilleVariation_D87',
+  ScotchGameHorwitzAttack_C45 = 'ScotchGameHorwitzAttack_C45',
+  ItalianGameTwoKnightsDefensePolerioDefenseKieseritskyVariation_C58 = 'ItalianGameTwoKnightsDefensePolerioDefenseKieseritskyVariation_C58',
+  LondonSystemPoisonedPawnVariation_D02 = 'LondonSystemPoisonedPawnVariation_D02',
+  PolishOpeningBalticDefense_A00 = 'PolishOpeningBalticDefense_A00',
+  GruenfeldDefenseExchangeVariationModernExchangeVariationPawnGrabline_D85 = 'GruenfeldDefenseExchangeVariationModernExchangeVariationPawnGrabline_D85',
+  ItalianGameEvansGambitPierceDefense_C52 = 'ItalianGameEvansGambitPierceDefense_C52',
+  QueensGambitDeclinedTarraschDefensePseudoTarraschBishopAttack_D30 = 'QueensGambitDeclinedTarraschDefensePseudoTarraschBishopAttack_D30',
+  PterodactylDefenseEasternAnhanguera_B06 = 'PterodactylDefenseEasternAnhanguera_B06',
+  FrenchDefenseWinawerVariationAlekhineGambitAccepted_C15 = 'FrenchDefenseWinawerVariationAlekhineGambitAccepted_C15',
+  KingsIndianDefenseFianchettoVariationPannoVariationDonnerLine_E63 = 'KingsIndianDefenseFianchettoVariationPannoVariationDonnerLine_E63',
+  RussianGameCochraneGambitCenterVariation_C42 = 'RussianGameCochraneGambitCenterVariation_C42',
+  ItalianGameScotchGambitWalbrodtBairdGambit_C55 = 'ItalianGameScotchGambitWalbrodtBairdGambit_C55',
+  HungarianOpeningCatalanFormation_A00 = 'HungarianOpeningCatalanFormation_A00',
+  SpanishGameOpenVariationsRigaVariation_C80 = 'SpanishGameOpenVariationsRigaVariation_C80',
+  QueensGambitDeclinedOrthodoxDefenseAlekhineVariation_D67 = 'QueensGambitDeclinedOrthodoxDefenseAlekhineVariation_D67',
+  FrenchDefenseAlapinGambit_C00 = 'FrenchDefenseAlapinGambit_C00',
+  EnglishOpeningAngloIndianDefenseZviagintsevKrasenkovAttack_A18 = 'EnglishOpeningAngloIndianDefenseZviagintsevKrasenkovAttack_A18',
+  QueensIndianDefenseKasparovPetrosianVariation_E17 = 'QueensIndianDefenseKasparovPetrosianVariation_E17',
+  QueensGambitDeclinedOrthodoxDefenseMainLine_D67 = 'QueensGambitDeclinedOrthodoxDefenseMainLine_D67',
+  FrenchDefenseClassicalVariationAlapinVariation_C14 = 'FrenchDefenseClassicalVariationAlapinVariation_C14',
+  SemiSlavDefenseSemiMeranVariation_D47 = 'SemiSlavDefenseSemiMeranVariation_D47',
+  ViennaGameViennaGambitSteinitzGambitKnightVariation_C25 = 'ViennaGameViennaGambitSteinitzGambitKnightVariation_C25',
+  FrenchDefenseAdvanceVariationNimzowitschGambit_C02 = 'FrenchDefenseAdvanceVariationNimzowitschGambit_C02',
+  DutchDefenseClassicalVariationBlackburneAttack_A91 = 'DutchDefenseClassicalVariationBlackburneAttack_A91',
+  QueensGambitAcceptedClassicalDefenseRussianGambit_D27 = 'QueensGambitAcceptedClassicalDefenseRussianGambit_D27',
+  SicilianDefenseMarshallCounterattack_B40 = 'SicilianDefenseMarshallCounterattack_B40',
+  FrenchDefenseClassicalVariationTartakowerVariation_C13 = 'FrenchDefenseClassicalVariationTartakowerVariation_C13',
+  DutchDefenseBlackmarsSecondGambit_A80 = 'DutchDefenseBlackmarsSecondGambit_A80',
+  SicilianDefenseSmithMorraGambitAcceptedFianchettoDefense_B21 = 'SicilianDefenseSmithMorraGambitAcceptedFianchettoDefense_B21',
+  NimzoIndianDefenseSaemischVariationOKellyVariation_E26 = 'NimzoIndianDefenseSaemischVariationOKellyVariation_E26',
+  GruenfeldDefenseZaitsevGambit_D80 = 'GruenfeldDefenseZaitsevGambit_D80',
+  AlekhineDefenseModernVariationKeresVariation_B04 = 'AlekhineDefenseModernVariationKeresVariation_B04',
+  EnglishOpeningKingsEnglishVariationNimzowitschFlohrVariation_A20 = 'EnglishOpeningKingsEnglishVariationNimzowitschFlohrVariation_A20',
+  SicilianDefenseClosedVariationBotvinnikDefenseIEdgeVariation_B25 = 'SicilianDefenseClosedVariationBotvinnikDefenseIEdgeVariation_B25',
+  KingsIndianDefenseOrthodoxVariationKorchnoiAttack_E97 = 'KingsIndianDefenseOrthodoxVariationKorchnoiAttack_E97',
+  SicilianDefenseScheveningenVariationClassicalVariationPaulsenVariation_2_B85 = 'SicilianDefenseScheveningenVariationClassicalVariationPaulsenVariation_2_B85',
+  QueensGambitDeclinedOrthodoxDefenseClassicalVariation_1_D68 = 'QueensGambitDeclinedOrthodoxDefenseClassicalVariation_1_D68',
+  SicilianDefenseOKellyVariationQuietSystem_B28 = 'SicilianDefenseOKellyVariationQuietSystem_B28',
+  KingsIndianDefenseFourPawnsAttackGeneral_E77 = 'KingsIndianDefenseFourPawnsAttackGeneral_E77',
+  HungarianOpeningReversedModernDefense_A00 = 'HungarianOpeningReversedModernDefense_A00',
+  QueenPawnGameHubschGambit_D00 = 'QueenPawnGameHubschGambit_D00',
+  FrenchDefenseWinawerVariationMaroczyWallisVariation_C18 = 'FrenchDefenseWinawerVariationMaroczyWallisVariation_C18',
+  QueensGambitDeclinedNeoOrthodoxVariation_D54 = 'QueensGambitDeclinedNeoOrthodoxVariation_D54',
+  ZukertortOpeningTennisonGambit_A06 = 'ZukertortOpeningTennisonGambit_A06',
+  ModernDefenseImprovedMaroczy_B06 = 'ModernDefenseImprovedMaroczy_B06',
+  ScandinavianDefenseAnderssenCounterattack_B01 = 'ScandinavianDefenseAnderssenCounterattack_B01',
+  ItalianGameTwoKnightsDefenseTraxlerCounterattackBishopsacline_C57 = 'ItalianGameTwoKnightsDefenseTraxlerCounterattackBishopsacline_C57',
+  KingsIndianDefenseOrthodoxVariation_E92 = 'KingsIndianDefenseOrthodoxVariation_E92',
+  SicilianDefensePaulsenVariationAmericanAttack_B45 = 'SicilianDefensePaulsenVariationAmericanAttack_B45',
+  ViennaGameStanleyVariationMonsterDeclined_C27 = 'ViennaGameStanleyVariationMonsterDeclined_C27',
+  KingsIndianDefenseAverbakhVariationBenoniDefenseExchangeVariation_E74 = 'KingsIndianDefenseAverbakhVariationBenoniDefenseExchangeVariation_E74',
+  SicilianDefenseNyezhmetdinovRossolimoAttackFianchettoVariationLutikovGambit_B31 = 'SicilianDefenseNyezhmetdinovRossolimoAttackFianchettoVariationLutikovGambit_B31',
+  SicilianDefenseWingGambitAbrahamsVariation_B20 = 'SicilianDefenseWingGambitAbrahamsVariation_B20',
+  KingsIndianDefensePomarSystem_E72 = 'KingsIndianDefensePomarSystem_E72',
+  FourKnightsGameRankenVariation_C48 = 'FourKnightsGameRankenVariation_C48',
+  SicilianDefenseGawPawVariation_B40 = 'SicilianDefenseGawPawVariation_B40',
+  FrenchDefenseClassicalVariationNormalVariation_C13 = 'FrenchDefenseClassicalVariationNormalVariation_C13',
+  RussianGameClassicalAttackChigorinVariationBrowneAttack_C42 = 'RussianGameClassicalAttackChigorinVariationBrowneAttack_C42',
+  SicilianDefenseClosedSicilianAntiSveshnikovVariationKharlovKramnikLine_B30 = 'SicilianDefenseClosedSicilianAntiSveshnikovVariationKharlovKramnikLine_B30',
+  KingsGambitAcceptedMacLeodDefense_C34 = 'KingsGambitAcceptedMacLeodDefense_C34',
+  QueensGambitDeclinedOrthodoxDefenseFianchettoVariation_D66 = 'QueensGambitDeclinedOrthodoxDefenseFianchettoVariation_D66',
+  FrenchDefenseSteinitzAttack_C00 = 'FrenchDefenseSteinitzAttack_C00',
+  TarraschDefenseClassicalVariationSpasskyVariation_D34 = 'TarraschDefenseClassicalVariationSpasskyVariation_D34',
+  KingsGambitAcceptedBeckerDefense_C34 = 'KingsGambitAcceptedBeckerDefense_C34',
+  BishopsOpeningPonzianiGambit_C24 = 'BishopsOpeningPonzianiGambit_C24',
+  ItalianGameClassicalVariationCenterHoldingVariation_C53 = 'ItalianGameClassicalVariationCenterHoldingVariation_C53',
+  SicilianDefenseNyezhmetdinovRossolimoAttackGurgenidzeVariation_B31 = 'SicilianDefenseNyezhmetdinovRossolimoAttackGurgenidzeVariation_B31',
+  PhilidorDefenseNimzowitschVariationRellstabVariation_C41 = 'PhilidorDefenseNimzowitschVariationRellstabVariation_C41',
+  BlackmarDiemerGambitEuweDefense_D00 = 'BlackmarDiemerGambitEuweDefense_D00',
+  PhilidorDefenseHanhamVariationSteinerVariation_C41 = 'PhilidorDefenseHanhamVariationSteinerVariation_C41',
+  BarnesOpeningGeneral_A00 = 'BarnesOpeningGeneral_A00',
+  OldIndianDefenseJanowskiVariationFianchettoVariation_2_A53 = 'OldIndianDefenseJanowskiVariationFianchettoVariation_2_A53',
+  EnglishOpeningKingsEnglishVariationFourKnightsVariationQuietLine_3_A28 = 'EnglishOpeningKingsEnglishVariationFourKnightsVariationQuietLine_3_A28',
+  ItalianGameScotchGambitMaxLangeAttackLongVariation_C55 = 'ItalianGameScotchGambitMaxLangeAttackLongVariation_C55',
+  StGeorgeDefenseNewStGeorgeTraditionalLine_B00 = 'StGeorgeDefenseNewStGeorgeTraditionalLine_B00',
+  SicilianDefenseAlapinVariationSherzerVariation_B22 = 'SicilianDefenseAlapinVariationSherzerVariation_B22',
+  FrenchDefenseRubinsteinVariationMaricVariation_C10 = 'FrenchDefenseRubinsteinVariationMaricVariation_C10',
+  BenkoGambitDeclinedPseudoSaemisch_A57 = 'BenkoGambitDeclinedPseudoSaemisch_A57',
+  QueenPawnOpeningVeresovAttackIrishGambit_D00 = 'QueenPawnOpeningVeresovAttackIrishGambit_D00',
+  EnglundGambitDeclinedReversedFrench_A40 = 'EnglundGambitDeclinedReversedFrench_A40',
+  NeoGruenfeldDefenseDelayedExchangeVariation_2_D75 = 'NeoGruenfeldDefenseDelayedExchangeVariation_2_D75',
+  KingsGambitAcceptedModernDefense_C36 = 'KingsGambitAcceptedModernDefense_C36',
+  SemiSlavDefenseNoteboomVariationAntiNoteboomGambit_D31 = 'SemiSlavDefenseNoteboomVariationAntiNoteboomGambit_D31',
+  SpanishGameMarshallAttackOriginalMarshallAttack_C89 = 'SpanishGameMarshallAttackOriginalMarshallAttack_C89',
+  SpanishGameClosedVariationsGeneral_C92 = 'SpanishGameClosedVariationsGeneral_C92',
+  ScandinavianDefenseMainLinesLeonhardtGambit_B01 = 'ScandinavianDefenseMainLinesLeonhardtGambit_B01',
+  ViennaGameStanleyVariationThreeKnightsVariation_C28 = 'ViennaGameStanleyVariationThreeKnightsVariation_C28',
+  FourKnightsGameScotchVariationKrauseGambitLeonhardtDefense_C47 = 'FourKnightsGameScotchVariationKrauseGambitLeonhardtDefense_C47',
+  FrenchDefenseClassicalVariationGeneralVariation_C14 = 'FrenchDefenseClassicalVariationGeneralVariation_C14',
+  EnglishOpeningAdorjanDefense_A10 = 'EnglishOpeningAdorjanDefense_A10',
+  ModernDefenseAverbakhVariationPseudoSaemisch_A42 = 'ModernDefenseAverbakhVariationPseudoSaemisch_A42',
+  DutchDefenseKorchnoiAttack_A80 = 'DutchDefenseKorchnoiAttack_A80',
+  FourKnightsGameSpanishVariationSymmetricalVariation_3_C49 = 'FourKnightsGameSpanishVariationSymmetricalVariation_3_C49',
+  KingsIndianDefenseOrthodoxVariationClassicalSystemTraditionalLine_E99 = 'KingsIndianDefenseOrthodoxVariationClassicalSystemTraditionalLine_E99',
+  ItalianGameEvansGambitStoneWareVariation_C51 = 'ItalianGameEvansGambitStoneWareVariation_C51',
+  AmarOpeningGeneral_A00 = 'AmarOpeningGeneral_A00',
+  BenoniDefenseMikenasVariation_A66 = 'BenoniDefenseMikenasVariation_A66',
+  SpanishGameOpenVariationsItalianVariation_C82 = 'SpanishGameOpenVariationsItalianVariation_C82',
+  ItalianGameEvansGambitMacDonnellDefense_C51 = 'ItalianGameEvansGambitMacDonnellDefense_C51',
+  KingsGambitAcceptedCunninghamDefenseMcCormickDefense_C35 = 'KingsGambitAcceptedCunninghamDefenseMcCormickDefense_C35',
+  DutchDefenseClassicalVariation_A92 = 'DutchDefenseClassicalVariation_A92',
+  BenoniDefenseClassicalVariationCzerniakDefense_A76 = 'BenoniDefenseClassicalVariationCzerniakDefense_A76',
+  ZukertortOpeningStGeorgeDefense_A04 = 'ZukertortOpeningStGeorgeDefense_A04',
+  SicilianDefenseOKellyVariation_B28 = 'SicilianDefenseOKellyVariation_B28',
+  QueensGambitDeclinedPseudoTarraschVariation_D50 = 'QueensGambitDeclinedPseudoTarraschVariation_D50',
+  CaroKannDefenseHillbillyAttack_B00 = 'CaroKannDefenseHillbillyAttack_B00',
+  PircDefenseChineseVariation_B07 = 'PircDefenseChineseVariation_B07',
+  KingsIndianDefenseSaemischVariationByrneDefense_E81 = 'KingsIndianDefenseSaemischVariationByrneDefense_E81',
+  CaroKannDefensePanovAttackModernDefenseCzerniakLine_B13 = 'CaroKannDefensePanovAttackModernDefenseCzerniakLine_B13',
+  KingsIndianDefenseFourPawnsAttackExchangeVariation_E79 = 'KingsIndianDefenseFourPawnsAttackExchangeVariation_E79',
+  SicilianDefenseNajdorfVariationGoteborgArgentine_B98 = 'SicilianDefenseNajdorfVariationGoteborgArgentine_B98',
+  QueensGambitRefusedChigorinDefenseJanowskiVariation_D07 = 'QueensGambitRefusedChigorinDefenseJanowskiVariation_D07',
+  SpanishGameAlapinDefense_C60 = 'SpanishGameAlapinDefense_C60',
+  SicilianDefenseNajdorfVariationPolugayevskyVariationSimaginLine_B96 = 'SicilianDefenseNajdorfVariationPolugayevskyVariationSimaginLine_B96',
+  FrenchDefenseAdvanceVariationExtendedBishopSwap_C02 = 'FrenchDefenseAdvanceVariationExtendedBishopSwap_C02',
+  GruenfeldDefenseBrinckmannAttackGrunfeldGambit_D83 = 'GruenfeldDefenseBrinckmannAttackGrunfeldGambit_D83',
+  SpanishGameBerlinDefenseNyholmAttack_C65 = 'SpanishGameBerlinDefenseNyholmAttack_C65',
+  ScotchGameMeitnerVariation_C45 = 'ScotchGameMeitnerVariation_C45',
+  FrenchDefenseAdvanceVariationRuisdonkGambit_C02 = 'FrenchDefenseAdvanceVariationRuisdonkGambit_C02',
+  SpanishGameBerlinDefenseClosedWolfVariation_C66 = 'SpanishGameBerlinDefenseClosedWolfVariation_C66',
+  IndianGameAntiGrunfeldAdvanceVariation_E60 = 'IndianGameAntiGrunfeldAdvanceVariation_E60',
+  QueensGambitAcceptedWinawerDefense_D25 = 'QueensGambitAcceptedWinawerDefense_D25',
+  EnglishOpeningAngloScandinavianDefenseGeneral_A10 = 'EnglishOpeningAngloScandinavianDefenseGeneral_A10',
+  PterodactylDefenseEasternPteronodon_B06 = 'PterodactylDefenseEasternPteronodon_B06',
+  BlackmarDiemerGambitViennaVariation_D00 = 'BlackmarDiemerGambitViennaVariation_D00',
+  KingsIndianDefenseSaemischVariationClosedVariationMainLine_E89 = 'KingsIndianDefenseSaemischVariationClosedVariationMainLine_E89',
+  DutchDefenseStauntonGambitAccepted_A82 = 'DutchDefenseStauntonGambitAccepted_A82',
+  AlekhineDefenseModernVariationPanovVariation_B05 = 'AlekhineDefenseModernVariationPanovVariation_B05',
+  KingsIndianDefenseOrthodoxVariationClassicalSystemKozulGambit_E99 = 'KingsIndianDefenseOrthodoxVariationClassicalSystemKozulGambit_E99',
+  QueensIndianDefenseFianchettoVariationCheckVariation_E15 = 'QueensIndianDefenseFianchettoVariationCheckVariation_E15',
+  SicilianDefenseNyezhmetdinovRossolimoAttackFianchettoVariationTotskyAttack_B31 = 'SicilianDefenseNyezhmetdinovRossolimoAttackFianchettoVariationTotskyAttack_B31',
+  ItalianGameEvansGambitMiesesDefense_C52 = 'ItalianGameEvansGambitMiesesDefense_C52',
+  SicilianDefensePaulsenVariationBastrikovVariationPonomariovGambit_B48 = 'SicilianDefensePaulsenVariationBastrikovVariationPonomariovGambit_B48',
+  BenoniDefenseClassicalVariationFullline_A74 = 'BenoniDefenseClassicalVariationFullline_A74',
+  ElephantGambitMaroczyGambit_C40 = 'ElephantGambitMaroczyGambit_C40',
+  EnglishOpeningAngloIndianDefenseFlohrMikenasCarlsVariation_3_A18 = 'EnglishOpeningAngloIndianDefenseFlohrMikenasCarlsVariation_3_A18',
+  ViennaGameViennaGambitBardelebenVariation_C29 = 'ViennaGameViennaGambitBardelebenVariation_C29',
+  CaroKannDefenseVonHennigGambit_B15 = 'CaroKannDefenseVonHennigGambit_B15',
+  RussianGameClassicalAttackBergerVariation_C42 = 'RussianGameClassicalAttackBergerVariation_C42',
+  FourKnightsGameJanowskiVariation_C49 = 'FourKnightsGameJanowskiVariation_C49',
+  BlumenfeldCountergambitSpielmannVariation_E10 = 'BlumenfeldCountergambitSpielmannVariation_E10',
+  NimzoIndianDefenseNormalVariationGligoricSystem_E53 = 'NimzoIndianDefenseNormalVariationGligoricSystem_E53',
+  SpanishGameSchleimannDefenseJaenischGambitAccepted_C60 = 'SpanishGameSchleimannDefenseJaenischGambitAccepted_C60',
+  SpanishGameSchliemannDefenseMohringVariation_C63 = 'SpanishGameSchliemannDefenseMohringVariation_C63',
+  NimzoIndianDefenseNormalVariationGligoricSystemKeresVariation_E53 = 'NimzoIndianDefenseNormalVariationGligoricSystemKeresVariation_E53',
+  RussianGameDamianoVariation_C42 = 'RussianGameDamianoVariation_C42',
+  ItalianGameScotchGambitNakhmansonGambit_C56 = 'ItalianGameScotchGambitNakhmansonGambit_C56',
+  ItalianGameClassicalVariationGrecoGambitMasonGambit_C54 = 'ItalianGameClassicalVariationGrecoGambitMasonGambit_C54',
+  KingsGambitAcceptedBishopsGambitBogoljubowVariation_C33 = 'KingsGambitAcceptedBishopsGambitBogoljubowVariation_C33',
+  KingsGambitFalkbeerCountergambitStauntonLine_C31 = 'KingsGambitFalkbeerCountergambitStauntonLine_C31',
+  SpanishGameOpenVariationsMotzkoAttackII_C82 = 'SpanishGameOpenVariationsMotzkoAttackII_C82',
+  FourKnightsGameSpanishVariationClassicalVariationMarshallGambit_C48 = 'FourKnightsGameSpanishVariationClassicalVariationMarshallGambit_C48',
+  QueensGambitDeclinedOrthodoxDefenseClassicalVariation_D69 = 'QueensGambitDeclinedOrthodoxDefenseClassicalVariation_D69',
+  FrenchDefenseWinawerVariationExchangeVariationCanalAttack_C01 = 'FrenchDefenseWinawerVariationExchangeVariationCanalAttack_C01',
+  SicilianDefenseMiscDefenses_B27 = 'SicilianDefenseMiscDefenses_B27',
+  SpanishGameClosedVariationsChigorinDefense_2_C98 = 'SpanishGameClosedVariationsChigorinDefense_2_C98',
+  SicilianDefenseScheveningenVariationDelayedKeresAttackPerenyiGambit_B81 = 'SicilianDefenseScheveningenVariationDelayedKeresAttackPerenyiGambit_B81',
+  QueensGambitAcceptedAcceleratedMannheimVariation_D20 = 'QueensGambitAcceptedAcceleratedMannheimVariation_D20',
+  PonzianiOpeningCaroGambit_C44 = 'PonzianiOpeningCaroGambit_C44',
+  GrobOpeningGrobGambit_A00 = 'GrobOpeningGrobGambit_A00',
+  KingsIndianDefenseFianchettoVariationPannoVariationKorchnoiLine_E63 = 'KingsIndianDefenseFianchettoVariationPannoVariationKorchnoiLine_E63',
+  LatvianGambitGeneral_C40 = 'LatvianGambitGeneral_C40',
+  EnglishOpeningAngloIndianDefenseQueensIndianVariation_A17 = 'EnglishOpeningAngloIndianDefenseQueensIndianVariation_A17',
+  ScandinavianDefenseKielVariation_B01 = 'ScandinavianDefenseKielVariation_B01',
+  SicilianDefenseDragonVariationLevenfishVariationMainLine_B71 = 'SicilianDefenseDragonVariationLevenfishVariationMainLine_B71',
+  SicilianDefenseDragonVariationClassicalVariationAlekhineLine_B74 = 'SicilianDefenseDragonVariationClassicalVariationAlekhineLine_B74',
+  ZukertortOpeningReversedMexicanDefense_A06 = 'ZukertortOpeningReversedMexicanDefense_A06',
+  ScotchGameClassicalVariationBlackburneAttack_C45 = 'ScotchGameClassicalVariationBlackburneAttack_C45',
+  SpanishGameOpenVariationsBerlinVariation_C82 = 'SpanishGameOpenVariationsBerlinVariation_C82',
+  KingsGambitFalkbeerCountergambitCharousekGambit_C31 = 'KingsGambitFalkbeerCountergambitCharousekGambit_C31',
+  PolishOpeningGermanDefense_A00 = 'PolishOpeningGermanDefense_A00',
+  FrenchDefenseClassicalVariationPollockVariation_C14 = 'FrenchDefenseClassicalVariationPollockVariation_C14',
+  FrenchDefenseAlekhineChatardAttackSpielmannVariation_C13 = 'FrenchDefenseAlekhineChatardAttackSpielmannVariation_C13',
+  ZukertortOpeningWadeDefenseChigorinPlan_A41 = 'ZukertortOpeningWadeDefenseChigorinPlan_A41',
+  PterodactylDefenseEasternRhamporhynchus_B06 = 'PterodactylDefenseEasternRhamporhynchus_B06',
+  BenkoGambitAcceptedCentralStormingVariation_A57 = 'BenkoGambitAcceptedCentralStormingVariation_A57',
+  KingsIndianDefenseAverbakhVariationSpanishDefense_E73 = 'KingsIndianDefenseAverbakhVariationSpanishDefense_E73',
+  QueensGambitRefusedChigorinDefenseTartakowerGambit_D06 = 'QueensGambitRefusedChigorinDefenseTartakowerGambit_D06',
+  KingPawnGameWaywardQueenAttack_C20 = 'KingPawnGameWaywardQueenAttack_C20',
+  AlekhineDefenseSpielmannGambit_B02 = 'AlekhineDefenseSpielmannGambit_B02',
+  PhilidorDefenseLionVariationBishopSac_C41 = 'PhilidorDefenseLionVariationBishopSac_C41',
+  BirdOpeningHorseflyDefense_A03 = 'BirdOpeningHorseflyDefense_A03',
+  SlavDefenseBonetGambit_D11 = 'SlavDefenseBonetGambit_D11',
+  EnglishOpeningKingsEnglishVariationBellonGambit_A22 = 'EnglishOpeningKingsEnglishVariationBellonGambit_A22',
+  ThreeKnightsOpeningSteinitzRosenthalVariation_C46 = 'ThreeKnightsOpeningSteinitzRosenthalVariation_C46',
+  ItalianGameClassicalVariationGrecoGambitMainLine_C54 = 'ItalianGameClassicalVariationGrecoGambitMainLine_C54',
+  BenkoGambitAcceptedYugoslavwith7Bxf1Nge2_A59 = 'BenkoGambitAcceptedYugoslavwith7Bxf1Nge2_A59',
+  QueensGambitAcceptedSaduletoVariation_D20 = 'QueensGambitAcceptedSaduletoVariation_D20',
+  FrenchDefenseMacCutcheonVariationBernsteinVariation_C12 = 'FrenchDefenseMacCutcheonVariationBernsteinVariation_C12',
+  PterodactylDefenseSicilianAnhanguera_B06 = 'PterodactylDefenseSicilianAnhanguera_B06',
+  BenoniDefensePawnStormVariation_A66 = 'BenoniDefensePawnStormVariation_A66',
+  QueensGambitRefusedBalticDefenseArgentinianGambit_D31 = 'QueensGambitRefusedBalticDefenseArgentinianGambit_D31',
+  FourKnightsGameHalloweenGambit_C46 = 'FourKnightsGameHalloweenGambit_C46',
+  NimzoIndianDefenseLeningradVariationAverbakhGambit_E30 = 'NimzoIndianDefenseLeningradVariationAverbakhGambit_E30',
+  TarraschDefensePragueVariationMainLine_D34 = 'TarraschDefensePragueVariationMainLine_D34',
+  SicilianDefenseOKellyVariationVeniceSystemGambitline_B28 = 'SicilianDefenseOKellyVariationVeniceSystemGambitline_B28',
+  SlavDefenseCzechVariation_D17 = 'SlavDefenseCzechVariation_D17',
+  FrenchDefenseWinawerVariationPoisonedPawnVariationPaoliVariation_C18 = 'FrenchDefenseWinawerVariationPoisonedPawnVariationPaoliVariation_C18',
+  ScandinavianDefenseGrunfeldVariation_B01 = 'ScandinavianDefenseGrunfeldVariation_B01',
+  GruenfeldDefenseBrinckmannAttackGrunfeldGambitBotvinnikVariation_D83 = 'GruenfeldDefenseBrinckmannAttackGrunfeldGambitBotvinnikVariation_D83',
+  FrenchDefenseOrthoschnappGambit_C00 = 'FrenchDefenseOrthoschnappGambit_C00',
+  ViennaGameOmahaGambit_C25 = 'ViennaGameOmahaGambit_C25',
+  QueensGambitDeclinedOrthodoxDefensePillsburyVariation_D63 = 'QueensGambitDeclinedOrthodoxDefensePillsburyVariation_D63',
+  SicilianDefenseChekhoverVariationZaitsevDefense_B53 = 'SicilianDefenseChekhoverVariationZaitsevDefense_B53',
+  KingsGambitAcceptedKieseritskyGambitKolischDefense_C39 = 'KingsGambitAcceptedKieseritskyGambitKolischDefense_C39',
+  ItalianGameTwoKnightsDefenseKnightAttackNormalVariation_C57 = 'ItalianGameTwoKnightsDefenseKnightAttackNormalVariation_C57',
+  ItalianGameScotchGambitDeclined_C55 = 'ItalianGameScotchGambitDeclined_C55',
+  SicilianDefenseFrancoScilianVariation_B32 = 'SicilianDefenseFrancoScilianVariation_B32',
+  ScotchGameGoringGambitMainLine_C44 = 'ScotchGameGoringGambitMainLine_C44',
+  IndianGamePalefaceAttack_A45 = 'IndianGamePalefaceAttack_A45',
+  DutchDefenseFianchettoVariation_A86 = 'DutchDefenseFianchettoVariation_A86',
+  CatalanOpeningOpenDefense_E03 = 'CatalanOpeningOpenDefense_E03',
+  PhilidorDefenseNimzowitschVariation_1_C41 = 'PhilidorDefenseNimzowitschVariation_1_C41',
+  GruenfeldDefenseBrinckmannAttackReshevskyGambit_D83 = 'GruenfeldDefenseBrinckmannAttackReshevskyGambit_D83',
+  SicilianDefenseScheveningenVariationVitolinsVariation_B80 = 'SicilianDefenseScheveningenVariationVitolinsVariation_B80',
+  ScotchGameScotchGambitDuboisRetiDefense_C44 = 'ScotchGameScotchGambitDuboisRetiDefense_C44',
+  KingsIndianDefenseAverbakhVariation6Nc6Defense_E73 = 'KingsIndianDefenseAverbakhVariation6Nc6Defense_E73',
+  BlackmarDiemerGambitDeclinedLangeheineckeDefense_D00 = 'BlackmarDiemerGambitDeclinedLangeheineckeDefense_D00',
+  KingsIndianDefenseFourPawnsAttackFlorentineGambit_E77 = 'KingsIndianDefenseFourPawnsAttackFlorentineGambit_E77',
+  SpanishGameMorphyDefenseWingAttack_C78 = 'SpanishGameMorphyDefenseWingAttack_C78',
+  KingsIndianDefensePetrosianVariationKeresDefense_E93 = 'KingsIndianDefensePetrosianVariationKeresDefense_E93',
+  QueensGambitDeclinedOrthodoxDefenseClassicalVariation_2_D68 = 'QueensGambitDeclinedOrthodoxDefenseClassicalVariation_2_D68',
+  SpanishGameBerlinDefenseMinckwitzVariation_C67 = 'SpanishGameBerlinDefenseMinckwitzVariation_C67',
+  ItalianGameEvansGambitMainLine_C52 = 'ItalianGameEvansGambitMainLine_C52',
+  SpanishGameMarshallAttackSteinerVariation_C89 = 'SpanishGameMarshallAttackSteinerVariation_C89',
+  PhilidorDefenseNimzowitschVariation_2_C41 = 'PhilidorDefenseNimzowitschVariation_2_C41',
+  QueensGambitDeclinedCapablancaVariation_D30 = 'QueensGambitDeclinedCapablancaVariation_D30',
+  FrenchDefenseReversedPhilidorFormation_C00 = 'FrenchDefenseReversedPhilidorFormation_C00',
+  DutchDefenseStauntonGambitLaskerVariation_A83 = 'DutchDefenseStauntonGambitLaskerVariation_A83',
+  SpanishGameMarshallAttackMainLine_C89 = 'SpanishGameMarshallAttackMainLine_C89',
+  QueensGambitAcceptedLinaresVariation_D20 = 'QueensGambitAcceptedLinaresVariation_D20',
+  PhilidorDefenseLionVariationSozinVariation_C41 = 'PhilidorDefenseLionVariationSozinVariation_C41',
+  RussianGameModernAttackSuchtingGambit_C43 = 'RussianGameModernAttackSuchtingGambit_C43',
+  BenkoGambitDeclinedBishopAttack_A57 = 'BenkoGambitDeclinedBishopAttack_A57',
+  LatvianGambitAcceptedLeonhardtVariation_C40 = 'LatvianGambitAcceptedLeonhardtVariation_C40',
+  QueensGambitDeclinedNeoOrthodoxVariation_D55 = 'QueensGambitDeclinedNeoOrthodoxVariation_D55',
+  QueenPawnGameTorreAttackGruenfeldVariation_D03 = 'QueenPawnGameTorreAttackGruenfeldVariation_D03',
+  CaroKannDefenseKarpovVariationModernVariationIvanchukDefense_B17 = 'CaroKannDefenseKarpovVariationModernVariationIvanchukDefense_B17',
+  BishopsOpeningBlanelGambit_C23 = 'BishopsOpeningBlanelGambit_C23',
+  SpanishGameBerlinDefenselHermetVariationWesterinenLine_C67 = 'SpanishGameBerlinDefenselHermetVariationWesterinenLine_C67',
+  NimzowitschDefenseScandinavianVariationBogoljubowVariation_B00 = 'NimzowitschDefenseScandinavianVariationBogoljubowVariation_B00',
+  QueensGambitDeclinedManhattanVariation_D51 = 'QueensGambitDeclinedManhattanVariation_D51',
+  GruenfeldDefenseRussianVariationSmyslovVariation_D99 = 'GruenfeldDefenseRussianVariationSmyslovVariation_D99',
+  EnglishOpeningKingsEnglishVariationBotvinnikSystemPricklyPawnPassSystem_A26 = 'EnglishOpeningKingsEnglishVariationBotvinnikSystemPricklyPawnPassSystem_A26',
+  VanGeetOpeningGruenfeldDefense_A00 = 'VanGeetOpeningGruenfeldDefense_A00',
+  CaroKannDefenseRasaStudierGambit_B15 = 'CaroKannDefenseRasaStudierGambit_B15',
+  FrenchDefenseWinawerVariationFingerslipVariationMainLine_C15 = 'FrenchDefenseWinawerVariationFingerslipVariationMainLine_C15',
+  SicilianDefenseDrazicVariation_B40 = 'SicilianDefenseDrazicVariation_B40',
+  BlackmarDiemerGambitVonPopielGambit_D00 = 'BlackmarDiemerGambitVonPopielGambit_D00',
+  ZukertortOpeningBasmanDefense_A04 = 'ZukertortOpeningBasmanDefense_A04',
+  QueenPawnGameVeresovAtackBoyceDefense_D01 = 'QueenPawnGameVeresovAtackBoyceDefense_D01',
+  PhilidorDefenseLionVariationLionsClawI_C41 = 'PhilidorDefenseLionVariationLionsClawI_C41',
+  PhilidorDefenseLionVariationForcingLine_C41 = 'PhilidorDefenseLionVariationForcingLine_C41',
+  QueensGambitAcceptedClassicalDefenseNormalLines_D26 = 'QueensGambitAcceptedClassicalDefenseNormalLines_D26',
+  SicilianDefenseOKellyVariationKieseritzkySystem_B28 = 'SicilianDefenseOKellyVariationKieseritzkySystem_B28',
+  SpanishGameClosedVariationsWorrallAttack_C86 = 'SpanishGameClosedVariationsWorrallAttack_C86',
+  LatvianGambitFraserDefense_C40 = 'LatvianGambitFraserDefense_C40',
+  FrenchDefenseTarraschVariationHaberditzVariation_C03 = 'FrenchDefenseTarraschVariationHaberditzVariation_C03',
+  SicilianDefenseMorphyGambitAndreaschekGambit_B21 = 'SicilianDefenseMorphyGambitAndreaschekGambit_B21',
+  KingPawnGameMacleodAttack_C20 = 'KingPawnGameMacleodAttack_C20',
+  SicilianDefenseSmithMorraGambitDeclinedAlapinFormation_B21 = 'SicilianDefenseSmithMorraGambitDeclinedAlapinFormation_B21',
+  LatvianGambitAccepted_C40 = 'LatvianGambitAccepted_C40',
+  NimzoIndianDefenseSpielmannVariationRomanovskyGambit_E23 = 'NimzoIndianDefenseSpielmannVariationRomanovskyGambit_E23',
+  QueensGambitRefusedAustrianDefenseGusevCountergambit_D06 = 'QueensGambitRefusedAustrianDefenseGusevCountergambit_D06',
+  BishopsOpeningUrusovGambitKeidanskyGambit_C24 = 'BishopsOpeningUrusovGambitKeidanskyGambit_C24',
+  FrenchDefenseWinawerVariationBogoljubowVariationIcelandicDefense_C17 = 'FrenchDefenseWinawerVariationBogoljubowVariationIcelandicDefense_C17',
+  ScotchGameSteinitzVariation_C45 = 'ScotchGameSteinitzVariation_C45',
+  StGeorgeDefenseNewStGeorgeThreePawnAttack_B00 = 'StGeorgeDefenseNewStGeorgeThreePawnAttack_B00',
+  KingsGambitAcceptedBishopsGambitBledowCountergambit_C33 = 'KingsGambitAcceptedBishopsGambitBledowCountergambit_C33',
+  SicilianDefenseSmithMorraGambitDeclinedCenterFormation_B21 = 'SicilianDefenseSmithMorraGambitDeclinedCenterFormation_B21',
+  ItalianGameEvansGambitMacDonnellDefenseMainLine_C51 = 'ItalianGameEvansGambitMacDonnellDefenseMainLine_C51',
+  EnglishOpeningKingsEnglishVariationFourKnightsVariationBradleyBeachVariation_A28 = 'EnglishOpeningKingsEnglishVariationFourKnightsVariationBradleyBeachVariation_A28',
+  SpanishGameOpenVariationsClassicalDefenseMainLine_C83 = 'SpanishGameOpenVariationsClassicalDefenseMainLine_C83',
+  KingPawnGameAlapinOpening_C20 = 'KingPawnGameAlapinOpening_C20',
+  NimzoIndianDefenseSpielmannVariationKarlsbadVariation_E23 = 'NimzoIndianDefenseSpielmannVariationKarlsbadVariation_E23',
+  CaroKannDefenseFinnishVariation_B16 = 'CaroKannDefenseFinnishVariation_B16',
+  LatvianGambitMasonCountergambit_C40 = 'LatvianGambitMasonCountergambit_C40',
+  TorreAttackClassicalDefensePetrosianGambit_A46 = 'TorreAttackClassicalDefensePetrosianGambit_A46',
+  ItalianGameClassicalVariationGrecoGambitGrecoVariation_C54 = 'ItalianGameClassicalVariationGrecoGambitGrecoVariation_C54',
+  SpanishGameColumbusVariation_C70 = 'SpanishGameColumbusVariation_C70',
+  TarraschDefenseClassicalVariationPeturssonVariation_D34 = 'TarraschDefenseClassicalVariationPeturssonVariation_D34',
+  GruenfeldDefenseLutikovVariation_D70 = 'GruenfeldDefenseLutikovVariation_D70',
+  DutchDefenseJanzenKorchnoiGambit_A80 = 'DutchDefenseJanzenKorchnoiGambit_A80',
+  FrenchDefenseRubinsteinVariationCapablancaLine_C10 = 'FrenchDefenseRubinsteinVariationCapablancaLine_C10',
+  KingsGambitDeclinedKeeneDefense_C30 = 'KingsGambitDeclinedKeeneDefense_C30',
+  ItalianGameTwoKnightsDefenseTraxlerCounterattackKnightsacline_C57 = 'ItalianGameTwoKnightsDefenseTraxlerCounterattackKnightsacline_C57',
+  DutchDefenseKmochAttack_A80 = 'DutchDefenseKmochAttack_A80',
+  FrenchDefenseMacCutcheonVariation_C12 = 'FrenchDefenseMacCutcheonVariation_C12',
+  RatDefenseBaloghDefense_B07 = 'RatDefenseBaloghDefense_B07',
+  BenoniDefenseOldBenoniSchmidVariation_A43 = 'BenoniDefenseOldBenoniSchmidVariation_A43',
+  SicilianDefenseMongooseVariation_B27 = 'SicilianDefenseMongooseVariation_B27',
+  KingPawnGameBuschGassGambit_C40 = 'KingPawnGameBuschGassGambit_C40',
+  ViennaGameStanleyVariationFrankensteinDraculaVariation_C27 = 'ViennaGameStanleyVariationFrankensteinDraculaVariation_C27',
+  KingsGambitAcceptedMasonKeresGambit_C33 = 'KingsGambitAcceptedMasonKeresGambit_C33',
+  FrenchDefensePelikanVariation_C00 = 'FrenchDefensePelikanVariation_C00',
+  FrenchDefenseMediterraneanDefense_C01 = 'FrenchDefenseMediterraneanDefense_C01',
+  KingsGambitAcceptedKingsKnightGambit_C34 = 'KingsGambitAcceptedKingsKnightGambit_C34',
+  QueenPawnGameMorrisCountergambit_D00 = 'QueenPawnGameMorrisCountergambit_D00',
+  ItalianGameEvansGambitAnderssenDefense_C52 = 'ItalianGameEvansGambitAnderssenDefense_C52',
+  FrenchDefenseWinawerVariationFingerslipVariationKuninDoubleGambit_C15 = 'FrenchDefenseWinawerVariationFingerslipVariationKuninDoubleGambit_C15',
+  PhilidorDefenseAlbinBlackburneGambit_C41 = 'PhilidorDefenseAlbinBlackburneGambit_C41',
+  PhilidorDefenseMorphyGambit_C41 = 'PhilidorDefenseMorphyGambit_C41',
+  LionDefenseAntiPhilidor_B07 = 'LionDefenseAntiPhilidor_B07',
+  KingsGambitDeclinedMilesDefense_C30 = 'KingsGambitDeclinedMilesDefense_C30',
+  KingsIndianDefenseAverbakhVariationModernDefenseBurgessLine_E73 = 'KingsIndianDefenseAverbakhVariationModernDefenseBurgessLine_E73',
+  SemiSlavDefenseMeranVariationWadeVariationKaidanovGambit_D47 = 'SemiSlavDefenseMeranVariationWadeVariationKaidanovGambit_D47',
+  TrompowskyAttackBorgVariation_A45 = 'TrompowskyAttackBorgVariation_A45',
+  RussianGameModernAttackTrifunovicVariation_C43 = 'RussianGameModernAttackTrifunovicVariation_C43',
+  QueensGambitAcceptedAlekhineDefenseBorisenkoFurmanVariation_D21 = 'QueensGambitAcceptedAlekhineDefenseBorisenkoFurmanVariation_D21',
+  PolishDefenseSpasskyGambitAccepted_A40 = 'PolishDefenseSpasskyGambitAccepted_A40',
+  EnglishOpeningSymmetricalVariationDoubleFianchetto_A38 = 'EnglishOpeningSymmetricalVariationDoubleFianchetto_A38',
+  SemiSlavDefenseMeranVariationRabinovichVariation_D49 = 'SemiSlavDefenseMeranVariationRabinovichVariation_D49',
+  SpanishGameClosedVariationsSuetinVariation_C90 = 'SpanishGameClosedVariationsSuetinVariation_C90',
+  BlackmarDiemerGambitZieglerDefense_D00 = 'BlackmarDiemerGambitZieglerDefense_D00',
+  ItalianGameClassicalVariation_C53 = 'ItalianGameClassicalVariation_C53',
+  VanGeetOpeningReversedNimzowitsch_A00 = 'VanGeetOpeningReversedNimzowitsch_A00',
+  ItalianGameRosentreterGambit_C50 = 'ItalianGameRosentreterGambit_C50',
+  SicilianDefenseBoleslavskyVariationLoumaVariation_B58 = 'SicilianDefenseBoleslavskyVariationLoumaVariation_B58',
+  KingsGambitAcceptedHansteinGambit_C38 = 'KingsGambitAcceptedHansteinGambit_C38',
+  CarrDefenseGeneral_B00 = 'CarrDefenseGeneral_B00',
+  KingsGambitAcceptedBishopsGambitCozioVariation_C33 = 'KingsGambitAcceptedBishopsGambitCozioVariation_C33',
+  ViennaGameMengariniVariation_C26 = 'ViennaGameMengariniVariation_C26',
+  SemiSlavDefenseAntiNoteboomStonewallVariationPortischGambit_D31 = 'SemiSlavDefenseAntiNoteboomStonewallVariationPortischGambit_D31',
+  WareDefenseGeneral_B00 = 'WareDefenseGeneral_B00',
+  PolishOpeningTartakowerGambit_A00 = 'PolishOpeningTartakowerGambit_A00',
+  BenoniDefenseBenoniGambitSchlenkerDefense_A43 = 'BenoniDefenseBenoniGambitSchlenkerDefense_A43',
+  EnglundGambitComplexStockholmVariation_A40 = 'EnglundGambitComplexStockholmVariation_A40',
+  PterodactylDefenseSicilianRhamporhynchus_B06 = 'PterodactylDefenseSicilianRhamporhynchus_B06',
+  KingsGambitAcceptedBishopsGambitMaurianDefense_C33 = 'KingsGambitAcceptedBishopsGambitMaurianDefense_C33',
+  ItalianGameRousseauGambit_C50 = 'ItalianGameRousseauGambit_C50',
+  GoldsmithDefenseGeneral_B00 = 'GoldsmithDefenseGeneral_B00',
+  FrenchDefenseClassicalVariationRichterAttack_2_C13 = 'FrenchDefenseClassicalVariationRichterAttack_2_C13',
+  CatalanOpeningClosedVariationRabinovichVariation_E09 = 'CatalanOpeningClosedVariationRabinovichVariation_E09',
+  OldIndianCzechVariationwNf3_A53 = 'OldIndianCzechVariationwNf3_A53',
+  ModernDefenseNorwegianDefenseNorwegianGambit_B06 = 'ModernDefenseNorwegianDefenseNorwegianGambit_B06',
+  FrenchDefenseSteinitzVariationGledhillAttack_C11 = 'FrenchDefenseSteinitzVariationGledhillAttack_C11',
+  SpanishGameBerlinDefenseRosenthalVariation_C67 = 'SpanishGameBerlinDefenseRosenthalVariation_C67',
+  AlekhineDefenseModernVariationAlekhineGambit_B04 = 'AlekhineDefenseModernVariationAlekhineGambit_B04',
+  SemiSlavDefenseBotvinnikSystemAlatortsevSystem_D44 = 'SemiSlavDefenseBotvinnikSystemAlatortsevSystem_D44',
+  TarraschDefenseRubinsteinSystem_D33 = 'TarraschDefenseRubinsteinSystem_D33',
+  IndianGameGibbinsWiedehagenGambitAccepted_A45 = 'IndianGameGibbinsWiedehagenGambitAccepted_A45',
+  NimzowitschDefenseLeanVariation_B00 = 'NimzowitschDefenseLeanVariation_B00',
+  ModernDefenseMongredienDefense_1_B06 = 'ModernDefenseMongredienDefense_1_B06',
+  SicilianDefensePaulsenVariationBastrikovVariationEnglishAttack_B49 = 'SicilianDefensePaulsenVariationBastrikovVariationEnglishAttack_B49',
+  BlackmarDiemerGambitTartakowerVariation_D00 = 'BlackmarDiemerGambitTartakowerVariation_D00',
+  ViennaGameStanleyVariationAlekhineVariation_C27 = 'ViennaGameStanleyVariationAlekhineVariation_C27',
+  NimzowitschDefenseScandinavianVariationBogoljubowVariationHeinolaDeppeGambit_B00 = 'NimzowitschDefenseScandinavianVariationBogoljubowVariationHeinolaDeppeGambit_B00',
+  ItalianGameHungarianDefenseTartakowerVariation_C50 = 'ItalianGameHungarianDefenseTartakowerVariation_C50',
+  NeoGruenfeldDefenseGeneral_D70 = 'NeoGruenfeldDefenseGeneral_D70',
+  GruenfeldDefenseFlohrDefense_D94 = 'GruenfeldDefenseFlohrDefense_D94',
+  DutchDefenseNimzoDutchVariationAlekhineVariation_A90 = 'DutchDefenseNimzoDutchVariationAlekhineVariation_A90',
+  SpanishGameMarshallAttackRe3variation_C89 = 'SpanishGameMarshallAttackRe3variation_C89',
+  PortugueseOpeningGeneral_C20 = 'PortugueseOpeningGeneral_C20',
+  PterodactylDefenseFianchettoQueenPteronodon_A40 = 'PterodactylDefenseFianchettoQueenPteronodon_A40',
+  SodiumAttackGeneral_A00 = 'SodiumAttackGeneral_A00',
+  SicilianDefenseAlapinVariationBarmenDefenseMilnerBarryAttack_B22 = 'SicilianDefenseAlapinVariationBarmenDefenseMilnerBarryAttack_B22',
+  CaroKannDefensePanovAttackGunderamAttack_B13 = 'CaroKannDefensePanovAttackGunderamAttack_B13',
+  QueensIndianDefenseKasparovVariationBotvinnikAttack_E12 = 'QueensIndianDefenseKasparovVariationBotvinnikAttack_E12',
+  FrenchDefenseTarraschVariationOpenSystemAdvanceLine_C08 = 'FrenchDefenseTarraschVariationOpenSystemAdvanceLine_C08',
+  SpanishGameExchangeVariationAlekhineVariation_C68 = 'SpanishGameExchangeVariationAlekhineVariation_C68',
+  FrenchDefenseWinawerVariationAdvanceVariation_2_C17 = 'FrenchDefenseWinawerVariationAdvanceVariation_2_C17',
+  ItalianGameEvansGambitSlowVariation_C52 = 'ItalianGameEvansGambitSlowVariation_C52',
+  PhilidorDefensePhilidorCountergambit_C41 = 'PhilidorDefensePhilidorCountergambit_C41',
+  ItalianGameScotchGambitMaxLangeAttackSpielmannDefense_C56 = 'ItalianGameScotchGambitMaxLangeAttackSpielmannDefense_C56',
+  PircDefenseAustrianAttackLjubojevicVariation_B09 = 'PircDefenseAustrianAttackLjubojevicVariation_B09',
+  KingsGambitFalkbeerCountergambitBlackburneAttack_C31 = 'KingsGambitFalkbeerCountergambitBlackburneAttack_C31',
+  NimzoIndianDefenseNormalVariationGligoricSystemSmyslovVariation_E54 = 'NimzoIndianDefenseNormalVariationGligoricSystemSmyslovVariation_E54',
+  FourKnightsGameDoubleSpanishMiscwith5OO_C49 = 'FourKnightsGameDoubleSpanishMiscwith5OO_C49',
+  BlackmarDiemerGambitGeneral_D00 = 'BlackmarDiemerGambitGeneral_D00',
+  SemiSlavDefenseMeranVariationSozinVariationII_D49 = 'SemiSlavDefenseMeranVariationSozinVariationII_D49',
+  EnglishOpeningKingsEnglishVariationFourKnightsVariation_A28 = 'EnglishOpeningKingsEnglishVariationFourKnightsVariation_A28',
+  KingsGambitAcceptedTraditionalVariation_C38 = 'KingsGambitAcceptedTraditionalVariation_C38',
+  PonzianiOpeningVukovicGambit_C44 = 'PonzianiOpeningVukovicGambit_C44',
+  KingsIndianDefenseFourPawnsAttackFluidAttack_E78 = 'KingsIndianDefenseFourPawnsAttackFluidAttack_E78',
+  SpanishGameMorphyDefenseBreyerDefense_C94 = 'SpanishGameMorphyDefenseBreyerDefense_C94',
+  KingsGambitFalkbeerCountergambitAccepted_C31 = 'KingsGambitFalkbeerCountergambitAccepted_C31',
+  DurasGambitGeneral_B00 = 'DurasGambitGeneral_B00',
+  SpanishGameBerlinDefenseClosedShowalterVariation_C66 = 'SpanishGameBerlinDefenseClosedShowalterVariation_C66',
+  SicilianDefenseQuinterosVariation_B27 = 'SicilianDefenseQuinterosVariation_B27',
+  KingsGambitDeclinedPetrovsDefense_C30 = 'KingsGambitDeclinedPetrovsDefense_C30',
+  GruenfeldDefenseCounterthrustVariation_E60 = 'GruenfeldDefenseCounterthrustVariation_E60',
+  SemiSlavDefenseStonewallDefense_D45 = 'SemiSlavDefenseStonewallDefense_D45',
+  ModernDefenseAverbakhSystemRandspringerVariation_A42 = 'ModernDefenseAverbakhSystemRandspringerVariation_A42',
+  ItalianGameScotchGambitCanalVariation_C56 = 'ItalianGameScotchGambitCanalVariation_C56',
+  NimzoLarsenAttackSpikeVariation_A01 = 'NimzoLarsenAttackSpikeVariation_A01',
+  SicilianDefenseAlapinVariationBarmenDefenseEndgameVariation_B22 = 'SicilianDefenseAlapinVariationBarmenDefenseEndgameVariation_B22',
+  NimzowitschDefenseKennedyVariationMainLine_B00 = 'NimzowitschDefenseKennedyVariationMainLine_B00',
+  QueensGambitRefusedBalticDefenseQueenAttack_D02 = 'QueensGambitRefusedBalticDefenseQueenAttack_D02',
+  CaroKannDefenseHillbillyAttackSchaefferGambit_B10 = 'CaroKannDefenseHillbillyAttackSchaefferGambit_B10',
+  SemiSlavDefenseMeranVariationOldVariation_D48 = 'SemiSlavDefenseMeranVariationOldVariation_D48',
+  FrenchDefenseMacCutcheonVariationTartakowerVariation_C12 = 'FrenchDefenseMacCutcheonVariationTartakowerVariation_C12',
+  PonzianiOpeningPonzianiCountergambit_C44 = 'PonzianiOpeningPonzianiCountergambit_C44',
+  KingsKnightOpeningGeneral_C40 = 'KingsKnightOpeningGeneral_C40',
+  EnglishOpeningAngloIndianDefenseGruenfeldFormation_A15 = 'EnglishOpeningAngloIndianDefenseGruenfeldFormation_A15',
+  QueensIndianDefenseKasparovPetrosianVariationRashkovskyAttack_E12 = 'QueensIndianDefenseKasparovPetrosianVariationRashkovskyAttack_E12',
+  VanGeetOpeningBattambangVariation_A00 = 'VanGeetOpeningBattambangVariation_A00',
+  ScotchGameGoringGambitBardelebenVariation_C44 = 'ScotchGameGoringGambitBardelebenVariation_C44',
+  KingPawnGameDresdenOpening_C44 = 'KingPawnGameDresdenOpening_C44',
+  QueensGambitDeclinedBeenKoomenVariation_D50 = 'QueensGambitDeclinedBeenKoomenVariation_D50',
+  SlavDefenseCzechVariationLaskerVariation_D18 = 'SlavDefenseCzechVariationLaskerVariation_D18',
+  TarraschDefenseWagnerVariation_D33 = 'TarraschDefenseWagnerVariation_D33',
+  IndianGameKnightsVariationAlburtMilesVariation_A46 = 'IndianGameKnightsVariationAlburtMilesVariation_A46',
+  QueensGambitDeclinedSemmeringVariation_D30 = 'QueensGambitDeclinedSemmeringVariation_D30',
+  ScotchGameScotchGambitCochraneAnderssenVariation_C44 = 'ScotchGameScotchGambitCochraneAnderssenVariation_C44',
+  BorgDefenseTroonGambit_B00 = 'BorgDefenseTroonGambit_B00',
+  ZukertortOpeningWadeTartakowerDefense_A04 = 'ZukertortOpeningWadeTartakowerDefense_A04',
+  ItalianGameScotchGambitAnderssenAttackMainLine_C56 = 'ItalianGameScotchGambitAnderssenAttackMainLine_C56',
+  FourKnightsGameSpanishVariationSymmetricalVariation_4_C49 = 'FourKnightsGameSpanishVariationSymmetricalVariation_4_C49',
+  BirdOpeningSchlechterGambit_A02 = 'BirdOpeningSchlechterGambit_A02',
+  ItalianGameTwoKnightsDefense_2_C55 = 'ItalianGameTwoKnightsDefense_2_C55',
+  BlackmarDiemerGambitRyderGambit_D00 = 'BlackmarDiemerGambitRyderGambit_D00',
+  BlackmarDiemerGambitNetherlandsVariation_D00 = 'BlackmarDiemerGambitNetherlandsVariation_D00',
+  FrenchDefenseDiemerDuhmGambit_C00 = 'FrenchDefenseDiemerDuhmGambit_C00',
+  PhilidorDefensePhilidorCountergambitZukertortVariation_C41 = 'PhilidorDefensePhilidorCountergambitZukertortVariation_C41',
+  KingsGambitAcceptedGrecoGambit_C38 = 'KingsGambitAcceptedGrecoGambit_C38',
+  HungarianOpeningReversedAlekhine_A00 = 'HungarianOpeningReversedAlekhine_A00',
+  ZukertortOpeningHerrstromGambit_A04 = 'ZukertortOpeningHerrstromGambit_A04',
+  BenoniDefenseWoozle_A43 = 'BenoniDefenseWoozle_A43',
+  ItalianGameScotchGambit_C55 = 'ItalianGameScotchGambit_C55',
+  CreepyCrawlyFormationClassicalDefense_A00 = 'CreepyCrawlyFormationClassicalDefense_A00',
+  ItalianGameTwoKnightsDefensePolerioDefense_C57 = 'ItalianGameTwoKnightsDefensePolerioDefense_C57',
+  EnglishOpeningAngloScandinavianDefenseMalvinasVariation_A10 = 'EnglishOpeningAngloScandinavianDefenseMalvinasVariation_A10',
+  SicilianDefenseClassicalVariationDragonTransfer_B58 = 'SicilianDefenseClassicalVariationDragonTransfer_B58',
+  RubinsteinOpeningSemiSlavDefense_D05 = 'RubinsteinOpeningSemiSlavDefense_D05',
+  CaroKannDefenseBreyerVariationSteinAttack_B10 = 'CaroKannDefenseBreyerVariationSteinAttack_B10',
+  QueenPawnGameTorreAttackBreyerVariation_D03 = 'QueenPawnGameTorreAttackBreyerVariation_D03',
+  ModernDefensePterodactylVariation_B06 = 'ModernDefensePterodactylVariation_B06',
+  NimzowitschDefenseKennedyVariationRiemannDefense_B00 = 'NimzowitschDefenseKennedyVariationRiemannDefense_B00',
+  ViennaGameViennaGambitKaufmannVariation_C29 = 'ViennaGameViennaGambitKaufmannVariation_C29',
+  QueensIndianDefenseMarienbadSystemBergVariation_A47 = 'QueensIndianDefenseMarienbadSystemBergVariation_A47',
+  EnglundGambitComplexDeclined_A40 = 'EnglundGambitComplexDeclined_A40',
+  SpanishGameSteinitzDefenseNimzowitschAttack_C62 = 'SpanishGameSteinitzDefenseNimzowitschAttack_C62',
+  ModernDefenseMongredienDefense_2_B06 = 'ModernDefenseMongredienDefense_2_B06',
+  EnglishOpeningKingsEnglishVariationKeresDefense_A21 = 'EnglishOpeningKingsEnglishVariationKeresDefense_A21',
+  SpanishGameOpenVariationsMalkinVariation_C83 = 'SpanishGameOpenVariationsMalkinVariation_C83',
+  CaroKannDefenseAlekhineGambit_B15 = 'CaroKannDefenseAlekhineGambit_B15',
+  VanGeetOpeningMyersAttack_A00 = 'VanGeetOpeningMyersAttack_A00',
+  SicilianDefenseSpielmannVariation_B56 = 'SicilianDefenseSpielmannVariation_B56',
+  AlekhineDefenseSteinerVariation_B02 = 'AlekhineDefenseSteinerVariation_B02',
+  SicilianDefenseHyperacceleratedPterodactylExchangeVariation_B27 = 'SicilianDefenseHyperacceleratedPterodactylExchangeVariation_B27',
+  ItalianGameTwoKnightsDefenseKnightAttack_C57 = 'ItalianGameTwoKnightsDefenseKnightAttack_C57',
+  PolishOpeningBugayevAdvanceVariation_A00 = 'PolishOpeningBugayevAdvanceVariation_A00',
+  FrenchDefenseWinawerVariationAdvanceVariation_3_C17 = 'FrenchDefenseWinawerVariationAdvanceVariation_3_C17',
+  KingsIndianDefenseOrthodoxVariationUkranianDefense_E94 = 'KingsIndianDefenseOrthodoxVariationUkranianDefense_E94',
+  GrobOpeningSpikeHurstAttack_A00 = 'GrobOpeningSpikeHurstAttack_A00',
+  BlackmarDiemerGambitDeclinedOKellyDefense_D00 = 'BlackmarDiemerGambitDeclinedOKellyDefense_D00',
+  QueensGambitRefusedChigorinDefenseMainLineAlekhineVariation_D07 = 'QueensGambitRefusedChigorinDefenseMainLineAlekhineVariation_D07',
+  KingsGambitAcceptedKieseritskyGambitRubinsteinVariation_C39 = 'KingsGambitAcceptedKieseritskyGambitRubinsteinVariation_C39',
+  EnglishOpeningAngloScandinavianDefenseSchulzGambit_A10 = 'EnglishOpeningAngloScandinavianDefenseSchulzGambit_A10',
+  PonzianiOpeningSpanishVariation_C44 = 'PonzianiOpeningSpanishVariation_C44',
+  BlackmarDiemerGambitBogoljubowVariationStudierAttack_D00 = 'BlackmarDiemerGambitBogoljubowVariationStudierAttack_D00',
+  ScotchGameLolliVariation_C44 = 'ScotchGameLolliVariation_C44',
+  SpanishGameOpenVariationsKarpovGambit_C80 = 'SpanishGameOpenVariationsKarpovGambit_C80',
+  GruenfeldDefenseExchangeVariationLarsenVariation_D86 = 'GruenfeldDefenseExchangeVariationLarsenVariation_D86',
+  QueenPawnOpeningVeresovOpeningRichterAttack_D00 = 'QueenPawnOpeningVeresovOpeningRichterAttack_D00',
+  ItalianGameEvansGambitBronsteinDefense_C51 = 'ItalianGameEvansGambitBronsteinDefense_C51',
+  ItalianGameTwoKnightsDefenseLolliAttack_C57 = 'ItalianGameTwoKnightsDefenseLolliAttack_C57',
+  IndianGameAntiGrunfeldAlekhineVariationLekoGambit_D70 = 'IndianGameAntiGrunfeldAlekhineVariationLekoGambit_D70',
+  ScotchGameRelfssonGambit_C44 = 'ScotchGameRelfssonGambit_C44',
+  NimzowitschDefensePseudoSpanishVariation_B00 = 'NimzowitschDefensePseudoSpanishVariation_B00',
+  FrenchDefenseMainLine_C00 = 'FrenchDefenseMainLine_C00',
+  SicilianDefensePinVariationJaffeVariation_B40 = 'SicilianDefensePinVariationJaffeVariation_B40',
+  BudapestDefenseFajarowiczSteinerVariation_A51 = 'BudapestDefenseFajarowiczSteinerVariation_A51',
+  VanGeetOpeningBerlinGambit_A00 = 'VanGeetOpeningBerlinGambit_A00',
+  VanGeetOpeningNovosibirskVariation_A00 = 'VanGeetOpeningNovosibirskVariation_A00',
+  TorreAttackWagnerGambit_A46 = 'TorreAttackWagnerGambit_A46',
+  QueensGambitGeneral_D06 = 'QueensGambitGeneral_D06',
+  ItalianGameScotchGambitDoubleGambitAccepted_C56 = 'ItalianGameScotchGambitDoubleGambitAccepted_C56',
+  QueensGambitRefusedAlbinCountergambitFianchettoVariationBf5Liner_D09 = 'QueensGambitRefusedAlbinCountergambitFianchettoVariationBf5Liner_D09',
+  KingsGambitAcceptedKieseritskyGambitLongWhip_C39 = 'KingsGambitAcceptedKieseritskyGambitLongWhip_C39',
+  NimzowitschDefenseKennedyVariationKeresAttack_B00 = 'NimzowitschDefenseKennedyVariationKeresAttack_B00',
+  QueenPawnGameChandlerGambit_D02 = 'QueenPawnGameChandlerGambit_D02',
+  BishopsOpeningUrusovGambit_C24 = 'BishopsOpeningUrusovGambit_C24',
+  OldIndianDefenseJanowskiVariation_A53 = 'OldIndianDefenseJanowskiVariation_A53',
+  TarraschDefenseVonHennigGambit_D32 = 'TarraschDefenseVonHennigGambit_D32',
+  ItalianGameEvansGambitCompromisedDefense_C52 = 'ItalianGameEvansGambitCompromisedDefense_C52'
 }
 
 
