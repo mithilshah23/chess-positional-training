@@ -2174,7 +2174,9 @@ function showStandardOpeningsDialog(ctrl: Ctrl) {
 
         Array.from(items).forEach((item: Element) => {
             const button = item as HTMLElement;
-            const text = button.innerText.toLowerCase();
+            // https://developer.mozilla.org/en-US/docs/Web/API/Node/textContent#differences_from_innertext
+            // @ts-ignore
+            const text = button.textContent.toLowerCase();
             button.style.display = text.includes(searchTerm) ? 'block' : 'none';
         });
     });
