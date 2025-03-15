@@ -2081,7 +2081,8 @@ const userHome = (ctrl: Ctrl) => [
                         h('div.d-grid.gap-2', [
                             positionButton(ctrl, 'Winning Position', FenArrayType.WinningArrayEndGame),
                             positionButton(ctrl, 'Equal Position', FenArrayType.EqualArrayEndGame),
-                            positionButton(ctrl, 'Losing Position', FenArrayType.LosingArrayEndGame)
+                            positionButton(ctrl, 'Losing Position', FenArrayType.LosingArrayEndGame),
+                            positionButton(ctrl, 'Mate In Few Moves', FenArrayType.MateInFewMoves)
                         ])
                     ])
                 ])
@@ -2224,7 +2225,10 @@ function positionButton(ctrl: Ctrl, text: string, fenType: FenArrayType) {
         {
             attrs: { type: 'button' },
             on: {
-                click: () => showPlayerSelectionDialog(ctrl, fenType, false)
+                click: () => {
+                    if (fenType==FenArrayType.MateInFewMoves) ctrl.level = 8;
+                    showPlayerSelectionDialog(ctrl, fenType, false)
+                }
             }
         },
         text
