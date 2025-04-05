@@ -24,6 +24,7 @@ export class GameCtrl implements BoardCtrl {
   lastUpdateAt: number = Date.now();
   ground?: CgApi;
   redrawInterval: ReturnType<typeof setInterval>;
+  showEvalBar?: boolean;
 
   constructor(game: Game, readonly stream: Stream, private root: Ctrl) {
     this.game = game;
@@ -83,6 +84,14 @@ export class GameCtrl implements BoardCtrl {
       this.chess = Chess.fromSetup(setup).unwrap();
       const moves = this.game.state.moves.split(' ').filter((m: string) => m);
       moves.forEach((uci: string) => this.chess.play(parseUci(uci)!));
+      const fen = makeFen(this.chess.toSetup());
+      const depth = (this.game.black.aiLevel == 8 || this.game.white.aiLevel == 8) ? 15 : 12;
+      this.fetchStockfishEval(fen, depth).then(data => {
+        this.game.evalData = data;
+      }).catch(error => {
+        console.error("Fetch error:", error);
+        this.game.evalData = null;
+      });
       const lastMove = moves[moves.length - 1];
       this.lastMove = lastMove && [lastMove.substr(0, 2) as Key, lastMove.substr(2, 2) as Key];
       this.lastUpdateAt = Date.now();
@@ -90,6 +99,19 @@ export class GameCtrl implements BoardCtrl {
       if (this.chess.turn == this.pov) this.ground?.playPremove();
     }
   };
+
+  private async fetchStockfishEval(fen: string, depth: number): Promise<number | null> {
+    const stockfishApiUrl = 'https://stockfish.online/api/s/v2.php';
+    try {
+      const encodedFen = encodeURIComponent(fen);
+      const url = `${stockfishApiUrl}?fen=${encodedFen}&depth=${depth}`;
+      const response = await fetch(url);
+      return await response.json();
+    } catch (error) {
+      console.error('Stockfish API error:', error);
+      return null;
+    }
+  }
 
   timeOf = (color: Color) => this.game.state[`${color[0]}time`];
 

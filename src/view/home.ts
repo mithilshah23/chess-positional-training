@@ -2061,7 +2061,7 @@ const userHome = (ctrl: Ctrl) => [
                     h('h2.mb-3', 'Game Positions'),
                     h('div.mb-4', [
                         h('h3.text-muted.mb-2', 'Play Opening Game'),
-                        h('div.d-grid.gap-2', [
+                        h('div.d-grid.gap-2.d-md-flex', [
                             positionButton(ctrl, 'Winning Position', FenArrayType.WinningArrayOpening),
                             positionButton(ctrl, 'Equal Position', FenArrayType.EqualArrayOpening),
                             positionButton(ctrl, 'Losing Position', FenArrayType.LosingArrayOpening),
@@ -2070,7 +2070,7 @@ const userHome = (ctrl: Ctrl) => [
                     ]),
                     h('div.mb-4', [
                         h('h3.text-muted.mb-2', 'Play Middle Game'),
-                        h('div.d-grid.gap-2', [
+                        h('div.d-grid.gap-2.d-md-flex', [
                             positionButton(ctrl, 'Winning Position', FenArrayType.WinningArray),
                             positionButton(ctrl, 'Equal Position', FenArrayType.EqualArray),
                             positionButton(ctrl, 'Losing Position', FenArrayType.LosingArray)
@@ -2078,7 +2078,7 @@ const userHome = (ctrl: Ctrl) => [
                     ]),
                     h('div.mb-4', [
                         h('h3.text-muted.mb-2', 'Play End Game'),
-                        h('div.d-grid.gap-2', [
+                        h('div.d-grid.gap-2.d-md-flex', [
                             positionButton(ctrl, 'Winning Position', FenArrayType.WinningArrayEndGame),
                             positionButton(ctrl, 'Equal Position', FenArrayType.EqualArrayEndGame),
                             positionButton(ctrl, 'Losing Position', FenArrayType.LosingArrayEndGame),
@@ -2186,7 +2186,6 @@ function showStandardOpeningsDialog(ctrl: Ctrl) {
         const target = event.target as HTMLElement;
         if (target.classList.contains('opening-item')) {
             const openingName = target.innerText;
-            console.log("opening: "+openingName)
             const newFenArray = standardOpeningsMap[openingName] || FenArrayType.DefaultOpening;
             showPlayerSelectionDialog(ctrl, newFenArray, true);
             closeDialog();

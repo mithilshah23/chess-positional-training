@@ -5,7 +5,28 @@ import { GameCtrl } from '../game';
 import { Renderer } from '../interfaces';
 import { clockContent } from './clock';
 import '../../scss/_game.scss';
-import { renderBoard, renderPlayer } from './board';
+import {renderBoard, renderEvalBar, renderPlayer} from './board';
+
+function addEvalCondition(ctrl: GameCtrl) {
+    if (!ctrl.playing()) {
+        ctrl.showEvalBar = true;
+        return null;
+    }
+    return h('div.btn-group.mt-4', [
+        h(
+            'button.btn.btn-secondary',
+            {
+                attrs: { type: 'button' },
+                on: {
+                    click: () => {
+                        ctrl.showEvalBar = !(ctrl.showEvalBar ?? false);
+                    }
+                }
+            },
+            (ctrl.showEvalBar ?? false) ? 'Hide Evaluation Bar' : 'Show Evaluation Bar'
+        )
+    ]);
+}
 
 export const renderGame: (ctrl: GameCtrl) => Renderer = ctrl => _ =>
   [
@@ -18,8 +39,12 @@ export const renderGame: (ctrl: GameCtrl) => Renderer = ctrl => _ =>
       },
       [
         renderGamePlayer(ctrl, opposite(ctrl.pov)),
-        renderBoard(ctrl),
+          h('div.eval-board-container', [
+              renderEvalBar(ctrl),
+              renderBoard(ctrl)
+          ]),
         renderGamePlayer(ctrl, ctrl.pov),
+        addEvalCondition(ctrl),
         ctrl.playing() ? renderButtons(ctrl) : renderState(ctrl),
       ]
     ),
@@ -32,7 +57,7 @@ const renderButtons = (ctrl: GameCtrl) => {
     const isOpponentAi = (ctrl.pov === "white" && ctrl.game.black.aiLevel) || (ctrl.pov === "black" && ctrl.game.white.aiLevel)
     if(isOpponentAi) {
         if(!hasMoreThanOneMove){
-            return h('div.btn-group.mt-4', [
+            return h('div.btn-group.mt-1', [
                 h(
                     'button.btn.btn-secondary',
                     {
@@ -47,7 +72,7 @@ const renderButtons = (ctrl: GameCtrl) => {
                 )]);
         }
         else {
-            return h('div.btn-group.mt-4', [
+            return h('div.btn-group.mt-1', [
                 h(
                     'button.btn.btn-secondary.me-2',
                     {
@@ -75,7 +100,7 @@ const renderButtons = (ctrl: GameCtrl) => {
         }
     }
     if(!hasMoreThanOneMove) {
-        return h('div.btn-group.mt-4', [
+        return h('div.btn-group.mt-1', [
             h(
             'button.btn.btn-secondary',
             {
@@ -90,7 +115,7 @@ const renderButtons = (ctrl: GameCtrl) => {
         )]);
     }
     if(!hasRejectedDraw && hasRejectedTakeback) {
-        return h('div.btn-group.mt-4', [
+        return h('div.btn-group.mt-1', [
             h(
                 'button.btn.btn-secondary.me-2',
                 {
@@ -118,7 +143,7 @@ const renderButtons = (ctrl: GameCtrl) => {
         ]);
     }
     else if(hasRejectedDraw && !hasRejectedTakeback){
-        return h('div.btn-group.mt-4', [
+        return h('div.btn-group.mt-1', [
             h(
                 'button.btn.btn-secondary.me-2',
                 {
@@ -146,7 +171,7 @@ const renderButtons = (ctrl: GameCtrl) => {
         ]);
     }
     else if(hasRejectedDraw && hasRejectedTakeback){
-        return h('div.btn-group.mt-4', [
+        return h('div.btn-group.mt-1', [
             h(
                 'button.btn.btn-secondary',
                 {
@@ -161,7 +186,7 @@ const renderButtons = (ctrl: GameCtrl) => {
             )
         ]);
     }
-    return  h('div.btn-group.mt-4', [
+    return  h('div.btn-group.mt-1', [
         h(
             'button.btn.btn-secondary.me-2',
             {
@@ -205,8 +230,7 @@ const renderButtons = (ctrl: GameCtrl) => {
 const renderState = (ctrl: GameCtrl) => {
     const game = ctrl.game;
     const initialFen = game.initialFen;
-    const colorCode = initialFen.split(" ")[1];
-    const color = colorCode === "w" ? "white" : "black";
+    const color = ctrl.pov;
 
     const pgnHeaders = [
         `[Event "Casual Game"]`,

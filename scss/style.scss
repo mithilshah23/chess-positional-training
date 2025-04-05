@@ -91,4 +91,73 @@ body {
   display: flex;
   gap: 0.5rem;
 }
+#evalBar {
+  background-color: rgb(255,255,255);
+  width: 20px;
+  height: 90vw;
+  float: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  border-radius: 3px;
+}
 
+#evalBar::after{
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  box-shadow: 0 0 5px rgba(0,0,0,0.7) inset;
+  border-radius: 3px;
+}
+#evalBar .blackBar {
+  width: 100%;
+  background-color: #666;
+  transition: height 1s;
+  position: absolute;
+  top: 0;
+  border-radius: 3px;
+}
+
+.evalNum {
+  width: 100%;
+  opacity: 1;
+  position: absolute;
+  top:97%;
+  font-size: 0.5rem;
+  font-weight: bolder;
+  text-align: center;
+}
+
+.eval-board-container {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  width: 100%;
+  max-width: 90vh;
+  margin: 0 auto;
+}
+
+.eval-toggle {
+  margin: 10px 0;
+  text-align: center;
+  label {
+    cursor: pointer;
+    input {
+      margin-right: 8px;
+    }
+  }
+}
+
+
+#evalBar.black-bottom {
+  transform: scaleY(-1);
+}
+
+#evalBar.black-bottom .evalNum {
+  transform: scaleY(-1);
+}
