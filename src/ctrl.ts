@@ -24411,9 +24411,11 @@ export class Ctrl {
     this.pollChallenges = async () => {
       if (this.auth.me) {
         try {
-          const data = await this.auth.fetchChallenges();
-          this.challenges = data;
-          this.redraw();
+          if(this.page == 'home') {
+              const data = await this.auth.fetchChallenges();
+              this.challenges = data;
+              this.redraw();
+          }
         } catch (e) {
           console.log('Failed to poll challenges', e);
         }
@@ -24427,7 +24429,7 @@ export class Ctrl {
     if (this.challengeInterval) {
       clearInterval(this.challengeInterval);
     }
-    this.challengeInterval = window.setInterval(this.pollChallenges, 5000);
+    this.challengeInterval = window.setInterval(this.pollChallenges, 3000);
     await this.pollChallenges();
     if (this.auth.me) {
       await this.stream?.close();
