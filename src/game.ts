@@ -25,6 +25,7 @@ export class GameCtrl implements BoardCtrl {
   ground?: CgApi;
   redrawInterval: ReturnType<typeof setInterval>;
   showEvalBar?: boolean;
+  showHint?: boolean;
 
   constructor(game: Game, readonly stream: Stream, private root: Ctrl) {
     this.game = game;
@@ -86,12 +87,21 @@ export class GameCtrl implements BoardCtrl {
       moves.forEach((uci: string) => this.chess.play(parseUci(uci)!));
       const fen = makeFen(this.chess.toSetup());
       const depth = (this.game.black.aiLevel == 8 || this.game.white.aiLevel == 8) ? 15 : 12;
-      this.fetchStockfishEval(fen, depth).then(data => {
-        this.game.evalData = data;
-      }).catch(error => {
-        console.error("Fetch error:", error);
-        this.game.evalData = null;
-      });
+      const isBlackComputer = typeof this.game.black.aiLevel === 'number' ||
+          ['maia1', 'maia5', 'maia9'].includes(this.game.black.name);
+
+      const isWhiteComputer = typeof this.game.white.aiLevel === 'number' ||
+          ['maia1', 'maia5', 'maia9'].includes(this.game.white.name);
+
+      const isComputerOpponent = isBlackComputer || isWhiteComputer;
+      if (isComputerOpponent) {
+        this.fetchStockfishEval(fen, depth).then(data => {
+          this.game.evalData = data;
+        }).catch(error => {
+          console.error("Fetch error:", error);
+          this.game.evalData = null;
+        });
+      }
       const lastMove = moves[moves.length - 1];
       this.lastMove = lastMove && [lastMove.substr(0, 2) as Key, lastMove.substr(2, 2) as Key];
       this.lastUpdateAt = Date.now();
@@ -133,7 +143,9 @@ export class GameCtrl implements BoardCtrl {
       }
       return null;
     };
-
+    const board = document.querySelector('cg-board');
+    board?.querySelectorAll('.square-highlight').forEach(el => el.remove());
+    this.showHint = false;
     const isPromotion = (orig: Key, dest: Key): boolean => {
       const pawnStartRow = this.pov === 'white' ? '7' : '2';
       const promotionRow = this.pov === 'white' ? '8' : '1';
