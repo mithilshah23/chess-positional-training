@@ -1,9 +1,10 @@
 import {Chessground} from 'chessground';
 import {h} from 'snabbdom';
-import {Ctrl, FenArrayType} from '../ctrl';
+import {Ctrl} from '../ctrl';
 import {Challenge, Game, Renderer} from '../interfaces';
 import OngoingGames from '../ongoingGames';
 import {href} from '../routing';
+import {FenArrayType} from "../enums/fenArrayType.enum";
 
 export const renderHome: Renderer = ctrl => (ctrl.auth.me ? userHome(ctrl) : anonHome());
 

@@ -95,6 +95,7 @@ export class GameCtrl implements BoardCtrl {
 
       const isComputerOpponent = isBlackComputer || isWhiteComputer;
       if (isComputerOpponent) {
+        // todo: create a stockfish worker node
         this.fetchStockfishEval(fen, depth).then(data => {
           this.game.evalData = data;
         }).catch(error => {
