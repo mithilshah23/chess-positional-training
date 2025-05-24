@@ -3,10 +3,10 @@
 
 Chess Positional Training helps you improve by practicing real game situations—whether it’s the opening, middlegame, or endgame. It’s all about learning how to turn good positions into wins, defend tough spots, and make better decisions throughout the game.
 <div>
-  <img src="https://github.com/mithilshah23/chess-positional-training/blob/live/.github/screenshots/homePage.png?raw=true" width="500"/>
-  <img src="https://github.com/mithilshah23/chess-positional-training/blob/live/.github/screenshots/gameBot.png?raw=true" width="500"/>
-  <img src="https://github.com/mithilshah23/chess-positional-training/blob/live/.github/screenshots/configureStockfish.png?raw=true" width="500"/>
-  <img src="https://github.com/mithilshah23/chess-positional-training/blob/live/.github/screenshots/configureOpenings.png?raw=true" width="500"/>
+  <img src="https://github.com/mithilshah23/chess-positional-training/blob/live/.github/screenshots/homePage.png?raw=true" width="48%"/>
+  <img src="https://github.com/mithilshah23/chess-positional-training/blob/live/.github/screenshots/gameBot.png?raw=true" width="48%"/>
+  <img src="https://github.com/mithilshah23/chess-positional-training/blob/live/.github/screenshots/configureStockfish.png?raw=true" width="48%"/>
+  <img src="https://github.com/mithilshah23/chess-positional-training/blob/live/.github/screenshots/configureOpenings.png?raw=true" width="48%"/>
 </div>
 
 How it works:
