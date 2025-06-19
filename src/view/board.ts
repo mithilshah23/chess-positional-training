@@ -1,7 +1,10 @@
 import { Chessground } from 'chessground';
 import { Color } from 'chessops';
 import { h, VNode } from 'snabbdom';
-import {BoardCtrl, GameCtrl} from '../game';
+import {BoardCtrl, Display, GameCtrl, ProcessedMove} from '../game';
+import {DrawShape} from "chessground/draw";
+import {Key} from "chessground/types";
+import {createEvalBadgeSvg} from "./drawHelper";
 
 export const renderBoard = (ctrl: BoardCtrl) =>
   h(
@@ -18,6 +21,49 @@ export const renderBoard = (ctrl: BoardCtrl) =>
       'loading...'
     )
   );
+
+export const renderMoveEval = (gameCtrl: GameCtrl) => {
+    gameCtrl.ground?.setShapes([]);
+
+    if (!gameCtrl.showHint || !gameCtrl.game.movesEval) {
+        return;
+
+    }
+    const chess = gameCtrl.chess;
+    const currentCell = gameCtrl.currentSelectedCell;
+    const pov = gameCtrl.pov;
+    const bestMove: Record<string, Display> = gameCtrl.game.bestMoves;
+    const moveEval: Record<string, ProcessedMove[]>  = gameCtrl.game.movesEval;
+
+
+    const shapes: DrawShape[] = [];
+
+    const validCellSelected :boolean = (currentCell != null && bestMove[currentCell] != null);
+
+    if(validCellSelected && currentCell != null) {
+        const processedMoves = moveEval[currentCell];
+        for (const move of processedMoves) {
+                const badgeSvg = createEvalBadgeSvg(move.display);
+                shapes.push({
+                    orig: move.dest as Key,
+                    brush: move.display.color,
+                    customSvg: badgeSvg
+                });
+            }
+        }
+    else {
+        for (const move in bestMove) {
+            const badgeSvg = createEvalBadgeSvg(bestMove[move]);
+            shapes.push({
+                orig: move as Key,
+                customSvg: badgeSvg
+            });
+        }
+    }
+    gameCtrl.ground?.setShapes(shapes);
+
+
+    }
 
 export const renderPlayer = (
   ctrl: BoardCtrl,

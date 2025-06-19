@@ -8,22 +8,26 @@
     "chessground": "^8.2.1",
     "chessops": "^0.10.5",
     "page": "^1",
-    "snabbdom": "^3"
+    "snabbdom": "^3",
+    "stockfish": "^16.0.0",
+    "stockfish.wasm": "^0.10.0"
   },
   "devDependencies": {
     "@rollup/plugin-commonjs": "^21",
     "@rollup/plugin-node-resolve": "^13",
     "@rollup/plugin-typescript": "^8",
     "@types/google.analytics": "^0.0.46",
+    "@types/node": "^24.0.3",
     "@types/page": "^1",
     "http-server": "^14",
     "prettier": "^2",
     "rollup": "^2",
+    "rollup-plugin-copy": "^3.5.0",
     "rollup-plugin-scss": "^3",
     "rollup-plugin-terser": "^7.0.2",
     "sass": "^1",
     "tslib": "^2",
-    "typescript": "^4"
+    "typescript": "^5.8.3"
   },
   "scripts": {
     "build": "rollup --config",

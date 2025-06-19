@@ -5,9 +5,10 @@ import { GameCtrl } from '../game';
 import { Renderer } from '../interfaces';
 import { clockContent } from './clock';
 import '../../scss/_game.scss';
-import {renderBoard, renderEvalBar, renderPlayer} from './board';
+import {renderBoard, renderEvalBar, renderMoveEval, renderPlayer} from './board';
 
 function addEvalCondition(ctrl: GameCtrl) {
+    renderMoveEval(ctrl)
     if (!ctrl.playing()) {
         ctrl.showEvalBar = true;
         return;
@@ -47,7 +48,7 @@ function addEvalCondition(ctrl: GameCtrl) {
                     }
                 }
             },
-            (ctrl.showHint ?? false) ? 'Hide Hint' : 'Show Hint'
+            (ctrl.showHint ?? false) ? ((ctrl.game.movesEval)?'Hide Evaluation':'Calculating...') : 'Show Evaluation'
         )
     ]);
 }
@@ -63,9 +64,9 @@ export const renderGame: (ctrl: GameCtrl) => Renderer = ctrl => _ =>
       },
       [
         renderGamePlayer(ctrl, opposite(ctrl.pov)),
-          h('div.eval-board-container', [
+          h('div.eval-board-container.board-wrapper', [
               renderEvalBar(ctrl),
-              renderBoard(ctrl)
+              renderBoard(ctrl),
           ]),
         renderGamePlayer(ctrl, ctrl.pov),
         addEvalCondition(ctrl),

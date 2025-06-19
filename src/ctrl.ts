@@ -22,6 +22,8 @@ export class Ctrl {
   seek?: SeekCtrl;
   challenge?: ChallengeCtrl;
   tv?: TvCtrl;
+  stockfishReady: Promise<Worker | typeof globalThis>;
+  stockfishEngine?: Worker | typeof globalThis;
 
   challenges: { in: Challenge[]; out: Challenge[] } = { in: [], out: [] };
   pollChallenges: () => Promise<void>;
@@ -33,6 +35,7 @@ export class Ctrl {
 
   constructor(readonly redraw: () => void) {
     this.challenges = { in: [], out: [] };
+    this.stockfishReady = this.initEngine();
     this.pollChallenges = async () => {
       if (this.auth.me) {
         try {
@@ -77,6 +80,25 @@ export class Ctrl {
     }
     this.redraw();
   };
+
+  private async initEngine(): Promise<Worker> {
+    const worker = new Worker('stockfish-nnue-16-single.js');
+
+    await new Promise<void>((resolve, reject) => {
+      const timeout = setTimeout(() => reject('init timeout'), 5000);
+      worker.onmessage = (e) => {
+        const msg = e.data ?? e;
+        if (typeof msg === 'string' && msg.startsWith('uciok')) {
+          clearTimeout(timeout);
+          resolve();
+        }
+      };
+      worker.postMessage('uci');
+    });
+
+    this.stockfishEngine = worker;
+    return worker;
+  }
 
   openGame = async (id: string) => {
     this.page = "game";

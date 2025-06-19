@@ -161,3 +161,13 @@ body {
 #evalBar.black-bottom .evalNum {
   transform: scaleY(-1);
 }
+
+.board-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+.eval-board-container {
+  flex: 1;
+}

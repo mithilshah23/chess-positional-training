@@ -8,12 +8,34 @@ import { opposite, parseUci } from 'chessops/util';
 import {Chess, defaultSetup, fen} from 'chessops';
 import { makeFen, parseFen } from 'chessops/fen';
 import { chessgroundDests } from 'chessops/compat';
+import { Move } from 'chessops/types';
 
 export interface BoardCtrl {
   chess: Chess;
   ground?: CgApi;
   chessgroundConfig: () => CgConfig;
   setGround: (cg: CgApi) => void;
+}
+
+export interface MoveEvaluation {
+  uci: string;
+  fen: string;
+  evalCP: number | null;
+  mate: number | null;
+}
+
+export interface ProcessedMove {
+  source: string;
+  fen: string;
+  dest: string;
+  evalCP: number | null;
+  mate: number | null;
+  display: Display
+}
+
+export interface Display {
+  eval: string,
+  color: string
 }
 
 export class GameCtrl implements BoardCtrl {
@@ -26,6 +48,7 @@ export class GameCtrl implements BoardCtrl {
   redrawInterval: ReturnType<typeof setInterval>;
   showEvalBar?: boolean;
   showHint?: boolean;
+  currentSelectedCell?: string | null;
 
   constructor(game: Game, readonly stream: Stream, private root: Ctrl) {
     this.game = game;
@@ -54,6 +77,8 @@ export class GameCtrl implements BoardCtrl {
         }
         this.game.chatLine = null;
     } else {
+      this.currentSelectedCell = null;
+      this.game.movesEval = null;
       const opponentLetter = (this.pov == 'white') ? 'b':'w';
       const opponentDraw =  this.game.state[opponentLetter + "draw"]
       const opponentTakeback = this.game.state[opponentLetter + "takeback"]
@@ -95,13 +120,16 @@ export class GameCtrl implements BoardCtrl {
 
       const isComputerOpponent = isBlackComputer || isWhiteComputer;
       if (isComputerOpponent) {
-        // todo: create a stockfish worker node
         this.fetchStockfishEval(fen, depth).then(data => {
+          console.log(data);
           this.game.evalData = data;
         }).catch(error => {
           console.error("Fetch error:", error);
           this.game.evalData = null;
         });
+      }
+      if(this.chess.turn==this.pov){
+        this.analyzePosition();
       }
       const lastMove = moves[moves.length - 1];
       this.lastMove = lastMove && [lastMove.substr(0, 2) as Key, lastMove.substr(2, 2) as Key];
@@ -122,6 +150,281 @@ export class GameCtrl implements BoardCtrl {
       console.error('Stockfish API error:', error);
       return null;
     }
+  }
+  private async fetchStockfishEvalWorkerNode(fen: string, depth: number): Promise<{
+    success: boolean;
+    evaluation: number | null;
+    mate: number | null;
+    bestmove: string;
+    continuation: string;
+  }> {
+    try {
+      const engine = await this.root.stockfishReady;
+
+      let evaluation: number | null = null;
+      let mate: number | null = null;
+      let bestmove: string = '';
+      let continuation: string = '';
+
+      engine.postMessage('uci');
+      engine.postMessage('isready');
+      engine.postMessage(`position fen ${fen}`);
+      engine.postMessage(`go depth ${depth}`);
+
+      await new Promise<void>((resolve) => {
+        const handler = (e: any) => {
+          const m = (e.data ?? e).toString();
+          if (m.startsWith('info depth') && m.includes(`depth ${depth}`)) {
+            const scoreCpMatch = /score cp (-?\d+)/.exec(m);
+            const scoreMateMatch = /score mate (-?\d+)/.exec(m);
+            const pvMatch = m.match(/pv\s((?:[a-h][1-8][a-h][1-8]\s?)+)/);
+            if (scoreCpMatch) {
+              evaluation = parseInt(scoreCpMatch[1], 10) / 100;
+              mate = null;
+            } else if (scoreMateMatch) {
+              mate = parseInt(scoreMateMatch[1], 10);
+              evaluation = null;
+            }
+            if (pvMatch) {
+              continuation = pvMatch[1];
+            }
+          }
+          if (m.startsWith('bestmove')) {
+            bestmove = m;
+            engine.onmessage = null;
+            resolve();
+          }
+        };
+        engine.onmessage = handler;
+      });
+
+      if (this.chess.turn === 'black') {
+        if (evaluation !== null) {
+          evaluation = -evaluation;
+        }
+        if (mate !== null) {
+          mate = -mate;
+        }
+      }
+
+      return {
+        success: true,
+        evaluation,
+        mate,
+        bestmove,
+        continuation,
+      };
+    } catch (e) {
+      console.error('[SF] Stockfish eval failed:', e);
+      return {
+        success: false,
+        evaluation: null,
+        mate: null,
+        bestmove: '',
+        continuation: '',
+      };
+    }
+  }
+
+  private async getEvalFromFen(fen: string, depth: number, opponentMove: boolean = true): Promise<{
+    success: boolean;
+    evaluation: number | null;
+    mate: number | null;
+  }> {
+    try {
+      const engine = await this.root.stockfishReady;
+
+      let evaluation: number | null = null;
+      let mate: number | null = null;
+
+      engine.postMessage('uci');
+      engine.postMessage('isready');
+      engine.postMessage(`position fen ${fen}`);
+      engine.postMessage(`go depth ${depth}`);
+
+      await new Promise<void>((resolve) => {
+        const handler = (e: any) => {
+          const m = (e.data ?? e).toString();
+
+          if (m.startsWith('info depth') && m.includes(`depth ${depth}`)) {
+            const scoreCpMatch = /score cp (-?\d+)/.exec(m);
+            const scoreMateMatch = /score mate (-?\d+)/.exec(m);
+
+            if (scoreCpMatch) {
+              evaluation = parseInt(scoreCpMatch[1], 10)/10;
+              mate = null;
+            } else if (scoreMateMatch) {
+              mate = parseInt(scoreMateMatch[1], 10);
+              evaluation = null;
+            }
+          }
+          if (m.startsWith('bestmove')) {
+            engine.onmessage = null;
+            resolve();
+          }
+        };
+        engine.onmessage = handler;
+      });
+      return {
+        success: true,
+        evaluation: (opponentMove)? ((evaluation)?-evaluation: null) : evaluation,
+        mate: (opponentMove)? ((mate)?-mate: null) : mate,
+      };
+    } catch (e) {
+      console.error('[SF] Stockfish eval failed:', e);
+      return {
+        success: false,
+        evaluation: null,
+        mate: null
+      };
+    }
+  }
+
+  async analyzePosition() {
+    try {
+      const currEval = await this.getEvalFromFen(makeFen(this.chess.toSetup()), 12, false);
+      const movesEval: MoveEvaluation[] = await this.evaluateAllLegalMoves(this.chess);
+        const grouped: Record<string, ProcessedMove[]> = {};
+        for (const move of movesEval) {
+          const source = move.uci.substring(0, 2);
+          // todo: promotion handling
+          const dest = move.uci.substring(2, 4);
+
+          const processedMove: ProcessedMove = {
+            source: source,
+            fen: move.fen,
+            dest: dest,
+            evalCP: move.evalCP,
+            mate: move.mate,
+            display: {eval: "", color:"green"}
+          };
+
+          processedMove.display = this.getDisplayString(processedMove);
+
+          if (!grouped[source]) {
+            grouped[source] = [];
+          }
+
+          grouped[source].push(processedMove);
+        }
+
+        const bestMoves = this.findBestMoves(grouped);
+        this.game.bestMoves = bestMoves;
+        this.game.movesEval = grouped;
+
+    } catch (error) {
+      console.error('Analysis failed:', error);
+    }
+  }
+
+   private getMoveValue(move: ProcessedMove): number {
+    if (move.mate !== null) {
+      if (move.mate > 0) {
+        return 1000000 - move.mate;
+      } else {
+        return -1000000 + move.mate;
+      }
+    }
+    return move.evalCP !== null ? move.evalCP : -Infinity;
+  }
+
+
+
+   private findBestMoves(groupedMoves: Record<string, ProcessedMove[]>): Record<string, Display> {
+    const bestMoves: Record<string, Display> = {};
+
+    for (const [source, moves] of Object.entries(groupedMoves)) {
+      let bestMove: ProcessedMove | null = null;
+      let bestValue = -Infinity;
+
+      for (const move of moves) {
+        const value = this.getMoveValue(move);
+        if (value > bestValue) {
+          bestValue = value;
+          bestMove = move;
+        }
+      }
+      if (bestMove) {
+        bestMoves[source] = this.getDisplayString(bestMove);
+      }
+    }
+    return bestMoves;
+  }
+
+  private getDisplayString(move: ProcessedMove): Display{
+    let evalStr: string = "";
+    let colorStr: string = "green";
+    if (move.evalCP != null) {
+      if(move.evalCP>0){
+        evalStr += "+";
+      }
+      else if (move.evalCP<0) {
+        evalStr += "-";
+        if (move.evalCP>-10){
+          colorStr = "orange";
+        }
+        else {
+          colorStr = "red";
+        }
+      }
+      if(Math.abs(move.evalCP) > 10){
+        evalStr += Math.round(Math.abs(move.evalCP));
+      }
+      else {
+        evalStr += Math.abs(move.evalCP);
+      }
+    } else if (move.mate) {
+      if(move.mate>0){
+        evalStr = "+M"+move.mate;
+      }
+      else{
+        colorStr = "red";
+        evalStr = "-M"+Math.abs(move.mate);
+      }
+    }
+    return {eval: evalStr, color: colorStr};
+  }
+
+  private async evaluateAllLegalMoves(
+      pos: Chess,
+      depth: number = 12
+  ): Promise<MoveEvaluation[]> {
+    const startFen = makeFen(pos.toSetup());
+    const moveEvals: MoveEvaluation[] = [];
+    const legalMoves = pos.allDests();
+    let moveCount = 0;
+
+    for (const [fromSquare, dests] of legalMoves) {
+      for (const toSquare of dests) {
+        moveCount++;
+        const uci = `${this.squareToUci(fromSquare)}${this.squareToUci(toSquare)}`;
+        const newPos = pos.clone();
+        const move: Move = {
+          from: fromSquare,
+          to: toSquare,
+          promotion: undefined
+        };
+        newPos.play(move);
+        const fen = makeFen(newPos.toSetup());
+        const result = await this.getEvalFromFen(fen, depth);
+        moveEvals.push({
+          uci,
+          fen,
+          evalCP: result.evaluation,
+          mate: result.mate
+        });
+      }
+    }
+
+    console.log('[MoveEval] ► Evaluation complete');
+    return moveEvals;
+  }
+
+  private squareToUci(square: number): string {
+    const files = 'abcdefgh';
+    const file = files[square % 8];
+    const rank = Math.floor(square / 8) + 1;
+    return file + rank;
   }
 
   timeOf = (color: Color) => this.game.state[`${color[0]}time`];
@@ -338,6 +641,14 @@ export class GameCtrl implements BoardCtrl {
     },
     events: {
       move: this.userMove,
+      select: (square: string) => {
+        if(this.currentSelectedCell == square) {
+          this.currentSelectedCell = null;
+        }
+        else {
+          this.currentSelectedCell = square;
+        }
+      }
     },
   });
 
