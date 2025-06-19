@@ -2054,6 +2054,7 @@ import {
     fenZukertortOpeningWadeDefenseChigorinPlan_A41,
     fenZukertortOpeningWadeTartakowerDefense_A04
 } from "../constants/chessOpenings.fen";
+import {fenChess960} from "../constants/fenChess960";
 
 export const getRandomFenFromArray = (fenArrayType: FenArrayType): string => {
     let fenArray: string[];
@@ -2148,7 +2149,13 @@ export const getRandomFenFromArray = (fenArrayType: FenArrayType): string => {
             });
             fenArray = fenMateInFewMoves;
             break;
-
+        case FenArrayType.Chess960:
+            window.gtag("event", "difficulty_selected", {
+                position_type: "equal",
+                game_phase: "opening",
+            });
+            fenArray = fenChess960;
+            break;
         //custom positions
         case FenArrayType.IndianGameGeneral_A45:
             fenArray = fenIndianGameGeneral_A45;

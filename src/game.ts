@@ -282,7 +282,7 @@ export class GameCtrl implements BoardCtrl {
 
   async analyzePosition() {
     try {
-      const currEval = await this.getEvalFromFen(makeFen(this.chess.toSetup()), 12, false);
+      const currEval = await this.getEvalFromFen(makeFen(this.chess.toSetup()), 15, false);
       const movesEval: MoveEvaluation[] = await this.evaluateAllLegalMoves(this.chess);
         const grouped: Record<string, ProcessedMove[]> = {};
         for (const move of movesEval) {
@@ -387,7 +387,7 @@ export class GameCtrl implements BoardCtrl {
 
   private async evaluateAllLegalMoves(
       pos: Chess,
-      depth: number = 12
+      depth: number = 15
   ): Promise<MoveEvaluation[]> {
     const startFen = makeFen(pos.toSetup());
     const moveEvals: MoveEvaluation[] = [];
@@ -415,8 +415,6 @@ export class GameCtrl implements BoardCtrl {
         });
       }
     }
-
-    console.log('[MoveEval] ► Evaluation complete');
     return moveEvals;
   }
 

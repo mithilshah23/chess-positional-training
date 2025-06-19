@@ -9,6 +9,7 @@ export enum FenArrayType {
     LosingArrayEndGame = 'LosingArrayEndGame',
     LosingArrayOpening = 'LosingArrayOpening',
     MateInFewMoves = 'MateInFewMoves',
+    Chess960 = 'Chess960',
     //Fallback Default Opening
     DefaultOpening = 'DefaultOpening',
     //Standard Opening Positions

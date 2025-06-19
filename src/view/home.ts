@@ -2066,7 +2066,8 @@ const userHome = (ctrl: Ctrl) => [
                             positionButton(ctrl, 'Winning Position', FenArrayType.WinningArrayOpening),
                             positionButton(ctrl, 'Equal Position', FenArrayType.EqualArrayOpening),
                             positionButton(ctrl, 'Losing Position', FenArrayType.LosingArrayOpening),
-                            standardOpenings(ctrl, 'Standard Openings')
+                            standardOpenings(ctrl, 'Standard Openings'),
+                            positionButton(ctrl, 'Chess 960', FenArrayType.Chess960)
                         ])
                     ]),
                     h('div.mb-4', [

@@ -122,11 +122,13 @@ export class Ctrl {
       clock_limit: this.clockLimit,
       clock_increment: this.clockIncrement,
     });
+    const variant: string = (fenArrayType == FenArrayType.Chess960) ? "chess960" : "standard";
     this.challenge = await ChallengeCtrl.make(
       {
         username: "ai",
         rated: false,
         level: this.level,
+        variant: variant,
         "clock.limit": this.clockLimit * 60,
         "clock.increment": this.clockIncrement,
         fen: fen,
@@ -207,10 +209,12 @@ export class Ctrl {
       clock_increment: this.clockIncrement,
       username: username,
     });
+    const variant: string = (fenArrayType == FenArrayType.Chess960) ? "chess960" : "standard";
     this.challenge = await ChallengeCtrl.make(
       {
         username: username,
         rated: false,
+        variant: variant,
         "clock.limit": this.clockLimit * 60,
         "clock.increment": this.clockIncrement,
         fen: fen,
