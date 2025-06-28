@@ -61,6 +61,19 @@ export class Ctrl {
     if (this.auth.me) {
       await this.stream?.close();
       this.games.empty();
+      //added to count number of games currently ongoing
+      this.games.totalGame = 0;
+      this.stream = await this.auth.openStream(
+          "/api/stream/event",
+          {},
+          (msg) => {
+            switch (msg.type) {
+              case "gameStart":
+                this.games.incrementGameCount();
+                break;
+            }
+          }
+      );
       this.stream = await this.auth.openStream(
         "/api/stream/event",
         {},

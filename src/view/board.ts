@@ -109,7 +109,7 @@ export const renderEvalBar = (ctrl: GameCtrl) => {
         else winProbability = 0;
     }
     else {
-        winProbability= 1 / (1 + Math.exp(-0.4 * evalValue));
+        winProbability= 1 / (1 + Math.exp(-evalValue/20));
     }
     const percentage = (1 - winProbability) * 100;
     const showEvalValueTop = percentage < 50;
@@ -124,6 +124,6 @@ export const renderEvalBar = (ctrl: GameCtrl) => {
             attrs: {
                 style: `top: ${showEvalValueTop ? '97%' : 'auto'}; bottom: ${showEvalValueTop ? 'auto' : '97%'};`
             }
-        }, `${isMate ? 'M' + Math.abs(mate) : Math.abs(evalValue).toFixed(1)}` )
+        }, `${isMate ? 'M' + Math.abs(mate) : Math.abs(evalValue/10).toFixed(1)}` )
     ]);
 };

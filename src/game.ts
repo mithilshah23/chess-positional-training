@@ -110,8 +110,6 @@ export class GameCtrl implements BoardCtrl {
       this.chess = Chess.fromSetup(setup).unwrap();
       const moves = this.game.state.moves.split(' ').filter((m: string) => m);
       moves.forEach((uci: string) => this.chess.play(parseUci(uci)!));
-      const fen = makeFen(this.chess.toSetup());
-      const depth = (this.game.black.aiLevel == 8 || this.game.white.aiLevel == 8) ? 15 : 12;
       const isBlackComputer = typeof this.game.black.aiLevel === 'number' ||
           ['maia1', 'maia5', 'maia9'].includes(this.game.black.name);
 
@@ -119,16 +117,15 @@ export class GameCtrl implements BoardCtrl {
           ['maia1', 'maia5', 'maia9'].includes(this.game.white.name);
 
       const isComputerOpponent = isBlackComputer || isWhiteComputer;
-      if (isComputerOpponent) {
-        this.fetchStockfishEval(fen, depth).then(data => {
-          console.log(data);
-          this.game.evalData = data;
-        }).catch(error => {
-          console.error("Fetch error:", error);
-          this.game.evalData = null;
-        });
-      }
-      if(this.chess.turn==this.pov){
+      // if (isComputerOpponent) {
+      //   this.fetchStockfishEval(fen, depth).then(data => {
+      //     this.game.evalData = data;
+      //   }).catch(error => {
+      //     console.error("Fetch error:", error);
+      //     this.game.evalData = null;
+      //   });
+      // }
+      if(this.chess.turn==this.pov && isComputerOpponent) {
         this.analyzePosition();
       }
       const lastMove = moves[moves.length - 1];
@@ -139,6 +136,7 @@ export class GameCtrl implements BoardCtrl {
     }
   };
 
+  // deprecated method
   private async fetchStockfishEval(fen: string, depth: number): Promise<number | null> {
     const stockfishApiUrl = 'https://stockfish.online/api/s/v2.php';
     try {
@@ -230,35 +228,40 @@ export class GameCtrl implements BoardCtrl {
     success: boolean;
     evaluation: number | null;
     mate: number | null;
+    bestmove: string;
   }> {
     try {
       const engine = await this.root.stockfishReady;
 
+
       let evaluation: number | null = null;
       let mate: number | null = null;
-
-      engine.postMessage('uci');
+      let bestmove: string = '';
       engine.postMessage('isready');
+      if (this.game.variant.key == 'chess960') {
+        engine.postMessage('setoption name UCI_Chess960 value true');
+      } else {
+        engine.postMessage('setoption name UCI_Chess960 value false');
+      }
       engine.postMessage(`position fen ${fen}`);
       engine.postMessage(`go depth ${depth}`);
 
       await new Promise<void>((resolve) => {
         const handler = (e: any) => {
           const m = (e.data ?? e).toString();
-
-          if (m.startsWith('info depth') && m.includes(`depth ${depth}`)) {
+          if (m.includes(`info depth ${depth}`)) {
             const scoreCpMatch = /score cp (-?\d+)/.exec(m);
             const scoreMateMatch = /score mate (-?\d+)/.exec(m);
-
-            if (scoreCpMatch) {
+            if (scoreCpMatch != null) {
               evaluation = parseInt(scoreCpMatch[1], 10)/10;
               mate = null;
-            } else if (scoreMateMatch) {
+            } else if (scoreMateMatch != null) {
               mate = parseInt(scoreMateMatch[1], 10);
               evaluation = null;
             }
           }
           if (m.startsWith('bestmove')) {
+            bestmove = m;
             engine.onmessage = null;
             resolve();
           }
@@ -267,15 +270,17 @@ export class GameCtrl implements BoardCtrl {
       });
       return {
         success: true,
-        evaluation: (opponentMove)? ((evaluation)?-evaluation: null) : evaluation,
-        mate: (opponentMove)? ((mate)?-mate: null) : mate,
+        evaluation: (opponentMove)? ((evaluation!=null)?-evaluation: null) : evaluation,
+        mate: (opponentMove)? ((mate!=null)?-mate: null) : mate,
+        bestmove: bestmove
       };
     } catch (e) {
       console.error('[SF] Stockfish eval failed:', e);
       return {
         success: false,
         evaluation: null,
-        mate: null
+        mate: null,
+        bestmove: ''
       };
     }
   }
@@ -283,6 +288,7 @@ export class GameCtrl implements BoardCtrl {
   async analyzePosition() {
     try {
       const currEval = await this.getEvalFromFen(makeFen(this.chess.toSetup()), 15, false);
+      this.game.evalData = currEval;
       const movesEval: MoveEvaluation[] = await this.evaluateAllLegalMoves(this.chess);
         const grouped: Record<string, ProcessedMove[]> = {};
         for (const move of movesEval) {
