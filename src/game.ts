@@ -79,6 +79,8 @@ export class GameCtrl implements BoardCtrl {
     } else {
       this.currentSelectedCell = null;
       this.game.movesEval = null;
+      this.game.bestEval = null;
+      this.game.ground?.setShapes([]);
       const opponentLetter = (this.pov == 'white') ? 'b':'w';
       const opponentDraw =  this.game.state[opponentLetter + "draw"]
       const opponentTakeback = this.game.state[opponentLetter + "takeback"]
@@ -125,8 +127,11 @@ export class GameCtrl implements BoardCtrl {
       //     this.game.evalData = null;
       //   });
       // }
-      if(this.chess.turn==this.pov && isComputerOpponent) {
-        this.analyzePosition();
+      if(isComputerOpponent) {
+        // handle race condition, when previous worker node is still running, we need to stop previous evaluation
+        // todo: think of a better solution, 0.8 sec seems good enough
+        this.game.stopEval = true;
+        setTimeout(() => this.analyzePosition(), 800);
       }
       const lastMove = moves[moves.length - 1];
       this.lastMove = lastMove && [lastMove.substr(0, 2) as Key, lastMove.substr(2, 2) as Key];
@@ -295,10 +300,12 @@ export class GameCtrl implements BoardCtrl {
   async analyzePosition() {
     try {
       this.game.stopEval = false;
+      const turn = this.chess.turn;
       const moveLength = this.game.state.moves.length;
       const currEval = await this.getEvalFromFen(makeFen(this.chess.toSetup()), 18, moveLength, this.chess.turn == 'black');
       this.game.evalData = currEval;
-      const movesEval: MoveEvaluation[] = await this.evaluateAllLegalMoves(this.chess, moveLength);
+      if (turn == this.pov) {
+        const movesEval: MoveEvaluation[] = await this.evaluateAllLegalMoves(this.chess, moveLength);
         const grouped: Record<string, ProcessedMove[]> = {};
         for (const move of movesEval) {
           const source = move.uci.substring(0, 2);
@@ -326,6 +333,7 @@ export class GameCtrl implements BoardCtrl {
         const bestMoves = this.findBestMoves(grouped);
         this.game.bestMoves = bestMoves;
         this.game.movesEval = grouped;
+      }
 
     } catch (error) {
       console.error('Analysis failed:', error);
@@ -422,6 +430,9 @@ export class GameCtrl implements BoardCtrl {
         newPos.play(move);
         const fen = makeFen(newPos.toSetup());
         const result = await this.getEvalFromFen(fen, depth, moveLength);
+        if (!result.success) {
+          return [];
+        }
         moveEvals.push({
           uci,
           fen,
