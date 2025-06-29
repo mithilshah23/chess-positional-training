@@ -296,7 +296,7 @@ export class GameCtrl implements BoardCtrl {
     try {
       this.game.stopEval = false;
       const moveLength = this.game.state.moves.length;
-      const currEval = await this.getEvalFromFen(makeFen(this.chess.toSetup()), 20, moveLength, false);
+      const currEval = await this.getEvalFromFen(makeFen(this.chess.toSetup()), 18, moveLength, this.chess.turn == 'black');
       this.game.evalData = currEval;
       const movesEval: MoveEvaluation[] = await this.evaluateAllLegalMoves(this.chess, moveLength);
         const grouped: Record<string, ProcessedMove[]> = {};
@@ -311,7 +311,7 @@ export class GameCtrl implements BoardCtrl {
             dest: dest,
             evalCP: move.evalCP,
             mate: move.mate,
-            display: {eval: "", color:"green"}
+            display: {eval: "", color: "green"}
           };
 
           processedMove.display = this.getDisplayString(processedMove);

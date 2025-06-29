@@ -75,6 +75,7 @@ export const renderGame: (ctrl: GameCtrl) => Renderer = ctrl => _ =>
     ),
   ];
 
+// todo: use drawShapes function to do this
 function highlightBestMove(ctrl: GameCtrl, pov: 'white' | 'black'): void {
     const bestMoveString = ctrl.game?.evalData?.bestmove;
     if (!ctrl.showHint) {
