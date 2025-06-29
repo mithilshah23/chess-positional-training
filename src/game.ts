@@ -224,15 +224,22 @@ export class GameCtrl implements BoardCtrl {
     }
   }
 
-  private async getEvalFromFen(fen: string, depth: number, opponentMove: boolean = true): Promise<{
+  private async getEvalFromFen(fen: string, depth: number, moveLength: number, opponentMove: boolean = true): Promise<{
     success: boolean;
     evaluation: number | null;
     mate: number | null;
     bestmove: string;
   }> {
+    if (this.game.state.moves.length != moveLength || this.root.page == 'home' || this.game.stopEval) {
+      return {
+        success: false,
+        evaluation: null,
+        mate: null,
+        bestmove: ''
+      };
+    }
     try {
       const engine = await this.root.stockfishReady;
-
 
       let evaluation: number | null = null;
       let mate: number | null = null;
@@ -287,9 +294,11 @@ export class GameCtrl implements BoardCtrl {
 
   async analyzePosition() {
     try {
-      const currEval = await this.getEvalFromFen(makeFen(this.chess.toSetup()), 15, false);
+      this.game.stopEval = false;
+      const moveLength = this.game.state.moves.length;
+      const currEval = await this.getEvalFromFen(makeFen(this.chess.toSetup()), 20, moveLength, false);
       this.game.evalData = currEval;
-      const movesEval: MoveEvaluation[] = await this.evaluateAllLegalMoves(this.chess);
+      const movesEval: MoveEvaluation[] = await this.evaluateAllLegalMoves(this.chess, moveLength);
         const grouped: Record<string, ProcessedMove[]> = {};
         for (const move of movesEval) {
           const source = move.uci.substring(0, 2);
@@ -393,9 +402,9 @@ export class GameCtrl implements BoardCtrl {
 
   private async evaluateAllLegalMoves(
       pos: Chess,
+      moveLength: number,
       depth: number = 15
   ): Promise<MoveEvaluation[]> {
-    const startFen = makeFen(pos.toSetup());
     const moveEvals: MoveEvaluation[] = [];
     const legalMoves = pos.allDests();
     let moveCount = 0;
@@ -412,7 +421,7 @@ export class GameCtrl implements BoardCtrl {
         };
         newPos.play(move);
         const fen = makeFen(newPos.toSetup());
-        const result = await this.getEvalFromFen(fen, depth);
+        const result = await this.getEvalFromFen(fen, depth, moveLength);
         moveEvals.push({
           uci,
           fen,

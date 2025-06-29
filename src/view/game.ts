@@ -175,7 +175,10 @@ const renderButtons = (ctrl: GameCtrl) => {
                         attrs: {type: 'button', disabled: !ctrl.playing()},
                         on: {
                             click() {
-                                ctrl.acceptTakeback();
+                                ctrl.game.stopEval = true;
+                                setTimeout(()=>{
+                                    ctrl.acceptTakeback();
+                                }, 1000);
                             },
                         },
                     },
