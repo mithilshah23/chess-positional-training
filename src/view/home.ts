@@ -2579,22 +2579,31 @@ const renderAbout = () => h('div.about', [
     h('p', [
         'Chess Positional Training is your secret weapon for mastering the game—whether it’s the opening, the middle game, or the endgame. It’s about converting winning positions into victories, escaping losing endgames, and finding clarity in complex middlegames. Ready to elevate your chess?',
         h('br'), h('br'),
-        h('strong', 'How it Works:'),
-        h('br'),
-        h('ul', [
-            h('li', [
-                h('strong', 'Start Where You Want: '),
-                'Choose to practice openings, midgame, or endgame positions based on your needs.'
-            ]),
-            h('li', [
-                h('strong', 'Play Anyone, Anywhere: '),
-                'Challenge friend or play against an AI. Every game begins from a random position, eliminating the need for memorized openings.'
-            ]),
-            h('li', [
-                h('strong', 'Choose Your Challenge: '),
-                'Play from an advantage, equal, or losing position to practice specific scenarios and improve your decision-making.'
-            ]),
+        h('strong', 'How it Works:')
+    ]),
+    h('ul', [
+        h('li', [
+            h('strong', 'Start Where You Want: '),
+            'Choose to practice openings, midgame, or endgame positions based on your needs.'
         ]),
+        h('li', [
+            h('strong', 'Play Anyone, Anywhere: '),
+            'Challenge friend or play against an AI. Every game begins from a random position, eliminating the need for memorized openings.'
+        ]),
+        h('li', [
+            h('strong', 'Choose Your Challenge: '),
+            'Play from an advantage, equal, or losing position to practice specific scenarios and improve your decision-making.'
+        ]),
+        h('li', [
+            h('strong', 'Toggle Evaluation Button: '),
+            'See move evaluations in real-time when playing against computer or maia bots (maia1, maia5, maia9) to improve your understanding.'
+        ]),
+    ]),
+    h('div.image-container', [
+        h('img', { attrs: { src: 'images/img1.png'} }),
+        h('img', { attrs: { src: 'images/img2.png'} }),
+        h('img', { attrs: { src: 'images/img3.png'} }),
+        h('img', { attrs: { src: 'images/img4.png'} })
     ])
 ]);
 
