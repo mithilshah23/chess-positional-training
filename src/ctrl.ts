@@ -157,7 +157,9 @@ export class Ctrl {
 
   private getTurnFromFEN(fen: string): string {
     if (this.playerRequiredColor != "random") {
-      return this.playerRequiredColor;
+      let turn: string = this.playerRequiredColor;
+      this.playerRequiredColor = "random";
+      return turn;
     }
     const turn = fen.split(" ")[1];
     return turn === "w" ? "white" : "black";
