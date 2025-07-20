@@ -24,6 +24,8 @@ export class Ctrl {
   tv?: TvCtrl;
   stockfishReady: Promise<Worker | typeof globalThis>;
   stockfishEngine?: Worker | typeof globalThis;
+  customFENInput?: HTMLInputElement;
+  customFen?: string;
 
   challenges: { in: Challenge[]; out: Challenge[] } = { in: [], out: [] };
   pollChallenges: () => Promise<void>;
@@ -125,7 +127,7 @@ export class Ctrl {
     this.level = clamp(this.level, 1, 8);
     this.clockLimit = clamp(this.clockLimit, 3, 180);
     this.clockIncrement = clamp(this.clockIncrement, 0, 60);
-    const fen = getRandomFenFromArray(fenArrayType);
+    const fen = (fenArrayType == FenArrayType.CustomFen) ? (this.customFen ?? "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1") : getRandomFenFromArray(fenArrayType);
     const turn = this.getTurnFromFEN(fen);
     window.gtag("event", "game_start", {
       position_type: this.getPositionType(fenArrayType),
@@ -212,7 +214,7 @@ export class Ctrl {
   ) => {
     this.clockLimit = clamp(this.clockLimit, 1, 180);
     this.clockIncrement = clamp(this.clockIncrement, 0, 60);
-    const fen = getRandomFenFromArray(fenArrayType);
+    const fen = (fenArrayType == FenArrayType.CustomFen) ? (this.customFen ?? "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1") : getRandomFenFromArray(fenArrayType);
     const turn = this.getTurnFromFEN(fen);
     window.gtag("event", "game_start", {
       position_type: this.getPositionType(fenArrayType),

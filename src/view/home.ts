@@ -2086,6 +2086,12 @@ const userHome = (ctrl: Ctrl) => [
                             positionButton(ctrl, 'Losing Position', FenArrayType.LosingArrayEndGame),
                             positionButton(ctrl, 'Mate In Few Moves', FenArrayType.MateInFewMoves)
                         ])
+                    ]),
+                    h('div.mb-4', [
+                        h('h3.text-muted.mb-2', 'Play From Fen'),
+                        h('div.d-grid', [
+                            customFenInputButton(ctrl)
+                        ])
                     ])
                 ])
             ])
@@ -2234,6 +2240,41 @@ function positionButton(ctrl: Ctrl, text: string, fenType: FenArrayType) {
         },
         text
     );
+}
+
+function customFenInputButton(ctrl: Ctrl) {
+    return h('div.d-flex.gap-2.align-items-center.mb-3', [
+        h('input.form-control.form-control-lg', {
+            attrs: {
+                type: 'text',
+                placeholder: 'Enter FEN',
+                style: 'width: 100%; max-width: 600px;',
+            },
+            hook: {
+                insert: vnode => {
+                    ctrl.customFENInput = vnode.elm as HTMLInputElement;
+                }
+            }
+        }),
+        h(
+            'button.btn.btn-outline-primary.btn-lg',
+            {
+                attrs: { type: 'button' },
+                on: {
+                    click: () => {
+                        const fen = ctrl.customFENInput?.value?.trim();
+                        if (fen) {
+                            ctrl.customFen = fen;
+                            showPlayerSelectionDialog(ctrl, FenArrayType.CustomFen, true);
+                        } else {
+                            alert('Please enter a valid FEN.');
+                        }
+                    }
+                }
+            },
+            'Play FEN'
+        )
+    ]);
 }
 
 
@@ -2563,21 +2604,21 @@ function showPlayerSelectionDialog(ctrl: Ctrl, fenArrayType: FenArrayType, isSta
 
 const anonHome = () => [
   h('div.login.text-center', [
-    renderAbout(),
     h('div.big', [h('p', 'Please log in to continue.')]),
     h(
-      'a.btn.btn-primary.btn-lg.mt-5',
+      'a.btn.btn-primary.btn-md.mt-5',
       {
         attrs: href('/login'),
       },
       'Login with Lichess'
     ),
+    renderAbout(),
   ]),
 ];
 
 const renderAbout = () => h('div.about', [
     h('p', [
-        'Chess Positional Training is your secret weapon for mastering the game—whether it’s the opening, the middle game, or the endgame. It’s about converting winning positions into victories, escaping losing endgames, and finding clarity in complex middlegames. Ready to elevate your chess?',
+        'Chess Positional Training is a fully client-side OAuth app that uses various Lichess APIs to let players practice from random positions and view live evaluations of each possible moves against the computer.',
         h('br'), h('br'),
         h('strong', 'How it Works:')
     ]),
@@ -2596,7 +2637,7 @@ const renderAbout = () => h('div.about', [
         ]),
         h('li', [
             h('strong', 'Toggle Evaluation Button: '),
-            'See move evaluations in real-time when playing against computer or maia bots (maia1, maia5, maia9) to improve your understanding.'
+            'See each move evaluations in real-time when playing against computer or maia bots (maia1, maia5, maia9) to improve your understanding.'
         ]),
     ]),
     h('div.image-container', [

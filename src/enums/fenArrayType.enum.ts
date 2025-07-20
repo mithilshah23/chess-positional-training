@@ -12,6 +12,8 @@ export enum FenArrayType {
     Chess960 = 'Chess960',
     //Fallback Default Opening
     DefaultOpening = 'DefaultOpening',
+    //Custom Fen : User to enter FEN String
+    CustomFen = 'CustomFen',
     //Standard Opening Positions
     IndianGameGeneral_A45 = 'IndianGameGeneral_A45',
     SicilianDefenseClosedVariation_B23 = 'SicilianDefenseClosedVariation_B23',

@@ -1,12 +1,12 @@
 
 # Chess Positional Training
 
-Chess Positional Training helps you improve by practicing real game situations—whether it’s the opening, middlegame, or endgame. It’s all about learning how to turn good positions into wins, defend tough spots, and make better decisions throughout the game.
+Chess Positional Training is a fully client-side OAuth app that uses various Lichess APIs to let players practice from random positions and view live evaluations of each possible moves against the computer.
 <div>
-  <img src="https://github.com/mithilshah23/chess-positional-training/blob/live/.github/screenshots/homePage.png?raw=true" width="48%"/>
-  <img src="https://github.com/mithilshah23/chess-positional-training/blob/live/.github/screenshots/gameBot.png?raw=true" width="48%"/>
-  <img src="https://github.com/mithilshah23/chess-positional-training/blob/live/.github/screenshots/configureStockfish.png?raw=true" width="48%"/>
-  <img src="https://github.com/mithilshah23/chess-positional-training/blob/live/.github/screenshots/configureOpenings.png?raw=true" width="48%"/>
+  <img src="https://github.com/mithilshah23/chess-positional-training/blob/live/.github/screenshots/img1.png?raw=true" width="80%"/>
+  <img src="https://github.com/mithilshah23/chess-positional-training/blob/live/.github/screenshots/img3.png?raw=true" width="80%"/>
+  <img src="https://github.com/mithilshah23/chess-positional-training/blob/live/.github/screenshots/img4.png?raw=true" width="80%"/>
+  <img src="https://github.com/mithilshah23/chess-positional-training/blob/live/.github/screenshots/gameBot.png?raw=true" width="80%"/>
 </div>
 
 How it works:
@@ -16,15 +16,21 @@ How it works:
 
 - **Pick your challenge:** Play from a winning, equal, or losing spot to build skills in all types of situations.
 
+- **Toggle Evaluation Button:** See each move evaluations in real-time when playing against computer or maia bots (maia1, maia5, maia9) to improve your understanding.
+
 ## Credits
 - [Lichess APIs](https://lichess.org/api)
 - [Lichess Chessground](https://github.com/lichess-org/chessground)
 - [Stockfish](https://stockfishchess.org/) 
+- [Lichess Database](https://database.lichess.org/)
 
 ## Contributions
 Contributions are always welcome!  
 Just make a [pull request](../../pulls).
 
 ## Demo
-[https://chess-positional-training.onrender.com/](https://chess-positional-training.onrender.com/)
+[Chess Positional Training](https://chess-positional-training.onrender.com/)
+
+## Built on top of
+[Lichess API Demo Repository](https://github.com/lichess-org/api-demo)
 
