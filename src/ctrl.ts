@@ -181,12 +181,17 @@ export class Ctrl {
         return "losing";
       case FenArrayType.MateInFewMoves:
         return "mating"
+      case FenArrayType.Chess960:
+        return "chess960";
+      case FenArrayType.CustomFen:
+        return "custom";
       default:
         return "standard-opening";
     }
   }
 
     private getGamePhase(fenType: FenArrayType): string {
+        if (fenType == FenArrayType.CustomFen) { return "unknown"; }
         if (fenType.toString().includes("EndGame") || fenType == FenArrayType.MateInFewMoves) return "endgame";
         if (fenType.toString().includes("Opening") || fenType.toString().includes("_") || fenType == FenArrayType.DefaultOpening) return "opening";
         return "midgame";

@@ -3,9 +3,9 @@
 
 Chess Positional Training is a fully client-side OAuth app that uses various Lichess APIs to let players practice from random positions and view live evaluations of each possible moves against the computer.
 <div>
-  <img src="https://github.com/mithilshah23/chess-positional-training/blob/live/.github/screenshots/img1.png?raw=true" width="80%"/>
-  <img src="https://github.com/mithilshah23/chess-positional-training/blob/live/.github/screenshots/img3.png?raw=true" width="80%"/>
-  <img src="https://github.com/mithilshah23/chess-positional-training/blob/live/.github/screenshots/img4.png?raw=true" width="80%"/>
+  <img src="https://github.com/mithilshah23/chess-positional-training/blob/live/images/img1.png?raw=true" width="80%"/>
+  <img src="https://github.com/mithilshah23/chess-positional-training/blob/live/images/img3.png?raw=true" width="80%"/>
+  <img src="https://github.com/mithilshah23/chess-positional-training/blob/live/images/img4.png?raw=true" width="80%"/>
   <img src="https://github.com/mithilshah23/chess-positional-training/blob/live/.github/screenshots/gameBot.png?raw=true" width="80%"/>
 </div>
 
