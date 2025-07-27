@@ -2089,7 +2089,7 @@ const userHome = (ctrl: Ctrl) => [
                     ]),
                     h('div.mb-4', [
                         h('h3.text-muted.mb-2', 'Play From Fen'),
-                        h('div.d-grid', [
+                        h('div', [
                             customFenInputButton(ctrl)
                         ])
                     ])
@@ -2243,7 +2243,7 @@ function positionButton(ctrl: Ctrl, text: string, fenType: FenArrayType) {
 }
 
 function customFenInputButton(ctrl: Ctrl) {
-    return h('div.d-flex.gap-2.align-items-center.mb-3', [
+    return h('div.d-grid.gap-2.d-md-flex', [
         h('input.form-control.form-control-lg', {
             attrs: {
                 type: 'text',
