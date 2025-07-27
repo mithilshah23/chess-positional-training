@@ -1,4 +1,4 @@
-import { Color } from 'chessground/types';
+import {Color} from 'chessground/types';
 import { opposite } from 'chessground/util';
 import { h } from 'snabbdom';
 import { GameCtrl } from '../game';
@@ -23,7 +23,6 @@ function addEvalCondition(ctrl: GameCtrl) {
     if (!(isComputerOpponent)) {
         return;
     }
-    highlightBestMove(ctrl, ctrl.pov);
     return h('div.btn-group.mt-4', [
         h(
             'button.btn.btn-secondary.me-2',
@@ -44,7 +43,6 @@ function addEvalCondition(ctrl: GameCtrl) {
                 on: {
                     click: () => {
                         ctrl.showHint = !(ctrl.showHint ?? false);
-                        highlightBestMove(ctrl, ctrl.pov);
                     }
                 }
             },
@@ -74,78 +72,6 @@ export const renderGame: (ctrl: GameCtrl) => Renderer = ctrl => _ =>
       ]
     ),
   ];
-
-// todo: use drawShapes function to do this
-function highlightBestMove(ctrl: GameCtrl, pov: 'white' | 'black'): void {
-    const bestMoveString = ctrl.game?.evalData?.bestmove;
-    if (!ctrl.showHint) {
-        const board = document.querySelector('cg-board');
-        board?.querySelectorAll('.square-highlight').forEach(el => el.remove());
-        return;
-    }
-    if (!bestMoveString) {
-        return;
-    }
-    const parts = bestMoveString.split(' ');
-    const uciMove = parts.length >= 2 ? parts[1] : null;
-    if (!uciMove || uciMove.length < 4) {
-        return;
-    }
-    const fromSquare = uciMove.substring(0, 2);
-    const toSquare = uciMove.substring(2, 4);
-    const board = document.querySelector('cg-board');
-    board?.querySelectorAll('.square-highlight').forEach(el => el.remove());
-    if (getPieceColorAtPosition(ctrl.ground?.getFen(), fromSquare) != pov) {
-        return;
-    }
-    highlightSquare(fromSquare, pov);
-    highlightSquare(toSquare, pov);
-}
-
-function highlightSquare(square: string, pov: 'white' | 'black') {
-    let file = square.charCodeAt(0) - 'a'.charCodeAt(0);
-    let rank = 8 - parseInt(square[1]);
-    if (pov === 'black') {
-        file = 7 - file;
-        rank = 7 - rank;
-    }
-    const highlight = document.createElement('div');
-    highlight.style.position = 'absolute';
-    highlight.style.width = '12.5%';
-    highlight.style.height = '12.5%';
-    highlight.style.backgroundColor = 'rgba(204, 68, 68, 0.7)';
-    highlight.style.pointerEvents = 'none';
-    highlight.style.transform = `translate(${file * 100}%, ${rank * 100}%)`;
-    highlight.classList.add('square-highlight');
-    const board = document.querySelector('cg-board');
-    board?.appendChild(highlight);
-}
-
-function getPieceColorAtPosition(fen: string | undefined, position: string): 'white' | 'black' | null {
-    if (!fen) {
-        return null;
-    }
-    const fenParts = fen.split(' ');
-    const piecePlacement = fenParts[0];
-    const file = position.charCodeAt(0) - 'a'.charCodeAt(0);
-    const rank = 8 - parseInt(position[1]);
-    const ranks = piecePlacement.split('/');
-    let fenRank = ranks[rank];
-    if (!fenRank) return null;
-    let fileCounter = 0;
-    for (const char of fenRank) {
-        if (fileCounter > file) break;
-        if (/\d/.test(char)) {
-            fileCounter += parseInt(char);
-        } else {
-            if (fileCounter === file) {
-                return char === char.toUpperCase() ? 'white' : 'black';
-            }
-            fileCounter++;
-        }
-    }
-    return null;
-}
 
 const renderButtons = (ctrl: GameCtrl) => {
     const hasMoreThanOneMove = ctrl.game.state.moves.split(' ').length > 1;

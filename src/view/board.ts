@@ -29,30 +29,34 @@ export const renderMoveEval = (gameCtrl: GameCtrl) => {
         return;
 
     }
-    const chess = gameCtrl.chess;
     const currentCell = gameCtrl.currentSelectedCell;
-    const pov = gameCtrl.pov;
     const bestMove: Record<string, Display> = gameCtrl.game.bestMoves;
     const moveEval: Record<string, ProcessedMove[]>  = gameCtrl.game.movesEval;
-
 
     const shapes: DrawShape[] = [];
 
     const validCellSelected :boolean = (currentCell != null && bestMove[currentCell] != null);
-
+    const bestMoves = getBestMoveSquares(gameCtrl);
+    let fromSquare = "";
+    let toSquare = "";
+    if (bestMoves) {
+        ({ fromSquare, toSquare } = bestMoves);
+    }
     if(validCellSelected && currentCell != null) {
         const processedMoves = moveEval[currentCell];
         for (const move of processedMoves) {
+                console.log("move.dest: " + move.dest);
+                if(move.dest == toSquare) { move.display.color = "blue" }
                 const badgeSvg = createEvalBadgeSvg(move.display);
                 shapes.push({
                     orig: move.dest as Key,
-                    brush: move.display.color,
                     customSvg: badgeSvg
                 });
             }
         }
     else {
         for (const move in bestMove) {
+            if (move == fromSquare) { bestMove[move].color = "blue" }
             const badgeSvg = createEvalBadgeSvg(bestMove[move]);
             shapes.push({
                 orig: move as Key,
@@ -61,9 +65,28 @@ export const renderMoveEval = (gameCtrl: GameCtrl) => {
         }
     }
     gameCtrl.ground?.setShapes(shapes);
-
-
     }
+
+function getBestMoveSquares(gameCtrl: any): { fromSquare: string, toSquare: string } | null {
+    const bestMoveString = gameCtrl?.game?.evalData?.bestmove;
+
+    if (!gameCtrl?.showHint) {
+        return null;
+    } else if (!bestMoveString) {
+        return null;
+    }
+
+    const parts = bestMoveString.split(' ');
+    const uciMove = parts.length >= 2 ? parts[1] : null;
+
+    if (!uciMove || uciMove.length < 4) {
+        return null;
+    } else {
+        const fromSquare = uciMove.substring(0, 2);
+        const toSquare = uciMove.substring(2, 4);
+        return { fromSquare, toSquare };
+    }
+}
 
 export const renderPlayer = (
   ctrl: BoardCtrl,
