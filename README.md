@@ -23,6 +23,7 @@ How it works:
 - [Lichess Chessground](https://github.com/lichess-org/chessground)
 - [Stockfish](https://stockfishchess.org/) 
 - [Lichess Database](https://database.lichess.org/)
+- [Endgame Database](https://github.com/supertorpe/chessendgametraining)
 
 ## Contributions
 Contributions are always welcome!  

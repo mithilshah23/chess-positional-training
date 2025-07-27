@@ -46,19 +46,19 @@ const renderNavBar = (ctrl: Ctrl) =>
         h('span.navbar-toggler-icon')
       ),
       h('div#navbarSupportedContent.collapse.navbar-collapse', [
-        // h('ul.navbar-nav.me-auto.mb-lg-0"', [
-        //   h(
-        //     'li.nav-item',
-        //     h(
-        //       'a.nav-link',
-        //       {
-        //         class: { active: ctrl.page == 'tv' },
-        //         attrs: href('/tv'),
-        //       },
-        //       'Watch TV'
-        //     )
-        //   ),
-        // ]),
+        h('ul.navbar-nav.me-auto.mb-lg-0"', [
+          h(
+            'li.nav-item',
+            h(
+              'a.nav-link',
+              {
+                class: { active: ctrl.page == 'endgame' },
+                attrs: href('/endgame'),
+              },
+              'End Games'
+            )
+          ),
+        ]),
         h('ul.navbar-nav', [colorpicker(), ctrl.auth.me ? userNav(ctrl.auth.me) : anonNav()]),
       ]),
     ]),

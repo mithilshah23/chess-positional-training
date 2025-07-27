@@ -96,6 +96,11 @@ export class Ctrl {
     this.redraw();
   };
 
+  openEndGame = async () => {
+    this.page = "endgame";
+    this.redraw();
+  }
+
   private async initEngine(): Promise<Worker> {
     const worker = new Worker('stockfish-nnue-16-single.js');
 

@@ -45,7 +45,6 @@ export const renderMoveEval = (gameCtrl: GameCtrl) => {
     if(validCellSelected && currentCell != null) {
         const processedMoves = moveEval[currentCell];
         for (const move of processedMoves) {
-                console.log("move.dest: " + move.dest);
                 if(move.dest == toSquare) { move.display.color = "blue" }
                 const badgeSvg = createEvalBadgeSvg(move.display);
                 shapes.push({

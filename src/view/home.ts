@@ -2226,7 +2226,7 @@ function standardOpenings(ctrl: Ctrl, text: string) {
     );
 }
 
-function positionButton(ctrl: Ctrl, text: string, fenType: FenArrayType) {
+export function positionButton(ctrl: Ctrl, text: string, fenType: FenArrayType) {
     return h(
         'button.btn.btn-outline-primary.btn-lg',
         {
@@ -2263,7 +2263,7 @@ function customFenInputButton(ctrl: Ctrl) {
                 on: {
                     click: () => {
                         const fen = ctrl.customFENInput?.value?.trim();
-                        if (fen) {
+                        if (fen || ctrl.customFen) {
                             ctrl.customFen = fen;
                             showPlayerSelectionDialog(ctrl, FenArrayType.CustomFen, true);
                         } else {
@@ -2602,7 +2602,7 @@ function showPlayerSelectionDialog(ctrl: Ctrl, fenArrayType: FenArrayType, isSta
 
 
 
-const anonHome = () => [
+export const anonHome = () => [
   h('div.login.text-center', [
     h('div.big', [h('p', 'Please log in to continue.')]),
     h(

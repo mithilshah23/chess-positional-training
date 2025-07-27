@@ -5,6 +5,7 @@ import scss from 'rollup-plugin-scss';
 import sass from 'sass';
 import { terser } from 'rollup-plugin-terser';
 import copy from 'rollup-plugin-copy';
+import json from '@rollup/plugin-json';
 
 export default args => ({
   input: 'src/main.ts',
@@ -24,6 +25,7 @@ export default args => ({
   plugins: [
     resolve({ browser: true }),
     typescript(),
+    json(),
     commonjs(),
     scss({
       include: ['scss/*'],
