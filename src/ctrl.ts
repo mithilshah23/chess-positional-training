@@ -26,6 +26,7 @@ export class Ctrl {
   stockfishEngine?: Worker | typeof globalThis;
   customFENInput?: HTMLInputElement;
   customFen?: string;
+  target?: string;
 
   challenges: { in: Challenge[]; out: Challenge[] } = { in: [], out: [] };
   pollChallenges: () => Promise<void>;

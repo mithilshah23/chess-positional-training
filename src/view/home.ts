@@ -2233,7 +2233,7 @@ export function positionButton(ctrl: Ctrl, text: string, fenType: FenArrayType) 
             attrs: { type: 'button' },
             on: {
                 click: () => {
-                    if (fenType==FenArrayType.MateInFewMoves) ctrl.level = 8;
+                    if (fenType==FenArrayType.MateInFewMoves || fenType==FenArrayType.CustomFen) ctrl.level = 8;
                     showPlayerSelectionDialog(ctrl, fenType, false)
                 }
             }
@@ -2375,7 +2375,6 @@ function showPlayerSelectionDialog(ctrl: Ctrl, fenArrayType: FenArrayType, isSta
     overlay.style.alignItems = 'center';
     overlay.style.zIndex = '1000';
 
-    // Create dialog container
     const optionsDiv = document.createElement('div');
     optionsDiv.className = 'popup-dialog';
     optionsDiv.style.backgroundColor = 'white';
@@ -2386,9 +2385,18 @@ function showPlayerSelectionDialog(ctrl: Ctrl, fenArrayType: FenArrayType, isSta
     optionsDiv.style.boxShadow = '0 8px 30px rgba(0,0,0,0.2)';
     optionsDiv.style.border = '1px solid #e0e0e0';
 
+    let targetHeader = '';
+    if (ctrl.target) {
+        targetHeader = `<h4 style="margin: 0 0 20px 0; color: #333; font-size: 18px; text-align: center; font-weight: normal;">
+                        Goal: ${ctrl.target}
+                     </h4>`;
+        ctrl.target = undefined;
+    }
+
     if (window.innerWidth < 550) {
         optionsDiv.innerHTML = `
             <h2 style="margin: 0 0 25px 0; color: #333; font-size: 24px; text-align: center;">Select Opponent</h2>
+            ${targetHeader}
             <div style="display: flex; flex-direction: column; gap: 15px;">
                 <button id="play-computer" class="btn btn-primary" 
                     style="padding: 15px; font-size: 18px; border-radius: 8px;">
@@ -2403,6 +2411,7 @@ function showPlayerSelectionDialog(ctrl: Ctrl, fenArrayType: FenArrayType, isSta
     } else {
         optionsDiv.innerHTML = `
             <h2 style="margin: 0 0 30px 0; color: #333; font-size: 28px; text-align: center;">Select Your Opponent</h2>
+            ${targetHeader}
             <div style="display: flex; flex-direction: column; gap: 20px;">
                 <button id="play-computer" class="btn btn-primary" 
                     style="padding: 18px; font-size: 20px; border-radius: 10px;">

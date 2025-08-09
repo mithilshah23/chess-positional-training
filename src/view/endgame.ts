@@ -61,6 +61,7 @@ const userHome: (ctrl: Ctrl) => VNode[] = (ctrl) => [
                                     const originalClick = btn.data.on.click;
                                     btn.data.on.click = () => {
                                         ctrl.customFen = game.fen;
+                                        ctrl.target = game.target;
                                         originalClick();
                                     };
 
