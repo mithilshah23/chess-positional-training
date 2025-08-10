@@ -90,6 +90,15 @@ export class Auth {
     };
     if (me.error) throw me.error;
     this.me = me;
+    const backendUrl = process.env.BACKEND_URL || "http://localhost:8080";
+
+    await fetch(`${backendUrl}/authenticate`, {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({ userId: me.id }),
+    });
   };
 
   openStream = async (path: string, config: any, handler: (_: any) => void) => {

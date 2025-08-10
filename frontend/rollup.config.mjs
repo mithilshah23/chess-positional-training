@@ -6,6 +6,7 @@ import sass from 'sass';
 import { terser } from 'rollup-plugin-terser';
 import copy from 'rollup-plugin-copy';
 import json from '@rollup/plugin-json';
+import replace from '@rollup/plugin-replace';
 
 export default args => ({
   input: 'src/main.ts',
@@ -14,15 +15,19 @@ export default args => ({
     format: 'iife',
     name: 'LichessDemo',
     plugins: args['config-prod']
-      ? [
+        ? [
           terser({
             safari10: false,
             output: { comments: false },
           }),
         ]
-      : [],
+        : [],
   },
   plugins: [
+    replace({
+      preventAssignment: true,
+      'process.env.BACKEND_URL': JSON.stringify(process.env.BACKEND_URL || 'http://localhost:8080'),
+    }),
     resolve({ browser: true }),
     typescript(),
     json(),
