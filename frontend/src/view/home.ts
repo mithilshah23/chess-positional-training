@@ -2226,7 +2226,7 @@ function standardOpenings(ctrl: Ctrl, text: string) {
     );
 }
 
-export function positionButton(ctrl: Ctrl, text: string, fenType: FenArrayType) {
+function positionButton(ctrl: Ctrl, text: string, fenType: FenArrayType) {
     return h(
         'button.btn.btn-outline-primary.btn-lg',
         {
@@ -2356,7 +2356,7 @@ const renderGameWidget = (game: Game) =>
     ]
   );
 
-function showPlayerSelectionDialog(ctrl: Ctrl, fenArrayType: FenArrayType, isStandardOpening: boolean) {
+export function showPlayerSelectionDialog(ctrl: Ctrl, fenArrayType: FenArrayType, isStandardOpening: boolean) {
     const existingDialog = document.querySelector('.popup-overlay');
     if (existingDialog) {
         document.body.removeChild(existingDialog);

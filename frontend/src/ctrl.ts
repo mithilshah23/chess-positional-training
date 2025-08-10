@@ -27,6 +27,8 @@ export class Ctrl {
   customFENInput?: HTMLInputElement;
   customFen?: string;
   target?: string;
+  endgamePath?: string;
+  availablePositionsLoading: boolean = false;
 
   challenges: { in: Challenge[]; out: Challenge[] } = { in: [], out: [] };
   pollChallenges: () => Promise<void>;
@@ -133,6 +135,21 @@ export class Ctrl {
     this.level = clamp(this.level, 1, 8);
     this.clockLimit = clamp(this.clockLimit, 3, 180);
     this.clockIncrement = clamp(this.clockIncrement, 0, 60);
+    if (this.endgamePath != null) {
+      const backendUrl = process.env.BACKEND_URL || "http://localhost:8080";
+      fetch(`${backendUrl}/endgame/start`, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          userId: this.auth?.me?.id,
+          endgamePath: this.endgamePath
+        })
+      }).catch(() => {
+        console.warn("/endgame/start endpoint failed");
+      });
+      this.endgamePath = undefined;
+      this.availablePositionsLoading = false;
+    }
     const fen = (fenArrayType == FenArrayType.CustomFen) ? (this.customFen ?? "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1") : getRandomFenFromArray(fenArrayType);
     const turn = this.getTurnFromFEN(fen);
     window.gtag("event", "game_start", {

@@ -1,12 +1,19 @@
 import {Renderer} from "../interfaces";
-import {anonHome, positionButton} from "./home";
+import {anonHome, showPlayerSelectionDialog} from "./home";
 import {Ctrl} from "../ctrl";
 import {h, VNode} from "snabbdom";
 import {FenArrayType} from "../enums/fenArrayType.enum";
 import rawData from "../static/endgamedatabase.json";
 
+const backendUrl = process.env.BACKEND_URL || "http://localhost:8080";
 
-export const renderEndGamePage: Renderer = ctrl => (ctrl.auth.me ? userHome(ctrl) : anonHome());
+export const renderEndGamePage: Renderer = ctrl => {
+    if (!ctrl.availablePositionsLoading) {
+        ctrl.availablePositionsLoading = true;
+        fetchAvailablePositions(ctrl);
+    }
+    return (ctrl.auth.me ? userHome(ctrl) : anonHome());
+};
 
 interface Game {
     readonly fen: string;
@@ -42,39 +49,73 @@ const userHome: (ctrl: Ctrl) => VNode[] = (ctrl) => [
     h('div.container', { attrs: { align: 'left' } }, [
         h('div.row.g-4', [
             h('div.col-12', [
-
-                ...data.categories.flatMap(category => [
-
+                ...data.categories.flatMap((category, categoryIndex) => [
                     h('h2.mb-3', category.name),
-
-                    ...category.subcategories.map(sub =>
+                    ...category.subcategories.map((sub, subIndex) =>
                         h('div.mb-4', [
                             h('h3.text-muted.mb-2', sub.name),
                             h('div.d-flex.flex-wrap.gap-2',
-                                sub.games.map((game, idx) => {
+                                sub.games.map((game, gameIndex) => {
+                                    const exists = !!availablePositions?.[categoryIndex]?.[subIndex]?.[gameIndex];
                                     const btn = positionButton(
-                                        ctrl,
-                                        `${idx + 1}`,
-                                        FenArrayType.CustomFen
+                                        ctrl, `${gameIndex + 1}`, FenArrayType.CustomFen, exists
                                     ) as ClickableVNode;
-
                                     const originalClick = btn.data.on.click;
                                     btn.data.on.click = () => {
                                         ctrl.customFen = game.fen;
                                         ctrl.target = game.target;
+                                        ctrl.endgamePath = `${categoryIndex}/${subIndex}/${gameIndex}`;
                                         originalClick();
                                     };
-
                                     return btn;
                                 })
                             )
                         ])
                     )
-
                 ])
             ])
         ])
     ])
 ];
+
+
+export function positionButton(ctrl: Ctrl, text: string, fenType: FenArrayType, isAvailable: boolean) {
+    return h(
+        `button.btn.${isAvailable ? 'btn-success' : 'btn-outline-primary'}.btn-lg`,
+        {
+            attrs: { type: 'button' },
+            on: {
+                click: () => {
+                    if (fenType === FenArrayType.MateInFewMoves || fenType === FenArrayType.CustomFen) ctrl.level = 8;
+                    showPlayerSelectionDialog(ctrl, fenType, false);
+                }
+            }
+        },
+        text
+    );
+}
+
+let availablePositions: Record<string, any> | null = null;
+
+async function fetchAvailablePositions(ctrl: Ctrl) {
+    try {
+        const res = await fetch(`${backendUrl}/endgame/started`, {
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json",
+        },
+        body: JSON.stringify({ userId: ctrl.auth.me?.id })}
+            );
+        if (!res.ok) {
+            console.warn(`Backend responded with status ${res.status}`);
+            return;
+        }
+        const data = await res.json();
+        availablePositions = data.positions;
+        ctrl.redraw();
+    } catch {
+        availablePositions = null;
+    }
+}
 
 
