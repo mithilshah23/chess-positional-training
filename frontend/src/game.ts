@@ -107,6 +107,17 @@ export class GameCtrl implements BoardCtrl {
           this.game.offerTakeback = false;
         }
       }
+      if(this.game.state.status == 'mate' || this.game.state.status == 'draw') {
+        const backendUrl = process.env.BACKEND_URL || "http://localhost:8080";
+        void fetch(`${backendUrl}/game/ended`, {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify({ userId: this.root?.auth?.me?.id, gameStatus: this.game.state.status, pov: this.pov, initialFen: this.game.initialFen, winner: this.game.state.winner }),
+        });
+      }
+
       this.game.moveCnt = this.game.state.moves.length
       const setup = this.game.initialFen == 'startpos' ? defaultSetup() : parseFen(this.game.initialFen).unwrap();
       this.chess = Chess.fromSetup(setup).unwrap();

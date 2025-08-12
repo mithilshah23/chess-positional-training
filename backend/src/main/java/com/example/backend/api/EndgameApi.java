@@ -21,13 +21,13 @@ public class EndgameApi {
         this.mongoTemplate = mongoTemplate;
     }
 
-    @PostMapping("/started")
-    public AvailablePositions getUserStartedGame(@RequestBody User user) {
+    @PostMapping("/stats")
+    public UserEndGamePositions getUserStartedGame(@RequestBody User user) {
         UserEndGamePositions userPositions = mongoTemplate.findById(user.getUserId(), UserEndGamePositions.class);
         if (userPositions == null) {
-            return null;
+            return new UserEndGamePositions();
         }
-        return userPositions.getStartedPositions();
+        return userPositions;
     }
 
     @PostMapping("/start")
@@ -49,11 +49,10 @@ public class EndgameApi {
         if (userDoc == null) {
             userDoc = new UserEndGamePositions();
             userDoc.setUserId(request.getUserId());
-            userDoc.setStartedPositions(new AvailablePositions());
-            userDoc.getStartedPositions().setPositions(new HashMap<>());
+            userDoc.setStartedPositions(new HashMap<>());
         }
 
-        Map<String, Map<String, Map<String, Boolean>>> positions = userDoc.getStartedPositions().getPositions();
+        Map<String, Map<String, Map<String, Boolean>>> positions = userDoc.getStartedPositions();
         positions.computeIfAbsent(category, k -> new HashMap<>())
                 .computeIfAbsent(subcategory, k -> new HashMap<>())
                 .put(gameIndex, true);

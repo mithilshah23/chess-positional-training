@@ -92,7 +92,7 @@ export class Auth {
     this.me = me;
     const backendUrl = process.env.BACKEND_URL || "http://localhost:8080";
 
-    await fetch(`${backendUrl}/authenticate`, {
+    void fetch(`${backendUrl}/authenticate`, {
       method: "POST",
       headers: {
         "Content-Type": "application/json",

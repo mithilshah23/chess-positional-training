@@ -56,9 +56,10 @@ const userHome: (ctrl: Ctrl) => VNode[] = (ctrl) => [
                             h('h3.text-muted.mb-2', sub.name),
                             h('div.d-flex.flex-wrap.gap-2',
                                 sub.games.map((game, gameIndex) => {
-                                    const exists = !!availablePositions?.[categoryIndex]?.[subIndex]?.[gameIndex];
+                                    const started = !!startedPositions?.[categoryIndex]?.[subIndex]?.[gameIndex];
+                                    const completed = !!completedPositions?.[categoryIndex]?.[subIndex]?.[gameIndex];
                                     const btn = positionButton(
-                                        ctrl, `${gameIndex + 1}`, FenArrayType.CustomFen, exists
+                                        ctrl, `${gameIndex + 1}`, FenArrayType.CustomFen, started, completed
                                     ) as ClickableVNode;
                                     const originalClick = btn.data.on.click;
                                     btn.data.on.click = () => {
@@ -79,9 +80,9 @@ const userHome: (ctrl: Ctrl) => VNode[] = (ctrl) => [
 ];
 
 
-export function positionButton(ctrl: Ctrl, text: string, fenType: FenArrayType, isAvailable: boolean) {
+export function positionButton(ctrl: Ctrl, text: string, fenType: FenArrayType, started: boolean, completed: boolean) {
     return h(
-        `button.btn.${isAvailable ? 'btn-success' : 'btn-outline-primary'}.btn-lg`,
+        `button.btn.${started ? (completed ? 'btn-success' : 'btn-warning') : 'btn-outline-primary'}.btn-lg`,
         {
             attrs: { type: 'button' },
             on: {
@@ -95,11 +96,12 @@ export function positionButton(ctrl: Ctrl, text: string, fenType: FenArrayType, 
     );
 }
 
-let availablePositions: Record<string, any> | null = null;
+let startedPositions: Record<string, any> | null = null;
+let completedPositions: Record<string, any> | null = null;
 
 async function fetchAvailablePositions(ctrl: Ctrl) {
     try {
-        const res = await fetch(`${backendUrl}/endgame/started`, {
+        const res = await fetch(`${backendUrl}/endgame/stats`, {
             method: "POST",
             headers: {
                 "Content-Type": "application/json",
@@ -111,10 +113,12 @@ async function fetchAvailablePositions(ctrl: Ctrl) {
             return;
         }
         const data = await res.json();
-        availablePositions = data.positions;
+        startedPositions = data.startedPositions;
+        completedPositions = data.completedPositions;
         ctrl.redraw();
     } catch {
-        availablePositions = null;
+        startedPositions = null;
+        completedPositions = null;
     }
 }
 
