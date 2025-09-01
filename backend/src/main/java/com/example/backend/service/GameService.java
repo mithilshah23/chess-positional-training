@@ -1,8 +1,8 @@
 package com.example.backend.service;
 
 import com.example.backend.models.EndgameDetails;
-import com.example.backend.models.GameEndedStats;
-import com.example.backend.models.UserEndGamePositions;
+import com.example.backend.dto.GameEndedStats;
+import com.example.backend.dto.UserEndGamePositions;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.mongodb.core.MongoTemplate;
 import org.springframework.data.mongodb.core.query.Criteria;

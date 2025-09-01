@@ -1,6 +1,6 @@
 package com.example.backend.api;
 
-import com.example.backend.models.GameEndedStats;
+import com.example.backend.dto.GameEndedStats;
 import com.example.backend.service.GameService;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
