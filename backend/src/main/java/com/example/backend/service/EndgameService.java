@@ -1,0 +1,57 @@
+package com.example.backend.service;
+
+import com.example.backend.dto.EndgameStarted;
+import com.example.backend.dto.User;
+import com.example.backend.dto.UserEndGamePositions;
+import org.springframework.data.mongodb.core.MongoTemplate;
+import org.springframework.stereotype.Service;
+
+import java.util.HashMap;
+import java.util.Map;
+
+@Service
+public class EndgameService {
+
+    private final MongoTemplate mongoTemplate;
+
+    public EndgameService(MongoTemplate mongoTemplate) {
+        this.mongoTemplate = mongoTemplate;
+    }
+
+    public UserEndGamePositions getUserStartedGame(User user) {
+        UserEndGamePositions userPositions = mongoTemplate.findById(user.getUserId(), UserEndGamePositions.class);
+        if (userPositions == null) {
+            return new UserEndGamePositions();
+        }
+        return userPositions;
+    }
+
+    public void putUserStartedGame(EndgameStarted request) {
+        String[] parts = request.getEndgamePath().split("/");
+        if (parts.length != 3) {
+            System.out.println("Invalid EndgamePath: " + request.getEndgamePath());
+            return;
+        }
+        String category = parts[0];
+        String subcategory = parts[1];
+        String gameIndex = parts[2];
+
+        UserEndGamePositions userDoc = mongoTemplate.findById(
+                request.getUserId(),
+                UserEndGamePositions.class
+        );
+
+        if (userDoc == null) {
+            userDoc = new UserEndGamePositions();
+            userDoc.setUserId(request.getUserId());
+            userDoc.setStartedPositions(new HashMap<>());
+        }
+
+        Map<String, Map<String, Map<String, Boolean>>> positions = userDoc.getStartedPositions();
+        positions.computeIfAbsent(category, k -> new HashMap<>())
+                .computeIfAbsent(subcategory, k -> new HashMap<>())
+                .put(gameIndex, true);
+
+        mongoTemplate.save(userDoc);
+    }
+}
