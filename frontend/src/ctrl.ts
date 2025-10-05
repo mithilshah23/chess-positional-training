@@ -63,46 +63,51 @@ export class Ctrl {
     }
     this.challengeInterval = window.setInterval(this.pollChallenges, 3000);
     await this.pollChallenges();
+    await this.setupStreamsAndGames();
+    this.redraw();
+  };
+
+  openEndGame = async () => {
+    this.page = "endgame";
+    await this.setupStreamsAndGames();
+    this.redraw();
+  }
+
+  private async setupStreamsAndGames() {
     if (this.auth.me) {
       await this.stream?.close();
       this.games.empty();
-      //added to count number of games currently ongoing
+
+      // Reset the total number of ongoing games
       this.games.totalGame = 0;
+
+      // Open the first stream for game counting
+      await this.auth.openStream("/api/stream/event", {}, (msg) => {
+        if (msg.type === "gameStart") {
+          this.games.incrementGameCount();
+        }
+      });
+
+      // Open the second stream for game-specific events
       this.stream = await this.auth.openStream(
           "/api/stream/event",
           {},
           (msg) => {
             switch (msg.type) {
               case "gameStart":
-                this.games.incrementGameCount();
+                this.games.onStart(msg.game);
                 break;
+              case "gameFinish":
+                this.games.onFinish(msg.game);
+                break;
+              default:
+                // console.warn(`Unprocessed message of type ${msg.type}`, msg);
             }
           }
       );
-      this.stream = await this.auth.openStream(
-        "/api/stream/event",
-        {},
-        (msg) => {
-          switch (msg.type) {
-            case "gameStart":
-              this.games.onStart(msg.game);
-              break;
-            case "gameFinish":
-              this.games.onFinish(msg.game);
-              break;
-            default:
-            // console.warn(`Unprocessed message of type ${msg.type}`, msg);
-          }
-        }
-      );
     }
-    this.redraw();
-  };
-
-  openEndGame = async () => {
-    this.page = "endgame";
-    this.redraw();
   }
+
 
   private async initEngine(): Promise<Worker> {
     const worker = new Worker('stockfish-nnue-16-single.js');
