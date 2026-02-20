@@ -9,6 +9,7 @@ import {Chess, defaultSetup, fen} from 'chessops';
 import { makeFen, parseFen } from 'chessops/fen';
 import { chessgroundDests } from 'chessops/compat';
 import { Move } from 'chessops/types';
+import { SimpleEngine } from './ceval/simpleEngine';
 
 export interface BoardCtrl {
   chess: Chess;
@@ -49,8 +50,10 @@ export class GameCtrl implements BoardCtrl {
   showEvalBar?: boolean;
   showHint?: boolean;
   currentSelectedCell?: string | null;
+  /** Incremented on every position change; stale analyses check this to abort. */
+  analysisGeneration: number = 0;
 
-  constructor(game: Game, readonly stream: Stream, private root: Ctrl) {
+  constructor(game: Game, readonly stream: Stream, readonly root: Ctrl) {
     this.game = game;
     this.pov = this.game.black.id == this.root.auth.me?.id ? 'black' : 'white';
     this.onUpdate();
@@ -62,6 +65,9 @@ export class GameCtrl implements BoardCtrl {
     if(this.stream) {
       this.stream.close();
     }
+    // Stop any running engine evaluation
+    this.root.engine.stop();
+    this.analysisGeneration++;
     clearInterval(this.redrawInterval);
   };
 
@@ -130,19 +136,13 @@ export class GameCtrl implements BoardCtrl {
           ['maia1', 'maia5', 'maia9'].includes(this.game.white.name);
 
       const isComputerOpponent = isBlackComputer || isWhiteComputer;
-      // if (isComputerOpponent) {
-      //   this.fetchStockfishEval(fen, depth).then(data => {
-      //     this.game.evalData = data;
-      //   }).catch(error => {
-      //     console.error("Fetch error:", error);
-      //     this.game.evalData = null;
-      //   });
-      // }
       if(isComputerOpponent) {
-        // handle race condition, when previous worker node is still running, we need to stop previous evaluation
-        // todo: think of a better solution, 0.8 sec seems good enough
-        this.game.stopEval = true;
-        setTimeout(() => this.analyzePosition(), 800);
+        // Instantly cancel any running evaluation via UCI 'stop' command
+        this.root.engine.stop();
+        this.game.stopEval = false;
+        // Bump the analysis generation so stale results are discarded
+        this.analysisGeneration++;
+        this.analyzePosition();
       }
       const lastMove = moves[moves.length - 1];
       this.lastMove = lastMove && [lastMove.substr(0, 2) as Key, lastMove.substr(2, 2) as Key];
@@ -152,172 +152,99 @@ export class GameCtrl implements BoardCtrl {
     }
   };
 
-  // deprecated method
-  private async fetchStockfishEval(fen: string, depth: number): Promise<number | null> {
-    const stockfishApiUrl = 'https://stockfish.online/api/s/v2.php';
-    try {
-      const encodedFen = encodeURIComponent(fen);
-      const url = `${stockfishApiUrl}?fen=${encodedFen}&depth=${depth}`;
-      const response = await fetch(url);
-      return await response.json();
-    } catch (error) {
-      console.error('Stockfish API error:', error);
-      return null;
-    }
-  }
-  private async fetchStockfishEvalWorkerNode(fen: string, depth: number): Promise<{
+  /**
+   * Evaluate a single FEN using the Protocol-based SimpleEngine.
+   * The Protocol handles UCI option caching (no redundant setoption per call),
+   * proper stop/queue lifecycle, and clean bestmove handling.
+   */
+  /**
+   * Evaluate a single FEN using the Protocol-based SimpleEngine.
+   * The Protocol already converts engine output to white's perspective,
+   * so no additional sign flipping is needed here.
+   */
+  private async getEvalFromFen(
+    fen: string,
+    depth: number,
+    generation: number,
+    hashSize?: number,
+  ): Promise<{
     success: boolean;
     evaluation: number | null;
     mate: number | null;
     bestmove: string;
-    continuation: string;
   }> {
+    // Check if this analysis is still current
+    if (this.analysisGeneration !== generation || this.root.page === 'home') {
+      return { success: false, evaluation: null, mate: null, bestmove: '' };
+    }
+
     try {
-      const engine = await this.root.stockfishReady;
+      const engine = this.root.engine;
+      // Determine ply from the FEN (fullmove number * 2, adjusted for side)
+      const fenParts = fen.split(' ');
+      const isBlackToMove = fenParts[1] === 'b';
+      const fullmove = parseInt(fenParts[5] || '1');
+      const ply = (fullmove - 1) * 2 + (isBlackToMove ? 1 : 0);
 
-      let evaluation: number | null = null;
-      let mate: number | null = null;
-      let bestmove: string = '';
-      let continuation: string = '';
-
-      engine.postMessage('uci');
-      engine.postMessage('isready');
-      engine.postMessage(`position fen ${fen}`);
-      engine.postMessage(`go depth ${depth}`);
-
-      await new Promise<void>((resolve) => {
-        const handler = (e: any) => {
-          const m = (e.data ?? e).toString();
-          if (m.startsWith('info depth') && m.includes(`depth ${depth}`)) {
-            const scoreCpMatch = /score cp (-?\d+)/.exec(m);
-            const scoreMateMatch = /score mate (-?\d+)/.exec(m);
-            const pvMatch = m.match(/pv\s((?:[a-h][1-8][a-h][1-8]\s?)+)/);
-            if (scoreCpMatch) {
-              evaluation = parseInt(scoreCpMatch[1], 10) / 100;
-              mate = null;
-            } else if (scoreMateMatch) {
-              mate = parseInt(scoreMateMatch[1], 10);
-              evaluation = null;
-            }
-            if (pvMatch) {
-              continuation = pvMatch[1];
-            }
-          }
-          if (m.startsWith('bestmove')) {
-            bestmove = m;
-            engine.onmessage = null;
-            resolve();
-          }
-        };
-        engine.onmessage = handler;
+      const result = await engine.evalFen({
+        initialFen: fen,
+        currentFen: fen,
+        moves: [],
+        depth,
+        ply,
+        variant: this.game.variant?.key || 'standard',
+        ...(hashSize !== undefined && { hashSize }),
       });
 
-      if (this.chess.turn === 'black') {
-        if (evaluation !== null) {
-          evaluation = -evaluation;
-        }
-        if (mate !== null) {
-          mate = -mate;
-        }
+      // Check again after await -- position may have changed
+      if (this.analysisGeneration !== generation) {
+        return { success: false, evaluation: null, mate: null, bestmove: '' };
+      }
+
+      // Protocol already returns values from white's perspective.
+      // Divide cp by 10 to match the display format used by the rest of the code.
+      let evaluation: number | null = null;
+      let mate: number | null = null;
+
+      if (result.cp !== undefined) {
+        evaluation = result.cp / 10;
+      }
+      if (result.mate !== undefined) {
+        mate = result.mate;
       }
 
       return {
         success: true,
         evaluation,
         mate,
-        bestmove,
-        continuation,
+        bestmove: result.bestmove,
       };
     } catch (e) {
       console.error('[SF] Stockfish eval failed:', e);
-      return {
-        success: false,
-        evaluation: null,
-        mate: null,
-        bestmove: '',
-        continuation: '',
-      };
-    }
-  }
-
-  private async getEvalFromFen(fen: string, depth: number, moveLength: number, opponentMove: boolean = true): Promise<{
-    success: boolean;
-    evaluation: number | null;
-    mate: number | null;
-    bestmove: string;
-  }> {
-    if (this.game.state.moves.length != moveLength || this.root.page == 'home' || this.game.stopEval) {
-      return {
-        success: false,
-        evaluation: null,
-        mate: null,
-        bestmove: ''
-      };
-    }
-    try {
-      const engine = await this.root.stockfishReady;
-
-      let evaluation: number | null = null;
-      let mate: number | null = null;
-      let bestmove: string = '';
-      engine.postMessage('isready');
-      if (this.game.variant.key == 'chess960') {
-        engine.postMessage('setoption name UCI_Chess960 value true');
-      } else {
-        engine.postMessage('setoption name UCI_Chess960 value false');
-      }
-      engine.postMessage(`position fen ${fen}`);
-      engine.postMessage(`go depth ${depth}`);
-
-      await new Promise<void>((resolve) => {
-        const handler = (e: any) => {
-          const m = (e.data ?? e).toString();
-          if (m.includes(`info depth ${depth}`)) {
-            const scoreCpMatch = /score cp (-?\d+)/.exec(m);
-            const scoreMateMatch = /score mate (-?\d+)/.exec(m);
-            if (scoreCpMatch != null) {
-              evaluation = parseInt(scoreCpMatch[1], 10)/10;
-              mate = null;
-            } else if (scoreMateMatch != null) {
-              mate = parseInt(scoreMateMatch[1], 10);
-              evaluation = null;
-            }
-          }
-          if (m.startsWith('bestmove')) {
-            bestmove = m;
-            engine.onmessage = null;
-            resolve();
-          }
-        };
-        engine.onmessage = handler;
-      });
-      return {
-        success: true,
-        evaluation: (opponentMove)? ((evaluation!=null)?-evaluation: null) : evaluation,
-        mate: (opponentMove)? ((mate!=null)?-mate: null) : mate,
-        bestmove: bestmove
-      };
-    } catch (e) {
-      console.error('[SF] Stockfish eval failed:', e);
-      return {
-        success: false,
-        evaluation: null,
-        mate: null,
-        bestmove: ''
-      };
+      return { success: false, evaluation: null, mate: null, bestmove: '' };
     }
   }
 
   async analyzePosition() {
+    const generation = this.analysisGeneration;
     try {
-      this.game.stopEval = false;
       const turn = this.chess.turn;
-      const moveLength = this.game.state.moves.length;
-      const currEval = await this.getEvalFromFen(makeFen(this.chess.toSetup()), 18, moveLength, this.chess.turn == 'black');
+      const currentFen = makeFen(this.chess.toSetup());
+
+      // Main position eval at depth 18
+      const currEval = await this.getEvalFromFen(currentFen, 18, generation);
+      if (this.analysisGeneration !== generation) return; // position changed, abort
       this.game.evalData = currEval;
-      if (turn == this.pov) {
-        const movesEval: MoveEvaluation[] = await this.evaluateAllLegalMoves(this.chess, moveLength);
+
+      if (turn === this.pov) {
+        // Per-move evaluation at depth 15
+        const movesEval: MoveEvaluation[] = await this.evaluateAllLegalMoves(this.chess, generation, 15);
+        if (this.analysisGeneration !== generation) return; // position changed, abort
+
         const grouped: Record<string, ProcessedMove[]> = {};
+        // Flip eval to player's perspective: engine returns white's POV,
+        // so negate when player is black so positive = good for the player.
+        const flip = this.pov === 'black' ? -1 : 1;
         for (const move of movesEval) {
           const source = move.uci.substring(0, 2);
           // todo: promotion handling
@@ -327,8 +254,8 @@ export class GameCtrl implements BoardCtrl {
             source: source,
             fen: move.fen,
             dest: dest,
-            evalCP: move.evalCP,
-            mate: move.mate,
+            evalCP: move.evalCP !== null ? move.evalCP * flip : null,
+            mate: move.mate !== null ? move.mate * flip : null,
             display: {eval: "", color: "green"}
           };
 
@@ -421,16 +348,18 @@ export class GameCtrl implements BoardCtrl {
 
   private async evaluateAllLegalMoves(
       pos: Chess,
-      moveLength: number,
+      generation: number,
       depth: number = 15
   ): Promise<MoveEvaluation[]> {
     const moveEvals: MoveEvaluation[] = [];
     const legalMoves = pos.allDests();
-    let moveCount = 0;
 
     for (const [fromSquare, dests] of legalMoves) {
       for (const toSquare of dests) {
-        moveCount++;
+        // Check if analysis is still current before each eval
+        if (this.analysisGeneration !== generation) {
+          return [];
+        }
         const uci = `${this.squareToUci(fromSquare)}${this.squareToUci(toSquare)}`;
         const newPos = pos.clone();
         const move: Move = {
@@ -440,7 +369,7 @@ export class GameCtrl implements BoardCtrl {
         };
         newPos.play(move);
         const fen = makeFen(newPos.toSetup());
-        const result = await this.getEvalFromFen(fen, depth, moveLength);
+        const result = await this.getEvalFromFen(fen, depth, generation, 4);
         if (!result.success) {
           return [];
         }

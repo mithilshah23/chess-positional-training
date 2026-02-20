@@ -1,11 +1,14 @@
 .games {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1rem;
 }
 
 .game-widget {
-  border-radius: 0.25rem;
+  border-radius: 0.5rem;
   padding: 1em;
+  border: 2px solid #dee2e6;
+  transition: border-color 0.2s, box-shadow 0.2s, background 0.2s;
   &,
   & a {
     color: var(--bs-gray) !important;
@@ -13,6 +16,8 @@
   &:hover {
     background: var(--bs-primary);
     color: white !important;
+    border-color: var(--bs-primary);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
   }
   &__opponent {
     display: flex;
@@ -20,39 +25,35 @@
   }
 }
 
+/* ── Game page: two-column lichess-style layout ── */
+
 .game-page {
   display: flex;
-  flex-flow: column;
-  max-width: 60vh;
-  margin: 5vh auto;
+  flex-direction: row;
+  justify-content: center;
+  align-items: stretch;
+  gap: 4px;
+  max-width: 1200px;
+  margin: 2vh auto;
+  padding: 0 10px;
 
-  &__player {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  /* Left column: board only */
+  &__board-col {
     flex: 0 0 auto;
-    padding: 0.5em 0;
-    &__user {
-      display: flex;
-      align-items: center;
-      &__title {
-        color: var(--board-color);
-        margin-right: 1rem;
-      }
-      &__rating {
-        margin-left: 1em;
-      }
-    }
-    &__clock {
-      margin-bottom: -0.2em;
-      color: var(--bs-gray);
-      tenths {
-        font-size: 0.7em;
-      }
-    }
-    &.turn &__clock {
-      color: var(--board-color);
-    }
+    /* Board is square, sized by viewport height */
+    width: min(75vh, calc(100vw - 300px));
+    min-width: 300px;
+  }
+
+  /* Right column: sidebar — stretches to match board height */
+  &__sidebar {
+    flex: 0 0 280px;
+    display: flex;
+    flex-direction: column;
+    background: #f8f9fa;
+    border: 1px solid #dee2e6;
+    border-radius: 4px;
+    overflow: hidden;
   }
 
   &__board {
@@ -61,5 +62,195 @@
 
   &__state {
     text-align: center;
+    padding: 12px;
+    font-size: 0.9rem;
+  }
+}
+
+/* ── Sidebar player row ── */
+
+.sidebar__player {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 12px;
+  background: #e9ecef;
+  flex: 0 0 auto;
+}
+
+.sidebar__player--turn {
+  background: #d4edda;
+}
+
+.sidebar__player-info {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  min-width: 0;
+  overflow: hidden;
+}
+
+.sidebar__player-title {
+  color: #bf811d;
+  font-weight: bold;
+  font-size: 0.85rem;
+}
+
+.sidebar__player-name {
+  color: #333;
+  font-weight: 600;
+  font-size: 0.9rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.sidebar__player-rating {
+  color: #666;
+  font-size: 0.8rem;
+}
+
+.sidebar__clock {
+  font-family: 'Courier New', monospace;
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: #333;
+  background: #dee2e6;
+  padding: 4px 10px;
+  border-radius: 3px;
+  white-space: nowrap;
+  flex-shrink: 0;
+  tenths {
+    font-size: 0.8em;
+  }
+}
+
+.sidebar__player--turn .sidebar__clock {
+  background: #333;
+  color: #fff;
+}
+
+/* ── Move list — fills remaining space ── */
+
+.move-list {
+  flex: 1 1 auto;
+  overflow-y: auto;
+  padding: 0;
+  min-height: 60px;
+  background: #fff;
+  font-family: 'Courier New', monospace;
+  font-size: 0.85rem;
+
+  &__empty {
+    color: #999;
+    text-align: center;
+    padding: 24px 12px;
+    font-style: italic;
+    font-size: 0.85rem;
+  }
+
+  &__row {
+    display: flex;
+    align-items: center;
+    &:nth-child(odd) {
+      background: #f8f9fa;
+    }
+    &:nth-child(even) {
+      background: #fff;
+    }
+  }
+
+  &__num {
+    flex: 0 0 36px;
+    text-align: center;
+    color: #888;
+    font-size: 0.8rem;
+    padding: 5px 2px;
+  }
+
+  &__move {
+    flex: 1 1 0;
+    padding: 5px 8px;
+    color: #333;
+    cursor: default;
+    &:hover {
+      background: rgba(0, 0, 0, 0.05);
+    }
+    &--active {
+      background: rgba(0, 0, 0, 0.1);
+      color: #000;
+      font-weight: bold;
+    }
+    &--empty {
+      cursor: default;
+    }
+  }
+}
+
+/* ── Sidebar buttons ── */
+
+.sidebar__eval-buttons,
+.sidebar__actions {
+  display: flex;
+  justify-content: center;
+  gap: 6px;
+  padding: 8px 10px;
+  flex-wrap: wrap;
+  background: #f8f9fa;
+  border-top: 1px solid #dee2e6;
+  flex: 0 0 auto;
+}
+
+.sidebar-btn {
+  background: #e9ecef;
+  color: #333;
+  border: 1px solid #ced4da;
+  border-radius: 3px;
+  padding: 6px 14px;
+  font-size: 0.8rem;
+  cursor: pointer;
+  transition: background 0.15s;
+
+  &:hover:not(:disabled) {
+    background: #dee2e6;
+    color: #000;
+  }
+
+  &:disabled {
+    opacity: 0.4;
+    cursor: not-allowed;
+  }
+
+  &--danger {
+    background: #dc3545;
+    color: #fff;
+    border-color: #dc3545;
+    &:hover:not(:disabled) {
+      background: #c82333;
+    }
+  }
+}
+
+/* ── Responsive: stack on mobile ── */
+
+@media (max-width: 768px) {
+  .game-page {
+    flex-direction: column;
+    align-items: center;
+
+    &__board-col {
+      width: 95vw;
+      min-width: unset;
+    }
+
+    &__sidebar {
+      flex: none;
+      width: 95vw;
+      max-width: 500px;
+    }
+  }
+
+  .move-list {
+    max-height: 30vh;
   }
 }

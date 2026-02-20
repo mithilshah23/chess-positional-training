@@ -5,9 +5,9 @@ import {Stream} from "./ndJsonStream";
 import OngoingGames from "./ongoingGames";
 import {SeekCtrl} from "./seek";
 import ChallengeCtrl from "./challenge";
-import TvCtrl from "./tv";
 import {FenArrayType} from "./enums/fenArrayType.enum";
 import {getRandomFenFromArray} from "./utils/getRandomFenFromArray";
+import {SimpleEngine} from "./ceval/simpleEngine";
 
 function clamp(value: number, min: number, max: number): number {
   return Math.min(Math.max(value, min), max);
@@ -21,9 +21,7 @@ export class Ctrl {
   game?: GameCtrl;
   seek?: SeekCtrl;
   challenge?: ChallengeCtrl;
-  tv?: TvCtrl;
-  stockfishReady: Promise<Worker | typeof globalThis>;
-  stockfishEngine?: Worker | typeof globalThis;
+  engine: SimpleEngine;
   customFENInput?: HTMLInputElement;
   customFen?: string;
   target?: string;
@@ -40,7 +38,7 @@ export class Ctrl {
 
   constructor(readonly redraw: () => void) {
     this.challenges = { in: [], out: [] };
-    this.stockfishReady = this.initEngine();
+    this.engine = new SimpleEngine('stockfish-nnue-16-single.js');
     this.pollChallenges = async () => {
       if (this.auth.me) {
         try {
@@ -106,26 +104,6 @@ export class Ctrl {
           }
       );
     }
-  }
-
-
-  private async initEngine(): Promise<Worker> {
-    const worker = new Worker('stockfish-nnue-16-single.js');
-
-    await new Promise<void>((resolve, reject) => {
-      const timeout = setTimeout(() => reject('init timeout'), 5000);
-      worker.onmessage = (e) => {
-        const msg = e.data ?? e;
-        if (typeof msg === 'string' && msg.startsWith('uciok')) {
-          clearTimeout(timeout);
-          resolve();
-        }
-      };
-      worker.postMessage('uci');
-    });
-
-    this.stockfishEngine = worker;
-    return worker;
   }
 
   openGame = async (id: string) => {
@@ -276,10 +254,4 @@ export class Ctrl {
     this.redraw();
   };
 
-  watchTv = async () => {
-    this.page = "tv";
-    this.redraw();
-    this.tv = await TvCtrl.open(this);
-    this.redraw();
-  };
 }

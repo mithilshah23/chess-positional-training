@@ -6,6 +6,7 @@
 @import './seek';
 @import './challenge';
 @import './navbar';
+@import './endgame';
 
 body {
   --board-color: '#f0d9b5';
@@ -170,25 +171,4 @@ body {
 
 .eval-board-container {
   flex: 1;
-}
-
-.image-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 20px;
-  margin-top: 30px;
-}
-
-.image-container img {
-  width: 80%;
-  border: 2px solid #333;
-  border-radius: 8px;
-  box-sizing: border-box;
-  object-fit: contain;
-}
-
-.image-container img:hover {
-  transform: scale(1.02);
-  transition: transform 0.3s ease;
 }

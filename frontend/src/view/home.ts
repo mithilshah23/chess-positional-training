@@ -2106,7 +2106,27 @@ const userHome = (ctrl: Ctrl) => [
             ]),
             h('div.col-12', [
                 h('div.card.p-3', [
-                    h('h2.mb-3', 'Games in Progress'),
+                    h('div.d-flex.justify-content-between.align-items-center.mb-3', [
+                        h('h2.mb-0', 'Games in Progress'),
+                        ctrl.games.games.length
+                            ? h(
+                                'button.btn.btn-sm.btn-outline-danger',
+                                {
+                                    on: {
+                                        click() {
+                                            const count = ctrl.games.games.length;
+                                            if (confirm(`Resign/Abort all ${count} game(s) in progress?`)) {
+                                                ctrl.games.games.forEach((game: Game) => {
+                                                    ctrl.auth.fetchBody(`/api/board/game/${game.gameId}/resign`, { method: 'post' });
+                                                });
+                                            }
+                                        },
+                                    },
+                                },
+                                'Resign / Abort All'
+                              )
+                            : null,
+                    ]),
                     h('div.games', renderGames(ctrl.games))
                 ])
             ])
@@ -2432,10 +2452,10 @@ export function showPlayerSelectionDialog(ctrl: Ctrl, fenArrayType: FenArrayType
         return isStandardOpening ? `
             <h3 style="margin: 0; color: #333; font-size: 18px; text-align: center;">Choose Color</h3>
             <div style="display: flex; gap: 15px; justify-content: center;">
-                <label style="font-size: 18px;">
+                <label style="font-size: 18px; cursor: pointer;">
                     <input type="radio" name="player-color" value="white" > White
                 </label>
-                <label style="font-size: 18px;">
+                <label style="font-size: 18px; cursor: pointer;">
                     <input type="radio" name="player-color" value="black"> Black
                 </label>
             </div>
@@ -2648,12 +2668,6 @@ const renderAbout = () => h('div.about', [
             h('strong', 'Toggle Evaluation Button: '),
             'See each move evaluations in real-time when playing against computer or maia bots (maia1, maia5, maia9) to improve your understanding.'
         ]),
-    ]),
-    h('div.image-container', [
-        h('img', { attrs: { src: 'images/img1.png'} }),
-        h('img', { attrs: { src: 'images/img2.png'} }),
-        h('img', { attrs: { src: 'images/img3.png'} }),
-        h('img', { attrs: { src: 'images/img4.png'} })
     ])
 ]);
 

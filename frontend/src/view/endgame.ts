@@ -45,39 +45,156 @@ type ClickableVNode = VNode & {
     }
 }
 
+/* ── Category icon mapping using chess unicode characters ── */
+
+const categoryIcons: Record<string, string> = {
+    'Basic': '♚',
+    'Pawn': '♟',
+    'Bishop': '♝',
+    'Knight': '♞',
+    'Knight-Bishop': '♞♝',
+    'Rook-Pawn': '♜♟',
+    'Rook-Pieces': '♜♝♞',
+    'Queen': '♛',
+    'Checkmate in...': '♚',
+};
+
+/* ── Track expanded state ── */
+
+let expandedCategory: number | null = null;
+let expandedSubcategory: string | null = null;
+
 const userHome: (ctrl: Ctrl) => VNode[] = (ctrl) => [
-    h('div.container', { attrs: { align: 'left' } }, [
-        h('div.row.g-4', [
-            h('div.col-12', [
-                ...data.categories.flatMap((category, categoryIndex) => [
-                    h('h2.mb-3', category.name),
-                    ...category.subcategories.map((sub, subIndex) =>
-                        h('div.mb-4', [
-                            h('h3.text-muted.mb-2', sub.name),
-                            h('div.d-flex.flex-wrap.gap-2',
-                                sub.games.map((game, gameIndex) => {
-                                    const started = !!startedPositions?.[categoryIndex]?.[subIndex]?.[gameIndex];
-                                    const completed = !!completedPositions?.[categoryIndex]?.[subIndex]?.[gameIndex];
-                                    const btn = positionButton(
-                                        ctrl, `${gameIndex + 1}`, FenArrayType.CustomFen, started, completed
-                                    ) as ClickableVNode;
-                                    const originalClick = btn.data.on.click;
-                                    btn.data.on.click = () => {
-                                        ctrl.customFen = game.fen;
-                                        ctrl.target = game.target;
-                                        ctrl.endgamePath = `${categoryIndex}/${subIndex}/${gameIndex}`;
-                                        originalClick();
-                                    };
-                                    return btn;
-                                })
-                            )
-                        ])
-                    )
+    h('div.endgame-layout', [
+        /* Left sidebar navigation */
+        h('nav.endgame-sidebar', [
+            h('div.endgame-sidebar__title', 'Endgame Training'),
+            ...data.categories.map((category, categoryIndex) =>
+                h('div.endgame-sidebar__category', [
+                    /* Category header — click to expand/collapse */
+                    h('div.endgame-sidebar__cat-header', {
+                        class: { 'endgame-sidebar__cat-header--active': expandedCategory === categoryIndex },
+                        on: {
+                            click: () => {
+                                expandedCategory = expandedCategory === categoryIndex ? null : categoryIndex;
+                                expandedSubcategory = null;
+                                ctrl.redraw();
+                            }
+                        }
+                    }, [
+                        h('span.endgame-sidebar__cat-icon', categoryIcons[category.name] || '♔'),
+                        h('span.endgame-sidebar__cat-name', category.name),
+                        h('span.endgame-sidebar__cat-arrow', expandedCategory === categoryIndex ? '▾' : '▸'),
+                    ]),
+                    /* Subcategories (shown when category is expanded) */
+                    ...(expandedCategory === categoryIndex
+                        ? category.subcategories.map((sub, subIndex) => {
+                            const subKey = `${categoryIndex}-${subIndex}`;
+                            const isSubExpanded = expandedSubcategory === subKey;
+                            return h('div.endgame-sidebar__subcategory', [
+                                h('div.endgame-sidebar__sub-header', {
+                                    class: { 'endgame-sidebar__sub-header--active': isSubExpanded },
+                                    on: {
+                                        click: () => {
+                                            expandedSubcategory = isSubExpanded ? null : subKey;
+                                            ctrl.redraw();
+                                        }
+                                    }
+                                }, [
+                                    h('span.endgame-sidebar__sub-name', sub.name),
+                                    h('span.endgame-sidebar__sub-count', `${sub.games.length}`),
+                                ]),
+                                /* Game buttons (shown when subcategory is expanded) */
+                                ...(isSubExpanded
+                                    ? [h('div.endgame-sidebar__games', 
+                                        sub.games.map((game, gameIndex) => {
+                                            const started = !!startedPositions?.[categoryIndex]?.[subIndex]?.[gameIndex];
+                                            const completed = !!completedPositions?.[categoryIndex]?.[subIndex]?.[gameIndex];
+                                            const statusClass = completed
+                                                ? 'endgame-sidebar__game--completed'
+                                                : started
+                                                    ? 'endgame-sidebar__game--started'
+                                                    : '';
+                                            return h(`div.endgame-sidebar__game.${statusClass}`, {
+                                                on: {
+                                                    click: () => {
+                                                        ctrl.customFen = game.fen;
+                                                        ctrl.target = game.target;
+                                                        ctrl.endgamePath = `${categoryIndex}/${subIndex}/${gameIndex}`;
+                                                        ctrl.level = 8;
+                                                        showPlayerSelectionDialog(ctrl, FenArrayType.CustomFen, false);
+                                                    }
+                                                }
+                                            }, `${gameIndex + 1}`);
+                                        })
+                                    )]
+                                    : [])
+                            ]);
+                        })
+                        : [])
                 ])
-            ])
+            )
+        ]),
+        /* Right content area — instructions / info */
+        h('div.endgame-content', [
+            expandedCategory !== null && expandedSubcategory !== null
+                ? renderSubcategoryDetail(ctrl, expandedCategory, expandedSubcategory)
+                : renderEndgameWelcome()
         ])
     ])
 ];
+
+const renderEndgameWelcome = () =>
+    h('div.endgame-welcome', [
+        h('h2', 'Endgame Training'),
+        h('p', 'Select a category from the sidebar to begin practicing endgame positions.'),
+        h('div.endgame-welcome__tips', [
+            h('h4', 'How it works:'),
+            h('ul', [
+                h('li', 'Browse categories by piece type in the sidebar'),
+                h('li', 'Expand a subcategory to see available positions'),
+                h('li', 'Click a position number to start practicing'),
+                h('li', [
+                    h('span.endgame-legend__dot.endgame-legend__dot--default', ''),
+                    ' Not started  ',
+                    h('span.endgame-legend__dot.endgame-legend__dot--started', ''),
+                    ' In progress  ',
+                    h('span.endgame-legend__dot.endgame-legend__dot--completed', ''),
+                    ' Completed',
+                ]),
+            ]),
+        ]),
+    ]);
+
+const renderSubcategoryDetail = (ctrl: Ctrl, catIdx: number, subKey: string) => {
+    const parts = subKey.split('-');
+    const subIdx = parseInt(parts[1]);
+    const category = data.categories[catIdx];
+    const sub = category.subcategories[subIdx];
+    if (!sub) return renderEndgameWelcome();
+
+    return h('div.endgame-detail', [
+        h('h3', `${category.name} — ${sub.name}`),
+        h('p.text-muted', `${sub.games.length} positions available`),
+        h('div.endgame-detail__grid',
+            sub.games.map((game, gameIndex) => {
+                const started = !!startedPositions?.[catIdx]?.[subIdx]?.[gameIndex];
+                const completed = !!completedPositions?.[catIdx]?.[subIdx]?.[gameIndex];
+                const btn = positionButton(
+                    ctrl, `${gameIndex + 1}`, FenArrayType.CustomFen, started, completed
+                ) as ClickableVNode;
+                const originalClick = btn.data.on.click;
+                btn.data.on.click = () => {
+                    ctrl.customFen = game.fen;
+                    ctrl.target = game.target;
+                    ctrl.endgamePath = `${catIdx}/${subIdx}/${gameIndex}`;
+                    originalClick();
+                };
+                return btn;
+            })
+        ),
+    ]);
+};
 
 
 export function positionButton(ctrl: Ctrl, text: string, fenType: FenArrayType, started: boolean, completed: boolean) {
@@ -121,5 +238,3 @@ async function fetchAvailablePositions(ctrl: Ctrl) {
         completedPositions = null;
     }
 }
-
-

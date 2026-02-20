@@ -5,7 +5,7 @@ import { GameCtrl } from '../game';
 import { Renderer } from '../interfaces';
 import { clockContent } from './clock';
 import '../../scss/_game.scss';
-import {renderBoard, renderEvalBar, renderMoveEval, renderPlayer} from './board';
+import {renderBoard, renderEvalBar, renderMoveEval} from './board';
 
 function addEvalCondition(ctrl: GameCtrl) {
     renderMoveEval(ctrl)
@@ -23,9 +23,9 @@ function addEvalCondition(ctrl: GameCtrl) {
     if (!(isComputerOpponent)) {
         return;
     }
-    return h('div.btn-group.mt-4', [
+    return h('div.sidebar__eval-buttons', [
         h(
-            'button.btn.btn-secondary.me-2',
+            'button.sidebar-btn',
             {
                 attrs: { type: 'button' },
                 on: {
@@ -37,7 +37,7 @@ function addEvalCondition(ctrl: GameCtrl) {
             (ctrl.showEvalBar ?? false) ? 'Hide Eval Bar' : 'Show Eval Bar'
         ),
         h(
-            'button.btn.btn-secondary',
+            'button.sidebar-btn',
             {
                 attrs: { type: 'button' },
                 on: {
@@ -51,6 +51,41 @@ function addEvalCondition(ctrl: GameCtrl) {
     ]);
 }
 
+const renderMoveList = (ctrl: GameCtrl) => {
+    const movesStr = ctrl.game.state.moves;
+    if (!movesStr || movesStr.trim() === '') {
+        return h('div.move-list', h('div.move-list__empty', 'No moves yet'));
+    }
+    const moves = movesStr.split(' ').filter((m: string) => m);
+    const rows = [];
+    for (let i = 0; i < moves.length; i += 2) {
+        const moveNum = Math.floor(i / 2) + 1;
+        const isLastWhite = i === moves.length - 1;
+        const isLastBlack = i + 1 === moves.length - 1;
+        rows.push(
+            h('div.move-list__row', [
+                h('span.move-list__num', `${moveNum}.`),
+                h('span.move-list__move' + (isLastWhite ? '.move-list__move--active' : ''), moves[i]),
+                moves[i + 1]
+                    ? h('span.move-list__move' + (isLastBlack ? '.move-list__move--active' : ''), moves[i + 1])
+                    : h('span.move-list__move.move-list__move--empty', ''),
+            ])
+        );
+    }
+    return h('div.move-list', {
+        hook: {
+            update(_, vnode) {
+                const el = vnode.elm as HTMLElement;
+                if (el) el.scrollTop = el.scrollHeight;
+            },
+            insert(vnode) {
+                const el = vnode.elm as HTMLElement;
+                if (el) el.scrollTop = el.scrollHeight;
+            }
+        }
+    }, rows);
+};
+
 export const renderGame: (ctrl: GameCtrl) => Renderer = ctrl => _ =>
   [
     h(
@@ -61,14 +96,21 @@ export const renderGame: (ctrl: GameCtrl) => Renderer = ctrl => _ =>
         },
       },
       [
-        renderGamePlayer(ctrl, opposite(ctrl.pov)),
-          h('div.eval-board-container.board-wrapper', [
-              renderEvalBar(ctrl),
-              renderBoard(ctrl),
-          ]),
-        renderGamePlayer(ctrl, ctrl.pov),
-        addEvalCondition(ctrl),
-        ctrl.playing() ? renderButtons(ctrl) : renderState(ctrl),
+        // Left column: eval bar + board
+        h('div.game-page__board-col', [
+            h('div.eval-board-container.board-wrapper', [
+                renderEvalBar(ctrl),
+                renderBoard(ctrl),
+            ]),
+        ]),
+        // Right column: sidebar
+        h('div.game-page__sidebar', [
+            renderSidebarPlayer(ctrl, opposite(ctrl.pov)),
+            renderMoveList(ctrl),
+            addEvalCondition(ctrl),
+            ctrl.playing() ? renderButtons(ctrl) : renderState(ctrl),
+            renderSidebarPlayer(ctrl, ctrl.pov),
+        ]),
       ]
     ),
   ];
@@ -80,9 +122,9 @@ const renderButtons = (ctrl: GameCtrl) => {
     const isOpponentAi = (ctrl.pov === "white" && ctrl.game.black.aiLevel) || (ctrl.pov === "black" && ctrl.game.white.aiLevel)
     if(isOpponentAi) {
         if(!hasMoreThanOneMove){
-            return h('div.btn-group.mt-1', [
+            return h('div.sidebar__actions', [
                 h(
-                    'button.btn.btn-secondary',
+                    'button.sidebar-btn',
                     {
                         attrs: {type: 'button', disabled: !ctrl.playing()},
                         on: {
@@ -95,24 +137,24 @@ const renderButtons = (ctrl: GameCtrl) => {
                 )]);
         }
         else {
-            return h('div.btn-group.mt-1', [
+            return h('div.sidebar__actions', [
                 h(
-                    'button.btn.btn-secondary.me-2',
+                    'button.sidebar-btn',
                     {
                         attrs: {type: 'button', disabled: !ctrl.playing()},
                         on: {
                             click() {
-                                ctrl.game.stopEval = true;
-                                setTimeout(()=>{
-                                    ctrl.acceptTakeback();
-                                }, 1000);
+                                // Instantly stop the engine via UCI 'stop', then takeback
+                                ctrl.root.engine.stop();
+                                ctrl.analysisGeneration++;
+                                ctrl.acceptTakeback();
                             },
                         },
                     },
                     'Undo'
                 ),
                 h(
-                    'button.btn.btn-secondary',
+                    'button.sidebar-btn.sidebar-btn--danger',
                     {
                         attrs: {type: 'button', disabled: !ctrl.playing()},
                         on: {
@@ -126,9 +168,9 @@ const renderButtons = (ctrl: GameCtrl) => {
         }
     }
     if(!hasMoreThanOneMove) {
-        return h('div.btn-group.mt-1', [
+        return h('div.sidebar__actions', [
             h(
-            'button.btn.btn-secondary',
+            'button.sidebar-btn',
             {
                 attrs: {type: 'button', disabled: !ctrl.playing()},
                 on: {
@@ -141,9 +183,9 @@ const renderButtons = (ctrl: GameCtrl) => {
         )]);
     }
     if(!hasRejectedDraw && hasRejectedTakeback) {
-        return h('div.btn-group.mt-1', [
+        return h('div.sidebar__actions', [
             h(
-                'button.btn.btn-secondary.me-2',
+                'button.sidebar-btn',
                 {
                     attrs: {type: 'button', disabled: !ctrl.playing()},
                     on: {
@@ -155,7 +197,7 @@ const renderButtons = (ctrl: GameCtrl) => {
                 'Draw'
             ),
             h(
-                'button.btn.btn-secondary',
+                'button.sidebar-btn.sidebar-btn--danger',
                 {
                     attrs: {type: 'button', disabled: !ctrl.playing()},
                     on: {
@@ -169,9 +211,9 @@ const renderButtons = (ctrl: GameCtrl) => {
         ]);
     }
     else if(hasRejectedDraw && !hasRejectedTakeback){
-        return h('div.btn-group.mt-1', [
+        return h('div.sidebar__actions', [
             h(
-                'button.btn.btn-secondary.me-2',
+                'button.sidebar-btn',
                 {
                     attrs: {type: 'button', disabled: !ctrl.playing()},
                     on: {
@@ -183,7 +225,7 @@ const renderButtons = (ctrl: GameCtrl) => {
                 'Takeback'
             ),
             h(
-                'button.btn.btn-secondary',
+                'button.sidebar-btn.sidebar-btn--danger',
                 {
                     attrs: {type: 'button', disabled: !ctrl.playing()},
                     on: {
@@ -197,9 +239,9 @@ const renderButtons = (ctrl: GameCtrl) => {
         ]);
     }
     else if(hasRejectedDraw && hasRejectedTakeback){
-        return h('div.btn-group.mt-1', [
+        return h('div.sidebar__actions', [
             h(
-                'button.btn.btn-secondary',
+                'button.sidebar-btn.sidebar-btn--danger',
                 {
                     attrs: {type: 'button', disabled: !ctrl.playing()},
                     on: {
@@ -212,9 +254,9 @@ const renderButtons = (ctrl: GameCtrl) => {
             )
         ]);
     }
-    return  h('div.btn-group.mt-1', [
+    return  h('div.sidebar__actions', [
         h(
-            'button.btn.btn-secondary.me-2',
+            'button.sidebar-btn',
             {
                 attrs: {type: 'button', disabled: !ctrl.playing()},
                 on: {
@@ -226,7 +268,7 @@ const renderButtons = (ctrl: GameCtrl) => {
             'Takeback'
         ),
         h(
-            'button.btn.btn-secondary.me-2',
+            'button.sidebar-btn',
             {
                 attrs: {type: 'button', disabled: !ctrl.playing()},
                 on: {
@@ -238,7 +280,7 @@ const renderButtons = (ctrl: GameCtrl) => {
             'Draw'
         ),
         h(
-            'button.btn.btn-secondary',
+            'button.sidebar-btn.sidebar-btn--danger',
             {
                 attrs: {type: 'button', disabled: !ctrl.playing()},
                 on: {
@@ -322,15 +364,27 @@ const renderState = (ctrl: GameCtrl) => {
 };
 
 
-const renderGamePlayer = (ctrl: GameCtrl, color: Color) => {
+const renderSidebarPlayer = (ctrl: GameCtrl, color: Color) => {
     const p = ctrl.game[color];
-
     const hasMoreThanOneMove = ctrl.game.state.moves.split(' ').length > 1;
+    const isTurn = color == ctrl.chess.turn && hasMoreThanOneMove && ctrl.playing();
 
     const clock = clockContent(
         ctrl.timeOf(color),
-        color == ctrl.chess.turn && hasMoreThanOneMove && ctrl.playing() ? ctrl.lastUpdateAt - Date.now() : 0
+        isTurn ? ctrl.lastUpdateAt - Date.now() : 0
     );
 
-    return renderPlayer(ctrl, color, clock, p.name, p.title, p.rating, p.aiLevel);
+    const name = p.aiLevel ? `Stockfish level ${p.aiLevel}` : p.name || 'Anon';
+
+    return h('div.sidebar__player', {
+        class: { 'sidebar__player--turn': ctrl.chess.turn == color }
+    }, [
+        h('div.sidebar__player-info', [
+            p.title && h('span.sidebar__player-title', p.title),
+            h('span.sidebar__player-name', name),
+            p.rating && h('span.sidebar__player-rating', ` ${p.rating}`),
+        ]),
+        h('div.sidebar__clock', clock),
+    ]);
 };
+

@@ -44,8 +44,20 @@ export const renderMoveEval = (gameCtrl: GameCtrl) => {
     }
     if(validCellSelected && currentCell != null) {
         const processedMoves = moveEval[currentCell];
+        // Find the best move for this specific piece
+        let bestDest: string | null = null;
+        let bestValue = -Infinity;
         for (const move of processedMoves) {
-                if(move.dest == toSquare) { move.display.color = "blue" }
+            const value = move.mate !== null
+                ? (move.mate > 0 ? 1000000 - move.mate : -1000000 + move.mate)
+                : (move.evalCP !== null ? move.evalCP : -Infinity);
+            if (value > bestValue) {
+                bestValue = value;
+                bestDest = move.dest;
+            }
+        }
+        for (const move of processedMoves) {
+                if(move.dest == bestDest) { move.display.color = "blue" }
                 const badgeSvg = createEvalBadgeSvg(move.display);
                 shapes.push({
                     orig: move.dest as Key,
